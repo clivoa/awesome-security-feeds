@@ -2,7 +2,9 @@
   category: Crypto & Blockchain Security
   title: Cointelegraph.com News
   type: rss
+  description: Crypto and blockchain security coverage from Cointelegraph.com News.
 - url: https://decrypt.co/feed
   category: Crypto & Blockchain Security
   title: Decrypt
   type: rss
+  description: Crypto and blockchain security coverage from Decrypt.

@@ -2,91 +2,114 @@
   category: Government, CERT & Advisories
   title: All CISA Advisories
   type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
 - url: https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed.xml
   category: Government, CERT & Advisories
   title: BSI – Newsfeed
   type: rss
+  description: Official advisories and security updates from BSI.
 - url: https://www.cisecurity.org/feed/advisories
   category: Government, CERT & Advisories
   title: CIS – Advisories
   type: rss
+  description: Official advisories and security updates from CIS.
 - url: https://www.cisa.gov/news.xml
   category: Government, CERT & Advisories
   title: CISA News
   type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
 - url: https://www.us-cert.gov/ncas/alerts.xml
   category: Government, CERT & Advisories
   title: CISA – Alerts
   type: rss
+  description: Official advisories and security updates from CISA.
 - url: https://www.cisa.gov/automated-https:indicator-sharing-ais
   category: Government, CERT & Advisories
   title: DHS – AIS
   type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
 - url: https://datatracker.ietf.org/feed/document-changes/rfc3442
   category: Government, CERT & Advisories
   title: https://datatracker.ietf.org/feed/document-changes/rfc3442/
   type: rss
+  description: Official advisories and security updates from https://datatracker.ietf.org/feed/document-changes/rfc3442/.
 - url: https://rewardsforjustice.net/feed
   category: Government, CERT & Advisories
   title: https://rewardsforjustice.net/feed/
   type: rss
+  description: Official advisories and security updates from https://rewardsforjustice.net/feed/.
 - url: https://www.cisa.gov/blog.xml
   category: Government, CERT & Advisories
   title: https://www.cisa.gov/blog.xml
   type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
 - url: https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml
   category: Government, CERT & Advisories
   title: ICS Advisories
   type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
 - url: https://resources.infosecinstitute.com/topics/malware-analysis/feed
   category: Government, CERT & Advisories
   title: Infosec Institute – Malware Analysis
   type: rss
+  description: Official advisories and security updates from Infosec Institute.
 - url: https://resources.infosecinstitute.com/topics/news/feed
   category: Government, CERT & Advisories
   title: Infosec Institute – News
   type: rss
+  description: Official advisories and security updates from Infosec Institute.
 - url: https://resources.infosecinstitute.com/topics/threat-intelligence/feed
   category: Government, CERT & Advisories
   title: Infosec Institute – Threat Intel
   type: rss
+  description: Official advisories and security updates from Infosec Institute.
 - url: https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml
   category: Government, CERT & Advisories
   title: NCSC News Feed
   type: rss
+  description: Official advisories and security updates from NCSC News Feed.
 - url: https://www.ncsc.govt.nz/news/category/cyber-security-alerts/rss
   category: Government, CERT & Advisories
   title: News - In category Cyber Security Alerts
   type: rss
+  description: Official advisories and security updates from News.
 - url: https://www.ncsc.govt.nz/news/category/cyber-threat-reports/rss
   category: Government, CERT & Advisories
   title: News - In category Cyber Threat Reports
   type: rss
+  description: Official advisories and security updates from News.
 - url: https://www.ncsc.govt.nz/news/category/security-advisories/rss
   category: Government, CERT & Advisories
   title: News - In category Security Advisories
   type: rss
+  description: Official advisories and security updates from News.
 - url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
   category: Government, CERT & Advisories
   title: NIST – Cybersecurity Insights
   type: rss
+  description: Official advisories and security updates from NIST.
 - url: https://blog.pcisecuritystandards.org/rss.xml
   category: Government, CERT & Advisories
   title: PCI Security Standards Blog
   type: rss
+  description: Official advisories and security updates from PCI Security Standards Blog.
 - url: https://isc.sans.edu/rssfeed_full.xml
   category: Government, CERT & Advisories
   title: SANS Internet Storm Center
   type: rss
+  description: Official advisories and security updates from SANS Internet Storm Center.
 - url: https://us-cert.cisa.gov/ncas/analysis-reports.xml
   category: Government, CERT & Advisories
   title: US-CERT – Analysis Reports
   type: rss
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
 - url: https://us-cert.cisa.gov/ncas/current-activity.xml
   category: Government, CERT & Advisories
   title: US-CERT – Current Activity
   type: rss
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
 - url: https://us-cert.cisa.gov/ics/advisories/advisories.xml
   category: Government, CERT & Advisories
   title: US-CERT – ICS Advisories
   type: rss
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
