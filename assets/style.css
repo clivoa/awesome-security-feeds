@@ -127,3 +127,25 @@ code { color: var(--text); }
 
 /* slightly space multiple meta spans */
 .meta + .meta { margin-left: 10px; }
+.downloads {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.downloads a {
+  color: var(--text);
+  border-bottom: 1px dotted rgba(230,230,230,0.35);
+}
+
+.downloads a:hover {
+  border-bottom-style: solid;
+}
+
+.downloads .sep {
+  color: var(--muted);
+}
