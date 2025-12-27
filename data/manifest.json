@@ -1,0 +1,60 @@
+{
+  "generated_from": "sec_feeds.xml",
+  "categories": [
+    {
+      "category": "Crypto & Blockchain Security",
+      "file": "feeds/crypto-and-blockchain-security.yaml",
+      "count": 2
+    },
+    {
+      "category": "Cybercrime, Darknet & Leaks",
+      "file": "feeds/cybercrime-darknet-and-leaks.yaml",
+      "count": 6
+    },
+    {
+      "category": "DFIR & Forensics",
+      "file": "feeds/dfir-and-forensics.yaml",
+      "count": 33
+    },
+    {
+      "category": "General Security & Blogs",
+      "file": "feeds/general-security-and-blogs.yaml",
+      "count": 442
+    },
+    {
+      "category": "Government, CERT & Advisories",
+      "file": "feeds/government-cert-and-advisories.yaml",
+      "count": 23
+    },
+    {
+      "category": "Leaks & Breaches",
+      "file": "feeds/leaks-and-breaches.yaml",
+      "count": 1
+    },
+    {
+      "category": "Malware & Threat Research",
+      "file": "feeds/malware-and-threat-research.yaml",
+      "count": 34
+    },
+    {
+      "category": "OSINT, Communities & Subreddits",
+      "file": "feeds/osint-communities-and-subreddits.yaml",
+      "count": 7
+    },
+    {
+      "category": "Podcasts & YouTube",
+      "file": "feeds/podcasts-and-youtube.yaml",
+      "count": 6
+    },
+    {
+      "category": "Vendors & Product Blogs",
+      "file": "feeds/vendors-and-product-blogs.yaml",
+      "count": 127
+    },
+    {
+      "category": "Vulnerabilities, CVEs & Exploits",
+      "file": "feeds/vulnerabilities-cves-and-exploits.yaml",
+      "count": 21
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q
+  category: DFIR & Forensics
+  title: 13Cubed (YouTube)
+  type: rss
+- url: http://blog.ampedsoftware.com/feed
+  category: DFIR & Forensics
+  title: Amped Blog
+  type: rss
+- url: http://az4n6.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: Another Forensics Blog
+  type: rss
+- url: http://feeds.feedburner.com/brettshavers/oSyq
+  category: DFIR & Forensics
+  title: Brett Shavers
+  type: rss
+- url: https://investors.cellebrite.com/rss/news-releases.xml
+  category: DFIR & Forensics
+  title: Cellebrite
+  type: rss
+- url: http://cheeky4n6monkey.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: Cheeky4n6Monkey
+  type: rss
+- url: https://davinciforensics.co.za/cybersecurity/feed
+  category: DFIR & Forensics
+  title: Davinci Forensics – Cybersecurity
+  type: rss
+- url: https://dfirdiva.com/feed
+  category: DFIR & Forensics
+  title: DFIR Diva
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLz61osc7c3OqQ_xBZJbzZdIkVd8HnxLmC
+  category: DFIR & Forensics
+  title: DFIR Python Study Group (YouTube)
+  type: rss
+- url: https://dfir.blog/rss
+  category: DFIR & Forensics
+  title: dfir.blog
+  type: rss
+- url: https://www.dfir.training/dfir-training-categories-k2/itemlist?format=feed
+  category: DFIR & Forensics
+  title: dfir.training
+  type: rss
+- url: https://dfir.fi/rss
+  category: DFIR & Forensics
+  title: Digital Forensics Incident Response (DFIR) companies in Finland
+  type: rss
+- url: https://df-stream.com/feed
+  category: DFIR & Forensics
+  title: Digital Forensics Stream
+  type: rss
+- url: http://doubleblak.com/blogRSS.xml
+  category: DFIR & Forensics
+  title: DoubleBlak
+  type: rss
+- url: https://forensic4cast.com/tag/forensics/feed/
+  category: DFIR & Forensics
+  title: Forensic 4:cast
+  type: rss
+- url: http://www.forensicfocus.com/rss/news2.php
+  category: DFIR & Forensics
+  title: Forensic Focus
+  type: rss
+- url: http://forensicphotoshop.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: Forensic Multimedia Analysis Blog
+  type: rss
+- url: http://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: HECFblog
+  type: rss
+- url: https://dfir.ch/index.xml
+  category: DFIR & Forensics
+  title: https://dfir.ch/index.xml
+  type: rss
+- url: https://thedfirreport.com/feed
+  category: DFIR & Forensics
+  title: https://thedfirreport.com/feed/
+  type: rss
+- url: http://abrignoni.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: Initialization Vectors
+  type: rss
+- url: http://www.mac4n6.com/blog?format=rss
+  category: DFIR & Forensics
+  title: mac4n6
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLrDSw3yTk3Xj2LQ5tcvGqUmxxM6boVGV4
+  category: DFIR & Forensics
+  title: Magnet Cache Up (YouTube)
+  type: rss
+- url: https://www.magnetforensics.com/feed
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+- url: https://www.msab.com/feed
+  category: DFIR & Forensics
+  title: MSAB
+  type: rss
+- url: https://salt4n6.com/feed
+  category: DFIR & Forensics
+  title: Salt Forensics
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCwSo89W3KgPrid41vskBDYA
+  category: DFIR & Forensics
+  title: SANS DFIR (YouTube)
+  type: rss
+- url: http://www.sleuthkit.org/rss.xml
+  category: DFIR & Forensics
+  title: sleuthkit.org Updates
+  type: rss
+- url: http://smarterforensics.com/feed
+  category: DFIR & Forensics
+  title: Smarter Forensics
+  type: rss
+- url: https://thebinaryhick.blog/feed
+  category: DFIR & Forensics
+  title: The Binary Hick
+  type: rss
+- url: https://thisweekin4n6.wordpress.com/feed
+  category: DFIR & Forensics
+  title: This Week In 4n6
+  type: rss
+- url: http://tisiphone.net/feed
+  category: DFIR & Forensics
+  title: tisiphone.net
+  type: rss
+- url: http://windowsir.blogspot.com/feeds/posts/default
+  category: DFIR & Forensics
+  title: Windows Incident Response
+  type: rss

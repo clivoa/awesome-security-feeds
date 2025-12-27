@@ -1,0 +1,8 @@
+- url: https://cointelegraph.com/rss
+  category: Crypto & Blockchain Security
+  title: Cointelegraph.com News
+  type: rss
+- url: https://decrypt.co/feed
+  category: Crypto & Blockchain Security
+  title: Decrypt
+  type: rss

@@ -1,0 +1,5 @@
+# Ignorar arquivos do macOS Finder
+.DS_Store
+TODO.md
+errors.txt
+persona.txt

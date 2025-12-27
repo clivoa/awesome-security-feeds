@@ -1,0 +1,24 @@
+- url: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
+  category: Podcasts & YouTube
+  title: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLdPwyUeH0mS566Y0YZ7oAGghzMgRlWTBf
+  category: Podcasts & YouTube
+  title: Security Now (YouTube Playlist)
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLRs8fqjYD5IJ02x06clJs-aXmFrYLN6F-
+  category: Podcasts & YouTube
+  title: Security Talk (YouTube)
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLlPkFwQHxYE5CBDxb2i-r_HjVaazxyh4i
+  category: Podcasts & YouTube
+  title: Security Weekly News (YouTube)
+  type: rss
+- url: https://feeds.libsyn.com/18678/rss
+  category: Podcasts & YouTube
+  title: Security Weekly Podcast Network (Audio)
+  type: rss
+- url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLW5y1tjAOzI0Sx4UU2fncEwQ9BQLr5Vlu
+  category: Podcasts & YouTube
+  title: Threat Wire (YouTube)
+  type: rss

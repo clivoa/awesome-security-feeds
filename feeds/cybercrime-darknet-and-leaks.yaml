@@ -1,0 +1,24 @@
+- url: http://garwarner.blogspot.com/feeds/posts/default
+  category: Cybercrime, Darknet & Leaks
+  title: CyberCrime & Doing Time
+  type: rss
+- url: http://feeds.feedburner.com/OfficeOfInadequateSecurity
+  category: Cybercrime, Darknet & Leaks
+  title: DataBreaches.net
+  type: rss
+- url: https://krebsonsecurity.com/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Krebs on Security
+  type: rss
+- url: https://lifeboat.com/blog/category/cybercrime-malcode/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Lifeboat – Cybercrime & Malcode
+  type: rss
+- url: http://www.guardian.co.uk/technology/cybercrime/rss
+  category: Cybercrime, Darknet & Leaks
+  title: The Guardian Cybercrime
+  type: rss
+- url: https://therecord.media/news/cybercrime/feed
+  category: Cybercrime, Darknet & Leaks
+  title: The Record – Cybercrime
+  type: rss

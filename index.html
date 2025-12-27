@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>securityfeeds</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="top">
+        <h1>securityfeeds</h1>
+        <p class="tagline">More signal, less noise.</p>
+      </header>
+
+      <section class="controls">
+        <label class="search">
+          <span>search:</span>
+          <input id="q" type="text" autocomplete="off" spellcheck="false" />
+        </label>
+
+        <div class="filters">
+          <select id="statusFilter" aria-label="Filter by status">
+            <option value="">status: all</option>
+            <option value="active" selected>status: active</option>
+            <option value="down">status: down</option>
+            <option value="unknown">status: unknown</option>
+          </select>
+
+          
+          <select id="typeFilter" aria-label="Filter by type">
+            <option value="">type: all</option>
+            <option value="rss">type: rss</option>
+            <option value="atom">type: atom</option>
+          </select>
+
+          <select id="catFilter" aria-label="Filter by category">
+            <option value="">category: all</option>
+          </select>
+
+          <span id="statusSummary" class="meta"></span>
+          <span id="meta" class="meta"></span>
+        </div>
+      </section>
+
+      <section class="tableWrap">
+        <table id="t">
+          <thead>
+            <tr>
+              <th class="col-status">status</th>
+              <th class="col-url">url</th>
+              <th class="col-title">title</th>
+              <th class="col-desc">description</th>
+              <th class="col-type">type</th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr><td colspan="5" class="loading">Loading…</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer class="foot">
+        <span>Data source: <code>data/feeds.json</code></span>
+      </footer>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

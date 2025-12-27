@@ -1,0 +1,28 @@
+- url: https://www.reddit.com/r/cybersecurity/.rss
+  category: OSINT, Communities & Subreddits
+  title: /r/cybersecurity
+  type: rss
+- url: http://www.reddit.com/r/netsec/.rss
+  category: OSINT, Communities & Subreddits
+  title: /r/netsec
+  type: rss
+- url: https://ctf.re/feed.xml
+  category: OSINT, Communities & Subreddits
+  title: https://ctf.re/feed.xml
+  type: rss
+- url: https://defcon.org/defconrss.xml
+  category: OSINT, Communities & Subreddits
+  title: https://defcon.org/defconrss.xml
+  type: rss
+- url: https://inteltechniques.com/blog/feed
+  category: OSINT, Communities & Subreddits
+  title: IntelTechniques Blog
+  type: rss
+- url: https://wordpress.org/news/category/security/feed
+  category: OSINT, Communities & Subreddits
+  title: Security – WordPress News
+  type: rss
+- url: https://wordpress.org/news/category/security/feed/atom
+  category: OSINT, Communities & Subreddits
+  title: Security – WordPress News
+  type: atom

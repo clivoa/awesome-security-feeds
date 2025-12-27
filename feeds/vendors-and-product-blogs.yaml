@@ -1,0 +1,508 @@
+- url: https://blog.0patch.com/feeds/posts/default
+  category: Vendors & Product Blogs
+  title: 0patch Blog
+  type: rss
+- url: https://www.acunetix.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Acunetix Blog
+  type: rss
+- url: https://www.anomali.com/site/blog-rss
+  category: Vendors & Product Blogs
+  title: Anomali – Vendor Feed
+  type: rss
+- url: https://cybersecurity.att.com/site/blog-all-rss
+  category: Vendors & Product Blogs
+  title: AT&T Cybersecurity Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureNetworkSecurityBlog
+  category: Vendors & Product Blogs
+  title: Azure Network Security Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzurePurviewBlog
+  category: Vendors & Product Blogs
+  title: Azure Purview Blog
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/bluehat/feed
+  category: Vendors & Product Blogs
+  title: BlueHat on Microsoft Security Response Center
+  type: rss
+- url: https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
+  category: Vendors & Product Blogs
+  title: Broadcom – Symantec Blogs
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/bug-bounty-programs/feed
+  category: Vendors & Product Blogs
+  title: Bug Bounty Programs on Microsoft Security Response Center
+  type: rss
+- url: https://blogs.cisco.com/security/feed
+  category: Vendors & Product Blogs
+  title: Cisco Security Blog
+  type: rss
+- url: https://blog.cloudflare.com/tag/security/rss
+  category: Vendors & Product Blogs
+  title: Cloudflare – Security Tag
+  type: rss
+- url: https://cofense.com/feed
+  category: Vendors & Product Blogs
+  title: Cofense Intelligence
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=CoreInfrastructureandSecurityBlog
+  category: Vendors & Product Blogs
+  title: Core Infrastructure and Security Blog
+  type: rss
+- url: https://www.crowdstrike.com/en-us/blog/feed
+  category: Vendors & Product Blogs
+  title: CrowdStrike Blog
+  type: rss
+- url: https://www.crowdstrike.com/blog/category/threat-intel-research
+  category: Vendors & Product Blogs
+  title: CrowdStrike – Threat Research
+  type: rss
+- url: https://cyble.com/feed
+  category: Vendors & Product Blogs
+  title: Cyble
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=DefenderExternalAttackSurfaceMgmtBlog
+  category: Vendors & Product Blogs
+  title: Defender External Attack Surface Management Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=DefenderThreatIntelligence
+  category: Vendors & Product Blogs
+  title: Defender Threat Intelligence
+  type: rss
+- url: https://www.digitalshadows.com/blog-and-research/feed
+  category: Vendors & Product Blogs
+  title: Digital Shadows
+  type: rss
+- url: https://blog.eclecticiq.com/rss.xml
+  category: Vendors & Product Blogs
+  title: EclecticIQ Blog
+  type: rss
+- url: https://eclypsium.com/feed
+  category: Vendors & Product Blogs
+  title: Eclypsium | Supply Chain Security for the Modern Enterprise
+  type: rss
+- url: https://eclypsium.com/feed/atom
+  category: Vendors & Product Blogs
+  title: Eclypsium | Supply Chain Security for the Modern Enterprise
+  type: atom
+- url: http://eset.com/int/rss.xml
+  category: Vendors & Product Blogs
+  title: ESET – We Live Security (Vendor)
+  type: rss
+- url: https://fidelissecurity.com/feed
+  category: Vendors & Product Blogs
+  title: Fidelis Security
+  type: rss
+- url: http://www.fireeye.com/blog/feed
+  category: Vendors & Product Blogs
+  title: FireEye Blog
+  type: rss
+- url: http://feeds.feedburner.com/fortinet/blog/threat-research
+  category: Vendors & Product Blogs
+  title: Fortinet Threat Research (Vendor)
+  type: rss
+- url: https://blog.fox-it.com/feed
+  category: Vendors & Product Blogs
+  title: Fox-IT International Blog
+  type: rss
+- url: https://cloudblog.withgoogle.com/rss
+  category: Vendors & Product Blogs
+  title: Google Cloud Blog
+  type: rss
+- url: https://feeds.feedburner.com/GoogleOnlineSecurityBlog
+  category: Vendors & Product Blogs
+  title: Google Online Security Blog
+  type: atom
+- url: https://googleonlinesecurity.blogspot.com/atom.xml
+  category: Vendors & Product Blogs
+  title: Google Online Security Blog
+  type: rss
+- url: https://googleprojectzero.blogspot.com/feeds/posts/default
+  category: Vendors & Product Blogs
+  title: Google Project Zero
+  type: rss
+- url: https://www.hackthebox.com/rss
+  category: Vendors & Product Blogs
+  title: Hack The Box – All Feeds
+  type: rss
+- url: https://www.hackthebox.com/rss/blog/all
+  category: Vendors & Product Blogs
+  title: Hack The Box – Blog
+  type: rss
+- url: https://bitwarden.com/blog/feed.xml
+  category: Vendors & Product Blogs
+  title: https://bitwarden.com/blog/feed.xml
+  type: rss
+- url: https://blog.1password.com/index.xml
+  category: Vendors & Product Blogs
+  title: https://blog.1password.com/index.xml
+  type: rss
+- url: https://censys.com/feed
+  category: Vendors & Product Blogs
+  title: https://censys.com/feed/
+  type: rss
+- url: https://claroty.com/team82/disclosure-dashboard/feed/atom
+  category: Vendors & Product Blogs
+  title: https://claroty.com/team82/disclosure-dashboard/feed/atom
+  type: rss
+- url: https://cymulate.com/feed
+  category: Vendors & Product Blogs
+  title: https://cymulate.com/feed/
+  type: rss
+- url: https://frame.work/blog.rss
+  category: Vendors & Product Blogs
+  title: https://frame.work/blog.rss
+  type: rss
+- url: https://gosecure.ai/feed
+  category: Vendors & Product Blogs
+  title: https://gosecure.ai/feed/
+  type: rss
+- url: https://outpost24.com/feed
+  category: Vendors & Product Blogs
+  title: https://outpost24.com/feed/
+  type: rss
+- url: https://owncloud.com/feed
+  category: Vendors & Product Blogs
+  title: https://owncloud.com/feed/
+  type: rss
+- url: https://podman-desktop.io/blog/atom.xml
+  category: Vendors & Product Blogs
+  title: https://podman-desktop.io/blog/atom.xml
+  type: rss
+- url: https://redcanary.com/feed
+  category: Vendors & Product Blogs
+  title: https://redcanary.com/feed/
+  type: rss
+- url: https://scorpiosoftware.net/feed
+  category: Vendors & Product Blogs
+  title: https://scorpiosoftware.net/feed/
+  type: rss
+- url: https://securitylabs.datadoghq.com/rss/feed.xml
+  category: Vendors & Product Blogs
+  title: https://securitylabs.datadoghq.com/rss/feed.xml
+  type: rss
+- url: https://unit42.paloaltonetworks.com/feed
+  category: Vendors & Product Blogs
+  title: https://unit42.paloaltonetworks.com/feed/
+  type: rss
+- url: https://www.aquasec.com/feed
+  category: Vendors & Product Blogs
+  title: https://www.aquasec.com/feed/
+  type: rss
+- url: https://www.blackhillsinfosec.com/feed
+  category: Vendors & Product Blogs
+  title: https://www.blackhillsinfosec.com/feed/
+  type: rss
+- url: https://www.datadoghq.com/blog/index.xml
+  category: Vendors & Product Blogs
+  title: https://www.datadoghq.com/blog/index.xml
+  type: rss
+- url: https://www.kandji.io/blog/rss.xml
+  category: Vendors & Product Blogs
+  title: https://www.kandji.io/blog/rss.xml
+  type: rss
+- url: https://www.outflank.nl/feed
+  category: Vendors & Product Blogs
+  title: https://www.outflank.nl/feed/
+  type: rss
+- url: https://www.praetorian.com/feed
+  category: Vendors & Product Blogs
+  title: https://www.praetorian.com/feed/
+  type: rss
+- url: https://www.sentinelone.com/feed
+  category: Vendors & Product Blogs
+  title: https://www.sentinelone.com/feed/
+  type: rss
+- url: https://www.sonarsource.com/blog/rss.xml
+  category: Vendors & Product Blogs
+  title: https://www.sonarsource.com/blog/rss.xml
+  type: rss
+- url: https://www.sygnia.co/feed
+  category: Vendors & Product Blogs
+  title: https://www.sygnia.co/feed/
+  type: rss
+- url: https://www.wiz.io/feed/rss.xml
+  category: Vendors & Product Blogs
+  title: https://www.wiz.io/feed/rss.xml
+  type: rss
+- url: https://securityintelligence.com/feed
+  category: Vendors & Product Blogs
+  title: IBM Security Intelligence
+  type: rss
+- url: https://www.imperva.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Imperva Blog
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/japan-security-team/feed
+  category: Vendors & Product Blogs
+  title: Japan Security Team on Microsoft Security Response Center
+  type: rss
+- url: https://www.jisasoftech.com/feed
+  category: Vendors & Product Blogs
+  title: JISA Softech
+  type: rss
+- url: https://aws.amazon.com/security/security-bulletins/rss/feed
+  category: Vendors & Product Blogs
+  title: Latest Bulletins
+  type: rss
+- url: https://www.mcafee.com/blogs/feed
+  category: Vendors & Product Blogs
+  title: McAfee Blogs
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderATPBlog
+  category: Vendors & Product Blogs
+  title: Microsoft Defender ATP Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderCloudBlog
+  category: Vendors & Product Blogs
+  title: Microsoft Defender Cloud Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderIoTBlog
+  category: Vendors & Product Blogs
+  title: Microsoft Defender for IoT Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderforOffice365Blog
+  category: Vendors & Product Blogs
+  title: Microsoft Defender for Office 365 Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines
+  category: Vendors & Product Blogs
+  title: Microsoft Security Baselines
+  type: rss
+- url: https://www.microsoft.com/en-us/security/blog/feed
+  category: Vendors & Product Blogs
+  title: Microsoft Security Blog
+  type: rss
+- url: https://www.microsoft.com/en-us/security/blog/feed/atom
+  category: Vendors & Product Blogs
+  title: Microsoft Security Blog
+  type: atom
+- url: https://www.microsoft.com/security/blog/feed
+  category: Vendors & Product Blogs
+  title: Microsoft Security Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-security-blog
+  category: Vendors & Product Blogs
+  title: Microsoft Security Blog (TechCommunity)
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSecurityExperts
+  category: Vendors & Product Blogs
+  title: Microsoft Security Experts
+  type: rss
+- url: https://msrc-blog.microsoft.com/feed
+  category: Vendors & Product Blogs
+  title: Microsoft Security Response Center
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSentinelBlog
+  category: Vendors & Product Blogs
+  title: Microsoft Sentinel Blog
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/microsoft-threat-hunting/feed
+  category: Vendors & Product Blogs
+  title: Microsoft Threat Hunting on Microsoft Security Response Center
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog
+  category: Vendors & Product Blogs
+  title: Microsoft Threat Protection Blog
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/msrc/feed
+  category: Vendors & Product Blogs
+  title: MSRC on Microsoft Security Response Center
+  type: rss
+- url: https://openssf.org/feed
+  category: Vendors & Product Blogs
+  title: Open Source Security Foundation
+  type: rss
+- url: https://www.paloaltonetworks.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Palo Alto Networks Blog
+  type: rss
+- url: https://www.paloaltonetworks.com/blog/feed/atom
+  category: Vendors & Product Blogs
+  title: Palo Alto Networks Blog
+  type: atom
+- url: https://www.paloaltonetworks.com/blog/rss
+  category: Vendors & Product Blogs
+  title: Palo Alto Networks Blog
+  type: rss
+- url: http://researchcenter.paloaltonetworks.com/unit42/feed
+  category: Vendors & Product Blogs
+  title: Palo Alto Networks Unit 42
+  type: rss
+- url: http://blog.phishlabs.com/rss.xml
+  category: Vendors & Product Blogs
+  title: PhishLabs Blog
+  type: rss
+- url: https://blog.qualys.com/product-tech/feed
+  category: Vendors & Product Blogs
+  title: Product and Tech – Qualys Security Blog
+  type: rss
+- url: https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss
+  category: Vendors & Product Blogs
+  title: Project Zero
+  type: rss
+- url: https://www.proofpoint.com/us/rss.xml
+  category: Vendors & Product Blogs
+  title: Proofpoint – Vendor
+  type: rss
+- url: https://protegent360.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Protegent 360 Blog
+  type: rss
+- url: https://blog.qualys.com/feed
+  category: Vendors & Product Blogs
+  title: Qualys Blog
+  type: rss
+- url: https://blog.qualys.com/qualys-insights/feed
+  category: Vendors & Product Blogs
+  title: Qualys Insights – Qualys Security Blog
+  type: rss
+- url: https://blog.qualys.com/qualys-insights/feed/atom
+  category: Vendors & Product Blogs
+  title: Qualys Insights – Qualys Security Blog
+  type: atom
+- url: https://blog.qualys.com/feed/atom
+  category: Vendors & Product Blogs
+  title: Qualys Security Blog
+  type: atom
+- url: https://blog.quarkslab.com/feeds/all.rss.xml
+  category: Vendors & Product Blogs
+  title: Quarkslab Blog
+  type: rss
+- url: https://blogs.quickheal.com/feed
+  category: Vendors & Product Blogs
+  title: Quick Heal Blog
+  type: rss
+- url: https://www.recordedfuture.com/category/cyber/feed
+  category: Vendors & Product Blogs
+  title: Recorded Future – Cyber TI
+  type: rss
+- url: https://www.recordedfuture.com/category/geopolitical/feed
+  category: Vendors & Product Blogs
+  title: Recorded Future – Geopolitical
+  type: rss
+- url: https://blog.google/technology/safety-security/rss
+  category: Vendors & Product Blogs
+  title: Safety & Security
+  type: rss
+- url: https://www.scnsoft.com/blog/category/information-security/atom
+  category: Vendors & Product Blogs
+  title: SCNSoft – Information Security
+  type: rss
+- url: https://www.secureworks.com/rss?feed=blog&category=research-intelligence
+  category: Vendors & Product Blogs
+  title: SecureWorks – Research & Intelligence
+  type: rss
+- url: https://blogs.cisco.com/security/feed/atom
+  category: Vendors & Product Blogs
+  title: Security @ Cisco Blogs
+  type: atom
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SecurityCopilotBlog
+  category: Vendors & Product Blogs
+  title: Security Copilot Blog
+  type: rss
+- url: https://bughunters.google.com/feed/en
+  category: Vendors & Product Blogs
+  title: Security Engineering Blog
+  type: rss
+- url: https://msrc.microsoft.com/blog/categories/security-research-defense/feed
+  category: Vendors & Product Blogs
+  title: Security Research & Defense on Microsoft Security Response Center
+  type: rss
+- url: https://azure.microsoft.com/en-us/blog/category/security/feed
+  category: Vendors & Product Blogs
+  title: Security | Microsoft Azure Blog | Microsoft Azure
+  type: rss
+- url: https://azure.microsoft.com/en-us/blog/category/security/feed/atom
+  category: Vendors & Product Blogs
+  title: Security | Microsoft Azure Blog | Microsoft Azure
+  type: atom
+- url: https://sensepost.com/rss.xml
+  category: Vendors & Product Blogs
+  title: SensePost Blog
+  type: rss
+- url: https://www.sentinelone.com/labs/feed
+  category: Vendors & Product Blogs
+  title: SentinelOne Labs
+  type: rss
+- url: https://www.signalscorps.com/feed.xml
+  category: Vendors & Product Blogs
+  title: Signals Corps Blog
+  type: rss
+- url: https://socprime.com/blog/feed
+  category: Vendors & Product Blogs
+  title: SOC Prime Blog
+  type: rss
+- url: https://www.sophos.com/en-us/blog/feed
+  category: Vendors & Product Blogs
+  title: Sophos News
+  type: rss
+- url: https://www.tenable.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Tenable Blog
+  type: rss
+- url: https://www.tenable.com/blog/cyber-exposure-alerts/feed
+  category: Vendors & Product Blogs
+  title: Tenable Cyber Exposure Alerts
+  type: rss
+- url: https://www.tenable.com/security/research/feed
+  category: Vendors & Product Blogs
+  title: Tenable Research Advisories
+  type: rss
+- url: https://blog.google/threat-analysis-group/rss
+  category: Vendors & Product Blogs
+  title: Threat Analysis Group (TAG)
+  type: rss
+- url: http://feeds.trendmicro.com/TrendMicroSimplySecurity
+  category: Vendors & Product Blogs
+  title: Trend Micro Simply Security
+  type: rss
+- url: https://www.tripwire.com/blogs.xml
+  category: Vendors & Product Blogs
+  title: Tripwire – State of Security
+  type: rss
+- url: https://www.trustarc.com/blog/feed
+  category: Vendors & Product Blogs
+  title: TrustArc Blog
+  type: rss
+- url: https://unit42.paloaltonetworks.com/feed/atom
+  category: Vendors & Product Blogs
+  title: Unit 42
+  type: atom
+- url: https://www.upguard.com/blog/rss.xml
+  category: Vendors & Product Blogs
+  title: UpGuard Blog
+  type: rss
+- url: https://www.upguard.com/breaches/rss.xml
+  category: Vendors & Product Blogs
+  title: UpGuard – Breaches
+  type: rss
+- url: https://www.upguard.com/news/rss.xml
+  category: Vendors & Product Blogs
+  title: UpGuard – News
+  type: rss
+- url: http://www.veracode.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Veracode Security Blog
+  type: rss
+- url: https://www.virusbulletin.com/rss
+  category: Vendors & Product Blogs
+  title: Virus Bulletin – Vendor RSS
+  type: rss
+- url: https://blog.qualys.com/vulnerabilities-threat-research/feed
+  category: Vendors & Product Blogs
+  title: Vulnerabilities and Threat Research – Qualys Security Blog
+  type: rss
+- url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Vulnerability-Management
+  category: Vendors & Product Blogs
+  title: Vulnerability Management
+  type: rss
+- url: https://www.webroot.com/blog/feed
+  category: Vendors & Product Blogs
+  title: Webroot Threat Blog
+  type: rss
+- url: https://www.wiz.io/feed/tag/security/rss.xml
+  category: Vendors & Product Blogs
+  title: 'Wiz Blog: Security | RSS feed'
+  type: rss
