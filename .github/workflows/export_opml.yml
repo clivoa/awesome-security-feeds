@@ -1,0 +1,77 @@
+name: Export OPML feeds
+on:
+  schedule:
+    - cron: "30 3 * * *"   # diário 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Export FULL OPML
+        run: |
+          python scripts/export_opml.py \
+            --out data/sec_feeds_full.xml \
+            --title "Security Feeds (Full)" \
+            --status all
+
+      - name: Export ACTIVE OPML
+        run: |
+          python scripts/export_opml.py \
+            --out data/sec_feeds_active.xml \
+            --title "Security Feeds (Active only)" \
+            --status active
+
+      - name: Commit OPML files (if changed)
+        run: |
+          set -euo pipefail
+          BRANCH="main"
+          
+          CHANGED=$(git ls-files -m -o --exclude-standard data/** || true)
+          [ -z "$CHANGED" ] && { echo "No changes detected."; exit 0; }
+ 
+          for file in $CHANGED; do
+            echo "Processing $file"
+ 
+            # Conteúdo codificado SEM quebras de linha
+            BASE64_CONTENT="$(base64 -w 0 "$file" | tr -d '\n')"
+ 
+            # SHA atual (se houver)
+            SHA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                     "https://api.github.com/repos/${{ github.repository }}/contents/$file?ref=$BRANCH" \
+                     | jq -r .sha)
+ 
+            if [ "${SHA:-null}" = "null" ] || [ -z "$SHA" ]; then
+              # ---------- ARQUIVO NOVO ----------
+              printf '%s\n' "$BASE64_CONTENT" \
+                | jq -Rs --arg msg "Add $file" --arg branch "$BRANCH" \
+                    '{message:$msg, content:., branch:$branch}' \
+                | curl -sS -X PUT -H "Authorization: token $GITHUB_TOKEN" \
+                        -H "Content-Type: application/json" \
+                        --data-binary @- \
+                        "https://api.github.com/repos/${{ github.repository }}/contents/$file"
+            else
+              # ---------- ATUALIZA EXISTENTE ----------
+              printf '%s\n' "$BASE64_CONTENT" \
+                | jq -Rs --arg msg "Update $file" --arg branch "$BRANCH" --arg sha "$SHA" \
+                    '{message:$msg, content:., branch:$branch, sha:$sha}' \
+                | curl -sS -X PUT -H "Authorization: token $GITHUB_TOKEN" \
+                        -H "Content-Type: application/json" \
+                        --data-binary @- \
+                        "https://api.github.com/repos/${{ github.repository }}/contents/$file"
+            fi
+          done

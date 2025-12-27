@@ -16,6 +16,9 @@ import argparse
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+import json
+
 from typing import Any, Dict, List, Tuple
 from urllib.parse import urlparse, urlunparse
 
@@ -100,6 +103,25 @@ def group_by_category(items: List[Dict[str, Any]]) -> List[Tuple[str, List[Dict[
     return grouped
 
 
+
+def load_active_urls(status_path: Path) -> set[str]:
+    """Load active feed URLs from data/feed_status.json."""
+    if not status_path.exists():
+        return set()
+    try:
+        data = json.loads(status_path.read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    results = data.get("results") or {}
+    active = set()
+    if isinstance(results, dict):
+        for url, info in results.items():
+            try:
+                if isinstance(info, dict) and (info.get("status") == "active"):
+                    active.add(norm_url(str(url)))
+            except Exception:
+                continue
+    return active
 def opml_outline_feed(it: Dict[str, Any], indent: str = "      ") -> str:
     # OPML uses outline attributes; we emit xmlUrl + title/text + description + type
     url = escape(it["url"])
@@ -151,6 +173,12 @@ def main() -> None:
     ap.add_argument("--feeds-dir", default="feeds", help="Directory with YAML feed lists (default: feeds)")
     ap.add_argument("--out", default="sec_feeds.xml", help="Output OPML/XML file (default: sec_feeds.xml)")
     ap.add_argument("--title", default="Security Feeds", help="OPML <title> value")
+    ap.add_argument(
+        "--status",
+        choices=["all", "active"],
+        default="all",
+        help="Export all feeds or only active ones (requires data/feed_status.json)",
+    )
     args = ap.parse_args()
 
     feeds_dir = Path(args.feeds_dir)
@@ -159,6 +187,14 @@ def main() -> None:
 
     items = load_yaml_feeds(feeds_dir)
     items = dedupe_by_url(items)
+
+    # Optional: export only active feeds (based on data/feed_status.json)
+    if args.status == "active":
+        status_path = ROOT / "data" / "feed_status.json"
+        active_urls = load_active_urls(status_path)
+        if not active_urls:
+            print("[WARN] args.status=active but no active URLs found (missing/empty feed_status.json) — exporting 0 feeds")
+        items = [it for it in items if it.get("url") in active_urls]
     grouped = group_by_category(items)
 
     opml = build_opml(args.title, grouped)
