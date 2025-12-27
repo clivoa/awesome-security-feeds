@@ -68,8 +68,6 @@ function applyFilters(allFeeds, q, type, category, statusFilter, statusMap) {
   const qq = normalize(q).trim();
   const t = normalize(type).trim();
   const c = String(category ?? "").trim();
-  const down = Boolean(downOnly);
-
   return allFeeds.filter((f) => {
   const sf = String(statusFilter || "").toLowerCase();
 
