@@ -37,6 +37,8 @@ jobs:
             --status active
 
       - name: Commit OPML files (if changed)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           BRANCH="main"
