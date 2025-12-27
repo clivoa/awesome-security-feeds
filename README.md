@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-brightgreen)
 
-A **curated, structured and automation-friendly** collection of security RSS/Atom sources.
+A **curated, structured and automation-friendly** collection of security RSS/Atom sources. Based on https://securityfeeds.org/
 
 This repository is **independent** (it can be used on its own), but the generated lists are also consumed downstream by projects such as **S33R** (security news aggregation / briefings).
 
