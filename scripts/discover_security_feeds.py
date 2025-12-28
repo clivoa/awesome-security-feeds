@@ -35,6 +35,7 @@ import json
 import os
 import re
 import time
+from datetime import datetime, timezone
 from dataclasses import dataclass, asdict
 from typing import Optional
 from urllib.parse import urljoin, urlparse
@@ -70,16 +71,27 @@ FEED_HINT_RE = re.compile(r"(rss|atom|feed|\.xml)(\b|$)", re.IGNORECASE)
 
 SECURITY_KEYWORDS = [
     # broad
-    "cve", "vulnerability", "vuln", "exploit", "0day", "zero-day", "advisory", "patch",
+    "cve-", "vulnerability", "vuln", "exploit", "0day", "zero-day", "advisory", "patch",
     "malware", "ransomware", "phishing", "botnet", "trojan", "backdoor", "loader", "infostealer",
     "apt", "threat actor", "intrusion", "breach", "incident", "ioc", "tactic", "technique",
     "reverse engineering", "pwn", "pentest", "red team", "blue team", "dfir", "forensics",
     "edr", "siem", "splunk", "kql", "sigma", "yara",
-    "kubernetes", "docker", "cloud", "aws", "azure", "gcp",
+    "kubernetes", "docker", "cloud", "aws", "azure", "gcp", "critical vulnerability",
     "campaign", "payload", "initial access", "lateral movement", "persistence", "privilege escalation",
+   
     # extra common terms
     "authentication", "bypass", "rce", "remote code execution", "xss", "sqli", "ssrf", "csrf",
     "privilege escalation", "lpe", "eop",
+    
+    # Supply chain / impacto grande
+    "supply chain attack", "software supply chain",
+    "supply-chain attack",
+
+    # Vazamentos e mega incidentes
+    "major breach", "data leak", "data leaks", "massive leak",
+
+    # Ransom gangs (mais quentes)
+    "ransom gang", "double extortion", "ransom note",
 ]
 
 # Simple category suggestion rules (you can replace later with your SMART_GROUP_RULES)
@@ -95,8 +107,10 @@ CATEGORY_RULES = [
 
 DATA_DIR = "data/discovery"
 OUT_YAML = "feeds/discovered.yaml"
-OUT_YAML_SPLIT_DIR = "feeds/discovered"
-OUT_JSON_SPLIT_DIR = os.path.join(DATA_DIR, "candidates")
+OUT_CANDIDATES_YAML_DIR = "feeds/_candidates"
+OUT_CANDIDATES_JSON_DIR = "data/discovery/candidates"
+DEFAULT_BLOCKED_DOMAINS = "data/discovery/blocked_domains.txt"
+DEFAULT_BLOCKED_FEEDS = "data/discovery/blocked_feeds.txt"
 
 
 @dataclass
@@ -113,11 +127,96 @@ class FeedCandidate:
     discovered_via: str
     entries_sample: list[dict]
     url_hash: str
+    discovered_at: str  # ISO-8601 UTC
 
 
 def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
 
+
+
+
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def load_blocklist(path: str) -> set[str]:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = []
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                lines.append(line.lower())
+            return set(lines)
+    except FileNotFoundError:
+        return set()
+
+
+def norm_host(u: str) -> str:
+    try:
+        host = urlparse(u).netloc.lower()
+    except Exception:
+        return ""
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+_slug_re = re.compile(r"[^a-z0-9]+")
+
+
+def slugify(s: str, max_len: int = 50) -> str:
+    s = (s or "").strip().lower()
+    s = _slug_re.sub("-", s).strip("-")
+    if not s:
+        return "feed"
+    return s[:max_len].rstrip("-")
+
+
+def ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+
+def write_candidate_yaml_split(candidates: list["FeedCandidate"], out_dir: str, only_new: bool, seen: dict) -> int:
+    """Write one YAML file per candidate feed (diff-friendly review).
+    Each file contains a YAML *list* with a single item, matching the existing schema.
+    Returns number of files written.
+    """
+    ensure_dir(out_dir)
+    written = 0
+    for c in candidates:
+        if only_new and c.url_hash in seen:
+            continue
+        item = candidate_to_yaml_item(c)
+        # Keep discovery metadata (ignored by consumers that don't care)
+        item["discovery"] = {
+            "discovered_at": c.discovered_at,
+            "score": c.score,
+            "matched_keywords": c.matched_keywords,
+            "discovered_via": c.discovered_via,
+            "url_hash": c.url_hash,
+        }
+        base = slugify(c.title or norm_host(c.site_url) or norm_host(c.feed_url))
+        fname = f"{base}__{c.url_hash[:10]}.yaml"
+        path = os.path.join(out_dir, fname)
+        save_yaml_list(path, [item])
+        written += 1
+    return written
+
+
+def write_candidate_json_split(candidates: list["FeedCandidate"], out_dir: str, only_new: bool, seen: dict) -> int:
+    """Write one JSON evidence file per candidate (audit trail)."""
+    ensure_dir(out_dir)
+    written = 0
+    for c in candidates:
+        if only_new and c.url_hash in seen:
+            continue
+        path = os.path.join(out_dir, f"{c.url_hash}.json")
+        save_json(path, asdict(c))
+        written += 1
+    return written
 
 def normalize_url(url: str) -> str:
     url = (url or "").strip()
@@ -286,7 +385,7 @@ def score_security(parsed: feedparser.FeedParserDict, max_entries: int = 15) -> 
     return score, matched, sample[:5], category
 
 
-def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, sleep_s: float) -> list[FeedCandidate]:
+def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, sleep_s: float, blocked_domains: set[str], blocked_feeds: set[str]) -> list[FeedCandidate]:
     site_url = normalize_url(site_url)
     if not site_url:
         return []
@@ -304,7 +403,14 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
 
     out: list[FeedCandidate] = []
     for feed_url in list(candidates):
+        nurl = normalize_url(feed_url).lower()
+        host = norm_host(nurl)
+        if host and host in blocked_domains:
+            continue
+        if nurl in blocked_feeds or feed_url.lower() in blocked_feeds:
+            continue
         parsed = validate_feed(session, feed_url, timeout=timeout, sleep_s=sleep_s)
+(session, feed_url, timeout=timeout, sleep_s=sleep_s)
         if not parsed:
             continue
 
@@ -331,6 +437,7 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
                 discovered_via=discovered_via,
                 entries_sample=sample,
                 url_hash=sha1(feed_url),
+                discovered_at=utc_now_iso(),
             )
         )
 
@@ -368,55 +475,6 @@ def save_yaml_list(path: str, items: list[dict]) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         yaml.safe_dump(items, f, sort_keys=False, allow_unicode=True)
-
-
-
-def save_yaml_single(path: str, item: dict) -> None:
-    """Write a YAML file containing a single-item list (keeps schema consistent with other feeds/*.yaml)."""
-    save_yaml_list(path, [item])
-
-
-def safe_slug(s: str, max_len: int = 60) -> str:
-    s = (s or "").strip().lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    if not s:
-        s = "feed"
-    return s[:max_len].strip("-") or "feed"
-
-
-def write_yaml_split(dir_path: str, yaml_items: list[dict]) -> int:
-    """
-    Write each YAML item as its own file under dir_path.
-    Filenames are deterministic and collision-resistant:
-      <slug>__<sha1(url)[:8]>.yaml
-    """
-    os.makedirs(dir_path, exist_ok=True)
-    added = 0
-    for it in yaml_items:
-        url = str(it.get("url", "")).strip()
-        if not url:
-            continue
-        slug = safe_slug(it.get("title") or urlparse(url).netloc)
-        h = sha1(url)[:8]
-        out_path = os.path.join(dir_path, f"{slug}__{h}.yaml")
-        if os.path.exists(out_path):
-            continue
-        save_yaml_single(out_path, it)
-        added += 1
-    return added
-
-
-def write_json_split(dir_path: str, candidates: list["FeedCandidate"]) -> int:
-    """Write one JSON per candidate for easy inspection / audit."""
-    os.makedirs(dir_path, exist_ok=True)
-    added = 0
-    for c in candidates:
-        out_path = os.path.join(dir_path, f"{c.url_hash}.json")
-        if os.path.exists(out_path):
-            continue
-        save_json(out_path, asdict(c))
-        added += 1
-    return added
 
 
 def normalize_item_description(desc: str, category: str, title: str) -> str:
@@ -464,18 +522,20 @@ def main():
     ap.add_argument("--timeout", type=int, default=18)
     ap.add_argument("--sleep", type=float, default=0.35)
 
-    ap.add_argument("--write-yaml", action="store_true", help="(Legacy) Write/merge feeds/discovered.yaml")
-    ap.add_argument("--write-yaml-split", action="store_true", help="Write one YAML per candidate into feeds/discovered/")
-    ap.add_argument("--yaml-split-dir", default=OUT_YAML_SPLIT_DIR, help="Directory for split YAML output")
-    ap.add_argument("--write-json-split", action="store_true", help="Write one JSON per candidate into data/discovery/candidates/")
-    ap.add_argument("--json-split-dir", default=OUT_JSON_SPLIT_DIR, help="Directory for split JSON output")
+    ap.add_argument("--write-yaml", action="store_true", help="Write/merge feeds/discovered.yaml")
+    ap.add_argument("--write-yaml-split", action="store_true", help="Write one YAML per candidate in feeds/_candidates/ (review-friendly)")
+    ap.add_argument("--yaml-split-dir", default=OUT_CANDIDATES_YAML_DIR, help="Directory for per-feed YAML candidates")
+    ap.add_argument("--write-json-split", action="store_true", help="Write one JSON evidence file per candidate in data/discovery/candidates/")
+    ap.add_argument("--json-split-dir", default=OUT_CANDIDATES_JSON_DIR, help="Directory for per-feed JSON evidence")
+    ap.add_argument("--blocked-domains-file", default=DEFAULT_BLOCKED_DOMAINS, help="Blocklist of domains to ignore (one per line)")
+    ap.add_argument("--blocked-feeds-file", default=DEFAULT_BLOCKED_FEEDS, help="Blocklist of feed URLs to ignore (one per line)")
     ap.add_argument("--only-new", action="store_true", help="Only include URLs never seen before (cache)")
     ap.add_argument("--merge-existing", action="store_true", help="Merge into existing feeds/discovered.yaml (default true when --write-yaml)")
     args = ap.parse_args()
 
     print("[INFO] discover_security_feeds starting...", flush=True)
     print(f"[INFO] CWD={os.getcwd()}", flush=True)
-    print(f"[INFO] DATA_DIR={DATA_DIR} OUT_YAML={OUT_YAML} OUT_YAML_SPLIT_DIR={OUT_YAML_SPLIT_DIR}", flush=True)
+    print(f"[INFO] DATA_DIR={DATA_DIR} OUT_YAML={OUT_YAML}", flush=True)
 
 
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -500,6 +560,15 @@ def main():
     seen_path = os.path.join(DATA_DIR, "feeds_seen.json")
     seen = load_json(seen_path, default={})  # {url_hash: {...}}
 
+    blocked_domains = load_blocklist(args.blocked_domains_file)
+    blocked_feeds = load_blocklist(args.blocked_feeds_file)
+
+    if blocked_domains:
+        print(f"[INFO] Loaded blocked domains: {len(blocked_domains)} from {args.blocked_domains_file}")
+    if blocked_feeds:
+        print(f"[INFO] Loaded blocked feeds: {len(blocked_feeds)} from {args.blocked_feeds_file}")
+
+
     # 1) Crawl seeds -> candidate site origins
     candidate_sites: set[str] = set()
     for seed in seeds:
@@ -521,7 +590,7 @@ def main():
     # 2) Discover + validate feeds
     candidates: list[FeedCandidate] = []
     for site in site_list:
-        discovered = discover_site_feeds(session, site, timeout=args.timeout, sleep_s=args.sleep)
+        discovered = discover_site_feeds(session, site, timeout=args.timeout, sleep_s=args.sleep, blocked_domains=blocked_domains, blocked_feeds=blocked_feeds)
         for c in discovered:
             if c.score < args.min_score:
                 continue
@@ -562,18 +631,18 @@ def main():
             save_yaml_list(OUT_YAML, yaml_items)
             added = len(yaml_items)
 
-    
-    # 6b) Write split YAML files (one per feed) — easier PR review/cherry-pick
-    added_split_yaml = 0
+    # 6b) Optional: split outputs for review/audit
+    split_yaml_written = 0
+    split_json_written = 0
     if args.write_yaml_split:
-        added_split_yaml = write_yaml_split(args.yaml_split_dir, yaml_items)
-
-    # 6c) Write split JSON evidence (one per feed) — explains why it was selected
-    added_split_json = 0
+        split_yaml_written = write_candidate_yaml_split(final, args.yaml_split_dir, args.only_new, seen)
+        print(f"[OK] Wrote YAML candidates (split): {split_yaml_written} → {args.yaml_split_dir}")
     if args.write_json_split:
-        added_split_json = write_json_split(args.json_split_dir, final)
+        split_json_written = write_candidate_json_split(final, args.json_split_dir, args.only_new, seen)
+        print(f"[OK] Wrote JSON evidence (split): {split_json_written} → {args.json_split_dir}")
 
-# 7) Update seen cache
+
+    # 7) Update seen cache
     now_ts = int(time.time())
     for c in final:
         seen.setdefault(c.url_hash, {})
@@ -597,10 +666,6 @@ def main():
     print(f"[OK] Wrote cache: {seen_path}")
     if args.write_yaml:
         print(f"[OK] Updated: {OUT_YAML} (added {added} new items)")
-    if args.write_yaml_split:
-        print(f"[OK] Split YAML written: {args.yaml_split_dir} (added {added_split_yaml} new files)")
-    if args.write_json_split:
-        print(f"[OK] Split JSON written: {args.json_split_dir} (added {added_split_json} new files)")
 
 
 if __name__ == "__main__":
