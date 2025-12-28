@@ -32,20 +32,35 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests feedparser beautifulsoup4 pyyaml
 
-      - name: Run feed discovery
+      - name: Sanity check (script + cwd)
         run: |
-          python scripts/discover_security_feeds.py \
+          set -euxo pipefail
+          pwd
+          ls -la
+          ls -la scripts/discover_security_feeds.py
+          python -c "import sys; print(sys.version)"
+
+      - name: Run feed discovery (unbuffered + verbose)
+        run: |
+          set -euxo pipefail
+          python -u scripts/discover_security_feeds.py \
             --write-yaml \
             --only-new \
             --max-sites 500 \
             --min-score 6
 
-      - name: Show git status
+      - name: Inspect outputs + git status
         run: |
+          set -euxo pipefail
+          echo "---- git status ----"
           git status --porcelain
-          echo "----"
+          echo "---- feeds/ ----"
           ls -la feeds || true
-          ls -la data/discovery || true
+          echo "---- data/ ----"
+          find data -maxdepth 4 -type f -print || true
+          echo "---- discovered.yaml ----"
+          test -f feeds/discovered.yaml && (echo "OK: feeds/discovered.yaml exists"; wc -l feeds/discovered.yaml) || echo "MISSING: feeds/discovered.yaml"
+
 
       - name: Create Pull Request (if changes)
         uses: peter-evans/create-pull-request@v6
