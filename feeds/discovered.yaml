@@ -1,0 +1,903 @@
+- url: https://www.jetbrains.com/rss.xml
+  category: Cloud Security
+  title: JetBrains News
+  type: rss
+  description: Latest news about JetBrains products
+- url: https://www.percona.com/blog/feed
+  category: Cloud Security
+  title: Percona Database Performance Blog
+  type: rss
+  description: Updates from Percona Database Performance Blog covering cloud security.
+- url: https://www.percona.com/blog/rss
+  category: Cloud Security
+  title: Percona Database Performance Blog
+  type: rss
+  description: Updates from Percona Database Performance Blog covering cloud security.
+- url: http://www.cybertriage.com/feed
+  category: DFIR & Forensics
+  title: Cyber Triage
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: http://www.cybertriage.com/feed/
+  category: DFIR & Forensics
+  title: Cyber Triage
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: http://www.cybertriage.com/rss
+  category: DFIR & Forensics
+  title: Cyber Triage
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: http://www.cybertriage.com/rss/
+  category: DFIR & Forensics
+  title: Cyber Triage
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: https://www.cybertriage.com/feed/
+  category: DFIR & Forensics
+  title: Cyber Triage
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: http://www.dowjones.com/feed
+  category: DFIR & Forensics
+  title: Dow Jones
+  type: rss
+  description: Updates from Dow Jones covering dfir & forensics.
+- url: http://www.dowjones.com/feed/
+  category: DFIR & Forensics
+  title: Dow Jones
+  type: rss
+  description: Updates from Dow Jones covering dfir & forensics.
+- url: http://www.dowjones.com/rss
+  category: DFIR & Forensics
+  title: Dow Jones
+  type: rss
+  description: Updates from Dow Jones covering dfir & forensics.
+- url: http://www.dowjones.com/rss/
+  category: DFIR & Forensics
+  title: Dow Jones
+  type: rss
+  description: Updates from Dow Jones covering dfir & forensics.
+- url: https://www.dowjones.com/feed/
+  category: DFIR & Forensics
+  title: Dow Jones
+  type: rss
+  description: Updates from Dow Jones covering dfir & forensics.
+- url: https://www.enisa.europa.eu/rss.xml
+  category: DFIR & Forensics
+  title: ENISA - ENISA, is the Union's agency dedicated to achieving a high common
+    level of cybersecurity across Europe.
+  type: rss
+  description: Updates from ENISA - ENISA, is the Union's agency dedicated to achieving
+    a high common level of cybersecurity across Europe. covering dfir & forensics.
+- url: https://www.magnetforensics.com/feed
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+- url: https://www.magnetforensics.com/feed/
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+- url: https://www.magnetforensics.com/rss
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+- url: https://www.magnetforensics.com/rss/
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+- url: http://www.cybertriage.com/blog/feed
+  category: DFIR & Forensics
+  title: 'The Cyber Triage Blog: Product news and DFIR training'
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: http://www.cybertriage.com/blog/rss
+  category: DFIR & Forensics
+  title: 'The Cyber Triage Blog: Product news and DFIR training'
+  type: rss
+  description: Digital Forensics Specialized For Rapid Incident Response
+- url: https://www.dbpedia.org/blog/feed/
+  category: Exploits
+  title: Blog - DBpedia Association
+  type: rss
+  description: Global and Unified Access to Knowledge Graphs
+- url: https://www.harmari.com/comments/feed/
+  category: Exploits
+  title: Comments for Harmari an Avenu Company
+  type: rss
+  description: Your online investigation resource
+- url: https://www.corelan.be/index.php/feed/
+  category: Exploits
+  title: Corelan Cybersecurity Research
+  type: rss
+  description: ':: Knowledge is not an object, it''s a flow ::'
+- url: https://www.dbpedia.org/feed/
+  category: Exploits
+  title: DBpedia Association
+  type: rss
+  description: Global and Unified Access to Knowledge Graphs
+- url: https://www.abuse.ch/blog/rss
+  category: Malware & Ransomware
+  title: abuse.ch | IT-Security Blog
+  type: rss
+  description: abuse.ch | IT-Security Blog
+- url: https://www.abuse.ch/feed.xml
+  category: Malware & Ransomware
+  title: abuse.ch | IT-Security Blog
+  type: rss
+  description: abuse.ch | IT-Security Blog
+- url: https://www.abuse.ch/rss
+  category: Malware & Ransomware
+  title: abuse.ch | IT-Security Blog
+  type: rss
+  description: abuse.ch | IT-Security Blog
+- url: https://www.abuse.ch/rss/
+  category: Malware & Ransomware
+  title: abuse.ch | IT-Security Blog
+  type: rss
+  description: abuse.ch | IT-Security Blog
+- url: http://www.cyotek.com/blog/rss
+  category: Malware & Ransomware
+  title: cyotek.com Blog Summary Feed
+  type: rss
+  description: cyotek.com Blog Summary Feed
+- url: http://www.cyotek.com/feed
+  category: Malware & Ransomware
+  title: cyotek.com Summary RSS
+  type: rss
+  description: cyotek.com Summary RSS
+- url: http://www.cyotek.com/feed/
+  category: Malware & Ransomware
+  title: cyotek.com Summary RSS
+  type: rss
+  description: cyotek.com Summary RSS
+- url: http://www.cyotek.com/rss
+  category: Malware & Ransomware
+  title: cyotek.com Summary RSS
+  type: rss
+  description: cyotek.com Summary RSS
+- url: http://www.cyotek.com/rss/
+  category: Malware & Ransomware
+  title: cyotek.com Summary RSS
+  type: rss
+  description: cyotek.com Summary RSS
+- url: https://distrowatch.com/news/dww.xml
+  category: Malware & Ransomware
+  title: 'DistroWatch.com: DistroWatch Weekly'
+  type: rss
+  description: Latest news on Linux distributions and BSD projects
+- url: https://www.silentcircle.com/feed
+  category: Malware & Ransomware
+  title: Silent Circle
+  type: rss
+  description: Silent Circle is a secure communications firm offering enterprise communications
+    solutions including software, devices, and services.
+- url: https://www.silentcircle.com/feed/
+  category: Malware & Ransomware
+  title: Silent Circle
+  type: rss
+  description: Silent Circle is a secure communications firm offering enterprise communications
+    solutions including software, devices, and services.
+- url: https://www.silentcircle.com/rss.xml
+  category: Malware & Ransomware
+  title: Silent Circle
+  type: rss
+  description: Silent Circle is a secure communications firm offering enterprise communications
+    solutions including software, devices, and services.
+- url: http://news.google.com/rss
+  category: Offensive Security
+  title: Top stories - Google News
+  type: rss
+  description: Google News
+- url: http://news.google.com/rss/
+  category: Offensive Security
+  title: Top stories - Google News
+  type: rss
+  description: Google News
+- url: https://rss.aircrack-ng.org/news.rss
+  category: Security (General)
+  title: Aircrack-ng news
+  type: rss
+  description: Aircrack-ng news
+- url: https://www.digikam.org/index.xml
+  category: Security (General)
+  title: digiKam
+  type: rss
+  description: Recent content on digiKam
+- url: http://www.domaincrawler.com/feed
+  category: Security (General)
+  title: Domain Crawler
+  type: rss
+  description: Comprehensive domain name database for digital investigations.
+- url: http://www.domaincrawler.com/feed/
+  category: Security (General)
+  title: Domain Crawler
+  type: rss
+  description: Comprehensive domain name database for digital investigations.
+- url: http://www.domaincrawler.com/rss
+  category: Security (General)
+  title: Domain Crawler
+  type: rss
+  description: Comprehensive domain name database for digital investigations.
+- url: http://www.domaincrawler.com/rss/
+  category: Security (General)
+  title: Domain Crawler
+  type: rss
+  description: Comprehensive domain name database for digital investigations.
+- url: https://domaincrawler.com/feed/
+  category: Security (General)
+  title: Domain Crawler
+  type: rss
+  description: Comprehensive domain name database for digital investigations.
+- url: https://infominder.infoassistants.com/feed/
+  category: Security (General)
+  title: Infominder
+  type: rss
+  description: Web Page Tracker
+- url: http://www.maven.co/feed
+  category: Security (General)
+  title: Maven Research
+  type: rss
+  description: Maven - Faster Insights. Smarter Decision
+- url: http://www.maven.co/feed/
+  category: Security (General)
+  title: Maven Research
+  type: rss
+  description: Maven - Faster Insights. Smarter Decision
+- url: http://www.maven.co/rss
+  category: Security (General)
+  title: Maven Research
+  type: rss
+  description: Maven - Faster Insights. Smarter Decision
+- url: http://www.maven.co/rss/
+  category: Security (General)
+  title: Maven Research
+  type: rss
+  description: Maven - Faster Insights. Smarter Decision
+- url: https://www.maven.co/feed
+  category: Security (General)
+  title: Maven Research
+  type: rss
+  description: Maven - Faster Insights. Smarter Decision
+- url: http://www.afp.com/rss.xml
+  category: Threat Intel
+  title: AFP.com
+  type: rss
+  description: Updates from AFP.com covering threat intel.
+- url: https://belkasoft.com/rss.xml
+  category: Threat Intel
+  title: Belkasoft site
+  type: rss
+  description: 'Belkasoft: Evidence Search and Analysis Software for Digital Forensic
+    Investigations and Incident Response'
+- url: https://themittenmac.com/blog/feed
+  category: Threat Intel
+  title: Blog – The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: https://themittenmac.com/blog/rss
+  category: Threat Intel
+  title: Blog – The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: http://www.cyotek.com/blog/products/rss
+  category: Threat Intel
+  title: cyotek.com Product Blog Summary Feed
+  type: rss
+  description: cyotek.com Product Blog Summary Feed
+- url: https://distrowatch.com/news/dwd.xml
+  category: Threat Intel
+  title: 'DistroWatch.com: Distributions'
+  type: rss
+  description: Latest distribution releases
+- url: https://feeds.feedburner.com/NewswiseScinews
+  category: Threat Intel
+  title: 'Newswise: SciNews'
+  type: rss
+  description: 'Newswise: Latest Science News, updated hourly. Newswise specializes
+    in delivering the knowledge-based news behind tomorrow''s headlines from the world''s
+    leading research institutions directly to journalists and to the...'
+- url: http://philogb.github.io/blog/feed
+  category: Threat Intel
+  title: Nicolas Garcia Belmonte
+  type: atom
+  description: Updates from Nicolas Garcia Belmonte covering threat intel.
+- url: http://philogb.github.io/blog/feed.xml
+  category: Threat Intel
+  title: Nicolas Garcia Belmonte
+  type: atom
+  description: Updates from Nicolas Garcia Belmonte covering threat intel.
+- url: http://open.canada.ca/rss.xml
+  category: Threat Intel
+  title: Open Government - Government of Canada - Collaborative open source project
+    led by the Government of Canada
+  type: rss
+  description: Updates from Open Government - Government of Canada - Collaborative
+    open source project led by the Government of Canada covering threat intel.
+- url: https://publication.osintambition.org/feed
+  category: Threat Intel
+  title: OSINT Ambition - Medium
+  type: rss
+  description: Improve your OSINT and investigations skills with us. We share expert
+    tips, tools, latest trends and insights on OSINT. Subscribe to our weekly newsletter
+    for receiving all OSINT updates in your inbox at newsletter.os...
+- url: https://publication.osintambition.org/feed/
+  category: Threat Intel
+  title: OSINT Ambition - Medium
+  type: rss
+  description: Improve your OSINT and investigations skills with us. We share expert
+    tips, tools, latest trends and insights on OSINT. Subscribe to our weekly newsletter
+    for receiving all OSINT updates in your inbox at newsletter.os...
+- url: https://snappa.io/blog/feed
+  category: Threat Intel
+  title: Snappa Blog
+  type: rss
+  description: Thoughts on Design & Online Marketing
+- url: https://snappa.io/blog/rss
+  category: Threat Intel
+  title: Snappa Blog
+  type: rss
+  description: Thoughts on Design & Online Marketing
+- url: https://gist.github.com/starred.atom
+  category: Threat Intel
+  title: Starred Gists
+  type: atom
+  description: Updates from Starred Gists covering threat intel.
+- url: https://sumuri.com/feed
+  category: Threat Intel
+  title: SUMURI
+  type: rss
+  description: Updates from SUMURI covering threat intel.
+- url: https://sumuri.com/feed/
+  category: Threat Intel
+  title: SUMURI
+  type: rss
+  description: Updates from SUMURI covering threat intel.
+- url: https://sumuri.com/rss
+  category: Threat Intel
+  title: SUMURI
+  type: rss
+  description: Updates from SUMURI covering threat intel.
+- url: https://sumuri.com/rss/
+  category: Threat Intel
+  title: SUMURI
+  type: rss
+  description: Updates from SUMURI covering threat intel.
+- url: https://themittenmac.com/feed
+  category: Threat Intel
+  title: The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: https://themittenmac.com/feed/
+  category: Threat Intel
+  title: The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: https://themittenmac.com/rss
+  category: Threat Intel
+  title: The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: https://themittenmac.com/rss/
+  category: Threat Intel
+  title: The Mitten Mac
+  type: rss
+  description: Mac Incident Response and Threat Hunting
+- url: https://www.quicksprout.com/feed
+  category: Threat Intel
+  title: www.quicksprout.com
+  type: rss
+  description: Start and Grow Your Business
+- url: https://www.quicksprout.com/feed/
+  category: Threat Intel
+  title: www.quicksprout.com
+  type: rss
+  description: Start and Grow Your Business
+- url: https://www.quicksprout.com/rss
+  category: Threat Intel
+  title: www.quicksprout.com
+  type: rss
+  description: Start and Grow Your Business
+- url: https://www.quicksprout.com/rss/
+  category: Threat Intel
+  title: www.quicksprout.com
+  type: rss
+  description: Start and Grow Your Business
+- url: http://news.yahoo.com/rss
+  category: Threat Intel
+  title: Yahoo News - Latest News & Headlines
+  type: rss
+  description: The latest news and headlines from Yahoo! News. Get breaking news stories
+    and in-depth coverage with videos and photos.
+- url: https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss
+  category: Vulnerabilities, CVEs
+  title: Aircrack-ng
+  type: rss
+  description: Official Aircrack-ng blog
+- url: https://www.appgate.com/blogFeed.rss
+  category: Vulnerabilities, CVEs
+  title: AppGate English
+  type: rss
+  description: Updates from AppGate English covering vulnerabilities, cves.
+- url: https://www.hex-rays.com/blog/rss.xml
+  category: Vulnerabilities, CVEs
+  title: blog
+  type: rss
+  description: Expert reverse engineering tutorials and IDA Pro tips. Weekly guides
+    on binary analysis, malware research, decompiler techniques, and plugin development.
+- url: http://www.silobreaker.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Blog - Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: http://www.silobreaker.com/blog/rss
+  category: Vulnerabilities, CVEs
+  title: Blog - Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: https://snyk.io/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+- url: https://snyk.io/blog/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+- url: http://www.xplico.org/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Blog – Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/blog/rss
+  category: Vulnerabilities, CVEs
+  title: Blog – Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: https://chatsecure.org/feed
+  category: Vulnerabilities, CVEs
+  title: chatsecure.org
+  type: rss
+  description: Updates from chatsecure.org covering vulnerabilities, cves.
+- url: https://chatsecure.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: chatsecure.org
+  type: rss
+  description: Updates from chatsecure.org covering vulnerabilities, cves.
+- url: https://www.cipherdyne.org/atom.xml
+  category: Vulnerabilities, CVEs
+  title: cipherdyne.org | System and Network Security
+  type: atom
+  description: Updates from cipherdyne.org | System and Network Security covering
+    vulnerabilities, cves.
+- url: https://www.cipherdyne.org/index.xml
+  category: Vulnerabilities, CVEs
+  title: cipherdyne.org | System and Network Security
+  type: rss
+  description: The network and system security blog of Michael Rash
+- url: https://www.cipherdyne.org/rss.xml
+  category: Vulnerabilities, CVEs
+  title: cipherdyne.org | System and Network Security
+  type: rss
+  description: The network and system security blog of Michael Rash
+- url: https://www.corelan.be/index.php/comments/feed/
+  category: Vulnerabilities, CVEs
+  title: Comments for Corelan Cybersecurity Research
+  type: rss
+  description: ':: Knowledge is not an object, it''s a flow ::'
+- url: https://requesttracker.com/comments/feed/
+  category: Vulnerabilities, CVEs
+  title: Comments for Request Tracker
+  type: rss
+  description: Updates from Comments for Request Tracker covering vulnerabilities,
+    cves.
+- url: https://wpscan.com/comments/feed/
+  category: Vulnerabilities, CVEs
+  title: Comments for WPScan
+  type: rss
+  description: Updates from Comments for WPScan covering vulnerabilities, cves.
+- url: https://ctftime.org/writeups/rss/
+  category: Vulnerabilities, CVEs
+  title: 'CTFtime.org: New writeups'
+  type: rss
+  description: 'CTFtime.org: CTF Task writeups feed.'
+- url: https://www.cybercpr.com/feed
+  category: Vulnerabilities, CVEs
+  title: CyberCPR
+  type: rss
+  description: Network Incident Response and Case management
+- url: https://www.cybercpr.com/feed/
+  category: Vulnerabilities, CVEs
+  title: CyberCPR
+  type: rss
+  description: Network Incident Response and Case management
+- url: https://www.cybercpr.com/rss
+  category: Vulnerabilities, CVEs
+  title: CyberCPR
+  type: rss
+  description: Network Incident Response and Case management
+- url: https://www.cybercpr.com/rss/
+  category: Vulnerabilities, CVEs
+  title: CyberCPR
+  type: rss
+  description: Network Incident Response and Case management
+- url: https://discordapp.com/blog/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Discord Blog
+  type: rss
+  description: Learn about Discord's updates, insights, community stories, educational
+    resources, and much more.
+- url: https://www.domaintools.com/resources/blog/feed
+  category: Vulnerabilities, CVEs
+  title: DomainTools
+  type: rss
+  description: Innovative, Practical Advice to Improve your Cybersecurity Posture
+- url: http://www.feedly.com/blog/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Feedly Blog
+  type: atom
+  description: Updates from Feedly Blog covering vulnerabilities, cves.
+- url: http://www.france24.com/rss
+  category: Vulnerabilities, CVEs
+  title: France 24 - International breaking news, top stories and headlines
+  type: rss
+  description: Breaking news and world news from France 24 on Business, Sports, Culture.
+    Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America
+- url: http://www.france24.com/rss.xml
+  category: Vulnerabilities, CVEs
+  title: France 24 - International breaking news, top stories and headlines
+  type: rss
+  description: Breaking news and world news from France 24 on Business, Sports, Culture.
+    Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America
+- url: http://www.france24.com/rss/
+  category: Vulnerabilities, CVEs
+  title: France 24 - International breaking news, top stories and headlines
+  type: rss
+  description: Breaking news and world news from France 24 on Business, Sports, Culture.
+    Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America
+- url: http://www.france24.com/rss/index.xml
+  category: Vulnerabilities, CVEs
+  title: France 24 - International breaking news, top stories and headlines
+  type: rss
+  description: Breaking news and world news from France 24 on Business, Sports, Culture.
+    Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America
+- url: https://guardianproject.info/feed
+  category: Vulnerabilities, CVEs
+  title: Guardian Project Blog on Guardian Project
+  type: rss
+  description: Recent content in Guardian Project Blog on Guardian Project
+- url: https://guardianproject.info/feed/
+  category: Vulnerabilities, CVEs
+  title: Guardian Project Blog on Guardian Project
+  type: rss
+  description: Recent content in Guardian Project Blog on Guardian Project
+- url: http://www.hachettebookgroup.com/feed
+  category: Vulnerabilities, CVEs
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: http://www.hachettebookgroup.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: http://www.hachettebookgroup.com/rss
+  category: Vulnerabilities, CVEs
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: http://www.hachettebookgroup.com/rss/
+  category: Vulnerabilities, CVEs
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: https://www.hachettebookgroup.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: http://hdr.undp.org/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Human Development Reports
+  type: rss
+  description: Updates from Human Development Reports covering vulnerabilities, cves.
+- url: http://leafletjs.com/atom.xml
+  category: Vulnerabilities, CVEs
+  title: Leaflet Dev Blog
+  type: atom
+  description: Updates from Leaflet Dev Blog covering vulnerabilities, cves.
+- url: https://leafletjs.com/atom.xml
+  category: Vulnerabilities, CVEs
+  title: Leaflet Dev Blog
+  type: atom
+  description: Updates from Leaflet Dev Blog covering vulnerabilities, cves.
+- url: https://www.occrp.org/en/investigations/feed
+  category: Vulnerabilities, CVEs
+  title: OCCRP Investigations
+  type: rss
+  description: Investigations, delivered straight to you. Well, your RSS reader anyway.
+- url: https://osv.dev/blog/index.xml
+  category: Vulnerabilities, CVEs
+  title: OSV Blog
+  type: rss
+  description: Recent content on OSV Blog
+- url: http://opensecuritytraining.info/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Page list Atom feed
+  type: atom
+  description: Updates from Page list Atom feed covering vulnerabilities, cves.
+- url: https://pecl.php.net/feeds/latest.rss
+  category: Vulnerabilities, CVEs
+  title: 'PECL: Latest releases'
+  type: rss
+  description: The latest releases in PECL.
+- url: https://www.pentestpartners.com/feed
+  category: Vulnerabilities, CVEs
+  title: Pen Test Partners
+  type: rss
+  description: Updates from Pen Test Partners covering vulnerabilities, cves.
+- url: https://www.pentestpartners.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Pen Test Partners
+  type: rss
+  description: Updates from Pen Test Partners covering vulnerabilities, cves.
+- url: https://www.pentestpartners.com/rss
+  category: Vulnerabilities, CVEs
+  title: Pen Test Partners
+  type: rss
+  description: Updates from Pen Test Partners covering vulnerabilities, cves.
+- url: https://www.pentestpartners.com/rss/
+  category: Vulnerabilities, CVEs
+  title: Pen Test Partners
+  type: rss
+  description: Updates from Pen Test Partners covering vulnerabilities, cves.
+- url: https://portswigger.net/blog/rss
+  category: Vulnerabilities, CVEs
+  title: PortSwigger Blog
+  type: rss
+  description: Updates from PortSwigger Blog covering vulnerabilities, cves.
+- url: https://riskanalytics.com/feed/
+  category: Vulnerabilities, CVEs
+  title: RiskAnalytics
+  type: rss
+  description: Cybersecurity. Simplified
+- url: https://ronin-rb.dev/blog/atom.xml
+  category: Vulnerabilities, CVEs
+  title: Ronin Developer Blog
+  type: atom
+  description: Updates from Ronin Developer Blog covering vulnerabilities, cves.
+- url: http://sectools.org/feed
+  category: Vulnerabilities, CVEs
+  title: SecTools
+  type: rss
+  description: SecTools security tools list updates.
+- url: http://sectools.org/feed/
+  category: Vulnerabilities, CVEs
+  title: SecTools
+  type: rss
+  description: SecTools security tools list updates.
+- url: http://www.silobreaker.com/feed
+  category: Vulnerabilities, CVEs
+  title: Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: http://www.silobreaker.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: http://www.silobreaker.com/rss
+  category: Vulnerabilities, CVEs
+  title: Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: http://www.silobreaker.com/rss/
+  category: Vulnerabilities, CVEs
+  title: Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: https://www.silobreaker.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Silobreaker
+  type: rss
+  description: Intelligence platform for cyber, geopolitical & physical risk
+- url: https://socradar.io/feed/
+  category: Vulnerabilities, CVEs
+  title: SOCRadar® Cyber Intelligence Inc.
+  type: rss
+  description: SOCRadar® Cyber Intelligence Inc.
+- url: https://www.swisscyberstorm.com/blog/index.xml
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss/
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss/index.xml
+  category: Vulnerabilities, CVEs
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://feeds.feedburner.com/tenable/qaXL
+  category: Vulnerabilities, CVEs
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+- url: https://www.tenable.com/blog/atom.xml
+  category: Vulnerabilities, CVEs
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+- url: https://www.tenable.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+- url: https://tenable.com/feed/news
+  category: Vulnerabilities, CVEs
+  title: Tenable News Feed
+  type: rss
+  description: Updates from Tenable News Feed covering vulnerabilities, cves.
+- url: https://feeds.feedburner.com/scdashboards
+  category: Vulnerabilities, CVEs
+  title: Tenable Security Center dashboards
+  type: rss
+  description: Updates from Tenable Security Center dashboards covering vulnerabilities,
+    cves.
+- url: https://feeds.feedburner.com/securitycenterreporttemplates
+  category: Vulnerabilities, CVEs
+  title: Tenable Security Center templates
+  type: rss
+  description: Updates from Tenable Security Center templates covering vulnerabilities,
+    cves.
+- url: https://www.twilio.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Twilio Blog
+  type: rss
+  description: Explore the latest company news, product updates, technical tutorials,
+    and best practices from Twilio, the industry-leading customer engagement platform.
+- url: http://www.twingly.com/feed
+  category: Vulnerabilities, CVEs
+  title: Twingly
+  type: rss
+  description: Social Data with Passion
+- url: http://www.twingly.com/feed/
+  category: Vulnerabilities, CVEs
+  title: Twingly
+  type: rss
+  description: Social Data with Passion
+- url: http://www.twingly.com/rss
+  category: Vulnerabilities, CVEs
+  title: Twingly
+  type: rss
+  description: Social Data with Passion
+- url: http://www.twingly.com/rss/
+  category: Vulnerabilities, CVEs
+  title: Twingly
+  type: rss
+  description: Social Data with Passion
+- url: https://vuldb.com/?rss.changelog
+  category: Vulnerabilities, CVEs
+  title: VulDB Changelog
+  type: rss
+  description: Changelog
+- url: https://vuldb.com/?rss.recent
+  category: Vulnerabilities, CVEs
+  title: VulDB Recent Entries
+  type: rss
+  description: Recent Entries
+- url: https://vuldb.com/?rss.updates
+  category: Vulnerabilities, CVEs
+  title: VulDB Updates
+  type: rss
+  description: Updates
+- url: https://www.waterfox.net/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Waterfox
+  type: rss
+  description: Combined feed of Waterfox blog posts and release notes.
+- url: http://www.tableausoftware.com/atom.xml
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/feed
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/feed/
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/rss
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/rss.xml
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableausoftware.com/rss/
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: https://wpscan.com/feed/
+  category: Vulnerabilities, CVEs
+  title: WPScan
+  type: rss
+  description: Updates from WPScan covering vulnerabilities, cves.
+- url: http://feeds.feedburner.com/Xplico
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed/
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/rss
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/rss/
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
