@@ -51,8 +51,6 @@ domain:www.harmari.com
 # WordPress / platform noise
 # ---------------------------------------------------------
 url_contains:/comments/feed
-url_contains:/tag/
-url_contains:/category/
 
 
 # ---------------------------------------------------------

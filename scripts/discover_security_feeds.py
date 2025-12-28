@@ -4,27 +4,17 @@
 """
 discover_security_feeds.py
 
-Zero-input discovery of security-related RSS/Atom feeds (no need to provide domains).
+Zero-input discovery of security-related RSS/Atom feeds.
 
-What it does
-- Crawls public "seed" pages (awesome lists, hubs) -> extracts outbound domains
-- For each domain, attempts to discover RSS/Atom feeds via:
-  - <link rel="alternate" ...> in homepage HTML
-  - common feed paths (/feed, /rss.xml, /atom.xml, /index.xml, etc.)
-- Validates feed with feedparser
-- Detects feed type: rss | atom
-- Scores security relevance based on keywords in recent entries
-- Outputs:
-  - data/discovery/feeds_candidates.json (full metadata)
-  - data/discovery/feeds_seen.json       (cache/dedupe)
-  - feeds/discovered.yaml                (YOUR FORMAT: list of {url, category, title, type, description})
-
-Install
-  pip install requests feedparser beautifulsoup4 pyyaml
-
-Usage
-  python scripts/discover_security_feeds.py --write-yaml --only-new
-  python scripts/discover_security_feeds.py --write-yaml --max-sites 500 --min-score 6
+Features:
+- Crawl public seed pages -> extract domains
+- Discover feeds via rel=alternate + common paths
+- Validate RSS/Atom feeds
+- Detect feed type (rss|atom)
+- Score security relevance
+- Enforce strong-security signal + per-entry density
+- Exclude noise via external rules file: data/exclude_feeds.txt
+- Output candidates to feeds/discovered.yaml
 """
 
 from __future__ import annotations
@@ -44,9 +34,17 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
-UA = "awesome-security-feeds-discovery/1.2 (+https://github.com/)"
 
-# Seed pages that tend to link out to many security resources/blogs
+# =========================
+# CONFIG
+# =========================
+
+UA = "awesome-security-feeds-discovery/1.3 (+https://github.com/clivoa/awesome-security-feeds)"
+
+DATA_DIR = "data/discovery"
+OUT_YAML = "feeds/discovered.yaml"
+EXCLUDE_FILE = "data/exclude_feeds.txt"
+
 DEFAULT_SEEDS = [
     "https://github.com/sbilly/awesome-security",
     "https://github.com/enaqx/awesome-pentest",
@@ -61,41 +59,54 @@ DEFAULT_SEEDS = [
 ]
 
 COMMON_FEED_PATHS = [
-    "/feed", "/feed/", "/rss", "/rss/", "/rss.xml", "/atom.xml", "/feed.xml", "/index.xml",
-    "/blog/rss", "/blog/rss.xml", "/blog/atom.xml", "/blog/feed", "/blog/feed.xml",
-    "/rss/index.xml",
+    "/feed", "/feed/", "/rss", "/rss/", "/rss.xml",
+    "/atom.xml", "/feed.xml", "/index.xml",
+    "/blog/rss", "/blog/rss.xml", "/blog/atom.xml",
+    "/blog/feed", "/blog/feed.xml",
 ]
 
 FEED_HINT_RE = re.compile(r"(rss|atom|feed|\.xml)(\b|$)", re.IGNORECASE)
 
-SECURITY_KEYWORDS = [
-    # broad
-    "cve", "vulnerability", "vuln", "exploit", "0day", "zero-day", "advisory", "patch",
-    "malware", "ransomware", "phishing", "botnet", "trojan", "backdoor", "loader", "infostealer",
-    "apt", "threat actor", "intrusion", "breach", "incident", "ioc", "tactic", "technique",
-    "reverse engineering", "pwn", "pentest", "red team", "blue team", "dfir", "forensics",
-    "edr", "siem", "splunk", "kql", "sigma", "yara",
-    "kubernetes", "docker", "cloud", "aws", "azure", "gcp",
-    "campaign", "payload", "initial access", "lateral movement", "persistence", "privilege escalation",
-    # extra common terms
-    "authentication", "bypass", "rce", "remote code execution", "xss", "sqli", "ssrf", "csrf",
-    "privilege escalation", "lpe", "eop",
-]
+STRONG_KEYWORDS = {
+    "vulnerability", "malware", 
+    "dfir", "forensics",
+    "edr", "sigma", "yara",
+    "zero-day", "zeroday", "0day",
+    "critical vulnerability", "exploit",
+    "cve-", "backdoor", "rce", 
+    "remote code execution", "privilege escalation",
+    "trojan", "wormable", "trojanized",
 
-# Simple category suggestion rules (you can replace later with your SMART_GROUP_RULES)
+    # Supply chain / impacto grande
+    "supply chain attack", "software supply chain",
+    "supply-chain attack",
+
+    # Vazamentos e mega incidentes
+    "major breach", "data leak", "data leaks", "massive leak",
+
+    # Ransom gangs (mais quentes)
+    "ransom gang", "ransomware", "double extortion", "ransom note",
+}
+
+SECURITY_KEYWORDS = sorted(STRONG_KEYWORDS | {
+    "patch", "advisory", "threat actor",
+    "phishing", "backdoor", "botnet",
+    "campaign", "lateral movement",
+    "privilege escalation",
+})
+
 CATEGORY_RULES = [
-    ("Vulnerabilities, CVEs", [r"\bcve\b", r"vulnerab", r"\b0day\b", r"zero-?day", r"advisory", r"\bpatch\b", r"\brce\b"]),
-    ("Exploits", [r"\bexploit\b", r"\bpoc\b", r"proof of concept", r"weaponiz"]),
-    ("Malware & Ransomware", [r"malware", r"ransomware", r"infostealer", r"loader", r"botnet", r"trojan", r"backdoor"]),
-    ("Threat Intel", [r"\bapt\b", r"threat actor", r"campaign", r"\bioc\b", r"tactic", r"technique"]),
-    ("DFIR & Forensics", [r"\bdfir\b", r"forensic", r"incident", r"breach", r"\bedr\b", r"\bsiem\b", r"splunk", r"\bkql\b", r"sigma"]),
-    ("Cloud Security", [r"kubernetes", r"docker", r"\baws\b", r"\bazure\b", r"\bgcp\b", r"supply chain"]),
-    ("Offensive Security", [r"pentest", r"pwn", r"red team"]),
+    ("Vulnerabilities, CVEs", [r"\bcve\b", r"vulnerab", r"0day", r"zero-?day", r"rce"]),
+    ("Exploits", [r"\bexploit\b", r"\bpoc\b"]),
+    ("Malware & Ransomware", [r"malware", r"ransomware", r"botnet", r"infostealer"]),
+    ("Threat Intel", [r"\bapt\b", r"campaign", r"\bioc\b"]),
+    ("DFIR & Forensics", [r"\bdfir\b", r"forensic", r"incident", r"breach"]),
 ]
 
-DATA_DIR = "data/discovery"
-OUT_YAML = "feeds/discovered.yaml"
 
+# =========================
+# DATA MODELS
+# =========================
 
 @dataclass
 class FeedCandidate:
@@ -104,7 +115,7 @@ class FeedCandidate:
     title: str
     description: str
     language: str
-    feed_type: str  # rss|atom
+    feed_type: str
     score: int
     matched_keywords: list[str]
     suggested_category: str
@@ -112,6 +123,10 @@ class FeedCandidate:
     entries_sample: list[dict]
     url_hash: str
 
+
+# =========================
+# UTILS
+# =========================
 
 def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
@@ -123,414 +138,254 @@ def normalize_url(url: str) -> str:
         return ""
     if not re.match(r"^https?://", url, re.I):
         url = "https://" + url
-    p = urlparse(url)
-    return p._replace(fragment="").geturl()
+    return urlparse(url)._replace(fragment="").geturl()
 
 
 def base_origin(url: str) -> str:
     p = urlparse(url)
-    scheme = p.scheme or "https"
-    return f"{scheme}://{p.netloc}"
+    return f"{p.scheme or 'https'}://{p.netloc}"
 
 
-def polite_get(session: requests.Session, url: str, timeout: int, sleep_s: float) -> Optional[requests.Response]:
-    time.sleep(sleep_s)
+def polite_get(session, url, timeout, sleep):
+    time.sleep(sleep)
     try:
-        return session.get(
-            url,
-            timeout=timeout,
-            headers={"User-Agent": UA, "Accept": "*/*"},
-            allow_redirects=True,
-        )
-    except requests.RequestException:
+        return session.get(url, timeout=timeout, headers={"User-Agent": UA})
+    except Exception:
         return None
 
 
-def is_probably_html(resp: requests.Response) -> bool:
+def is_html(resp):
     ct = (resp.headers.get("Content-Type") or "").lower()
-    return ("text/html" in ct) or ("application/xhtml+xml" in ct) or ct.startswith("text/")
+    return "html" in ct
 
 
-def extract_outbound_links(html: str, base: str) -> set[str]:
-    soup = BeautifulSoup(html, "html.parser")
-    urls: set[str] = set()
+# =========================
+# EXCLUSION RULES
+# =========================
 
-    for a in soup.select("a[href]"):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#") or href.startswith("mailto:") or href.startswith("javascript:"):
-            continue
+def load_exclusions(path: str):
+    rules = {"domain": set(), "url_contains": set(), "title_contains": set()}
+    if not os.path.exists(path):
+        return rules
 
-        u = normalize_url(urljoin(base, href))
-        if not u:
-            continue
-
-        pu = urlparse(u)
-        if pu.scheme not in ("http", "https"):
-            continue
-
-        # skip obvious assets
-        if any(pu.path.lower().endswith(ext) for ext in (".png", ".jpg", ".jpeg", ".gif", ".svg", ".css", ".js", ".ico", ".pdf", ".zip")):
-            continue
-
-        urls.add(u)
-
-    return urls
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or ":" not in line:
+                continue
+            kind, value = line.split(":", 1)
+            kind = kind.strip().lower()
+            value = value.strip().lower()
+            if kind in rules:
+                rules[kind].add(value)
+    return rules
 
 
-def extract_rel_alternate_feeds(html: str, base: str) -> set[str]:
-    soup = BeautifulSoup(html, "html.parser")
-    feeds: set[str] = set()
-
-    for link in soup.select('link[rel="alternate"][href]'):
-        t = (link.get("type") or "").lower()
-        href = (link.get("href") or "").strip()
-        if not href:
-            continue
-        if ("rss" in t) or ("atom" in t) or ("xml" in t) or FEED_HINT_RE.search(href):
-            feeds.add(normalize_url(urljoin(base, href)))
-
-    # also catch <a> links that look like feeds
-    for a in soup.select("a[href]"):
-        href = (a.get("href") or "").strip()
-        if href and FEED_HINT_RE.search(href):
-            feeds.add(normalize_url(urljoin(base, href)))
-
-    return {f for f in feeds if f}
+def should_exclude(feed_url, title, site_url, rules):
+    domain = (urlparse(site_url).netloc or "").lower()
+    if domain in rules["domain"]:
+        return True
+    for s in rules["url_contains"]:
+        if s in (feed_url or "").lower():
+            return True
+    for s in rules["title_contains"]:
+        if s in (title or "").lower():
+            return True
+    return False
 
 
-def validate_feed(session: requests.Session, feed_url: str, timeout: int, sleep_s: float) -> Optional[feedparser.FeedParserDict]:
-    resp = polite_get(session, feed_url, timeout=timeout, sleep_s=sleep_s)
-    if not resp or resp.status_code != 200:
-        return None
+# =========================
+# FEED LOGIC
+# =========================
 
-    text = resp.text or ""
-    if len(text) < 80:
-        return None
-
-    parsed = feedparser.parse(text)
-    if not parsed or not getattr(parsed, "entries", None) or len(parsed.entries) == 0:
-        return None
-
-    return parsed
-
-
-def detect_feed_type(parsed: feedparser.FeedParserDict, feed_url: str) -> str:
-    # 1) parsed.version (best)
-    v = (getattr(parsed, "version", None) or "").lower()
-    if v:
-        if "atom" in v:
-            return "atom"
-        if "rss" in v:
-            return "rss"
-
-    # 2) namespaces (fallback)
-    namespaces = parsed.get("namespaces", {}) or {}
-    for ns in namespaces.values():
-        if isinstance(ns, str) and "atom" in ns.lower():
-            return "atom"
-
-    # 3) heuristic by URL
+def detect_feed_type(parsed, feed_url):
+    v = (parsed.version or "").lower()
+    if "atom" in v:
+        return "atom"
+    if "rss" in v:
+        return "rss"
     if "atom" in feed_url.lower():
         return "atom"
-
     return "rss"
 
 
-def suggest_category(text_blob_lower: str) -> str:
+def suggest_category(blob):
     for cat, patterns in CATEGORY_RULES:
-        for pat in patterns:
-            if re.search(pat, text_blob_lower, re.IGNORECASE):
+        for p in patterns:
+            if re.search(p, blob, re.I):
                 return cat
     return "Security (General)"
 
 
-def score_security(parsed: feedparser.FeedParserDict, max_entries: int = 15) -> tuple[int, list[str], list[dict], str]:
-    entries = parsed.entries[:max_entries]
-    blob_parts = []
-    sample = []
-
+def strong_hits(entries):
+    hits = 0
     for e in entries:
-        title = (e.get("title") or "").strip()
-        summary = (e.get("summary") or e.get("description") or "").strip()
-        link = (e.get("link") or "").strip()
-        published = (e.get("published") or e.get("updated") or "").strip()
+        text = f"{e.get('title','')} {e.get('summary','')} {e.get('description','')}".lower()
+        if any(k in text for k in STRONG_KEYWORDS):
+            hits += 1
+    return hits
 
-        blob_parts.append(f"{title} {summary}".lower())
-        sample.append({"title": title, "link": link, "published": published})
 
-    blob = " ".join(blob_parts)
+def score_feed(parsed):
+    entries = parsed.entries[:15]
+    blob = " ".join(
+        f"{e.get('title','')} {e.get('summary','')} {e.get('description','')}".lower()
+        for e in entries
+    )
 
-    matched = []
-    score = 0
-    strong = {
-        "cve", "exploit", "ransomware", "malware", "apt", "zero-day", "0day",
-        "vulnerability", "advisory", "patch", "rce", "remote code execution",
-    }
+    matched = [k for k in SECURITY_KEYWORDS if k in blob]
+    has_strong = any(k in STRONG_KEYWORDS for k in matched)
+    entry_hits = strong_hits(entries)
 
-    for kw in SECURITY_KEYWORDS:
-        if kw in blob:
-            matched.append(kw)
-            score += 3 if kw in strong else 1
-
-    # density bonuses
-    uniq = set(matched)
-    if len(uniq) >= 8:
-        score += 3
-    if len(entries) >= 10:
-        score += 1
-
-    matched = sorted(uniq)[:25]
+    score = len(matched) + (3 if has_strong else 0) + (2 if entry_hits >= 2 else 0)
     category = suggest_category(blob)
-    return score, matched, sample[:5], category
+
+    return score, sorted(set(matched)), has_strong, entry_hits, category
 
 
-def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, sleep_s: float) -> list[FeedCandidate]:
-    site_url = normalize_url(site_url)
-    if not site_url:
-        return []
+# =========================
+# DISCOVERY
+# =========================
 
-    origin = base_origin(site_url)
-    rel_feeds: set[str] = set()
-
-    resp = polite_get(session, origin, timeout=timeout, sleep_s=sleep_s)
-    if resp and resp.status_code == 200 and is_probably_html(resp):
-        rel_feeds = extract_rel_alternate_feeds(resp.text, origin)
-
-    candidates: set[str] = set(rel_feeds)
-    for p in COMMON_FEED_PATHS:
-        candidates.add(normalize_url(urljoin(origin, p)))
-
-    out: list[FeedCandidate] = []
-    for feed_url in list(candidates):
-        parsed = validate_feed(session, feed_url, timeout=timeout, sleep_s=sleep_s)
-        if not parsed:
+def extract_links(html, base):
+    soup = BeautifulSoup(html, "html.parser")
+    urls = set()
+    for a in soup.select("a[href]"):
+        href = a.get("href", "")
+        if href.startswith(("mailto:", "javascript:", "#")):
             continue
-
-        feed_type = detect_feed_type(parsed, feed_url)
-        score, matched, sample, category = score_security(parsed)
-
-        title = (parsed.feed.get("title") or "").strip()
-        desc = (parsed.feed.get("subtitle") or parsed.feed.get("description") or "").strip()
-        lang = (parsed.feed.get("language") or "").strip()
-
-        discovered_via = "rel=alternate" if feed_url in rel_feeds else "common_path"
-
-        out.append(
-            FeedCandidate(
-                feed_url=feed_url,
-                site_url=origin,
-                title=title,
-                description=desc,
-                language=lang,
-                feed_type=feed_type,
-                score=score,
-                matched_keywords=matched,
-                suggested_category=category,
-                discovered_via=discovered_via,
-                entries_sample=sample,
-                url_hash=sha1(feed_url),
-            )
-        )
-
-    return out
+        u = normalize_url(urljoin(base, href))
+        if u.startswith("http"):
+            urls.add(u)
+    return urls
 
 
-def load_json(path: str, default):
-    if not os.path.exists(path):
-        return default
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return default
+def extract_feeds(html, base):
+    soup = BeautifulSoup(html, "html.parser")
+    feeds = set()
+
+    for link in soup.select('link[rel="alternate"][href]'):
+        href = link.get("href", "")
+        if FEED_HINT_RE.search(href):
+            feeds.add(normalize_url(urljoin(base, href)))
+
+    for a in soup.select("a[href]"):
+        href = a.get("href", "")
+        if FEED_HINT_RE.search(href):
+            feeds.add(normalize_url(urljoin(base, href)))
+
+    return feeds
 
 
-def save_json(path: str, obj):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+def validate_feed(session, url, timeout, sleep):
+    resp = polite_get(session, url, timeout, sleep)
+    if not resp or resp.status_code != 200:
+        return None
+    parsed = feedparser.parse(resp.text)
+    if not parsed.entries:
+        return None
+    return parsed
 
 
-def load_yaml_list(path: str) -> list[dict]:
-    if not os.path.exists(path):
-        return []
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f) or []
-        return data if isinstance(data, list) else []
-    except Exception:
-        return []
-
-
-def save_yaml_list(path: str, items: list[dict]) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(items, f, sort_keys=False, allow_unicode=True)
-
-
-def normalize_item_description(desc: str, category: str, title: str) -> str:
-    desc = (desc or "").strip()
-    if desc:
-        desc = re.sub(r"\s+", " ", desc)
-        if len(desc) > 220:
-            desc = desc[:217].rstrip() + "..."
-        return desc
-    cat_lower = (category or "security").lower()
-    return f"Updates from {title} covering {cat_lower}."
-
-
-def candidate_to_yaml_item(c: FeedCandidate) -> dict:
-    title = (c.title or "").strip() or urlparse(c.site_url).netloc
-    category = (c.suggested_category or "Security (General)").strip()
-    return {
-        "url": c.feed_url,
-        "category": category,
-        "title": title,
-        "type": c.feed_type,  # rss|atom
-        "description": normalize_item_description(c.description, category, title),
-    }
-
-
-def merge_by_url(existing: list[dict], new_items: list[dict]) -> tuple[list[dict], int]:
-    seen = {str(i.get("url", "")).strip(): i for i in existing if i.get("url")}
-    added = 0
-    for it in new_items:
-        u = str(it.get("url", "")).strip()
-        if not u or u in seen:
-            continue
-        existing.append(it)
-        seen[u] = it
-        added += 1
-    return existing, added
-
+# =========================
+# MAIN
+# =========================
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--seeds-file", default="", help="Optional seeds file (one URL per line)")
-    ap.add_argument("--max-seeds", type=int, default=10)
     ap.add_argument("--max-sites", type=int, default=400)
     ap.add_argument("--min-score", type=int, default=6)
-    ap.add_argument("--timeout", type=int, default=18)
-    ap.add_argument("--sleep", type=float, default=0.35)
-
-    ap.add_argument("--write-yaml", action="store_true", help="Write/merge feeds/discovered.yaml")
-    ap.add_argument("--only-new", action="store_true", help="Only include URLs never seen before (cache)")
-    ap.add_argument("--merge-existing", action="store_true", help="Merge into existing feeds/discovered.yaml (default true when --write-yaml)")
+    ap.add_argument("--timeout", type=int, default=15)
+    ap.add_argument("--sleep", type=float, default=0.3)
+    ap.add_argument("--write-yaml", action="store_true")
+    ap.add_argument("--only-new", action="store_true")
     args = ap.parse_args()
 
-    print("[INFO] discover_security_feeds starting...", flush=True)
-    print(f"[INFO] CWD={os.getcwd()}", flush=True)
-    print(f"[INFO] DATA_DIR={DATA_DIR} OUT_YAML={OUT_YAML}", flush=True)
-
-
     os.makedirs(DATA_DIR, exist_ok=True)
-    print(f"[INFO] Ensured directory exists: {DATA_DIR}", flush=True)
+    os.makedirs(os.path.dirname(OUT_YAML), exist_ok=True)
 
-
-    # Seeds
-    seeds: list[str] = []
-    if args.seeds_file:
-        with open(args.seeds_file, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    seeds.append(line)
-    else:
-        seeds = list(DEFAULT_SEEDS)
-    seeds = seeds[: max(1, args.max_seeds)]
-
+    exclude_rules = load_exclusions(EXCLUDE_FILE)
     session = requests.Session()
 
-    # Cache/dedupe
-    seen_path = os.path.join(DATA_DIR, "feeds_seen.json")
-    seen = load_json(seen_path, default={})  # {url_hash: {...}}
-
-    # 1) Crawl seeds -> candidate site origins
-    candidate_sites: set[str] = set()
-    for seed in seeds:
-        seed = normalize_url(seed)
-        if not seed:
-            continue
-        resp = polite_get(session, seed, timeout=args.timeout, sleep_s=args.sleep)
-        if not resp or resp.status_code != 200 or not is_probably_html(resp):
-            continue
-
-        links = extract_outbound_links(resp.text, base_origin(seed))
-        for u in links:
-            candidate_sites.add(base_origin(u))
+    candidate_sites = set()
+    for seed in DEFAULT_SEEDS:
+        r = polite_get(session, seed, args.timeout, args.sleep)
+        if r and r.status_code == 200 and is_html(r):
+            candidate_sites |= {base_origin(u) for u in extract_links(r.text, seed)}
         if len(candidate_sites) >= args.max_sites:
             break
 
-    site_list = list(candidate_sites)[: args.max_sites]
+    feeds = []
+    for site in list(candidate_sites)[: args.max_sites]:
+        r = polite_get(session, site, args.timeout, args.sleep)
+        if not r or not is_html(r):
+            continue
 
-    # 2) Discover + validate feeds
-    candidates: list[FeedCandidate] = []
-    for site in site_list:
-        discovered = discover_site_feeds(session, site, timeout=args.timeout, sleep_s=args.sleep)
-        for c in discovered:
-            if c.score < args.min_score:
+        feed_urls = extract_feeds(r.text, site)
+        for p in COMMON_FEED_PATHS:
+            feed_urls.add(normalize_url(site + p))
+
+        for feed_url in feed_urls:
+            parsed = validate_feed(session, feed_url, args.timeout, args.sleep)
+            if not parsed:
                 continue
-            candidates.append(c)
 
-    # 3) Deduplicate by feed URL hash; keep best score
-    uniq: dict[str, FeedCandidate] = {}
-    for c in candidates:
-        prev = uniq.get(c.url_hash)
-        if prev is None or c.score > prev.score:
-            uniq[c.url_hash] = c
+            title = (parsed.feed.get("title") or "").strip()
+            desc = (parsed.feed.get("description") or "").strip()
+
+            if should_exclude(feed_url, title, site, exclude_rules):
+                continue
+
+            score, matched, has_strong, entry_hits, category = score_feed(parsed)
+
+            if score < args.min_score:
+                continue
+            if not has_strong or entry_hits < 1:
+                continue
+
+            feeds.append(
+                FeedCandidate(
+                    feed_url=feed_url,
+                    site_url=site,
+                    title=title or urlparse(site).netloc,
+                    description=desc,
+                    language=parsed.feed.get("language", ""),
+                    feed_type=detect_feed_type(parsed, feed_url),
+                    score=score,
+                    matched_keywords=matched,
+                    suggested_category=category,
+                    discovered_via="auto",
+                    entries_sample=[],
+                    url_hash=sha1(feed_url),
+                )
+            )
+
+    # Deduplicate by URL hash
+    uniq = {}
+    for f in feeds:
+        if f.url_hash not in uniq or f.score > uniq[f.url_hash].score:
+            uniq[f.url_hash] = f
 
     final = sorted(uniq.values(), key=lambda x: x.score, reverse=True)
 
-    # 4) Write candidates JSON
-    candidates_path = os.path.join(DATA_DIR, "feeds_candidates.json")
-    save_json(candidates_path, [asdict(x) for x in final])
+    yaml_items = [
+        {
+            "url": f.feed_url,
+            "category": f.suggested_category,
+            "title": f.title,
+            "type": f.feed_type,
+            "description": f.description or f"Security updates from {f.title}.",
+        }
+        for f in final
+    ]
 
-    # 5) Prepare YAML items in your format
-    yaml_items: list[dict] = []
-    for c in final:
-        if args.only_new and c.url_hash in seen:
-            continue
-        yaml_items.append(candidate_to_yaml_item(c))
-
-    # Sort for diff-friendly output
-    yaml_items.sort(key=lambda x: (x["category"].lower(), x["title"].lower(), x["type"].lower(), x["url"]))
-
-    # 6) Write/merge discovered.yaml
-    added = 0
     if args.write_yaml:
-        existing = load_yaml_list(OUT_YAML)
-        if args.merge_existing or True:
-            merged, added = merge_by_url(existing, yaml_items)
-            merged.sort(key=lambda x: (x["category"].lower(), x["title"].lower(), x["type"].lower(), x["url"]))
-            save_yaml_list(OUT_YAML, merged)
-        else:
-            save_yaml_list(OUT_YAML, yaml_items)
-            added = len(yaml_items)
+        with open(OUT_YAML, "w", encoding="utf-8") as f:
+            yaml.safe_dump(yaml_items, f, sort_keys=False, allow_unicode=True)
 
-    # 7) Update seen cache
-    now_ts = int(time.time())
-    for c in final:
-        seen.setdefault(c.url_hash, {})
-        seen[c.url_hash].update(
-            {
-                "feed_url": c.feed_url,
-                "site_url": c.site_url,
-                "title": c.title,
-                "last_seen_ts": now_ts,
-                "score": c.score,
-                "feed_type": c.feed_type,
-            }
-        )
-    save_json(seen_path, seen)
-
-    # Summary
-    print(f"[OK] Seeds scanned: {len(seeds)}")
-    print(f"[OK] Candidate sites: {len(site_list)}")
-    print(f"[OK] Candidate feeds kept (score>={args.min_score}): {len(final)}")
-    print(f"[OK] Wrote: {candidates_path}")
-    print(f"[OK] Wrote cache: {seen_path}")
-    if args.write_yaml:
-        print(f"[OK] Updated: {OUT_YAML} (added {added} new items)")
+    print(f"[OK] Candidate sites: {len(candidate_sites)}")
+    print(f"[OK] Feeds accepted: {len(final)}")
+    print(f"[OK] Written: {OUT_YAML if args.write_yaml else 'dry-run'}")
 
 
 if __name__ == "__main__":

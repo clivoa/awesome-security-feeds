@@ -56,7 +56,7 @@ jobs:
             --write-yaml \
             --only-new \
             --max-sites 500 \
-            --min-score 6
+            --min-score 9
 
       - name: Inspect outputs + git status
         run: |
