@@ -1,0 +1,297 @@
+- url: https://www.tenable.com/blog/atom.xml
+  category: Vulnerabilities, CVEs
+  title: Tenable Blog
+  type: rss
+  description: Security updates from Tenable Blog.
+- url: https://www.tenable.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Tenable Blog
+  type: rss
+  description: Security updates from Tenable Blog.
+- url: https://www.cisa.gov/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Cybersecurity and Infrastructure Security Agency CISA
+  type: rss
+  description: Security updates from Cybersecurity and Infrastructure Security Agency
+    CISA.
+- url: https://aboutdfir.com/rss
+  category: Vulnerabilities, CVEs
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+- url: https://aboutdfir.com/feed
+  category: Vulnerabilities, CVEs
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+- url: https://aboutdfir.com/rss/
+  category: Vulnerabilities, CVEs
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+- url: https://aboutdfir.com/feed/
+  category: Vulnerabilities, CVEs
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+- url: https://kb.cert.org/vuls/atomfeed/
+  category: Vulnerabilities, CVEs
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors.  Many vulnerability notes are the result of private
+    coordination and disclosure efforts.
+- url: https://wpscan.com/feed/
+  category: Vulnerabilities, CVEs
+  title: WPScan
+  type: rss
+  description: Security updates from WPScan.
+- url: https://binalyze.com/blog/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Digital Forensics Blog - Binalyze
+  type: rss
+  description: Stay updated with the latest news in automated investigations, incident
+    response and digital forensics on our blog.
+- url: https://isc.sans.edu/dailypodcast.xml
+  category: Vulnerabilities, CVEs
+  title: SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)
+  type: rss
+  description: A brief daily summary of what is important in cyber security. The podcast
+    is published every weekday and designed to get you ready for the day with a brief,
+    usually about 5 minute long, summary of current network security related events.
+    The content is late breaking, educational and based on listener input as well
+    as on input received by the SANS Internet Stormcenter. You may submit questions
+    and comments via our contact form at https://isc.sans.edu/contact.html .
+- url: https://www.kali.org/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Kali Linux
+  type: rss
+  description: Home of Kali Linux, an Advanced Penetration Testing Linux distribution
+    used for Penetration Testing, Ethical Hacking and network security assessments.
+- url: https://falco.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Falco – Falco
+  type: rss
+  description: Recent content on Falco
+- url: https://falco.org/blog/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Falco – The Falco blog
+  type: rss
+  description: Recent content in The Falco blog on Falco
+- url: https://objective-see.com/rss
+  category: Vulnerabilities, CVEs
+  title: Objective-See's Blog
+  type: rss
+  description: All Things Related to Mac Security
+- url: https://objective-see.com/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Objective-See's Blog
+  type: rss
+  description: All Things Related to Mac Security
+- url: https://cxsecurity.com/wlb/rss/vulnerabilities/
+  category: Vulnerabilities, CVEs
+  title: Vulnerabilities Database - CXSecurity.com
+  type: rss
+  description: Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://cxsecurity.com/wlb/rss/all/
+  category: Vulnerabilities, CVEs
+  title: CXSECURITY Database RSS Feed - CXSecurity.com
+  type: rss
+  description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://guardianproject.info/feed
+  category: Vulnerabilities, CVEs
+  title: Guardian Project Blog on Guardian Project
+  type: rss
+  description: Recent content in Guardian Project Blog on Guardian Project
+- url: https://guardianproject.info/feed/
+  category: Vulnerabilities, CVEs
+  title: Guardian Project Blog on Guardian Project
+  type: rss
+  description: Recent content in Guardian Project Blog on Guardian Project
+- url: https://www.owasp.org/feed
+  category: Vulnerabilities, CVEs
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://owasp.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://www.owasp.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://tenable.com/feed/news
+  category: Vulnerabilities, CVEs
+  title: Tenable News Feed
+  type: rss
+  description: Security updates from Tenable News Feed.
+- url: https://fullhunt.io/blog/feed.xml
+  category: Vulnerabilities, CVEs
+  title: FullHunt Blog
+  type: atom
+  description: Expose Your Attack Surface
+- url: http://ridiculousfish.com/blog/atom.xml
+  category: Vulnerabilities, CVEs
+  title: ridiculous_fish
+  type: atom
+  description: Security updates from ridiculous_fish.
+- url: http://www.tableau.com/blog/feed
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/rss.xml
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/feed/
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/rss
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/feed
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/rss/
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: http://www.tableau.com/atom.xml
+  category: Vulnerabilities, CVEs
+  title: What's New
+  type: rss
+  description: Collection of news, tips & tricks, training, entertainment, and happenings
+    around Tableau. Learn, play, and find your own insights.
+- url: https://www.misp-project.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: MISP Open Source Threat Intelligence Platform & Open Standards For Threat
+    Information Sharing
+  type: rss
+  description: Recent content on MISP Open Source Threat Intelligence Platform & Open
+    Standards For Threat Information Sharing
+- url: https://www.misp-project.org/blog/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For
+    Threat Information Sharing
+  type: rss
+  description: Recent content in Blogs on MISP Open Source Threat Intelligence Platform
+    & Open Standards For Threat Information Sharing
+- url: https://cxsecurity.com/wlb/rss/exploit/
+  category: Vulnerabilities, CVEs
+  title: The Exploit Database - CXSecurity.com
+  type: rss
+  description: The Exploit Database - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: http://www.xplico.org/rss/
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed/
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/blog/rss
+  category: Vulnerabilities, CVEs
+  title: Blog – Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/blog/feed
+  category: Vulnerabilities, CVEs
+  title: Blog – Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/rss
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: http://www.xplico.org/feed.xml
+  category: Vulnerabilities, CVEs
+  title: Xplico
+  type: rss
+  description: Open Source Network Forensic Analysis Tool (NFAT)
+- url: https://www.pidgin.im/rss.xml
+  category: Vulnerabilities, CVEs
+  title: Blog on Pidgin, the universal chat client
+  type: rss
+  description: Recent content in Blog on Pidgin, the universal chat client
+- url: https://hackingthe.cloud/feed_rss_created.xml
+  category: Vulnerabilities, CVEs
+  title: Hacking The Cloud
+  type: rss
+  description: The encyclopedia for offensive security in the cloud.
+- url: https://haveibeenpwned.com/feed/breaches/
+  category: Vulnerabilities, CVEs
+  title: Have I Been Pwned latest breaches
+  type: rss
+  description: The latest publicly leaked data breaches to hit Have I Been Pwned
+- url: https://haveibeenpwned.com/feed
+  category: Vulnerabilities, CVEs
+  title: Have I Been Pwned latest breaches
+  type: rss
+  description: The latest publicly leaked data breaches to hit Have I Been Pwned
+- url: https://aadinternals.com/index.xml
+  category: Vulnerabilities, CVEs
+  title: AADInternals.com
+  type: rss
+  description: Recent content on AADInternals.com
+- url: http://www.social-engineer.org/rss
+  category: Vulnerabilities, CVEs
+  title: Security Through Education
+  type: rss
+  description: A free learning resource from Social-Engineer, LLC
+- url: http://www.social-engineer.org/feed
+  category: Vulnerabilities, CVEs
+  title: Security Through Education
+  type: rss
+  description: A free learning resource from Social-Engineer, LLC
+- url: http://www.social-engineer.org/feed/
+  category: Vulnerabilities, CVEs
+  title: Security Through Education
+  type: rss
+  description: A free learning resource from Social-Engineer, LLC
+- url: http://www.social-engineer.org/rss/
+  category: Vulnerabilities, CVEs
+  title: Security Through Education
+  type: rss
+  description: A free learning resource from Social-Engineer, LLC
+- url: https://www.social-engineer.org/feed/
+  category: Vulnerabilities, CVEs
+  title: Security Through Education
+  type: rss
+  description: A free learning resource from Social-Engineer, LLC
+- url: https://dtag-dev-sec.github.io/feed
+  category: Vulnerabilities, CVEs
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Security updates from DTAG Community Honeypot Project.
+- url: https://dtag-dev-sec.github.io/feed.xml
+  category: Vulnerabilities, CVEs
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Security updates from DTAG Community Honeypot Project.
