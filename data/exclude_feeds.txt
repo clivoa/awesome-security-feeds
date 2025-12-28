@@ -1,0 +1,63 @@
+# =========================================================
+# Excluded feeds/domains for security feed discovery
+# This file is used by discover_security_feeds.py
+#
+# Supported rules:
+#  - domain:<domain>        → blocks entire domain
+#  - url_contains:<string>  → blocks if substring is in feed URL
+#  - title_contains:<word>  → blocks if keyword appears in feed title
+#
+# Lines starting with # are comments
+# Empty lines are ignored
+# =========================================================
+
+
+# ---------------------------------------------------------
+# Generic aggregators / non-curated news
+# ---------------------------------------------------------
+domain:news.google.com
+domain:www.afp.com
+
+
+# ---------------------------------------------------------
+# Linux distros / software projects (non-security)
+# ---------------------------------------------------------
+domain:distrowatch.com
+domain:www.digikam.org
+domain:leafletjs.com
+domain:www.tableausoftware.com
+
+
+# ---------------------------------------------------------
+# Marketing / SEO / growth content
+# ---------------------------------------------------------
+domain:www.quicksprout.com
+title_contains:marketing
+title_contains:seo
+title_contains:growth
+
+
+# ---------------------------------------------------------
+# Generic vendor / product blogs (non-security)
+# ---------------------------------------------------------
+domain:www.maven.co
+domain:www.cyotek.com
+domain:philogb.github.io
+domain:infominder.infoassistants.com
+domain:www.harmari.com
+
+
+# ---------------------------------------------------------
+# WordPress / platform noise
+# ---------------------------------------------------------
+url_contains:/comments/feed
+url_contains:/tag/
+url_contains:/category/
+
+
+# ---------------------------------------------------------
+# Photography / media / unrelated topics
+# ---------------------------------------------------------
+title_contains:photography
+title_contains:press
+title_contains:news agency
