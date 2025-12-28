@@ -7,7 +7,7 @@
 
 A **curated, structured and automation-friendly** collection of security RSS/Atom sources. Based on https://securityfeeds.org/
 
-This repository is **independent** (it can be used on its own), but the generated lists are also consumed downstream by projects such as **S33R** (security news aggregation / briefings).
+This repository is **independent** (it can be used on its own), but the generated lists are also consumed downstream by projects such as [**S33R**](https://github.com/clivoa/S33R/) (security news aggregation / briefings).
 
 ---
 
