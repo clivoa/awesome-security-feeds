@@ -1,0 +1,74 @@
+name: Discover Security Feeds
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: discover-security-feeds
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests feedparser beautifulsoup4 pyyaml
+
+      - name: Run feed discovery
+        run: |
+          python scripts/discover_security_feeds.py \
+            --write-yaml \
+            --only-new \
+            --max-sites 500 \
+            --min-score 6
+
+      - name: Show git status
+        run: |
+          git status --porcelain
+          echo "----"
+          ls -la feeds || true
+          ls -la data/discovery || true
+
+      - name: Create Pull Request (if changes)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "chore: auto-discovered security feeds"
+          commit-message: "chore: update discovered feeds"
+          branch: "automation/discover-security-feeds"
+          delete-branch: true
+          signoff: false
+          body: |
+            This PR updates `feeds/discovered.yaml` with newly discovered security-related RSS/Atom feeds.
+
+            How it works:
+            - Seeds: public security resource hubs (awesome lists, community pages)
+            - Discovery: rel=alternate + common feed endpoints
+            - Validation: feedparser
+            - Filtering: security relevance score (min-score configured in workflow)
+            - Dedupe: `data/discovery/feeds_seen.json`
+
+            Review notes:
+            - `category` is auto-suggested (heuristic)
+            - `description` may be truncated or inferred if missing
+            - Some feeds may still be out-of-scope; feel free to drop them
+          labels: |
+            automation
+            feeds
