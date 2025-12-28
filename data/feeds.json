@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-28T15:36:43.690942+00:00",
-  "total": 871,
+  "generated_at": "2025-12-28T16:12:16.935038+00:00",
+  "total": 824,
   "feeds": [
     {
       "url": "https://www.jetbrains.com/rss.xml",
@@ -122,28 +122,7 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://www.cybertriage.com/feed",
-      "title": "Cyber Triage",
-      "description": "Digital Forensics Specialized For Rapid Incident Response",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
-      "url": "http://www.cybertriage.com/feed/",
-      "title": "Cyber Triage",
-      "description": "Digital Forensics Specialized For Rapid Incident Response",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
       "url": "http://www.cybertriage.com/rss",
-      "title": "Cyber Triage",
-      "description": "Digital Forensics Specialized For Rapid Incident Response",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
-      "url": "http://www.cybertriage.com/rss/",
       "title": "Cyber Triage",
       "description": "Digital Forensics Specialized For Rapid Incident Response",
       "type": "rss",
@@ -213,28 +192,7 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://www.dowjones.com/feed",
-      "title": "Dow Jones",
-      "description": "Updates from Dow Jones covering dfir & forensics.",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
-      "url": "http://www.dowjones.com/feed/",
-      "title": "Dow Jones",
-      "description": "Updates from Dow Jones covering dfir & forensics.",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
       "url": "http://www.dowjones.com/rss",
-      "title": "Dow Jones",
-      "description": "Updates from Dow Jones covering dfir & forensics.",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
-      "url": "http://www.dowjones.com/rss/",
       "title": "Dow Jones",
       "description": "Updates from Dow Jones covering dfir & forensics.",
       "type": "rss",
@@ -325,21 +283,7 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "https://www.magnetforensics.com/feed/",
-      "title": "Magnet Forensics",
-      "description": "Gain an Investigative Edge",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
       "url": "https://www.magnetforensics.com/rss",
-      "title": "Magnet Forensics",
-      "description": "Gain an Investigative Edge",
-      "type": "rss",
-      "category": "DFIR & Forensics"
-    },
-    {
-      "url": "https://www.magnetforensics.com/rss/",
       "title": "Magnet Forensics",
       "description": "Gain an Investigative Edge",
       "type": "rss",
@@ -682,7 +626,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/GoogleOnlineSecurityBlog",
+      "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
       "title": "http://feeds.feedburner.com/GoogleOnlineSecurityBlog",
       "description": "RSS feed for http://feeds.feedburner.com/GoogleOnlineSecurityBlog, covering general security & blogs news and updates.",
       "type": "rss",
@@ -3720,13 +3664,6 @@
       "category": "Malware & Ransomware"
     },
     {
-      "url": "https://www.abuse.ch/rss/",
-      "title": "abuse.ch | IT-Security Blog",
-      "description": "abuse.ch | IT-Security Blog",
-      "type": "rss",
-      "category": "Malware & Ransomware"
-    },
-    {
       "url": "http://www.cyotek.com/blog/rss",
       "title": "cyotek.com Blog Summary Feed",
       "description": "cyotek.com Blog Summary Feed",
@@ -3741,21 +3678,7 @@
       "category": "Malware & Ransomware"
     },
     {
-      "url": "http://www.cyotek.com/feed/",
-      "title": "cyotek.com Summary RSS",
-      "description": "cyotek.com Summary RSS",
-      "type": "rss",
-      "category": "Malware & Ransomware"
-    },
-    {
       "url": "http://www.cyotek.com/rss",
-      "title": "cyotek.com Summary RSS",
-      "description": "cyotek.com Summary RSS",
-      "type": "rss",
-      "category": "Malware & Ransomware"
-    },
-    {
-      "url": "http://www.cyotek.com/rss/",
       "title": "cyotek.com Summary RSS",
       "description": "cyotek.com Summary RSS",
       "type": "rss",
@@ -3770,13 +3693,6 @@
     },
     {
       "url": "https://www.silentcircle.com/feed",
-      "title": "Silent Circle",
-      "description": "Silent Circle is a secure communications firm offering enterprise communications solutions including software, devices, and services.",
-      "type": "rss",
-      "category": "Malware & Ransomware"
-    },
-    {
-      "url": "https://www.silentcircle.com/feed/",
       "title": "Silent Circle",
       "description": "Silent Circle is a secure communications firm offering enterprise communications solutions including software, devices, and services.",
       "type": "rss",
@@ -4035,13 +3951,6 @@
       "category": "Offensive Security"
     },
     {
-      "url": "http://news.google.com/rss/",
-      "title": "Top stories - Google News",
-      "description": "Google News",
-      "type": "rss",
-      "category": "Offensive Security"
-    },
-    {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "title": "/r/cybersecurity",
       "description": "OSINT resources and community updates from /r/cybersecurity.",
@@ -4154,21 +4063,7 @@
       "category": "Security (General)"
     },
     {
-      "url": "http://www.domaincrawler.com/feed/",
-      "title": "Domain Crawler",
-      "description": "Comprehensive domain name database for digital investigations.",
-      "type": "rss",
-      "category": "Security (General)"
-    },
-    {
       "url": "http://www.domaincrawler.com/rss",
-      "title": "Domain Crawler",
-      "description": "Comprehensive domain name database for digital investigations.",
-      "type": "rss",
-      "category": "Security (General)"
-    },
-    {
-      "url": "http://www.domaincrawler.com/rss/",
       "title": "Domain Crawler",
       "description": "Comprehensive domain name database for digital investigations.",
       "type": "rss",
@@ -4189,28 +4084,7 @@
       "category": "Security (General)"
     },
     {
-      "url": "http://www.maven.co/feed",
-      "title": "Maven Research",
-      "description": "Maven - Faster Insights. Smarter Decision",
-      "type": "rss",
-      "category": "Security (General)"
-    },
-    {
-      "url": "http://www.maven.co/feed/",
-      "title": "Maven Research",
-      "description": "Maven - Faster Insights. Smarter Decision",
-      "type": "rss",
-      "category": "Security (General)"
-    },
-    {
       "url": "http://www.maven.co/rss",
-      "title": "Maven Research",
-      "description": "Maven - Faster Insights. Smarter Decision",
-      "type": "rss",
-      "category": "Security (General)"
-    },
-    {
-      "url": "http://www.maven.co/rss/",
       "title": "Maven Research",
       "description": "Maven - Faster Insights. Smarter Decision",
       "type": "rss",
@@ -4301,13 +4175,6 @@
       "category": "Threat Intel"
     },
     {
-      "url": "https://publication.osintambition.org/feed/",
-      "title": "OSINT Ambition - Medium",
-      "description": "Improve your OSINT and investigations skills with us. We share expert tips, tools, latest trends and insights on OSINT. Subscribe to our weekly newsletter for receiving all OSINT updates in your inbox at newsletter.os...",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
       "url": "https://snappa.io/blog/feed",
       "title": "Snappa Blog",
       "description": "Thoughts on Design & Online Marketing",
@@ -4336,21 +4203,7 @@
       "category": "Threat Intel"
     },
     {
-      "url": "https://sumuri.com/feed/",
-      "title": "SUMURI",
-      "description": "Updates from SUMURI covering threat intel.",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
       "url": "https://sumuri.com/rss",
-      "title": "SUMURI",
-      "description": "Updates from SUMURI covering threat intel.",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
-      "url": "https://sumuri.com/rss/",
       "title": "SUMURI",
       "description": "Updates from SUMURI covering threat intel.",
       "type": "rss",
@@ -4364,21 +4217,7 @@
       "category": "Threat Intel"
     },
     {
-      "url": "https://themittenmac.com/feed/",
-      "title": "The Mitten Mac",
-      "description": "Mac Incident Response and Threat Hunting",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
       "url": "https://themittenmac.com/rss",
-      "title": "The Mitten Mac",
-      "description": "Mac Incident Response and Threat Hunting",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
-      "url": "https://themittenmac.com/rss/",
       "title": "The Mitten Mac",
       "description": "Mac Incident Response and Threat Hunting",
       "type": "rss",
@@ -4392,21 +4231,7 @@
       "category": "Threat Intel"
     },
     {
-      "url": "https://www.quicksprout.com/feed/",
-      "title": "www.quicksprout.com",
-      "description": "Start and Grow Your Business",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
       "url": "https://www.quicksprout.com/rss",
-      "title": "www.quicksprout.com",
-      "description": "Start and Grow Your Business",
-      "type": "rss",
-      "category": "Threat Intel"
-    },
-    {
-      "url": "https://www.quicksprout.com/rss/",
       "title": "www.quicksprout.com",
       "description": "Start and Grow Your Business",
       "type": "rss",
@@ -4613,13 +4438,6 @@
       "title": "Google Cloud Blog",
       "description": "Vendor security updates, advisories, and guidance from Google Cloud Blog.",
       "type": "rss",
-      "category": "Vendors & Product Blogs"
-    },
-    {
-      "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
-      "title": "Google Online Security Blog",
-      "description": "RSS feed for Google Online Security Blog, covering vendors & product blogs news and updates.",
-      "type": "atom",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -5435,21 +5253,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "https://www.cybercpr.com/feed/",
-      "title": "CyberCPR",
-      "description": "Network Incident Response and Case management",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "https://www.cybercpr.com/rss",
-      "title": "CyberCPR",
-      "description": "Network Incident Response and Case management",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "https://www.cybercpr.com/rss/",
       "title": "CyberCPR",
       "description": "Network Incident Response and Case management",
       "type": "rss",
@@ -5491,13 +5295,6 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "http://www.france24.com/rss/",
-      "title": "France 24 - International breaking news, top stories and headlines",
-      "description": "Breaking news and world news from France 24 on Business, Sports, Culture. Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.france24.com/rss/index.xml",
       "title": "France 24 - International breaking news, top stories and headlines",
       "description": "Breaking news and world news from France 24 on Business, Sports, Culture. Video news. News from the US, Europe, Asia Pacific, Africa, Middle East, America",
@@ -5512,35 +5309,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "https://guardianproject.info/feed/",
-      "title": "Guardian Project Blog on Guardian Project",
-      "description": "Recent content in Guardian Project Blog on Guardian Project",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.hachettebookgroup.com/feed",
-      "title": "Hachette Book Group",
-      "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.hachettebookgroup.com/feed/",
-      "title": "Hachette Book Group",
-      "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.hachettebookgroup.com/rss",
-      "title": "Hachette Book Group",
-      "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.hachettebookgroup.com/rss/",
       "title": "Hachette Book Group",
       "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
       "type": "rss",
@@ -5558,13 +5327,6 @@
       "title": "Human Development Reports",
       "description": "Updates from Human Development Reports covering vulnerabilities, cves.",
       "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://leafletjs.com/atom.xml",
-      "title": "Leaflet Dev Blog",
-      "description": "Updates from Leaflet Dev Blog covering vulnerabilities, cves.",
-      "type": "atom",
       "category": "Vulnerabilities, CVEs"
     },
     {
@@ -5610,21 +5372,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "https://www.pentestpartners.com/feed/",
-      "title": "Pen Test Partners",
-      "description": "Updates from Pen Test Partners covering vulnerabilities, cves.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "https://www.pentestpartners.com/rss",
-      "title": "Pen Test Partners",
-      "description": "Updates from Pen Test Partners covering vulnerabilities, cves.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "https://www.pentestpartners.com/rss/",
       "title": "Pen Test Partners",
       "description": "Updates from Pen Test Partners covering vulnerabilities, cves.",
       "type": "rss",
@@ -5659,35 +5407,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "http://sectools.org/feed/",
-      "title": "SecTools",
-      "description": "SecTools security tools list updates.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.silobreaker.com/feed",
-      "title": "Silobreaker",
-      "description": "Intelligence platform for cyber, geopolitical & physical risk",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.silobreaker.com/feed/",
-      "title": "Silobreaker",
-      "description": "Intelligence platform for cyber, geopolitical & physical risk",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.silobreaker.com/rss",
-      "title": "Silobreaker",
-      "description": "Intelligence platform for cyber, geopolitical & physical risk",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.silobreaker.com/rss/",
       "title": "Silobreaker",
       "description": "Intelligence platform for cyber, geopolitical & physical risk",
       "type": "rss",
@@ -5730,13 +5450,6 @@
     },
     {
       "url": "https://www.swisscyberstorm.com/rss.xml",
-      "title": "Swiss Cyber Storm",
-      "description": "Recent Blog entries on Swiss Cyber Storm",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "https://www.swisscyberstorm.com/rss/",
       "title": "Swiss Cyber Storm",
       "description": "Recent Blog entries on Swiss Cyber Storm",
       "type": "rss",
@@ -5806,21 +5519,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "http://www.twingly.com/feed/",
-      "title": "Twingly",
-      "description": "Social Data with Passion",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.twingly.com/rss",
-      "title": "Twingly",
-      "description": "Social Data with Passion",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.twingly.com/rss/",
       "title": "Twingly",
       "description": "Social Data with Passion",
       "type": "rss",
@@ -5876,13 +5575,6 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "http://www.tableausoftware.com/feed/",
-      "title": "What's New",
-      "description": "Collection of news, tips & tricks, training, entertainment, and happenings around Tableau. Learn, play, and find your own insights.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.tableausoftware.com/rss",
       "title": "What's New",
       "description": "Collection of news, tips & tricks, training, entertainment, and happenings around Tableau. Learn, play, and find your own insights.",
@@ -5891,13 +5583,6 @@
     },
     {
       "url": "http://www.tableausoftware.com/rss.xml",
-      "title": "What's New",
-      "description": "Collection of news, tips & tricks, training, entertainment, and happenings around Tableau. Learn, play, and find your own insights.",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.tableausoftware.com/rss/",
       "title": "What's New",
       "description": "Collection of news, tips & tricks, training, entertainment, and happenings around Tableau. Learn, play, and find your own insights.",
       "type": "rss",
@@ -5932,21 +5617,7 @@
       "category": "Vulnerabilities, CVEs"
     },
     {
-      "url": "http://www.xplico.org/feed/",
-      "title": "Xplico",
-      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
       "url": "http://www.xplico.org/rss",
-      "title": "Xplico",
-      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
-      "type": "rss",
-      "category": "Vulnerabilities, CVEs"
-    },
-    {
-      "url": "http://www.xplico.org/rss/",
       "title": "Xplico",
       "description": "Open Source Network Forensic Analysis Tool (NFAT)",
       "type": "rss",
