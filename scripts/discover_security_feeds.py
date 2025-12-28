@@ -410,7 +410,6 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
         if nurl in blocked_feeds or feed_url.lower() in blocked_feeds:
             continue
         parsed = validate_feed(session, feed_url, timeout=timeout, sleep_s=sleep_s)
-(session, feed_url, timeout=timeout, sleep_s=sleep_s)
         if not parsed:
             continue
 
