@@ -39,6 +39,15 @@ jobs:
           ls -la
           ls -la scripts/discover_security_feeds.py
           python -c "import sys; print(sys.version)"
+      
+      - name: show script size + first lines
+        run: |
+          set -euxo pipefail
+          git rev-parse HEAD
+          git log -1 --oneline
+          ls -la scripts/discover_security_feeds.py
+          wc -c scripts/discover_security_feeds.py
+          sed -n '1,20p' scripts/discover_security_feeds.py
 
       - name: Run feed discovery (unbuffered + verbose)
         run: |
