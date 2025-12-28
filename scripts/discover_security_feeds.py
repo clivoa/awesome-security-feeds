@@ -71,27 +71,16 @@ FEED_HINT_RE = re.compile(r"(rss|atom|feed|\.xml)(\b|$)", re.IGNORECASE)
 
 SECURITY_KEYWORDS = [
     # broad
-    "cve-", "vulnerability", "vuln", "exploit", "0day", "zero-day", "advisory", "patch",
+    "cve", "vulnerability", "vuln", "exploit", "0day", "zero-day", "advisory", "patch",
     "malware", "ransomware", "phishing", "botnet", "trojan", "backdoor", "loader", "infostealer",
     "apt", "threat actor", "intrusion", "breach", "incident", "ioc", "tactic", "technique",
     "reverse engineering", "pwn", "pentest", "red team", "blue team", "dfir", "forensics",
     "edr", "siem", "splunk", "kql", "sigma", "yara",
-    "kubernetes", "docker", "cloud", "aws", "azure", "gcp", "critical vulnerability",
+    "kubernetes", "docker", "cloud", "aws", "azure", "gcp",
     "campaign", "payload", "initial access", "lateral movement", "persistence", "privilege escalation",
-   
     # extra common terms
     "authentication", "bypass", "rce", "remote code execution", "xss", "sqli", "ssrf", "csrf",
-    "privilege escalation", "lpe", "eop",
-    
-    # Supply chain / impacto grande
-    "supply chain attack", "software supply chain",
-    "supply-chain attack",
-
-    # Vazamentos e mega incidentes
-    "major breach", "data leak", "data leaks", "massive leak",
-
-    # Ransom gangs (mais quentes)
-    "ransom gang", "double extortion", "ransom note",
+    "privilege escalation", "denial of service", "data leak", "data exfiltration",
 ]
 
 # Simple category suggestion rules (you can replace later with your SMART_GROUP_RULES)
@@ -107,6 +96,36 @@ CATEGORY_RULES = [
 
 DATA_DIR = "data/discovery"
 OUT_YAML = "feeds/discovered.yaml"
+
+# Candidate bucket files (for PR review).
+CANDIDATE_BUCKET_FILES = {
+    "crypto-and-blockchain-security": "crypto-and-blockchain-security.yaml",
+    "cybercrime-darknet-and-leaks": "cybercrime-darknet-and-leaks.yaml",
+    "dfir-and-forensics": "dfir-and-forensics.yaml",
+    "general-security-and-blogs": "general-security-and-blogs.yaml",
+    "government-cert-and-advisories": "government-cert-and-advisories.yaml",
+    "leaks-and-breaches": "leaks-and-breaches.yaml",
+    "malware-and-threat-research": "malware-and-threat-research.yaml",
+    "osint-communities-and-subreddits": "osint-communities-and-subreddits.yaml",
+    "podcasts-and-youtube": "podcasts-and-youtube.yaml",
+    "vendors-and-product-blogs": "vendors-and-product-blogs.yaml",
+    "vulnerabilities-cves-and-exploits": "vulnerabilities-cves-and-exploits.yaml",
+}
+
+CANDIDATE_BUCKET_LABELS = {
+    "crypto-and-blockchain-security": "Crypto & Blockchain Security",
+    "cybercrime-darknet-and-leaks": "Cybercrime, Darknet & Leaks",
+    "dfir-and-forensics": "DFIR & Forensics",
+    "general-security-and-blogs": "Security (General) & Blogs",
+    "government-cert-and-advisories": "Government / CERT & Advisories",
+    "leaks-and-breaches": "Leaks & Breaches",
+    "malware-and-threat-research": "Malware & Threat Research",
+    "osint-communities-and-subreddits": "OSINT, Communities & Subreddits",
+    "podcasts-and-youtube": "Podcasts & YouTube",
+    "vendors-and-product-blogs": "Vendors & Product Blogs",
+    "vulnerabilities-cves-and-exploits": "Vulnerabilities, CVEs & Exploits",
+}
+
 OUT_CANDIDATES_YAML_DIR = "feeds/_candidates"
 OUT_CANDIDATES_JSON_DIR = "data/discovery/candidates"
 DEFAULT_BLOCKED_DOMAINS = "data/discovery/blocked_domains.txt"
@@ -177,6 +196,112 @@ def slugify(s: str, max_len: int = 50) -> str:
 
 def ensure_dir(path: str) -> None:
     os.makedirs(path, exist_ok=True)
+
+
+def bucket_for_candidate(c: "FeedCandidate") -> str:
+    """Map a candidate to one of the fixed _candidates bucket files."""
+    cat = (c.suggested_category or "").strip().lower()
+    blob = " ".join([
+        (c.title or ""),
+        (c.description or ""),
+        (c.site_url or ""),
+        " ".join(c.matched_keywords or []),
+        cat,
+    ]).lower()
+
+    # Strong signals first
+    if any(k in blob for k in ("crypto", "blockchain", "web3", "defi", "wallet", "exchange")):
+        return "crypto-and-blockchain-security"
+    if any(k in blob for k in ("podcast", "youtube", "video", "episode")):
+        return "podcasts-and-youtube"
+    if any(k in blob for k in ("osint", "subreddit", "reddit", "community", "forum", "discord", "telegram")):
+        return "osint-communities-and-subreddits"
+    if any(k in blob for k in ("darknet", "carding", "fraud", "ransom", "extortion", "leak site", "cybercrime")):
+        return "cybercrime-darknet-and-leaks"
+    if any(k in blob for k in ("breach", "leak", "exposed", "data leak", "compromised")):
+        return "leaks-and-breaches"
+    if any(k in blob for k in ("cert", "cisa", "enisa", "nvd", "advisory", "bulletin", ".gov")):
+        return "government-cert-and-advisories"
+
+    # Category suggestions from rules
+    if any(k in cat for k in ("vulnerab", "cves", "cve", "exploit", "offensive")):
+        return "vulnerabilities-cves-and-exploits"
+    if any(k in cat for k in ("dfir", "forensic")):
+        return "dfir-and-forensics"
+    if any(k in cat for k in ("malware", "ransom", "threat intel", "threat")):
+        return "malware-and-threat-research"
+
+    # Vendor-ish content
+    if any(k in blob for k in ("release", "product", "vendor", "update", "changelog", "patch")):
+        return "vendors-and-product-blogs"
+
+    return "general-security-and-blogs"
+
+
+def write_candidate_yaml_categorized(
+    candidates: list["FeedCandidate"],
+    out_dir: str,
+    only_new: bool,
+    seen: dict,
+    max_new: int = 0,
+) -> int:
+    """Write candidates into fixed bucket YAML files (append/merge; no overwrite).
+
+    Creates/updates files like:
+      feeds/_candidates/vulnerabilities-cves-and-exploits.yaml
+
+    Returns number of *new* items added across all bucket files.
+    """
+    ensure_dir(out_dir)
+
+    # Load current content for each bucket file once
+    bucket_items: dict[str, list[dict]] = {}
+    bucket_seen_urls: dict[str, set[str]] = {}
+    for bucket, fname in CANDIDATE_BUCKET_FILES.items():
+        path = os.path.join(out_dir, fname)
+        existing = load_yaml_list(path)
+        bucket_items[bucket] = existing
+        bucket_seen_urls[bucket] = { (it.get("url") or "").strip() for it in existing if isinstance(it, dict) }
+
+    added_total = 0
+    added_new = 0
+    # Keep stable order: highest score first
+    for c in sorted(candidates, key=lambda x: x.score, reverse=True):
+        if only_new and c.url_hash in seen:
+            continue
+        bucket = bucket_for_candidate(c)
+        url = (c.feed_url or "").strip()
+        if not url or url in bucket_seen_urls[bucket]:
+            continue
+
+        item = candidate_to_yaml_item(c)
+        # Override category to bucket label to make the file self-describing
+        item["category"] = CANDIDATE_BUCKET_LABELS.get(bucket, item.get("category") or "")
+        item["discovery"] = {
+            "discovered_at": c.discovered_at,
+            "score": c.score,
+            "matched_keywords": c.matched_keywords,
+            "discovered_via": c.discovered_via,
+            "url_hash": c.url_hash,
+        }
+        bucket_items[bucket].append(item)
+        bucket_seen_urls[bucket].add(url)
+        added_total += 1
+        added_new += 1
+        if max_new and added_new >= max_new:
+            break
+
+    # Write back (sorted) only if we added something
+    if added_total:
+        for bucket, fname in CANDIDATE_BUCKET_FILES.items():
+            items = bucket_items[bucket]
+            if not items:
+                continue
+            items.sort(key=lambda x: (str(x.get("category") or "").lower(), str(x.get("title") or "").lower(), str(x.get("type") or "").lower(), str(x.get("url") or "")))
+            path = os.path.join(out_dir, fname)
+            save_yaml_list(path, items)
+
+    return added_total
 
 
 def write_candidate_yaml_split(candidates: list["FeedCandidate"], out_dir: str, only_new: bool, seen: dict) -> int:
@@ -522,10 +647,17 @@ def main():
     ap.add_argument("--sleep", type=float, default=0.35)
 
     ap.add_argument("--write-yaml", action="store_true", help="Write/merge feeds/discovered.yaml")
-    ap.add_argument("--write-yaml-split", action="store_true", help="Write one YAML per candidate in feeds/_candidates/ (review-friendly)")
-    ap.add_argument("--yaml-split-dir", default=OUT_CANDIDATES_YAML_DIR, help="Directory for per-feed YAML candidates")
-    ap.add_argument("--write-json-split", action="store_true", help="Write one JSON evidence file per candidate in data/discovery/candidates/")
+    # Candidate outputs (recommended for PR review): categorized bucket files under feeds/_candidates/
+    ap.add_argument("--write-yaml-split", action="store_true", help="Write candidates into category bucket YAML files in feeds/_candidates/ (review-friendly)")
+    ap.add_argument("--write-yaml-per-feed", action="store_true", help="(Legacy) Write one YAML file per candidate (can create many files)")
+    ap.add_argument("--yaml-split-dir", default=OUT_CANDIDATES_YAML_DIR, help="Directory for candidate YAML outputs (default: feeds/_candidates)")
+    ap.add_argument("--max-new-candidates", type=int, default=75, help="Max number of NEW candidate feeds to add to YAML outputs (0=unlimited)")
+
+    # Evidence output
+    ap.add_argument("--write-json-split", action="store_true", help="(Optional) Write one JSON evidence file per candidate (can create many files)")
     ap.add_argument("--json-split-dir", default=OUT_CANDIDATES_JSON_DIR, help="Directory for per-feed JSON evidence")
+
+    # Filters / governance
     ap.add_argument("--blocked-domains-file", default=DEFAULT_BLOCKED_DOMAINS, help="Blocklist of domains to ignore (one per line)")
     ap.add_argument("--blocked-feeds-file", default=DEFAULT_BLOCKED_FEEDS, help="Blocklist of feed URLs to ignore (one per line)")
     ap.add_argument("--only-new", action="store_true", help="Only include URLs never seen before (cache)")
@@ -630,15 +762,22 @@ def main():
             save_yaml_list(OUT_YAML, yaml_items)
             added = len(yaml_items)
 
-    # 6b) Optional: split outputs for review/audit
-    split_yaml_written = 0
+    # 6b) Optional: candidate outputs for PR review / audit
+    split_yaml_added = 0
     split_json_written = 0
     if args.write_yaml_split:
-        split_yaml_written = write_candidate_yaml_split(final, args.yaml_split_dir, args.only_new, seen)
-        print(f"[OK] Wrote YAML candidates (split): {split_yaml_written} → {args.yaml_split_dir}")
+        if args.write_yaml_per_feed:
+            # Legacy mode (many files): one YAML per candidate feed
+            split_yaml_added = write_candidate_yaml_split(final, args.yaml_split_dir, args.only_new, seen)
+            print(f"[OK] Wrote YAML candidates (per-feed): {split_yaml_added} → {args.yaml_split_dir}")
+        else:
+            # Recommended mode: append/merge into fixed category bucket files
+            split_yaml_added = write_candidate_yaml_categorized(final, args.yaml_split_dir, args.only_new, seen, max_new=args.max_new_candidates)
+            print(f"[OK] Updated YAML candidate buckets: +{split_yaml_added} new feeds → {args.yaml_split_dir}")
     if args.write_json_split:
         split_json_written = write_candidate_json_split(final, args.json_split_dir, args.only_new, seen)
-        print(f"[OK] Wrote JSON evidence (split): {split_json_written} → {args.json_split_dir}")
+        print(f"[OK] Wrote JSON evidence (per-feed): {split_json_written} → {args.json_split_dir}")
+
 
 
     # 7) Update seen cache
