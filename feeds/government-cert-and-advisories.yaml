@@ -23,6 +23,16 @@
   title: CXSECURITY Database RSS Feed - CXSecurity.com
   type: rss
   description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://dotdotpwn.blogspot.com/atom.xml
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: atom
+  description: DotDotPwn - The Directory Traversal Fuzzer
+- url: https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: rss
+  description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://www.nodejs-security.com/rss.xml
   category: Government / CERT & Advisories
   title: NodeJS Security & NodeJS Secure Coding's Blog
