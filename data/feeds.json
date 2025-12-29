@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-29T10:22:48.601716+00:00",
-  "total": 765,
+  "generated_at": "2025-12-29T11:12:47.743050+00:00",
+  "total": 768,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -3545,6 +3545,20 @@
       "category": "Government / CERT & Advisories"
     },
     {
+      "url": "https://dotdotpwn.blogspot.com/atom.xml",
+      "title": "DotDotPwn - The Directory Traversal Fuzzer",
+      "description": "DotDotPwn - The Directory Traversal Fuzzer",
+      "type": "atom",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss",
+      "title": "DotDotPwn - The Directory Traversal Fuzzer",
+      "description": "DotDotPwn - The Directory Traversal Fuzzer",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://www.nodejs-security.com/rss.xml",
       "title": "NodeJS Security & NodeJS Secure Coding's Blog",
       "description": "Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver...",
@@ -5298,6 +5312,13 @@
       "url": "https://www.vmware.com/security/advisories.xml",
       "title": "VMware Security Advisory",
       "description": "Vulnerability and exploit updates from VMware Security Advisory.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vuldb.com/?rss.recent",
+      "title": "VulDB Recent Entries",
+      "description": "Recent Entries",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
