@@ -1,0 +1,23 @@
+- url: https://www.dshield.org/dailypodcast.xml
+  category: Podcasts & YouTube
+  title: SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)
+  type: rss
+  description: Daily update on current cyber security threats
+  discovery:
+    discovered_at: '2025-12-29T07:45:41.587251Z'
+    score: 30
+    matched_keywords:
+    - advisory
+    - cloud
+    - cve
+    - exploit
+    - malware
+    - patch
+    - phishing
+    - pwn
+    - rce
+    - vuln
+    - vulnerability
+    - xss
+    discovered_via: rel=alternate
+    url_hash: 0f7c713fde1906eee012036f982006a1911176fa

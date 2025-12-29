@@ -1,0 +1,335 @@
+- url: https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss
+  category: Government / CERT & Advisories
+  title: Aircrack-ng
+  type: rss
+  description: Official Aircrack-ng blog
+  discovery:
+    discovered_at: '2025-12-29T07:51:13.233866Z'
+    score: 32
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - cloud
+    - cve
+    - docker
+    - exploit
+    - gcp
+    - loader
+    - patch
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: a03485b8f1e23757b507a74851da69b99b9579d3
+- url: https://snyk.io/blog/feed
+  category: Government / CERT & Advisories
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+  discovery:
+    discovered_at: '2025-12-29T07:00:20.853821Z'
+    score: 21
+    matched_keywords:
+    - advisory
+    - aws
+    - cloud
+    - cve
+    - patch
+    - rce
+    - remote code execution
+    - vuln
+    discovered_via: common_path
+    url_hash: 111e8a095069b80f96cb13decec3661287b0e045
+- url: https://snyk.io/blog/feed.xml
+  category: Government / CERT & Advisories
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+  discovery:
+    discovered_at: '2025-12-29T07:00:26.541489Z'
+    score: 21
+    matched_keywords:
+    - advisory
+    - aws
+    - cloud
+    - cve
+    - patch
+    - rce
+    - remote code execution
+    - vuln
+    discovered_via: common_path
+    url_hash: 960286f6a31fe6b6df2f784bbabeb3a1fb4827c2
+- url: http://www.clamav.net/feed
+  category: Government / CERT & Advisories
+  title: ClamAV® blog
+  type: atom
+  description: The leading open source anti-malware software, brought to you by Sourcefire.
+  discovery:
+    discovered_at: '2025-12-29T07:03:39.642137Z'
+    score: 35
+    matched_keywords:
+    - advisory
+    - authentication
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - docker
+    - exploit
+    - malware
+    - patch
+    - phishing
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: c0489b3e3013e9d2cb7de59cc076232f4dd92fa0
+- url: https://cxsecurity.com/wlb/rss/all/
+  category: Government / CERT & Advisories
+  title: CXSECURITY Database RSS Feed - CXSecurity.com
+  type: rss
+  description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
+  discovery:
+    discovered_at: '2025-12-29T07:47:32.177520Z'
+    score: 23
+    matched_keywords:
+    - advisory
+    - backdoor
+    - cve
+    - exploit
+    - forensics
+    - rce
+    - vuln
+    - vulnerability
+    - xss
+    discovered_via: rel=alternate
+    url_hash: c156b6582f9648ea05c1b1fc9ba511e409fb56bf
+- url: https://dotdotpwn.blogspot.com/atom.xml
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: atom
+  description: DotDotPwn - The Directory Traversal Fuzzer
+  discovery:
+    discovered_at: '2025-12-29T07:01:31.468710Z'
+    score: 21
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - bypass
+    - exploit
+    - payload
+    - pentest
+    - pwn
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 387b89e3956c6b3283ef1bce03465e2b39d678df
+- url: https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: rss
+  description: DotDotPwn - The Directory Traversal Fuzzer
+  discovery:
+    discovered_at: '2025-12-29T07:01:31.016846Z'
+    score: 21
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - bypass
+    - exploit
+    - payload
+    - pentest
+    - pwn
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 64484d537e0be9dbc4be6d0bbb545f419c8b8d56
+- url: https://offsec.com/rss.xml?utm_source=offsec/
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+  discovery:
+    discovered_at: '2025-12-29T07:49:44.344845Z'
+    score: 29
+    matched_keywords:
+    - apt
+    - blue team
+    - cve
+    - exploit
+    - incident
+    - payload
+    - pentest
+    - rce
+    - red team
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 5a37a108474c638c909a395707dc8cfbcd217679
+- url: https://www.offensive-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+  discovery:
+    discovered_at: '2025-12-29T07:49:49.585153Z'
+    score: 29
+    matched_keywords:
+    - apt
+    - blue team
+    - cve
+    - exploit
+    - incident
+    - payload
+    - pentest
+    - rce
+    - red team
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 2910dc926ac9523d2d037eb5ab66692db28a8475
+- url: https://www.qubes-os.org/feed
+  category: Government / CERT & Advisories
+  title: Qubes OS
+  type: rss
+  description: Qubes is a security-oriented, free and open-source operating system
+    for personal computers that allows you to securely compartmentalize your digital
+    life.
+  discovery:
+    discovered_at: '2025-12-29T07:03:08.437504Z'
+    score: 22
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - backdoor
+    - patch
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: f2a7bdd437feeee8503f9854bf7cdd4e3105fd65
+- url: https://www.qubes-os.org/feed.xml
+  category: Government / CERT & Advisories
+  title: Qubes OS
+  type: rss
+  description: Qubes is a security-oriented, free and open-source operating system
+    for personal computers that allows you to securely compartmentalize your digital
+    life.
+  discovery:
+    discovered_at: '2025-12-29T07:03:06.415414Z'
+    score: 22
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - backdoor
+    - patch
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: d33cfc2bb0c9c63d1af9128892aef884043d0561
+- url: https://cxsecurity.com/wlb/rss/vulnerabilities/
+  category: Government / CERT & Advisories
+  title: Vulnerabilities Database - CXSecurity.com
+  type: rss
+  description: Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com
+  discovery:
+    discovered_at: '2025-12-29T07:47:30.952532Z'
+    score: 25
+    matched_keywords:
+    - advisory
+    - backdoor
+    - cve
+    - exploit
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    - xss
+    discovered_via: rel=alternate
+    url_hash: f3561ef751b6d70d788081121e2e20ad8075a5f7
+- url: http://zerodayinitiative.com/blog/atom.xml
+  category: Government / CERT & Advisories
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2025-12-29T08:03:35.503222Z'
+    score: 54
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - data exfiltration
+    - denial of service
+    - docker
+    - edr
+    - exploit
+    - intrusion
+    - lateral movement
+    - loader
+    - malware
+    - patch
+    - payload
+    - persistence
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    discovered_via: common_path
+    url_hash: 733acab2b6a19a53cf2b41150a67a30affc5a70e
+- url: http://zerodayinitiative.com/blog/rss.xml
+  category: Government / CERT & Advisories
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2025-12-29T08:03:33.423250Z'
+    score: 54
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - data exfiltration
+    - denial of service
+    - docker
+    - edr
+    - exploit
+    - intrusion
+    - lateral movement
+    - loader
+    - malware
+    - patch
+    - payload
+    - persistence
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    discovered_via: common_path
+    url_hash: a9f281c5c6c4728ced687ff7e37bbc2b4b8a2b21
