@@ -1,0 +1,45 @@
+name: Build Awesome feed table
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "feeds/**.yaml"
+      - "scripts/build_awesome_page.py"
+      - ".github/workflows/build_awesome_page.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Generate docs/awesome-feeds.md
+        run: |
+          python scripts/build_awesome_page.py --out docs/awesome-feeds.md
+
+      - name: Commit changes (if any)
+        run: |
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/awesome-feeds.md
+          git commit -m "docs: update awesome feed table"
+          git push
