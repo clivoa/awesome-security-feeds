@@ -1,7 +1,21 @@
 {
-  "generated_at": "2025-12-29T08:55:58.562765+00:00",
-  "total": 701,
+  "generated_at": "2025-12-29T10:22:48.601716+00:00",
+  "total": 765,
   "feeds": [
+    {
+      "url": "https://aboutdfir.com/feed",
+      "title": "AboutDFIR – The Definitive Compendium Project",
+      "description": "Digital Forensics / Incident Response",
+      "type": "rss",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://aboutdfir.com/rss",
+      "title": "AboutDFIR – The Definitive Compendium Project",
+      "description": "Digital Forensics / Incident Response",
+      "type": "rss",
+      "category": "Crypto & Blockchain Security"
+    },
     {
       "url": "https://cointelegraph.com/rss",
       "title": "Cointelegraph.com News",
@@ -17,16 +31,51 @@
       "category": "Crypto & Blockchain Security"
     },
     {
-      "url": "http://garwarner.blogspot.com/feeds/posts/default",
+      "url": "https://kb.cert.org/vuls/atomfeed",
+      "title": "CERT Recently Published Vulnerability Notes",
+      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. Many vulnerability notes are the...",
+      "type": "atom",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.kb.cert.org/vuls/atomfeed",
+      "title": "CERT Recently Published Vulnerability Notes",
+      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. Many vulnerability notes are the...",
+      "type": "atom",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://garwarner.blogspot.com/feeds/posts/default",
       "title": "CyberCrime & Doing Time",
       "description": "Cybercrime and underground ecosystem coverage from CyberCrime & Doing Time.",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
-      "url": "http://feeds.feedburner.com/OfficeOfInadequateSecurity",
+      "url": "https://feeds.feedburner.com/OfficeOfInadequateSecurity",
       "title": "DataBreaches.net",
       "description": "RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks news and updates.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://binalyze.com/blog/rss.xml",
+      "title": "Digital Forensics Blog - Binalyze",
+      "description": "Stay updated with the latest news in automated investigations, incident response and digital forensics on our blog.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://eternal-todo.com/rss.xml",
+      "title": "eternal-todo.com",
+      "description": "Updates from eternal-todo.com covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://eternal-todo.com/blog/feed",
+      "title": "eternal-todo.com blogs",
+      "description": "Updates from eternal-todo.com blogs covering vulnerabilities, cves.",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -45,7 +94,84 @@
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
-      "url": "http://www.guardian.co.uk/technology/cybercrime/rss",
+      "url": "https://nostarch.com/blog/feed",
+      "title": "No Starch Press Blog",
+      "description": "Updates from No Starch Press Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://objective-see.com/rss",
+      "title": "Objective-See's Blog",
+      "description": "All Things Related to Mac Security",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://objective-see.com/rss.xml",
+      "title": "Objective-See's Blog",
+      "description": "All Things Related to Mac Security",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://riskanalytics.com/feed",
+      "title": "RiskAnalytics",
+      "description": "Cybersecurity. Simplified",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/blog/index.xml",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/feed",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/rss",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/rss.xml",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/rss/index.xml",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://feeds.feedburner.com/scdashboards",
+      "title": "Tenable Security Center dashboards",
+      "description": "Updates from Tenable Security Center dashboards covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://feeds.feedburner.com/securitycenterreporttemplates",
+      "title": "Tenable Security Center templates",
+      "description": "Updates from Tenable Security Center templates covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.guardian.co.uk/technology/cybercrime/rss",
       "title": "The Guardian Cybercrime",
       "description": "Cybercrime and underground ecosystem coverage from The Guardian Cybercrime.",
       "type": "rss",
@@ -66,21 +192,21 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://blog.ampedsoftware.com/feed",
+      "url": "https://blog.ampedsoftware.com/feed",
       "title": "Amped Blog",
       "description": "DFIR and forensics content from Amped Blog.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://az4n6.blogspot.com/feeds/posts/default",
+      "url": "https://az4n6.blogspot.com/feeds/posts/default",
       "title": "Another Forensics Blog",
       "description": "DFIR and forensics content from Another Forensics Blog.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://feeds.feedburner.com/brettshavers/oSyq",
+      "url": "https://feeds.feedburner.com/brettshavers/oSyq",
       "title": "Brett Shavers",
       "description": "RSS feed for Brett Shavers, covering dfir & forensics news and updates.",
       "type": "rss",
@@ -94,7 +220,7 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://cheeky4n6monkey.blogspot.com/feeds/posts/default",
+      "url": "https://cheeky4n6monkey.blogspot.com/feeds/posts/default",
       "title": "Cheeky4n6Monkey",
       "description": "DFIR and forensics content from Cheeky4n6Monkey.",
       "type": "rss",
@@ -150,35 +276,35 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://doubleblak.com/blogRSS.xml",
+      "url": "https://doubleblak.com/blogRSS.xml",
       "title": "DoubleBlak",
       "description": "DFIR and forensics content from DoubleBlak.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "https://forensic4cast.com/tag/forensics/feed/",
+      "url": "https://forensic4cast.com/tag/forensics/feed",
       "title": "Forensic 4:cast",
       "description": "DFIR and forensics content from Forensic 4:cast.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://www.forensicfocus.com/rss/news2.php",
+      "url": "https://www.forensicfocus.com/rss/news2.php",
       "title": "Forensic Focus",
       "description": "DFIR and forensics content from Forensic Focus.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://forensicphotoshop.blogspot.com/feeds/posts/default",
+      "url": "https://forensicphotoshop.blogspot.com/feeds/posts/default",
       "title": "Forensic Multimedia Analysis Blog",
       "description": "DFIR and forensics content from Forensic Multimedia Analysis Blog.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default",
+      "url": "https://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default",
       "title": "HECFblog",
       "description": "DFIR and forensics content from HECFblog.",
       "type": "rss",
@@ -199,14 +325,14 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://abrignoni.blogspot.com/feeds/posts/default",
+      "url": "https://abrignoni.blogspot.com/feeds/posts/default",
       "title": "Initialization Vectors",
       "description": "DFIR and forensics content from Initialization Vectors.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://www.mac4n6.com/blog?format=rss",
+      "url": "https://www.mac4n6.com/blog?format=rss",
       "title": "mac4n6",
       "description": "DFIR and forensics content from mac4n6.",
       "type": "rss",
@@ -248,14 +374,14 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://www.sleuthkit.org/rss.xml",
+      "url": "https://www.sleuthkit.org/rss.xml",
       "title": "sleuthkit.org Updates",
       "description": "DFIR and forensics content from sleuthkit.org Updates.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://smarterforensics.com/feed",
+      "url": "https://smarterforensics.com/feed",
       "title": "Smarter Forensics",
       "description": "DFIR and forensics content from Smarter Forensics.",
       "type": "rss",
@@ -276,14 +402,14 @@
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://tisiphone.net/feed",
+      "url": "https://tisiphone.net/feed",
       "title": "tisiphone.net",
       "description": "DFIR and forensics content from tisiphone.net.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
     {
-      "url": "http://windowsir.blogspot.com/feeds/posts/default",
+      "url": "https://windowsir.blogspot.com/feeds/posts/default",
       "title": "Windows Incident Response",
       "description": "DFIR and forensics content from Windows Incident Response.",
       "type": "rss",
@@ -353,7 +479,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "https://www.bleepingcomputer.com/feed/",
+      "url": "https://www.bleepingcomputer.com/feed",
       "title": "BleepingComputer",
       "description": "News, research, and updates on general security & blogs from BleepingComputer.",
       "type": "rss",
@@ -500,21 +626,21 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://antirez.com/rss",
+      "url": "https://antirez.com/rss",
       "title": "http://antirez.com/rss",
       "description": "News, research, and updates on general security & blogs from http://antirez.com/rss.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/blogspot/ofozM",
+      "url": "https://feeds.feedburner.com/blogspot/ofozM",
       "title": "http://feeds.feedburner.com/blogspot/ofozM",
       "description": "RSS feed for http://feeds.feedburner.com/blogspot/ofozM, covering general security & blogs news and updates.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/Clamav",
+      "url": "https://feeds.feedburner.com/Clamav",
       "title": "http://feeds.feedburner.com/Clamav",
       "description": "RSS feed for http://feeds.feedburner.com/Clamav, covering general security & blogs news and updates.",
       "type": "rss",
@@ -528,7 +654,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/GynvaelColdwindPL",
+      "url": "https://feeds.feedburner.com/GynvaelColdwindPL",
       "title": "http://feeds.feedburner.com/GynvaelColdwindPL",
       "description": "RSS feed for http://feeds.feedburner.com/GynvaelColdwindPL, covering general security & blogs news and updates.",
       "type": "rss",
@@ -3076,7 +3202,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure",
+      "url": "https://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure",
       "title": "Lohrmann on Cybersecurity",
       "description": "RSS feed for Lohrmann on Cybersecurity, covering general security & blogs news and updates.",
       "type": "rss",
@@ -3090,7 +3216,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://marcushutchins.com/feed.xml",
+      "url": "https://marcushutchins.com/feed.xml",
       "title": "Marcus Hutchins",
       "description": "News, research, and updates on general security & blogs from Marcus Hutchins.",
       "type": "rss",
@@ -3293,7 +3419,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://www.techrepublic.com/rssfeeds/topic/security?feedType=rssfeeds",
+      "url": "https://www.techrepublic.com/rssfeeds/topic/security?feedType=rssfeeds",
       "title": "TechRepublic – Security",
       "description": "News, research, and updates on general security & blogs from TechRepublic.",
       "type": "rss",
@@ -3363,7 +3489,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "http://www.carbonblack.com/feed",
+      "url": "https://www.carbonblack.com/feed",
       "title": "VMware Carbon Black Blog",
       "description": "News, research, and updates on general security & blogs from VMware Carbon Black Blog.",
       "type": "rss",
@@ -3382,6 +3508,97 @@
       "description": "News, research, and updates on general security & blogs from ZDNet.",
       "type": "rss",
       "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss",
+      "title": "Aircrack-ng",
+      "description": "Official Aircrack-ng blog",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://snyk.io/blog/feed",
+      "title": "Blog RSS Feed | Snyk",
+      "description": "Developer Security Platform",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://snyk.io/blog/feed.xml",
+      "title": "Blog RSS Feed | Snyk",
+      "description": "Developer Security Platform",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.clamav.net/feed",
+      "title": "ClamAV® blog",
+      "description": "The leading open source anti-malware software, brought to you by Sourcefire.",
+      "type": "atom",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://cxsecurity.com/wlb/rss/all",
+      "title": "CXSECURITY Database RSS Feed - CXSecurity.com",
+      "description": "CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.nodejs-security.com/rss.xml",
+      "title": "NodeJS Security & NodeJS Secure Coding's Blog",
+      "description": "Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver...",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://offsec.com/rss.xml?utm_source=offsec",
+      "title": "OffSec RSS Feed",
+      "description": "Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today!",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.offensive-security.com/rss.xml",
+      "title": "OffSec RSS Feed",
+      "description": "Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today!",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.qubes-os.org/feed",
+      "title": "Qubes OS",
+      "description": "Qubes is a security-oriented, free and open-source operating system for personal computers that allows you to securely compartmentalize your digital life.",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.qubes-os.org/feed.xml",
+      "title": "Qubes OS",
+      "description": "Qubes is a security-oriented, free and open-source operating system for personal computers that allows you to securely compartmentalize your digital life.",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://cxsecurity.com/wlb/rss/vulnerabilities",
+      "title": "Vulnerabilities Database - CXSecurity.com",
+      "description": "Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://zerodayinitiative.com/blog/atom.xml",
+      "title": "Zero Day Initiative - Blog",
+      "description": "Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://zerodayinitiative.com/blog/rss.xml",
+      "title": "Zero Day Initiative - Blog",
+      "description": "Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
     },
     {
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
@@ -3545,14 +3762,84 @@
       "category": "Government, CERT & Advisories"
     },
     {
-      "url": "http://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches",
+      "url": "https://www.cisa.gov/rss.xml",
+      "title": "Cybersecurity and Infrastructure Security Agency CISA",
+      "description": "Updates from Cybersecurity and Infrastructure Security Agency CISA covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches",
       "title": "Have I Been Pwned – Latest Breaches",
       "description": "RSS feed for Have I Been Pwned, covering leaks & breaches news and updates.",
       "type": "rss",
       "category": "Leaks & Breaches"
     },
     {
-      "url": "http://threatstream.com/site/blog-rss",
+      "url": "https://www.maltego.com/index.xml",
+      "title": "Maltego Blog RSS Feed",
+      "description": "Subscribe to our RSS feed to stay up to date with what's fresh in the Maltego world.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://owasp.org/feed",
+      "title": "OWASP",
+      "description": "OWASP Foundation main site repository",
+      "type": "atom",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.owasp.org/feed",
+      "title": "OWASP",
+      "description": "OWASP Foundation main site repository",
+      "type": "atom",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.owasp.org/feed.xml",
+      "title": "OWASP",
+      "description": "OWASP Foundation main site repository",
+      "type": "atom",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.rapid7.com/blog/rss",
+      "title": "Rapid7 Cybersecurity Blog",
+      "description": "Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.rapid7.com/rss.xml",
+      "title": "Rapid7 Cybersecurity Blog",
+      "description": "Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://feeds.feedburner.com/tenable/qaXL",
+      "title": "Tenable Blog",
+      "description": "Updates from Tenable Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.tenable.com/blog/atom.xml",
+      "title": "Tenable Blog",
+      "description": "Updates from Tenable Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://tenable.com/feed/news",
+      "title": "Tenable News Feed",
+      "description": "Updates from Tenable News Feed covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://threatstream.com/site/blog-rss",
       "title": "Anomali ThreatStream Blog",
       "description": "Malware and threat research updates from Anomali ThreatStream Blog.",
       "type": "rss",
@@ -3573,7 +3860,7 @@
       "category": "Malware & Threat Research"
     },
     {
-      "url": "http://www.clearskysec.com/feed",
+      "url": "https://www.clearskysec.com/feed",
       "title": "ClearSky Cyber Security",
       "description": "Malware and threat research updates from ClearSky Cyber Security.",
       "type": "rss",
@@ -3762,14 +4049,14 @@
       "category": "Malware & Threat Research"
     },
     {
-      "url": "http://feeds.trendmicro.com/TrendMicroResearch",
+      "url": "https://feeds.trendmicro.com/TrendMicroResearch",
       "title": "Trend Micro Research",
       "description": "Malware and threat research updates from Trend Micro Research.",
       "type": "rss",
       "category": "Malware & Threat Research"
     },
     {
-      "url": "http://www.virusbtn.com/library/feeds/news.rdf",
+      "url": "https://www.virusbtn.com/library/feeds/news.rdf",
       "title": "Virus Bulletin Blog",
       "description": "Malware and threat research updates from Virus Bulletin Blog.",
       "type": "rss",
@@ -3797,9 +4084,30 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
-      "url": "http://www.reddit.com/r/netsec/.rss",
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "title": "/r/netsec",
       "description": "OSINT resources and community updates from /r/netsec.",
+      "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://dtag-dev-sec.github.io/feed",
+      "title": "DTAG Community Honeypot Project",
+      "description": "Updates from DTAG Community Honeypot Project covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://dtag-dev-sec.github.io/feed.xml",
+      "title": "DTAG Community Honeypot Project",
+      "description": "Updates from DTAG Community Honeypot Project covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://seclists.org/rss/fulldisclosure.rss",
+      "title": "Full Disclosure",
+      "description": "A public, vendor-neutral forum for detailed discussion of vulnerabilities and exploitation techniques, as well as tools, papers, news, and events of interest to the community. The relaxed atmosphere of this quirky lis...",
       "type": "rss",
       "category": "OSINT, Communities & Subreddits"
     },
@@ -3842,6 +4150,13 @@
       "url": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
       "title": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
       "description": "Security podcasts and talks from https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml.",
+      "type": "rss",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.dshield.org/dailypodcast.xml",
+      "title": "SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)",
+      "description": "Daily update on current cyber security threats",
       "type": "rss",
       "category": "Podcasts & YouTube"
     },
@@ -4035,7 +4350,7 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://eset.com/int/rss.xml",
+      "url": "https://eset.com/int/rss.xml",
       "title": "ESET – We Live Security (Vendor)",
       "description": "Vendor security updates, advisories, and guidance from ESET.",
       "type": "rss",
@@ -4049,14 +4364,14 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://www.fireeye.com/blog/feed",
+      "url": "https://www.fireeye.com/blog/feed",
       "title": "FireEye Blog",
       "description": "Vendor security updates, advisories, and guidance from FireEye Blog.",
       "type": "rss",
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://feeds.feedburner.com/fortinet/blog/threat-research",
+      "url": "https://feeds.feedburner.com/fortinet/blog/threat-research",
       "title": "Fortinet Threat Research (Vendor)",
       "description": "RSS feed for Fortinet Threat Research (Vendor), covering vendors & product blogs news and updates.",
       "type": "rss",
@@ -4448,14 +4763,14 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://researchcenter.paloaltonetworks.com/unit42/feed",
+      "url": "https://researchcenter.paloaltonetworks.com/unit42/feed",
       "title": "Palo Alto Networks Unit 42",
       "description": "Vendor security updates, advisories, and guidance from Palo Alto Networks Unit 42.",
       "type": "rss",
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://blog.phishlabs.com/rss.xml",
+      "url": "https://blog.phishlabs.com/rss.xml",
       "title": "PhishLabs Blog",
       "description": "Vendor security updates, advisories, and guidance from PhishLabs Blog.",
       "type": "rss",
@@ -4672,7 +4987,7 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://feeds.trendmicro.com/TrendMicroSimplySecurity",
+      "url": "https://feeds.trendmicro.com/TrendMicroSimplySecurity",
       "title": "Trend Micro Simply Security",
       "description": "Vendor security updates, advisories, and guidance from Trend Micro Simply Security.",
       "type": "rss",
@@ -4721,7 +5036,7 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "http://www.veracode.com/blog/feed",
+      "url": "https://www.veracode.com/blog/feed",
       "title": "Veracode Security Blog",
       "description": "Vendor security updates, advisories, and guidance from Veracode Security Blog.",
       "type": "rss",
@@ -4770,9 +5085,37 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.misp-project.org/blog/feed.xml",
+      "title": "Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
+      "description": "Recent content in Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://bugalert.org/feeds/all.atom.xml",
       "title": "Bug Alert",
       "description": "Vulnerability and exploit updates from Bug Alert.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.cipherdyne.org/atom.xml",
+      "title": "cipherdyne.org | System and Network Security",
+      "description": "Updates from cipherdyne.org | System and Network Security covering vulnerabilities, cves.",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.cipherdyne.org/index.xml",
+      "title": "cipherdyne.org | System and Network Security",
+      "description": "The network and system security blog of Michael Rash",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.cipherdyne.org/rss.xml",
+      "title": "cipherdyne.org | System and Network Security",
+      "description": "The network and system security blog of Michael Rash",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -4833,6 +5176,20 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://falco.org/feed.xml",
+      "title": "Falco – Falco",
+      "description": "Recent content on Falco",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://falco.org/blog/feed.xml",
+      "title": "Falco – The Falco blog",
+      "description": "Recent content in The Falco blog on Falco",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://blog.exploits.club/rss",
       "title": "https://blog.exploits.club/rss/",
       "description": "Vulnerability and exploit updates from https://blog.exploits.club/rss/.",
@@ -4875,6 +5232,62 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.kali.org/feed",
+      "title": "Kali Linux",
+      "description": "Home of Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.kali.org/rss.xml",
+      "title": "Kali Linux",
+      "description": "Home of Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.misp-project.org/feed.xml",
+      "title": "MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
+      "description": "Recent content on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://ridiculousfish.com/blog/atom.xml",
+      "title": "ridiculous_fish",
+      "description": "Updates from ridiculous_fish covering vulnerabilities, cves.",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://blog.securityonion.net/atom.xml",
+      "title": "Security Onion",
+      "description": "Peel Back the Layers of Your Enterprise",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://blog.securityonion.net/feeds/posts/default",
+      "title": "Security Onion",
+      "description": "Peel Back the Layers of Your Enterprise",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://blog.securityonion.net/feeds/posts/default?alt=rss",
+      "title": "Security Onion",
+      "description": "Peel Back the Layers of Your Enterprise",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://blog.securityonion.net/rss.xml",
+      "title": "Security Onion",
+      "description": "Peel Back the Layers of Your Enterprise",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://sploitus.com/rss",
       "title": "Sploitus – Exploits",
       "description": "Vulnerability and exploit updates from Sploitus.",
@@ -4885,6 +5298,13 @@
       "url": "https://www.vmware.com/security/advisories.xml",
       "title": "VMware Security Advisory",
       "description": "Vulnerability and exploit updates from VMware Security Advisory.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vuldb.com/?rss.updates",
+      "title": "VulDB Updates",
+      "description": "Updates",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -4900,6 +5320,34 @@
       "title": "Vulnerability Lab",
       "description": "Vulnerability and exploit updates from Vulnerability Lab.",
       "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vulners.com/rss.xml",
+      "title": "Vulners.com RSS Feed",
+      "description": "The latest security news and vulnerability data",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://wpscan.com/feed",
+      "title": "WPScan",
+      "description": "Updates from WPScan covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.netsparker.com/blog/web-security/rss.xml",
+      "title": "www.netsparker.com",
+      "description": "Updates from www.netsparker.com covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://x64dbg.com/blog/atom.xml",
+      "title": "x64dbg",
+      "description": "Updates from x64dbg covering vulnerabilities, cves.",
+      "type": "atom",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
