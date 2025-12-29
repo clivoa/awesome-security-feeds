@@ -43,6 +43,21 @@ jobs:
             --yaml-split-dir feeds/_candidates \
             --max-new-candidates 75
 
+      - name: Upload discovery state (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-state
+          path: |
+            data/discovery/feeds_candidates.json
+            data/discovery/feeds_seen.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Cleanup discovery JSON (keep only as artifact)
+        run: |
+          rm -f data/discovery/feeds_candidates.json data/discovery/feeds_seen.json || true
+
       - name: Detect changes
         id: git-check
         run: |
@@ -73,3 +88,5 @@ jobs:
 
             Score threshold: **9**
           labels: discovery, feeds, review-required
+          add-paths: |
+            feeds/_candidates/*.yaml

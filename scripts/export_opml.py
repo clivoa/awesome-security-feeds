@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
-"""
-Export feeds/*.yaml into an OPML (sec_feeds.xml-like) file.
+"""Export feeds/*.yaml into an OPML (sec_feeds.xml-like) file.
 
 Input:  feeds/*.yaml (list of dicts with url, title, description, type, category)
-Output: sec_feeds.xml (OPML 2.0) with category outlines + feed outlines
+Output: OPML 2.0 with category outlines + feed outlines
 
 Optional: Promote candidate feeds from feeds/_candidates/*.yaml into the main
 feeds/*.yaml files (deduped), then (optionally) remove the candidate files.
 
+Optional: Cleanup discovery JSON state files (data/discovery/feeds_candidates.json
+and data/discovery/feeds_seen.json). This is safe even when files don't exist.
+
 Usage:
   python scripts/export_opml.py --out sec_feeds.xml
-  python scripts/export_opml.py --feeds-dir feeds --out sec_feeds.xml --title "S33R Security Feeds"
+  python scripts/export_opml.py --feeds-dir feeds --out sec_feeds.xml --title "Awesome Security Feeds"
 
   # Promote candidates → main YAMLs (deduped) + clean up candidate bucket files
   python scripts/export_opml.py --feeds-dir feeds --promote-candidates --cleanup-candidates --out sec_feeds.xml
+
+  # ...and optionally remove discovery JSON state files
+  python scripts/export_opml.py --feeds-dir feeds --promote-candidates --cleanup-candidates --cleanup-discovery --out sec_feeds.xml
 """
 
 from __future__ import annotations
@@ -93,12 +98,10 @@ def load_candidate_files(feeds_dir: Path) -> List[Path]:
 
 
 def promote_candidates(feeds_dir: Path, cleanup: bool = False) -> Tuple[int, int]:
-    """
-    Promote candidates from feeds/_candidates/*.yaml into feeds/*.yaml.
+    """Promote candidates from feeds/_candidates/*.yaml into feeds/*.yaml.
 
     - Dedupes by normalized URL (global dedupe across ALL main YAMLs)
-    - Writes updated/created category files in feeds/*.yaml
-    - Candidate-only fields (e.g., 'discovery') are dropped
+    - Writes updated/created bucket files in feeds/*.yaml (bucket filename matches)
     - If cleanup=True, deletes processed candidate bucket files
 
     Returns: (added_count, removed_candidate_files_count)
@@ -123,7 +126,7 @@ def promote_candidates(feeds_dir: Path, cleanup: bool = False) -> Tuple[int, int
     for cand_path in cand_files:
         cand_items = _load_yaml_list(cand_path)
 
-        target_path = feeds_dir / cand_path.name  # bucket name matches category file name
+        target_path = feeds_dir / cand_path.name  # same bucket name
         target_items = main_by_file.get(target_path)
         if target_items is None:
             target_items = []
@@ -137,9 +140,8 @@ def promote_candidates(feeds_dir: Path, cleanup: bool = False) -> Tuple[int, int
             target_items.append(it)
             added += 1
 
-    # Write updated main YAMLs (including any newly created ones).
+    # Write updated main YAMLs (including newly created ones).
     for path, items in sorted(main_by_file.items(), key=lambda kv: kv[0].name):
-        # Stable-ish ordering: category then title then url
         items_sorted = sorted(
             (_ordered_item(it) for it in items),
             key=lambda d: (
@@ -173,7 +175,7 @@ def promote_candidates(feeds_dir: Path, cleanup: bool = False) -> Tuple[int, int
 
 
 def dedupe_by_url(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    seen = set()
+    seen: set[str] = set()
     out: List[Dict[str, Any]] = []
     for it in items:
         u = norm_url(it.get("url", ""))
@@ -191,8 +193,8 @@ def group_by_category(items: List[Dict[str, Any]]) -> List[Tuple[str, List[Dict[
     for it in items:
         cat = clean_text(str(it.get("category", ""))) or "Uncategorized"
         groups[cat].append(it)
-    # sort categories, then feeds by title
-    grouped = []
+
+    grouped: List[Tuple[str, List[Dict[str, Any]]]] = []
     for cat in sorted(groups.keys(), key=lambda s: s.lower()):
         feeds = sorted(groups[cat], key=lambda d: (d.get("title") or "").lower())
         grouped.append((cat, feeds))
@@ -208,7 +210,7 @@ def load_active_urls(status_path: Path) -> set[str]:
     except Exception:
         return set()
     results = data.get("results") or {}
-    active = set()
+    active: set[str] = set()
     if isinstance(results, dict):
         for url, info in results.items():
             try:
@@ -225,7 +227,7 @@ def opml_outline_feed(it: Dict[str, Any]) -> str:
     html_url = it.get("url") or ""
     ftype = clean_text(it.get("type") or "rss")
     desc = clean_text(it.get("description") or "")
-    # escape minimal XML entities
+
     def esc(x: str) -> str:
         return (
             x.replace("&", "&amp;")
@@ -276,17 +278,23 @@ def build_opml(title: str, grouped: List[Tuple[str, List[Dict[str, Any]]]]) -> s
     return "\n".join(lines) + "\n"
 
 
-
 DISCOVERY_FILES = [
     Path("data/discovery/feeds_candidates.json"),
     Path("data/discovery/feeds_seen.json"),
 ]
 
-def cleanup_discovery_files():
+
+def cleanup_discovery_files() -> int:
+    removed = 0
     for path in DISCOVERY_FILES:
-        if path.exists():
-            path.unlink()
-            print(f"[CLEANUP] Removed {path}")
+        try:
+            if path.exists():
+                path.unlink()
+                removed += 1
+                print(f"[CLEANUP] Removed {path}")
+        except Exception:
+            pass
+    return removed
 
 
 def main() -> None:
@@ -310,11 +318,12 @@ def main() -> None:
         action="store_true",
         help="When used with --promote-candidates, delete processed candidate bucket files",
     )
-    parser.add_argument(
-    "--cleanup-discovery",
-    action="store_true",
-    help="Remove discovery artifacts after promotion (feeds_candidates.json, feeds_seen.json)"
+    ap.add_argument(
+        "--cleanup-discovery",
+        action="store_true",
+        help="Remove discovery artifacts after promotion (feeds_candidates.json, feeds_seen.json)",
     )
+
     args = ap.parse_args()
 
     feeds_dir = Path(args.feeds_dir)
@@ -326,8 +335,10 @@ def main() -> None:
         added, removed = promote_candidates(feeds_dir, cleanup=args.cleanup_candidates)
         print(f"[OK] Promoted {added} candidate feed(s) into feeds/*.yaml (removed candidate files: {removed})")
 
-    if args.promote_candidates and args.cleanup_discovery:
-        cleanup_discovery_files()
+        if args.cleanup_discovery:
+            removed_json = cleanup_discovery_files()
+            if removed_json:
+                print(f"[OK] Removed {removed_json} discovery JSON file(s)")
 
     items = load_yaml_feeds(feeds_dir)
     items = dedupe_by_url(items)
@@ -335,9 +346,7 @@ def main() -> None:
     if args.status == "active":
         active_urls = load_active_urls(Path("data") / "feed_status.json")
         if not active_urls:
-            print(
-                "[WARN] args.status=active but no active URLs found (missing/empty feed_status.json) — exporting 0 feeds"
-            )
+            print("[WARN] args.status=active but no active URLs found (missing/empty feed_status.json) — exporting 0 feeds")
         items = [it for it in items if it.get("url") in active_urls]
 
     grouped = group_by_category(items)
