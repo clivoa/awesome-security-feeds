@@ -1,0 +1,112 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2025-12-28T22:49:40.489216Z'
+    score: 37
+    matched_keywords:
+    - backdoor
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - denial of service
+    - dfir
+    - exploit
+    - malware
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - trojan
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 23c86d62d8de225e0fc137ecc1787fee61739781
+- url: https://aboutdfir.com/feed/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2025-12-28T22:49:41.618947Z'
+    score: 37
+    matched_keywords:
+    - backdoor
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - denial of service
+    - dfir
+    - exploit
+    - malware
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - trojan
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: cd09274df904f1b693916c560c6aac746ed4c1e4
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2025-12-28T22:49:45.465841Z'
+    score: 37
+    matched_keywords:
+    - backdoor
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - denial of service
+    - dfir
+    - exploit
+    - malware
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - trojan
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: b1899b2210f39da95cbe76df729687abce380ac2
+- url: https://aboutdfir.com/rss/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2025-12-28T22:49:36.762264Z'
+    score: 37
+    matched_keywords:
+    - backdoor
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - denial of service
+    - dfir
+    - exploit
+    - malware
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - trojan
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 714112b4ad6fe8f3c16147f089119749a1063796
