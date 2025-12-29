@@ -2,4 +2,6 @@
 .DS_Store
 TODO.md
 errors.txt
-persona.txt
+# Discovery artifacts (ephemeral)
+data/discovery/feeds_candidates.json
+data/discovery/feeds_seen.json

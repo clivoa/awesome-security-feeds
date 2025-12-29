@@ -32,9 +32,11 @@ jobs:
             --feeds-dir feeds \
             --promote-candidates \
             --cleanup-candidates \
+            --cleanup-discovery \
             --out data/sec_feeds_full.xml \
             --title "Security Feeds (Full)" \
             --status all
+
 
       # Export ACTIVE (sem promote; candidates já foram processados/limpos acima)
       - name: Export ACTIVE OPML

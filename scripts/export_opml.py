@@ -276,6 +276,19 @@ def build_opml(title: str, grouped: List[Tuple[str, List[Dict[str, Any]]]]) -> s
     return "\n".join(lines) + "\n"
 
 
+
+DISCOVERY_FILES = [
+    Path("data/discovery/feeds_candidates.json"),
+    Path("data/discovery/feeds_seen.json"),
+]
+
+def cleanup_discovery_files():
+    for path in DISCOVERY_FILES:
+        if path.exists():
+            path.unlink()
+            print(f"[CLEANUP] Removed {path}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--feeds-dir", default="feeds", help="Directory containing feeds/*.yaml")
@@ -297,6 +310,11 @@ def main() -> None:
         action="store_true",
         help="When used with --promote-candidates, delete processed candidate bucket files",
     )
+    parser.add_argument(
+    "--cleanup-discovery",
+    action="store_true",
+    help="Remove discovery artifacts after promotion (feeds_candidates.json, feeds_seen.json)"
+    )
     args = ap.parse_args()
 
     feeds_dir = Path(args.feeds_dir)
@@ -307,6 +325,9 @@ def main() -> None:
     if args.promote_candidates:
         added, removed = promote_candidates(feeds_dir, cleanup=args.cleanup_candidates)
         print(f"[OK] Promoted {added} candidate feed(s) into feeds/*.yaml (removed candidate files: {removed})")
+
+    if args.promote_candidates and args.cleanup_discovery:
+        cleanup_discovery_files()
 
     items = load_yaml_feeds(feeds_dir)
     items = dedupe_by_url(items)

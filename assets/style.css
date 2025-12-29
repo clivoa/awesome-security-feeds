@@ -149,3 +149,18 @@ code { color: var(--text); }
 .downloads .sep {
   color: var(--muted);
 }
+
+.github-link {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  color: var(--muted);
+  opacity: 0.55;
+  transition: opacity 0.2s ease, color 0.2s ease;
+  z-index: 50;
+}
+
+.github-link:hover {
+  opacity: 1;
+  color: var(--text);
+}
