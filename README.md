@@ -1,6 +1,5 @@
 # Awesome Security Feeds
 
-[![Validate feeds](https://github.com/clivoa/awesome-security-feeds/actions/workflows/validate.yml/badge.svg)](https://github.com/clivoa/awesome-security-feeds/actions/workflows/validate.yml)
 [![Build feeds JSON](https://github.com/clivoa/awesome-security-feeds/actions/workflows/build_feeds_json.yml/badge.svg)](https://github.com/clivoa/awesome-security-feeds/actions/workflows/build_feeds_json.yml)
 [![Feed Check](https://github.com/clivoa/awesome-security-feeds/actions/workflows/feed_check.yml/badge.svg)](https://github.com/clivoa/awesome-security-feeds/actions/workflows/feed_check.yml)
 [![Export OPML](https://github.com/clivoa/awesome-security-feeds/actions/workflows/export_opml.yml/badge.svg)](https://github.com/clivoa/awesome-security-feeds/actions/workflows/export_opml.yml)
@@ -8,8 +7,8 @@
 
 A **curated, structured and automation-friendly** collection of security RSS/Atom sources.
 
-This repository is **independent** (it can be used on its own).  
-The generated artifacts are also consumed downstream by projects such as **S33R** (security news aggregation / briefings).
+This repository is **independent** (it can be used on its own). Based on https://securityfeeds.org/
+The generated artifacts are also consumed downstream by projects such as [**S33R**](https://github.com/clivoa/S33R/) (security news aggregation / briefings).
 
 ---
 
