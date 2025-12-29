@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -22,13 +24,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml
 
-      - name: Export FULL OPML
+      # 1) Promove candidates -> feeds/*.yaml (dedupe) e limpa feeds/_candidates/*
+      #    2) Já gera o OPML FULL no mesmo passo
+      - name: Promote candidates + Export FULL OPML
         run: |
           python scripts/export_opml.py \
+            --feeds-dir feeds \
+            --promote-candidates \
+            --cleanup-candidates \
             --out data/sec_feeds_full.xml \
             --title "Security Feeds (Full)" \
             --status all
 
+      # Export ACTIVE (sem promote; candidates já foram processados/limpos acima)
       - name: Export ACTIVE OPML
         run: |
           python scripts/export_opml.py \
@@ -36,44 +44,23 @@ jobs:
             --title "Security Feeds (Active only)" \
             --status active
 
-      - name: Commit OPML files (if changed)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes (if any)
         run: |
           set -euo pipefail
-          BRANCH="main"
-          
-          CHANGED=$(git ls-files -m -o --exclude-standard data/** || true)
-          [ -z "$CHANGED" ] && { echo "No changes detected."; exit 0; }
- 
-          for file in $CHANGED; do
-            echo "Processing $file"
- 
-            # Conteúdo codificado SEM quebras de linha
-            BASE64_CONTENT="$(base64 -w 0 "$file" | tr -d '\n')"
- 
-            # SHA atual (se houver)
-            SHA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-                     "https://api.github.com/repos/${{ github.repository }}/contents/$file?ref=$BRANCH" \
-                     | jq -r .sha)
- 
-            if [ "${SHA:-null}" = "null" ] || [ -z "$SHA" ]; then
-              # ---------- ARQUIVO NOVO ----------
-              printf '%s\n' "$BASE64_CONTENT" \
-                | jq -Rs --arg msg "Add $file" --arg branch "$BRANCH" \
-                    '{message:$msg, content:., branch:$branch}' \
-                | curl -sS -X PUT -H "Authorization: token $GITHUB_TOKEN" \
-                        -H "Content-Type: application/json" \
-                        --data-binary @- \
-                        "https://api.github.com/repos/${{ github.repository }}/contents/$file"
-            else
-              # ---------- ATUALIZA EXISTENTE ----------
-              printf '%s\n' "$BASE64_CONTENT" \
-                | jq -Rs --arg msg "Update $file" --arg branch "$BRANCH" --arg sha "$SHA" \
-                    '{message:$msg, content:., branch:$branch, sha:$sha}' \
-                | curl -sS -X PUT -H "Authorization: token $GITHUB_TOKEN" \
-                        -H "Content-Type: application/json" \
-                        --data-binary @- \
-                        "https://api.github.com/repos/${{ github.repository }}/contents/$file"
-            fi
-          done
+
+          # pega alterações em data, feeds, e remoções em feeds/_candidates
+          git status --porcelain
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # add incluindo deletes
+          git add -A data feeds
+
+          git commit -m "chore(export): update OPML + promote candidates"
+          git push

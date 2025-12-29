@@ -5,103 +5,198 @@ Export feeds/*.yaml into an OPML (sec_feeds.xml-like) file.
 Input:  feeds/*.yaml (list of dicts with url, title, description, type, category)
 Output: sec_feeds.xml (OPML 2.0) with category outlines + feed outlines
 
+Optional: Promote candidate feeds from feeds/_candidates/*.yaml into the main
+feeds/*.yaml files (deduped), then (optionally) remove the candidate files.
+
 Usage:
   python scripts/export_opml.py --out sec_feeds.xml
   python scripts/export_opml.py --feeds-dir feeds --out sec_feeds.xml --title "S33R Security Feeds"
+
+  # Promote candidates → main YAMLs (deduped) + clean up candidate bucket files
+  python scripts/export_opml.py --feeds-dir feeds --promote-candidates --cleanup-candidates --out sec_feeds.xml
 """
 
 from __future__ import annotations
 
 import argparse
-import re
-from datetime import datetime, timezone
-from pathlib import Path
-ROOT = Path(__file__).resolve().parents[1]
 import json
-
+import re
+from collections import defaultdict
+from pathlib import Path
 from typing import Any, Dict, List, Tuple
-from urllib.parse import urlparse, urlunparse
 
 import yaml
-from xml.sax.saxutils import escape
-
-RE_WS = re.compile(r"\s+")
 
 
 def clean_text(s: str) -> str:
-    return RE_WS.sub(" ", (s or "").strip()).strip()
+    s = (s or "").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s
 
 
-def norm_url(u: str) -> str:
-    u = (u or "").strip()
-    if not u:
-        return u
-    pu = urlparse(u)
-    scheme = (pu.scheme or "http").lower()
-    netloc = (pu.netloc or "").lower()
+def norm_url(url: str) -> str:
+    url = (url or "").strip()
+    # normalize scheme + trailing slash
+    url = re.sub(r"^http://", "https://", url, flags=re.I)
+    url = re.sub(r"#.*$", "", url)  # strip fragments
+    url = url.rstrip("/")
+    return url
 
-    # drop default ports
-    if netloc.endswith(":80") and scheme == "http":
-        netloc = netloc[:-3]
-    if netloc.endswith(":443") and scheme == "https":
-        netloc = netloc[:-4]
 
-    # keep query; drop fragment
-    return urlunparse((scheme, netloc, pu.path or "", "", pu.query or "", ""))
+def _ordered_item(it: Dict[str, Any]) -> Dict[str, Any]:
+    """Write items in a consistent key order."""
+    return {
+        "url": it.get("url", ""),
+        "category": it.get("category", ""),
+        "title": it.get("title", ""),
+        "type": it.get("type", ""),
+        "description": it.get("description", ""),
+    }
+
+
+def _load_yaml_list(path: Path) -> List[Dict[str, Any]]:
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    if not isinstance(data, list):
+        raise SystemExit(f"Invalid YAML in {path} (expected list)")
+    out: List[Dict[str, Any]] = []
+    for idx, it in enumerate(data, start=1):
+        if not isinstance(it, dict):
+            raise SystemExit(f"Invalid item in {path} #{idx} (expected dict)")
+        url = norm_url(str(it.get("url", "")).strip())
+        if not url:
+            raise SystemExit(f"Missing url in {path} #{idx}")
+        out.append(
+            {
+                "url": url,
+                "title": clean_text(str(it.get("title", ""))),
+                "description": clean_text(str(it.get("description", ""))),
+                "type": clean_text(str(it.get("type", ""))).lower(),
+                "category": clean_text(str(it.get("category", ""))) or "Uncategorized",
+            }
+        )
+    return out
 
 
 def load_yaml_feeds(feeds_dir: Path) -> List[Dict[str, Any]]:
+    """Load feed items from feeds_dir/*.yaml (excluding feeds/_candidates)."""
     items: List[Dict[str, Any]] = []
     for p in sorted(feeds_dir.glob("*.yaml")):
-        data = yaml.safe_load(p.read_text(encoding="utf-8")) or []
-        if not isinstance(data, list):
-            raise SystemExit(f"Invalid YAML in {p} (expected list)")
-        for idx, it in enumerate(data, start=1):
-            if not isinstance(it, dict):
-                raise SystemExit(f"Invalid item in {p} #{idx} (expected dict)")
-            url = norm_url(str(it.get("url", "")).strip())
-            if not url:
-                raise SystemExit(f"Missing url in {p} #{idx}")
-
-            items.append(
-                {
-                    "url": url,
-                    "title": clean_text(str(it.get("title", ""))),
-                    "description": clean_text(str(it.get("description", ""))),
-                    "type": clean_text(str(it.get("type", ""))).lower(),
-                    "category": clean_text(str(it.get("category", ""))) or "Uncategorized",
-                }
-            )
+        items.extend(_load_yaml_list(p))
     return items
 
 
+def load_candidate_files(feeds_dir: Path) -> List[Path]:
+    cand_dir = feeds_dir / "_candidates"
+    if not cand_dir.exists() or not cand_dir.is_dir():
+        return []
+    return sorted(cand_dir.glob("*.yaml"))
+
+
+def promote_candidates(feeds_dir: Path, cleanup: bool = False) -> Tuple[int, int]:
+    """
+    Promote candidates from feeds/_candidates/*.yaml into feeds/*.yaml.
+
+    - Dedupes by normalized URL (global dedupe across ALL main YAMLs)
+    - Writes updated/created category files in feeds/*.yaml
+    - Candidate-only fields (e.g., 'discovery') are dropped
+    - If cleanup=True, deletes processed candidate bucket files
+
+    Returns: (added_count, removed_candidate_files_count)
+    """
+    cand_files = load_candidate_files(feeds_dir)
+    if not cand_files:
+        return (0, 0)
+
+    # Load ALL main feeds and build a global seen set.
+    main_files = sorted(feeds_dir.glob("*.yaml"))
+    main_by_file: Dict[Path, List[Dict[str, Any]]] = {}
+    seen: set[str] = set()
+
+    for p in main_files:
+        items = _load_yaml_list(p)
+        main_by_file[p] = items
+        for it in items:
+            seen.add(norm_url(it["url"]))
+
+    added = 0
+
+    for cand_path in cand_files:
+        cand_items = _load_yaml_list(cand_path)
+
+        target_path = feeds_dir / cand_path.name  # bucket name matches category file name
+        target_items = main_by_file.get(target_path)
+        if target_items is None:
+            target_items = []
+            main_by_file[target_path] = target_items
+
+        for it in cand_items:
+            u = norm_url(it["url"])
+            if u in seen:
+                continue
+            seen.add(u)
+            target_items.append(it)
+            added += 1
+
+    # Write updated main YAMLs (including any newly created ones).
+    for path, items in sorted(main_by_file.items(), key=lambda kv: kv[0].name):
+        # Stable-ish ordering: category then title then url
+        items_sorted = sorted(
+            (_ordered_item(it) for it in items),
+            key=lambda d: (
+                (d.get("category") or "").lower(),
+                (d.get("title") or "").lower(),
+                (d.get("url") or "").lower(),
+            ),
+        )
+        path.write_text(
+            yaml.safe_dump(items_sorted, sort_keys=False, allow_unicode=True),
+            encoding="utf-8",
+        )
+
+    removed = 0
+    if cleanup:
+        for cand_path in cand_files:
+            try:
+                cand_path.unlink()
+                removed += 1
+            except Exception:
+                pass
+        # remove folder if empty
+        cand_dir = feeds_dir / "_candidates"
+        try:
+            if cand_dir.exists() and not any(cand_dir.iterdir()):
+                cand_dir.rmdir()
+        except Exception:
+            pass
+
+    return (added, removed)
+
+
 def dedupe_by_url(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    seen: Dict[str, Dict[str, Any]] = {}
+    seen = set()
+    out: List[Dict[str, Any]] = []
     for it in items:
-        k = it["url"]
-        if k not in seen:
-            seen[k] = it
+        u = norm_url(it.get("url", ""))
+        if not u or u in seen:
             continue
-        cur = seen[k]
-        # keep first but fill blanks
-        for f in ("title", "description", "type", "category"):
-            if not cur.get(f) and it.get(f):
-                cur[f] = it[f]
-    return list(seen.values())
+        seen.add(u)
+        it2 = dict(it)
+        it2["url"] = u
+        out.append(it2)
+    return out
 
 
 def group_by_category(items: List[Dict[str, Any]]) -> List[Tuple[str, List[Dict[str, Any]]]]:
-    cats: Dict[str, List[Dict[str, Any]]] = {}
+    groups: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for it in items:
-        cats.setdefault(it["category"], []).append(it)
-
-    # stable sort: categories alpha; feeds by title then url
-    grouped: List[Tuple[str, List[Dict[str, Any]]]] = []
-    for cat in sorted(cats.keys(), key=lambda s: s.lower()):
-        feeds = sorted(cats[cat], key=lambda x: ((x.get("title") or "").lower(), x["url"].lower()))
+        cat = clean_text(str(it.get("category", ""))) or "Uncategorized"
+        groups[cat].append(it)
+    # sort categories, then feeds by title
+    grouped = []
+    for cat in sorted(groups.keys(), key=lambda s: s.lower()):
+        feeds = sorted(groups[cat], key=lambda d: (d.get("title") or "").lower())
         grouped.append((cat, feeds))
     return grouped
-
 
 
 def load_active_urls(status_path: Path) -> set[str]:
@@ -120,83 +215,111 @@ def load_active_urls(status_path: Path) -> set[str]:
                 if isinstance(info, dict) and (info.get("status") == "active"):
                     active.add(norm_url(str(url)))
             except Exception:
-                continue
+                pass
     return active
-def opml_outline_feed(it: Dict[str, Any], indent: str = "      ") -> str:
-    # OPML uses outline attributes; we emit xmlUrl + title/text + description + type
-    url = escape(it["url"])
-    title = escape(it.get("title") or it["url"])
-    desc = escape(it.get("description") or "")
-    ftype = escape(it.get("type") or "rss")
 
-    # Keep attributes minimal & compatible (description optional)
-    attrs = [
-        f'title="{title}"',
-        f'text="{title}"',
-        f'type="{ftype}"',
-        f'xmlUrl="{url}"',
-    ]
+
+def opml_outline_feed(it: Dict[str, Any]) -> str:
+    title = clean_text(it.get("title") or it.get("url") or "")
+    xml_url = it.get("url") or ""
+    html_url = it.get("url") or ""
+    ftype = clean_text(it.get("type") or "rss")
+    desc = clean_text(it.get("description") or "")
+    # escape minimal XML entities
+    def esc(x: str) -> str:
+        return (
+            x.replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+        )
+
+    attrs = {
+        "text": title,
+        "title": title,
+        "type": ftype,
+        "xmlUrl": xml_url,
+        "htmlUrl": html_url,
+    }
     if desc:
-        attrs.append(f'description="{desc}"')
+        attrs["description"] = desc
 
-    return f"{indent}<outline " + " ".join(attrs) + " />"
+    return "<outline " + " ".join(f"{k}=\"{esc(v)}\"" for k, v in attrs.items() if v) + " />"
 
 
 def build_opml(title: str, grouped: List[Tuple[str, List[Dict[str, Any]]]]) -> str:
-    now = datetime.now(timezone.utc).isoformat()
+    def esc(x: str) -> str:
+        return (
+            (x or "")
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+        )
 
-    head = f"""<?xml version="1.0" encoding="utf-8"?>
-<opml version="2.0">
-  <head>
-    <title>{escape(title)}</title>
-    <dateCreated>{escape(now)}</dateCreated>
-  </head>
-  <body>
-"""
+    lines: List[str] = []
+    lines.append('<?xml version="1.0" encoding="UTF-8"?>')
+    lines.append('<opml version="2.0">')
+    lines.append("  <head>")
+    lines.append(f"    <title>{esc(title)}</title>")
+    lines.append("  </head>")
+    lines.append("  <body>")
 
-    body_parts: List[str] = []
     for cat, feeds in grouped:
-        cat_name = escape(cat)
-        body_parts.append(f'    <outline title="{cat_name}" text="{cat_name}">')
+        lines.append(f"    <outline text=\"{esc(cat)}\" title=\"{esc(cat)}\">")
         for it in feeds:
-            body_parts.append(opml_outline_feed(it, indent="      "))
-        body_parts.append("    </outline>")
+            lines.append("      " + opml_outline_feed(it))
+        lines.append("    </outline>")
 
-    tail = """  </body>
-</opml>
-"""
-    return head + "\n".join(body_parts) + "\n" + tail
+    lines.append("  </body>")
+    lines.append("</opml>")
+    return "\n".join(lines) + "\n"
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--feeds-dir", default="feeds", help="Directory with YAML feed lists (default: feeds)")
-    ap.add_argument("--out", default="sec_feeds.xml", help="Output OPML/XML file (default: sec_feeds.xml)")
-    ap.add_argument("--title", default="Security Feeds", help="OPML <title> value")
+    ap.add_argument("--feeds-dir", default="feeds", help="Directory containing feeds/*.yaml")
+    ap.add_argument("--out", default="sec_feeds.xml", help="Output OPML file path")
+    ap.add_argument("--title", default="Awesome Security Feeds", help="OPML title")
     ap.add_argument(
         "--status",
         choices=["all", "active"],
         default="all",
-        help="Export all feeds or only active ones (requires data/feed_status.json)",
+        help="Export all feeds or only active feeds (from data/feed_status.json)",
+    )
+    ap.add_argument(
+        "--promote-candidates",
+        action="store_true",
+        help="Merge feeds/_candidates/*.yaml into feeds/*.yaml (deduped)",
+    )
+    ap.add_argument(
+        "--cleanup-candidates",
+        action="store_true",
+        help="When used with --promote-candidates, delete processed candidate bucket files",
     )
     args = ap.parse_args()
 
     feeds_dir = Path(args.feeds_dir)
-    if not feeds_dir.exists():
-        raise SystemExit(f"Feeds dir not found: {feeds_dir}")
+
+    if args.cleanup_candidates and not args.promote_candidates:
+        raise SystemExit("--cleanup-candidates requires --promote-candidates")
+
+    if args.promote_candidates:
+        added, removed = promote_candidates(feeds_dir, cleanup=args.cleanup_candidates)
+        print(f"[OK] Promoted {added} candidate feed(s) into feeds/*.yaml (removed candidate files: {removed})")
 
     items = load_yaml_feeds(feeds_dir)
     items = dedupe_by_url(items)
 
-    # Optional: export only active feeds (based on data/feed_status.json)
     if args.status == "active":
-        status_path = ROOT / "data" / "feed_status.json"
-        active_urls = load_active_urls(status_path)
+        active_urls = load_active_urls(Path("data") / "feed_status.json")
         if not active_urls:
-            print("[WARN] args.status=active but no active URLs found (missing/empty feed_status.json) — exporting 0 feeds")
+            print(
+                "[WARN] args.status=active but no active URLs found (missing/empty feed_status.json) — exporting 0 feeds"
+            )
         items = [it for it in items if it.get("url") in active_urls]
-    grouped = group_by_category(items)
 
+    grouped = group_by_category(items)
     opml = build_opml(args.title, grouped)
     Path(args.out).write_text(opml, encoding="utf-8")
 
