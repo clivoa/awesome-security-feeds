@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2025-12-29T11:59:10.587839+00:00` (UTC)
+**Generated:** `2025-12-29T13:57:30.775867+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -11,18 +11,18 @@ This page contains the full, categorized feed list maintained in this repository
 
 ## Contents
 
-- [Crypto & Blockchain Security](#cryptoblockchainsecurity) (4)
-- [Cybercrime, Darknet & Leaks](#cybercrimedarknetleaks) (22)
-- [DFIR & Forensics](#dfirforensics) (33)
-- [General Security & Blogs](#generalsecurityblogs) (442)
-- [Government / CERT & Advisories](#governmentcertadvisories) (15)
-- [Government, CERT & Advisories](#governmentcertadvisories) (23)
-- [Leaks & Breaches](#leaksbreaches) (11)
-- [Malware & Threat Research](#malwarethreatresearch) (34)
-- [OSINT, Communities & Subreddits](#osintcommunitiessubreddits) (10)
-- [Podcasts & YouTube](#podcastsyoutube) (7)
-- [Vendors & Product Blogs](#vendorsproductblogs) (127)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilitiescvesexploits) (41)
+- [Crypto & Blockchain Security](#crypto-blockchain-security) (4)
+- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (22)
+- [DFIR & Forensics](#dfir-forensics) (33)
+- [General Security & Blogs](#general-security-blogs) (442)
+- [Government / CERT & Advisories](#government-cert-advisories) (15)
+- [Government, CERT & Advisories](#government-cert-advisories) (23)
+- [Leaks & Breaches](#leaks-breaches) (11)
+- [Malware & Threat Research](#malware-threat-research) (34)
+- [OSINT, Communities & Subreddits](#osint-communities-subreddits) (10)
+- [Podcasts & YouTube](#podcasts-youtube) (7)
+- [Vendors & Product Blogs](#vendors-product-blogs) (127)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (41)
 
 ---
 
