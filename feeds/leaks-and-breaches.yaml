@@ -1,5 +1,60 @@
-- url: http://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
+- url: https://www.cisa.gov/rss.xml
+  category: Leaks & Breaches
+  title: Cybersecurity and Infrastructure Security Agency CISA
+  type: rss
+  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
+    covering vulnerabilities, cves.
+- url: https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
   category: Leaks & Breaches
   title: Have I Been Pwned – Latest Breaches
   type: rss
-  description: RSS feed for Have I Been Pwned, covering leaks & breaches news and updates.
+  description: RSS feed for Have I Been Pwned, covering leaks & breaches news and
+    updates.
+- url: https://www.maltego.com/index.xml
+  category: Leaks & Breaches
+  title: Maltego Blog RSS Feed
+  type: rss
+  description: Subscribe to our RSS feed to stay up to date with what's fresh in the
+    Maltego world.
+- url: https://owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://www.owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://www.owasp.org/feed.xml
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+- url: https://www.rapid7.com/blog/rss
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+- url: https://www.rapid7.com/rss.xml
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+- url: https://feeds.feedburner.com/tenable/qaXL
+  category: Leaks & Breaches
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+- url: https://www.tenable.com/blog/atom.xml
+  category: Leaks & Breaches
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+- url: https://tenable.com/feed/news
+  category: Leaks & Breaches
+  title: Tenable News Feed
+  type: rss
+  description: Updates from Tenable News Feed covering vulnerabilities, cves.

@@ -3,11 +3,30 @@
   title: /r/cybersecurity
   type: rss
   description: OSINT resources and community updates from /r/cybersecurity.
-- url: http://www.reddit.com/r/netsec/.rss
+- url: https://www.reddit.com/r/netsec/.rss
   category: OSINT, Communities & Subreddits
   title: /r/netsec
   type: rss
   description: OSINT resources and community updates from /r/netsec.
+- url: https://dtag-dev-sec.github.io/feed
+  category: OSINT, Communities & Subreddits
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
+    cves.
+- url: https://dtag-dev-sec.github.io/feed.xml
+  category: OSINT, Communities & Subreddits
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
+    cves.
+- url: https://seclists.org/rss/fulldisclosure.rss
+  category: OSINT, Communities & Subreddits
+  title: Full Disclosure
+  type: rss
+  description: A public, vendor-neutral forum for detailed discussion of vulnerabilities
+    and exploitation techniques, as well as tools, papers, news, and events of interest
+    to the community. The relaxed atmosphere of this quirky lis...
 - url: https://ctf.re/feed.xml
   category: OSINT, Communities & Subreddits
   title: https://ctf.re/feed.xml

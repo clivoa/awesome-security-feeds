@@ -3,11 +3,17 @@
   title: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
   type: rss
   description: Security podcasts and talks from https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml.
+- url: https://www.dshield.org/dailypodcast.xml
+  category: Podcasts & YouTube
+  title: SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)
+  type: rss
+  description: Daily update on current cyber security threats
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLdPwyUeH0mS566Y0YZ7oAGghzMgRlWTBf
   category: Podcasts & YouTube
   title: Security Now (YouTube Playlist)
   type: rss
-  description: Video updates from Security Now (YouTube Playlist) covering podcasts & youtube.
+  description: Video updates from Security Now (YouTube Playlist) covering podcasts
+    & youtube.
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLRs8fqjYD5IJ02x06clJs-aXmFrYLN6F-
   category: Podcasts & YouTube
   title: Security Talk (YouTube)
@@ -17,7 +23,8 @@
   category: Podcasts & YouTube
   title: Security Weekly News (YouTube)
   type: rss
-  description: Video updates from Security Weekly News (YouTube) covering podcasts & youtube.
+  description: Video updates from Security Weekly News (YouTube) covering podcasts
+    & youtube.
 - url: https://feeds.libsyn.com/18678/rss
   category: Podcasts & YouTube
   title: Security Weekly Podcast Network (Audio)

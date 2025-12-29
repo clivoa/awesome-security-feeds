@@ -3,17 +3,17 @@
   title: 13Cubed (YouTube)
   type: rss
   description: Video updates from 13Cubed (YouTube) covering dfir & forensics.
-- url: http://blog.ampedsoftware.com/feed
+- url: https://blog.ampedsoftware.com/feed
   category: DFIR & Forensics
   title: Amped Blog
   type: rss
   description: DFIR and forensics content from Amped Blog.
-- url: http://az4n6.blogspot.com/feeds/posts/default
+- url: https://az4n6.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Another Forensics Blog
   type: rss
   description: DFIR and forensics content from Another Forensics Blog.
-- url: http://feeds.feedburner.com/brettshavers/oSyq
+- url: https://feeds.feedburner.com/brettshavers/oSyq
   category: DFIR & Forensics
   title: Brett Shavers
   type: rss
@@ -23,7 +23,7 @@
   title: Cellebrite
   type: rss
   description: DFIR and forensics content from Cellebrite.
-- url: http://cheeky4n6monkey.blogspot.com/feeds/posts/default
+- url: https://cheeky4n6monkey.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Cheeky4n6Monkey
   type: rss
@@ -42,7 +42,8 @@
   category: DFIR & Forensics
   title: DFIR Python Study Group (YouTube)
   type: rss
-  description: Video updates from DFIR Python Study Group (YouTube) covering dfir & forensics.
+  description: Video updates from DFIR Python Study Group (YouTube) covering dfir
+    & forensics.
 - url: https://dfir.blog/rss
   category: DFIR & Forensics
   title: dfir.blog
@@ -57,33 +58,34 @@
   category: DFIR & Forensics
   title: Digital Forensics Incident Response (DFIR) companies in Finland
   type: rss
-  description: DFIR and forensics content from Digital Forensics Incident Response (DFIR) companies in F….
+  description: DFIR and forensics content from Digital Forensics Incident Response
+    (DFIR) companies in F….
 - url: https://df-stream.com/feed
   category: DFIR & Forensics
   title: Digital Forensics Stream
   type: rss
   description: DFIR and forensics content from Digital Forensics Stream.
-- url: http://doubleblak.com/blogRSS.xml
+- url: https://doubleblak.com/blogRSS.xml
   category: DFIR & Forensics
   title: DoubleBlak
   type: rss
   description: DFIR and forensics content from DoubleBlak.
-- url: https://forensic4cast.com/tag/forensics/feed/
+- url: https://forensic4cast.com/tag/forensics/feed
   category: DFIR & Forensics
   title: Forensic 4:cast
   type: rss
   description: DFIR and forensics content from Forensic 4:cast.
-- url: http://www.forensicfocus.com/rss/news2.php
+- url: https://www.forensicfocus.com/rss/news2.php
   category: DFIR & Forensics
   title: Forensic Focus
   type: rss
   description: DFIR and forensics content from Forensic Focus.
-- url: http://forensicphotoshop.blogspot.com/feeds/posts/default
+- url: https://forensicphotoshop.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Forensic Multimedia Analysis Blog
   type: rss
   description: DFIR and forensics content from Forensic Multimedia Analysis Blog.
-- url: http://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default
+- url: https://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: HECFblog
   type: rss
@@ -98,12 +100,12 @@
   title: https://thedfirreport.com/feed/
   type: rss
   description: DFIR and forensics content from https://thedfirreport.com/feed/.
-- url: http://abrignoni.blogspot.com/feeds/posts/default
+- url: https://abrignoni.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Initialization Vectors
   type: rss
   description: DFIR and forensics content from Initialization Vectors.
-- url: http://www.mac4n6.com/blog?format=rss
+- url: https://www.mac4n6.com/blog?format=rss
   category: DFIR & Forensics
   title: mac4n6
   type: rss
@@ -133,12 +135,12 @@
   title: SANS DFIR (YouTube)
   type: rss
   description: Video updates from SANS DFIR (YouTube) covering dfir & forensics.
-- url: http://www.sleuthkit.org/rss.xml
+- url: https://www.sleuthkit.org/rss.xml
   category: DFIR & Forensics
   title: sleuthkit.org Updates
   type: rss
   description: DFIR and forensics content from sleuthkit.org Updates.
-- url: http://smarterforensics.com/feed
+- url: https://smarterforensics.com/feed
   category: DFIR & Forensics
   title: Smarter Forensics
   type: rss
@@ -153,12 +155,12 @@
   title: This Week In 4n6
   type: rss
   description: DFIR and forensics content from This Week In 4n6.
-- url: http://tisiphone.net/feed
+- url: https://tisiphone.net/feed
   category: DFIR & Forensics
   title: tisiphone.net
   type: rss
   description: DFIR and forensics content from tisiphone.net.
-- url: http://windowsir.blogspot.com/feeds/posts/default
+- url: https://windowsir.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Windows Incident Response
   type: rss

@@ -1,13 +1,45 @@
-- url: http://garwarner.blogspot.com/feeds/posts/default
+- url: https://kb.cert.org/vuls/atomfeed
+  category: Cybercrime, Darknet & Leaks
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+- url: https://www.kb.cert.org/vuls/atomfeed
+  category: Cybercrime, Darknet & Leaks
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+- url: https://garwarner.blogspot.com/feeds/posts/default
   category: Cybercrime, Darknet & Leaks
   title: CyberCrime & Doing Time
   type: rss
-  description: Cybercrime and underground ecosystem coverage from CyberCrime & Doing Time.
-- url: http://feeds.feedburner.com/OfficeOfInadequateSecurity
+  description: Cybercrime and underground ecosystem coverage from CyberCrime & Doing
+    Time.
+- url: https://feeds.feedburner.com/OfficeOfInadequateSecurity
   category: Cybercrime, Darknet & Leaks
   title: DataBreaches.net
   type: rss
-  description: RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks news and updates.
+  description: RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks
+    news and updates.
+- url: https://binalyze.com/blog/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Digital Forensics Blog - Binalyze
+  type: rss
+  description: Stay updated with the latest news in automated investigations, incident
+    response and digital forensics on our blog.
+- url: https://eternal-todo.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: eternal-todo.com
+  type: rss
+  description: Updates from eternal-todo.com covering vulnerabilities, cves.
+- url: https://eternal-todo.com/blog/feed
+  category: Cybercrime, Darknet & Leaks
+  title: eternal-todo.com blogs
+  type: rss
+  description: Updates from eternal-todo.com blogs covering vulnerabilities, cves.
 - url: https://krebsonsecurity.com/feed
   category: Cybercrime, Darknet & Leaks
   title: Krebs on Security
@@ -18,7 +50,64 @@
   title: Lifeboat – Cybercrime & Malcode
   type: rss
   description: Cybercrime and underground ecosystem coverage from Lifeboat.
-- url: http://www.guardian.co.uk/technology/cybercrime/rss
+- url: https://nostarch.com/blog/feed
+  category: Cybercrime, Darknet & Leaks
+  title: No Starch Press Blog
+  type: rss
+  description: Updates from No Starch Press Blog covering vulnerabilities, cves.
+- url: https://objective-see.com/rss
+  category: Cybercrime, Darknet & Leaks
+  title: Objective-See's Blog
+  type: rss
+  description: All Things Related to Mac Security
+- url: https://objective-see.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Objective-See's Blog
+  type: rss
+  description: All Things Related to Mac Security
+- url: https://riskanalytics.com/feed
+  category: Cybercrime, Darknet & Leaks
+  title: RiskAnalytics
+  type: rss
+  description: Cybersecurity. Simplified
+- url: https://www.swisscyberstorm.com/blog/index.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/rss/index.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://feeds.feedburner.com/scdashboards
+  category: Cybercrime, Darknet & Leaks
+  title: Tenable Security Center dashboards
+  type: rss
+  description: Updates from Tenable Security Center dashboards covering vulnerabilities,
+    cves.
+- url: https://feeds.feedburner.com/securitycenterreporttemplates
+  category: Cybercrime, Darknet & Leaks
+  title: Tenable Security Center templates
+  type: rss
+  description: Updates from Tenable Security Center templates covering vulnerabilities,
+    cves.
+- url: https://www.guardian.co.uk/technology/cybercrime/rss
   category: Cybercrime, Darknet & Leaks
   title: The Guardian Cybercrime
   type: rss

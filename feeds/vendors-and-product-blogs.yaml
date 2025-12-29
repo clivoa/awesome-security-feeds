@@ -17,22 +17,26 @@
   category: Vendors & Product Blogs
   title: AT&T Cybersecurity Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from AT&T Cybersecurity Blog.
+  description: Vendor security updates, advisories, and guidance from AT&T Cybersecurity
+    Blog.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureNetworkSecurityBlog
   category: Vendors & Product Blogs
   title: Azure Network Security Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzurePurviewBlog
   category: Vendors & Product Blogs
   title: Azure Purview Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://msrc.microsoft.com/blog/categories/bluehat/feed
   category: Vendors & Product Blogs
   title: BlueHat on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
   category: Vendors & Product Blogs
   title: Broadcom – Symantec Blogs
@@ -42,17 +46,20 @@
   category: Vendors & Product Blogs
   title: Bug Bounty Programs on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://blogs.cisco.com/security/feed
   category: Vendors & Product Blogs
   title: Cisco Security Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Cisco Security Blog.
+  description: Vendor security updates, advisories, and guidance from Cisco Security
+    Blog.
 - url: https://blog.cloudflare.com/tag/security/rss
   category: Vendors & Product Blogs
   title: Cloudflare – Security Tag
   type: rss
-  description: Cloudflare blog posts on security engineering, threat research, and incident learnings.
+  description: Cloudflare blog posts on security engineering, threat research, and
+    incident learnings.
 - url: https://cofense.com/feed
   category: Vendors & Product Blogs
   title: Cofense Intelligence
@@ -62,12 +69,14 @@
   category: Vendors & Product Blogs
   title: Core Infrastructure and Security Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://www.crowdstrike.com/en-us/blog/feed
   category: Vendors & Product Blogs
   title: CrowdStrike Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from CrowdStrike Blog.
+  description: Vendor security updates, advisories, and guidance from CrowdStrike
+    Blog.
 - url: https://www.crowdstrike.com/blog/category/threat-intel-research
   category: Vendors & Product Blogs
   title: CrowdStrike – Threat Research
@@ -82,12 +91,14 @@
   category: Vendors & Product Blogs
   title: Defender External Attack Surface Management Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=DefenderThreatIntelligence
   category: Vendors & Product Blogs
   title: Defender Threat Intelligence
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://www.digitalshadows.com/blog-and-research/feed
   category: Vendors & Product Blogs
   title: Digital Shadows
@@ -108,7 +119,7 @@
   title: Eclypsium | Supply Chain Security for the Modern Enterprise
   type: atom
   description: Vendor security updates, advisories, and guidance from Eclypsium.
-- url: http://eset.com/int/rss.xml
+- url: https://eset.com/int/rss.xml
   category: Vendors & Product Blogs
   title: ESET – We Live Security (Vendor)
   type: rss
@@ -118,41 +129,47 @@
   title: Fidelis Security
   type: rss
   description: Vendor security updates, advisories, and guidance from Fidelis Security.
-- url: http://www.fireeye.com/blog/feed
+- url: https://www.fireeye.com/blog/feed
   category: Vendors & Product Blogs
   title: FireEye Blog
   type: rss
   description: Vendor security updates, advisories, and guidance from FireEye Blog.
-- url: http://feeds.feedburner.com/fortinet/blog/threat-research
+- url: https://feeds.feedburner.com/fortinet/blog/threat-research
   category: Vendors & Product Blogs
   title: Fortinet Threat Research (Vendor)
   type: rss
-  description: RSS feed for Fortinet Threat Research (Vendor), covering vendors & product blogs news and updates.
+  description: RSS feed for Fortinet Threat Research (Vendor), covering vendors &
+    product blogs news and updates.
 - url: https://blog.fox-it.com/feed
   category: Vendors & Product Blogs
   title: Fox-IT International Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Fox-IT International Blog.
+  description: Vendor security updates, advisories, and guidance from Fox-IT International
+    Blog.
 - url: https://cloudblog.withgoogle.com/rss
   category: Vendors & Product Blogs
   title: Google Cloud Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Google Cloud Blog.
+  description: Vendor security updates, advisories, and guidance from Google Cloud
+    Blog.
 - url: https://feeds.feedburner.com/GoogleOnlineSecurityBlog
   category: Vendors & Product Blogs
   title: Google Online Security Blog
   type: atom
-  description: RSS feed for Google Online Security Blog, covering vendors & product blogs news and updates.
+  description: RSS feed for Google Online Security Blog, covering vendors & product
+    blogs news and updates.
 - url: https://googleonlinesecurity.blogspot.com/atom.xml
   category: Vendors & Product Blogs
   title: Google Online Security Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Google Online Security Blog.
+  description: Vendor security updates, advisories, and guidance from Google Online
+    Security Blog.
 - url: https://googleprojectzero.blogspot.com/feeds/posts/default
   category: Vendors & Product Blogs
   title: Google Project Zero
   type: rss
-  description: Vendor security updates, advisories, and guidance from Google Project Zero.
+  description: Vendor security updates, advisories, and guidance from Google Project
+    Zero.
 - url: https://www.hackthebox.com/rss
   category: Vendors & Product Blogs
   title: Hack The Box – All Feeds
@@ -287,7 +304,8 @@
   category: Vendors & Product Blogs
   title: IBM Security Intelligence
   type: rss
-  description: Vendor security updates, advisories, and guidance from IBM Security Intelligence.
+  description: Vendor security updates, advisories, and guidance from IBM Security
+    Intelligence.
 - url: https://www.imperva.com/blog/feed
   category: Vendors & Product Blogs
   title: Imperva Blog
@@ -297,7 +315,8 @@
   category: Vendors & Product Blogs
   title: Japan Security Team on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://www.jisasoftech.com/feed
   category: Vendors & Product Blogs
   title: JISA Softech
@@ -317,103 +336,123 @@
   category: Vendors & Product Blogs
   title: Microsoft Defender ATP Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderCloudBlog
   category: Vendors & Product Blogs
   title: Microsoft Defender Cloud Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderIoTBlog
   category: Vendors & Product Blogs
   title: Microsoft Defender for IoT Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderforOffice365Blog
   category: Vendors & Product Blogs
   title: Microsoft Defender for Office 365 Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines
   category: Vendors & Product Blogs
   title: Microsoft Security Baselines
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://www.microsoft.com/en-us/security/blog/feed
   category: Vendors & Product Blogs
   title: Microsoft Security Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Microsoft Security Blog.
+  description: Vendor security updates, advisories, and guidance from Microsoft Security
+    Blog.
 - url: https://www.microsoft.com/en-us/security/blog/feed/atom
   category: Vendors & Product Blogs
   title: Microsoft Security Blog
   type: atom
-  description: Vendor security updates, advisories, and guidance from Microsoft Security Blog.
+  description: Vendor security updates, advisories, and guidance from Microsoft Security
+    Blog.
 - url: https://www.microsoft.com/security/blog/feed
   category: Vendors & Product Blogs
   title: Microsoft Security Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Microsoft Security Blog.
+  description: Vendor security updates, advisories, and guidance from Microsoft Security
+    Blog.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-security-blog
   category: Vendors & Product Blogs
   title: Microsoft Security Blog (TechCommunity)
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSecurityExperts
   category: Vendors & Product Blogs
   title: Microsoft Security Experts
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://msrc-blog.microsoft.com/feed
   category: Vendors & Product Blogs
   title: Microsoft Security Response Center
   type: rss
-  description: Vendor security updates, advisories, and guidance from Microsoft Security Response Center.
+  description: Vendor security updates, advisories, and guidance from Microsoft Security
+    Response Center.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSentinelBlog
   category: Vendors & Product Blogs
   title: Microsoft Sentinel Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://msrc.microsoft.com/blog/categories/microsoft-threat-hunting/feed
   category: Vendors & Product Blogs
   title: Microsoft Threat Hunting on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog
   category: Vendors & Product Blogs
   title: Microsoft Threat Protection Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://msrc.microsoft.com/blog/categories/msrc/feed
   category: Vendors & Product Blogs
   title: MSRC on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://openssf.org/feed
   category: Vendors & Product Blogs
   title: Open Source Security Foundation
   type: rss
-  description: Vendor security updates, advisories, and guidance from Open Source Security Foundation.
+  description: Vendor security updates, advisories, and guidance from Open Source
+    Security Foundation.
 - url: https://www.paloaltonetworks.com/blog/feed
   category: Vendors & Product Blogs
   title: Palo Alto Networks Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Palo Alto Networks Blog.
+  description: Vendor security updates, advisories, and guidance from Palo Alto Networks
+    Blog.
 - url: https://www.paloaltonetworks.com/blog/feed/atom
   category: Vendors & Product Blogs
   title: Palo Alto Networks Blog
   type: atom
-  description: Vendor security updates, advisories, and guidance from Palo Alto Networks Blog.
+  description: Vendor security updates, advisories, and guidance from Palo Alto Networks
+    Blog.
 - url: https://www.paloaltonetworks.com/blog/rss
   category: Vendors & Product Blogs
   title: Palo Alto Networks Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Palo Alto Networks Blog.
-- url: http://researchcenter.paloaltonetworks.com/unit42/feed
+  description: Vendor security updates, advisories, and guidance from Palo Alto Networks
+    Blog.
+- url: https://researchcenter.paloaltonetworks.com/unit42/feed
   category: Vendors & Product Blogs
   title: Palo Alto Networks Unit 42
   type: rss
-  description: Vendor security updates, advisories, and guidance from Palo Alto Networks Unit 42.
-- url: http://blog.phishlabs.com/rss.xml
+  description: Vendor security updates, advisories, and guidance from Palo Alto Networks
+    Unit 42.
+- url: https://blog.phishlabs.com/rss.xml
   category: Vendors & Product Blogs
   title: PhishLabs Blog
   type: rss
@@ -422,7 +461,8 @@
   category: Vendors & Product Blogs
   title: Product and Tech – Qualys Security Blog
   type: rss
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss
   category: Vendors & Product Blogs
   title: Project Zero
@@ -437,27 +477,32 @@
   category: Vendors & Product Blogs
   title: Protegent 360 Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Protegent 360 Blog.
+  description: Vendor security updates, advisories, and guidance from Protegent 360
+    Blog.
 - url: https://blog.qualys.com/feed
   category: Vendors & Product Blogs
   title: Qualys Blog
   type: rss
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://blog.qualys.com/qualys-insights/feed
   category: Vendors & Product Blogs
   title: Qualys Insights – Qualys Security Blog
   type: rss
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://blog.qualys.com/qualys-insights/feed/atom
   category: Vendors & Product Blogs
   title: Qualys Insights – Qualys Security Blog
   type: atom
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://blog.qualys.com/feed/atom
   category: Vendors & Product Blogs
   title: Qualys Security Blog
   type: atom
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://blog.quarkslab.com/feeds/all.rss.xml
   category: Vendors & Product Blogs
   title: Quarkslab Blog
@@ -497,22 +542,26 @@
   category: Vendors & Product Blogs
   title: Security @ Cisco Blogs
   type: atom
-  description: Vendor security updates, advisories, and guidance from Security @ Cisco Blogs.
+  description: Vendor security updates, advisories, and guidance from Security @ Cisco
+    Blogs.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SecurityCopilotBlog
   category: Vendors & Product Blogs
   title: Security Copilot Blog
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://bughunters.google.com/feed/en
   category: Vendors & Product Blogs
   title: Security Engineering Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Security Engineering Blog.
+  description: Vendor security updates, advisories, and guidance from Security Engineering
+    Blog.
 - url: https://msrc.microsoft.com/blog/categories/security-research-defense/feed
   category: Vendors & Product Blogs
   title: Security Research & Defense on Microsoft Security Response Center
   type: rss
-  description: Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.
+  description: Official Microsoft Security Response Center updates, advisories, and
+    vulnerability disclosures.
 - url: https://azure.microsoft.com/en-us/blog/category/security/feed
   category: Vendors & Product Blogs
   title: Security | Microsoft Azure Blog | Microsoft Azure
@@ -532,12 +581,14 @@
   category: Vendors & Product Blogs
   title: SentinelOne Labs
   type: rss
-  description: Vendor security updates, advisories, and guidance from SentinelOne Labs.
+  description: Vendor security updates, advisories, and guidance from SentinelOne
+    Labs.
 - url: https://www.signalscorps.com/feed.xml
   category: Vendors & Product Blogs
   title: Signals Corps Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Signals Corps Blog.
+  description: Vendor security updates, advisories, and guidance from Signals Corps
+    Blog.
 - url: https://socprime.com/blog/feed
   category: Vendors & Product Blogs
   title: SOC Prime Blog
@@ -557,22 +608,26 @@
   category: Vendors & Product Blogs
   title: Tenable Cyber Exposure Alerts
   type: rss
-  description: Vendor security updates, advisories, and guidance from Tenable Cyber Exposure Alerts.
+  description: Vendor security updates, advisories, and guidance from Tenable Cyber
+    Exposure Alerts.
 - url: https://www.tenable.com/security/research/feed
   category: Vendors & Product Blogs
   title: Tenable Research Advisories
   type: rss
-  description: Vendor security updates, advisories, and guidance from Tenable Research Advisories.
+  description: Vendor security updates, advisories, and guidance from Tenable Research
+    Advisories.
 - url: https://blog.google/threat-analysis-group/rss
   category: Vendors & Product Blogs
   title: Threat Analysis Group (TAG)
   type: rss
-  description: Vendor security updates, advisories, and guidance from Threat Analysis Group (TAG).
-- url: http://feeds.trendmicro.com/TrendMicroSimplySecurity
+  description: Vendor security updates, advisories, and guidance from Threat Analysis
+    Group (TAG).
+- url: https://feeds.trendmicro.com/TrendMicroSimplySecurity
   category: Vendors & Product Blogs
   title: Trend Micro Simply Security
   type: rss
-  description: Vendor security updates, advisories, and guidance from Trend Micro Simply Security.
+  description: Vendor security updates, advisories, and guidance from Trend Micro
+    Simply Security.
 - url: https://www.tripwire.com/blogs.xml
   category: Vendors & Product Blogs
   title: Tripwire – State of Security
@@ -603,11 +658,12 @@
   title: UpGuard – News
   type: rss
   description: Vendor security updates, advisories, and guidance from UpGuard.
-- url: http://www.veracode.com/blog/feed
+- url: https://www.veracode.com/blog/feed
   category: Vendors & Product Blogs
   title: Veracode Security Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Veracode Security Blog.
+  description: Vendor security updates, advisories, and guidance from Veracode Security
+    Blog.
 - url: https://www.virusbulletin.com/rss
   category: Vendors & Product Blogs
   title: Virus Bulletin – Vendor RSS
@@ -617,19 +673,23 @@
   category: Vendors & Product Blogs
   title: Vulnerabilities and Threat Research – Qualys Security Blog
   type: rss
-  description: Qualys blog updates on vulnerabilities, threat research, and security best practices.
+  description: Qualys blog updates on vulnerabilities, threat research, and security
+    best practices.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Vulnerability-Management
   category: Vendors & Product Blogs
   title: Vulnerability Management
   type: rss
-  description: Microsoft technical community posts with security guidance, product updates, and research.
+  description: Microsoft technical community posts with security guidance, product
+    updates, and research.
 - url: https://www.webroot.com/blog/feed
   category: Vendors & Product Blogs
   title: Webroot Threat Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from Webroot Threat Blog.
+  description: Vendor security updates, advisories, and guidance from Webroot Threat
+    Blog.
 - url: https://www.wiz.io/feed/tag/security/rss.xml
   category: Vendors & Product Blogs
   title: 'Wiz Blog: Security | RSS feed'
   type: rss
-  description: 'Vendor security updates, advisories, and guidance from Wiz Blog: Security |.'
+  description: 'Vendor security updates, advisories, and guidance from Wiz Blog: Security
+    |.'

@@ -1,8 +1,82 @@
+- url: https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss
+  category: Government / CERT & Advisories
+  title: Aircrack-ng
+  type: rss
+  description: Official Aircrack-ng blog
+- url: https://snyk.io/blog/feed
+  category: Government / CERT & Advisories
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+- url: https://snyk.io/blog/feed.xml
+  category: Government / CERT & Advisories
+  title: Blog RSS Feed | Snyk
+  type: rss
+  description: Developer Security Platform
+- url: https://www.clamav.net/feed
+  category: Government / CERT & Advisories
+  title: ClamAV® blog
+  type: atom
+  description: The leading open source anti-malware software, brought to you by Sourcefire.
+- url: https://cxsecurity.com/wlb/rss/all
+  category: Government / CERT & Advisories
+  title: CXSECURITY Database RSS Feed - CXSecurity.com
+  type: rss
+  description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://www.nodejs-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: NodeJS Security & NodeJS Secure Coding's Blog
+  type: rss
+  description: Master hands-on Node.js security with Node.js Secure Coding education
+    and learn how to defend against JavaScript Command Injection vulnerabilities and
+    gain backend development skills to exploit and prevent Path Traver...
+- url: https://offsec.com/rss.xml?utm_source=offsec
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+- url: https://www.offensive-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+- url: https://www.qubes-os.org/feed
+  category: Government / CERT & Advisories
+  title: Qubes OS
+  type: rss
+  description: Qubes is a security-oriented, free and open-source operating system
+    for personal computers that allows you to securely compartmentalize your digital
+    life.
+- url: https://www.qubes-os.org/feed.xml
+  category: Government / CERT & Advisories
+  title: Qubes OS
+  type: rss
+  description: Qubes is a security-oriented, free and open-source operating system
+    for personal computers that allows you to securely compartmentalize your digital
+    life.
+- url: https://cxsecurity.com/wlb/rss/vulnerabilities
+  category: Government / CERT & Advisories
+  title: Vulnerabilities Database - CXSecurity.com
+  type: rss
+  description: Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://zerodayinitiative.com/blog/atom.xml
+  category: Government / CERT & Advisories
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+- url: https://zerodayinitiative.com/blog/rss.xml
+  category: Government / CERT & Advisories
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
 - url: https://www.cisa.gov/cybersecurity-advisories/all.xml
   category: Government, CERT & Advisories
   title: All CISA Advisories
   type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed.xml
   category: Government, CERT & Advisories
   title: BSI – Newsfeed
@@ -17,7 +91,8 @@
   category: Government, CERT & Advisories
   title: CISA News
   type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://www.us-cert.gov/ncas/alerts.xml
   category: Government, CERT & Advisories
   title: CISA – Alerts
@@ -27,7 +102,8 @@
   category: Government, CERT & Advisories
   title: DHS – AIS
   type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://datatracker.ietf.org/feed/document-changes/rfc3442
   category: Government, CERT & Advisories
   title: https://datatracker.ietf.org/feed/document-changes/rfc3442/
@@ -42,12 +118,14 @@
   category: Government, CERT & Advisories
   title: https://www.cisa.gov/blog.xml
   type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml
   category: Government, CERT & Advisories
   title: ICS Advisories
   type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats.
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://resources.infosecinstitute.com/topics/malware-analysis/feed
   category: Government, CERT & Advisories
   title: Infosec Institute – Malware Analysis
@@ -92,7 +170,8 @@
   category: Government, CERT & Advisories
   title: PCI Security Standards Blog
   type: rss
-  description: Official advisories and security updates from PCI Security Standards Blog.
+  description: Official advisories and security updates from PCI Security Standards
+    Blog.
 - url: https://isc.sans.edu/rssfeed_full.xml
   category: Government, CERT & Advisories
   title: SANS Internet Storm Center
@@ -102,14 +181,17 @@
   category: Government, CERT & Advisories
   title: US-CERT – Analysis Reports
   type: rss
-  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
+    and mitigations.
 - url: https://us-cert.cisa.gov/ncas/current-activity.xml
   category: Government, CERT & Advisories
   title: US-CERT – Current Activity
   type: rss
-  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
+    and mitigations.
 - url: https://us-cert.cisa.gov/ics/advisories/advisories.xml
   category: Government, CERT & Advisories
   title: US-CERT – ICS Advisories
   type: rss
-  description: US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations.
+  description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
+    and mitigations.

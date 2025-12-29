@@ -1,3 +1,13 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
 - url: https://cointelegraph.com/rss
   category: Crypto & Blockchain Security
   title: Cointelegraph.com News
