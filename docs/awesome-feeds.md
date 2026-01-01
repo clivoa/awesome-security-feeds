@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2025-12-29T14:08:53.915130+00:00` (UTC)
+**Generated:** `2026-01-01T14:38:44.597102+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -15,7 +15,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [Cybercrime, Darknet & Leaks](#cybercrimedarknetleaks) (22)
 - [DFIR & Forensics](#dfirforensics) (33)
 - [General Security & Blogs](#generalsecurityblogs) (442)
-- [Government / CERT & Advisories](#governmentcertadvisories) (15)
+- [Government / CERT & Advisories](#governmentcertadvisories) (17)
 - [Government, CERT & Advisories](#governmentcertadvisories) (23)
 - [Leaks & Breaches](#leaksbreaches) (11)
 - [Malware & Threat Research](#malwarethreatresearch) (34)
@@ -557,7 +557,7 @@ Total: **442**
 
 ## Government / CERT & Advisories
 
-Total: **15**
+Total: **17**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -567,7 +567,9 @@ Total: **15**
 | ClamAV® blog | The leading open source anti-malware software, brought to you by Sourcefire. | ATOM | <https://www.clamav.net/feed> |
 | CXSECURITY Database RSS Feed - CXSecurity.com | CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/all> |
 | DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | ATOM | <https://dotdotpwn.blogspot.com/atom.xml> |
+| DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | ATOM | <https://dotdotpwn.blogspot.com/feeds/posts/default> |
 | DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | RSS | <https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss> |
+| DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | RSS | <https://dotdotpwn.blogspot.com/rss.xml> |
 | NodeJS Security & NodeJS Secure Coding's Blog | Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver... | RSS | <https://www.nodejs-security.com/rss.xml> |
 | OffSec RSS Feed | Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today! | RSS | <https://offsec.com/rss.xml?utm_source=offsec> |
 | OffSec RSS Feed | Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today! | RSS | <https://www.offensive-security.com/rss.xml> |
