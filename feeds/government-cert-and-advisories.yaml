@@ -28,7 +28,17 @@
   title: DotDotPwn - The Directory Traversal Fuzzer
   type: atom
   description: DotDotPwn - The Directory Traversal Fuzzer
+- url: https://dotdotpwn.blogspot.com/feeds/posts/default
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: atom
+  description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: rss
+  description: DotDotPwn - The Directory Traversal Fuzzer
+- url: https://dotdotpwn.blogspot.com/rss.xml
   category: Government / CERT & Advisories
   title: DotDotPwn - The Directory Traversal Fuzzer
   type: rss
