@@ -1,3 +1,9 @@
+- url: https://www.404media.co/rss
+  category: General Security & Blogs
+  title: 404 Media
+  type: ''
+  description: 404 Media is a new independent media company founded by technology
+    journalists Jason Koebler, Emanuel Maiberg, Samantha Cole, and Joseph …
 - url: https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en
   category: General Security & Blogs
   title: Alerts and advisories
@@ -9,6 +15,11 @@
   title: Anton on Security
   type: rss
   description: Medium posts from Anton on Security focused on general security & blogs.
+- url: https://apisecurity.io/feed/index.xml
+  category: General Security & Blogs
+  title: API Security News
+  type: ''
+  description: The API Security News Newsletter
 - url: https://arstechnica.com/tag/security/feed
   category: General Security & Blogs
   title: Ars Technica – Security
@@ -33,23 +44,46 @@
   type: rss
   description: News, research, and updates on general security & blogs from ASD's
     ACSC.
+- url: https://kirbyidau.com/feed
+  category: General Security & Blogs
+  title: Australian Information Security Awareness and Advisory
+  type: ''
+  description: Information Security Advisor Australia - Awareness, Governance, Risk
+    and Compliance
 - url: https://aws.amazon.com/blogs/security/feed
   category: General Security & Blogs
   title: AWS Security Blog
   type: rss
   description: News, research, and updates on general security & blogs from AWS Security
     Blog.
+- url: https://www.bankinfosecurity.com/rss-feeds
+  category: General Security & Blogs
+  title: BankInfoSecurity.com RSS Syndication
+  type: ''
+  description: BankInfoSecurity.com RSS News Feeds on bank information security news,
+    regulations, blogs and education
 - url: https://www.bellingcat.com/feed
   category: General Security & Blogs
   title: Bellingcat
   type: rss
   description: News, research, and updates on general security & blogs from Bellingcat.
+- url: https://feeds.feedburner.com/biometricupdate
+  category: General Security & Blogs
+  title: Biometric Update
+  type: ''
+  description: Biometrics News, Companies and Explainers
 - url: https://www.bitdefender.com/blog/api/rss/labs
   category: General Security & Blogs
   title: Bitdefender Labs
   type: rss
   description: News, research, and updates on general security & blogs from Bitdefender
     Labs.
+- url: https://www.bitsight.com/blog/rss.xml
+  category: General Security & Blogs
+  title: BitSight Security Ratings Blog
+  type: ''
+  description: Read our Security Ratings blog for cybersecurity news, improving security
+    performance, third-party risk management, &amp; more.
 - url: https://www.bleepingcomputer.com/feed
   category: General Security & Blogs
   title: BleepingComputer
@@ -77,6 +111,62 @@
   title: Blog Feed - Center for Internet Security
   type: rss
   description: News, research, and updates on general security & blogs from Blog Feed.
+- url: https://feeds.bloomberg.com/technology/news.rss
+  category: General Security & Blogs
+  title: Bloomberg Technology
+  type: ''
+  description: Bloomberg Technology
+- url: https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber/?outputType=xml
+  category: General Security & Blogs
+  title: C4ISRNet
+  type: ''
+  description: C4ISRNet News Feed
+- url: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+  category: General Security & Blogs
+  title: 'Cisco Newsroom: Security'
+  type: ''
+  description: Cisco&#x27;s Latest Security News
+- url: https://cloud7.news/feed/gn
+  category: General Security & Blogs
+  title: Cloud7 News
+  type: ''
+  description: Cloud7 is a news source that publishes the latest news, reviews, comparisons,
+    opinions, and exclusive interviews to help tech users …
+- url: https://www.computerweekly.com/rss/IT-security.xml
+  category: General Security & Blogs
+  title: ComputerWeekly.com
+  type: ''
+  description: ComputerWeekly’s best articles of the day
+- url: https://news.crunchbase.com/feed
+  category: General Security & Blogs
+  title: Crunchbase News
+  type: ''
+  description: Data-driven reporting on private markets, startups, founders, and investors
+- url: https://www.cshub.com/rss/categories/attacks
+  category: General Security & Blogs
+  title: CS Hub (Attacks)
+  type: rss
+  description: ''
+- url: https://www.cshub.com/rss/categories/malware
+  category: General Security & Blogs
+  title: CS Hub (Malware)
+  type: rss
+  description: ''
+- url: https://www.cshub.com/rss/reports
+  category: General Security & Blogs
+  title: CS Hub (Reports)
+  type: rss
+  description: ''
+- url: https://www.cshub.com/rss/categories/security-strategy
+  category: General Security & Blogs
+  title: CS Hub (Security Strategy)
+  type: rss
+  description: ''
+- url: https://www.cshub.com/rss/categories/threat-defense
+  category: General Security & Blogs
+  title: CS Hub (Threat Defense)
+  type: rss
+  description: ''
 - url: https://www.csoonline.com/feed
   category: General Security & Blogs
   title: CSO Online
@@ -87,6 +177,28 @@
   title: Ctrl blog
   type: rss
   description: News, research, and updates on general security & blogs from Ctrl blog.
+- url: https://www.cyberdefensemagazine.com/feed
+  category: General Security & Blogs
+  title: Cyber Defense Magazine
+  type: ''
+  description: InfoSec Knowledge is Power
+- url: https://www.cshub.com/rss/articles
+  category: General Security & Blogs
+  title: Cyber Security Hub - Articles
+  type: ''
+  description: '&amp;gt; JavaScript is disabled In order to continue, you need to
+    verify that you&#x27;re not a robot by solving a …'
+- url: https://www.cshub.com/rss/news
+  category: General Security & Blogs
+  title: Cyber Security Hub - News
+  type: ''
+  description: '&amp;gt; JavaScript is disabled In order to continue, you need to
+    verify that you&#x27;re not a robot by solving a …'
+- url: https://cybersecuritynews.com/feed
+  category: General Security & Blogs
+  title: Cyber Security News
+  type: ''
+  description: Latest Hacker and Security News
 - url: https://feeds.feedburner.com/cyber-security-news
   category: General Security & Blogs
   title: Cyber Security News (FeedBurner)
@@ -99,12 +211,28 @@
   type: rss
   description: News, research, and updates on general security & blogs from CyberBuilders
     (Substack).
+- url: https://www.cyberscoop.com/feed
+  category: General Security & Blogs
+  title: CyberScoop
+  type: ''
+  description: CyberScoop is the leading media brand in the cybersecurity market.
+    With more than 6.0M monthly unique engagements, CyberScoop reports on …
+- url: https://www.cybersecuritydive.com/feeds/news
+  category: General Security & Blogs
+  title: Cybersecurity Dive - Latest News
+  type: ''
+  description: Cybersecurity News
 - url: https://cybersecurityventures.com/feed
   category: General Security & Blogs
   title: Cybersecurity Ventures
   type: rss
   description: News, research, and updates on general security & blogs from Cybersecurity
     Ventures.
+- url: https://cylab.be/rss
+  category: General Security & Blogs
+  title: cylab.be
+  type: ''
+  description: cylab.be
 - url: https://www.darkreading.com/rss.xml
   category: General Security & Blogs
   title: darkreading
@@ -116,17 +244,50 @@
   type: rss
   description: News, research, and updates on general security & blogs from Data and
     computer security.
+- url: https://www.datacenterdynamics.com/rss
+  category: General Security & Blogs
+  title: DCD
+  type: ''
+  description: 503 Service Temporarily Unavailable nginx
+- url: https://www.eff.org/rss/updates.xml
+  category: General Security & Blogs
+  title: Deeplinks
+  type: ''
+  description: 'EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet'
 - url: https://detect.fyi/feed
   category: General Security & Blogs
   title: Detect.fyi
   type: rss
   description: News, research, and updates on general security & blogs from Detect.fyi.
+- url: https://www.digitaljournal.com/feed
+  category: General Security & Blogs
+  title: Digital Journal
+  type: ''
+  description: Digital Journal is a digital media news network with thousands of Digital
+    Journalists in 200 countries around the world. Join …
+- url: https://www.elastic.co/blog/feed
+  category: General Security & Blogs
+  title: Elastic Blog - Elasticsearch, Kibana, and ELK Stack
+  type: ''
+  description: Tutorials, deep dives, news, releases, stories, and more from the creators
+    of Elasticsearch
+- url: https://www.forbes.com/cybersecurity/feed
+  category: General Security & Blogs
+  title: Forbes - Cybersecurity
+  type: ''
+  description: Forbes - Cybersecurity
 - url: https://gbhackers.com/feed
   category: General Security & Blogs
   title: GBHackers News
   type: rss
   description: News, research, and updates on general security & blogs from GBHackers
     News.
+- url: https://www.govinfosecurity.com/rss-feeds
+  category: General Security & Blogs
+  title: GovInfoSecurity.com RSS Syndication
+  type: ''
+  description: GovInfoSecurity.com RSS News Feeds on government information security
+    news, regulations, blogs and education
 - url: https://grahamcluley.com/feed
   category: General Security & Blogs
   title: Graham Cluley
@@ -151,6 +312,23 @@
   type: rss
   description: News, research, and updates on general security & blogs from Group-IB
     Blog.
+- url: https://hackaday.com/feed
+  category: General Security & Blogs
+  title: Hackaday
+  type: ''
+  description: Fresh hacks every day
+- url: https://www.sciencedaily.com/rss/computers_math/hacking.xml
+  category: General Security & Blogs
+  title: Hacking News -- ScienceDaily
+  type: ''
+  description: Hacking and computer security. Read today&#x27;s research news on hacking
+    and protecting against codebreakers. New software, secure data sharing, and …
+- url: https://hackingvision.com/feed
+  category: General Security & Blogs
+  title: HackingVision
+  type: ''
+  description: Ethical Hacking Tutorials, Tips &amp; Tricks, Kali Linux, Beginners
+    Hacking
 - url: https://www.hackmageddon.com/feed
   category: General Security & Blogs
   title: HACKMAGEDDON
@@ -161,6 +339,27 @@
   title: HackRead
   type: rss
   description: News, research, and updates on general security & blogs from HackRead.
+- url: https://hakin9.org/feed
+  category: General Security & Blogs
+  title: Hakin9 – IT Security Magazine
+  type: ''
+  description: Hackers about hacking techniques in our IT Security Magazine
+- url: https://www.healthcareitnews.com/taxonomy/term/6156/feed
+  category: General Security & Blogs
+  title: Healthcare IT News - Privacy &amp; Security
+  type: ''
+  description: 504 Gateway Time-out
+- url: https://healthitsecurity.com/feed
+  category: General Security & Blogs
+  title: HealthITSecurity
+  type: ''
+  description: Health IT Security and HIPAA News and Tips
+- url: https://feeds.feedburner.com/HealthTechMagazine
+  category: General Security & Blogs
+  title: HealthTech Magazine
+  type: ''
+  description: 'To continue, please type the characters below: About this page Our
+    systems have detected unusual traffic from your computer network. …'
 - url: https://www.helpnetsecurity.com/feed
   category: General Security & Blogs
   title: Help Net Security
@@ -2017,6 +2216,32 @@
   title: https://www.mdsec.co.uk/feed/
   type: rss
   description: News, research, and updates on general security & blogs from https://www.mdsec.co.uk/feed/.
+- url: https://iacr.org/news/rss
+  category: General Security & Blogs
+  title: IACR News
+  type: ''
+  description: ''
+- url: https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss
+  category: General Security & Blogs
+  title: IEEE Spectrum
+  type: ''
+  description: IEEE Spectrum
+- url: https://industrialcyber.co/feed
+  category: General Security & Blogs
+  title: Industrial Cyber
+  type: ''
+  description: Industrial, OT/ICS, SCADA Cyber Security System &amp; Solutions
+- url: https://danielmiessler.com/category/information-security/feed
+  category: General Security & Blogs
+  title: Information Security Archives
+  type: ''
+  description: 504 Gateway Time-out nginx
+- url: https://infosecwriteups.com/feed
+  category: General Security & Blogs
+  title: InfoSec Write-ups - Medium
+  type: ''
+  description: A collection of write-ups from the best hackers in the world on topics
+    ranging from bug bounties and CTFs to …
 - url: https://www.infosecurity-magazine.com/rss/news
   category: General Security & Blogs
   title: Infosecurity Magazine – News
@@ -2035,11 +2260,38 @@
   type: rss
   description: News, research, and updates on general security & blogs from IT Security
     Guru.
+- url: https://www.itworldcanada.com/category/security/feed
+  category: General Security & Blogs
+  title: IT World Canada
+  type: ''
+  description: Information Technology news on products, services and issues for CIOs,
+    IT managers and network admins
+- url: https://www.itnews.com.au/RSS/rss.ashx
+  category: General Security & Blogs
+  title: iTnews
+  type: ''
+  description: iTnews
+- url: https://www.itnews.asia/rss/rss.ashx
+  category: General Security & Blogs
+  title: iTnews Asia
+  type: ''
+  description: iTnews Asia
 - url: https://www.janbrennenstuhl.eu/index.xml
   category: General Security & Blogs
   title: Jan Brennenstuhl
   type: rss
   description: News, research, and updates on general security & blogs from Jan Brennenstuhl.
+- url: https://johnjhacking.com/index.xml
+  category: General Security & Blogs
+  title: John J Hacking
+  type: ''
+  description: Recent content on John J Hacking
+- url: https://feeds.feedburner.com/PentestTools
+  category: General Security & Blogs
+  title: KitPloit - PenTest Tools!
+  type: ''
+  description: KitPloit - leading source of Security Tools, Hacking Tools, CyberSecurity
+    and Network Security ☣
 - url: https://blog.knowbe4.com/rss.xml
   category: General Security & Blogs
   title: KnowBe4 Blog
@@ -2052,12 +2304,22 @@
   type: atom
   description: News, research, and updates on general security & blogs from Krebs
     on Security.
+- url: https://www.lansweeper.com/feed
+  category: General Security & Blogs
+  title: Lansweeper IT Asset Management
+  type: ''
+  description: Know Your IT
 - url: https://latesthackingnews.com/feed
   category: General Security & Blogs
   title: Latest Hacking News
   type: rss
   description: News, research, and updates on general security & blogs from Latest
     Hacking News.
+- url: https://pulse.latio.tech/feed
+  category: General Security & Blogs
+  title: Latio Pulse
+  type: ''
+  description: Weekly insights into Cloud, Application &amp; Product Security
 - url: https://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure
   category: General Security & Blogs
   title: Lohrmann on Cybersecurity
@@ -2092,6 +2354,11 @@
   title: Medium – @vaceituno
   type: rss
   description: Medium posts from Medium focused on general security & blogs.
+- url: https://news.mit.edu/topic/mitcyber-security-rss.xml
+  category: General Security & Blogs
+  title: MIT News - Cybersecurity
+  type: ''
+  description: 'MIT news feed about: Cybersecurity'
 - url: https://www.vice.com/en/category/tech/feed
   category: General Security & Blogs
   title: Motherboard – Tech
@@ -2109,11 +2376,37 @@
   type: rss
   description: News, research, and updates on general security & blogs from nao-sec
     Blog.
+- url: https://netblocks.org/feed
+  category: General Security & Blogs
+  title: NetBlocks
+  type: ''
+  description: Mapping Internet Freedom
+- url: https://www.newscientist.com/subject/technology/feed
+  category: General Security & Blogs
+  title: New Scientist - Technology
+  type: ''
+  description: New Scientist - Technology
 - url: https://news4hackers.com/feed
   category: General Security & Blogs
   title: News4Hackers
   type: rss
   description: News, research, and updates on general security & blogs from News4Hackers.
+- url: https://digital.nhs.uk/feed/cyber-alerts-feed.xml
+  category: General Security & Blogs
+  title: NHS Digital - Cyber Alert Feed
+  type: ''
+  description: Sorry! We&#x27;re doing some essential work on the website. It will
+    be back online shortly.
+- url: https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/cybersecurity/rss.xml
+  category: General Security & Blogs
+  title: NYT &gt; Cybersecurity
+  type: ''
+  description: ''
+- url: https://www.omeronsecurity.com/feed
+  category: General Security & Blogs
+  title: Omer on Security
+  type: ''
+  description: Weekly posts for your security data lake journey.
 - url: https://openssf.org/feed/atom
   category: General Security & Blogs
   title: Open Source Security Foundation
@@ -2125,6 +2418,35 @@
   title: OWASP
   type: rss
   description: News, research, and updates on general security & blogs from OWASP.
+- url: https://www.pentestpartners.com/feed
+  category: General Security & Blogs
+  title: Pen Test Partners
+  type: ''
+  description: 502 Bad Gateway nginx
+- url: https://www.rtcsec.com/index.xml
+  category: General Security & Blogs
+  title: Real-time communications security on Communication Breakdown - Real-Time
+    Communications Security
+  type: ''
+  description: Recent content in Real-time communications security on Communication
+    Breakdown - Real-Time Communications Security
+- url: https://restofworld.org/feed/latest
+  category: General Security & Blogs
+  title: Rest of World -
+  type: ''
+  description: Reporting Global Tech Stories
+- url: https://rss.beehiiv.com/feeds/tLSvUYOBwf.xml
+  category: General Security & Blogs
+  title: Return on Security
+  type: ''
+  description: Save hours of market research with a weekly review of cybersecurity
+    funding and industry news in 5 minutes, with the …
+- url: https://risky.biz/feeds/risky-business
+  category: General Security & Blogs
+  title: Risky Business
+  type: ''
+  description: Risky Business is a weekly information security podcast featuring news
+    and in-depth interviews with industry luminaries. Launched in February 2007, …
 - url: https://www.rossmanngroup.com/feed
   category: General Security & Blogs
   title: Rossmann Repair Group
@@ -2136,6 +2458,25 @@
   title: S3cur3Th1sSh1t
   type: rss
   description: News, research, and updates on general security & blogs from S3cur3Th1sSh1t.
+- url: https://www.scmagazine.com/feed/topic/policy
+  category: General Security & Blogs
+  title: SC Magazine feed for Policy
+  type: ''
+  description: Connection timed out Error code 522 Visit cloudflare.com for more information.
+    2023-05-23 11:17:52 UTC You Browser Working Frankfurt Cloudflare Working …
+- url: https://www.scmagazine.com/feed/topic/risk-management
+  category: General Security & Blogs
+  title: SC Magazine feed for Risk Management
+  type: ''
+  description: Gateway time-out Error code 504 Visit cloudflare.com for more information.
+    2023-05-17 01:20:10 UTC You Browser Working Frankfurt Cloudflare Working www.scmagazine.com
+    …
+- url: https://www.scmagazine.com/feed/topic/strategy
+  category: General Security & Blogs
+  title: SC Magazine feed for Strategy
+  type: ''
+  description: Please enable cookies. Sorry, you have been blocked You are unable
+    to access scmagazine.com Why have I been blocked? This …
 - url: https://www.schneier.com/blog/atom.xml
   category: General Security & Blogs
   title: Schneier on Security
@@ -2172,6 +2513,11 @@
   type: rss
   description: News, research, and updates on general security & blogs from Security
     Affairs.
+- url: https://www.securitymagazine.com/rss/15
+  category: General Security & Blogs
+  title: Security Magazine (Cyber)
+  type: rss
+  description: ''
 - url: https://techcrunch.com/category/security/feed
   category: General Security & Blogs
   title: Security News | TechCrunch
@@ -2190,12 +2536,33 @@
   type: rss
   description: 'News, research, and updates on general security & blogs from Security
     News: Cybersecurity, Hacks, Privacy, National Se….'
+- url: https://www.techrepublic.com/rssfeeds/topic/security
+  category: General Security & Blogs
+  title: Security on TechRepublic
+  type: ''
+  description: Security on TechRepublic
 - url: https://www.drupal.org/security/psa/rss.xml
   category: General Security & Blogs
   title: Security public service announcements
   type: rss
   description: News, research, and updates on general security & blogs from Security
     public service announcements.
+- url: https://www.techtarget.com/searchsecurity/rss/Security-Wire-Daily-News.xml
+  category: General Security & Blogs
+  title: Security Resources and Information from TechTarget
+  type: ''
+  description: 'Sorry something went wrong. Contact customer support by email at :
+    Please reference the following information : Connection timed out …'
+- url: https://www.ghacks.net/category/software/security/feed
+  category: General Security & Blogs
+  title: Security Software news and updates
+  type: ''
+  description: The independent technology news blog
+- url: https://security-soup.net/feed
+  category: General Security & Blogs
+  title: Security Soup
+  type: rss
+  description: ''
 - url: https://arstechnica.com/security/feed
   category: General Security & Blogs
   title: Security – Ars Technica
@@ -2208,6 +2575,21 @@
   type: atom
   description: Ars Technica security news and analysis spanning vulnerabilities, incidents,
     and tech policy.
+- url: https://siliconangle.com/category/security/feed
+  category: General Security & Blogs
+  title: Security – SiliconANGLE
+  type: ''
+  description: Extracting the signal from the noise.
+- url: https://venturebeat.com/category/security/feed
+  category: General Security & Blogs
+  title: Security – VentureBeat
+  type: ''
+  description: Transformative tech coverage that matters
+- url: https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml
+  category: General Security & Blogs
+  title: security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle
+  type: ''
+  description: Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle
 - url: https://feeds.feedburner.com/securityweek
   category: General Security & Blogs
   title: SecurityWeek
@@ -2232,16 +2614,59 @@
   type: rss
   description: SecurityWeek news covering vulnerabilities, threats, and enterprise
     security developments.
+- url: https://www.siliconrepublic.com/feed
+  category: General Security & Blogs
+  title: Silicon Republicinfosec – Silicon Republic
+  type: ''
+  description: Silicon Republic is a leading source for technology, science and start-up
+    news, information and resources for people who are passionate …
+- url: https://blog.sucuri.net/feed
+  category: General Security & Blogs
+  title: Sucuri Blog
+  type: ''
+  description: Website Security News
+- url: https://systemweakness.com/feed
+  category: General Security & Blogs
+  title: System Weakness - Medium
+  type: ''
+  description: System Weakness is a publication that specialises in publishing upcoming
+    writers in cybersecurity and ethical hacking space. Our security experts …
 - url: https://team-cymru.com/feed
   category: General Security & Blogs
   title: Team Cymru
   type: rss
   description: News, research, and updates on general security & blogs from Team Cymru.
+- url: https://techmonitor.ai/feed
+  category: General Security & Blogs
+  title: Tech Monitor
+  type: ''
+  description: Navigating the horizon of business technology​.
+- url: https://techcrunch.com/feed
+  category: General Security & Blogs
+  title: TechCrunch
+  type: ''
+  description: Startup and Technology News
+- url: https://www.techmeme.com/feed.xml
+  category: General Security & Blogs
+  title: Techmeme
+  type: ''
+  description: Tech Web, page A1
+- url: https://www.reutersagency.com/feed/?best-topics=tech
+  category: General Security & Blogs
+  title: Technology | Reuters News Agency
+  type: ''
+  description: We tell all sides, but take none. We go back to the start, where there’s
+    no bias and no agenda …
 - url: https://www.techrepublic.com/rssfeeds/topic/security?feedType=rssfeeds
   category: General Security & Blogs
   title: TechRepublic – Security
   type: rss
   description: News, research, and updates on general security & blogs from TechRepublic.
+- url: https://www.techspot.com/backend.xml
+  category: General Security & Blogs
+  title: TechSpot
+  type: ''
+  description: TechSpot News - All Stories
 - url: https://blog.cloudflare.com/rss
   category: General Security & Blogs
   title: The Cloudflare Blog
@@ -2259,12 +2684,40 @@
   type: rss
   description: PortSwigger research and updates on web security, Burp Suite, and vulnerability
     techniques.
+- url: https://github.blog/category/security/feed
+  category: General Security & Blogs
+  title: 'The GitHub Blog: Security News and Updates'
+  type: ''
+  description: Updates, ideas, and inspiration from GitHub to help developers build
+    and design software.
 - url: https://feeds.feedburner.com/TheHackersNews
   category: General Security & Blogs
   title: The Hacker News
   type: rss
   description: RSS feed for The Hacker News, covering general security & blogs news
     and updates.
+- url: https://www.theinformation.com/feed
+  category: General Security & Blogs
+  title: The Information
+  type: ''
+  description: 'The Information has a simple mission: deliver important, deeply reported
+    stories about the technology business you won’t find elsewhere. Many …'
+- url: https://www.lastwatchdog.com/feed
+  category: General Security & Blogs
+  title: The Last Watchdog
+  type: ''
+  description: on Internet security by Byron Acohido
+- url: https://thenewstack.io/feed
+  category: General Security & Blogs
+  title: The New Stack
+  type: ''
+  description: The New Stack is a media platform for the people who build and manage
+    software the world relies on. We …
+- url: https://proton.me/blog/feed
+  category: General Security & Blogs
+  title: The Proton Blog
+  type: ''
+  description: News from the front lines of privacy and security
 - url: https://therecord.media/feed
   category: General Security & Blogs
   title: The Record
@@ -2275,6 +2728,27 @@
   title: The Register - Security
   type: atom
   description: News, research, and updates on general security & blogs from The Register.
+- url: https://catless.ncl.ac.uk/risksrss2.xml
+  category: General Security & Blogs
+  title: The RISKS Digest
+  type: ''
+  description: The website of the RISKS mailing list
+- url: https://www.thestack.technology/latest/rss
+  category: General Security & Blogs
+  title: The Stack
+  type: ''
+  description: Interviews, Insight, Intelligence for Digital Leaders
+- url: https://www.tripwire.com/state-of-security/feed
+  category: General Security & Blogs
+  title: The State of Security
+  type: ''
+  description: News. Trends. Insights.
+- url: https://www.theverge.com/rss/index.xml
+  category: General Security & Blogs
+  title: The Verge - All Posts
+  type: ''
+  description: Be back soon. Chorus Logo Our sites are offline for maintenance. Thank
+    you for your patience while we’re making these …
 - url: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   category: General Security & Blogs
   title: Threat Intelligence
@@ -2291,6 +2765,17 @@
   title: Troy Hunt
   type: rss
   description: News, research, and updates on general security & blogs from Troy Hunt.
+- url: https://ventureinsecurity.net/feed
+  category: General Security & Blogs
+  title: Venture in Security
+  type: ''
+  description: Helping security practitioners, entrepreneurs, investors and executives
+    build the future of cybersecurity
+- url: https://www.vice.com/en/rss/topic/hacking
+  category: General Security & Blogs
+  title: VICE US - HACKING
+  type: ''
+  description: RSS feed for https://www.vice.com/en/topic/hacking
 - url: https://www.carbonblack.com/feed
   category: General Security & Blogs
   title: VMware Carbon Black Blog
@@ -2302,6 +2787,17 @@
   title: WIRED – Security
   type: rss
   description: News, research, and updates on general security & blogs from WIRED.
+- url: https://www.wordfence.com/feed
+  category: General Security & Blogs
+  title: Wordfence
+  type: ''
+  description: WordPress Security Plugin
+- url: https://www.yahoo.com/tech/rss
+  category: General Security & Blogs
+  title: Yahoo Tech
+  type: ''
+  description: Follow the biggest tech news with the experts at Yahoo Tech. Read the
+    latest product reviews by David Pogue and …
 - url: https://www.zdnet.com/topic/security/rss.xml
   category: General Security & Blogs
   title: ZDNet – Security

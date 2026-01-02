@@ -102,11 +102,30 @@
   title: BSI – Newsfeed
   type: rss
   description: Official advisories and security updates from BSI.
+- url: https://www.kb.cert.org/vulfeed
+  category: Government, CERT & Advisories
+  title: CERT Recently Published Vulnerability Notes
+  type: ''
+  description: CERT publishes vulnerability advisories called &quot;Vulnerability
+    Notes.&quot; Vulnerability Notes include summaries, technical details, remediation
+    information, and lists of affected vendors. …
+- url: https://cert.be/en/rss
+  category: Government, CERT & Advisories
+  title: Cert.be advisories
+  type: ''
+  description: 'The requested URL was rejected. Please consult with your administrator.Your
+    support ID is: 8985871849071351541[Go Back]'
 - url: https://www.cisecurity.org/feed/advisories
   category: Government, CERT & Advisories
   title: CIS – Advisories
   type: rss
   description: Official advisories and security updates from CIS.
+- url: https://www.cisa.gov/cisa/blog.xml
+  category: Government, CERT & Advisories
+  title: CISA Blog
+  type: ''
+  description: We lead the National effort to understand, manage, and reduce risk
+    to our cyber and physical infrastructure.
 - url: https://www.cisa.gov/news.xml
   category: Government, CERT & Advisories
   title: CISA News
@@ -161,6 +180,23 @@
   title: Infosec Institute – Threat Intel
   type: rss
   description: Official advisories and security updates from Infosec Institute.
+- url: https://www.jpcert.or.jp/english/rss/jpcert-en.rdf
+  category: Government, CERT & Advisories
+  title: JPCERT/CC (English)
+  type: rss
+  description: ''
+- url: https://api.msrc.microsoft.com/update-guide/rss
+  category: Government, CERT & Advisories
+  title: MSRC Security Update Guide
+  type: ''
+  description: The Microsoft Security Response Center (MSRC) investigates all reports
+    of security vulnerabilities affecting Microsoft products and services, and provides
+    the …
+- url: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  category: Government, CERT & Advisories
+  title: NCSC Feed
+  type: ''
+  description: This includes feeds from report, guidance and blog-post.
 - url: https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml
   category: Government, CERT & Advisories
   title: NCSC News Feed
@@ -181,6 +217,11 @@
   title: News - In category Security Advisories
   type: rss
   description: Official advisories and security updates from News.
+- url: https://www.nist.gov/news-events/cybersecurity/rss.xml
+  category: Government, CERT & Advisories
+  title: News and Events Feed by Topic
+  type: ''
+  description: ''
 - url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
   category: Government, CERT & Advisories
   title: NIST – Cybersecurity Insights
@@ -197,6 +238,16 @@
   title: SANS Internet Storm Center
   type: rss
   description: Official advisories and security updates from SANS Internet Storm Center.
+- url: https://cert-portal.siemens.com/productcert/rss/advisories.atom
+  category: Government, CERT & Advisories
+  title: Siemens ProductCERT Security Advisories
+  type: atom
+  description: Siemens Security Advisories
+- url: https://ubuntu.com/security/notices/rss.xml
+  category: Government, CERT & Advisories
+  title: Ubuntu security notices
+  type: ''
+  description: Recent content on Ubuntu security notices
 - url: https://us-cert.cisa.gov/ncas/analysis-reports.xml
   category: Government, CERT & Advisories
   title: US-CERT – Analysis Reports
@@ -215,3 +266,13 @@
   type: rss
   description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
     and mitigations.
+- url: https://www.zerodayinitiative.com/rss/published
+  category: Government, CERT & Advisories
+  title: 'ZDI: Published Advisories'
+  type: ''
+  description: Published Advisories
+- url: https://www.zerodayinitiative.com/rss/upcoming
+  category: Government, CERT & Advisories
+  title: 'ZDI: Upcoming Advisories'
+  type: ''
+  description: Upcoming Advisories

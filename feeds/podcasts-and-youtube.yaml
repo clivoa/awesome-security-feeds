@@ -1,13 +1,504 @@
+- url: https://7ms.us/rss
+  category: Podcasts & YouTube
+  title: 7 Minute Security
+  type: ''
+  description: ''
+- url: https://absoluteappsec.com/rss.xml
+  category: Podcasts & YouTube
+  title: Absolute AppSec
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCo9CDrIB0rJwG4GGz8CZEaQ
+  category: Podcasts & YouTube
+  title: Absolute AppSec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCKTs4jCh9yLbFfZHntSairQ
+  category: Podcasts & YouTube
+  title: Andy Li
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCkFKiCm7dD0gsB4jqIdCuRQ
+  category: Podcasts & YouTube
+  title: Antisyphon Training
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/112258/rss
+  category: Podcasts & YouTube
+  title: Application Security Weekly (Video)
+  type: ''
+  description: ''
+- url: https://feeds.feedburner.com/BeersWithTalosPodcast
+  category: Podcasts & YouTube
+  title: Beers with Talos Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg
+  category: Podcasts & YouTube
+  title: Black Hat
+  type: atom
+  description: ''
+- url: https://www.blackhillsinfosec.com/feed/podcast
+  category: Podcasts & YouTube
+  title: Black Hills Information Security
+  type: ''
+  description: ''
+- url: https://brakesec.com/BrakesecRSS
+  category: Podcasts & YouTube
+  title: Brakeing Down Security Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCpNGmljppAJbTIA5Msms1Pw
+  category: Podcasts & YouTube
+  title: BSidesLV
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCZDyl7G-Lq-EMVO8PfDFp9g
+  category: Podcasts & YouTube
+  title: Bug Bounty Reports Explained
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCo1NHk_bgbAbDBc4JinrXww
+  category: Podcasts & YouTube
+  title: Bugcrowd
+  type: atom
+  description: ''
+- url: https://cisoseries.libsyn.com/rss
+  category: Podcasts & YouTube
+  title: CISO Series
+  type: ''
+  description: ''
+- url: https://davidspark.libsyn.com/cisovendor
+  category: Podcasts & YouTube
+  title: CISO Series Podcast
+  type: ''
+  description: ''
+- url: https://feeds.megaphone.fm/clickhere
+  category: Podcasts & YouTube
+  title: Click Here
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXXXoi68Hv6caNLWfw7j8MQ
+  category: Podcasts & YouTube
+  title: Cristi Vlad
+  type: atom
+  description: ''
+- url: https://media.rss.com/ctbbpodcast/feed.xml
+  category: Podcasts & YouTube
+  title: Critical Thinking - A Bug Bounty Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCEeuul0q7C8Zs5C8rc4REFQ
+  category: Podcasts & YouTube
+  title: CryptoCat
+  type: atom
+  description: ''
+- url: https://feeds.acast.com/public/shows/cyber
+  category: Podcasts & YouTube
+  title: CYBER
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7RUTWLRR1_-GPQRfQ3Qj2w
+  category: Podcasts & YouTube
+  title: Cyber Studies
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCRikWa5PGyQZw0yATk8iZWg
+  category: Podcasts & YouTube
+  title: Cybercrime Magazine
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/118065/rss
+  category: Podcasts & YouTube
+  title: Cybersecurity Today
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9EX_PSbngZP8pkPWSUpPzw
+  category: Podcasts & YouTube
+  title: Cyberspatial
+  type: atom
+  description: ''
+- url: https://feeds.megaphone.fm/cyberwire-daily-podcast
+  category: Podcasts & YouTube
+  title: CyberWire Daily
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCY-UlEymdA23eo09U9a0FLA
+  category: Podcasts & YouTube
+  title: CYBERWOX
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCzWPaANpPISEE_xvJm8lqHA
+  category: Podcasts & YouTube
+  title: Cybrary
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCp1rLlh9AQN9Pejzbg9dcAg
+  category: Podcasts & YouTube
+  title: Cyrill Gössi
+  type: atom
+  description: ''
+- url: https://feeds.megaphone.fm/darknetdiaries
+  category: Podcasts & YouTube
+  title: Darknet Diaries
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w
+  category: Podcasts & YouTube
+  title: David Bombal
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw
+  category: Podcasts & YouTube
+  title: DEFCONConference
+  type: atom
+  description: ''
+- url: https://defenseindepth.libsyn.com/rss
+  category: Podcasts & YouTube
+  title: Defense in Depth
+  type: ''
+  description: ''
+- url: https://defensivesecurity.org/feed/podcast
+  category: Podcasts & YouTube
+  title: Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec
+  type: ''
+  description: ''
+- url: https://digitalforensicsurvivalpodcast.libsyn.com/rss
+  category: Podcasts & YouTube
+  title: Digital Forensic Survival Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCI8zwug_Lv4_-KPT62oeDUA
+  category: Podcasts & YouTube
+  title: Dr Josh Stroschein
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCcHAyzVBPtV6i_rhqBPoA6w
+  category: Podcasts & YouTube
+  title: Elevate Cyber
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/81245/rss
+  category: Podcasts & YouTube
+  title: Enterprise Security Weekly (Video)
+  type: ''
+  description: ''
+- url: https://feed.podbean.com/errorcode/feed.xml
+  category: Podcasts & YouTube
+  title: Error Code
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCkN7IPX-dVEsAdjoLdFda1g
+  category: Podcasts & YouTube
+  title: ESET
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCq9IyPMXiwD8yBFHkxmN8zg
+  category: Podcasts & YouTube
+  title: Farah Hawa
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/200150/rss
+  category: Podcasts & YouTube
+  title: Forensic Focus
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCQajlJPesqmyWJDN52AZI4Q
+  category: Podcasts & YouTube
+  title: Forensic Focus
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCjfghTrOeq5Qu0WdKjxBpBA
+  category: Podcasts & YouTube
+  title: fwd:cloudsec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCG-48Ki-b6W_siaUkukJOSw
+  category: Podcasts & YouTube
+  title: Gerald Auger, PhD - Simply Cyber
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCTLUi3oc1-a7dS-2-YgEKmA
+  category: Podcasts & YouTube
+  title: Grant Collins
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCpYB6eIJB4jBGSAJcAhCMhw
+  category: Podcasts & YouTube
+  title: GRIMM Cybersecurity (SMFS, Inc.)
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCCMi6F5Ac3kQDfffWXQGZDw
+  category: Podcasts & YouTube
+  title: Guided Hacking
+  type: atom
+  description: ''
+- url: https://anchor.fm/s/435c0d58/podcast/rss
+  category: Podcasts & YouTube
+  title: Hack&#x27;n Speak
+  type: ''
+  description: ''
+- url: https://hackerhistory.com/feed/podcast
+  category: Podcasts & YouTube
+  title: Hacker History Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-JXhtTw4scg74yWwkuX-ow
+  category: Podcasts & YouTube
+  title: Hacker Valley Media
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsgzmECky2Q9lQMWzDwMhYw
+  category: Podcasts & YouTube
+  title: HackerOne
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q
+  category: Podcasts & YouTube
+  title: HackerSploit
+  type: atom
+  description: ''
+- url: https://feeds.megaphone.fm/hacking-humans
+  category: Podcasts & YouTube
+  title: Hacking Humans
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC71Pa-YHA32hYPKTRjZgbXw
+  category: Podcasts & YouTube
+  title: Hacktivity - IT Security Festival
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ
+  category: Podcasts & YouTube
+  title: Hak5
+  type: atom
+  description: ''
+- url: https://helpmewithhipaa.com/feed
+  category: Podcasts & YouTube
+  title: Help Me With HIPAA
+  type: ''
+  description: ''
 - url: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
   category: Podcasts & YouTube
   title: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
   type: rss
   description: Security podcasts and talks from https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml.
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4TAjYDpNggDwictUA180LA
+  category: Podcasts & YouTube
+  title: Infosec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYuizWN2ac4L7CZ-WWHZQKw
+  category: Podcasts & YouTube
+  title: InfoSec Pat
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCPiN9NPjIer8Do9gUFxKv7A
+  category: Podcasts & YouTube
+  title: InsiderPhD
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA
+  category: Podcasts & YouTube
+  title: IppSec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-8Ba047kFinfgp3sO53qcA
+  category: Podcasts & YouTube
+  title: ITPro
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6r2CYsKIDjG0Z-VBn4ahVA
+  category: Podcasts & YouTube
+  title: Jason Ford {JSON:SEC}
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCBNG0osIBAprVcZZ3ic84vw
+  category: Podcasts & YouTube
+  title: Jim Browning
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3zosnqUbG7CFw
+  category: Podcasts & YouTube
+  title: John Hammond
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbbBt23LHt4WhjiWh67NJ3w
+  category: Podcasts & YouTube
+  title: Jon Good
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCm22FAXZMw1BaWeFszZxUKw
+  category: Podcasts & YouTube
+  title: Kitboga
+  type: atom
+  description: ''
+- url: https://ericcole.libsyn.com/rss
+  category: Podcasts & YouTube
+  title: Life of a CISO with Dr. Eric Cole
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w
+  category: Podcasts & YouTube
+  title: LiveOverflow
+  type: atom
+  description: ''
+- url: https://malicious.life/feed/podcast
+  category: Podcasts & YouTube
+  title: Malicious Life
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCVFXrUwuWxNlm6UNZtBLJ-A
+  category: Podcasts & YouTube
+  title: MalwareAnalysisForHedgehogs
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWoH3f-Yx6TxJfO2O_ezJUw
+  category: Podcasts & YouTube
+  title: MyDFIR
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCCZDt7MuC3Hzs6IH4xODLBw
+  category: Podcasts & YouTube
+  title: Nahamsec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ
+  category: Podcasts & YouTube
+  title: NetworkChuck
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC--DwaiMV-jtO-6EvmKOnqg
+  category: Podcasts & YouTube
+  title: OALabs
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UChYZsplz61SeG0olX6cMoAA
+  category: Podcasts & YouTube
+  title: OffSec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCe8j61ABYDuPTdtjItD2veA
+  category: Podcasts & YouTube
+  title: OWASP Foundation
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCeZgoXbccmkcf9viz974MEA
+  category: Podcasts & YouTube
+  title: Phillip Wylie
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmXwpkCXmIKjoRLMsq9I3RA
+  category: Podcasts & YouTube
+  title: PinkDraconian
+  type: atom
+  description: ''
+- url: https://nakedsecurity.sophos.com/category/audio-and-video/podcast/feed
+  category: Podcasts & YouTube
+  title: Podcast – Naked Security
+  type: ''
+  description: ''
+- url: https://opensourcesecurity.io/category/podcast/rss
+  category: Podcasts & YouTube
+  title: Podcast – Open Source Security
+  type: ''
+  description: ''
+- url: https://www.social-engineer.org/podcasts/feed
+  category: Podcasts & YouTube
+  title: Podcasts Archive - Security Through Education
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCJ_dsa5WPjwNGK8PLnB18Bw
+  category: Podcasts & YouTube
+  title: PurpleSec
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC8nq3PX9coMiqgKH6fw-VCQ
+  category: Podcasts & YouTube
+  title: Red Team Village
+  type: atom
+  description: ''
+- url: https://feeds.simplecast.com/GzAtTpW2
+  category: Podcasts & YouTube
+  title: Redefining CyberSecurity
+  type: ''
+  description: ''
+- url: https://risky.biz/feeds/risky-business-news
+  category: Podcasts & YouTube
+  title: Risky Business News
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYzwGkfOqrevO-4TuTjPLwQ
+  category: Podcasts & YouTube
+  title: RSA Conference
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC5qEPWtHLFRIjhW_3xd5g2A
+  category: Podcasts & YouTube
+  title: Sandra - Tech &amp; Lifestyle
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCMaclFQGtT064H9KNsfomGA
+  category: Podcasts & YouTube
+  title: SANS Cloud Security
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2uPNhGken-ogEpJDi4ly6w
+  category: Podcasts & YouTube
+  title: SANS Institute
+  type: atom
+  description: ''
 - url: https://www.dshield.org/dailypodcast.xml
   category: Podcasts & YouTube
   title: SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)
   type: rss
   description: Daily update on current cyber security threats
+- url: https://isc.sans.edu/dailypodcast.xml
+  category: Podcasts & YouTube
+  title: SANS Internet Stormcenter Daily Network/Cyber Security and Information Security
+    Stormcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP28F4uf9s2V1_SQwnJST_A
+  category: Podcasts & YouTube
+  title: SANS Offensive Operations
+  type: atom
+  description: ''
+- url: https://section9.us/podcast?format=rss
+  category: Podcasts & YouTube
+  title: SECTION 9 Cyber Security
+  type: ''
+  description: ''
+- url: https://feeds.buzzsprout.com/2137278.rss
+  category: Podcasts & YouTube
+  title: Security Beyond The Checkbox
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXXNOelGiY_N96a2nfhcaDA
+  category: Podcasts & YouTube
+  title: Security BSides London
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWemrSP6Aba171jXReCz_Qg
+  category: Podcasts & YouTube
+  title: Security BSides San Francisco
+  type: atom
+  description: ''
+- url: https://feeds.buzzsprout.com/1822302.rss
+  category: Podcasts & YouTube
+  title: Security Cryptography Whatever
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNbqa_9xihC8yaV2o6dlsUg
+  category: Podcasts & YouTube
+  title: Security Now
+  type: atom
+  description: ''
+- url: https://leoville.tv/podcasts/sn.xml
+  category: Podcasts & YouTube
+  title: Security Now (Audio)
+  type: ''
+  description: ''
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLdPwyUeH0mS566Y0YZ7oAGghzMgRlWTBf
   category: Podcasts & YouTube
   title: Security Now (YouTube Playlist)
@@ -19,6 +510,26 @@
   title: Security Talk (YouTube)
   type: rss
   description: Video updates from Security Talk (YouTube) covering podcasts & youtube.
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCg--XBjJ50a9tUhTKXVPiqg
+  category: Podcasts & YouTube
+  title: Security Weekly
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/134669/rss
+  category: Podcasts & YouTube
+  title: Security Weekly (Download Only)
+  type: ''
+  description: ''
+- url: https://hntvaudio.swsgtv.libsynpro.com/rss
+  category: Podcasts & YouTube
+  title: Security Weekly News (Audio)
+  type: ''
+  description: ''
+- url: https://feeds.libsyn.com/81244/rss
+  category: Podcasts & YouTube
+  title: Security Weekly News (Video)
+  type: ''
+  description: ''
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLlPkFwQHxYE5CBDxb2i-r_HjVaazxyh4i
   category: Podcasts & YouTube
   title: Security Weekly News (YouTube)
@@ -30,8 +541,168 @@
   title: Security Weekly Podcast Network (Audio)
   type: rss
   description: Security podcasts and talks from Security Weekly Podcast Network (Audio).
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCaXV-r0zzGOsVg3V2U164wA
+  category: Podcasts & YouTube
+  title: SecurityFWD
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCSR2-ioTo7Tk7IB3TPSE6_A
+  category: Podcasts & YouTube
+  title: SecurityMetrics, Inc.
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCW6xlqxSY3gGur4PkGPEUeA
+  category: Podcasts & YouTube
+  title: Seytonic
+  type: atom
+  description: ''
+- url: https://feeds.buzzsprout.com/2154459.rss
+  category: Podcasts & YouTube
+  title: ShadowTalk powered by ReliaQuest
+  type: ''
+  description: ''
+- url: https://www.smashingsecurity.com/rss
+  category: Podcasts & YouTube
+  title: Smashing Security
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCC1vbVVbYdNe-OZRldj-U6g
+  category: Podcasts & YouTube
+  title: SocialEngineerOrg
+  type: atom
+  description: ''
+- url: https://feeds.libsyn.com/127181/rss
+  category: Podcasts & YouTube
+  title: Software Engineering Institute (SEI) Podcast Series
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLXQOTWipgpd6CtDKrclqNw
+  category: Podcasts & YouTube
+  title: StudioSec
+  type: atom
+  description: ''
+- url: https://surveillancereport.tech/feed
+  category: Podcasts & YouTube
+  title: Surveillance Report
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0W_BIuwk8D0Bv4THbVZZOQ
+  category: Podcasts & YouTube
+  title: Surveillance Report
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCebj---w2CTP49tah7a8Veg
+  category: Podcasts & YouTube
+  title: t3l3machus
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCK9QTAgoEyo6ZwuggepHSvQ
+  category: Podcasts & YouTube
+  title: The Cyber Distortion Podcast
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw
+  category: Podcasts & YouTube
+  title: The Cyber Mentor
+  type: atom
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6W86lQzOrz6X4aQTTKAB1A
+  category: Podcasts & YouTube
+  title: The Cyber Security Recruiter
+  type: atom
+  description: ''
+- url: https://www.steptoe.com/feed-Cyberlaw.rss
+  category: Podcasts & YouTube
+  title: The Cyberlaw Podcast
+  type: ''
+  description: ''
+- url: https://feeds.simplecast.com/vRu9TC9N
+  category: Podcasts & YouTube
+  title: The Hacker Factory
+  type: ''
+  description: ''
+- url: https://feed.podbean.com/thehackermind/feed.xml
+  category: Podcasts & YouTube
+  title: The Hacker Mind
+  type: ''
+  description: ''
+- url: https://feeds.simplecast.com/_hSKbGFl
+  category: Podcasts & YouTube
+  title: The Host Unknown Podcast
+  type: ''
+  description: ''
+- url: https://anchor.fm/s/532bea14/podcast/rss
+  category: Podcasts & YouTube
+  title: The Official Offensive Security Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCKGe7fZ_S788Jaspxg-_5Sg
+  category: Podcasts & YouTube
+  title: The PC Security Channel
+  type: atom
+  description: ''
+- url: https://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss
+  category: Podcasts & YouTube
+  title: The Privacy, Security, &amp; OSINT Show
+  type: ''
+  description: ''
+- url: https://securityledger.com/feed/podcast
+  category: Podcasts & YouTube
+  title: The Security Ledger with Paul F. Roberts
+  type: ''
+  description: ''
+- url: https://sharedsecurity.net/feed
+  category: Podcasts & YouTube
+  title: The Shared Security Show
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCjBhClJ59W4hfUly51i11hg
+  category: Podcasts & YouTube
+  title: The XSS rat
+  type: atom
+  description: ''
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLW5y1tjAOzI0Sx4UU2fncEwQ9BQLr5Vlu
   category: Podcasts & YouTube
   title: Threat Wire (YouTube)
   type: rss
   description: Video updates from Threat Wire (YouTube) covering podcasts & youtube.
+- url: https://omny.fm/shows/troy-hunt-weekly-update/playlists/podcast.rss
+  category: Podcasts & YouTube
+  title: Troy Hunt&#x27;s Weekly Update Podcast
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCGwKrfQJWHgZeFFumnjrpAA
+  category: Podcasts & YouTube
+  title: Truffle Security
+  type: atom
+  description: ''
+- url: https://ubuntusecuritypodcast.org/episode/index.xml
+  category: Podcasts & YouTube
+  title: Ubuntu Security Podcast
+  type: ''
+  description: ''
+- url: https://www.spreaker.com/show/3246578/episodes/feed
+  category: Podcasts & YouTube
+  title: 'UNSECURITY: Information Security Podcast'
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4-GrpQBx6WCGwmwozP744Q
+  category: Podcasts & YouTube
+  title: USENIX
+  type: atom
+  description: ''
+- url: https://loudtreemedia.com/shows/what-the-hack-with-adam-levin/feed
+  category: Podcasts & YouTube
+  title: What the Hack with Adam Levin Archives - Loud Tree Media
+  type: ''
+  description: ''
+- url: https://feed.podbean.com/whattheshell/feed.xml
+  category: Podcasts & YouTube
+  title: What the Shell?
+  type: ''
+  description: ''
+- url: https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw
+  category: Podcasts & YouTube
+  title: Wild West Hackin&#x27; Fest
+  type: atom
+  description: ''

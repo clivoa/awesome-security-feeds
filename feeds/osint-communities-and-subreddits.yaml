@@ -8,6 +8,40 @@
   title: /r/netsec
   type: rss
   description: OSINT resources and community updates from /r/netsec.
+- url: https://www.reddit.com/r/netsec
+  category: OSINT, Communities & Subreddits
+  title: /r/netsec - Information Security News &amp; Discussion
+  type: ''
+  description: A community for technical news and discussion of information security
+    and closely related topics.
+- url: https://bluepurple.substack.com/feed
+  category: OSINT, Communities & Subreddits
+  title: Cyber Defence News for Blue &amp; Purple Teams
+  type: ''
+  description: Summarised cyber defence technical content to help operational blue
+    and purple teams be informed and protect their estates.
+- url: https://www.darkreading.com/rss_simple.asp
+  category: OSINT, Communities & Subreddits
+  title: Dark Reading
+  type: ''
+  description: 'Dark Reading: Connecting the Information and Security Community'
+- url: https://medium.com/feed/dark-roast-security
+  category: OSINT, Communities & Subreddits
+  title: Dark Roast Security - Medium
+  type: ''
+  description: Dark Roast Security’s mission is to inspire, educate, and share ideas
+    about InfoSec. Follow to join our community! - Medium
+- url: https://jacknaglieri.substack.com/feed
+  category: OSINT, Communities & Subreddits
+  title: Detection at Scale
+  type: ''
+  description: A weekly infosec newsletter about scaling SIEMs and Detection Engineering.
+- url: https://dev.to/feed
+  category: OSINT, Communities & Subreddits
+  title: DEV Community
+  type: ''
+  description: A constructive and inclusive social network for software developers.
+    With you every step of your journey.
 - url: https://dtag-dev-sec.github.io/feed
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
@@ -37,11 +71,32 @@
   title: https://defcon.org/defconrss.xml
   type: rss
   description: OSINT resources and community updates from https://defcon.org/defconrss.xml.
+- url: https://www.reddit.com/r/InfoSecNews
+  category: OSINT, Communities & Subreddits
+  title: Information Security News
+  type: ''
+  description: This subreddit is designed for users to post the latest Information
+    Security related news and articles from around the Internet. …
 - url: https://inteltechniques.com/blog/feed
   category: OSINT, Communities & Subreddits
   title: IntelTechniques Blog
   type: rss
   description: OSINT resources and community updates from IntelTechniques Blog.
+- url: https://www.reddit.com/r/privacy
+  category: OSINT, Communities & Subreddits
+  title: Privacy &amp; Freedom in the Information Age
+  type: ''
+  description: The intersection of technology, privacy, and freedom in a digital world.
+- url: https://www.producthunt.com/feed
+  category: OSINT, Communities & Subreddits
+  title: Product Hunt — The best new products, every day
+  type: ''
+  description: ''
+- url: https://www.reddit.com/r/ReverseEngineering
+  category: OSINT, Communities & Subreddits
+  title: Reverse Engineering
+  type: ''
+  description: A moderated community dedicated to all things reverse engineering.
 - url: https://wordpress.org/news/category/security/feed
   category: OSINT, Communities & Subreddits
   title: Security – WordPress News
@@ -52,3 +107,35 @@
   title: Security – WordPress News
   type: atom
   description: OSINT resources and community updates from Security.
+- url: https://medium.com/feed/@guardiosecurity
+  category: OSINT, Communities & Subreddits
+  title: Stories by Guardio on Medium
+  type: ''
+  description: Stories by Guardio on Medium
+- url: https://medium.com/feed/@netflixtechblog
+  category: OSINT, Communities & Subreddits
+  title: Stories by Netflix Technology Blog on Medium
+  type: ''
+  description: Stories by Netflix Technology Blog on Medium
+- url: https://www.cybersecuritypulse.net/feed
+  category: OSINT, Communities & Subreddits
+  title: The Cybersecurity Pulse (TCP)
+  type: ''
+  description: Welcome to TCP! The go-to source for the latest in security product
+    innovation. Join our growing community today!
+- url: https://osintnewsletter.com/feed
+  category: OSINT, Communities & Subreddits
+  title: The OSINT Newsletter
+  type: ''
+  description: OSINT news, tools, tactics, and techniques
+- url: https://this-week-in-rust.org/rss.xml
+  category: OSINT, Communities & Subreddits
+  title: This Week in Rust
+  type: ''
+  description: Stay up to date with events, learning resources, and recent developments
+    in the Rust community.
+- url: https://www.welivesecurity.com/feed
+  category: OSINT, Communities & Subreddits
+  title: WeLiveSecurity
+  type: ''
+  description: News, views, and insight from the ESET security community

@@ -28,6 +28,17 @@
   title: Cheeky4n6Monkey
   type: rss
   description: DFIR and forensics content from Cheeky4n6Monkey.
+- url: https://www.reddit.com/r/computerforensics
+  category: DFIR & Forensics
+  title: Computer Forensics
+  type: ''
+  description: Dedicated to the branch of forensic science encompassing the recovery
+    and investigation of material found in digital devices, often in …
+- url: https://www.cybertriage.com/feed
+  category: DFIR & Forensics
+  title: Cyber Triage Blog
+  type: rss
+  description: ''
 - url: https://davinciforensics.co.za/cybersecurity/feed
   category: DFIR & Forensics
   title: Davinci Forensics – Cybersecurity
@@ -75,6 +86,12 @@
   title: Forensic 4:cast
   type: rss
   description: DFIR and forensics content from Forensic 4:cast.
+- url: https://www.forensicfocus.com/feed
+  category: DFIR & Forensics
+  title: Forensic Focus
+  type: ''
+  description: Digital Forensics DFIR, OSINT &amp; E-Discovery News, Reviews, Articles,
+    Forums, More
 - url: https://www.forensicfocus.com/rss/news2.php
   category: DFIR & Forensics
   title: Forensic Focus
@@ -145,6 +162,12 @@
   title: Smarter Forensics
   type: rss
   description: DFIR and forensics content from Smarter Forensics.
+- url: https://www.trustwave.com/en-us/rss/spiderlabs-blog
+  category: DFIR & Forensics
+  title: SpiderLabs Blog from Trustwave
+  type: ''
+  description: SpiderLabs is Trustwave’s elite team of ethical hackers, forensic investigators
+    and security researchers.
 - url: https://thebinaryhick.blog/feed
   category: DFIR & Forensics
   title: The Binary Hick

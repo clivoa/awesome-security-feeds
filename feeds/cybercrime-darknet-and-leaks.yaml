@@ -18,6 +18,11 @@
   type: rss
   description: Cybercrime and underground ecosystem coverage from CyberCrime & Doing
     Time.
+- url: https://darknetlive.com/rss
+  category: Cybercrime, Darknet & Leaks
+  title: DarknetLive Post Feed
+  type: ''
+  description: Last 10 Recent Posts on DarknetLive
 - url: https://feeds.feedburner.com/OfficeOfInadequateSecurity
   category: Cybercrime, Darknet & Leaks
   title: DataBreaches.net
@@ -30,6 +35,12 @@
   type: rss
   description: Stay updated with the latest news in automated investigations, incident
     response and digital forensics on our blog.
+- url: https://ddosecrets.substack.com/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Distributed Email of Secrets
+  type: ''
+  description: New releases from Distributed Denial of Secrets, a transparency collective
+    publishing interesting data.
 - url: https://eternal-todo.com/rss.xml
   category: Cybercrime, Darknet & Leaks
   title: eternal-todo.com
@@ -95,6 +106,12 @@
   title: Swiss Cyber Storm
   type: rss
   description: Recent Blog entries on Swiss Cyber Storm
+- url: https://techxplore.com/rss-feed/security-news
+  category: Cybercrime, Darknet & Leaks
+  title: Tech Xplore - Security News
+  type: ''
+  description: The latest news on cyber security, network security, software vulnerabilities,
+    data leaks, malware, and viruses
 - url: https://feeds.feedburner.com/scdashboards
   category: Cybercrime, Darknet & Leaks
   title: Tenable Security Center dashboards

@@ -8,13 +8,52 @@
   title: AboutDFIR – The Definitive Compendium Project
   type: rss
   description: Digital Forensics / Incident Response
+- url: https://blog.chainalysis.com/feed
+  category: Crypto & Blockchain Security
+  title: Chainalysis
+  type: ''
+  description: A timeout occurred Error code 524 Visit cloudflare.com for more information.
+    2024-01-08 21:23:13 UTC You Browser Working Frankfurt Cloudflare Working …
+- url: https://cloudsecurityalliance.org/blog/feed
+  category: Crypto & Blockchain Security
+  title: Cloud Security Alliance
+  type: ''
+  description: The Cloud Security Alliance (CSA) is the world’s leading organization
+    dedicated to defining and raising awareness of best practices to …
 - url: https://cointelegraph.com/rss
   category: Crypto & Blockchain Security
   title: Cointelegraph.com News
   type: rss
   description: Crypto and blockchain security coverage from Cointelegraph.com News.
+- url: https://export.arxiv.org/rss/cs.CR
+  category: Crypto & Blockchain Security
+  title: cs.CR updates on arXiv.org
+  type: ''
+  description: Computer Science -- Cryptography and Security (cs.CR) updates on the
+    arXiv.org e-print archive
 - url: https://decrypt.co/feed
   category: Crypto & Blockchain Security
   title: Decrypt
   type: rss
   description: Crypto and blockchain security coverage from Decrypt.
+- url: https://www.sciencedaily.com/rss/computers_math/encryption.xml
+  category: Crypto & Blockchain Security
+  title: Encryption News -- ScienceDaily
+  type: ''
+  description: Encryption. Read the latest research on computer security and encryption
+    methods here. Evaluate new methods for protecting sensitive data.
+- url: https://www.globalencryption.org/feed
+  category: Crypto & Blockchain Security
+  title: Global Encryption Coalition
+  type: ''
+  description: ''
+- url: https://protos.com/feed
+  category: Crypto & Blockchain Security
+  title: Protos
+  type: ''
+  description: Informed crypto news
+- url: https://rekt.news/rss/feed.xml
+  category: Crypto & Blockchain Security
+  title: Rekt
+  type: ''
+  description: Investigative journalism &amp; creative commentary

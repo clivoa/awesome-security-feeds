@@ -4,6 +4,12 @@
   type: rss
   description: Updates from Cybersecurity and Infrastructure Security Agency CISA
     covering vulnerabilities, cves.
+- url: https://www.databreachtoday.co.uk/rss-feeds
+  category: Leaks & Breaches
+  title: DataBreachToday.co.uk RSS Syndication
+  type: ''
+  description: DataBreachToday.co.uk RSS News Feeds on data breach today news, regulations,
+    blogs and education
 - url: https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
   category: Leaks & Breaches
   title: Have I Been Pwned – Latest Breaches
