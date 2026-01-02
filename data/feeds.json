@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-02T14:07:43.363507+00:00",
-  "total": 770,
+  "generated_at": "2026-01-02T14:12:54.020548+00:00",
+  "total": 1139,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -17,6 +17,20 @@
       "category": "Crypto & Blockchain Security"
     },
     {
+      "url": "https://blog.chainalysis.com/feed",
+      "title": "Chainalysis",
+      "description": "A timeout occurred Error code 524 Visit cloudflare.com for more information. 2024-01-08 21:23:13 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://cloudsecurityalliance.org/blog/feed",
+      "title": "Cloud Security Alliance",
+      "description": "The Cloud Security Alliance (CSA) is the world’s leading organization dedicated to defining and raising awareness of best practices to …",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
       "url": "https://cointelegraph.com/rss",
       "title": "Cointelegraph.com News",
       "description": "Crypto and blockchain security coverage from Cointelegraph.com News.",
@@ -24,10 +38,45 @@
       "category": "Crypto & Blockchain Security"
     },
     {
+      "url": "https://export.arxiv.org/rss/cs.CR",
+      "title": "cs.CR updates on arXiv.org",
+      "description": "Computer Science -- Cryptography and Security (cs.CR) updates on the arXiv.org e-print archive",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
       "url": "https://decrypt.co/feed",
       "title": "Decrypt",
       "description": "Crypto and blockchain security coverage from Decrypt.",
       "type": "rss",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://www.sciencedaily.com/rss/computers_math/encryption.xml",
+      "title": "Encryption News -- ScienceDaily",
+      "description": "Encryption. Read the latest research on computer security and encryption methods here. Evaluate new methods for protecting sensitive data.",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://www.globalencryption.org/feed",
+      "title": "Global Encryption Coalition",
+      "description": "",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://protos.com/feed",
+      "title": "Protos",
+      "description": "Informed crypto news",
+      "type": "",
+      "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://rekt.news/rss/feed.xml",
+      "title": "Rekt",
+      "description": "Investigative journalism &amp; creative commentary",
+      "type": "",
       "category": "Crypto & Blockchain Security"
     },
     {
@@ -52,6 +101,13 @@
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
+      "url": "https://darknetlive.com/rss",
+      "title": "DarknetLive Post Feed",
+      "description": "Last 10 Recent Posts on DarknetLive",
+      "type": "",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
       "url": "https://feeds.feedburner.com/OfficeOfInadequateSecurity",
       "title": "DataBreaches.net",
       "description": "RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks news and updates.",
@@ -63,6 +119,13 @@
       "title": "Digital Forensics Blog - Binalyze",
       "description": "Stay updated with the latest news in automated investigations, incident response and digital forensics on our blog.",
       "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://ddosecrets.substack.com/feed",
+      "title": "Distributed Email of Secrets",
+      "description": "New releases from Distributed Denial of Secrets, a transparency collective publishing interesting data.",
+      "type": "",
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
@@ -157,6 +220,13 @@
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
+      "url": "https://techxplore.com/rss-feed/security-news",
+      "title": "Tech Xplore - Security News",
+      "description": "The latest news on cyber security, network security, software vulnerabilities, data leaks, malware, and viruses",
+      "type": "",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
       "url": "https://feeds.feedburner.com/scdashboards",
       "title": "Tenable Security Center dashboards",
       "description": "Updates from Tenable Security Center dashboards covering vulnerabilities, cves.",
@@ -227,6 +297,20 @@
       "category": "DFIR & Forensics"
     },
     {
+      "url": "https://www.reddit.com/r/computerforensics",
+      "title": "Computer Forensics",
+      "description": "Dedicated to the branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in …",
+      "type": "",
+      "category": "DFIR & Forensics"
+    },
+    {
+      "url": "https://www.cybertriage.com/feed",
+      "title": "Cyber Triage Blog",
+      "description": "",
+      "type": "rss",
+      "category": "DFIR & Forensics"
+    },
+    {
       "url": "https://davinciforensics.co.za/cybersecurity/feed",
       "title": "Davinci Forensics – Cybersecurity",
       "description": "DFIR and forensics content from Davinci Forensics.",
@@ -287,6 +371,13 @@
       "title": "Forensic 4:cast",
       "description": "DFIR and forensics content from Forensic 4:cast.",
       "type": "rss",
+      "category": "DFIR & Forensics"
+    },
+    {
+      "url": "https://www.forensicfocus.com/feed",
+      "title": "Forensic Focus",
+      "description": "Digital Forensics DFIR, OSINT &amp; E-Discovery News, Reviews, Articles, Forums, More",
+      "type": "",
       "category": "DFIR & Forensics"
     },
     {
@@ -388,6 +479,13 @@
       "category": "DFIR & Forensics"
     },
     {
+      "url": "https://www.trustwave.com/en-us/rss/spiderlabs-blog",
+      "title": "SpiderLabs Blog from Trustwave",
+      "description": "SpiderLabs is Trustwave’s elite team of ethical hackers, forensic investigators and security researchers.",
+      "type": "",
+      "category": "DFIR & Forensics"
+    },
+    {
       "url": "https://thebinaryhick.blog/feed",
       "title": "The Binary Hick",
       "description": "DFIR and forensics content from The Binary Hick.",
@@ -416,6 +514,13 @@
       "category": "DFIR & Forensics"
     },
     {
+      "url": "https://www.404media.co/rss",
+      "title": "404 Media",
+      "description": "404 Media is a new independent media company founded by technology journalists Jason Koebler, Emanuel Maiberg, Samantha Cole, and Joseph …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
       "title": "Alerts and advisories",
       "description": "News, research, and updates on general security & blogs from Alerts and advisories.",
@@ -427,6 +532,13 @@
       "title": "Anton on Security",
       "description": "Medium posts from Anton on Security focused on general security & blogs.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://apisecurity.io/feed/index.xml",
+      "title": "API Security News",
+      "description": "The API Security News Newsletter",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -458,10 +570,24 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://kirbyidau.com/feed",
+      "title": "Australian Information Security Awareness and Advisory",
+      "description": "Information Security Advisor Australia - Awareness, Governance, Risk and Compliance",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://aws.amazon.com/blogs/security/feed",
       "title": "AWS Security Blog",
       "description": "News, research, and updates on general security & blogs from AWS Security Blog.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.bankinfosecurity.com/rss-feeds",
+      "title": "BankInfoSecurity.com RSS Syndication",
+      "description": "BankInfoSecurity.com RSS News Feeds on bank information security news, regulations, blogs and education",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -472,10 +598,24 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://feeds.feedburner.com/biometricupdate",
+      "title": "Biometric Update",
+      "description": "Biometrics News, Companies and Explainers",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.bitdefender.com/blog/api/rss/labs",
       "title": "Bitdefender Labs",
       "description": "News, research, and updates on general security & blogs from Bitdefender Labs.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.bitsight.com/blog/rss.xml",
+      "title": "BitSight Security Ratings Blog",
+      "description": "Read our Security Ratings blog for cybersecurity news, improving security performance, third-party risk management, &amp; more.",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -514,6 +654,83 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "title": "Bloomberg Technology",
+      "description": "Bloomberg Technology",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber/?outputType=xml",
+      "title": "C4ISRNet",
+      "description": "C4ISRNet News Feed",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security",
+      "title": "Cisco Newsroom: Security",
+      "description": "Cisco&#x27;s Latest Security News",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://cloud7.news/feed/gn",
+      "title": "Cloud7 News",
+      "description": "Cloud7 is a news source that publishes the latest news, reviews, comparisons, opinions, and exclusive interviews to help tech users …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.computerweekly.com/rss/IT-security.xml",
+      "title": "ComputerWeekly.com",
+      "description": "ComputerWeekly’s best articles of the day",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://news.crunchbase.com/feed",
+      "title": "Crunchbase News",
+      "description": "Data-driven reporting on private markets, startups, founders, and investors",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/categories/attacks",
+      "title": "CS Hub (Attacks)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/categories/malware",
+      "title": "CS Hub (Malware)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/reports",
+      "title": "CS Hub (Reports)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/categories/security-strategy",
+      "title": "CS Hub (Security Strategy)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/categories/threat-defense",
+      "title": "CS Hub (Threat Defense)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.csoonline.com/feed",
       "title": "CSO Online",
       "description": "News, research, and updates on general security & blogs from CSO Online.",
@@ -525,6 +742,34 @@
       "title": "Ctrl blog",
       "description": "News, research, and updates on general security & blogs from Ctrl blog.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cyberdefensemagazine.com/feed",
+      "title": "Cyber Defense Magazine",
+      "description": "InfoSec Knowledge is Power",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/articles",
+      "title": "Cyber Security Hub - Articles",
+      "description": "&amp;gt; JavaScript is disabled In order to continue, you need to verify that you&#x27;re not a robot by solving a …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cshub.com/rss/news",
+      "title": "Cyber Security Hub - News",
+      "description": "&amp;gt; JavaScript is disabled In order to continue, you need to verify that you&#x27;re not a robot by solving a …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://cybersecuritynews.com/feed",
+      "title": "Cyber Security News",
+      "description": "Latest Hacker and Security News",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -542,10 +787,31 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.cyberscoop.com/feed",
+      "title": "CyberScoop",
+      "description": "CyberScoop is the leading media brand in the cybersecurity market. With more than 6.0M monthly unique engagements, CyberScoop reports on …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.cybersecuritydive.com/feeds/news",
+      "title": "Cybersecurity Dive - Latest News",
+      "description": "Cybersecurity News",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://cybersecurityventures.com/feed",
       "title": "Cybersecurity Ventures",
       "description": "News, research, and updates on general security & blogs from Cybersecurity Ventures.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://cylab.be/rss",
+      "title": "cylab.be",
+      "description": "cylab.be",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -563,6 +829,20 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.datacenterdynamics.com/rss",
+      "title": "DCD",
+      "description": "503 Service Temporarily Unavailable nginx",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.eff.org/rss/updates.xml",
+      "title": "Deeplinks",
+      "description": "EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://detect.fyi/feed",
       "title": "Detect.fyi",
       "description": "News, research, and updates on general security & blogs from Detect.fyi.",
@@ -570,10 +850,38 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.digitaljournal.com/feed",
+      "title": "Digital Journal",
+      "description": "Digital Journal is a digital media news network with thousands of Digital Journalists in 200 countries around the world. Join …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.elastic.co/blog/feed",
+      "title": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+      "description": "Tutorials, deep dives, news, releases, stories, and more from the creators of Elasticsearch",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.forbes.com/cybersecurity/feed",
+      "title": "Forbes - Cybersecurity",
+      "description": "Forbes - Cybersecurity",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://gbhackers.com/feed",
       "title": "GBHackers News",
       "description": "News, research, and updates on general security & blogs from GBHackers News.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.govinfosecurity.com/rss-feeds",
+      "title": "GovInfoSecurity.com RSS Syndication",
+      "description": "GovInfoSecurity.com RSS News Feeds on government information security news, regulations, blogs and education",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -605,6 +913,27 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://hackaday.com/feed",
+      "title": "Hackaday",
+      "description": "Fresh hacks every day",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.sciencedaily.com/rss/computers_math/hacking.xml",
+      "title": "Hacking News -- ScienceDaily",
+      "description": "Hacking and computer security. Read today&#x27;s research news on hacking and protecting against codebreakers. New software, secure data sharing, and …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://hackingvision.com/feed",
+      "title": "HackingVision",
+      "description": "Ethical Hacking Tutorials, Tips &amp; Tricks, Kali Linux, Beginners Hacking",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.hackmageddon.com/feed",
       "title": "HACKMAGEDDON",
       "description": "News, research, and updates on general security & blogs from HACKMAGEDDON.",
@@ -616,6 +945,34 @@
       "title": "HackRead",
       "description": "News, research, and updates on general security & blogs from HackRead.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://hakin9.org/feed",
+      "title": "Hakin9 – IT Security Magazine",
+      "description": "Hackers about hacking techniques in our IT Security Magazine",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.healthcareitnews.com/taxonomy/term/6156/feed",
+      "title": "Healthcare IT News - Privacy &amp; Security",
+      "description": "504 Gateway Time-out",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://healthitsecurity.com/feed",
+      "title": "HealthITSecurity",
+      "description": "Health IT Security and HIPAA News and Tips",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://feeds.feedburner.com/HealthTechMagazine",
+      "title": "HealthTech Magazine",
+      "description": "To continue, please type the characters below: About this page Our systems have detected unusual traffic from your computer network. …",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3153,6 +3510,41 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://iacr.org/news/rss",
+      "title": "IACR News",
+      "description": "",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+      "title": "IEEE Spectrum",
+      "description": "IEEE Spectrum",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://industrialcyber.co/feed",
+      "title": "Industrial Cyber",
+      "description": "Industrial, OT/ICS, SCADA Cyber Security System &amp; Solutions",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://danielmiessler.com/category/information-security/feed",
+      "title": "Information Security Archives",
+      "description": "504 Gateway Time-out nginx",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://infosecwriteups.com/feed",
+      "title": "InfoSec Write-ups - Medium",
+      "description": "A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs to …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.infosecurity-magazine.com/rss/news",
       "title": "Infosecurity Magazine – News",
       "description": "News, research, and updates on general security & blogs from Infosecurity Magazine.",
@@ -3174,10 +3566,45 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.itworldcanada.com/category/security/feed",
+      "title": "IT World Canada",
+      "description": "Information Technology news on products, services and issues for CIOs, IT managers and network admins",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.itnews.com.au/RSS/rss.ashx",
+      "title": "iTnews",
+      "description": "iTnews",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.itnews.asia/rss/rss.ashx",
+      "title": "iTnews Asia",
+      "description": "iTnews Asia",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.janbrennenstuhl.eu/index.xml",
       "title": "Jan Brennenstuhl",
       "description": "News, research, and updates on general security & blogs from Jan Brennenstuhl.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://johnjhacking.com/index.xml",
+      "title": "John J Hacking",
+      "description": "Recent content on John J Hacking",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://feeds.feedburner.com/PentestTools",
+      "title": "KitPloit - PenTest Tools!",
+      "description": "KitPloit - leading source of Security Tools, Hacking Tools, CyberSecurity and Network Security ☣",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3195,10 +3622,24 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.lansweeper.com/feed",
+      "title": "Lansweeper IT Asset Management",
+      "description": "Know Your IT",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://latesthackingnews.com/feed",
       "title": "Latest Hacking News",
       "description": "News, research, and updates on general security & blogs from Latest Hacking News.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://pulse.latio.tech/feed",
+      "title": "Latio Pulse",
+      "description": "Weekly insights into Cloud, Application &amp; Product Security",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3244,6 +3685,13 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://news.mit.edu/topic/mitcyber-security-rss.xml",
+      "title": "MIT News - Cybersecurity",
+      "description": "MIT news feed about: Cybersecurity",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.vice.com/en/category/tech/feed",
       "title": "Motherboard – Tech",
       "description": "News, research, and updates on general security & blogs from Motherboard.",
@@ -3265,10 +3713,45 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://netblocks.org/feed",
+      "title": "NetBlocks",
+      "description": "Mapping Internet Freedom",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.newscientist.com/subject/technology/feed",
+      "title": "New Scientist - Technology",
+      "description": "New Scientist - Technology",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://news4hackers.com/feed",
       "title": "News4Hackers",
       "description": "News, research, and updates on general security & blogs from News4Hackers.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://digital.nhs.uk/feed/cyber-alerts-feed.xml",
+      "title": "NHS Digital - Cyber Alert Feed",
+      "description": "Sorry! We&#x27;re doing some essential work on the website. It will be back online shortly.",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/cybersecurity/rss.xml",
+      "title": "NYT &gt; Cybersecurity",
+      "description": "",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.omeronsecurity.com/feed",
+      "title": "Omer on Security",
+      "description": "Weekly posts for your security data lake journey.",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3286,6 +3769,41 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.pentestpartners.com/feed",
+      "title": "Pen Test Partners",
+      "description": "502 Bad Gateway nginx",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.rtcsec.com/index.xml",
+      "title": "Real-time communications security on Communication Breakdown - Real-Time Communications Security",
+      "description": "Recent content in Real-time communications security on Communication Breakdown - Real-Time Communications Security",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://restofworld.org/feed/latest",
+      "title": "Rest of World -",
+      "description": "Reporting Global Tech Stories",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://rss.beehiiv.com/feeds/tLSvUYOBwf.xml",
+      "title": "Return on Security",
+      "description": "Save hours of market research with a weekly review of cybersecurity funding and industry news in 5 minutes, with the …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://risky.biz/feeds/risky-business",
+      "title": "Risky Business",
+      "description": "Risky Business is a weekly information security podcast featuring news and in-depth interviews with industry luminaries. Launched in February 2007, …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.rossmanngroup.com/feed",
       "title": "Rossmann Repair Group",
       "description": "News, research, and updates on general security & blogs from Rossmann Repair Group.",
@@ -3297,6 +3815,27 @@
       "title": "S3cur3Th1sSh1t",
       "description": "News, research, and updates on general security & blogs from S3cur3Th1sSh1t.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.scmagazine.com/feed/topic/policy",
+      "title": "SC Magazine feed for Policy",
+      "description": "Connection timed out Error code 522 Visit cloudflare.com for more information. 2023-05-23 11:17:52 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.scmagazine.com/feed/topic/risk-management",
+      "title": "SC Magazine feed for Risk Management",
+      "description": "Gateway time-out Error code 504 Visit cloudflare.com for more information. 2023-05-17 01:20:10 UTC You Browser Working Frankfurt Cloudflare Working www.scmagazine.com …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.scmagazine.com/feed/topic/strategy",
+      "title": "SC Magazine feed for Strategy",
+      "description": "Please enable cookies. Sorry, you have been blocked You are unable to access scmagazine.com Why have I been blocked? This …",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3342,6 +3881,13 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.securitymagazine.com/rss/15",
+      "title": "Security Magazine (Cyber)",
+      "description": "",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://techcrunch.com/category/security/feed",
       "title": "Security News | TechCrunch",
       "description": "News, research, and updates on general security & blogs from Security News.",
@@ -3363,9 +3909,37 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.techrepublic.com/rssfeeds/topic/security",
+      "title": "Security on TechRepublic",
+      "description": "Security on TechRepublic",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.drupal.org/security/psa/rss.xml",
       "title": "Security public service announcements",
       "description": "News, research, and updates on general security & blogs from Security public service announcements.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.techtarget.com/searchsecurity/rss/Security-Wire-Daily-News.xml",
+      "title": "Security Resources and Information from TechTarget",
+      "description": "Sorry something went wrong. Contact customer support by email at : Please reference the following information : Connection timed out …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.ghacks.net/category/software/security/feed",
+      "title": "Security Software news and updates",
+      "description": "The independent technology news blog",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://security-soup.net/feed",
+      "title": "Security Soup",
+      "description": "",
       "type": "rss",
       "category": "General Security & Blogs"
     },
@@ -3381,6 +3955,27 @@
       "title": "Security – Ars Technica",
       "description": "Ars Technica security news and analysis spanning vulnerabilities, incidents, and tech policy.",
       "type": "atom",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://siliconangle.com/category/security/feed",
+      "title": "Security – SiliconANGLE",
+      "description": "Extracting the signal from the noise.",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://venturebeat.com/category/security/feed",
+      "title": "Security – VentureBeat",
+      "description": "Transformative tech coverage that matters",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml",
+      "title": "security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle",
+      "description": "Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3412,6 +4007,27 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.siliconrepublic.com/feed",
+      "title": "Silicon Republicinfosec – Silicon Republic",
+      "description": "Silicon Republic is a leading source for technology, science and start-up news, information and resources for people who are passionate …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://blog.sucuri.net/feed",
+      "title": "Sucuri Blog",
+      "description": "Website Security News",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://systemweakness.com/feed",
+      "title": "System Weakness - Medium",
+      "description": "System Weakness is a publication that specialises in publishing upcoming writers in cybersecurity and ethical hacking space. Our security experts …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://team-cymru.com/feed",
       "title": "Team Cymru",
       "description": "News, research, and updates on general security & blogs from Team Cymru.",
@@ -3419,10 +4035,45 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://techmonitor.ai/feed",
+      "title": "Tech Monitor",
+      "description": "Navigating the horizon of business technology​.",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://techcrunch.com/feed",
+      "title": "TechCrunch",
+      "description": "Startup and Technology News",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.techmeme.com/feed.xml",
+      "title": "Techmeme",
+      "description": "Tech Web, page A1",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.reutersagency.com/feed/?best-topics=tech",
+      "title": "Technology | Reuters News Agency",
+      "description": "We tell all sides, but take none. We go back to the start, where there’s no bias and no agenda …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.techrepublic.com/rssfeeds/topic/security?feedType=rssfeeds",
       "title": "TechRepublic – Security",
       "description": "News, research, and updates on general security & blogs from TechRepublic.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.techspot.com/backend.xml",
+      "title": "TechSpot",
+      "description": "TechSpot News - All Stories",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3447,10 +4098,45 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://github.blog/category/security/feed",
+      "title": "The GitHub Blog: Security News and Updates",
+      "description": "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "title": "The Hacker News",
       "description": "RSS feed for The Hacker News, covering general security & blogs news and updates.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.theinformation.com/feed",
+      "title": "The Information",
+      "description": "The Information has a simple mission: deliver important, deeply reported stories about the technology business you won’t find elsewhere. Many …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.lastwatchdog.com/feed",
+      "title": "The Last Watchdog",
+      "description": "on Internet security by Byron Acohido",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://thenewstack.io/feed",
+      "title": "The New Stack",
+      "description": "The New Stack is a media platform for the people who build and manage software the world relies on. We …",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://proton.me/blog/feed",
+      "title": "The Proton Blog",
+      "description": "News from the front lines of privacy and security",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3465,6 +4151,34 @@
       "title": "The Register - Security",
       "description": "News, research, and updates on general security & blogs from The Register.",
       "type": "atom",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://catless.ncl.ac.uk/risksrss2.xml",
+      "title": "The RISKS Digest",
+      "description": "The website of the RISKS mailing list",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.thestack.technology/latest/rss",
+      "title": "The Stack",
+      "description": "Interviews, Insight, Intelligence for Digital Leaders",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.tripwire.com/state-of-security/feed",
+      "title": "The State of Security",
+      "description": "News. Trends. Insights.",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.theverge.com/rss/index.xml",
+      "title": "The Verge - All Posts",
+      "description": "Be back soon. Chorus Logo Our sites are offline for maintenance. Thank you for your patience while we’re making these …",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3489,6 +4203,20 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://ventureinsecurity.net/feed",
+      "title": "Venture in Security",
+      "description": "Helping security practitioners, entrepreneurs, investors and executives build the future of cybersecurity",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.vice.com/en/rss/topic/hacking",
+      "title": "VICE US - HACKING",
+      "description": "RSS feed for https://www.vice.com/en/topic/hacking",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://www.carbonblack.com/feed",
       "title": "VMware Carbon Black Blog",
       "description": "News, research, and updates on general security & blogs from VMware Carbon Black Blog.",
@@ -3500,6 +4228,20 @@
       "title": "WIRED – Security",
       "description": "News, research, and updates on general security & blogs from WIRED.",
       "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.wordfence.com/feed",
+      "title": "Wordfence",
+      "description": "WordPress Security Plugin",
+      "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://www.yahoo.com/tech/rss",
+      "title": "Yahoo Tech",
+      "description": "Follow the biggest tech news with the experts at Yahoo Tech. Read the latest product reviews by David Pogue and …",
+      "type": "",
       "category": "General Security & Blogs"
     },
     {
@@ -3643,10 +4385,31 @@
       "category": "Government, CERT & Advisories"
     },
     {
+      "url": "https://www.kb.cert.org/vulfeed",
+      "title": "CERT Recently Published Vulnerability Notes",
+      "description": "CERT publishes vulnerability advisories called &quot;Vulnerability Notes.&quot; Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. …",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://cert.be/en/rss",
+      "title": "Cert.be advisories",
+      "description": "The requested URL was rejected. Please consult with your administrator.Your support ID is: 8985871849071351541[Go Back]",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
       "url": "https://www.cisecurity.org/feed/advisories",
       "title": "CIS – Advisories",
       "description": "Official advisories and security updates from CIS.",
       "type": "rss",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://www.cisa.gov/cisa/blog.xml",
+      "title": "CISA Blog",
+      "description": "We lead the National effort to understand, manage, and reduce risk to our cyber and physical infrastructure.",
+      "type": "",
       "category": "Government, CERT & Advisories"
     },
     {
@@ -3720,6 +4483,27 @@
       "category": "Government, CERT & Advisories"
     },
     {
+      "url": "https://www.jpcert.or.jp/english/rss/jpcert-en.rdf",
+      "title": "JPCERT/CC (English)",
+      "description": "",
+      "type": "rss",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://api.msrc.microsoft.com/update-guide/rss",
+      "title": "MSRC Security Update Guide",
+      "description": "The Microsoft Security Response Center (MSRC) investigates all reports of security vulnerabilities affecting Microsoft products and services, and provides the …",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "title": "NCSC Feed",
+      "description": "This includes feeds from report, guidance and blog-post.",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml",
       "title": "NCSC News Feed",
       "description": "Official advisories and security updates from NCSC News Feed.",
@@ -3748,6 +4532,13 @@
       "category": "Government, CERT & Advisories"
     },
     {
+      "url": "https://www.nist.gov/news-events/cybersecurity/rss.xml",
+      "title": "News and Events Feed by Topic",
+      "description": "",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
       "url": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
       "title": "NIST – Cybersecurity Insights",
       "description": "Official advisories and security updates from NIST.",
@@ -3766,6 +4557,20 @@
       "title": "SANS Internet Storm Center",
       "description": "Official advisories and security updates from SANS Internet Storm Center.",
       "type": "rss",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://cert-portal.siemens.com/productcert/rss/advisories.atom",
+      "title": "Siemens ProductCERT Security Advisories",
+      "description": "Siemens Security Advisories",
+      "type": "atom",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://ubuntu.com/security/notices/rss.xml",
+      "title": "Ubuntu security notices",
+      "description": "Recent content on Ubuntu security notices",
+      "type": "",
       "category": "Government, CERT & Advisories"
     },
     {
@@ -3790,10 +4595,31 @@
       "category": "Government, CERT & Advisories"
     },
     {
+      "url": "https://www.zerodayinitiative.com/rss/published",
+      "title": "ZDI: Published Advisories",
+      "description": "Published Advisories",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://www.zerodayinitiative.com/rss/upcoming",
+      "title": "ZDI: Upcoming Advisories",
+      "description": "Upcoming Advisories",
+      "type": "",
+      "category": "Government, CERT & Advisories"
+    },
+    {
       "url": "https://www.cisa.gov/rss.xml",
       "title": "Cybersecurity and Infrastructure Security Agency CISA",
       "description": "Updates from Cybersecurity and Infrastructure Security Agency CISA covering vulnerabilities, cves.",
       "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.databreachtoday.co.uk/rss-feeds",
+      "title": "DataBreachToday.co.uk RSS Syndication",
+      "description": "DataBreachToday.co.uk RSS News Feeds on data breach today news, regulations, blogs and education",
+      "type": "",
       "category": "Leaks & Breaches"
     },
     {
@@ -3867,6 +4693,13 @@
       "category": "Leaks & Breaches"
     },
     {
+      "url": "https://abuse.ch/feed.xml",
+      "title": "abuse.ch",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://threatstream.com/site/blog-rss",
       "title": "Anomali ThreatStream Blog",
       "description": "Malware and threat research updates from Anomali ThreatStream Blog.",
@@ -3874,10 +4707,31 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://asec.ahnlab.com/en/feed",
+      "title": "ASEC BLOG",
+      "description": "AhnLab",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://bin.re/feed.xml",
+      "title": "bin.re (Security Research)",
+      "description": "",
+      "type": "atom",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://research.checkpoint.com/feed",
       "title": "Check Point Research",
       "description": "Malware and threat research updates from Check Point Research.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://blog.criminalip.io/feed",
+      "title": "CIP Blog",
+      "description": "Criminal IP Blog · The latest news and developments for Criminal IP. Cyber Threat Intelligence Reports.",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -3892,6 +4746,48 @@
       "title": "ClearSky Cyber Security",
       "description": "Malware and threat research updates from ClearSky Cyber Security.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://ai-techpark.com/category/cyber-security/feed",
+      "title": "Cyber Security – AI-TechPark",
+      "description": "AI, ML, IoT, Cybersecurity News &amp; Trend Analysis, Interviews",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.reddit.com/r/cybersecurity",
+      "title": "cybersecurity",
+      "description": "A community for current or aspiring technical professionals to discuss cybersecurity, threats, etc.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://tech.eu/category/cybersecurity/feed",
+      "title": "Cybersecurity - Tech.eu",
+      "description": "The premier source of European technology news, data, research, analysis and in-depth market intelligence.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.deepinstinct.com/blog/feed",
+      "title": "Deep Instinct Blog: Breaking News and Updates",
+      "description": "Deep Instinct prevents more advanced threats than any EPP or EDR in the world.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.esecurityplanet.com/feed",
+      "title": "eSecurityPlanet",
+      "description": "Industry-leading guidance and analysis for how to keep your business secure.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.f5.com/labs/rss-feeds/all.xml",
+      "title": "F5 Labs All",
+      "description": "RSS for all F5 Labs content.",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -3916,10 +4812,24 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
+      "title": "FortiGuard Labs | FortiGuard Center - Threat Signal Report",
+      "description": "The Threat Signal created by the FortiGuard Labs is intended to provide you with insight on emerging issues that are …",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://gbhackers.com/category/threatsattacks/feed",
       "title": "GBHackers – Threats & Attacks",
       "description": "Malware and threat research updates from GBHackers.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://hackernoon.com/tagged/cybersecurity/feed",
+      "title": "Hacker Noon - cybersecurity",
+      "description": "How hackers start their afternoons.",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -4028,10 +4938,31 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://feeds.feedburner.com/InformationSecurityBuzz",
+      "title": "Information Security Buzz",
+      "description": "Information Security News With Experts Analysis.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.itpro.com/feeds/tag/security",
+      "title": "ITPro",
+      "description": "We provide the most comprehensive content to aid B2B IT decision making.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://securelist.com/feed",
       "title": "Kaspersky Securelist",
       "description": "Malware and threat research updates from Kaspersky Securelist.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.legitsecurity.com/blog/rss.xml",
+      "title": "Legit Security Blog",
+      "description": "The Legit Security Blog. Our mission is to secure every organization&#x27;s software factory (code, pipelines, infrastructure and people) for faster …",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -4042,6 +4973,20 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://www.reddit.com/r/Malware",
+      "title": "Malware Analysis &amp; Reports",
+      "description": "A place for malware reports and information.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://malware.news/latest.rss",
+      "title": "Malware Analysis, News and Indicators - Latest topics",
+      "description": "Latest topics",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://malware.news/c/news.rss",
       "title": "Malware News",
       "description": "Malware and threat research updates from Malware News.",
@@ -4049,10 +4994,59 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://malwaresloth.com/rss.xml",
+      "title": "Malware Sloth",
+      "description": "Malware Sloth",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.malware-traffic-analysis.net/blog-entries.rss",
+      "title": "Malware-Traffic-Analysis.net (Blog Entries)",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://blog.malwarebytes.com/feed",
+      "title": "Malwarebytes Labs",
+      "description": "The Security Blog From Malwarebytes",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://blog.malwarebytes.com/category/threat-analysis/feed",
       "title": "Malwarebytes Threat Analysis",
       "description": "Malware and threat research updates from Malwarebytes Threat Analysis.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.malwarefox.com/blog/feed",
+      "title": "MalwareFox Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://malwaretech.com/feed.xml",
+      "title": "MalwareTech",
+      "description": "Cyber Security, Tech, Analysis.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://malwaretips.com/blogs/feed",
+      "title": "MalwareTips Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://opalsec.substack.com/feed",
+      "title": "Opalsec",
+      "description": "Actionable Threat Intelligence &amp; analysis of emerging Infosec news, straight to your inbox. No marketing, no fluff - let&#x27;s talk …",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -4077,10 +5071,73 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://blog.reversinglabs.com/blog/rss.xml",
+      "title": "ReversingLabs Blog",
+      "description": "",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.scmagazine.com/feed/topic/threats",
+      "title": "SC Magazine feed for Threats",
+      "description": "Please enable cookies. Sorry, you have been blocked You are unable to access scmagazine.com Why have I been blocked? This …",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://socradar.io/feed",
+      "title": "SOCRadar® Cyber Intelligence Inc.",
+      "description": "Early warning threat detection system",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://strategyofsecurity.com/rss",
+      "title": "Strategy of Security",
+      "description": "Analyzing the business and strategy of cybersecurity.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "title": "The GreyNoise Blog",
+      "description": "Get the latest tips and stories on improving information security.",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss",
+      "title": "Threat Intelligence",
+      "description": "Threat Intelligence",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.netskope.com/blog/category/netskope-threat-labs/feed",
+      "title": "Threat Labs - Netskope",
+      "description": "Web server is down The web server is not returning a connection. As a result, the web page is not …",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://feeds.trendmicro.com/TrendMicroResearch",
       "title": "Trend Micro Research",
       "description": "Malware and threat research updates from Trend Micro Research.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://feeds.feedburner.com/TroyHunt",
+      "title": "Troy Hunt&#x27;s Blog",
+      "description": "Observations, musings and conjecture about the world of software and technology",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.trustedsec.com/feed",
+      "title": "TrustedSec",
+      "description": "Evolve beyond threats",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -4095,6 +5152,34 @@
       "title": "VirusTotal Blog",
       "description": "Malware and threat research updates from VirusTotal Blog.",
       "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.volexity.com/blog/tag/malware/feed",
+      "title": "Volexity Blog (Malware tag)",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://www.welivesecurity.com/en/rss/feed",
+      "title": "WeLiveSecurity (ESET)",
+      "description": "",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://wesecureapp.com/feed",
+      "title": "WeSecureApp :: Simplifying Enterprise Security!",
+      "description": "Stay ahead of cyber threats with offensive security solutions - penetration testing, red teaming, network, &amp; cloud security, along with …",
+      "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://zetter.substack.com/feed",
+      "title": "Zero Day",
+      "description": "Spies, hackers and the intersection between cybersecurity and national security. (News, analysis, features, investigations)",
+      "type": "",
       "category": "Malware & Threat Research"
     },
     {
@@ -4116,6 +5201,48 @@
       "title": "/r/netsec",
       "description": "OSINT resources and community updates from /r/netsec.",
       "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.reddit.com/r/netsec",
+      "title": "/r/netsec - Information Security News &amp; Discussion",
+      "description": "A community for technical news and discussion of information security and closely related topics.",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://bluepurple.substack.com/feed",
+      "title": "Cyber Defence News for Blue &amp; Purple Teams",
+      "description": "Summarised cyber defence technical content to help operational blue and purple teams be informed and protect their estates.",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.darkreading.com/rss_simple.asp",
+      "title": "Dark Reading",
+      "description": "Dark Reading: Connecting the Information and Security Community",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://medium.com/feed/dark-roast-security",
+      "title": "Dark Roast Security - Medium",
+      "description": "Dark Roast Security’s mission is to inspire, educate, and share ideas about InfoSec. Follow to join our community! - Medium",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://jacknaglieri.substack.com/feed",
+      "title": "Detection at Scale",
+      "description": "A weekly infosec newsletter about scaling SIEMs and Detection Engineering.",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://dev.to/feed",
+      "title": "DEV Community",
+      "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
+      "type": "",
       "category": "OSINT, Communities & Subreddits"
     },
     {
@@ -4154,10 +5281,38 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
+      "url": "https://www.reddit.com/r/InfoSecNews",
+      "title": "Information Security News",
+      "description": "This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet. …",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
       "url": "https://inteltechniques.com/blog/feed",
       "title": "IntelTechniques Blog",
       "description": "OSINT resources and community updates from IntelTechniques Blog.",
       "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.reddit.com/r/privacy",
+      "title": "Privacy &amp; Freedom in the Information Age",
+      "description": "The intersection of technology, privacy, and freedom in a digital world.",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.producthunt.com/feed",
+      "title": "Product Hunt — The best new products, every day",
+      "description": "",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.reddit.com/r/ReverseEngineering",
+      "title": "Reverse Engineering",
+      "description": "A moderated community dedicated to all things reverse engineering.",
+      "type": "",
       "category": "OSINT, Communities & Subreddits"
     },
     {
@@ -4175,6 +5330,440 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
+      "url": "https://medium.com/feed/@guardiosecurity",
+      "title": "Stories by Guardio on Medium",
+      "description": "Stories by Guardio on Medium",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://medium.com/feed/@netflixtechblog",
+      "title": "Stories by Netflix Technology Blog on Medium",
+      "description": "Stories by Netflix Technology Blog on Medium",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.cybersecuritypulse.net/feed",
+      "title": "The Cybersecurity Pulse (TCP)",
+      "description": "Welcome to TCP! The go-to source for the latest in security product innovation. Join our growing community today!",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://osintnewsletter.com/feed",
+      "title": "The OSINT Newsletter",
+      "description": "OSINT news, tools, tactics, and techniques",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://this-week-in-rust.org/rss.xml",
+      "title": "This Week in Rust",
+      "description": "Stay up to date with events, learning resources, and recent developments in the Rust community.",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.welivesecurity.com/feed",
+      "title": "WeLiveSecurity",
+      "description": "News, views, and insight from the ESET security community",
+      "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://7ms.us/rss",
+      "title": "7 Minute Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://absoluteappsec.com/rss.xml",
+      "title": "Absolute AppSec",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo9CDrIB0rJwG4GGz8CZEaQ",
+      "title": "Absolute AppSec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKTs4jCh9yLbFfZHntSairQ",
+      "title": "Andy Li",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkFKiCm7dD0gsB4jqIdCuRQ",
+      "title": "Antisyphon Training",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/112258/rss",
+      "title": "Application Security Weekly (Video)",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.feedburner.com/BeersWithTalosPodcast",
+      "title": "Beers with Talos Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg",
+      "title": "Black Hat",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.blackhillsinfosec.com/feed/podcast",
+      "title": "Black Hills Information Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://brakesec.com/BrakesecRSS",
+      "title": "Brakeing Down Security Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpNGmljppAJbTIA5Msms1Pw",
+      "title": "BSidesLV",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZDyl7G-Lq-EMVO8PfDFp9g",
+      "title": "Bug Bounty Reports Explained",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo1NHk_bgbAbDBc4JinrXww",
+      "title": "Bugcrowd",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://cisoseries.libsyn.com/rss",
+      "title": "CISO Series",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://davidspark.libsyn.com/cisovendor",
+      "title": "CISO Series Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.megaphone.fm/clickhere",
+      "title": "Click Here",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXXXoi68Hv6caNLWfw7j8MQ",
+      "title": "Cristi Vlad",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://media.rss.com/ctbbpodcast/feed.xml",
+      "title": "Critical Thinking - A Bug Bounty Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEeuul0q7C8Zs5C8rc4REFQ",
+      "title": "CryptoCat",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.acast.com/public/shows/cyber",
+      "title": "CYBER",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7RUTWLRR1_-GPQRfQ3Qj2w",
+      "title": "Cyber Studies",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRikWa5PGyQZw0yATk8iZWg",
+      "title": "Cybercrime Magazine",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/118065/rss",
+      "title": "Cybersecurity Today",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9EX_PSbngZP8pkPWSUpPzw",
+      "title": "Cyberspatial",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.megaphone.fm/cyberwire-daily-podcast",
+      "title": "CyberWire Daily",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCY-UlEymdA23eo09U9a0FLA",
+      "title": "CYBERWOX",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzWPaANpPISEE_xvJm8lqHA",
+      "title": "Cybrary",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp1rLlh9AQN9Pejzbg9dcAg",
+      "title": "Cyrill Gössi",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.megaphone.fm/darknetdiaries",
+      "title": "Darknet Diaries",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w",
+      "title": "David Bombal",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw",
+      "title": "DEFCONConference",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://defenseindepth.libsyn.com/rss",
+      "title": "Defense in Depth",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://defensivesecurity.org/feed/podcast",
+      "title": "Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://digitalforensicsurvivalpodcast.libsyn.com/rss",
+      "title": "Digital Forensic Survival Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCI8zwug_Lv4_-KPT62oeDUA",
+      "title": "Dr Josh Stroschein",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcHAyzVBPtV6i_rhqBPoA6w",
+      "title": "Elevate Cyber",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/81245/rss",
+      "title": "Enterprise Security Weekly (Video)",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feed.podbean.com/errorcode/feed.xml",
+      "title": "Error Code",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkN7IPX-dVEsAdjoLdFda1g",
+      "title": "ESET",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq9IyPMXiwD8yBFHkxmN8zg",
+      "title": "Farah Hawa",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/200150/rss",
+      "title": "Forensic Focus",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQajlJPesqmyWJDN52AZI4Q",
+      "title": "Forensic Focus",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjfghTrOeq5Qu0WdKjxBpBA",
+      "title": "fwd:cloudsec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG-48Ki-b6W_siaUkukJOSw",
+      "title": "Gerald Auger, PhD - Simply Cyber",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTLUi3oc1-a7dS-2-YgEKmA",
+      "title": "Grant Collins",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpYB6eIJB4jBGSAJcAhCMhw",
+      "title": "GRIMM Cybersecurity (SMFS, Inc.)",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCMi6F5Ac3kQDfffWXQGZDw",
+      "title": "Guided Hacking",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://anchor.fm/s/435c0d58/podcast/rss",
+      "title": "Hack&#x27;n Speak",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://hackerhistory.com/feed/podcast",
+      "title": "Hacker History Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-JXhtTw4scg74yWwkuX-ow",
+      "title": "Hacker Valley Media",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsgzmECky2Q9lQMWzDwMhYw",
+      "title": "HackerOne",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q",
+      "title": "HackerSploit",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.megaphone.fm/hacking-humans",
+      "title": "Hacking Humans",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC71Pa-YHA32hYPKTRjZgbXw",
+      "title": "Hacktivity - IT Security Festival",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ",
+      "title": "Hak5",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://helpmewithhipaa.com/feed",
+      "title": "Help Me With HIPAA",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
       "url": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
       "title": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
       "description": "Security podcasts and talks from https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml.",
@@ -4182,10 +5771,304 @@
       "category": "Podcasts & YouTube"
     },
     {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4TAjYDpNggDwictUA180LA",
+      "title": "Infosec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYuizWN2ac4L7CZ-WWHZQKw",
+      "title": "InfoSec Pat",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPiN9NPjIer8Do9gUFxKv7A",
+      "title": "InsiderPhD",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA",
+      "title": "IppSec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-8Ba047kFinfgp3sO53qcA",
+      "title": "ITPro",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6r2CYsKIDjG0Z-VBn4ahVA",
+      "title": "Jason Ford {JSON:SEC}",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBNG0osIBAprVcZZ3ic84vw",
+      "title": "Jim Browning",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3zosnqUbG7CFw",
+      "title": "John Hammond",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbbBt23LHt4WhjiWh67NJ3w",
+      "title": "Jon Good",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCm22FAXZMw1BaWeFszZxUKw",
+      "title": "Kitboga",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://ericcole.libsyn.com/rss",
+      "title": "Life of a CISO with Dr. Eric Cole",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w",
+      "title": "LiveOverflow",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://malicious.life/feed/podcast",
+      "title": "Malicious Life",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVFXrUwuWxNlm6UNZtBLJ-A",
+      "title": "MalwareAnalysisForHedgehogs",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWoH3f-Yx6TxJfO2O_ezJUw",
+      "title": "MyDFIR",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZDt7MuC3Hzs6IH4xODLBw",
+      "title": "Nahamsec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+      "title": "NetworkChuck",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC--DwaiMV-jtO-6EvmKOnqg",
+      "title": "OALabs",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChYZsplz61SeG0olX6cMoAA",
+      "title": "OffSec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCe8j61ABYDuPTdtjItD2veA",
+      "title": "OWASP Foundation",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCeZgoXbccmkcf9viz974MEA",
+      "title": "Phillip Wylie",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmXwpkCXmIKjoRLMsq9I3RA",
+      "title": "PinkDraconian",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://nakedsecurity.sophos.com/category/audio-and-video/podcast/feed",
+      "title": "Podcast – Naked Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://opensourcesecurity.io/category/podcast/rss",
+      "title": "Podcast – Open Source Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.social-engineer.org/podcasts/feed",
+      "title": "Podcasts Archive - Security Through Education",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJ_dsa5WPjwNGK8PLnB18Bw",
+      "title": "PurpleSec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8nq3PX9coMiqgKH6fw-VCQ",
+      "title": "Red Team Village",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.simplecast.com/GzAtTpW2",
+      "title": "Redefining CyberSecurity",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://risky.biz/feeds/risky-business-news",
+      "title": "Risky Business News",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYzwGkfOqrevO-4TuTjPLwQ",
+      "title": "RSA Conference",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5qEPWtHLFRIjhW_3xd5g2A",
+      "title": "Sandra - Tech &amp; Lifestyle",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMaclFQGtT064H9KNsfomGA",
+      "title": "SANS Cloud Security",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2uPNhGken-ogEpJDi4ly6w",
+      "title": "SANS Institute",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
       "url": "https://www.dshield.org/dailypodcast.xml",
       "title": "SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)",
       "description": "Daily update on current cyber security threats",
       "type": "rss",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://isc.sans.edu/dailypodcast.xml",
+      "title": "SANS Internet Stormcenter Daily Network/Cyber Security and Information Security Stormcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP28F4uf9s2V1_SQwnJST_A",
+      "title": "SANS Offensive Operations",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://section9.us/podcast?format=rss",
+      "title": "SECTION 9 Cyber Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.buzzsprout.com/2137278.rss",
+      "title": "Security Beyond The Checkbox",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXXNOelGiY_N96a2nfhcaDA",
+      "title": "Security BSides London",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWemrSP6Aba171jXReCz_Qg",
+      "title": "Security BSides San Francisco",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.buzzsprout.com/1822302.rss",
+      "title": "Security Cryptography Whatever",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNbqa_9xihC8yaV2o6dlsUg",
+      "title": "Security Now",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://leoville.tv/podcasts/sn.xml",
+      "title": "Security Now (Audio)",
+      "description": "",
+      "type": "",
       "category": "Podcasts & YouTube"
     },
     {
@@ -4203,6 +6086,34 @@
       "category": "Podcasts & YouTube"
     },
     {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCg--XBjJ50a9tUhTKXVPiqg",
+      "title": "Security Weekly",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/134669/rss",
+      "title": "Security Weekly (Download Only)",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://hntvaudio.swsgtv.libsynpro.com/rss",
+      "title": "Security Weekly News (Audio)",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/81244/rss",
+      "title": "Security Weekly News (Video)",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
       "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLlPkFwQHxYE5CBDxb2i-r_HjVaazxyh4i",
       "title": "Security Weekly News (YouTube)",
       "description": "Video updates from Security Weekly News (YouTube) covering podcasts & youtube.",
@@ -4217,11 +6128,242 @@
       "category": "Podcasts & YouTube"
     },
     {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaXV-r0zzGOsVg3V2U164wA",
+      "title": "SecurityFWD",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSR2-ioTo7Tk7IB3TPSE6_A",
+      "title": "SecurityMetrics, Inc.",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW6xlqxSY3gGur4PkGPEUeA",
+      "title": "Seytonic",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.buzzsprout.com/2154459.rss",
+      "title": "ShadowTalk powered by ReliaQuest",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.smashingsecurity.com/rss",
+      "title": "Smashing Security",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC1vbVVbYdNe-OZRldj-U6g",
+      "title": "SocialEngineerOrg",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.libsyn.com/127181/rss",
+      "title": "Software Engineering Institute (SEI) Podcast Series",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLXQOTWipgpd6CtDKrclqNw",
+      "title": "StudioSec",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://surveillancereport.tech/feed",
+      "title": "Surveillance Report",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0W_BIuwk8D0Bv4THbVZZOQ",
+      "title": "Surveillance Report",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCebj---w2CTP49tah7a8Veg",
+      "title": "t3l3machus",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK9QTAgoEyo6ZwuggepHSvQ",
+      "title": "The Cyber Distortion Podcast",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw",
+      "title": "The Cyber Mentor",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6W86lQzOrz6X4aQTTKAB1A",
+      "title": "The Cyber Security Recruiter",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.steptoe.com/feed-Cyberlaw.rss",
+      "title": "The Cyberlaw Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.simplecast.com/vRu9TC9N",
+      "title": "The Hacker Factory",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feed.podbean.com/thehackermind/feed.xml",
+      "title": "The Hacker Mind",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.simplecast.com/_hSKbGFl",
+      "title": "The Host Unknown Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://anchor.fm/s/532bea14/podcast/rss",
+      "title": "The Official Offensive Security Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKGe7fZ_S788Jaspxg-_5Sg",
+      "title": "The PC Security Channel",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss",
+      "title": "The Privacy, Security, &amp; OSINT Show",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://securityledger.com/feed/podcast",
+      "title": "The Security Ledger with Paul F. Roberts",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://sharedsecurity.net/feed",
+      "title": "The Shared Security Show",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjBhClJ59W4hfUly51i11hg",
+      "title": "The XSS rat",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
       "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLW5y1tjAOzI0Sx4UU2fncEwQ9BQLr5Vlu",
       "title": "Threat Wire (YouTube)",
       "description": "Video updates from Threat Wire (YouTube) covering podcasts & youtube.",
       "type": "rss",
       "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://omny.fm/shows/troy-hunt-weekly-update/playlists/podcast.rss",
+      "title": "Troy Hunt&#x27;s Weekly Update Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCGwKrfQJWHgZeFFumnjrpAA",
+      "title": "Truffle Security",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://ubuntusecuritypodcast.org/episode/index.xml",
+      "title": "Ubuntu Security Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.spreaker.com/show/3246578/episodes/feed",
+      "title": "UNSECURITY: Information Security Podcast",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4-GrpQBx6WCGwmwozP744Q",
+      "title": "USENIX",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://loudtreemedia.com/shows/what-the-hack-with-adam-levin/feed",
+      "title": "What the Hack with Adam Levin Archives - Loud Tree Media",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://feed.podbean.com/whattheshell/feed.xml",
+      "title": "What the Shell?",
+      "description": "",
+      "type": "",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw",
+      "title": "Wild West Hackin&#x27; Fest",
+      "description": "",
+      "type": "atom",
+      "category": "Podcasts & YouTube"
+    },
+    {
+      "url": "https://blog.rootshell.be/feed",
+      "title": "/dev/random",
+      "description": "&quot;If the enemy leaves a door open, you must rush in.&quot; - Sun Tzu",
+      "type": "",
+      "category": "Vendors & Product Blogs"
     },
     {
       "url": "https://blog.0patch.com/feeds/posts/default",
@@ -4238,10 +6380,31 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://feeds.feedburner.com/akamai/blog",
+      "title": "Akamai Blog",
+      "description": "Read more about what we&#x27;re thinking about in the Akamai blog.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.anomali.com/site/blog-rss",
       "title": "Anomali – Vendor Feed",
       "description": "Vendor security updates, advisories, and guidance from Anomali.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://any.run/cybersecurity-blog/feed",
+      "title": "ANY.RUN Cybersecurity Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://blog.securityinnovation.com/rss.xml",
+      "title": "Application and Cybersecurity Blog",
+      "description": "Learn about application and cybersecurity from the experts at Security Innovation.",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4263,6 +6426,41 @@
       "title": "Azure Purview Blog",
       "description": "Microsoft technical community posts with security guidance, product updates, and research.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://bishopfox.com/feeds/blog.rss",
+      "title": "bishopfox.com",
+      "description": "The leader in offensive security, providing continuous pen testing, red teaming, attack surface management, and traditional security assessments.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.offensive-security.com/blog/feed",
+      "title": "Blog &amp; What&#x27;s New | Offensive Security",
+      "description": "Leaders in Information Security Training",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.praetorian.com/blog/feed",
+      "title": "Blog - Praetorian",
+      "description": "Offensive Cybersecurity Managed Solutions",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://samcurry.net/feed.rss",
+      "title": "Blog | Sam Curry",
+      "description": "",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.zerofox.com/blog/feed",
+      "title": "Blog – ZeroFox",
+      "description": "Digital Risk Protection platform built for enterprises",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4308,6 +6506,13 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://blog.compass-security.com/feed",
+      "title": "Compass Security Blog",
+      "description": "Offensive Defense",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=CoreInfrastructureandSecurityBlog",
       "title": "Core Infrastructure and Security Blog",
       "description": "Microsoft technical community posts with security guidance, product updates, and research.",
@@ -4329,10 +6534,31 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://www.lawfareblog.com/taxonomy/term/5798/all/feed",
+      "title": "Cybersecurity",
+      "description": "As our lives become increasingly dependent upon computer systems and cyber technologies grow ever more sophisticated, the internet has emerged …",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.crowdstrike.com/blog/feed",
+      "title": "Cybersecurity Blog | CrowdStrike",
+      "description": "Next-Generation Endpoint Protection",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://cyble.com/feed",
       "title": "Cyble",
       "description": "Vendor security updates, advisories, and guidance from Cyble.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://daniel.haxx.se/blog/feed",
+      "title": "daniel.haxx.se",
+      "description": "tech, open source and networking",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4378,6 +6604,13 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://embracethered.com/blog/index.xml",
+      "title": "Embrace The Red",
+      "description": "Recent content on Embrace The Red",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://eset.com/int/rss.xml",
       "title": "ESET – We Live Security (Vendor)",
       "description": "Vendor security updates, advisories, and guidance from ESET.",
@@ -4389,6 +6622,13 @@
       "title": "Fidelis Security",
       "description": "Vendor security updates, advisories, and guidance from Fidelis Security.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://fingerprint.com/rss.xml",
+      "title": "Fingerprint Blog RSS Feed",
+      "description": "The Fingerprint device intelligence platform works across web and mobile applications to identify all visitors with 99.5% accuracy — even …",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4410,6 +6650,20 @@
       "title": "Fox-IT International Blog",
       "description": "Vendor security updates, advisories, and guidance from Fox-IT International Blog.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.gdatasoftware.com/blog/rss.xml",
+      "title": "G DATA Security Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://feeds.feedburner.com/gbhackers",
+      "title": "GBHackers On Security",
+      "description": "Daily Cyber Security Research updates,Hacking tutorial Updates,Technology updates",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4445,6 +6699,20 @@
       "title": "Hack The Box – Blog",
       "description": "Vendor security updates, advisories, and guidance from Hack The Box.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.hackerone.com/blog.rss",
+      "title": "HackerOne Blog",
+      "description": "The HackerOne Blog",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://heimdalsecurity.com/blog/feed",
+      "title": "Heimdal Security Blog",
+      "description": "A blog about all things internet security",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4651,6 +6919,34 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://www.lawfareblog.com/rss.xml",
+      "title": "Lawfare",
+      "description": "Hard National Security Choices",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://levelblue.com/blogs/spiderlabs-blog/rss.xml",
+      "title": "LevelBlue (SpiderLabs Blog)",
+      "description": "",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.lightbluetouchpaper.org/feed",
+      "title": "Light Blue Touchpaper",
+      "description": "Security Research, Computer Laboratory, University of Cambridge",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.lunasec.io/docs/blog/rss.xml",
+      "title": "LunaTrace Blog",
+      "description": "LunaTrace Blog",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.mcafee.com/blogs/feed",
       "title": "McAfee Blogs",
       "description": "Vendor security updates, advisories, and guidance from McAfee Blogs.",
@@ -4690,6 +6986,13 @@
       "title": "Microsoft Security Baselines",
       "description": "Microsoft technical community posts with security guidance, product updates, and research.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://cloudblogs.microsoft.com/microsoftsecure/feed",
+      "title": "Microsoft Security Blog",
+      "description": "Expert coverage of cybersecurity topics",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4756,10 +7059,45 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://foundation.mozilla.org/en/blog/rss",
+      "title": "Mozilla Foundation Blog",
+      "description": "The Mozilla Foundation Blog",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://blog.mozilla.org/security/feed",
+      "title": "Mozilla Security Blog",
+      "description": "",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://msrc.microsoft.com/blog/categories/msrc/feed",
       "title": "MSRC on Microsoft Security Response Center",
       "description": "Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://research.nccgroup.com/feed",
+      "title": "NCC Group Research Blog",
+      "description": "Making the world safer and more secure",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://nordvpn.com/blog/feed",
+      "title": "NordVPN Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://objective-see.org/rss.xml",
+      "title": "Objective-See&#x27;s Blog",
+      "description": "All Things Related to Mac Security",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4802,6 +7140,13 @@
       "title": "PhishLabs Blog",
       "description": "Vendor security updates, advisories, and guidance from PhishLabs Blog.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://blog.phylum.io/rss",
+      "title": "Phylum",
+      "description": "Identifying and Stopping Software Supply Chain Attacks",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4875,6 +7220,13 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://blog.rapid7.com/rss",
+      "title": "Rapid7 Blog",
+      "description": "Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.recordedfuture.com/category/cyber/feed",
       "title": "Recorded Future – Cyber TI",
       "description": "Vendor security updates, advisories, and guidance from Recorded Future.",
@@ -4889,6 +7241,27 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://www.redhat.com/en/rss/blog/channel/security",
+      "title": "Red Hat Security",
+      "description": "Discover how we reduce risk in any environment and across the open source ecosystem",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.resecurity.com/feed",
+      "title": "Resecurity",
+      "description": "Keep up-to-date with the latest Blogs published by Resecurity.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.reversinglabs.com/blog/rss.xml",
+      "title": "ReversingLabs Blog",
+      "description": "",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://blog.google/technology/safety-security/rss",
       "title": "Safety & Security",
       "description": "Vendor security updates, advisories, and guidance from Safety & Security.",
@@ -4896,10 +7269,31 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://www.sans.org/blog/feed.xml",
+      "title": "SANS Blog",
+      "description": "SANS Blog",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.scnsoft.com/blog/category/information-security/atom",
       "title": "SCNSoft – Information Security",
       "description": "Vendor security updates, advisories, and guidance from SCNSoft.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://scotthelme.co.uk/rss",
+      "title": "Scott Helme",
+      "description": "Hi, I&#x27;m Scott Helme, a Security Researcher, Entrepreneur and International Speaker. I&#x27;m the creator of Report URI and Security Headers, …",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.axis.com/blog/secure-insights/?feed=rss",
+      "title": "Secure Insights",
+      "description": "Axis Blog",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4914,6 +7308,13 @@
       "title": "Security @ Cisco Blogs",
       "description": "Vendor security updates, advisories, and guidance from Security @ Cisco Blogs.",
       "type": "atom",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://securityboulevard.com/feed",
+      "title": "Security Boulevard",
+      "description": "The Home of the Security Bloggers Network",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -4966,6 +7367,13 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://shellsharks.github.io/feed.xml",
+      "title": "shellsharks",
+      "description": "Cybersecurity Research and More",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.signalscorps.com/feed.xml",
       "title": "Signals Corps Blog",
       "description": "Vendor security updates, advisories, and guidance from Signals Corps Blog.",
@@ -4980,10 +7388,38 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://blog.sonatype.com/rss.xml",
+      "title": "Sonatype Blog",
+      "description": "Conversations about software supply automation, devsecops, open source, continuous delivery, and application security.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://www.sophos.com/en-us/blog/feed",
       "title": "Sophos News",
       "description": "Vendor security updates, advisories, and guidance from Sophos News.",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.synack.com/feed",
+      "title": "Synack",
+      "description": "The Premier Security Testing Platform.",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://sysdig.com/blog/category/sysdig-secure2/feed",
+      "title": "Sysdig Secure – Sysdig",
+      "description": "502 Bad Gateway cloudflare",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://labs.taszk.io/index.xml",
+      "title": "Taszk Labs on taszk.io labs",
+      "description": "Recent content in Taszk Labs on taszk.io labs",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -5008,10 +7444,31 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://redcanary.com/blog/feed",
+      "title": "The Red Canary Blog: Information Security Insights",
+      "description": "This site is currently undergoing scheduled maintenance. Please try back soon!",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://blog.ironcorelabs.com/feed",
+      "title": "The Salty Hash - Medium",
+      "description": "Tips, tricks, pointers and perspectives on building secure, testable, maintainable apps. Thoughts and observations about security and privacy from IronCore …",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://blog.google/threat-analysis-group/rss",
       "title": "Threat Analysis Group (TAG)",
       "description": "Vendor security updates, advisories, and guidance from Threat Analysis Group (TAG).",
       "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://rss.beehiiv.com/feeds/xgTKUmMmUm.xml",
+      "title": "tl;dr sec",
+      "description": "Keep up with security research.",
+      "type": "",
       "category": "Vendors & Product Blogs"
     },
     {
@@ -5106,10 +7563,31 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://xploitlab.com/feed",
+      "title": "XploitLab",
+      "description": "A timeout occurred Error code 524 Visit cloudflare.com for more information. 2024-02-04 11:19:08 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://0dayfans.com/feed.rss",
       "title": "0dayfans",
       "description": "Vulnerability and exploit updates from 0dayfans.",
       "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.reddit.com/r/blackhat",
+      "title": "Blackhat Library: Hacking techniques and research",
+      "description": "Focused on the ongoing discussion and documentation of vulnerabilities and exploitation techniques.",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://newsletter.blockthreat.io/feed",
+      "title": "Blockchain Threat Intelligence",
+      "description": "The latest in blockchain, DeFi and exchange threat intelligence on hacks, vulnerabilities, security tools, and events.",
+      "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -5169,6 +7647,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://cve.threatint.com/rss/new",
+      "title": "CVE | THREATINT - NEW",
+      "description": "Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://cxsecurity.com/wlb/rss/dorks",
       "title": "CXSecurity – Dorks DB",
       "description": "Vulnerability and exploit updates from CXSecurity.",
@@ -5204,6 +7689,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.exploitalert.com/feed",
+      "title": "Exploitalert",
+      "description": "Exploitalert - database of exploits",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://falco.org/feed.xml",
       "title": "Falco – Falco",
       "description": "Recent content on Falco",
@@ -5215,6 +7707,13 @@
       "title": "Falco – The Falco blog",
       "description": "Recent content in The Falco blog on Falco",
       "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
+      "title": "FortiGuard Labs | FortiGuard Center - IR Advisories",
+      "description": "The following is a list of advisories for issues resolved in Fortinet products. The resolution of such issues is coordinated …",
+      "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -5274,6 +7773,41 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://linuxsecurity.com/advisories/debian?format=feed&amp;type=rss",
+      "title": "LinuxSecurity Advisories - Debian",
+      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://linuxsecurity.com/advisories/oracle?format=feed&amp;type=rss",
+      "title": "LinuxSecurity Advisories - Oracle",
+      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://linuxsecurity.com/advisories/red-hat?format=feed&amp;type=rss",
+      "title": "LinuxSecurity Advisories - Red Hat",
+      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://linuxsecurity.com/advisories/slackware?format=feed&amp;type=rss",
+      "title": "LinuxSecurity Advisories - Slackware",
+      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://linuxsecurity.com/advisories/ubuntu?format=feed&amp;type=rss",
+      "title": "LinuxSecurity Advisories - Ubuntu",
+      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.misp-project.org/feed.xml",
       "title": "MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
       "description": "Recent content on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
@@ -5281,10 +7815,31 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://rss.packetstormsecurity.com",
+      "title": "Packet Storm",
+      "description": "Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.rcesecurity.com/feed",
+      "title": "RCE Security",
+      "description": "Remote Code Execution Techniques and more",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://ridiculousfish.com/blog/atom.xml",
       "title": "ridiculous_fish",
       "description": "Updates from ridiculous_fish covering vulnerabilities, cves.",
       "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.secureworks.com/rss?feed=research",
+      "title": "Secureworks Counter Threat Unit (CTU) Research",
+      "description": "The latest publications from our Counter Threat Unit including Threat Analyses and Threat Advisories",
+      "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -5323,6 +7878,20 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://medium.com/feed/@cve_program",
+      "title": "Stories by CVE Program Blog on Medium",
+      "description": "Stories by CVE Program Blog on Medium",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.cloudvulndb.org/rss/feed.xml",
+      "title": "The Open Cloud Vulnerability &amp; Security Issue Database",
+      "description": "An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues.",
+      "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.vmware.com/security/advisories.xml",
       "title": "VMware Security Advisory",
       "description": "Vulnerability and exploit updates from VMware Security Advisory.",
@@ -5348,6 +7917,13 @@
       "title": "Vulmon Research",
       "description": "Vulnerability and exploit updates from Vulmon Research.",
       "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vulncheck.com/feed/blog/atom.xml",
+      "title": "VulnCheck Blog",
+      "description": "Blog posts we have recently written or historic blog posts we have written in the past.",
+      "type": "atom",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -5383,6 +7959,13 @@
       "title": "x64dbg",
       "description": "Updates from x64dbg covering vulnerabilities, cves.",
       "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.zerodayinitiative.com/blog?format=rss",
+      "title": "Zero Day Initiative - Blog",
+      "description": "The Zero Day Initiative (ZDI) was created to encourage the reporting of 0-day vulnerabilities privately to the affected vendors by …",
+      "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
