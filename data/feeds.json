@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-01T14:36:35.108577+00:00",
-  "total": 768,
+  "generated_at": "2026-01-02T14:07:43.363507+00:00",
+  "total": 770,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -3552,7 +3552,21 @@
       "category": "Government / CERT & Advisories"
     },
     {
+      "url": "https://dotdotpwn.blogspot.com/feeds/posts/default",
+      "title": "DotDotPwn - The Directory Traversal Fuzzer",
+      "description": "DotDotPwn - The Directory Traversal Fuzzer",
+      "type": "atom",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss",
+      "title": "DotDotPwn - The Directory Traversal Fuzzer",
+      "description": "DotDotPwn - The Directory Traversal Fuzzer",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://dotdotpwn.blogspot.com/rss.xml",
       "title": "DotDotPwn - The Directory Traversal Fuzzer",
       "description": "DotDotPwn - The Directory Traversal Fuzzer",
       "type": "rss",
