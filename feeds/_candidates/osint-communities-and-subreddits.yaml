@@ -1,0 +1,71 @@
+- url: https://www.reddit.com/r/netsec
+  title: /r/netsec - Information Security News &amp; Discussion
+  description: A community for technical news and discussion of information security and closely related topics.
+  category: OSINT, Communities & Subreddits
+- url: https://bluepurple.substack.com/feed
+  title: Cyber Defence News for Blue &amp; Purple Teams
+  description: Summarised cyber defence technical content to help operational blue and purple teams be informed and protect
+    their estates.
+  category: OSINT, Communities & Subreddits
+- url: https://www.darkreading.com/rss_simple.asp
+  title: Dark Reading
+  description: 'Dark Reading: Connecting the Information and Security Community'
+  category: OSINT, Communities & Subreddits
+- url: https://medium.com/feed/dark-roast-security
+  title: Dark Roast Security - Medium
+  description: Dark Roast Security’s mission is to inspire, educate, and share ideas about InfoSec. Follow to join our community!
+    - Medium
+  category: OSINT, Communities & Subreddits
+- url: https://jacknaglieri.substack.com/feed
+  title: Detection at Scale
+  description: A weekly infosec newsletter about scaling SIEMs and Detection Engineering.
+  category: OSINT, Communities & Subreddits
+- url: https://dev.to/feed
+  title: DEV Community
+  description: A constructive and inclusive social network for software developers. With you every step of your journey.
+  category: OSINT, Communities & Subreddits
+- url: https://www.reddit.com/r/InfoSecNews
+  title: Information Security News
+  description: This subreddit is designed for users to post the latest Information Security related news and articles from
+    around the Internet. …
+  category: OSINT, Communities & Subreddits
+- url: https://www.itsecurityguru.org/feed/
+  title: IT Security Guru
+  description: The Site for our Community
+  category: OSINT, Communities & Subreddits
+- url: https://www.reddit.com/r/privacy
+  title: Privacy &amp; Freedom in the Information Age
+  description: The intersection of technology, privacy, and freedom in a digital world.
+  category: OSINT, Communities & Subreddits
+- url: https://www.producthunt.com/feed
+  title: Product Hunt — The best new products, every day
+  category: OSINT, Communities & Subreddits
+- url: https://www.reddit.com/r/ReverseEngineering
+  title: Reverse Engineering
+  description: A moderated community dedicated to all things reverse engineering.
+  category: OSINT, Communities & Subreddits
+- url: https://medium.com/feed/@guardiosecurity
+  title: Stories by Guardio on Medium
+  description: Stories by Guardio on Medium
+  category: OSINT, Communities & Subreddits
+- url: https://medium.com/feed/@netflixtechblog
+  title: Stories by Netflix Technology Blog on Medium
+  description: Stories by Netflix Technology Blog on Medium
+  category: OSINT, Communities & Subreddits
+- url: https://www.cybersecuritypulse.net/feed
+  title: The Cybersecurity Pulse (TCP)
+  description: Welcome to TCP! The go-to source for the latest in security product innovation. Join our growing community
+    today!
+  category: OSINT, Communities & Subreddits
+- url: https://osintnewsletter.com/feed
+  title: The OSINT Newsletter
+  description: OSINT news, tools, tactics, and techniques
+  category: OSINT, Communities & Subreddits
+- url: https://this-week-in-rust.org/rss.xml
+  title: This Week in Rust
+  description: Stay up to date with events, learning resources, and recent developments in the Rust community.
+  category: OSINT, Communities & Subreddits
+- url: https://www.welivesecurity.com/feed
+  title: WeLiveSecurity
+  description: News, views, and insight from the ESET security community
+  category: OSINT, Communities & Subreddits
