@@ -1,0 +1,104 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-05T07:07:13.601307Z'
+    score: 33
+    matched_keywords:
+    - authentication
+    - backdoor
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 23c86d62d8de225e0fc137ecc1787fee61739781
+- url: https://aboutdfir.com/feed/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-05T07:07:02.876253Z'
+    score: 33
+    matched_keywords:
+    - authentication
+    - backdoor
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: cd09274df904f1b693916c560c6aac746ed4c1e4
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-05T07:07:18.191502Z'
+    score: 33
+    matched_keywords:
+    - authentication
+    - backdoor
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: b1899b2210f39da95cbe76df729687abce380ac2
+- url: https://aboutdfir.com/rss/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-05T07:07:10.217336Z'
+    score: 33
+    matched_keywords:
+    - authentication
+    - backdoor
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - ransomware
+    - rce
+    - remote code execution
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 714112b4ad6fe8f3c16147f089119749a1063796
