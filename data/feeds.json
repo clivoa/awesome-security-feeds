@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-13T16:02:14.633280+00:00",
-  "total": 1139,
+  "generated_at": "2026-01-19T22:06:10.791408+00:00",
+  "total": 1144,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -7815,10 +7815,31 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.offensive-security.com/feed",
+      "title": "OffSec",
+      "description": "The Path to a Secure Future",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://rss.packetstormsecurity.com",
       "title": "Packet Storm",
       "description": "Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.percona.com/blog/feed",
+      "title": "Percona Database Performance Blog",
+      "description": "Updates from Percona Database Performance Blog covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.percona.com/blog/rss",
+      "title": "Percona Database Performance Blog",
+      "description": "Updates from Percona Database Performance Blog covering vulnerabilities, cves.",
+      "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -7959,6 +7980,20 @@
       "title": "x64dbg",
       "description": "Updates from x64dbg covering vulnerabilities, cves.",
       "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.xplico.org/feed",
+      "title": "Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.xplico.org/rss",
+      "title": "Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
