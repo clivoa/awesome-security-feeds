@@ -1,0 +1,108 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-19T06:40:01.484209Z'
+    score: 34
+    matched_keywords:
+    - apt
+    - aws
+    - botnet
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - phishing
+    - ransomware
+    - threat actor
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: 23c86d62d8de225e0fc137ecc1787fee61739781
+- url: https://aboutdfir.com/feed/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-19T06:39:54.772419Z'
+    score: 34
+    matched_keywords:
+    - apt
+    - aws
+    - botnet
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - phishing
+    - ransomware
+    - threat actor
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: rel=alternate
+    url_hash: cd09274df904f1b693916c560c6aac746ed4c1e4
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-19T06:40:03.019457Z'
+    score: 34
+    matched_keywords:
+    - apt
+    - aws
+    - botnet
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - phishing
+    - ransomware
+    - threat actor
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: b1899b2210f39da95cbe76df729687abce380ac2
+- url: https://aboutdfir.com/rss/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-01-19T06:39:59.981835Z'
+    score: 34
+    matched_keywords:
+    - apt
+    - aws
+    - botnet
+    - breach
+    - campaign
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - patch
+    - phishing
+    - ransomware
+    - threat actor
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: 714112b4ad6fe8f3c16147f089119749a1063796
