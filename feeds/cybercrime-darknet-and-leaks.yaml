@@ -134,3 +134,8 @@
   title: The Record – Cybercrime
   type: rss
   description: Cybercrime and underground ecosystem coverage from The Record.
+- url: https://www.spamhaus.org/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: The Spamhaus Project
+  type: rss
+  description: The Spamhaus Project

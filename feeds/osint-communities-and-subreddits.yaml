@@ -82,6 +82,12 @@
   title: IntelTechniques Blog
   type: rss
   description: OSINT resources and community updates from IntelTechniques Blog.
+- url: https://seclists.org/rss/oss-sec.rss
+  category: OSINT, Communities & Subreddits
+  title: Open Source Security
+  type: rss
+  description: Discussion of security flaws, concepts, and practices in the Open Source
+    community
 - url: https://www.reddit.com/r/privacy
   category: OSINT, Communities & Subreddits
   title: Privacy &amp; Freedom in the Information Age
