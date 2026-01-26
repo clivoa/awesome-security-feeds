@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-19T22:06:10.791408+00:00",
-  "total": 1144,
+  "generated_at": "2026-01-26T21:51:03.264958+00:00",
+  "total": 1147,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -251,6 +251,13 @@
       "url": "https://therecord.media/news/cybercrime/feed",
       "title": "The Record – Cybercrime",
       "description": "Cybercrime and underground ecosystem coverage from The Record.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.spamhaus.org/rss.xml",
+      "title": "The Spamhaus Project",
+      "description": "The Spamhaus Project",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -5295,6 +5302,13 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
+      "url": "https://seclists.org/rss/oss-sec.rss",
+      "title": "Open Source Security",
+      "description": "Discussion of security flaws, concepts, and practices in the Open Source community",
+      "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
       "url": "https://www.reddit.com/r/privacy",
       "title": "Privacy &amp; Freedom in the Information Age",
       "description": "The intersection of technology, privacy, and freedom in a digital world.",
@@ -7888,6 +7902,13 @@
       "url": "https://blog.securityonion.net/rss.xml",
       "title": "Security Onion",
       "description": "Peel Back the Layers of Your Enterprise",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://seclists.org/rss/snort.rss",
+      "title": "Snort",
+      "description": "Everyone's favorite open source IDS, <a href=\"http://www.snort.org/\">Snort</a>. This archive combines the snort-announce, snort-devel, snort-users, and snort-sigs lists.",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
