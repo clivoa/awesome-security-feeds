@@ -1,0 +1,96 @@
+- url: http://dtag-dev-sec.github.io/feed
+  category: OSINT, Communities & Subreddits
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
+    cves.
+  discovery:
+    discovered_at: '2026-01-26T07:40:17.712329Z'
+    score: 31
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - cloud
+    - cve
+    - docker
+    - exploit
+    - incident
+    - intrusion
+    - malware
+    - patch
+    - payload
+    - persistence
+    - rce
+    - technique
+    discovered_via: common_path
+    url_hash: b4ef16b114fca6f675b784dcb077bf19f1ada654
+- url: http://dtag-dev-sec.github.io/feed.xml
+  category: OSINT, Communities & Subreddits
+  title: DTAG Community Honeypot Project
+  type: rss
+  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
+    cves.
+  discovery:
+    discovered_at: '2026-01-26T07:40:22.212396Z'
+    score: 31
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - cloud
+    - cve
+    - docker
+    - exploit
+    - incident
+    - intrusion
+    - malware
+    - patch
+    - payload
+    - persistence
+    - rce
+    - technique
+    discovered_via: common_path
+    url_hash: ed1ba8ad1414f27b9748cb765a3754238a6541c4
+- url: http://seclists.org/rss/fulldisclosure.rss
+  category: OSINT, Communities & Subreddits
+  title: Full Disclosure
+  type: rss
+  description: A public, vendor-neutral forum for detailed discussion of vulnerabilities
+    and exploitation techniques, as well as tools, papers, news, and events of interest
+    to the community. The relaxed atmosphere of this quirky lis...
+  discovery:
+    discovered_at: '2026-01-26T07:37:43.756563Z'
+    score: 23
+    matched_keywords:
+    - advisory
+    - cloud
+    - cve
+    - data leak
+    - denial of service
+    - exploit
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 181a02d06ba6d70bab92fd886306e172de6433fd
+- url: http://seclists.org/rss/oss-sec.rss
+  category: OSINT, Communities & Subreddits
+  title: Open Source Security
+  type: rss
+  description: Discussion of security flaws, concepts, and practices in the Open Source
+    community
+  discovery:
+    discovered_at: '2026-01-26T07:37:27.472874Z'
+    score: 22
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - bypass
+    - cve
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 7d4e805d974165e033984865208ee03ea2d3e692
