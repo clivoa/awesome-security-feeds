@@ -1,0 +1,108 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-02T08:08:06.701741Z'
+    score: 36
+    matched_keywords:
+    - authentication
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - dfir
+    - exploit
+    - patch
+    - phishing
+    - pwn
+    - ransomware
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: 23c86d62d8de225e0fc137ecc1787fee61739781
+- url: https://aboutdfir.com/feed/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-02T08:08:07.719717Z'
+    score: 36
+    matched_keywords:
+    - authentication
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - dfir
+    - exploit
+    - patch
+    - phishing
+    - pwn
+    - ransomware
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: rel=alternate
+    url_hash: cd09274df904f1b693916c560c6aac746ed4c1e4
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-02T08:07:54.783425Z'
+    score: 36
+    matched_keywords:
+    - authentication
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - dfir
+    - exploit
+    - patch
+    - phishing
+    - pwn
+    - ransomware
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: b1899b2210f39da95cbe76df729687abce380ac2
+- url: https://aboutdfir.com/rss/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-02T08:07:56.448111Z'
+    score: 36
+    matched_keywords:
+    - authentication
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - dfir
+    - exploit
+    - patch
+    - phishing
+    - pwn
+    - ransomware
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    - zero-day
+    discovered_via: common_path
+    url_hash: 714112b4ad6fe8f3c16147f089119749a1063796
