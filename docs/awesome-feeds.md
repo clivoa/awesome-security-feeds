@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-01-13T16:02:14.462458+00:00` (UTC)
+**Generated:** `2026-02-21T18:33:55.056328+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -12,17 +12,17 @@ This page contains the full, categorized feed list maintained in this repository
 ## Contents
 
 - [Crypto & Blockchain Security](#cryptoblockchainsecurity) (11)
-- [Cybercrime, Darknet & Leaks](#cybercrimedarknetleaks) (25)
+- [Cybercrime, Darknet & Leaks](#cybercrimedarknetleaks) (26)
 - [DFIR & Forensics](#dfirforensics) (37)
 - [General Security & Blogs](#generalsecurityblogs) (534)
 - [Government / CERT & Advisories](#governmentcertadvisories) (17)
 - [Government, CERT & Advisories](#governmentcertadvisories) (34)
 - [Leaks & Breaches](#leaksbreaches) (12)
 - [Malware & Threat Research](#malwarethreatresearch) (71)
-- [OSINT, Communities & Subreddits](#osintcommunitiessubreddits) (26)
+- [OSINT, Communities & Subreddits](#osintcommunitiessubreddits) (27)
 - [Podcasts & YouTube](#podcastsyoutube) (141)
 - [Vendors & Product Blogs](#vendorsproductblogs) (174)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilitiescvesexploits) (58)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilitiescvesexploits) (65)
 
 ---
 
@@ -46,7 +46,7 @@ Total: **11**
 
 ## Cybercrime, Darknet & Leaks
 
-Total: **25**
+Total: **26**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -75,6 +75,7 @@ Total: **25**
 | Tenable Security Center templates | Updates from Tenable Security Center templates covering vulnerabilities, cves. | RSS | <https://feeds.feedburner.com/securitycenterreporttemplates> |
 | The Guardian Cybercrime | Cybercrime and underground ecosystem coverage from The Guardian Cybercrime. | RSS | <https://www.guardian.co.uk/technology/cybercrime/rss> |
 | The Record – Cybercrime | Cybercrime and underground ecosystem coverage from The Record. | RSS | <https://therecord.media/news/cybercrime/feed> |
+| The Spamhaus Project | The Spamhaus Project | RSS | <https://www.spamhaus.org/rss.xml> |
 
 ## DFIR & Forensics
 
@@ -825,7 +826,7 @@ Total: **71**
 
 ## OSINT, Communities & Subreddits
 
-Total: **26**
+Total: **27**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -844,6 +845,7 @@ Total: **26**
 | https://defcon.org/defconrss.xml | OSINT resources and community updates from https://defcon.org/defconrss.xml. | RSS | <https://defcon.org/defconrss.xml> |
 | Information Security News | This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet. … |  | <https://www.reddit.com/r/InfoSecNews> |
 | IntelTechniques Blog | OSINT resources and community updates from IntelTechniques Blog. | RSS | <https://inteltechniques.com/blog/feed> |
+| Open Source Security | Discussion of security flaws, concepts, and practices in the Open Source community | RSS | <https://seclists.org/rss/oss-sec.rss> |
 | Privacy &amp; Freedom in the Information Age | The intersection of technology, privacy, and freedom in a digital world. |  | <https://www.reddit.com/r/privacy> |
 | Product Hunt — The best new products, every day |  |  | <https://www.producthunt.com/feed> |
 | Reverse Engineering | A moderated community dedicated to all things reverse engineering. |  | <https://www.reddit.com/r/ReverseEngineering> |
@@ -1187,7 +1189,7 @@ Total: **174**
 
 ## Vulnerabilities, CVEs & Exploits
 
-Total: **58**
+Total: **65**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -1205,6 +1207,7 @@ Total: **58**
 | CVE \| THREATINT - NEW | Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program |  | <https://cve.threatint.com/rss/new> |
 | CXSecurity – Dorks DB | Vulnerability and exploit updates from CXSecurity. | RSS | <https://cxsecurity.com/wlb/rss/dorks> |
 | CXSecurity – Exploits | Vulnerability and exploit updates from CXSecurity. | RSS | <https://cxsecurity.com/wlb/rss/exploit> |
+| Docker | Updates from Docker covering vulnerabilities, cves. | RSS | <https://www.docker.com/feed> |
 | Exploit Collector | Vulnerability and exploit updates from Exploit Collector. | RSS | <https://exploit.kitploit.com/feeds/posts/default?alt=rss> |
 | Exploit-DB – GHDB | Vulnerability and exploit updates from Exploit-DB. | RSS | <https://www.exploit-db.com/rss___ghdb.xml> |
 | Exploit-DB – Main RSS | Vulnerability and exploit updates from Exploit-DB. | RSS | <https://www.exploit-db.com/rss.xml> |
@@ -1226,7 +1229,10 @@ Total: **58**
 | LinuxSecurity Advisories - Slackware | LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends … |  | <https://linuxsecurity.com/advisories/slackware?format=feed&amp;type=rss> |
 | LinuxSecurity Advisories - Ubuntu | LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends … |  | <https://linuxsecurity.com/advisories/ubuntu?format=feed&amp;type=rss> |
 | MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | Recent content on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | RSS | <https://www.misp-project.org/feed.xml> |
+| OffSec | The Path to a Secure Future | RSS | <https://www.offensive-security.com/feed> |
 | Packet Storm | Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers |  | <https://rss.packetstormsecurity.com> |
+| Percona Database Performance Blog | Updates from Percona Database Performance Blog covering vulnerabilities, cves. | RSS | <https://www.percona.com/blog/feed> |
+| Percona Database Performance Blog | Updates from Percona Database Performance Blog covering vulnerabilities, cves. | RSS | <https://www.percona.com/blog/rss> |
 | RCE Security | Remote Code Execution Techniques and more |  | <https://www.rcesecurity.com/feed> |
 | ridiculous_fish | Updates from ridiculous_fish covering vulnerabilities, cves. | ATOM | <https://ridiculousfish.com/blog/atom.xml> |
 | Secureworks Counter Threat Unit (CTU) Research | The latest publications from our Counter Threat Unit including Threat Analyses and Threat Advisories |  | <https://www.secureworks.com/rss?feed=research> |
@@ -1234,6 +1240,7 @@ Total: **58**
 | Security Onion | Peel Back the Layers of Your Enterprise | ATOM | <https://blog.securityonion.net/feeds/posts/default> |
 | Security Onion | Peel Back the Layers of Your Enterprise | RSS | <https://blog.securityonion.net/feeds/posts/default?alt=rss> |
 | Security Onion | Peel Back the Layers of Your Enterprise | RSS | <https://blog.securityonion.net/rss.xml> |
+| Snort | Everyone's favorite open source IDS, <a href="http://www.snort.org/">Snort</a>. This archive combines the snort-announce, snort-devel, snort-users, and snort-sigs lists. | RSS | <https://seclists.org/rss/snort.rss> |
 | Sploitus – Exploits | Vulnerability and exploit updates from Sploitus. | RSS | <https://sploitus.com/rss> |
 | Stories by CVE Program Blog on Medium | Stories by CVE Program Blog on Medium |  | <https://medium.com/feed/@cve_program> |
 | The Open Cloud Vulnerability &amp; Security Issue Database | An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues. |  | <https://www.cloudvulndb.org/rss/feed.xml> |
@@ -1247,5 +1254,7 @@ Total: **58**
 | WPScan | Updates from WPScan covering vulnerabilities, cves. | RSS | <https://wpscan.com/feed> |
 | www.netsparker.com | Updates from www.netsparker.com covering vulnerabilities, cves. | RSS | <https://www.netsparker.com/blog/web-security/rss.xml> |
 | x64dbg | Updates from x64dbg covering vulnerabilities, cves. | ATOM | <https://x64dbg.com/blog/atom.xml> |
+| Xplico | Open Source Network Forensic Analysis Tool (NFAT) | RSS | <https://www.xplico.org/feed> |
+| Xplico | Open Source Network Forensic Analysis Tool (NFAT) | RSS | <https://www.xplico.org/rss> |
 | Zero Day Initiative - Blog | The Zero Day Initiative (ZDI) was created to encourage the reporting of 0-day vulnerabilities privately to the affected vendors by … |  | <https://www.zerodayinitiative.com/blog?format=rss> |
 | Zero Day Initiative Blog | Vulnerability and exploit updates from Zero Day Initiative Blog. | RSS | <https://www.thezdi.com/blog?format=rss> |
