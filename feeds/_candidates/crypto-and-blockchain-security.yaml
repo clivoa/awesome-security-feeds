@@ -1,0 +1,100 @@
+- url: https://aboutdfir.com/feed
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-23T07:11:39.173147Z'
+    score: 30
+    matched_keywords:
+    - aws
+    - botnet
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    - ransomware
+    - vuln
+    - zero-day
+    discovered_via: common_path
+    url_hash: 23c86d62d8de225e0fc137ecc1787fee61739781
+- url: https://aboutdfir.com/feed/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-23T07:11:24.911954Z'
+    score: 30
+    matched_keywords:
+    - aws
+    - botnet
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    - ransomware
+    - vuln
+    - zero-day
+    discovered_via: rel=alternate
+    url_hash: cd09274df904f1b693916c560c6aac746ed4c1e4
+- url: https://aboutdfir.com/rss
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-23T07:11:28.125268Z'
+    score: 30
+    matched_keywords:
+    - aws
+    - botnet
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    - ransomware
+    - vuln
+    - zero-day
+    discovered_via: common_path
+    url_hash: b1899b2210f39da95cbe76df729687abce380ac2
+- url: https://aboutdfir.com/rss/
+  category: Crypto & Blockchain Security
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
+  discovery:
+    discovered_at: '2026-02-23T07:11:34.552619Z'
+    score: 30
+    matched_keywords:
+    - aws
+    - botnet
+    - cve
+    - dfir
+    - exploit
+    - incident
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    - ransomware
+    - vuln
+    - zero-day
+    discovered_via: common_path
+    url_hash: 714112b4ad6fe8f3c16147f089119749a1063796

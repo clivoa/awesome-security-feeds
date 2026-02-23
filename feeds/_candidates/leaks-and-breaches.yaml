@@ -1,0 +1,534 @@
+- url: https://kb.cert.org/vuls/atomfeed/
+  category: Leaks & Breaches
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+  discovery:
+    discovered_at: '2026-02-23T08:17:59.332489Z'
+    score: 43
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - breach
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - denial of service
+    - exploit
+    - ioc
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - privilege escalation
+    - rce
+    - remote code execution
+    - ssrf
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 1ea7935907b9b7033ef11144005d51eaedbd41bb
+- url: https://www.kb.cert.org/vuls/atomfeed/
+  category: Leaks & Breaches
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+  discovery:
+    discovered_at: '2026-02-23T08:19:20.630329Z'
+    score: 43
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - breach
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - denial of service
+    - exploit
+    - ioc
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - privilege escalation
+    - rce
+    - remote code execution
+    - ssrf
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 2cc6ff44696d89a0362e87bf8b33e8d442b5b8ff
+- url: http://www.maltego.com/index.xml
+  category: Leaks & Breaches
+  title: Maltego Blog RSS Feed
+  type: rss
+  description: Subscribe to our RSS feed to stay up to date with what's fresh in the
+    Maltego world.
+  discovery:
+    discovered_at: '2026-02-23T08:11:31.101646Z'
+    score: 22
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - breach
+    - campaign
+    - incident
+    - patch
+    - rce
+    - tactic
+    - technique
+    discovered_via: common_path
+    url_hash: f445b071add3640a33ab9c997599519532b9df0b
+- url: https://www.maltego.com/index.xml
+  category: Leaks & Breaches
+  title: Maltego Blog RSS Feed
+  type: rss
+  description: Subscribe to our RSS feed to stay up to date with what's fresh in the
+    Maltego world.
+  discovery:
+    discovered_at: '2026-02-23T08:11:39.121189Z'
+    score: 22
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - breach
+    - campaign
+    - incident
+    - patch
+    - rce
+    - tactic
+    - technique
+    discovered_via: rel=alternate
+    url_hash: 923165ba910805db634145602e6d5cf053f8dd89
+- url: http://www.owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T08:07:58.360971Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 26d0d41b77bc32cac815008080582ca23744c2aa
+- url: http://www.owasp.org/feed.xml
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T08:07:53.224934Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 4488d03b48a5961b3790bf9a635787b29af2b92e
+- url: https://owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T07:27:46.216269Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 168431ece58b293cb0e151c9bb41a01b0562fa44
+- url: https://owasp.org/feed.xml
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T07:27:41.052955Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 76257945a09cb084f87803a3937eddc5ea0acb8a
+- url: https://www.owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T07:52:36.309386Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 6a9d0395a123f357de6ae5d500ad079ca19f08dd
+- url: https://www.owasp.org/feed.xml
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-02-23T07:52:34.820922Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 739668761b632d0aa0e80e58c81c27a93bf3c4fb
+- url: https://www.rapid7.com/blog/rss
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+  discovery:
+    discovered_at: '2026-02-23T07:29:05.384461Z'
+    score: 66
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - backdoor
+    - breach
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - data exfiltration
+    - data leak
+    - denial of service
+    - docker
+    - exploit
+    - incident
+    - infostealer
+    - initial access
+    - intrusion
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    discovered_via: common_path
+    url_hash: f782224ad2f420d667a120fa740e0aac043d868b
+- url: https://www.rapid7.com/rss.xml
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+  discovery:
+    discovered_at: '2026-02-23T07:29:03.631854Z'
+    score: 66
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - backdoor
+    - breach
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - data exfiltration
+    - data leak
+    - denial of service
+    - docker
+    - exploit
+    - incident
+    - infostealer
+    - initial access
+    - intrusion
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - persistence
+    discovered_via: rel=alternate
+    url_hash: 26806213d9d2e6825175c79589ffb985ff758461
+- url: https://feeds.feedburner.com/tenable/qaXL
+  category: Leaks & Breaches
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:04:12.253822Z'
+    score: 64
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - backdoor
+    - blue team
+    - botnet
+    - breach
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - data leak
+    - denial of service
+    - docker
+    - edr
+    - exploit
+    - forensics
+    - gcp
+    - incident
+    - lateral movement
+    - loader
+    - malware
+    - patch
+    discovered_via: rel=alternate
+    url_hash: 4ad9ffaee898fb06890eb2a6b0f217c37ff2d0a5
+- url: https://www.tenable.com/blog/atom.xml
+  category: Leaks & Breaches
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:04:09.697622Z'
+    score: 64
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - backdoor
+    - blue team
+    - botnet
+    - breach
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - data leak
+    - denial of service
+    - docker
+    - edr
+    - exploit
+    - forensics
+    - gcp
+    - incident
+    - lateral movement
+    - loader
+    - malware
+    - patch
+    discovered_via: common_path
+    url_hash: 954d1057ca817239d79c9c6fccbd88f456e68340
+- url: https://www.tenable.com/blog/feed
+  category: Leaks & Breaches
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:04:15.022249Z'
+    score: 64
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - aws
+    - azure
+    - backdoor
+    - blue team
+    - botnet
+    - breach
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - data leak
+    - denial of service
+    - docker
+    - edr
+    - exploit
+    - forensics
+    - gcp
+    - incident
+    - lateral movement
+    - loader
+    - malware
+    - patch
+    discovered_via: common_path
+    url_hash: 3db09ebd91b8f1cdb6758cceb8d0bd7e16d6cb3e
+- url: https://tenable.com/feed/news
+  category: Leaks & Breaches
+  title: Tenable News Feed
+  type: rss
+  description: Updates from Tenable News Feed covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:04:17.682734Z'
+    score: 23
+    matched_keywords:
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - edr
+    - exploit
+    - incident
+    - rce
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: f413cf4c9b958ef88d68730f105080d16e216a2d
+- url: http://zerodayinitiative.com/blog/atom.xml
+  category: Leaks & Breaches
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:35:53.574295Z'
+    score: 49
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - azure
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - denial of service
+    - edr
+    - exploit
+    - loader
+    - malware
+    - patch
+    - pentest
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    - reverse engineering
+    - ssrf
+    - technique
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 733acab2b6a19a53cf2b41150a67a30affc5a70e
+- url: http://zerodayinitiative.com/blog/rss.xml
+  category: Leaks & Breaches
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-02-23T08:35:59.065831Z'
+    score: 49
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - azure
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - denial of service
+    - edr
+    - exploit
+    - loader
+    - malware
+    - patch
+    - pentest
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    - reverse engineering
+    - ssrf
+    - technique
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: a9f281c5c6c4728ced687ff7e37bbc2b4b8a2b21
