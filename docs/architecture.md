@@ -21,36 +21,44 @@ This repository is a **curated source-of-truth** for security RSS/Atom feeds, de
 
 ```mermaid
 flowchart LR
-  A[feeds/*.yaml<br/>(source of truth)] --> B[validate_feeds.py<br/>PR validation]
-  A --> C[build_feeds_json.py<br/>build JSON artifacts]
-  A --> D[check_feeds.py<br/>health check]
-  A --> E[export_opml.py<br/>OPML/XML exports]
-  A --> F[build_awesome_page.py<br/>docs/awesome-feeds.md]
+  A["feeds/*.yaml
+(source of truth)"] --> B["validate_feeds.py
+PR validation"]
+  A --> C["build_feeds_json.py
+build JSON artifacts"]
+  A --> D["check_feeds.py
+health check"]
+  A --> E["export_opml.py
+OPML/XML exports"]
+  A --> F["build_awesome_page.py
+docs/awesome-feeds.md"]
 
-  C --> G[data/feeds.json]
-  C --> H[data/feeds.min.json]
-  C --> I[data/manifest.json]
+  C --> G["data/feeds.json"]
+  C --> H["data/feeds.min.json"]
+  C --> I["data/manifest.json"]
 
-  D --> J[data/feed_status.json]
+  D --> J["data/feed_status.json"]
 
-  E --> K[data/sec_feeds_full.xml]
-  E --> L[data/sec_feeds_active.xml]
+  E --> K["data/sec_feeds_full.xml"]
+  E --> L["data/sec_feeds_active.xml"]
 
-  F --> M[docs/awesome-feeds.md]
+  F --> M["docs/awesome-feeds.md"]
 
-  G --> N[index.html<br/>static UI]
+  G --> N["index.html
+static UI"]
   H --> N
   I --> N
 
-  K --> O[Feed readers / OPML import]
+  K --> O["Feed readers / OPML import"]
   L --> O
 
-  G --> P[Automation / pipelines]
+  G --> P["Automation / pipelines"]
   J --> P
   K --> P
   L --> P
 
-  P --> Q[Downstream consumers<br/>(e.g., S33R)]
+  P --> Q["Downstream consumers
+(e.g., S33R)"]
 ```
 
 ---
