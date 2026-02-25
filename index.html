@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
     <title>securityfeeds</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("asf-theme");
+          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = stored === "light" || stored === "dark" ? stored : (prefersDark ? "dark" : "light");
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
@@ -21,29 +34,38 @@
       </svg>
     </a>
     <main class="wrap">
-      <header class="top">
-        <h1>awesome security feeds</h1>
-        <p class="tagline">An open, validated catalog of security feeds.</p>
-        <div class="downloads">
-          <span>downloads:</span>
-          <a href="data/sec_feeds_full.xml" download>OPML full</a>
-          <span class="sep">|</span>
-          <a href="data/sec_feeds_active.xml" download>OPML active</a>
-          <span class="sep">|</span>
-          <a href="data/feeds.json" download>feeds.json</a>
-          <span class="sep">|</span>
-          <a href="data/feeds.min.json" download>feeds.min.json</a>
-      </div>
-
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">community-maintained feed index</p>
+          <h1>awesome security feeds</h1>
+          <p class="tagline">An open, validated catalog of security RSS and Atom feeds.</p>
+          <div class="downloads" aria-label="Downloads">
+            <span>downloads</span>
+            <a href="data/sec_feeds_full.xml" download>OPML full</a>
+            <a href="data/sec_feeds_active.xml" download>OPML active</a>
+            <a href="data/feeds.json" download>feeds.json</a>
+            <a href="data/feeds.min.json" download>feeds.min.json</a>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+            <span class="theme-toggle__icon" aria-hidden="true"></span>
+            <span class="theme-toggle__label">Theme</span>
+            <span id="themeToggleText" class="theme-toggle__mode">Dark</span>
+          </button>
+        </div>
       </header>
 
       <section class="controls">
-        <label class="search">
-          <span>search:</span>
-          <input id="q" type="text" autocomplete="off" spellcheck="false" />
-        </label>
+        <div class="controls-row controls-row-main">
+          <label class="search">
+            <span>Search</span>
+            <input id="q" type="text" autocomplete="off" spellcheck="false" placeholder="title, URL, description..." />
+          </label>
+        </div>
 
-        <div class="filters">
+        <div class="controls-row controls-row-filters">
+          <div class="filters">
           <select id="statusFilter" aria-label="Filter by status">
             <option value="">status: all</option>
             <option value="active" selected>status: active</option>
@@ -61,9 +83,11 @@
           <select id="catFilter" aria-label="Filter by category">
             <option value="">category: all</option>
           </select>
-
-          <span id="statusSummary" class="meta"></span>
-          <span id="meta" class="meta"></span>
+          </div>
+          <div class="stats">
+            <span id="statusSummary" class="meta"></span>
+            <span id="meta" class="meta"></span>
+          </div>
         </div>
       </section>
 
