@@ -43,14 +43,14 @@
     publishing interesting data.
 - url: https://eternal-todo.com/rss.xml
   category: Cybercrime, Darknet & Leaks
-  title: eternal-todo.com
+  title: Eternal Todo
   type: rss
-  description: Updates from eternal-todo.com covering vulnerabilities, cves.
+  description: Updates from eternal-todo.com.
 - url: https://eternal-todo.com/blog/feed
   category: Cybercrime, Darknet & Leaks
   title: eternal-todo.com blogs
   type: rss
-  description: Updates from eternal-todo.com blogs covering vulnerabilities, cves.
+  description: Updates from eternal-todo.com blogs.
 - url: https://krebsonsecurity.com/feed
   category: Cybercrime, Darknet & Leaks
   title: Krebs on Security
@@ -65,7 +65,7 @@
   category: Cybercrime, Darknet & Leaks
   title: No Starch Press Blog
   type: rss
-  description: Updates from No Starch Press Blog covering vulnerabilities, cves.
+  description: Updates from No Starch Press Blog.
 - url: https://objective-see.com/rss
   category: Cybercrime, Darknet & Leaks
   title: Objective-See's Blog
@@ -116,14 +116,12 @@
   category: Cybercrime, Darknet & Leaks
   title: Tenable Security Center dashboards
   type: rss
-  description: Updates from Tenable Security Center dashboards covering vulnerabilities,
-    cves.
+  description: Updates from Tenable Security Center dashboards.
 - url: https://feeds.feedburner.com/securitycenterreporttemplates
   category: Cybercrime, Darknet & Leaks
   title: Tenable Security Center templates
   type: rss
-  description: Updates from Tenable Security Center templates covering vulnerabilities,
-    cves.
+  description: Updates from Tenable Security Center templates.
 - url: https://www.guardian.co.uk/technology/cybercrime/rss
   category: Cybercrime, Darknet & Leaks
   title: The Guardian Cybercrime

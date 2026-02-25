@@ -46,14 +46,12 @@
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
   type: rss
-  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
-    cves.
+  description: Updates from DTAG Community Honeypot Project.
 - url: https://dtag-dev-sec.github.io/feed.xml
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
   type: rss
-  description: Updates from DTAG Community Honeypot Project covering vulnerabilities,
-    cves.
+  description: Updates from DTAG Community Honeypot Project.
 - url: https://seclists.org/rss/fulldisclosure.rss
   category: OSINT, Communities & Subreddits
   title: Full Disclosure
@@ -63,14 +61,15 @@
     to the community. The relaxed atmosphere of this quirky lis...
 - url: https://ctf.re/feed.xml
   category: OSINT, Communities & Subreddits
-  title: https://ctf.re/feed.xml
+  title: Reversing Engineering for the Soul
   type: rss
-  description: OSINT resources and community updates from https://ctf.re/feed.xml.
+  description: OSINT resources and community updates from Reversing Engineering for
+    the Soul.
 - url: https://defcon.org/defconrss.xml
   category: OSINT, Communities & Subreddits
-  title: https://defcon.org/defconrss.xml
+  title: Defcon
   type: rss
-  description: OSINT resources and community updates from https://defcon.org/defconrss.xml.
+  description: OSINT resources and community updates from Defcon.
 - url: https://www.reddit.com/r/InfoSecNews
   category: OSINT, Communities & Subreddits
   title: Information Security News
@@ -97,7 +96,7 @@
   category: OSINT, Communities & Subreddits
   title: Product Hunt — The best new products, every day
   type: ''
-  description: ''
+  description: Updates from Product Hunt — The best new products, every day.
 - url: https://www.reddit.com/r/ReverseEngineering
   category: OSINT, Communities & Subreddits
   title: Reverse Engineering

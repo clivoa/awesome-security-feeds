@@ -38,7 +38,7 @@
   category: DFIR & Forensics
   title: Cyber Triage Blog
   type: rss
-  description: ''
+  description: Digital Forensics Specialized For Rapid Incident Response
 - url: https://davinciforensics.co.za/cybersecurity/feed
   category: DFIR & Forensics
   title: Davinci Forensics – Cybersecurity
@@ -57,12 +57,12 @@
     & forensics.
 - url: https://dfir.blog/rss
   category: DFIR & Forensics
-  title: dfir.blog
+  title: DFIR Blog
   type: rss
   description: DFIR and forensics content from dfir.blog.
 - url: https://www.dfir.training/dfir-training-categories-k2/itemlist?format=feed
   category: DFIR & Forensics
-  title: dfir.training
+  title: DFIR Training
   type: rss
   description: DFIR and forensics content from dfir.training.
 - url: https://dfir.fi/rss
@@ -109,14 +109,14 @@
   description: DFIR and forensics content from HECFblog.
 - url: https://dfir.ch/index.xml
   category: DFIR & Forensics
-  title: https://dfir.ch/index.xml
+  title: DFIR
   type: rss
-  description: DFIR and forensics content from https://dfir.ch/index.xml.
+  description: DFIR and forensics content from DFIR.
 - url: https://thedfirreport.com/feed
   category: DFIR & Forensics
-  title: https://thedfirreport.com/feed/
+  title: The DFIR Report
   type: rss
-  description: DFIR and forensics content from https://thedfirreport.com/feed/.
+  description: DFIR and forensics content from The DFIR Report.
 - url: https://abrignoni.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Initialization Vectors
@@ -180,7 +180,7 @@
   description: DFIR and forensics content from This Week In 4n6.
 - url: https://tisiphone.net/feed
   category: DFIR & Forensics
-  title: tisiphone.net
+  title: Lesley Carhart's Cybersecurity Blog
   type: rss
   description: DFIR and forensics content from tisiphone.net.
 - url: https://windowsir.blogspot.com/feeds/posts/default

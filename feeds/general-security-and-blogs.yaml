@@ -91,9 +91,9 @@
   description: News, research, and updates on general security & blogs from BleepingComputer.
 - url: https://www.cybereason.com/blog/rss.xml
   category: General Security & Blogs
-  title: Blog
+  title: Cybereason Blog
   type: rss
-  description: News, research, and updates on general security & blogs from Blog.
+  description: Cybereason research, threat intelligence, and security blog updates.
 - url: https://www.wordfence.com/blog/feed
   category: General Security & Blogs
   title: Blog - Wordfence
@@ -134,7 +134,7 @@
     opinions, and exclusive interviews to help tech users …
 - url: https://www.computerweekly.com/rss/IT-security.xml
   category: General Security & Blogs
-  title: ComputerWeekly.com
+  title: ComputerWeekly
   type: ''
   description: ComputerWeekly’s best articles of the day
 - url: https://news.crunchbase.com/feed
@@ -146,27 +146,34 @@
   category: General Security & Blogs
   title: CS Hub (Attacks)
   type: rss
-  description: ''
+  description: Cyber Security Hub regularly covers the space's visible breaches --
+    from Fortune 100 companies to social media, apps and industry leaders.
 - url: https://www.cshub.com/rss/categories/malware
   category: General Security & Blogs
   title: CS Hub (Malware)
   type: rss
-  description: ''
+  description: Many of today's cyber-attacks begin with malware propagation. Cyber
+    Security Hub covers these malicious strains and provides analysis on how to shore
+    up the network.
 - url: https://www.cshub.com/rss/reports
   category: General Security & Blogs
   title: CS Hub (Reports)
   type: rss
-  description: ''
+  description: Cyber Security Hub
 - url: https://www.cshub.com/rss/categories/security-strategy
   category: General Security & Blogs
   title: CS Hub (Security Strategy)
   type: rss
-  description: ''
+  description: A part of the role of today's CISO is strategy and business communication.
+    Cyber Security Hub boasts numerous articles in this space, from budgeting to best
+    practices and benchmarking, to deep dives on mitigating risk.
 - url: https://www.cshub.com/rss/categories/threat-defense
   category: General Security & Blogs
   title: CS Hub (Threat Defense)
   type: rss
-  description: ''
+  description: Heading attackers off at the pass begins with quality threat defense.
+    That could be a layered solution approach, or leading threat intelligence spread
+    across the security environment. Cyber Security Hub provides comme...
 - url: https://www.csoonline.com/feed
   category: General Security & Blogs
   title: CSO Online
@@ -230,9 +237,9 @@
     Ventures.
 - url: https://cylab.be/rss
   category: General Security & Blogs
-  title: cylab.be
+  title: Cylab
   type: ''
-  description: cylab.be
+  description: Security research and blog updates from Cylab.
 - url: https://www.darkreading.com/rss.xml
   category: General Security & Blogs
   title: darkreading
@@ -256,7 +263,7 @@
   description: 'EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet'
 - url: https://detect.fyi/feed
   category: General Security & Blogs
-  title: Detect.fyi
+  title: Detect FYI - Medium
   type: rss
   description: News, research, and updates on general security & blogs from Detect.fyi.
 - url: https://www.digitaljournal.com/feed
@@ -368,1859 +375,1846 @@
     Security.
 - url: https://antirez.com/rss
   category: General Security & Blogs
-  title: http://antirez.com/rss
+  title: Antirez
   type: rss
-  description: News, research, and updates on general security & blogs from http://antirez.com/rss.
+  description: Security research and blog updates from Antirez.
 - url: https://feeds.feedburner.com/blogspot/ofozM
   category: General Security & Blogs
-  title: http://feeds.feedburner.com/blogspot/ofozM
+  title: LockBoxx
   type: rss
-  description: RSS feed for http://feeds.feedburner.com/blogspot/ofozM, covering general
-    security & blogs news and updates.
+  description: Security research and blog updates from LockBoxx.
 - url: https://feeds.feedburner.com/Clamav
   category: General Security & Blogs
-  title: http://feeds.feedburner.com/Clamav
+  title: ClamAV® blog
   type: rss
-  description: RSS feed for http://feeds.feedburner.com/Clamav, covering general security
-    & blogs news and updates.
+  description: Security research and blog updates from ClamAV® blog.
 - url: https://feeds.feedburner.com/GoogleOnlineSecurityBlog
   category: General Security & Blogs
-  title: http://feeds.feedburner.com/GoogleOnlineSecurityBlog
+  title: Google Online Security Blog
   type: rss
-  description: RSS feed for http://feeds.feedburner.com/GoogleOnlineSecurityBlog,
-    covering general security & blogs news and updates.
+  description: Security research and blog updates from Google Online Security Blog.
 - url: https://feeds.feedburner.com/GynvaelColdwindPL
   category: General Security & Blogs
-  title: http://feeds.feedburner.com/GynvaelColdwindPL
+  title: gynvael.coldwind//vx.log (pl)
   type: rss
-  description: RSS feed for http://feeds.feedburner.com/GynvaelColdwindPL, covering
-    general security & blogs news and updates.
+  description: Security research and blog updates from gynvael.coldwind//vx.log (pl).
 - url: https://0xash.io/feed.xml
   category: General Security & Blogs
-  title: https://0xash.io/feed.xml
+  title: 0xash
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xash.io/feed.xml.
+  description: Security research and blog updates from 0xash.
 - url: https://0xdarkvortex.dev/feed.xml
   category: General Security & Blogs
-  title: https://0xdarkvortex.dev/feed.xml
+  title: Dark Vortex
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xdarkvortex.dev/feed.xml.
+  description: Security research and blog updates from Dark Vortex.
 - url: https://0xdf.gitlab.io/feed.xml
   category: General Security & Blogs
-  title: https://0xdf.gitlab.io/feed.xml
+  title: 0xdf hacks stuff
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xdf.gitlab.io/feed.xml.
+  description: Security research and blog updates from 0xdf hacks stuff.
 - url: https://0xf00sec.github.io/feed.xml
   category: General Security & Blogs
-  title: https://0xf00sec.github.io/feed.xml
+  title: 0xf00sec Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xf00sec.github.io/feed.xml.
+  description: Security research and blog updates from 0xf00sec Blog.
 - url: https://0xsp.com/feed
   category: General Security & Blogs
-  title: https://0xsp.com/feed/
+  title: 0xsp SRD – Security Research & Development
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xsp.com/feed/.
+  description: Security research and blog updates from 0xsp SRD – Security Research
+    & Development.
 - url: https://0xsultan.github.io/feed.xml
   category: General Security & Blogs
-  title: https://0xsultan.github.io/feed.xml
+  title: Mohamed Sultan
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xsultan.github.io/feed.xml.
+  description: Security research and blog updates from Mohamed Sultan.
 - url: https://0xv1n.github.io/index.xml
   category: General Security & Blogs
-  title: https://0xv1n.github.io/index.xml
+  title: 0xv1n
   type: rss
-  description: News, research, and updates on general security & blogs from https://0xv1n.github.io/index.xml.
+  description: Security research and blog updates from 0xv1n.
 - url: https://3sjay.github.io/feed.xml
   category: General Security & Blogs
-  title: https://3sjay.github.io/feed.xml
+  title: Esjay’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://3sjay.github.io/feed.xml.
+  description: Security research and blog updates from Esjay’s Blog.
 - url: https://5pider.net/blog/atom.xml
   category: General Security & Blogs
-  title: https://5pider.net/blog/atom.xml
+  title: 5pider.net Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://5pider.net/blog/atom.xml.
+  description: Security research and blog updates from 5pider.net Blog.
 - url: https://5stars217.github.io/feed.xml
   category: General Security & Blogs
-  title: https://5stars217.github.io/feed.xml
+  title: Threlfall hax
   type: rss
-  description: News, research, and updates on general security & blogs from https://5stars217.github.io/feed.xml.
+  description: Security research and blog updates from Threlfall hax.
 - url: https://a13xp0p0v.github.io/feed.xml
   category: General Security & Blogs
-  title: https://a13xp0p0v.github.io/feed.xml
+  title: Alexander Popov
   type: rss
-  description: News, research, and updates on general security & blogs from https://a13xp0p0v.github.io/feed.xml.
+  description: Security research and blog updates from Alexander Popov.
 - url: https://aadinternals.com/index.xml
   category: General Security & Blogs
-  title: https://aadinternals.com/index.xml
+  title: AADInternals
   type: rss
-  description: News, research, and updates on general security & blogs from https://aadinternals.com/index.xml.
+  description: Security research and blog updates from AADInternals.
 - url: https://ackee.xyz/blog/feed
   category: General Security & Blogs
-  title: https://ackee.xyz/blog/feed/
+  title: Ackee Blockchain
   type: rss
-  description: News, research, and updates on general security & blogs from https://ackee.xyz/blog/feed/.
+  description: Security research and blog updates from Ackee Blockchain.
 - url: https://adamdoupe.com/atom.xml
   category: General Security & Blogs
-  title: https://adamdoupe.com/atom.xml
+  title: Adam Doupé
   type: rss
-  description: News, research, and updates on general security & blogs from https://adamdoupe.com/atom.xml.
+  description: Security research and blog updates from Adam Doupé.
 - url: https://adamobeng.com/feed.xml
   category: General Security & Blogs
-  title: https://adamobeng.com/feed.xml
+  title: Adam Obeng
   type: rss
-  description: News, research, and updates on general security & blogs from https://adamobeng.com/feed.xml.
+  description: Security research and blog updates from Adam Obeng.
 - url: https://adepts.of0x.cc/feed.xml
   category: General Security & Blogs
-  title: https://adepts.of0x.cc/feed.xml
+  title: Adepts of 0xCC
   type: rss
-  description: News, research, and updates on general security & blogs from https://adepts.of0x.cc/feed.xml.
+  description: Security research and blog updates from Adepts of 0xCC.
 - url: https://adnanthekhan.com/feed
   category: General Security & Blogs
-  title: https://adnanthekhan.com/feed/
+  title: Adnan The Khan
   type: rss
-  description: News, research, and updates on general security & blogs from https://adnanthekhan.com/feed/.
+  description: Security research and blog updates from Adnan The Khan.
 - url: https://advisory.splunk.com/feed.xml
   category: General Security & Blogs
-  title: https://advisory.splunk.com/feed.xml
+  title: Splunk Security Announcements
   type: rss
-  description: News, research, and updates on general security & blogs from https://advisory.splunk.com/feed.xml.
+  description: Security research and blog updates from Splunk Security Announcements.
 - url: https://alephsecurity.com/feed.xml
   category: General Security & Blogs
-  title: https://alephsecurity.com/feed.xml
+  title: Aleph Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://alephsecurity.com/feed.xml.
+  description: Security research and blog updates from Aleph Research.
 - url: https://alexplaskett.github.io/feed.xml
   category: General Security & Blogs
-  title: https://alexplaskett.github.io/feed.xml
+  title: Alex Plaskett
   type: rss
-  description: News, research, and updates on general security & blogs from https://alexplaskett.github.io/feed.xml.
+  description: Security research and blog updates from Alex Plaskett.
 - url: https://amalmurali.me/index.xml
   category: General Security & Blogs
-  title: https://amalmurali.me/index.xml
+  title: Amal Murali
   type: rss
-  description: News, research, and updates on general security & blogs from https://amalmurali.me/index.xml.
+  description: Security research and blog updates from Amal Murali.
 - url: https://amitschendel.github.io/feed.xml
   category: General Security & Blogs
-  title: https://amitschendel.github.io/feed.xml
+  title: Amit Schendel’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://amitschendel.github.io/feed.xml.
+  description: Security research and blog updates from Amit Schendel’s Blog.
 - url: https://antoinevastel.com/feed.xml
   category: General Security & Blogs
-  title: https://antoinevastel.com/feed.xml
+  title: Antoine Vastel
   type: rss
-  description: News, research, and updates on general security & blogs from https://antoinevastel.com/feed.xml.
+  description: Security research and blog updates from Antoine Vastel.
 - url: https://appsec.guide/index.xml
   category: General Security & Blogs
-  title: https://appsec.guide/index.xml
+  title: AppSec Guide
   type: rss
-  description: News, research, and updates on general security & blogs from https://appsec.guide/index.xml.
+  description: Application security guides, testing content, and research updates from AppSec Guide.
 - url: https://arseniyshestakov.com/index.xml
   category: General Security & Blogs
-  title: https://arseniyshestakov.com/index.xml
+  title: Arseniy Shestakov
   type: rss
-  description: News, research, and updates on general security & blogs from https://arseniyshestakov.com/index.xml.
+  description: Security research and blog updates from Arseniy Shestakov.
 - url: https://artemonsecurity.blogspot.com/feeds/posts/default
   category: General Security & Blogs
-  title: https://artemonsecurity.blogspot.com/feeds/posts/default
+  title: A blog about rootkits research and the Windows kernel
   type: rss
-  description: News, research, and updates on general security & blogs from https://artemonsecurity.blogspot.com/feeds/posts/default.
+  description: Security research and blog updates from A blog about rootkits research
+    and the Windows kernel.
 - url: https://assume-breach.medium.com/feed
   category: General Security & Blogs
-  title: https://assume-breach.medium.com/feed
+  title: Stories by assume-breach on Medium
   type: rss
-  description: Medium posts from https://assume-breach.medium.com/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Stories by assume-breach on
+    Medium.
 - url: https://avi.im/blag/index.xml
   category: General Security & Blogs
-  title: https://avi.im/blag/index.xml
+  title: blag
   type: rss
-  description: News, research, and updates on general security & blogs from https://avi.im/blag/index.xml.
+  description: Security research and blog updates from blag.
 - url: https://awssecuritydigest.com/feed.xml
   category: General Security & Blogs
-  title: https://awssecuritydigest.com/feed.xml
+  title: AWS Security Digest
   type: rss
-  description: News, research, and updates on general security & blogs from https://awssecuritydigest.com/feed.xml.
+  description: Security research and blog updates from AWS Security Digest.
 - url: https://badoption.eu/feed.xml
   category: General Security & Blogs
-  title: https://badoption.eu/feed.xml
+  title: Badoption
   type: rss
-  description: News, research, and updates on general security & blogs from https://badoption.eu/feed.xml.
+  description: Security research and blog updates from Badoption.
 - url: https://basden.xyz/rss.xml
   category: General Security & Blogs
-  title: https://basden.xyz/rss.xml
+  title: Basden
   type: rss
-  description: News, research, and updates on general security & blogs from https://basden.xyz/rss.xml.
+  description: Security research and blog updates from Basden.
 - url: https://billdemirkapi.me/rss
   category: General Security & Blogs
-  title: https://billdemirkapi.me/rss/
+  title: Bill Demirkapi's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://billdemirkapi.me/rss/.
+  description: Security research and blog updates from Bill Demirkapi's Blog.
 - url: https://binary.ninja/feed.xml
   category: General Security & Blogs
-  title: https://binary.ninja/feed.xml
+  title: Binary Ninja
   type: rss
-  description: News, research, and updates on general security & blogs from https://binary.ninja/feed.xml.
+  description: Security research and blog updates from Binary Ninja.
 - url: https://blacktop.github.io/ipsw/blog/atom.xml
   category: General Security & Blogs
-  title: https://blacktop.github.io/ipsw/blog/atom.xml
+  title: ipsw Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blacktop.github.io/ipsw/blog/atom.xml.
+  description: Security research and blog updates from ipsw Blog.
 - url: https://blackwinghq.com/index.xml
   category: General Security & Blogs
-  title: https://blackwinghq.com/index.xml
+  title: BLACKWING INTELLIGENCE on Blackwing Intelligence
   type: rss
-  description: News, research, and updates on general security & blogs from https://blackwinghq.com/index.xml.
+  description: Security research and blog updates from BLACKWING INTELLIGENCE on Blackwing
+    Intelligence.
 - url: https://blog.badsectorlabs.com/feeds/all.atom.xml
   category: General Security & Blogs
-  title: https://blog.badsectorlabs.com/feeds/all.atom.xml
+  title: Bad Sector Labs Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.badsectorlabs.com/feeds/all.atom.xml.
+  description: Security research and blog updates from Bad Sector Labs Blog.
 - url: https://blog.bitsadmin.com/feed
   category: General Security & Blogs
-  title: https://blog.bitsadmin.com/feed
+  title: BITSADMIN Blog - Mystery guest in your IT infrastructure
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.bitsadmin.com/feed.
+  description: Security research and blog updates from BITSADMIN Blog - Mystery guest
+    in your IT infrastructure.
 - url: https://blog.chebuya.com/index.xml
   category: General Security & Blogs
-  title: https://blog.chebuya.com/index.xml
+  title: chebuya.com
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.chebuya.com/index.xml.
+  description: Security research and blog updates from chebuya.com.
 - url: https://blog.checkymander.com/feed.xml
   category: General Security & Blogs
-  title: https://blog.checkymander.com/feed.xml
+  title: Checkymander
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.checkymander.com/feed.xml.
+  description: Security research and blog updates from Checkymander.
 - url: https://blog.christophetd.fr/feed
   category: General Security & Blogs
-  title: https://blog.christophetd.fr/feed/
+  title: Christophe Tafani-Dereeper
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.christophetd.fr/feed/.
+  description: Security research and blog updates from Christophe Tafani-Dereeper.
 - url: https://blog.chromium.org/feeds/posts/default
   category: General Security & Blogs
-  title: https://blog.chromium.org/feeds/posts/default
+  title: Chromium Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.chromium.org/feeds/posts/default.
+  description: Security research and blog updates from Chromium Blog.
 - url: https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss
   category: General Security & Blogs
-  title: https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss
+  title: The Cloudflare Blog
   type: rss
   description: Cloudflare blog posts on security engineering, threat research, and
     incident learnings.
 - url: https://blog.cryptographyengineering.com/feed
   category: General Security & Blogs
-  title: https://blog.cryptographyengineering.com/feed/
+  title: A Few Thoughts on Cryptographic Engineering
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.cryptographyengineering.com/feed/.
+  description: Security research and blog updates from A Few Thoughts on Cryptographic
+    Engineering.
 - url: https://blog.delivr.to/feed
   category: General Security & Blogs
-  title: https://blog.delivr.to/feed
+  title: Stories by delivr.to on Medium
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.delivr.to/feed.
+  description: Security research and blog updates from Stories by delivr.to on Medium.
 - url: https://blog.dfsec.com/feed.xml
   category: General Security & Blogs
-  title: https://blog.dfsec.com/feed.xml
+  title: DFSEC Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.dfsec.com/feed.xml.
+  description: Security research and blog updates from DFSEC Research.
 - url: https://blog.didierstevens.com/feed
   category: General Security & Blogs
-  title: https://blog.didierstevens.com/feed/
+  title: Didier Stevens
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.didierstevens.com/feed/.
+  description: Security research and blog updates from Didier Stevens.
 - url: https://blog.doyensec.com/atom.xml
   category: General Security & Blogs
-  title: https://blog.doyensec.com/atom.xml
+  title: Doyensec's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.doyensec.com/atom.xml.
+  description: Security research and blog updates from Doyensec's Blog.
 - url: https://blog.foxio.io/feed
   category: General Security & Blogs
-  title: https://blog.foxio.io/feed
+  title: FoxIO Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.foxio.io/feed.
+  description: Security research and blog updates from FoxIO Blog.
 - url: https://blog.grimm-co.com/feeds/posts/default
   category: General Security & Blogs
-  title: https://blog.grimm-co.com/feeds/posts/default
+  title: grimm-co.com
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.grimm-co.com/feeds/posts/default.
+  description: Security research and blog updates from grimm-co.com.
 - url: https://blog.hrncirik.net/atom.xml
   category: General Security & Blogs
-  title: https://blog.hrncirik.net/atom.xml
+  title: Hacker-Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.hrncirik.net/atom.xml.
+  description: Security research and blog updates from Hacker-Blog.
 - url: https://blog.impalabs.com/feed.xml
   category: General Security & Blogs
-  title: https://blog.impalabs.com/feed.xml
+  title: Impalabs Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.impalabs.com/feed.xml.
+  description: Security research and blog updates from Impalabs Blog.
 - url: https://blog.includesecurity.com/feed
   category: General Security & Blogs
-  title: https://blog.includesecurity.com/feed/
+  title: Include Security Research Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.includesecurity.com/feed/.
+  description: Security research and blog updates from Include Security Research Blog.
 - url: https://blog.isosceles.com/rss
   category: General Security & Blogs
-  title: https://blog.isosceles.com/rss/
+  title: Isosceles Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.isosceles.com/rss/.
+  description: Security research and blog updates from Isosceles Blog.
 - url: https://blog.karims.cloud/feed.xml
   category: General Security & Blogs
-  title: https://blog.karims.cloud/feed.xml
+  title: Personal notes on Cybersecurity and Cloud
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.karims.cloud/feed.xml.
+  description: Security research and blog updates from Personal notes on Cybersecurity
+    and Cloud.
 - url: https://blog.neuvik.com/feed
   category: General Security & Blogs
-  title: https://blog.neuvik.com/feed
+  title: Neuvik - Medium
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.neuvik.com/feed.
+  description: Security research and blog updates from Neuvik - Medium.
 - url: https://blog.nviso.eu/feed
   category: General Security & Blogs
-  title: https://blog.nviso.eu/feed/
+  title: NVISO Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.nviso.eu/feed/.
+  description: Security research and blog updates from NVISO Labs.
 - url: https://blog.orange.tw/atom
   category: General Security & Blogs
-  title: https://blog.orange.tw/atom
+  title: Orange Tsai
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.orange.tw/atom.
+  description: Security research and blog updates from Orange Tsai.
 - url: https://blog.projectdiscovery.io/rss
   category: General Security & Blogs
-  title: https://blog.projectdiscovery.io/rss/
+  title: ProjectDiscovery Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.projectdiscovery.io/rss/.
+  description: Security research and blog updates from ProjectDiscovery Blog.
 - url: https://blog.pwnedlabs.io/rss.xml
   category: General Security & Blogs
-  title: https://blog.pwnedlabs.io/rss.xml
+  title: Pwned Labs Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.pwnedlabs.io/rss.xml.
+  description: Security research and blog updates from Pwned Labs Blog.
 - url: https://blog.quarkslab.com/feeds/all.atom.xml
   category: General Security & Blogs
-  title: https://blog.quarkslab.com/feeds/all.atom.xml
+  title: Quarkslab's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.quarkslab.com/feeds/all.atom.xml.
+  description: Security research and blog updates from Quarkslab's blog.
 - url: https://blog.redxorblue.com/feeds/posts/default
   category: General Security & Blogs
-  title: https://blog.redxorblue.com/feeds/posts/default
+  title: Red XOR Blue
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.redxorblue.com/feeds/posts/default.
+  description: Security research and blog updates from Red XOR Blue.
 - url: https://blog.ret2.io/feed.xml
   category: General Security & Blogs
-  title: https://blog.ret2.io/feed.xml
+  title: RET2 Systems Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.ret2.io/feed.xml.
+  description: Security research and blog updates from RET2 Systems Blog.
 - url: https://blog.reveng.ai/rss
   category: General Security & Blogs
-  title: https://blog.reveng.ai/rss/
+  title: RevEng.AI Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.reveng.ai/rss/.
+  description: Security research and blog updates from RevEng.AI Blog.
 - url: https://blog.ryotak.net/index.xml
   category: General Security & Blogs
-  title: https://blog.ryotak.net/index.xml
+  title: RyotaK's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.ryotak.net/index.xml.
+  description: Security research and blog updates from RyotaK's Blog.
 - url: https://blog.scrt.ch/feed
   category: General Security & Blogs
-  title: https://blog.scrt.ch/feed/
+  title: SCRT Team Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.scrt.ch/feed/.
+  description: Security research and blog updates from SCRT Team Blog.
 - url: https://blog.shodan.io/rss
   category: General Security & Blogs
-  title: https://blog.shodan.io/rss/
+  title: Shodan Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.shodan.io/rss/.
+  description: Security research and blog updates from Shodan Blog.
 - url: https://blog.slowerzs.net/index.xml
   category: General Security & Blogs
-  title: https://blog.slowerzs.net/index.xml
+  title: Slowerzs' blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.slowerzs.net/index.xml.
+  description: Security research and blog updates from Slowerzs' blog.
 - url: https://blog.stratumsecurity.com/rss
   category: General Security & Blogs
-  title: https://blog.stratumsecurity.com/rss/
+  title: Stratum Security Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.stratumsecurity.com/rss/.
+  description: Security research and blog updates from Stratum Security Blog.
 - url: https://blog.strikeready.com/index.xml
   category: General Security & Blogs
-  title: https://blog.strikeready.com/index.xml
+  title: strikeready.com
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.strikeready.com/index.xml.
+  description: Security research and blog updates from strikeready.com.
 - url: https://blog.sunggwanchoi.com/rss
   category: General Security & Blogs
-  title: https://blog.sunggwanchoi.com/rss/
+  title: Noob to !Noob
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.sunggwanchoi.com/rss/.
+  description: Security research and blog updates from Noob to !Noob.
 - url: https://blog.syss.com/feed
   category: General Security & Blogs
-  title: https://blog.syss.com/feed
+  title: SySS Tech Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.syss.com/feed.
+  description: Security research and blog updates from SySS Tech Blog.
 - url: https://blog.thc.org/rss.xml
   category: General Security & Blogs
-  title: https://blog.thc.org/rss.xml
+  title: thc.org
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.thc.org/rss.xml.
+  description: Security research and blog updates from thc.org.
 - url: https://blog.theori.io/feed
   category: General Security & Blogs
-  title: https://blog.theori.io/feed
+  title: theori.io
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.theori.io/feed.
+  description: Security research and blog updates from theori.io.
 - url: https://blog.thinkst.com/feed
   category: General Security & Blogs
-  title: https://blog.thinkst.com/feed
+  title: Thinkst Thoughts
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.thinkst.com/feed.
+  description: Security research and blog updates from Thinkst Thoughts.
 - url: https://blog.trailofbits.com/feed
   category: General Security & Blogs
-  title: https://blog.trailofbits.com/feed/
+  title: The Trail of Bits Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.trailofbits.com/feed/.
+  description: Security research and blog updates from The Trail of Bits Blog.
 - url: https://blog.washi.dev/feed.xml
   category: General Security & Blogs
-  title: https://blog.washi.dev/feed.xml
+  title: Washi
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.washi.dev/feed.xml.
+  description: Security research and blog updates from Washi.
 - url: https://blog.whiteflag.io/index.xml
   category: General Security & Blogs
-  title: https://blog.whiteflag.io/index.xml
+  title: WhiteFlag
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.whiteflag.io/index.xml.
+  description: Security research and blog updates from WhiteFlag.
 - url: https://blog.xpnsec.com/rss.xml
   category: General Security & Blogs
-  title: https://blog.xpnsec.com/rss.xml
+  title: XPN InfoSec Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blog.xpnsec.com/rss.xml.
+  description: Security research and blog updates from XPN InfoSec Blog.
 - url: https://blogs.microsoft.com/feed
   category: General Security & Blogs
-  title: https://blogs.microsoft.com/feed/
+  title: The Official Microsoft Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://blogs.microsoft.com/feed/.
+  description: Security research and blog updates from The Official Microsoft Blog.
 - url: https://bohops.com/feed
   category: General Security & Blogs
-  title: https://bohops.com/feed/
+  title: bohops
   type: rss
-  description: News, research, and updates on general security & blogs from https://bohops.com/feed/.
+  description: Security research and blog updates from bohops.
 - url: https://br0k3nlab.com/index.xml
   category: General Security & Blogs
-  title: https://br0k3nlab.com/index.xml
+  title: br0k3nlab
   type: rss
-  description: News, research, and updates on general security & blogs from https://br0k3nlab.com/index.xml.
+  description: Security research and blog updates from br0k3nlab.
 - url: https://br0k3nlab.com/LoFP/index.xml
   category: General Security & Blogs
-  title: https://br0k3nlab.com/LoFP/index.xml
+  title: Home on LoFP
   type: rss
-  description: News, research, and updates on general security & blogs from https://br0k3nlab.com/LoFP/index.xml.
+  description: Security research and blog updates from Home on LoFP.
 - url: https://breakdev.org/rss
   category: General Security & Blogs
-  title: https://breakdev.org/rss/
+  title: BREAKDEV
   type: rss
-  description: News, research, and updates on general security & blogs from https://breakdev.org/rss/.
+  description: Security research and blog updates from BREAKDEV.
 - url: https://brownfinesecurity.com/index.xml
   category: General Security & Blogs
-  title: https://brownfinesecurity.com/index.xml
+  title: Brownfinesecurity
   type: rss
-  description: News, research, and updates on general security & blogs from https://brownfinesecurity.com/index.xml.
+  description: Security research and blog updates from Brownfinesecurity.
 - url: https://bsidesaugusta.org/feed
   category: General Security & Blogs
-  title: https://bsidesaugusta.org/feed/
+  title: BSidesAugusta
   type: rss
-  description: News, research, and updates on general security & blogs from https://bsidesaugusta.org/feed/.
+  description: Security research and blog updates from BSidesAugusta.
 - url: https://bugs.xdavidhu.me/feed.xml
   category: General Security & Blogs
-  title: https://bugs.xdavidhu.me/feed.xml
+  title: Xdavidhu Bugs
   type: rss
-  description: News, research, and updates on general security & blogs from https://bugs.xdavidhu.me/feed.xml.
+  description: Security research and blog updates from Xdavidhu Bugs.
 - url: https://cajundiscordian.medium.com/feed
   category: General Security & Blogs
-  title: https://cajundiscordian.medium.com/feed
+  title: Stories by Blake Lemoine on Medium
   type: rss
-  description: Medium posts from https://cajundiscordian.medium.com/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Stories by Blake Lemoine on
+    Medium.
 - url: https://cedowens.medium.com/feed
   category: General Security & Blogs
-  title: https://cedowens.medium.com/feed
+  title: Stories by Cedric Owens on Medium
   type: rss
-  description: Medium posts from https://cedowens.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Cedric Owens on
+    Medium.
 - url: https://cerbersec.com/feed.xml
   category: General Security & Blogs
-  title: https://cerbersec.com/feed.xml
+  title: Cerbersec
   type: rss
-  description: News, research, and updates on general security & blogs from https://cerbersec.com/feed.xml.
+  description: Security research and blog updates from Cerbersec.
 - url: https://certitude.consulting/blog/en/feed
   category: General Security & Blogs
-  title: https://certitude.consulting/blog/en/feed/
+  title: Certitude Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://certitude.consulting/blog/en/feed/.
+  description: Security research and blog updates from Certitude Blog.
 - url: https://ch4ik0.github.io/index.xml
   category: General Security & Blogs
-  title: https://ch4ik0.github.io/index.xml
+  title: Eder's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://ch4ik0.github.io/index.xml.
+  description: Security research and blog updates from Eder's Blog.
 - url: https://chesterlebron.blogspot.com/feeds/posts/default
   category: General Security & Blogs
-  title: https://chesterlebron.blogspot.com/feeds/posts/default
+  title: Le Bron Does Security?
   type: rss
-  description: News, research, and updates on general security & blogs from https://chesterlebron.blogspot.com/feeds/posts/default.
+  description: Security research and blog updates from Le Bron Does Security?.
 - url: https://chrisholdgraf.com/rss.xml
   category: General Security & Blogs
-  title: https://chrisholdgraf.com/rss.xml
+  title: Chris Holdgraf's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://chrisholdgraf.com/rss.xml.
+  description: Security research and blog updates from Chris Holdgraf's blog.
 - url: https://cicada-8.medium.com/feed
   category: General Security & Blogs
-  title: https://cicada-8.medium.com/feed
+  title: Stories by CICADA8 on Medium
   type: rss
-  description: Medium posts from https://cicada-8.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by CICADA8 on Medium.
 - url: https://circleci.com/blog/feed.xml
   category: General Security & Blogs
-  title: https://circleci.com/blog/feed.xml
+  title: The CircleCI Blog Feed | CircleCI
   type: rss
-  description: News, research, and updates on general security & blogs from https://circleci.com/blog/feed.xml.
+  description: Security research and blog updates from The CircleCI Blog Feed | CircleCI.
 - url: https://citizenlab.ca/feed
   category: General Security & Blogs
-  title: https://citizenlab.ca/feed/
+  title: The Citizen Lab
   type: rss
-  description: News, research, and updates on general security & blogs from https://citizenlab.ca/feed/.
+  description: Security research and blog updates from The Citizen Lab.
 - url: https://clearbluejar.github.io/feed
   category: General Security & Blogs
-  title: https://clearbluejar.github.io/feed
+  title: clearbluejar
   type: rss
-  description: News, research, and updates on general security & blogs from https://clearbluejar.github.io/feed.
+  description: Security research and blog updates from clearbluejar.
 - url: https://clo.ng/index.xml
   category: General Security & Blogs
-  title: https://clo.ng/index.xml
+  title: Clo
   type: rss
-  description: News, research, and updates on general security & blogs from https://clo.ng/index.xml.
+  description: Security research and blog updates from Clo.
 - url: https://cloudbrothers.info/index.xml
   category: General Security & Blogs
-  title: https://cloudbrothers.info/index.xml
+  title: Cloudbrothers
   type: rss
-  description: News, research, and updates on general security & blogs from https://cloudbrothers.info/index.xml.
+  description: Security research and blog updates from Cloudbrothers.
 - url: https://code-white.com/index.xml
   category: General Security & Blogs
-  title: https://code-white.com/index.xml
+  title: CODE WHITE | Red Teaming & Attack Surface Management
   type: rss
-  description: News, research, and updates on general security & blogs from https://code-white.com/index.xml.
+  description: Security research and blog updates from CODE WHITE | Red Teaming &
+    Attack Surface Management.
 - url: https://comsec.ethz.ch/feed
   category: General Security & Blogs
-  title: https://comsec.ethz.ch/feed/
+  title: Computer Security Group
   type: rss
-  description: News, research, and updates on general security & blogs from https://comsec.ethz.ch/feed/.
+  description: Security research and blog updates from Computer Security Group.
 - url: https://connormcgarr.github.io/feed.xml
   category: General Security & Blogs
-  title: https://connormcgarr.github.io/feed.xml
+  title: Connor McGarr’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://connormcgarr.github.io/feed.xml.
+  description: Security research and blog updates from Connor McGarr’s Blog.
 - url: https://csandker.io/feed.xml
   category: General Security & Blogs
-  title: https://csandker.io/feed.xml
+  title: Csandker
   type: rss
-  description: News, research, and updates on general security & blogs from https://csandker.io/feed.xml.
+  description: Security research and blog updates from Csandker.
 - url: https://cyb3rops.medium.com/feed
   category: General Security & Blogs
-  title: https://cyb3rops.medium.com/feed
+  title: Stories by Florian Roth on Medium
   type: rss
-  description: Medium posts from https://cyb3rops.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Florian Roth on
+    Medium.
 - url: https://cybenari.com/feed
   category: General Security & Blogs
-  title: https://cybenari.com/feed/
+  title: Cybenari
   type: rss
-  description: News, research, and updates on general security & blogs from https://cybenari.com/feed/.
+  description: Security research and blog updates from Cybenari.
 - url: https://cyberstoph.org/index.xml
   category: General Security & Blogs
-  title: https://cyberstoph.org/index.xml
+  title: Cyberstoph's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://cyberstoph.org/index.xml.
+  description: Security research and blog updates from Cyberstoph's blog.
 - url: https://danaepp.com/feed
   category: General Security & Blogs
-  title: https://danaepp.com/feed
+  title: Dana Epp's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://danaepp.com/feed.
+  description: Security research and blog updates from Dana Epp's Blog.
 - url: https://danrevah.github.io/feed.xml
   category: General Security & Blogs
-  title: https://danrevah.github.io/feed.xml
+  title: Dan Revah’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://danrevah.github.io/feed.xml.
+  description: Security research and blog updates from Dan Revah’s Blog.
 - url: https://dayzerosec.com/feed.xml
   category: General Security & Blogs
-  title: https://dayzerosec.com/feed.xml
+  title: DAY[0]
   type: rss
-  description: News, research, and updates on general security & blogs from https://dayzerosec.com/feed.xml.
+  description: Security research and blog updates from DAY[0].
 - url: https://dazzyddos.github.io/feed
   category: General Security & Blogs
-  title: https://dazzyddos.github.io/feed
+  title: Dazzy Ddos
   type: rss
-  description: News, research, and updates on general security & blogs from https://dazzyddos.github.io/feed.
+  description: Security research and blog updates from Dazzy Ddos.
 - url: https://dazzyddos.github.io/feed.xml
   category: General Security & Blogs
-  title: https://dazzyddos.github.io/feed.xml
+  title: Dazzy Ddos
   type: rss
-  description: News, research, and updates on general security & blogs from https://dazzyddos.github.io/feed.xml.
+  description: Security research and blog updates from Dazzy Ddos.
 - url: https://decoded.avast.io/feed
   category: General Security & Blogs
-  title: https://decoded.avast.io/feed/
+  title: Avast Decoded
   type: rss
-  description: News, research, and updates on general security & blogs from https://decoded.avast.io/feed/.
+  description: Security research and blog updates from Avast Decoded.
 - url: https://decoder.cloud/feed
   category: General Security & Blogs
-  title: https://decoder.cloud/feed/
+  title: Decoder's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://decoder.cloud/feed/.
+  description: Security research and blog updates from Decoder's Blog.
 - url: https://deda.lol/index.xml
   category: General Security & Blogs
-  title: https://deda.lol/index.xml
+  title: Deda
   type: rss
-  description: News, research, and updates on general security & blogs from https://deda.lol/index.xml.
+  description: Security research and blog updates from Deda.
 - url: https://dirkjanm.io/feed.xml
   category: General Security & Blogs
-  title: https://dirkjanm.io/feed.xml
+  title: Dirkjanm
   type: rss
-  description: News, research, and updates on general security & blogs from https://dirkjanm.io/feed.xml.
+  description: Security research and blog updates from Dirkjanm.
 - url: https://discord.com/blog/rss.xml
   category: General Security & Blogs
-  title: https://discord.com/blog/rss.xml
+  title: Discord Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://discord.com/blog/rss.xml.
+  description: Security research and blog updates from Discord Blog.
 - url: https://disrel.com/feed
   category: General Security & Blogs
-  title: https://disrel.com/feed
+  title: Tech Froggo’s Rants
   type: rss
-  description: News, research, and updates on general security & blogs from https://disrel.com/feed.
+  description: Security research and blog updates from Tech Froggo’s Rants.
 - url: https://doar-e.github.io/feeds/atom.xml
   category: General Security & Blogs
-  title: https://doar-e.github.io/feeds/atom.xml
+  title: Diary of a reverse-engineer
   type: rss
-  description: News, research, and updates on general security & blogs from https://doar-e.github.io/feeds/atom.xml.
+  description: Security research and blog updates from Diary of a reverse-engineer.
 - url: https://docs.harpia.io/blog/atom.xml
   category: General Security & Blogs
-  title: https://docs.harpia.io/blog/atom.xml
+  title: Harpia Docs
   type: rss
-  description: News, research, and updates on general security & blogs from https://docs.harpia.io/blog/atom.xml.
+  description: Security research and blog updates from Harpia Docs.
 - url: https://docs.modular.com/max/tutorials/atom.xml
   category: General Security & Blogs
-  title: https://docs.modular.com/max/tutorials/atom.xml
+  title: Modular Docs
   type: rss
-  description: News, research, and updates on general security & blogs from https://docs.modular.com/max/tutorials/atom.xml.
+  description: Security research and blog updates from Modular Docs.
 - url: https://doubleagent.net/rss
   category: General Security & Blogs
-  title: https://doubleagent.net/rss/
+  title: haxrob
   type: rss
-  description: News, research, and updates on general security & blogs from https://doubleagent.net/rss/.
+  description: Security research and blog updates from haxrob.
 - url: https://doublepulsar.com/feed
   category: General Security & Blogs
-  title: https://doublepulsar.com/feed
+  title: DoublePulsar - Medium
   type: rss
-  description: News, research, and updates on general security & blogs from https://doublepulsar.com/feed.
+  description: Security research and blog updates from DoublePulsar - Medium.
 - url: https://dr4k0nia.github.io/feed
   category: General Security & Blogs
-  title: https://dr4k0nia.github.io/feed
+  title: dr4k0nia
   type: rss
-  description: News, research, and updates on general security & blogs from https://dr4k0nia.github.io/feed.
+  description: Security research and blog updates from dr4k0nia.
 - url: https://driesdepoorter.be/feed
   category: General Security & Blogs
-  title: https://driesdepoorter.be/feed/
+  title: Dries Depoorter
   type: rss
-  description: News, research, and updates on general security & blogs from https://driesdepoorter.be/feed/.
+  description: Security research and blog updates from Dries Depoorter.
 - url: https://dustri.org/b/atom.xml
   category: General Security & Blogs
-  title: https://dustri.org/b/atom.xml
+  title: Artificial truth
   type: rss
-  description: News, research, and updates on general security & blogs from https://dustri.org/b/atom.xml.
+  description: Security research and blog updates from Artificial truth.
 - url: https://eaton-works.com/feed.atom
   category: General Security & Blogs
-  title: https://eaton-works.com/feed.atom
+  title: Eaton Works Feed
   type: rss
-  description: News, research, and updates on general security & blogs from https://eaton-works.com/feed.atom.
+  description: Security research and blog updates from Eaton Works Feed.
 - url: https://edermi.github.io/index.xml
   category: General Security & Blogs
-  title: https://edermi.github.io/index.xml
+  title: edermi's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://edermi.github.io/index.xml.
+  description: Security research and blog updates from edermi's Blog.
 - url: https://en.hackndo.com/feed.xml
   category: General Security & Blogs
-  title: https://en.hackndo.com/feed.xml
+  title: hackndo
   type: rss
-  description: News, research, and updates on general security & blogs from https://en.hackndo.com/feed.xml.
+  description: Security research and blog updates from hackndo.
 - url: https://engineering.avast.io/feed
   category: General Security & Blogs
-  title: https://engineering.avast.io/feed/
+  title: Avast Engineering
   type: rss
-  description: News, research, and updates on general security & blogs from https://engineering.avast.io/feed/.
+  description: Security research and blog updates from Avast Engineering.
 - url: https://etenal.me/feed
   category: General Security & Blogs
-  title: https://etenal.me/feed
+  title: ETenal
   type: rss
-  description: News, research, and updates on general security & blogs from https://etenal.me/feed.
+  description: Security research and blog updates from ETenal.
 - url: https://ethicalchaos.dev/feed
   category: General Security & Blogs
-  title: https://ethicalchaos.dev/feed/
+  title: Ethical Chaos
   type: rss
-  description: News, research, and updates on general security & blogs from https://ethicalchaos.dev/feed/.
+  description: Security research and blog updates from Ethical Chaos.
 - url: https://evanconnelly.github.io/index.xml
   category: General Security & Blogs
-  title: https://evanconnelly.github.io/index.xml
+  title: Evan Connelly
   type: rss
-  description: News, research, and updates on general security & blogs from https://evanconnelly.github.io/index.xml.
+  description: Security research and blog updates from Evan Connelly.
 - url: https://evotec.xyz/feed
   category: General Security & Blogs
-  title: https://evotec.xyz/feed/
+  title: Evotec
   type: rss
-  description: News, research, and updates on general security & blogs from https://evotec.xyz/feed/.
+  description: Security research and blog updates from Evotec.
 - url: https://ezrabuckingham.com/index.xml
   category: General Security & Blogs
-  title: https://ezrabuckingham.com/index.xml
+  title: Ezrabuckingham
   type: rss
-  description: News, research, and updates on general security & blogs from https://ezrabuckingham.com/index.xml.
+  description: Security research and blog updates from Ezrabuckingham.
 - url: https://falconforce.nl/feed
   category: General Security & Blogs
-  title: https://falconforce.nl/feed/
+  title: FalconForce
   type: rss
-  description: News, research, and updates on general security & blogs from https://falconforce.nl/feed/.
+  description: Security research and blog updates from FalconForce.
 - url: https://fathy.fr/atom.xml
   category: General Security & Blogs
-  title: https://fathy.fr/atom.xml
+  title: Fathy Boundjadj
   type: rss
-  description: News, research, and updates on general security & blogs from https://fathy.fr/atom.xml.
+  description: Security research and blog updates from Fathy Boundjadj.
 - url: https://fin3ss3g0d.net/index.php/feed
   category: General Security & Blogs
-  title: https://fin3ss3g0d.net/index.php/feed/
+  title: fin3ss3g0d's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://fin3ss3g0d.net/index.php/feed/.
+  description: Security research and blog updates from fin3ss3g0d's Blog.
 - url: https://fortbridge.co.uk/feed
   category: General Security & Blogs
-  title: https://fortbridge.co.uk/feed/
+  title: FORTBRIDGE
   type: rss
-  description: News, research, and updates on general security & blogs from https://fortbridge.co.uk/feed/.
+  description: Security research and blog updates from FORTBRIDGE.
 - url: https://fortynorthsecurity.com/blog/rss
   category: General Security & Blogs
-  title: https://fortynorthsecurity.com/blog/rss/
+  title: Fortynorthsecurity
   type: rss
-  description: News, research, and updates on general security & blogs from https://fortynorthsecurity.com/blog/rss/.
+  description: Security research and blog updates from Fortynorthsecurity.
 - url: https://francozappa.github.io/index.xml
   category: General Security & Blogs
-  title: https://francozappa.github.io/index.xml
+  title: Daniele Antonioli
   type: rss
-  description: News, research, and updates on general security & blogs from https://francozappa.github.io/index.xml.
+  description: Security research and blog updates from Daniele Antonioli.
 - url: https://freenginx.org/index.rss
   category: General Security & Blogs
-  title: https://freenginx.org/index.rss
+  title: freenginx news
   type: rss
-  description: News, research, and updates on general security & blogs from https://freenginx.org/index.rss.
+  description: Security research and blog updates from freenginx news.
 - url: https://frereit.de/index.xml
   category: General Security & Blogs
-  title: https://frereit.de/index.xml
+  title: frereit's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://frereit.de/index.xml.
+  description: Security research and blog updates from frereit's blog.
 - url: https://freyxfi.github.io/feed.xml
   category: General Security & Blogs
-  title: https://freyxfi.github.io/feed.xml
+  title: Frey's CyberSec Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://freyxfi.github.io/feed.xml.
+  description: Security research and blog updates from Frey's CyberSec Blog.
 - url: https://frida.re/feed.xml
   category: General Security & Blogs
-  title: https://frida.re/feed.xml
+  title: Frida • A world-class dynamic instrumentation toolkit
   type: rss
-  description: News, research, and updates on general security & blogs from https://frida.re/feed.xml.
+  description: Security research and blog updates from Frida • A world-class dynamic
+    instrumentation toolkit.
 - url: https://frischkorn-nicholas.medium.com/feed
   category: General Security & Blogs
-  title: https://frischkorn-nicholas.medium.com/feed
+  title: Stories by Nick Frischkorn on Medium
   type: rss
-  description: Medium posts from https://frischkorn-nicholas.medium.com/feed focused
-    on general security & blogs.
+  description: Security research and blog updates from Stories by Nick Frischkorn
+    on Medium.
 - url: https://frycos.github.io/feed.xml
   category: General Security & Blogs
-  title: https://frycos.github.io/feed.xml
+  title: Frycos Security Diary
   type: rss
-  description: News, research, and updates on general security & blogs from https://frycos.github.io/feed.xml.
+  description: Security research and blog updates from Frycos Security Diary.
 - url: https://gergelykalman.com/feeds/all.atom.xml
   category: General Security & Blogs
-  title: https://gergelykalman.com/feeds/all.atom.xml
+  title: Gergely's hack blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://gergelykalman.com/feeds/all.atom.xml.
+  description: Security research and blog updates from Gergely's hack blog.
 - url: https://getpelican.com/feeds/all.atom.xml
   category: General Security & Blogs
-  title: https://getpelican.com/feeds/all.atom.xml
+  title: Pelican – A Python Static Site Generator
   type: rss
-  description: News, research, and updates on general security & blogs from https://getpelican.com/feeds/all.atom.xml.
+  description: Security research and blog updates from Pelican – A Python Static Site
+    Generator.
 - url: https://git.culbertreport.com/feed
   category: General Security & Blogs
-  title: https://git.culbertreport.com/feed
+  title: Culbert Report
   type: rss
-  description: News, research, and updates on general security & blogs from https://git.culbertreport.com/feed.
+  description: Security research and blog updates from Culbert Report.
 - url: https://gitlab.com/badsectorlabs/iscariot-suite.atom
   category: General Security & Blogs
-  title: https://gitlab.com/badsectorlabs/iscariot-suite.atom
+  title: Iscariot Suite activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/badsectorlabs/iscariot-suite.atom.
+  description: Security research and blog updates from Iscariot Suite activity.
 - url: https://gitlab.com/badsectorlabs/ludus/-/releases.atom
   category: General Security & Blogs
-  title: https://gitlab.com/badsectorlabs/ludus/-/releases.atom
+  title: Ludus releases
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/badsectorlabs/ludus/-/releases.atom.
+  description: Security research and blog updates from Ludus releases.
 - url: https://gitlab.com/feed.atom
   category: General Security & Blogs
-  title: https://gitlab.com/feed.atom
+  title: feed activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/feed.atom.
+  description: Security research and blog updates from feed activity.
 - url: https://gitlab.com/illwill/sub7.atom
   category: General Security & Blogs
-  title: https://gitlab.com/illwill/sub7.atom
+  title: Sub7 activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/illwill/sub7.atom.
+  description: Security research and blog updates from Sub7 activity.
 - url: https://gitlab.com/ORCA000/entropyfix.atom
   category: General Security & Blogs
-  title: https://gitlab.com/ORCA000/entropyfix.atom
+  title: EntropyFix activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/ORCA000/entropyfix.atom.
+  description: Security research and blog updates from EntropyFix activity.
 - url: https://gitlab.com/ORCA000/kcthijacklib.atom
   category: General Security & Blogs
-  title: https://gitlab.com/ORCA000/kcthijacklib.atom
+  title: KctHijackLib activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/ORCA000/kcthijacklib.atom.
+  description: Security research and blog updates from KctHijackLib activity.
 - url: https://gitlab.com/Zer1t0/zsyscall.atom
   category: General Security & Blogs
-  title: https://gitlab.com/Zer1t0/zsyscall.atom
+  title: zsyscall activity
   type: rss
-  description: News, research, and updates on general security & blogs from https://gitlab.com/Zer1t0/zsyscall.atom.
+  description: Security research and blog updates from zsyscall activity.
 - url: https://go.dev/blog/feed.atom
   category: General Security & Blogs
-  title: https://go.dev/blog/feed.atom
+  title: The Go Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://go.dev/blog/feed.atom.
+  description: Security research and blog updates from The Go Blog.
 - url: https://goingbeyondgrep.com/index.xml
   category: General Security & Blogs
-  title: https://goingbeyondgrep.com/index.xml
+  title: Going Beyond Grep
   type: rss
-  description: News, research, and updates on general security & blogs from https://goingbeyondgrep.com/index.xml.
+  description: Security research and blog updates from Going Beyond Grep.
 - url: https://goodworkaround.com/feed
   category: General Security & Blogs
-  title: https://goodworkaround.com/feed/
+  title: Good Workaround!
   type: rss
-  description: News, research, and updates on general security & blogs from https://goodworkaround.com/feed/.
+  description: Security research and blog updates from Good Workaround!.
 - url: https://grahamhelton.com/rss.xml
   category: General Security & Blogs
-  title: https://grahamhelton.com/rss.xml
+  title: Graham Helton
   type: rss
-  description: News, research, and updates on general security & blogs from https://grahamhelton.com/rss.xml.
+  description: Security research and blog updates from Graham Helton.
 - url: https://grimmie.net/feed
   category: General Security & Blogs
-  title: https://grimmie.net/feed/
+  title: GrimmzSec
   type: rss
-  description: News, research, and updates on general security & blogs from https://grimmie.net/feed/.
+  description: Security research and blog updates from GrimmzSec.
 - url: https://h0mbre.github.io/feed.xml
   category: General Security & Blogs
-  title: https://h0mbre.github.io/feed.xml
+  title: The Human Machine Interface
   type: rss
-  description: News, research, and updates on general security & blogs from https://h0mbre.github.io/feed.xml.
+  description: Security research and blog updates from The Human Machine Interface.
 - url: https://hackcompute.com/rss
   category: General Security & Blogs
-  title: https://hackcompute.com/rss/
+  title: hackcompute
   type: rss
-  description: News, research, and updates on general security & blogs from https://hackcompute.com/rss/.
+  description: Security research and blog updates from hackcompute.
 - url: https://hackingthe.cloud/feed_rss_created.xml
   category: General Security & Blogs
-  title: https://hackingthe.cloud/feed_rss_created.xml
+  title: Hacking The Cloud
   type: rss
-  description: News, research, and updates on general security & blogs from https://hackingthe.cloud/feed_rss_created.xml.
+  description: Security research and blog updates from Hacking The Cloud.
 - url: https://hacktodef.com/rss.xml
   category: General Security & Blogs
-  title: https://hacktodef.com/rss.xml
+  title: Hacktodef
   type: rss
-  description: News, research, and updates on general security & blogs from https://hacktodef.com/rss.xml.
+  description: Security research and blog updates from Hacktodef.
 - url: https://haggis-m.medium.com/feed
   category: General Security & Blogs
-  title: https://haggis-m.medium.com/feed
+  title: Stories by Michael Haag on Medium
   type: rss
-  description: Medium posts from https://haggis-m.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Michael Haag on
+    Medium.
 - url: https://harfanglab.io/feed
   category: General Security & Blogs
-  title: https://harfanglab.io/feed/
+  title: HarfangLab
   type: rss
-  description: News, research, and updates on general security & blogs from https://harfanglab.io/feed/.
+  description: Security research and blog updates from HarfangLab.
 - url: https://hausec.com/feed
   category: General Security & Blogs
-  title: https://hausec.com/feed/
+  title: hausec
   type: rss
-  description: News, research, and updates on general security & blogs from https://hausec.com/feed/.
+  description: Security research and blog updates from hausec.
 - url: https://haxx.in/index.xml
   category: General Security & Blogs
-  title: https://haxx.in/index.xml
+  title: Haxx
   type: rss
-  description: News, research, and updates on general security & blogs from https://haxx.in/index.xml.
+  description: Security research and blog updates from Haxx.
 - url: https://her0ness.github.io/feed.xml
   category: General Security & Blogs
-  title: https://her0ness.github.io/feed.xml
+  title: her0ness
   type: rss
-  description: News, research, and updates on general security & blogs from https://her0ness.github.io/feed.xml.
+  description: Security research and blog updates from her0ness.
 - url: https://howtomarketagame.com/feed
   category: General Security & Blogs
-  title: https://howtomarketagame.com/feed/
+  title: How To Market A Game
   type: rss
-  description: News, research, and updates on general security & blogs from https://howtomarketagame.com/feed/.
+  description: Security research and blog updates from How To Market A Game.
 - url: https://icyguider.github.io/feed.xml
   category: General Security & Blogs
-  title: https://icyguider.github.io/feed.xml
+  title: Icyguider’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://icyguider.github.io/feed.xml.
+  description: Security research and blog updates from Icyguider’s Blog.
 - url: https://ii4gsp.github.io/atom.xml
   category: General Security & Blogs
-  title: https://ii4gsp.github.io/atom.xml
+  title: ii4gsp
   type: rss
-  description: News, research, and updates on general security & blogs from https://ii4gsp.github.io/atom.xml.
+  description: Security research and blog updates from ii4gsp.
 - url: https://imlzq.com/feed.xml
   category: General Security & Blogs
-  title: https://imlzq.com/feed.xml
+  title: Zhongquan Li’s blogs
   type: rss
-  description: News, research, and updates on general security & blogs from https://imlzq.com/feed.xml.
+  description: Security research and blog updates from Zhongquan Li’s blogs.
 - url: https://infosec.exchange/@badsectorlabs.rss
   category: General Security & Blogs
-  title: https://infosec.exchange/@badsectorlabs.rss
+  title: Bad Sector Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://infosec.exchange/@badsectorlabs.rss.
+  description: Security research and blog updates from Bad Sector Labs.
 - url: https://infosec.exchange/@christophetd.rss
   category: General Security & Blogs
-  title: https://infosec.exchange/@christophetd.rss
+  title: 'Christophe :purple_potion:'
   type: rss
-  description: News, research, and updates on general security & blogs from https://infosec.exchange/@christophetd.rss.
+  description: Security research and blog updates from Christophe :purple_potion:.
 - url: https://infosec.exchange/@itm4n.rss
   category: General Security & Blogs
-  title: https://infosec.exchange/@itm4n.rss
+  title: Clément Labro
   type: rss
-  description: News, research, and updates on general security & blogs from https://infosec.exchange/@itm4n.rss.
+  description: Security research and blog updates from Clément Labro.
 - url: https://initialcommit.com/blog/rss.xml
   category: General Security & Blogs
-  title: https://initialcommit.com/blog/rss.xml
+  title: Initial Commit Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://initialcommit.com/blog/rss.xml.
+  description: Security research and blog updates from Initial Commit Blog.
 - url: https://ipslav.github.io/feed.xml
   category: General Security & Blogs
-  title: https://ipslav.github.io/feed.xml
+  title: Purple Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://ipslav.github.io/feed.xml.
+  description: Security research and blog updates from Purple Research.
 - url: https://itm4n.github.io/feed
   category: General Security & Blogs
-  title: https://itm4n.github.io/feed
+  title: itm4n's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://itm4n.github.io/feed.
+  description: Security research and blog updates from itm4n's blog.
 - url: https://jackson-t.com/index.xml
   category: General Security & Blogs
-  title: https://jackson-t.com/index.xml
+  title: Jackson T.
   type: rss
-  description: News, research, and updates on general security & blogs from https://jackson-t.com/index.xml.
+  description: Security research and blog updates from Jackson T..
 - url: https://jakewnuk.com/index.xml
   category: General Security & Blogs
-  title: https://jakewnuk.com/index.xml
+  title: Jakewnuk
   type: rss
-  description: News, research, and updates on general security & blogs from https://jakewnuk.com/index.xml.
+  description: Security research and blog updates from Jakewnuk.
 - url: https://jameshfisher.com/feed.xml
   category: General Security & Blogs
-  title: https://jameshfisher.com/feed.xml
+  title: Jim Fisher’s blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://jameshfisher.com/feed.xml.
+  description: Security research and blog updates from Jim Fisher’s blog.
 - url: https://jasonppy.github.io/feed
   category: General Security & Blogs
-  title: https://jasonppy.github.io/feed
+  title: Puyuan Peng
   type: rss
-  description: News, research, and updates on general security & blogs from https://jasonppy.github.io/feed.
+  description: Security research and blog updates from Puyuan Peng.
 - url: https://jdomeracki.github.io/atom.xml
   category: General Security & Blogs
-  title: https://jdomeracki.github.io/atom.xml
+  title: Sunshine After Rain
   type: rss
-  description: News, research, and updates on general security & blogs from https://jdomeracki.github.io/atom.xml.
+  description: Security research and blog updates from Sunshine After Rain.
 - url: https://jfmeee.hashnode.dev/rss.xml
   category: General Security & Blogs
-  title: https://jfmeee.hashnode.dev/rss.xml
+  title: Jfmeee (Hashnode)
   type: rss
-  description: News, research, and updates on general security & blogs from https://jfmeee.hashnode.dev/rss.xml.
+  description: Security research and blog updates from Jfmeee (Hashnode).
 - url: https://jhalon.github.io/feed.xml
   category: General Security & Blogs
-  title: https://jhalon.github.io/feed.xml
+  title: Jack Hacks
   type: rss
-  description: News, research, and updates on general security & blogs from https://jhalon.github.io/feed.xml.
+  description: Security research and blog updates from Jack Hacks.
 - url: https://jhftss.github.io/feed.xml
   category: General Security & Blogs
-  title: https://jhftss.github.io/feed.xml
+  title: Mickey’s Blogs
   type: rss
-  description: News, research, and updates on general security & blogs from https://jhftss.github.io/feed.xml.
+  description: Security research and blog updates from Mickey’s Blogs.
 - url: https://jsecurity101.medium.com/feed
   category: General Security & Blogs
-  title: https://jsecurity101.medium.com/feed
+  title: Jsecurity101 (Medium)
   type: rss
-  description: Medium posts from https://jsecurity101.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Jsecurity101 (Medium).
 - url: https://jub0bs.com/index.xml
   category: General Security & Blogs
-  title: https://jub0bs.com/index.xml
+  title: Jub0bs
   type: rss
-  description: News, research, and updates on general security & blogs from https://jub0bs.com/index.xml.
+  description: Security research and blog updates from Jub0bs.
 - url: https://kentindell.github.io/feed.xml
   category: General Security & Blogs
-  title: https://kentindell.github.io/feed.xml
+  title: Ken Tindell's blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://kentindell.github.io/feed.xml.
+  description: Security research and blog updates from Ken Tindell's blog.
 - url: https://khronokernel.com/feed.xml
   category: General Security & Blogs
-  title: https://khronokernel.com/feed.xml
+  title: Mykola’s blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://khronokernel.com/feed.xml.
+  description: Security research and blog updates from Mykola’s blog.
 - url: https://labs.cognisys.group/feed
   category: General Security & Blogs
-  title: https://labs.cognisys.group/feed
+  title: Cognisys Group Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.cognisys.group/feed.
+  description: Security research and blog updates from Cognisys Group Labs.
 - url: https://labs.guard.io/feed
   category: General Security & Blogs
-  title: https://labs.guard.io/feed
+  title: Guard Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.guard.io/feed.
+  description: Security research and blog updates from Guard Labs.
 - url: https://labs.jumpsec.com/feed
   category: General Security & Blogs
-  title: https://labs.jumpsec.com/feed/
+  title: JUMPSEC Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.jumpsec.com/feed/.
+  description: Security research and blog updates from JUMPSEC Labs.
 - url: https://labs.lares.com/rss
   category: General Security & Blogs
-  title: https://labs.lares.com/rss/
+  title: Lares Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.lares.com/rss/.
+  description: Security research and blog updates from Lares Labs.
 - url: https://labs.nettitude.com/feed
   category: General Security & Blogs
-  title: https://labs.nettitude.com/feed/
+  title: LRQA Nettitude Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.nettitude.com/feed/.
+  description: Security research and blog updates from LRQA Nettitude Labs.
 - url: https://labs.watchtowr.com/rss
   category: General Security & Blogs
-  title: https://labs.watchtowr.com/rss/
+  title: watchTowr Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://labs.watchtowr.com/rss/.
+  description: Security research and blog updates from watchTowr Labs.
 - url: https://lcamtuf.substack.com/feed
   category: General Security & Blogs
-  title: https://lcamtuf.substack.com/feed
+  title: lcamtuf’s thing
   type: rss
-  description: News, research, and updates on general security & blogs from https://lcamtuf.substack.com/feed.
+  description: Security research and blog updates from lcamtuf’s thing.
 - url: https://letsencrypt.org/feed.xml
   category: General Security & Blogs
-  title: https://letsencrypt.org/feed.xml
+  title: Let's Encrypt
   type: rss
-  description: News, research, and updates on general security & blogs from https://letsencrypt.org/feed.xml.
+  description: Security research and blog updates from Let's Encrypt.
 - url: https://loworbitsecurity.com/index.xml
   category: General Security & Blogs
-  title: https://loworbitsecurity.com/index.xml
+  title: Loworbitsecurity
   type: rss
-  description: News, research, and updates on general security & blogs from https://loworbitsecurity.com/index.xml.
+  description: Security research and blog updates from Loworbitsecurity.
 - url: https://luemmelsec.github.io/feed.xml
   category: General Security & Blogs
-  title: https://luemmelsec.github.io/feed.xml
+  title: LuemmelSec
   type: rss
-  description: News, research, and updates on general security & blogs from https://luemmelsec.github.io/feed.xml.
+  description: Security research and blog updates from LuemmelSec.
 - url: https://m365internals.com/feed
   category: General Security & Blogs
-  title: https://m365internals.com/feed/
+  title: M365internals
   type: rss
-  description: News, research, and updates on general security & blogs from https://m365internals.com/feed/.
+  description: Security research and blog updates from M365internals.
 - url: https://m417z.com/feed.xml
   category: General Security & Blogs
-  title: https://m417z.com/feed.xml
+  title: m417z / blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://m417z.com/feed.xml.
+  description: Security research and blog updates from m417z / blog.
 - url: https://m4lwhere.medium.com/feed
   category: General Security & Blogs
-  title: https://m4lwhere.medium.com/feed
+  title: Stories by Chris Haller on Medium
   type: rss
-  description: Medium posts from https://m4lwhere.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Chris Haller on
+    Medium.
 - url: https://maia.crimew.gay/feed.xml
   category: General Security & Blogs
-  title: https://maia.crimew.gay/feed.xml
+  title: maia blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://maia.crimew.gay/feed.xml.
+  description: Security research and blog updates from maia blog.
 - url: https://malacupa.com/atom.xml
   category: General Security & Blogs
-  title: https://malacupa.com/atom.xml
+  title: Malacupa
   type: rss
-  description: News, research, and updates on general security & blogs from https://malacupa.com/atom.xml.
+  description: Security research and blog updates from Malacupa.
 - url: https://malicious.link/posts/index.xml
   category: General Security & Blogs
-  title: https://malicious.link/posts/index.xml
+  title: All Posts - Malicious Link - Blog by mubix - Rob Fuller
   type: rss
-  description: News, research, and updates on general security & blogs from https://malicious.link/posts/index.xml.
+  description: Security research and blog updates from All Posts - Malicious Link
+    - Blog by mubix - Rob Fuller.
 - url: https://marcoramilli.com/feed
   category: General Security & Blogs
-  title: https://marcoramilli.com/feed/
+  title: Marco Ramilli
   type: rss
-  description: News, research, and updates on general security & blogs from https://marcoramilli.com/feed/.
+  description: Security research and blog updates from Marco Ramilli.
 - url: https://mattfrisbie.substack.com/feed
   category: General Security & Blogs
-  title: https://mattfrisbie.substack.com/feed
+  title: '!important'
   type: rss
-  description: News, research, and updates on general security & blogs from https://mattfrisbie.substack.com/feed.
+  description: Security research and blog updates from !important.
 - url: https://mayfly277.github.io/feed
   category: General Security & Blogs
-  title: https://mayfly277.github.io/feed
+  title: Mayfly
   type: rss
-  description: News, research, and updates on general security & blogs from https://mayfly277.github.io/feed.
+  description: Security research and blog updates from Mayfly.
 - url: https://medium.com/@0xcc00/feed
   category: General Security & Blogs
-  title: https://medium.com/@0xcc00/feed
+  title: Stories by bilal al-qurneh on Medium
   type: rss
-  description: Medium posts from https://medium.com/@0xcc00/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by bilal al-qurneh
+    on Medium.
 - url: https://medium.com/@airlockdigital/feed
   category: General Security & Blogs
-  title: https://medium.com/@airlockdigital/feed
+  title: Stories by Daniel Schell on Medium
   type: rss
-  description: Medium posts from https://medium.com/@airlockdigital/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Stories by Daniel Schell on
+    Medium.
 - url: https://medium.com/@bobbyrsec/feed
   category: General Security & Blogs
-  title: https://medium.com/@bobbyrsec/feed
+  title: Stories by Bobbyr on Medium
   type: rss
-  description: Medium posts from https://medium.com/@bobbyrsec/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Bobbyr on Medium.
 - url: https://medium.com/@byq/feed
   category: General Security & Blogs
-  title: https://medium.com/@byq/feed
+  title: Stories by byq on Medium
   type: rss
-  description: Medium posts from https://medium.com/@byq/feed focused on general security
-    & blogs.
+  description: Security research and blog updates from Stories by byq on Medium.
 - url: https://medium.com/@cy1337/feed
   category: General Security & Blogs
-  title: https://medium.com/@cy1337/feed
+  title: Stories by Craig Young on Medium
   type: rss
-  description: Medium posts from https://medium.com/@cy1337/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Craig Young on Medium.
 - url: https://medium.com/@enki-techblog/feed
   category: General Security & Blogs
-  title: https://medium.com/@enki-techblog/feed
+  title: Stories by ENKI WhiteHat on Medium
   type: rss
-  description: Medium posts from https://medium.com/@enki-techblog/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Stories by ENKI WhiteHat on
+    Medium.
 - url: https://medium.com/@fakasler/feed
   category: General Security & Blogs
-  title: https://medium.com/@fakasler/feed
+  title: Stories by Forrest Kasler on Medium
   type: rss
-  description: Medium posts from https://medium.com/@fakasler/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Forrest Kasler on
+    Medium.
 - url: https://medium.com/@flytechoriginal/feed
   category: General Security & Blogs
-  title: https://medium.com/@flytechoriginal/feed
+  title: Stories by FLOCK4H on Medium
   type: rss
-  description: Medium posts from https://medium.com/@flytechoriginal/feed focused
-    on general security & blogs.
+  description: Security research and blog updates from Stories by FLOCK4H on Medium.
 - url: https://medium.com/@frycos/feed
   category: General Security & Blogs
-  title: https://medium.com/@frycos/feed
+  title: Stories by frycos on Medium
   type: rss
-  description: Medium posts from https://medium.com/@frycos/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by frycos on Medium.
 - url: https://medium.com/@matterpreter/feed
   category: General Security & Blogs
-  title: https://medium.com/@matterpreter/feed
+  title: Matterpreter (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@matterpreter/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Matterpreter (Medium).
 - url: https://medium.com/@mitrecaldera/feed
   category: General Security & Blogs
-  title: https://medium.com/@mitrecaldera/feed
+  title: Mitrecaldera (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@mitrecaldera/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Mitrecaldera (Medium).
 - url: https://medium.com/@MorattiSec/feed
   category: General Security & Blogs
-  title: https://medium.com/@MorattiSec/feed
+  title: Stories by Lizzie Moratti on Medium
   type: rss
-  description: Medium posts from https://medium.com/@MorattiSec/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Lizzie Moratti on
+    Medium.
 - url: https://medium.com/@sam0-0/feed
   category: General Security & Blogs
-  title: https://medium.com/@sam0-0/feed
+  title: Sam0 0 (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@sam0-0/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Sam0 0 (Medium).
 - url: https://medium.com/@soufianehabti/feed
   category: General Security & Blogs
-  title: https://medium.com/@soufianehabti/feed
+  title: Soufianehabti (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@soufianehabti/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Soufianehabti (Medium).
 - url: https://medium.com/@TalBeerySec/feed
   category: General Security & Blogs
-  title: https://medium.com/@TalBeerySec/feed
+  title: Stories by Tal Be'ery on Medium
   type: rss
-  description: Medium posts from https://medium.com/@TalBeerySec/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Stories by Tal Be'ery on Medium.
 - url: https://medium.com/@tamirye94/feed
   category: General Security & Blogs
-  title: https://medium.com/@tamirye94/feed
+  title: Tamirye94 (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@tamirye94/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Tamirye94 (Medium).
 - url: https://medium.com/@xploiterd/feed
   category: General Security & Blogs
-  title: https://medium.com/@xploiterd/feed
+  title: Xploiterd (Medium)
   type: rss
-  description: Medium posts from https://medium.com/@xploiterd/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Xploiterd (Medium).
 - url: https://medium.com/feed/@kostas-ts
   category: General Security & Blogs
-  title: https://medium.com/feed/@kostas-ts
+  title: Kostas Ts (Medium)
   type: rss
-  description: Medium posts from https://medium.com/feed/@kostas-ts focused on general
-    security & blogs.
+  description: Security research and blog updates from Kostas Ts (Medium).
 - url: https://memorycorruption.net/index.xml
   category: General Security & Blogs
-  title: https://memorycorruption.net/index.xml
+  title: Memory Corruption
   type: rss
-  description: News, research, and updates on general security & blogs from https://memorycorruption.net/index.xml.
+  description: Security research and blog updates from Memory Corruption.
 - url: https://metalbear.co/index.xml
   category: General Security & Blogs
-  title: https://metalbear.co/index.xml
+  title: MetalBear 🐻 | Creators of mirrord on
   type: rss
-  description: News, research, and updates on general security & blogs from https://metalbear.co/index.xml.
+  description: Security research and blog updates from MetalBear 🐻 | Creators of mirrord
+    on.
 - url: https://mgeeky.tech/feed
   category: General Security & Blogs
-  title: https://mgeeky.tech/feed/
+  title: mgeeky's lair
   type: rss
-  description: News, research, and updates on general security & blogs from https://mgeeky.tech/feed/.
+  description: Security research and blog updates from mgeeky's lair.
 - url: https://mikko-kenttala.medium.com/feed
   category: General Security & Blogs
-  title: https://mikko-kenttala.medium.com/feed
+  title: Mikko Kenttala (Medium)
   type: rss
-  description: Medium posts from https://mikko-kenttala.medium.com/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Mikko Kenttala (Medium).
 - url: https://minder-security.ghost.io/rss
   category: General Security & Blogs
-  title: https://minder-security.ghost.io/rss/
+  title: Minder-Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://minder-security.ghost.io/rss/.
+  description: Security research and blog updates from Minder-Security.
 - url: https://mjg59.dreamwidth.org/data/rss
   category: General Security & Blogs
-  title: https://mjg59.dreamwidth.org/data/rss
+  title: Matthew Garrett
   type: rss
-  description: News, research, and updates on general security & blogs from https://mjg59.dreamwidth.org/data/rss.
+  description: Security research and blog updates from Matthew Garrett.
 - url: https://modexp.wordpress.com/feed
   category: General Security & Blogs
-  title: https://modexp.wordpress.com/feed/
+  title: modexp
   type: rss
-  description: News, research, and updates on general security & blogs from https://modexp.wordpress.com/feed/.
+  description: Security research and blog updates from modexp.
 - url: https://mrbruh.com/index.xml
   category: General Security & Blogs
-  title: https://mrbruh.com/index.xml
+  title: MrBruh's Epic Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://mrbruh.com/index.xml.
+  description: Security research and blog updates from MrBruh's Epic Blog.
 - url: https://msrc.microsoft.com/blog/feed
   category: General Security & Blogs
-  title: https://msrc.microsoft.com/blog/feed
+  title: Microsoft MSRC
   type: rss
   description: Official Microsoft Security Response Center updates, advisories, and
     vulnerability disclosures.
 - url: https://msrc.microsoft.com/feed
   category: General Security & Blogs
-  title: https://msrc.microsoft.com/feed
+  title: Microsoft Security Response Center
   type: rss
   description: Official Microsoft Security Response Center updates, advisories, and
     vulnerability disclosures.
 - url: https://muirey03.blogspot.com/feeds/posts/default
   category: General Security & Blogs
-  title: https://muirey03.blogspot.com/feeds/posts/default
+  title: Muirey03's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://muirey03.blogspot.com/feeds/posts/default.
+  description: Security research and blog updates from Muirey03's Blog.
 - url: https://n1ght-w0lf.github.io/feed.xml
   category: General Security & Blogs
-  title: https://n1ght-w0lf.github.io/feed.xml
+  title: n1ghtw0lf
   type: rss
-  description: News, research, and updates on general security & blogs from https://n1ght-w0lf.github.io/feed.xml.
+  description: Security research and blog updates from n1ghtw0lf.
 - url: https://n4r1b.com/index.xml
   category: General Security & Blogs
-  title: https://n4r1b.com/index.xml
+  title: Up is Down and Black is White
   type: rss
-  description: News, research, and updates on general security & blogs from https://n4r1b.com/index.xml.
+  description: Security research and blog updates from Up is Down and Black is White.
 - url: https://nasbench.medium.com/feed
   category: General Security & Blogs
-  title: https://nasbench.medium.com/feed
+  title: Nasbench (Medium)
   type: rss
-  description: Medium posts from https://nasbench.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Nasbench (Medium).
 - url: https://neil.computer/rss
   category: General Security & Blogs
-  title: https://neil.computer/rss/
+  title: Neil Panchal
   type: rss
-  description: News, research, and updates on general security & blogs from https://neil.computer/rss/.
+  description: Security research and blog updates from Neil Panchal.
 - url: https://neilmadden.blog/feed
   category: General Security & Blogs
-  title: https://neilmadden.blog/feed/
+  title: Neil Madden
   type: rss
-  description: News, research, and updates on general security & blogs from https://neilmadden.blog/feed/.
+  description: Security research and blog updates from Neil Madden.
 - url: https://neodyme.io/rss.xml
   category: General Security & Blogs
-  title: https://neodyme.io/rss.xml
+  title: Neodyme’s Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://neodyme.io/rss.xml.
+  description: Security research and blog updates from Neodyme’s Blog.
 - url: https://nickb.website/feed.xml
   category: General Security & Blogs
-  title: https://nickb.website/feed.xml
+  title: Nick Botticelli
   type: rss
-  description: News, research, and updates on general security & blogs from https://nickb.website/feed.xml.
+  description: Security research and blog updates from Nick Botticelli.
 - url: https://nicolasuter.medium.com/feed
   category: General Security & Blogs
-  title: https://nicolasuter.medium.com/feed
+  title: Nicolasuter (Medium)
   type: rss
-  description: Medium posts from https://nicolasuter.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Nicolasuter (Medium).
 - url: https://nixos.org/blog/feed.xml
   category: General Security & Blogs
-  title: https://nixos.org/blog/feed.xml
+  title: NixOS News
   type: rss
-  description: News, research, and updates on general security & blogs from https://nixos.org/blog/feed.xml.
+  description: Security research and blog updates from NixOS News.
 - url: https://nostarch.com/rss.xml
   category: General Security & Blogs
-  title: https://nostarch.com/rss.xml
+  title: No Starch Press
   type: rss
-  description: News, research, and updates on general security & blogs from https://nostarch.com/rss.xml.
+  description: Security research and blog updates from No Starch Press.
 - url: https://nullg0re.com/feed
   category: General Security & Blogs
-  title: https://nullg0re.com/feed/
+  title: Nullg0re
   type: rss
-  description: News, research, and updates on general security & blogs from https://nullg0re.com/feed/.
+  description: Security research and blog updates from Nullg0re.
 - url: https://observationsinsecurity.com/feed
   category: General Security & Blogs
-  title: https://observationsinsecurity.com/feed/
+  title: Observations in Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://observationsinsecurity.com/feed/.
+  description: Security research and blog updates from Observations in Security.
 - url: https://octagon.net/blog/feed
   category: General Security & Blogs
-  title: https://octagon.net/blog/feed/
+  title: Blog | Octagon Networks
   type: rss
-  description: News, research, and updates on general security & blogs from https://octagon.net/blog/feed/.
+  description: Security research and blog updates from Blog | Octagon Networks.
 - url: https://offensivedefence.co.uk/index.xml
   category: General Security & Blogs
-  title: https://offensivedefence.co.uk/index.xml
+  title: Offensive Defence
   type: rss
-  description: News, research, and updates on general security & blogs from https://offensivedefence.co.uk/index.xml.
+  description: Security research and blog updates from Offensive Defence.
 - url: https://opentofu.org/blog/atom.xml
   category: General Security & Blogs
-  title: https://opentofu.org/blog/atom.xml
+  title: OpenTofu Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://opentofu.org/blog/atom.xml.
+  description: Security research and blog updates from OpenTofu Blog.
 - url: https://osv.dev/blog/index.xml
   category: General Security & Blogs
-  title: https://osv.dev/blog/index.xml
+  title: OSV Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://osv.dev/blog/index.xml.
+  description: Security research and blog updates from OSV Blog.
 - url: https://pacmanattack.com/atom.xml
   category: General Security & Blogs
-  title: https://pacmanattack.com/atom.xml
+  title: PACMAN
   type: rss
-  description: News, research, and updates on general security & blogs from https://pacmanattack.com/atom.xml.
+  description: Security research and blog updates from PACMAN.
 - url: https://pagedout.institute/atom.xml
   category: General Security & Blogs
-  title: https://pagedout.institute/atom.xml
+  title: Paged Out! Magazine
   type: rss
-  description: News, research, and updates on general security & blogs from https://pagedout.institute/atom.xml.
+  description: Security research and blog updates from Paged Out! Magazine.
 - url: https://palant.info/rss.xml
   category: General Security & Blogs
-  title: https://palant.info/rss.xml
+  title: Almost Secure
   type: rss
-  description: News, research, and updates on general security & blogs from https://palant.info/rss.xml.
+  description: Security research and blog updates from Almost Secure.
 - url: https://pascscha.ch/weblog/rss
   category: General Security & Blogs
-  title: https://pascscha.ch/weblog/rss/
+  title: Pascal Schärli
   type: rss
-  description: News, research, and updates on general security & blogs from https://pascscha.ch/weblog/rss/.
+  description: Security research and blog updates from Pascal Schärli.
 - url: https://pbom.dev/feed
   category: General Security & Blogs
-  title: https://pbom.dev/feed/
+  title: Pbom
   type: rss
-  description: News, research, and updates on general security & blogs from https://pbom.dev/feed/.
+  description: Security research and blog updates from Pbom.
 - url: https://permiso.io/blog/rss.xml
   category: General Security & Blogs
-  title: https://permiso.io/blog/rss.xml
+  title: Cloud Chronicles
   type: rss
-  description: News, research, and updates on general security & blogs from https://permiso.io/blog/rss.xml.
+  description: Security research and blog updates from Cloud Chronicles.
 - url: https://peterjson.medium.com/feed
   category: General Security & Blogs
-  title: https://peterjson.medium.com/feed
+  title: Peterjson (Medium)
   type: rss
-  description: Medium posts from https://peterjson.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Peterjson (Medium).
 - url: https://pgj11.com/feed
   category: General Security & Blogs
-  title: https://pgj11.com/feed
+  title: Peter Gabaldon
   type: rss
-  description: News, research, and updates on general security & blogs from https://pgj11.com/feed.
+  description: Security research and blog updates from Peter Gabaldon.
 - url: https://pgj11.com/feed.xml
   category: General Security & Blogs
-  title: https://pgj11.com/feed.xml
+  title: Peter Gabaldon
   type: rss
-  description: News, research, and updates on general security & blogs from https://pgj11.com/feed.xml.
+  description: Security research and blog updates from Peter Gabaldon.
 - url: https://philkeeble.com/feed.xml
   category: General Security & Blogs
-  title: https://philkeeble.com/feed.xml
+  title: Offensive Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://philkeeble.com/feed.xml.
+  description: Security research and blog updates from Offensive Research.
 - url: https://plowsec.github.io/atom
   category: General Security & Blogs
-  title: https://plowsec.github.io/atom
+  title: volodya
   type: rss
-  description: News, research, and updates on general security & blogs from https://plowsec.github.io/atom.
+  description: Security research and blog updates from volodya.
 - url: https://pluralistic.net/feed
   category: General Security & Blogs
-  title: https://pluralistic.net/feed/
+  title: 'Pluralistic: Daily links from Cory Doctorow'
   type: rss
-  description: News, research, and updates on general security & blogs from https://pluralistic.net/feed/.
+  description: 'Security research and blog updates from Pluralistic: Daily links from
+    Cory Doctorow.'
 - url: https://poppopret.org/feed
   category: General Security & Blogs
-  title: https://poppopret.org/feed/
+  title: Michael Coppola
   type: rss
-  description: News, research, and updates on general security & blogs from https://poppopret.org/feed/.
+  description: Security research and blog updates from Michael Coppola.
 - url: https://portswigger.net/blog/rss
   category: General Security & Blogs
-  title: https://portswigger.net/blog/rss
+  title: PortSwigger Blog
   type: rss
   description: PortSwigger research and updates on web security, Burp Suite, and vulnerability
     techniques.
 - url: https://positive.security/blog/rss.xml
   category: General Security & Blogs
-  title: https://positive.security/blog/rss.xml
+  title: Positive Security | IT Security research and happy coincidences
   type: rss
-  description: News, research, and updates on general security & blogs from https://positive.security/blog/rss.xml.
+  description: Security research and blog updates from Positive Security | IT Security
+    research and happy coincidences.
 - url: https://projectblack.io/blog/rss
   category: General Security & Blogs
-  title: https://projectblack.io/blog/rss/
+  title: Research Blog | Project Black
   type: rss
-  description: News, research, and updates on general security & blogs from https://projectblack.io/blog/rss/.
+  description: Security research and blog updates from Research Blog | Project Black.
 - url: https://pwning.tech/rss
   category: General Security & Blogs
-  title: https://pwning.tech/rss/
+  title: Pwning Tech
   type: rss
-  description: News, research, and updates on general security & blogs from https://pwning.tech/rss/.
+  description: Security research and blog updates from Pwning Tech.
 - url: https://r00tkitsmm.github.io/feed.xml
   category: General Security & Blogs
-  title: https://r00tkitsmm.github.io/feed.xml
+  title: My interesting research.
   type: rss
-  description: News, research, and updates on general security & blogs from https://r00tkitsmm.github.io/feed.xml.
+  description: Security research and blog updates from My interesting research..
 - url: https://raesene.github.io/feed.xml
   category: General Security & Blogs
-  title: https://raesene.github.io/feed.xml
+  title: Raesene's Ramblings
   type: rss
-  description: News, research, and updates on general security & blogs from https://raesene.github.io/feed.xml.
+  description: Security research and blog updates from Raesene's Ramblings.
 - url: https://rastamouse.me/rss
   category: General Security & Blogs
-  title: https://rastamouse.me/rss/
+  title: Rasta Mouse
   type: rss
-  description: News, research, and updates on general security & blogs from https://rastamouse.me/rss/.
+  description: Security research and blog updates from Rasta Mouse.
 - url: https://rbf.dev/feed.xml
   category: General Security & Blogs
-  title: https://rbf.dev/feed.xml
+  title: Roberto Frenna
   type: rss
-  description: News, research, and updates on general security & blogs from https://rbf.dev/feed.xml.
+  description: Security research and blog updates from Roberto Frenna.
 - url: https://redhuntlabs.com/feed
   category: General Security & Blogs
-  title: https://redhuntlabs.com/feed/
+  title: RedHunt Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://redhuntlabs.com/feed/.
+  description: Security research and blog updates from RedHunt Labs.
 - url: https://research.aurainfosec.io/index.xml
   category: General Security & Blogs
-  title: https://research.aurainfosec.io/index.xml
+  title: Aura Research Division
   type: rss
-  description: News, research, and updates on general security & blogs from https://research.aurainfosec.io/index.xml.
+  description: Security research and blog updates from Aura Research Division.
 - url: https://research.ifcr.dk/feed
   category: General Security & Blogs
-  title: https://research.ifcr.dk/feed
+  title: Ifcr Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://research.ifcr.dk/feed.
+  description: Security research and blog updates from Ifcr Research.
 - url: https://research.openanalysis.net/feed.xml
   category: General Security & Blogs
-  title: https://research.openanalysis.net/feed.xml
+  title: OALABS Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://research.openanalysis.net/feed.xml.
+  description: Security research and blog updates from OALABS Research.
 - url: https://research.securitum.com/feed
   category: General Security & Blogs
-  title: https://research.securitum.com/feed/
+  title: Securitum Research
   type: rss
-  description: News, research, and updates on general security & blogs from https://research.securitum.com/feed/.
+  description: Security research and blog updates from Securitum Research.
 - url: https://restoreprivacy.com/feed
   category: General Security & Blogs
-  title: https://restoreprivacy.com/feed/
+  title: RestorePrivacy
   type: rss
-  description: News, research, and updates on general security & blogs from https://restoreprivacy.com/feed/.
+  description: Security research and blog updates from RestorePrivacy.
 - url: https://revers.engineering/feed
   category: General Security & Blogs
-  title: https://revers.engineering/feed/
+  title: Reverse Engineering
   type: rss
-  description: News, research, and updates on general security & blogs from https://revers.engineering/feed/.
+  description: Security research and blog updates from Reverse Engineering.
 - url: https://revflash.medium.com/feed
   category: General Security & Blogs
-  title: https://revflash.medium.com/feed
+  title: Revflash (Medium)
   type: rss
-  description: Medium posts from https://revflash.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Revflash (Medium).
 - url: https://rezaduty-1685945445294.hashnode.dev/rss.xml
   category: General Security & Blogs
-  title: https://rezaduty-1685945445294.hashnode.dev/rss.xml
+  title: Rezaduty 1685945445294 (Hashnode)
   type: rss
-  description: News, research, and updates on general security & blogs from https://rezaduty-1685945445294.hashnode.dev/rss.xml.
+  description: Security research and blog updates from Rezaduty 1685945445294 (Hashnode).
 - url: https://rhinosecuritylabs.com/feed
   category: General Security & Blogs
-  title: https://rhinosecuritylabs.com/feed/
+  title: Rhino Security Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://rhinosecuritylabs.com/feed/.
+  description: Security research and blog updates from Rhino Security Labs.
 - url: https://riccardoancarani.github.io/feed.xml
   category: General Security & Blogs
-  title: https://riccardoancarani.github.io/feed.xml
+  title: Riccardo Ancarani - Red Team Adventures
   type: rss
-  description: News, research, and updates on general security & blogs from https://riccardoancarani.github.io/feed.xml.
+  description: Security research and blog updates from Riccardo Ancarani - Red Team
+    Adventures.
 - url: https://rift.stacktitan.com/rss
   category: General Security & Blogs
-  title: https://rift.stacktitan.com/rss/
+  title: Rift
   type: rss
-  description: News, research, and updates on general security & blogs from https://rift.stacktitan.com/rss/.
+  description: Security research and blog updates from Rift.
 - url: https://rootsecdev.medium.com/feed
   category: General Security & Blogs
-  title: https://rootsecdev.medium.com/feed
+  title: Rootsecdev (Medium)
   type: rss
-  description: Medium posts from https://rootsecdev.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Rootsecdev (Medium).
 - url: https://rtx.meta.security/feed.xml
   category: General Security & Blogs
-  title: https://rtx.meta.security/feed.xml
+  title: Meta Red Team X
   type: rss
-  description: News, research, and updates on general security & blogs from https://rtx.meta.security/feed.xml.
+  description: Security research and blog updates from Meta Red Team X.
 - url: https://s1ckb017.github.io/feed.xml
   category: General Security & Blogs
-  title: https://s1ckb017.github.io/feed.xml
+  title: Just Another Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://s1ckb017.github.io/feed.xml.
+  description: Security research and blog updates from Just Another Blog.
 - url: https://s4dbrd.com/feed.xml
   category: General Security & Blogs
-  title: https://s4dbrd.com/feed.xml
+  title: S4dbrd
   type: rss
-  description: News, research, and updates on general security & blogs from https://s4dbrd.com/feed.xml.
+  description: Security research and blog updates from S4dbrd.
 - url: https://sabotagesec.com/feed
   category: General Security & Blogs
-  title: https://sabotagesec.com/feed/
+  title: Sabotage Sec
   type: rss
-  description: News, research, and updates on general security & blogs from https://sabotagesec.com/feed/.
+  description: Security research and blog updates from Sabotage Sec.
 - url: https://salt.security/blog/rss.xml
   category: General Security & Blogs
-  title: https://salt.security/blog/rss.xml
+  title: Salt Security Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://salt.security/blog/rss.xml.
+  description: Security research and blog updates from Salt Security Blog.
 - url: https://samcurry.net/api/feed.rss
   category: General Security & Blogs
-  title: https://samcurry.net/api/feed.rss
+  title: Blog | Sam Curry
   type: rss
-  description: News, research, and updates on general security & blogs from https://samcurry.net/api/feed.rss.
+  description: Security research and blog updates from Blog | Sam Curry.
 - url: https://sansec.io/atom.xml
   category: General Security & Blogs
-  title: https://sansec.io/atom.xml
+  title: Sansec - experts in eCommerce security
   type: rss
-  description: News, research, and updates on general security & blogs from https://sansec.io/atom.xml.
+  description: Security research and blog updates from Sansec - experts in eCommerce
+    security.
 - url: https://sec.okta.com/rss.xml
   category: General Security & Blogs
-  title: https://sec.okta.com/rss.xml
+  title: Okta Security RSS Feed
   type: rss
-  description: News, research, and updates on general security & blogs from https://sec.okta.com/rss.xml.
+  description: Security research and blog updates from Okta Security RSS Feed.
 - url: https://secret.club/feed.xml
   category: General Security & Blogs
-  title: https://secret.club/feed.xml
+  title: secret club
   type: rss
-  description: News, research, and updates on general security & blogs from https://secret.club/feed.xml.
+  description: Security research and blog updates from secret club.
 - url: https://sector7.computest.nl/index.xml
   category: General Security & Blogs
-  title: https://sector7.computest.nl/index.xml
+  title: Sector 7
   type: rss
-  description: News, research, and updates on general security & blogs from https://sector7.computest.nl/index.xml.
+  description: Security research and blog updates from Sector 7.
 - url: https://securitymaven.medium.com/feed
   category: General Security & Blogs
-  title: https://securitymaven.medium.com/feed
+  title: Securitymaven (Medium)
   type: rss
-  description: Medium posts from https://securitymaven.medium.com/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Securitymaven (Medium).
 - url: https://sh3llsp4wn.github.io/feed
   category: General Security & Blogs
-  title: https://sh3llsp4wn.github.io/feed
+  title: Sh3llSp4wn’s Malware Conservatory
   type: rss
-  description: News, research, and updates on general security & blogs from https://sh3llsp4wn.github.io/feed.
+  description: Security research and blog updates from Sh3llSp4wn’s Malware Conservatory.
 - url: https://shells.systems/feed
   category: General Security & Blogs
-  title: https://shells.systems/feed/
+  title: Shells
   type: rss
-  description: News, research, and updates on general security & blogs from https://shells.systems/feed/.
+  description: Security research and blog updates from Shells.
 - url: https://shellsharks.com/feeds/all-feed.xml
   category: General Security & Blogs
-  title: https://shellsharks.com/feeds/all-feed.xml
+  title: shellsharks All Content
   type: rss
-  description: News, research, and updates on general security & blogs from https://shellsharks.com/feeds/all-feed.xml.
+  description: Security research and blog updates from shellsharks All Content.
 - url: https://shenaniganslabs.io/feed
   category: General Security & Blogs
-  title: https://shenaniganslabs.io/feed
+  title: Shenanigans Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://shenaniganslabs.io/feed.
+  description: Security research and blog updates from Shenanigans Labs.
 - url: https://shorsec.io/feed
   category: General Security & Blogs
-  title: https://shorsec.io/feed/
+  title: Shorsec Cyber Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://shorsec.io/feed/.
+  description: Security research and blog updates from Shorsec Cyber Security.
 - url: https://signal.org/blog/rss.xml
   category: General Security & Blogs
-  title: https://signal.org/blog/rss.xml
+  title: Signal Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://signal.org/blog/rss.xml.
+  description: Security research and blog updates from Signal Blog.
 - url: https://sillywa.re/index.xml
   category: General Security & Blogs
-  title: https://sillywa.re/index.xml
+  title: home on sillywa.re
   type: rss
-  description: News, research, and updates on general security & blogs from https://sillywa.re/index.xml.
+  description: Security research and blog updates from home on sillywa.re.
 - url: https://simondotsh.com/feed.xml
   category: General Security & Blogs
-  title: https://simondotsh.com/feed.xml
+  title: simondotsh’s infosec blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://simondotsh.com/feed.xml.
+  description: Security research and blog updates from simondotsh’s infosec blog.
 - url: https://skelsec.medium.com/feed
   category: General Security & Blogs
-  title: https://skelsec.medium.com/feed
+  title: Skelsec (Medium)
   type: rss
-  description: Medium posts from https://skelsec.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Skelsec (Medium).
 - url: https://skii.dev/rss
   category: General Security & Blogs
-  title: https://skii.dev/rss/
+  title: Skii
   type: rss
-  description: News, research, and updates on general security & blogs from https://skii.dev/rss/.
+  description: Security research and blog updates from Skii.
 - url: https://skr1x.github.io/feed.xml
   category: General Security & Blogs
-  title: https://skr1x.github.io/feed.xml
+  title: Cyberdough
   type: rss
-  description: News, research, and updates on general security & blogs from https://skr1x.github.io/feed.xml.
+  description: Security research and blog updates from Cyberdough.
 - url: https://snovvcrash.rocks/feed
   category: General Security & Blogs
-  title: https://snovvcrash.rocks/feed
+  title: Snovvcrash
   type: rss
-  description: News, research, and updates on general security & blogs from https://snovvcrash.rocks/feed.
+  description: Security research and blog updates from Snovvcrash.
 - url: https://sockpuppets.medium.com/feed
   category: General Security & Blogs
-  title: https://sockpuppets.medium.com/feed
+  title: Sockpuppets (Medium)
   type: rss
-  description: Medium posts from https://sockpuppets.medium.com/feed focused on general
-    security & blogs.
+  description: Security research and blog updates from Sockpuppets (Medium).
 - url: https://spaceraccoon.dev/feed.xml
   category: General Security & Blogs
-  title: https://spaceraccoon.dev/feed.xml
+  title: Spaceraccoon's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://spaceraccoon.dev/feed.xml.
+  description: Security research and blog updates from Spaceraccoon's Blog.
 - url: https://specterops.io/feed
   category: General Security & Blogs
-  title: https://specterops.io/feed/
+  title: SpecterOps
   type: rss
-  description: News, research, and updates on general security & blogs from https://specterops.io/feed/.
+  description: Security research and blog updates from SpecterOps.
 - url: https://starlabs.sg/index.xml
   category: General Security & Blogs
-  title: https://starlabs.sg/index.xml
+  title: STAR Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://starlabs.sg/index.xml.
+  description: Security research and blog updates from STAR Labs.
 - url: https://sternumiot.com/feed
   category: General Security & Blogs
-  title: https://sternumiot.com/feed/
+  title: Sternumiot
   type: rss
-  description: News, research, and updates on general security & blogs from https://sternumiot.com/feed/.
+  description: Security research and blog updates from Sternumiot.
 - url: https://summoning.team/index.xml
   category: General Security & Blogs
-  title: https://summoning.team/index.xml
+  title: Summoning Team
   type: rss
-  description: News, research, and updates on general security & blogs from https://summoning.team/index.xml.
+  description: Security research and blog updates from Summoning Team.
 - url: https://swisskyrepo.github.io/feed
   category: General Security & Blogs
-  title: https://swisskyrepo.github.io/feed
+  title: Swisskyrepo Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://swisskyrepo.github.io/feed.
+  description: Security research and blog updates from Swisskyrepo Blog.
 - url: https://swisskyrepo.github.io/feed.xml
   category: General Security & Blogs
-  title: https://swisskyrepo.github.io/feed.xml
+  title: Swisskyrepo Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://swisskyrepo.github.io/feed.xml.
+  description: Security research and blog updates from Swisskyrepo Blog.
 - url: https://syfuhs.net/feed/atom
   category: General Security & Blogs
-  title: https://syfuhs.net/feed/atom/
+  title: Steve on Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://syfuhs.net/feed/atom/.
+  description: Security research and blog updates from Steve on Security.
 - url: https://syscall.cafe/feed
   category: General Security & Blogs
-  title: https://syscall.cafe/feed/
+  title: Syscall
   type: rss
-  description: News, research, and updates on general security & blogs from https://syscall.cafe/feed/.
+  description: Security research and blog updates from Syscall.
 - url: https://taggart-tech.com/atom.xml
   category: General Security & Blogs
-  title: https://taggart-tech.com/atom.xml
+  title: Taggart Tech
   type: rss
-  description: News, research, and updates on general security & blogs from https://taggart-tech.com/atom.xml.
+  description: Security research and blog updates from Taggart Tech.
 - url: https://tastypepperoni.medium.com/feed
   category: General Security & Blogs
-  title: https://tastypepperoni.medium.com/feed
+  title: Tastypepperoni (Medium)
   type: rss
-  description: Medium posts from https://tastypepperoni.medium.com/feed focused on
-    general security & blogs.
+  description: Security research and blog updates from Tastypepperoni (Medium).
 - url: https://thalpius.com/feed
   category: General Security & Blogs
-  title: https://thalpius.com/feed/
+  title: Microsoft Security Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://thalpius.com/feed/.
+  description: Security research and blog updates from Microsoft Security Blog.
 - url: https://the-deniss.github.io/feed.xml
   category: General Security & Blogs
-  title: https://the-deniss.github.io/feed.xml
+  title: The Deniss Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://the-deniss.github.io/feed.xml.
+  description: Security research and blog updates from The Deniss Blog.
 - url: https://thecontractor.io/rss
   category: General Security & Blogs
-  title: https://thecontractor.io/rss/
+  title: The Contractor 🏴‍☠️🧯
   type: rss
-  description: News, research, and updates on general security & blogs from https://thecontractor.io/rss/.
+  description: Security research and blog updates from The Contractor 🏴‍☠️🧯.
 - url: https://theevilbit.github.io/index.xml
   category: General Security & Blogs
-  title: https://theevilbit.github.io/index.xml
+  title: theevilbit blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://theevilbit.github.io/index.xml.
+  description: Security research and blog updates from theevilbit blog.
 - url: https://therealunicornsecurity.github.io/feed.xml
   category: General Security & Blogs
-  title: https://therealunicornsecurity.github.io/feed.xml
+  title: Unicorn Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://therealunicornsecurity.github.io/feed.xml.
+  description: Security research and blog updates from Unicorn Security.
 - url: https://thievi.sh/index.xml
   category: General Security & Blogs
-  title: https://thievi.sh/index.xml
+  title: Thievi
   type: rss
-  description: News, research, and updates on general security & blogs from https://thievi.sh/index.xml.
+  description: Security research and blog updates from Thievi.
 - url: https://tierzerosecurity.co.nz/feed.xml
   category: General Security & Blogs
-  title: https://tierzerosecurity.co.nz/feed.xml
+  title: Tier Zero Security
   type: rss
-  description: News, research, and updates on general security & blogs from https://tierzerosecurity.co.nz/feed.xml.
+  description: Security research and blog updates from Tier Zero Security.
 - url: https://trevorsaudi.com/posts/index.xml
   category: General Security & Blogs
-  title: https://trevorsaudi.com/posts/index.xml
+  title: Posts on Trevor Saudi
   type: rss
-  description: News, research, and updates on general security & blogs from https://trevorsaudi.com/posts/index.xml.
+  description: Security research and blog updates from Posts on Trevor Saudi.
 - url: https://trustedsec.com/feed.rss
   category: General Security & Blogs
-  title: https://trustedsec.com/feed.rss
+  title: TrustedSec
   type: rss
-  description: News, research, and updates on general security & blogs from https://trustedsec.com/feed.rss.
+  description: Security research and blog updates from TrustedSec.
 - url: https://tweak-extension.com/blog/atom.xml
   category: General Security & Blogs
-  title: https://tweak-extension.com/blog/atom.xml
+  title: tweak Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://tweak-extension.com/blog/atom.xml.
+  description: Security research and blog updates from tweak Blog.
 - url: https://universalshards.com/feed
   category: General Security & Blogs
-  title: https://universalshards.com/feed
+  title: Universal Shards
   type: rss
-  description: News, research, and updates on general security & blogs from https://universalshards.com/feed.
+  description: Security research and blog updates from Universal Shards.
 - url: https://v3ded.github.io/feed.xml
   category: General Security & Blogs
-  title: https://v3ded.github.io/feed.xml
+  title: root@V3dedBlog:~#
   type: rss
-  description: News, research, and updates on general security & blogs from https://v3ded.github.io/feed.xml.
+  description: Security research and blog updates from root@V3dedBlog:~#.
 - url: https://v3rtigo.org/index.xml
   category: General Security & Blogs
-  title: https://v3rtigo.org/index.xml
+  title: Adventures in IoT
   type: rss
-  description: News, research, and updates on general security & blogs from https://v3rtigo.org/index.xml.
+  description: Security research and blog updates from Adventures in IoT.
 - url: https://vanmieghem.io/feed.xml
   category: General Security & Blogs
-  title: https://vanmieghem.io/feed.xml
+  title: Vincent Van Mieghem
   type: rss
-  description: News, research, and updates on general security & blogs from https://vanmieghem.io/feed.xml.
+  description: Security research and blog updates from Vincent Van Mieghem.
 - url: https://victoronsoftware.com/index.xml
   category: General Security & Blogs
-  title: https://victoronsoftware.com/index.xml
+  title: Victor on Software
   type: rss
-  description: News, research, and updates on general security & blogs from https://victoronsoftware.com/index.xml.
+  description: Security research and blog updates from Victor on Software.
 - url: https://vollragm.github.io/feed
   category: General Security & Blogs
-  title: https://vollragm.github.io/feed
+  title: VollRagm
   type: rss
-  description: News, research, and updates on general security & blogs from https://vollragm.github.io/feed.
+  description: Security research and blog updates from VollRagm.
 - url: https://whereisk0shl.top/feed
   category: General Security & Blogs
-  title: https://whereisk0shl.top/feed
+  title: WHEREISK0SHL
   type: rss
-  description: News, research, and updates on general security & blogs from https://whereisk0shl.top/feed.
+  description: Security research and blog updates from WHEREISK0SHL.
 - url: https://whiteknightlabs.com/feed
   category: General Security & Blogs
-  title: https://whiteknightlabs.com/feed/
+  title: White Knight Labs
   type: rss
-  description: News, research, and updates on general security & blogs from https://whiteknightlabs.com/feed/.
+  description: Security research and blog updates from White Knight Labs.
 - url: https://whynotsecurity.com/feed.xml
   category: General Security & Blogs
-  title: https://whynotsecurity.com/feed.xml
+  title: WhyNotSecurity
   type: rss
-  description: News, research, and updates on general security & blogs from https://whynotsecurity.com/feed.xml.
+  description: Security research and blog updates from WhyNotSecurity.
 - url: https://windows-internals.com/an-end-to-kaslr-bypasses/feed
   category: General Security & Blogs
-  title: https://windows-internals.com/an-end-to-kaslr-bypasses/feed/
+  title: 'Comments on: An End to KASLR Bypasses?'
   type: rss
-  description: News, research, and updates on general security & blogs from https://windows-internals.com/an-end-to-kaslr-bypasses/feed/.
+  description: 'Security research and blog updates from Comments on: An End to KASLR
+    Bypasses?.'
 - url: https://wojciechregula.blog/rss.xml
   category: General Security & Blogs
-  title: https://wojciechregula.blog/rss.xml
+  title: Wojciech Reguła
   type: rss
-  description: News, research, and updates on general security & blogs from https://wojciechregula.blog/rss.xml.
+  description: Security research and blog updates from Wojciech Reguła.
 - url: https://worthdoingbadly.com/feed.xml
   category: General Security & Blogs
-  title: https://worthdoingbadly.com/feed.xml
+  title: Worth Doing Badly
   type: rss
-  description: News, research, and updates on general security & blogs from https://worthdoingbadly.com/feed.xml.
+  description: Security research and blog updates from Worth Doing Badly.
 - url: https://www.0ffset.net/feed
   category: General Security & Blogs
-  title: https://www.0ffset.net/feed/
+  title: 0ffset Training Solutions
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.0ffset.net/feed/.
+  description: Security research and blog updates from 0ffset Training Solutions.
 - url: https://www.3nailsinfosec.com/blog-feed.xml
   category: General Security & Blogs
-  title: https://www.3nailsinfosec.com/blog-feed.xml
+  title: 3NailsInfoSec
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.3nailsinfosec.com/blog-feed.xml.
+  description: Security research and blog updates from 3NailsInfoSec.
 - url: https://www.accidentalrebel.com/feeds/all.atom.xml
   category: General Security & Blogs
-  title: https://www.accidentalrebel.com/feeds/all.atom.xml
+  title: Accidentalrebel
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.accidentalrebel.com/feeds/all.atom.xml.
+  description: Security research and blog updates from Accidentalrebel.
 - url: https://www.antitree.com/index.xml
   category: General Security & Blogs
-  title: https://www.antitree.com/index.xml
+  title: antiTree
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.antitree.com/index.xml.
+  description: Security research and blog updates from antiTree.
 - url: https://www.cncf.io/feed
   category: General Security & Blogs
-  title: https://www.cncf.io/feed/
+  title: Cloud Native Computing Foundation
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.cncf.io/feed/.
+  description: Security research and blog updates from Cloud Native Computing Foundation.
 - url: https://www.da.vidbuchanan.co.uk/blog/rss.xml
   category: General Security & Blogs
-  title: https://www.da.vidbuchanan.co.uk/blog/rss.xml
+  title: David Buchanan's Blog
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.da.vidbuchanan.co.uk/blog/rss.xml.
+  description: Security research and blog updates from David Buchanan's Blog.
 - url: https://www.davebucklin.com/feed.xml
   category: General Security & Blogs
-  title: https://www.davebucklin.com/feed.xml
+  title: Dave Bucklin
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.davebucklin.com/feed.xml.
+  description: Security research and blog updates from Dave Bucklin.
 - url: https://www.evilsocket.net/atom.xml
   category: General Security & Blogs
-  title: https://www.evilsocket.net/atom.xml
+  title: evilsocket
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.evilsocket.net/atom.xml.
+  description: Security research and blog updates from evilsocket.
 - url: https://www.mdsec.co.uk/feed
   category: General Security & Blogs
-  title: https://www.mdsec.co.uk/feed/
+  title: MDSec
   type: rss
-  description: News, research, and updates on general security & blogs from https://www.mdsec.co.uk/feed/.
+  description: Security research and blog updates from MDSec.
 - url: https://iacr.org/news/rss
   category: General Security & Blogs
   title: IACR News
   type: ''
-  description: ''
+  description: Updates from IACR News.
 - url: https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss
   category: General Security & Blogs
   title: IEEE Spectrum
@@ -2401,7 +2395,7 @@
   category: General Security & Blogs
   title: NYT &gt; Cybersecurity
   type: ''
-  description: ''
+  description: Updates from NYT > Cybersecurity.
 - url: https://www.omeronsecurity.com/feed
   category: General Security & Blogs
   title: Omer on Security
@@ -2517,7 +2511,8 @@
   category: General Security & Blogs
   title: Security Magazine (Cyber)
   type: rss
-  description: ''
+  description: Keep up to date on the latest news and information posted to Securitymagazine.com
+    with our RSS feed.
 - url: https://techcrunch.com/category/security/feed
   category: General Security & Blogs
   title: Security News | TechCrunch
@@ -2562,7 +2557,7 @@
   category: General Security & Blogs
   title: Security Soup
   type: rss
-  description: ''
+  description: infosec news, commentary, and research
 - url: https://arstechnica.com/security/feed
   category: General Security & Blogs
   title: Security – Ars Technica
@@ -2775,7 +2770,7 @@
   category: General Security & Blogs
   title: VICE US - HACKING
   type: ''
-  description: RSS feed for https://www.vice.com/en/topic/hacking
+  description: Security research and blog updates from VICE US - HACKING.
 - url: https://www.carbonblack.com/feed
   category: General Security & Blogs
   title: VMware Carbon Black Blog

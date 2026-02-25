@@ -85,12 +85,12 @@
   category: Government / CERT & Advisories
   title: Zero Day Initiative - Blog
   type: rss
-  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  description: Updates from Zero Day Initiative - Blog.
 - url: https://zerodayinitiative.com/blog/rss.xml
   category: Government / CERT & Advisories
   title: Zero Day Initiative - Blog
   type: rss
-  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  description: Updates from Zero Day Initiative - Blog.
 - url: https://www.cisa.gov/cybersecurity-advisories/all.xml
   category: Government, CERT & Advisories
   title: All CISA Advisories
@@ -145,17 +145,17 @@
     incidents, and threats.
 - url: https://datatracker.ietf.org/feed/document-changes/rfc3442
   category: Government, CERT & Advisories
-  title: https://datatracker.ietf.org/feed/document-changes/rfc3442/
+  title: Changes for RFC3442
   type: rss
-  description: Official advisories and security updates from https://datatracker.ietf.org/feed/document-changes/rfc3442/.
+  description: Official advisories, alerts, and guidance from Changes for RFC3442.
 - url: https://rewardsforjustice.net/feed
   category: Government, CERT & Advisories
-  title: https://rewardsforjustice.net/feed/
+  title: Rewards For Justice
   type: rss
-  description: Official advisories and security updates from https://rewardsforjustice.net/feed/.
+  description: Official advisories, alerts, and guidance from Rewards For Justice.
 - url: https://www.cisa.gov/blog.xml
   category: Government, CERT & Advisories
-  title: https://www.cisa.gov/blog.xml
+  title: CISA
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
@@ -184,7 +184,7 @@
   category: Government, CERT & Advisories
   title: JPCERT/CC (English)
   type: rss
-  description: ''
+  description: Security Alerts and Advisories
 - url: https://api.msrc.microsoft.com/update-guide/rss
   category: Government, CERT & Advisories
   title: MSRC Security Update Guide
@@ -221,7 +221,7 @@
   category: Government, CERT & Advisories
   title: News and Events Feed by Topic
   type: ''
-  description: ''
+  description: Updates from News and Events Feed by Topic.
 - url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
   category: Government, CERT & Advisories
   title: NIST – Cybersecurity Insights

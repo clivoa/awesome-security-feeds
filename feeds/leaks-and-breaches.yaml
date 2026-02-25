@@ -2,8 +2,7 @@
   category: Leaks & Breaches
   title: Cybersecurity and Infrastructure Security Agency CISA
   type: rss
-  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
-    covering vulnerabilities, cves.
+  description: Updates from Cybersecurity and Infrastructure Security Agency CISA.
 - url: https://www.databreachtoday.co.uk/rss-feeds
   category: Leaks & Breaches
   title: DataBreachToday.co.uk RSS Syndication
@@ -53,14 +52,14 @@
   category: Leaks & Breaches
   title: Tenable Blog
   type: rss
-  description: Updates from Tenable Blog covering vulnerabilities, cves.
+  description: Updates from Tenable Blog.
 - url: https://www.tenable.com/blog/atom.xml
   category: Leaks & Breaches
   title: Tenable Blog
   type: rss
-  description: Updates from Tenable Blog covering vulnerabilities, cves.
+  description: Updates from Tenable Blog.
 - url: https://tenable.com/feed/news
   category: Leaks & Breaches
   title: Tenable News Feed
   type: rss
-  description: Updates from Tenable News Feed covering vulnerabilities, cves.
+  description: Updates from Tenable News Feed.

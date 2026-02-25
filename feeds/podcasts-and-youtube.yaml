@@ -2,452 +2,484 @@
   category: Podcasts & YouTube
   title: 7 Minute Security
   type: ''
-  description: ''
+  description: 'Skip to content Welcome! 7 Minute Security podcast episode show notes
+    are here , our “third Thursday” YouTube livestream is here , and our Light Pentest
+    eBook is here . Search for: About Us Leadership Our History Cert...'
 - url: https://absoluteappsec.com/rss.xml
   category: Podcasts & YouTube
   title: Absolute AppSec
   type: ''
-  description: ''
+  description: A weekly podcast of all things application security related. Hosted
+    by Ken Johnson and Seth Law.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCo9CDrIB0rJwG4GGz8CZEaQ
   category: Podcasts & YouTube
   title: Absolute AppSec
   type: atom
-  description: ''
+  description: Video uploads from Absolute AppSec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCKTs4jCh9yLbFfZHntSairQ
   category: Podcasts & YouTube
   title: Andy Li
   type: atom
-  description: ''
+  description: Video uploads from Andy Li on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCkFKiCm7dD0gsB4jqIdCuRQ
   category: Podcasts & YouTube
   title: Antisyphon Training
   type: atom
-  description: ''
+  description: Video uploads from Antisyphon Training on YouTube.
 - url: https://feeds.libsyn.com/112258/rss
   category: Podcasts & YouTube
   title: Application Security Weekly (Video)
   type: ''
-  description: ''
+  description: About all things AppSec, DevOps, and DevSecOps. Hosted by Mike Shema
+    and John Kinsella, the podcast focuses on helping its audience find and fix software
+    flaws effectively.
 - url: https://feeds.feedburner.com/BeersWithTalosPodcast
   category: Podcasts & YouTube
   title: Beers with Talos Podcast
   type: ''
-  description: ''
+  description: Beers with Talos
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6q9Ie29ajGqKApbLqfBOg
   category: Podcasts & YouTube
   title: Black Hat
   type: atom
-  description: ''
+  description: Video uploads from Black Hat on YouTube.
 - url: https://www.blackhillsinfosec.com/feed/podcast
   category: Podcasts & YouTube
   title: Black Hills Information Security
   type: ''
-  description: ''
+  description: Download and listen to our weekly infosec podcast where we discuss
+    the latest attacks, breaches, and how they happened and why. We’re a team of penetration
+    testers (ethical hackers) and friends that love how new techn...
 - url: https://brakesec.com/BrakesecRSS
   category: Podcasts & YouTube
   title: Brakeing Down Security Podcast
   type: ''
-  description: ''
+  description: A podcast about the world of Cybersecurity, Privacy, Compliance, and
+    Regulatory issues that arise in today's workplace. Co-hosts Bryan Brake, Brian
+    Boettcher, and Amanda Berlin teach concepts that aspiring Information...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCpNGmljppAJbTIA5Msms1Pw
   category: Podcasts & YouTube
   title: BSidesLV
   type: atom
-  description: ''
+  description: Video uploads from BSidesLV on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCZDyl7G-Lq-EMVO8PfDFp9g
   category: Podcasts & YouTube
   title: Bug Bounty Reports Explained
   type: atom
-  description: ''
+  description: Video uploads from Bug Bounty Reports Explained on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCo1NHk_bgbAbDBc4JinrXww
   category: Podcasts & YouTube
   title: Bugcrowd
   type: atom
-  description: ''
+  description: Video uploads from Bugcrowd on YouTube.
 - url: https://cisoseries.libsyn.com/rss
   category: Podcasts & YouTube
   title: CISO Series
   type: ''
-  description: ''
+  description: Daily stories from the world of information security. To delve into
+    any daily story, head to CISOseries.com.
 - url: https://davidspark.libsyn.com/cisovendor
   category: Podcasts & YouTube
   title: CISO Series Podcast
   type: ''
-  description: ''
+  description: Discussions, tips, and debates from security practitioners and vendors
+    on how to work better together to improve security for themselves and everyone
+    else.
 - url: https://feeds.megaphone.fm/clickhere
   category: Podcasts & YouTube
   title: Click Here
   type: ''
-  description: ''
+  description: Podcast or video feed from Click Here.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXXXoi68Hv6caNLWfw7j8MQ
   category: Podcasts & YouTube
   title: Cristi Vlad
   type: atom
-  description: ''
+  description: Video uploads from Cristi Vlad on YouTube.
 - url: https://media.rss.com/ctbbpodcast/feed.xml
   category: Podcasts & YouTube
   title: Critical Thinking - A Bug Bounty Podcast
   type: ''
-  description: ''
+  description: A "by Hackers for Hackers" podcast focused on technical content ranging
+    from bug bounty tips, to write-up explanations, to the latest hacking techniques.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCEeuul0q7C8Zs5C8rc4REFQ
   category: Podcasts & YouTube
   title: CryptoCat
   type: atom
-  description: ''
+  description: Video uploads from CryptoCat on YouTube.
 - url: https://feeds.acast.com/public/shows/cyber
   category: Podcasts & YouTube
   title: CYBER
   type: ''
-  description: ''
+  description: Hacking. Hackers. Disinformation campaigns. Encryption. The Cyber.
+    This stuff gets complicated really fast, but Motherboard spends its time embedded
+    in the infosec world so you don't have to. Host Matthew Gault talks...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7RUTWLRR1_-GPQRfQ3Qj2w
   category: Podcasts & YouTube
   title: Cyber Studies
   type: atom
-  description: ''
+  description: Video uploads from Cyber Studies on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCRikWa5PGyQZw0yATk8iZWg
   category: Podcasts & YouTube
   title: Cybercrime Magazine
   type: atom
-  description: ''
+  description: Video uploads from Cybercrime Magazine on YouTube.
 - url: https://feeds.libsyn.com/118065/rss
   category: Podcasts & YouTube
   title: Cybersecurity Today
   type: ''
-  description: ''
+  description: Updates on the latest cybersecurity threats to businesses, data breach
+    disclosures, and how you can secure your firm in an increasingly risky time.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9EX_PSbngZP8pkPWSUpPzw
   category: Podcasts & YouTube
   title: Cyberspatial
   type: atom
-  description: ''
+  description: Video uploads from Cyberspatial on YouTube.
 - url: https://feeds.megaphone.fm/cyberwire-daily-podcast
   category: Podcasts & YouTube
   title: CyberWire Daily
   type: ''
-  description: ''
+  description: The daily cybersecurity news and analysis industry leaders depend on.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCY-UlEymdA23eo09U9a0FLA
   category: Podcasts & YouTube
   title: CYBERWOX
   type: atom
-  description: ''
+  description: Video uploads from CYBERWOX on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCzWPaANpPISEE_xvJm8lqHA
   category: Podcasts & YouTube
   title: Cybrary
   type: atom
-  description: ''
+  description: Video uploads from Cybrary on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCp1rLlh9AQN9Pejzbg9dcAg
   category: Podcasts & YouTube
   title: Cyrill Gössi
   type: atom
-  description: ''
+  description: Video uploads from Cyrill Gössi on YouTube.
 - url: https://feeds.megaphone.fm/darknetdiaries
   category: Podcasts & YouTube
   title: Darknet Diaries
   type: ''
-  description: ''
+  description: True stories from the dark side of the Internet
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w
   category: Podcasts & YouTube
   title: David Bombal
   type: atom
-  description: ''
+  description: Video uploads from David Bombal on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw
   category: Podcasts & YouTube
   title: DEFCONConference
   type: atom
-  description: ''
+  description: Video uploads from DEFCONConference on YouTube.
 - url: https://defenseindepth.libsyn.com/rss
   category: Podcasts & YouTube
   title: Defense in Depth
   type: ''
-  description: ''
+  description: Defense in Depth promises clear talk on cybersecurity's most controversial
+    and confusing debates. Once a week we choose one controversial and popular cybersecurity
+    debate and use the InfoSec community's insights to le...
 - url: https://defensivesecurity.org/feed/podcast
   category: Podcasts & YouTube
   title: Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec
   type: ''
-  description: ''
+  description: Defensive Security is a weekly information security podcast which reviews
+    recent high profile cyber security breaches, data breaches, malware infections
+    and intrusions to identify lessons that we can learn and apply t...
 - url: https://digitalforensicsurvivalpodcast.libsyn.com/rss
   category: Podcasts & YouTube
   title: Digital Forensic Survival Podcast
   type: ''
-  description: ''
+  description: Podcast or video feed from Digital Forensic Survival Podcast.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCI8zwug_Lv4_-KPT62oeDUA
   category: Podcasts & YouTube
   title: Dr Josh Stroschein
   type: atom
-  description: ''
+  description: Video uploads from Dr Josh Stroschein on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCcHAyzVBPtV6i_rhqBPoA6w
   category: Podcasts & YouTube
   title: Elevate Cyber
   type: atom
-  description: ''
+  description: Video uploads from Elevate Cyber on YouTube.
 - url: https://feeds.libsyn.com/81245/rss
   category: Podcasts & YouTube
   title: Enterprise Security Weekly (Video)
   type: ''
-  description: ''
+  description: 'News, analysis, and insights into enterprise security. We put security
+    vendors under the microscope, and explore the latest trends that can help defenders
+    succeed. Hosted by Adrian Sanabria. Co hosts: Katie Teitler-Sa...'
 - url: https://feed.podbean.com/errorcode/feed.xml
   category: Podcasts & YouTube
   title: Error Code
   type: ''
-  description: ''
+  description: Error Code is a biweekly narrative podcast that provides you both context
+    and conversation with some of the best minds working today toward code resilience
+    and dependability. Work that can lead to autonomous vehicles...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCkN7IPX-dVEsAdjoLdFda1g
   category: Podcasts & YouTube
   title: ESET
   type: atom
-  description: ''
+  description: Video uploads from ESET on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCq9IyPMXiwD8yBFHkxmN8zg
   category: Podcasts & YouTube
   title: Farah Hawa
   type: atom
-  description: ''
+  description: Video uploads from Farah Hawa on YouTube.
 - url: https://feeds.libsyn.com/200150/rss
   category: Podcasts & YouTube
   title: Forensic Focus
   type: ''
-  description: ''
+  description: Digital forensics discussion for computer forensics, DFIR and eDiscovery
+    professionals. Visit Forensic Focus at forensicfocus.com for more.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCQajlJPesqmyWJDN52AZI4Q
   category: Podcasts & YouTube
   title: Forensic Focus
   type: atom
-  description: ''
+  description: Video uploads from Forensic Focus on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCjfghTrOeq5Qu0WdKjxBpBA
   category: Podcasts & YouTube
   title: fwd:cloudsec
   type: atom
-  description: ''
+  description: Video uploads from fwd:cloudsec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCG-48Ki-b6W_siaUkukJOSw
   category: Podcasts & YouTube
   title: Gerald Auger, PhD - Simply Cyber
   type: atom
-  description: ''
+  description: Video uploads from Gerald Auger, PhD - Simply Cyber on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCTLUi3oc1-a7dS-2-YgEKmA
   category: Podcasts & YouTube
   title: Grant Collins
   type: atom
-  description: ''
+  description: Video uploads from Grant Collins on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCpYB6eIJB4jBGSAJcAhCMhw
   category: Podcasts & YouTube
   title: GRIMM Cybersecurity (SMFS, Inc.)
   type: atom
-  description: ''
+  description: Video uploads from GRIMM Cybersecurity (SMFS, Inc.) on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCCMi6F5Ac3kQDfffWXQGZDw
   category: Podcasts & YouTube
   title: Guided Hacking
   type: atom
-  description: ''
+  description: Video uploads from Guided Hacking on YouTube.
 - url: https://anchor.fm/s/435c0d58/podcast/rss
   category: Podcasts & YouTube
   title: Hack&#x27;n Speak
   type: ''
-  description: ''
+  description: Bienvenue sur le podcast francophone Hack'n Speak ! Notre but est de
+    partager la voix de nos 'hacker' à travers leurs outils / recherches.
 - url: https://hackerhistory.com/feed/podcast
   category: Podcasts & YouTube
   title: Hacker History Podcast
   type: ''
-  description: ''
+  description: History of Hackers
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-JXhtTw4scg74yWwkuX-ow
   category: Podcasts & YouTube
   title: Hacker Valley Media
   type: atom
-  description: ''
+  description: Video uploads from Hacker Valley Media on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsgzmECky2Q9lQMWzDwMhYw
   category: Podcasts & YouTube
   title: HackerOne
   type: atom
-  description: ''
+  description: Video uploads from HackerOne on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q
   category: Podcasts & YouTube
   title: HackerSploit
   type: atom
-  description: ''
+  description: Video uploads from HackerSploit on YouTube.
 - url: https://feeds.megaphone.fm/hacking-humans
   category: Podcasts & YouTube
   title: Hacking Humans
   type: ''
-  description: ''
+  description: Deception, influence, and social engineering in the world of cyber
+    crime.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC71Pa-YHA32hYPKTRjZgbXw
   category: Podcasts & YouTube
   title: Hacktivity - IT Security Festival
   type: atom
-  description: ''
+  description: Video uploads from Hacktivity - IT Security Festival on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC3s0BtrBJpwNDaflRSoiieQ
   category: Podcasts & YouTube
   title: Hak5
   type: atom
-  description: ''
+  description: Video uploads from Hak5 on YouTube.
 - url: https://helpmewithhipaa.com/feed
   category: Podcasts & YouTube
   title: Help Me With HIPAA
   type: ''
-  description: ''
+  description: HIPAA Is Not About Compliance, Its About Patient Care!
 - url: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
   category: Podcasts & YouTube
-  title: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
+  title: Unsupervised Learning
   type: rss
-  description: Security podcasts and talks from https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml.
+  description: Podcast or video feed from Unsupervised Learning.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4TAjYDpNggDwictUA180LA
   category: Podcasts & YouTube
   title: Infosec
   type: atom
-  description: ''
+  description: Video uploads from Infosec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYuizWN2ac4L7CZ-WWHZQKw
   category: Podcasts & YouTube
   title: InfoSec Pat
   type: atom
-  description: ''
+  description: Video uploads from InfoSec Pat on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCPiN9NPjIer8Do9gUFxKv7A
   category: Podcasts & YouTube
   title: InsiderPhD
   type: atom
-  description: ''
+  description: Video uploads from InsiderPhD on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA
   category: Podcasts & YouTube
   title: IppSec
   type: atom
-  description: ''
+  description: Video uploads from IppSec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-8Ba047kFinfgp3sO53qcA
   category: Podcasts & YouTube
   title: ITPro
   type: atom
-  description: ''
+  description: Video uploads from ITPro on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6r2CYsKIDjG0Z-VBn4ahVA
   category: Podcasts & YouTube
   title: Jason Ford {JSON:SEC}
   type: atom
-  description: ''
+  description: Video uploads from Jason Ford {JSON:SEC} on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCBNG0osIBAprVcZZ3ic84vw
   category: Podcasts & YouTube
   title: Jim Browning
   type: atom
-  description: ''
+  description: Video uploads from Jim Browning on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3zosnqUbG7CFw
   category: Podcasts & YouTube
   title: John Hammond
   type: atom
-  description: ''
+  description: Video uploads from John Hammond on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbbBt23LHt4WhjiWh67NJ3w
   category: Podcasts & YouTube
   title: Jon Good
   type: atom
-  description: ''
+  description: Video uploads from Jon Good on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCm22FAXZMw1BaWeFszZxUKw
   category: Podcasts & YouTube
   title: Kitboga
   type: atom
-  description: ''
+  description: Video uploads from Kitboga on YouTube.
 - url: https://ericcole.libsyn.com/rss
   category: Podcasts & YouTube
   title: Life of a CISO with Dr. Eric Cole
   type: ''
-  description: ''
+  description: The biggest threat to you and this country today is a cyber attack.
+    Are you protected? Find out now with Dr. Eric Cole, former special agent for the
+    CIA and current CEO of Secure Anchor.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w
   category: Podcasts & YouTube
   title: LiveOverflow
   type: atom
-  description: ''
+  description: Video uploads from LiveOverflow on YouTube.
 - url: https://malicious.life/feed/podcast
   category: Podcasts & YouTube
   title: Malicious Life
   type: ''
-  description: ''
+  description: Tales of cybersecurity. The wildest hacks you can ever imagine, told
+    by people who were actually there. Dig into a history you never knew existed.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCVFXrUwuWxNlm6UNZtBLJ-A
   category: Podcasts & YouTube
   title: MalwareAnalysisForHedgehogs
   type: atom
-  description: ''
+  description: Video uploads from MalwareAnalysisForHedgehogs on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWoH3f-Yx6TxJfO2O_ezJUw
   category: Podcasts & YouTube
   title: MyDFIR
   type: atom
-  description: ''
+  description: Video uploads from MyDFIR on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCCZDt7MuC3Hzs6IH4xODLBw
   category: Podcasts & YouTube
   title: Nahamsec
   type: atom
-  description: ''
+  description: Video uploads from Nahamsec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ
   category: Podcasts & YouTube
   title: NetworkChuck
   type: atom
-  description: ''
+  description: Video uploads from NetworkChuck on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC--DwaiMV-jtO-6EvmKOnqg
   category: Podcasts & YouTube
   title: OALabs
   type: atom
-  description: ''
+  description: Video uploads from OALabs on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UChYZsplz61SeG0olX6cMoAA
   category: Podcasts & YouTube
   title: OffSec
   type: atom
-  description: ''
+  description: Video uploads from OffSec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCe8j61ABYDuPTdtjItD2veA
   category: Podcasts & YouTube
   title: OWASP Foundation
   type: atom
-  description: ''
+  description: Video uploads from OWASP Foundation on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCeZgoXbccmkcf9viz974MEA
   category: Podcasts & YouTube
   title: Phillip Wylie
   type: atom
-  description: ''
+  description: Video uploads from Phillip Wylie on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmXwpkCXmIKjoRLMsq9I3RA
   category: Podcasts & YouTube
   title: PinkDraconian
   type: atom
-  description: ''
+  description: Video uploads from PinkDraconian on YouTube.
 - url: https://nakedsecurity.sophos.com/category/audio-and-video/podcast/feed
   category: Podcasts & YouTube
   title: Podcast – Naked Security
   type: ''
-  description: ''
+  description: Podcast or video feed from Podcast – Naked Security.
 - url: https://opensourcesecurity.io/category/podcast/rss
   category: Podcasts & YouTube
   title: Podcast – Open Source Security
   type: ''
-  description: ''
+  description: Podcast or video feed from Podcast – Open Source Security.
 - url: https://www.social-engineer.org/podcasts/feed
   category: Podcasts & YouTube
   title: Podcasts Archive - Security Through Education
   type: ''
-  description: ''
+  description: A free learning resource from Social-Engineer, LLC
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCJ_dsa5WPjwNGK8PLnB18Bw
   category: Podcasts & YouTube
   title: PurpleSec
   type: atom
-  description: ''
+  description: Video uploads from PurpleSec on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC8nq3PX9coMiqgKH6fw-VCQ
   category: Podcasts & YouTube
   title: Red Team Village
   type: atom
-  description: ''
+  description: Video uploads from Red Team Village on YouTube.
 - url: https://feeds.simplecast.com/GzAtTpW2
   category: Podcasts & YouTube
   title: Redefining CyberSecurity
   type: ''
-  description: ''
+  description: Redefining CyberSecurity Podcast Hosted by Sean Martin, CISSP Have
+    you ever thought that we are selling cybersecurity insincerely, buying it indiscriminately,
+    and deploying it ineffectively? For cybersecurity to be ge...
 - url: https://risky.biz/feeds/risky-business-news
   category: Podcasts & YouTube
   title: Risky Business News
   type: ''
-  description: ''
+  description: Regular cybersecurity news updates from the Risky Business team...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYzwGkfOqrevO-4TuTjPLwQ
   category: Podcasts & YouTube
   title: RSA Conference
   type: atom
-  description: ''
+  description: Video uploads from RSA Conference on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC5qEPWtHLFRIjhW_3xd5g2A
   category: Podcasts & YouTube
   title: Sandra - Tech &amp; Lifestyle
   type: atom
-  description: ''
+  description: Video uploads from Sandra - Tech & Lifestyle on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCMaclFQGtT064H9KNsfomGA
   category: Podcasts & YouTube
   title: SANS Cloud Security
   type: atom
-  description: ''
+  description: Video uploads from SANS Cloud Security on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2uPNhGken-ogEpJDi4ly6w
   category: Podcasts & YouTube
   title: SANS Institute
   type: atom
-  description: ''
+  description: Video uploads from SANS Institute on YouTube.
 - url: https://www.dshield.org/dailypodcast.xml
   category: Podcasts & YouTube
   title: SANS Internet Stormcenter Daily Cyber Security Podcast (Stormcast)
@@ -458,47 +490,50 @@
   title: SANS Internet Stormcenter Daily Network/Cyber Security and Information Security
     Stormcast
   type: ''
-  description: ''
+  description: Daily update on current cyber security threats
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP28F4uf9s2V1_SQwnJST_A
   category: Podcasts & YouTube
   title: SANS Offensive Operations
   type: atom
-  description: ''
+  description: Video uploads from SANS Offensive Operations on YouTube.
 - url: https://section9.us/podcast?format=rss
   category: Podcasts & YouTube
   title: SECTION 9 Cyber Security
   type: ''
-  description: ''
+  description: '&&&&&&<&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&'
 - url: https://feeds.buzzsprout.com/2137278.rss
   category: Podcasts & YouTube
   title: Security Beyond The Checkbox
   type: ''
-  description: ''
+  description: Move past checkbox security and optimize the return on your cybersecurity
+    investments. As the co-founder and CEO/CMO of PurpleSec, Jason Firch leverages
+    his extensive expertise to guide listeners through the "Security...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXXNOelGiY_N96a2nfhcaDA
   category: Podcasts & YouTube
   title: Security BSides London
   type: atom
-  description: ''
+  description: Video uploads from Security BSides London on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWemrSP6Aba171jXReCz_Qg
   category: Podcasts & YouTube
   title: Security BSides San Francisco
   type: atom
-  description: ''
+  description: Video uploads from Security BSides San Francisco on YouTube.
 - url: https://feeds.buzzsprout.com/1822302.rss
   category: Podcasts & YouTube
   title: Security Cryptography Whatever
   type: ''
-  description: ''
+  description: Some cryptography & security people talk about security, cryptography,
+    and whatever else is happening.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNbqa_9xihC8yaV2o6dlsUg
   category: Podcasts & YouTube
   title: Security Now
   type: atom
-  description: ''
+  description: Video uploads from Security Now on YouTube.
 - url: https://leoville.tv/podcasts/sn.xml
   category: Podcasts & YouTube
   title: Security Now (Audio)
   type: ''
-  description: ''
+  description: Podcast or video feed from Security Now (Audio).
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLdPwyUeH0mS566Y0YZ7oAGghzMgRlWTBf
   category: Podcasts & YouTube
   title: Security Now (YouTube Playlist)
@@ -514,22 +549,24 @@
   category: Podcasts & YouTube
   title: Security Weekly
   type: atom
-  description: ''
+  description: Video uploads from Security Weekly on YouTube.
 - url: https://feeds.libsyn.com/134669/rss
   category: Podcasts & YouTube
   title: Security Weekly (Download Only)
   type: ''
-  description: ''
+  description: Repository for download only audio entities.
 - url: https://hntvaudio.swsgtv.libsynpro.com/rss
   category: Podcasts & YouTube
   title: Security Weekly News (Audio)
   type: ''
-  description: ''
+  description: Podcast or video feed from Security Weekly News (Audio).
 - url: https://feeds.libsyn.com/81244/rss
   category: Podcasts & YouTube
   title: Security Weekly News (Video)
   type: ''
-  description: ''
+  description: 'Concise, bi-weekly reviews of the most significant security stories,
+    including malware, threats, government actions, and other cybersecurity topics.
+    Hosted by Dr. Doug White. Co hosts: Josh Marpet, Aaran Leyland.'
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLlPkFwQHxYE5CBDxb2i-r_HjVaazxyh4i
   category: Podcasts & YouTube
   title: Security Weekly News (YouTube)
@@ -545,122 +582,130 @@
   category: Podcasts & YouTube
   title: SecurityFWD
   type: atom
-  description: ''
+  description: Video uploads from SecurityFWD on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCSR2-ioTo7Tk7IB3TPSE6_A
   category: Podcasts & YouTube
   title: SecurityMetrics, Inc.
   type: atom
-  description: ''
+  description: Video uploads from SecurityMetrics, Inc. on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCW6xlqxSY3gGur4PkGPEUeA
   category: Podcasts & YouTube
   title: Seytonic
   type: atom
-  description: ''
+  description: Video uploads from Seytonic on YouTube.
 - url: https://feeds.buzzsprout.com/2154459.rss
   category: Podcasts & YouTube
   title: ShadowTalk powered by ReliaQuest
   type: ''
-  description: ''
+  description: Want to hear what industry experts really think about the cyber threats
+    they face? ShadowTalk is a weekly cybersecurity podcast, made by practitioners
+    for practitioners, featuring analytical insights on the latest cyb...
 - url: https://www.smashingsecurity.com/rss
   category: Podcasts & YouTube
   title: Smashing Security
   type: ''
-  description: ''
+  description: Hacking stories and cybersecurity insights
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCC1vbVVbYdNe-OZRldj-U6g
   category: Podcasts & YouTube
   title: SocialEngineerOrg
   type: atom
-  description: ''
+  description: Video uploads from SocialEngineerOrg on YouTube.
 - url: https://feeds.libsyn.com/127181/rss
   category: Podcasts & YouTube
   title: Software Engineering Institute (SEI) Podcast Series
   type: ''
-  description: ''
+  description: The SEI Podcast Series presents conversations in software engineering,
+    cybersecurity, and future technologies.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLXQOTWipgpd6CtDKrclqNw
   category: Podcasts & YouTube
   title: StudioSec
   type: atom
-  description: ''
+  description: Video uploads from StudioSec on YouTube.
 - url: https://surveillancereport.tech/feed
   category: Podcasts & YouTube
   title: Surveillance Report
   type: ''
-  description: ''
+  description: Podcast or video feed from Surveillance Report.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0W_BIuwk8D0Bv4THbVZZOQ
   category: Podcasts & YouTube
   title: Surveillance Report
   type: atom
-  description: ''
+  description: Video uploads from Surveillance Report on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCebj---w2CTP49tah7a8Veg
   category: Podcasts & YouTube
   title: t3l3machus
   type: atom
-  description: ''
+  description: Video uploads from t3l3machus on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCK9QTAgoEyo6ZwuggepHSvQ
   category: Podcasts & YouTube
   title: The Cyber Distortion Podcast
   type: atom
-  description: ''
+  description: Video uploads from The Cyber Distortion Podcast on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw
   category: Podcasts & YouTube
   title: The Cyber Mentor
   type: atom
-  description: ''
+  description: Video uploads from The Cyber Mentor on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6W86lQzOrz6X4aQTTKAB1A
   category: Podcasts & YouTube
   title: The Cyber Security Recruiter
   type: atom
-  description: ''
+  description: Video uploads from The Cyber Security Recruiter on YouTube.
 - url: https://www.steptoe.com/feed-Cyberlaw.rss
   category: Podcasts & YouTube
   title: The Cyberlaw Podcast
   type: ''
-  description: ''
+  description: The Cyberlaw Podcast is a weekly interview series and discussion offering
+    an opinionated roundup of the latest events in technology, security, privacy,
+    and government. It features in-depth interviews of a wide variety...
 - url: https://feeds.simplecast.com/vRu9TC9N
   category: Podcasts & YouTube
   title: The Hacker Factory
   type: ''
-  description: ''
+  description: Podcast or video feed from The Hacker Factory.
 - url: https://feed.podbean.com/thehackermind/feed.xml
   category: Podcasts & YouTube
   title: The Hacker Mind
   type: ''
-  description: ''
+  description: Podcast or video feed from The Hacker Mind.
 - url: https://feeds.simplecast.com/_hSKbGFl
   category: Podcasts & YouTube
   title: The Host Unknown Podcast
   type: ''
-  description: ''
+  description: Host Unknown is the unholy alliance of the old, the new and the rockstars
+    of the infosec industry in an internet-based show that tries to care about issues
+    in our industry. It regularly fails. With presenters that hav...
 - url: https://anchor.fm/s/532bea14/podcast/rss
   category: Podcasts & YouTube
   title: The Official Offensive Security Podcast
   type: ''
-  description: ''
+  description: The one and only official podcast from OffSec, Inc. -- creators of
+    the Kali OS, the OSCP certification, and the world's leading cybersecurity training
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCKGe7fZ_S788Jaspxg-_5Sg
   category: Podcasts & YouTube
   title: The PC Security Channel
   type: atom
-  description: ''
+  description: Video uploads from The PC Security Channel on YouTube.
 - url: https://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss
   category: Podcasts & YouTube
   title: The Privacy, Security, &amp; OSINT Show
   type: ''
-  description: ''
+  description: Podcast or video feed from The Privacy, Security, &amp; OSINT Show.
 - url: https://securityledger.com/feed/podcast
   category: Podcasts & YouTube
   title: The Security Ledger with Paul F. Roberts
   type: ''
-  description: ''
+  description: Podcast or video feed from The Security Ledger with Paul F. Roberts.
 - url: https://sharedsecurity.net/feed
   category: Podcasts & YouTube
   title: The Shared Security Show
   type: ''
-  description: ''
+  description: The longest running cybersecurity and privacy podcast for actual humans.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCjBhClJ59W4hfUly51i11hg
   category: Podcasts & YouTube
   title: The XSS rat
   type: atom
-  description: ''
+  description: Video uploads from The XSS rat on YouTube.
 - url: https://www.youtube.com/feeds/videos.xml?playlist_id=PLW5y1tjAOzI0Sx4UU2fncEwQ9BQLr5Vlu
   category: Podcasts & YouTube
   title: Threat Wire (YouTube)
@@ -670,39 +715,46 @@
   category: Podcasts & YouTube
   title: Troy Hunt&#x27;s Weekly Update Podcast
   type: ''
-  description: ''
+  description: Podcast or video feed from Troy Hunt&#x27;s Weekly Update Podcast.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCGwKrfQJWHgZeFFumnjrpAA
   category: Podcasts & YouTube
   title: Truffle Security
   type: atom
-  description: ''
+  description: Video uploads from Truffle Security on YouTube.
 - url: https://ubuntusecuritypodcast.org/episode/index.xml
   category: Podcasts & YouTube
   title: Ubuntu Security Podcast
   type: ''
-  description: ''
+  description: A fortnightly podcast talking about the latest developments and updates
+    from the Ubuntu Security team, including a summary of recent security vulnerabilities
+    and fixes as well as a discussion on some of the goings on...
 - url: https://www.spreaker.com/show/3246578/episodes/feed
   category: Podcasts & YouTube
   title: 'UNSECURITY: Information Security Podcast'
   type: ''
-  description: ''
+  description: Weekly information security podcast airing Monday mornings hosted by
+    Oscar Minks and Brad Nigh. In a unique focus on protecting personal information,
+    Oscar and Brad discuss information security as an issue that includ...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4-GrpQBx6WCGwmwozP744Q
   category: Podcasts & YouTube
   title: USENIX
   type: atom
-  description: ''
+  description: Video uploads from USENIX on YouTube.
 - url: https://loudtreemedia.com/shows/what-the-hack-with-adam-levin/feed
   category: Podcasts & YouTube
   title: What the Hack with Adam Levin Archives - Loud Tree Media
   type: ''
-  description: ''
+  description: Podcast or video feed from What the Hack with Adam Levin Archives -
+    Loud Tree Media.
 - url: https://feed.podbean.com/whattheshell/feed.xml
   category: Podcasts & YouTube
   title: What the Shell?
   type: ''
-  description: ''
+  description: Welcome to ”What the Shell?” where I dive into major hacks and vulnerabilities
+    in a way meant to be accessible by anyone. Come with me as we look at each incident
+    through an exciting lens of curiosity. Join us on our...
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw
   category: Podcasts & YouTube
   title: Wild West Hackin&#x27; Fest
   type: atom
-  description: ''
+  description: Video uploads from Wild West Hackin' Fest on YouTube.

@@ -28,7 +28,8 @@
   category: Vendors & Product Blogs
   title: ANY.RUN Cybersecurity Blog
   type: rss
-  description: ''
+  description: Cybersecurity Blog covers topics for experienced professionals as well
+    as for those new to it.
 - url: https://blog.securityinnovation.com/rss.xml
   category: Vendors & Product Blogs
   title: Application and Cybersecurity Blog
@@ -55,7 +56,7 @@
     updates, and research.
 - url: https://bishopfox.com/feeds/blog.rss
   category: Vendors & Product Blogs
-  title: bishopfox.com
+  title: Bishopfox
   type: ''
   description: The leader in offensive security, providing continuous pen testing,
     red teaming, attack surface management, and traditional security assessments.
@@ -73,7 +74,7 @@
   category: Vendors & Product Blogs
   title: Blog | Sam Curry
   type: ''
-  description: ''
+  description: Updates from Blog | Sam Curry.
 - url: https://www.zerofox.com/blog/feed
   category: Vendors & Product Blogs
   title: Blog – ZeroFox
@@ -153,7 +154,7 @@
   description: Vendor security updates, advisories, and guidance from Cyble.
 - url: https://daniel.haxx.se/blog/feed
   category: Vendors & Product Blogs
-  title: daniel.haxx.se
+  title: Haxx Daniel
   type: ''
   description: tech, open source and networking
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=DefenderExternalAttackSurfaceMgmtBlog
@@ -230,7 +231,7 @@
   category: Vendors & Product Blogs
   title: G DATA Security Blog
   type: rss
-  description: ''
+  description: Updates from G DATA Security Blog.
 - url: https://feeds.feedburner.com/gbhackers
   category: Vendors & Product Blogs
   title: GBHackers On Security
@@ -283,124 +284,126 @@
   description: A blog about all things internet security
 - url: https://bitwarden.com/blog/feed.xml
   category: Vendors & Product Blogs
-  title: https://bitwarden.com/blog/feed.xml
+  title: The Bitwarden Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://bitwarden.com/blog/feed.xml.
+  description: Vendor security blog and product updates from The Bitwarden Blog.
 - url: https://blog.1password.com/index.xml
   category: Vendors & Product Blogs
-  title: https://blog.1password.com/index.xml
+  title: Blog on 1Password Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://blog.1password.com/index.xml.
+  description: Vendor security blog and product updates from Blog on 1Password Blog.
 - url: https://censys.com/feed
   category: Vendors & Product Blogs
-  title: https://censys.com/feed/
+  title: Censys
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://censys.com/feed/.
+  description: Vendor security blog and product updates from Censys.
 - url: https://claroty.com/team82/disclosure-dashboard/feed/atom
   category: Vendors & Product Blogs
-  title: https://claroty.com/team82/disclosure-dashboard/feed/atom
+  title: Team82 Disclosure Dashboard
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://claroty.com/team82/disclosure-dashboard/feed/atom.
+  description: Vendor security blog and product updates from Team82 Disclosure Dashboard.
 - url: https://cymulate.com/feed
   category: Vendors & Product Blogs
-  title: https://cymulate.com/feed/
+  title: Cymulate
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://cymulate.com/feed/.
+  description: Vendor security blog and product updates from Cymulate.
 - url: https://frame.work/blog.rss
   category: Vendors & Product Blogs
-  title: https://frame.work/blog.rss
+  title: Framework Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://frame.work/blog.rss.
+  description: Vendor security blog and product updates from Framework Blog.
 - url: https://gosecure.ai/feed
   category: Vendors & Product Blogs
-  title: https://gosecure.ai/feed/
+  title: Gosecure
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://gosecure.ai/feed/.
+  description: Vendor security blog and product updates from Gosecure.
 - url: https://outpost24.com/feed
   category: Vendors & Product Blogs
-  title: https://outpost24.com/feed/
+  title: Outpost24
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://outpost24.com/feed/.
+  description: Vendor security blog and product updates from Outpost24.
 - url: https://owncloud.com/feed
   category: Vendors & Product Blogs
-  title: https://owncloud.com/feed/
+  title: ownCloud
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://owncloud.com/feed/.
+  description: Vendor security blog and product updates from ownCloud.
 - url: https://podman-desktop.io/blog/atom.xml
   category: Vendors & Product Blogs
-  title: https://podman-desktop.io/blog/atom.xml
+  title: Podman Desktop Blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://podman-desktop.io/blog/atom.xml.
+  description: Vendor security blog and product updates from Podman Desktop Blog.
 - url: https://redcanary.com/feed
   category: Vendors & Product Blogs
-  title: https://redcanary.com/feed/
+  title: Red Canary
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://redcanary.com/feed/.
+  description: Vendor security blog and product updates from Red Canary.
 - url: https://scorpiosoftware.net/feed
   category: Vendors & Product Blogs
-  title: https://scorpiosoftware.net/feed/
+  title: Pavel Yosifovich
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://scorpiosoftware.net/feed/.
+  description: Vendor security blog and product updates from Pavel Yosifovich.
 - url: https://securitylabs.datadoghq.com/rss/feed.xml
   category: Vendors & Product Blogs
-  title: https://securitylabs.datadoghq.com/rss/feed.xml
+  title: Datadog Security Labs
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://securitylabs.datadoghq.com/rss/feed.xml.
+  description: Vendor security blog and product updates from Datadog Security Labs.
 - url: https://unit42.paloaltonetworks.com/feed
   category: Vendors & Product Blogs
-  title: https://unit42.paloaltonetworks.com/feed/
+  title: Unit 42
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://unit42.paloaltonetworks.com/feed/.
+  description: Vendor security blog and product updates from Unit 42.
 - url: https://www.aquasec.com/feed
   category: Vendors & Product Blogs
-  title: https://www.aquasec.com/feed/
+  title: Aqua
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.aquasec.com/feed/.
+  description: Vendor security blog and product updates from Aqua.
 - url: https://www.blackhillsinfosec.com/feed
   category: Vendors & Product Blogs
-  title: https://www.blackhillsinfosec.com/feed/
+  title: Black Hills Information Security, Inc.
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.blackhillsinfosec.com/feed/.
+  description: Vendor security blog and product updates from Black Hills Information
+    Security, Inc..
 - url: https://www.datadoghq.com/blog/index.xml
   category: Vendors & Product Blogs
-  title: https://www.datadoghq.com/blog/index.xml
+  title: Datadog | The Monitor blog
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.datadoghq.com/blog/index.xml.
+  description: Vendor security blog and product updates from Datadog | The Monitor
+    blog.
 - url: https://www.kandji.io/blog/rss.xml
   category: Vendors & Product Blogs
-  title: https://www.kandji.io/blog/rss.xml
+  title: The Sequence
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.kandji.io/blog/rss.xml.
+  description: Vendor security blog and product updates from The Sequence.
 - url: https://www.outflank.nl/feed
   category: Vendors & Product Blogs
-  title: https://www.outflank.nl/feed/
+  title: Outflank
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.outflank.nl/feed/.
+  description: Vendor security blog and product updates from Outflank.
 - url: https://www.praetorian.com/feed
   category: Vendors & Product Blogs
-  title: https://www.praetorian.com/feed/
+  title: Praetorian
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.praetorian.com/feed/.
+  description: Vendor security blog and product updates from Praetorian.
 - url: https://www.sentinelone.com/feed
   category: Vendors & Product Blogs
-  title: https://www.sentinelone.com/feed/
+  title: SentinelOne
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.sentinelone.com/feed/.
+  description: Vendor security blog and product updates from SentinelOne.
 - url: https://www.sonarsource.com/blog/rss.xml
   category: Vendors & Product Blogs
-  title: https://www.sonarsource.com/blog/rss.xml
+  title: Blog RSS feed
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.sonarsource.com/blog/rss.xml.
+  description: Vendor security blog and product updates from Blog RSS feed.
 - url: https://www.sygnia.co/feed
   category: Vendors & Product Blogs
-  title: https://www.sygnia.co/feed/
+  title: Sygnia
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.sygnia.co/feed/.
+  description: Vendor security blog and product updates from Sygnia.
 - url: https://www.wiz.io/feed/rss.xml
   category: Vendors & Product Blogs
-  title: https://www.wiz.io/feed/rss.xml
+  title: Wiz Blog | RSS feed
   type: rss
-  description: Vendor security updates, advisories, and guidance from https://www.wiz.io/feed/rss.xml.
+  description: Vendor security blog and product updates from Wiz Blog | RSS feed.
 - url: https://securityintelligence.com/feed
   category: Vendors & Product Blogs
   title: IBM Security Intelligence
@@ -437,7 +440,8 @@
   category: Vendors & Product Blogs
   title: LevelBlue (SpiderLabs Blog)
   type: rss
-  description: ''
+  description: The security community's go-to destination for technical breakdowns
+    of the latest threats, critical vulnerability disclosures and cutting-edge research.
 - url: https://www.lightbluetouchpaper.org/feed
   category: Vendors & Product Blogs
   title: Light Blue Touchpaper
@@ -551,7 +555,7 @@
   category: Vendors & Product Blogs
   title: Mozilla Security Blog
   type: ''
-  description: ''
+  description: Updates from Mozilla Security Blog.
 - url: https://msrc.microsoft.com/blog/categories/msrc/feed
   category: Vendors & Product Blogs
   title: MSRC on Microsoft Security Response Center
@@ -567,7 +571,7 @@
   category: Vendors & Product Blogs
   title: NordVPN Blog
   type: rss
-  description: ''
+  description: Updates from NordVPN Blog.
 - url: https://objective-see.org/rss.xml
   category: Vendors & Product Blogs
   title: Objective-See&#x27;s Blog
@@ -700,7 +704,7 @@
   category: Vendors & Product Blogs
   title: ReversingLabs Blog
   type: rss
-  description: ''
+  description: Latest blog posts from ReversingLabs
 - url: https://blog.google/technology/safety-security/rss
   category: Vendors & Product Blogs
   title: Safety & Security
