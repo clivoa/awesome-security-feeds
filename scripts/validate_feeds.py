@@ -2,27 +2,18 @@
 """Validate feeds/*.yaml (required url + duplicates)."""
 from __future__ import annotations
 
-from pathlib import Path
-from urllib.parse import urlparse
 import sys
-import yaml
+from pathlib import Path
+
+try:
+    from feed_utils import load_yaml_list, normalize_url
+except ModuleNotFoundError:  # pragma: no cover - supports module execution
+    from scripts.feed_utils import load_yaml_list, normalize_url
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS_DIR = ROOT / "feeds"
 ALLOWED_TYPES = {"rss", "atom", ""}
 
-def norm_url(u: str) -> str:
-    u = (u or "").strip()
-    if not u:
-        return u
-    pu = urlparse(u)
-    scheme = (pu.scheme or "http").lower()
-    netloc = (pu.netloc or "").lower()
-    if netloc.endswith(":80") and scheme == "http":
-        netloc = netloc[:-3]
-    if netloc.endswith(":443") and scheme == "https":
-        netloc = netloc[:-4]
-    return pu._replace(scheme=scheme, netloc=netloc, fragment="").geturl()
 
 def main() -> None:
     paths = sorted(FEEDS_DIR.glob("*.yaml"))
@@ -35,9 +26,10 @@ def main() -> None:
     total = 0
 
     for p in paths:
-        data = yaml.safe_load(p.read_text(encoding="utf-8")) or []
-        if not isinstance(data, list):
-            print(f"[FAIL] {p}: expected list")
+        try:
+            data = load_yaml_list(p)
+        except SystemExit as exc:
+            print(f"[FAIL] {exc}")
             errors += 1
             continue
         for i, it in enumerate(data, start=1):
@@ -51,7 +43,7 @@ def main() -> None:
                 print(f"[FAIL] {p} #{i}: missing url")
                 errors += 1
                 continue
-            url = norm_url(url_raw)
+            url = normalize_url(url_raw)
             t = str(it.get("type", "")).strip().lower()
             if t not in ALLOWED_TYPES:
                 print(f"[WARN] {p} #{i}: unusual type='{t}'")
@@ -65,6 +57,7 @@ def main() -> None:
         print(f"[FAIL] {errors} error(s) across {total} items")
         sys.exit(1)
     print(f"[OK] {total} items, {len(seen)} unique URLs")
+
 
 if __name__ == "__main__":
     main()

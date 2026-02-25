@@ -34,6 +34,15 @@ jobs:
             tldextract \
             beautifulsoup4
 
+      - name: Restore discovery seen cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/discovery/feeds_seen.json
+          key: discovery-seen-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            discovery-seen-${{ runner.os }}-${{ github.ref_name }}-
+            discovery-seen-${{ runner.os }}-
+
       - name: Run feed discovery (bucketed candidates)
         run: |
           python scripts/discover_security_feeds.py \
@@ -42,6 +51,13 @@ jobs:
             --write-yaml-split \
             --yaml-split-dir feeds/_candidates \
             --max-new-candidates 75
+
+      - name: Save discovery seen cache
+        if: always() && hashFiles('data/discovery/feeds_seen.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: data/discovery/feeds_seen.json
+          key: discovery-seen-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
 
       - name: Upload discovery state (artifact)
         if: always()

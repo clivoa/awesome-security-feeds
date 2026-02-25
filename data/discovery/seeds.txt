@@ -1,0 +1,14 @@
+# Discovery seed pages (one URL per line)
+# Prefer link-heavy, human-curated pages (awesome lists, publications hubs).
+
+https://github.com/sbilly/awesome-security
+https://github.com/enaqx/awesome-pentest
+https://github.com/meirwah/awesome-incident-response
+https://github.com/tylerha97/awesome-malware-analysis
+https://github.com/hslatman/awesome-threat-intelligence
+https://github.com/fabacab/awesome-cybersecurity-blueteam
+https://github.com/0x4D31/awesome-threat-detection
+https://github.com/paralax/awesome-honeypots
+https://github.com/jivoi/awesome-osint
+https://github.com/toolswatch/blackhat-arsenal-tools
+https://github.com/trailofbits/publications

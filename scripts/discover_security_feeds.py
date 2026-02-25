@@ -37,29 +37,61 @@ import re
 import time
 from datetime import datetime, timezone
 from dataclasses import dataclass, asdict
-from typing import Optional
+from typing import Any, Optional
 from urllib.parse import urljoin, urlparse
 
 import feedparser
 import requests
 import yaml
-from bs4 import BeautifulSoup
+try:
+    from bs4 import BeautifulSoup
+except ModuleNotFoundError:  # pragma: no cover - optional until runtime needs HTML parsing
+    BeautifulSoup = None
 
 UA = "awesome-security-feeds-discovery/1.2 (+https://github.com/)"
 
-# Seed pages that tend to link out to many security resources/blogs
+# Fallback seed pages (prefer data/discovery/seeds.txt when present).
 DEFAULT_SEEDS = [
     "https://github.com/sbilly/awesome-security",
     "https://github.com/enaqx/awesome-pentest",
     "https://github.com/meirwah/awesome-incident-response",
     "https://github.com/tylerha97/awesome-malware-analysis",
+    "https://github.com/hslatman/awesome-threat-intelligence",
+    "https://github.com/fabacab/awesome-cybersecurity-blueteam",
+    "https://github.com/0x4D31/awesome-threat-detection",
     "https://github.com/paralax/awesome-honeypots",
     "https://github.com/jivoi/awesome-osint",
     "https://github.com/toolswatch/blackhat-arsenal-tools",
     "https://github.com/trailofbits/publications",
-    "https://www.reddit.com/r/netsec/",
-    "https://www.reddit.com/r/blueteamsec/",
 ]
+
+# High-noise platforms/asset domains frequently present in "awesome" pages.
+DISCOVERY_IGNORED_HOSTS = {
+    "github.com",
+    "gist.github.com",
+    "raw.githubusercontent.com",
+    "api.github.com",
+    "reddit.com",
+    "old.reddit.com",
+    "np.reddit.com",
+    "x.com",
+    "twitter.com",
+    "t.co",
+    "linkedin.com",
+    "www.linkedin.com",
+    "facebook.com",
+    "www.facebook.com",
+    "youtube.com",
+    "www.youtube.com",
+    "youtu.be",
+    "img.shields.io",
+    "shields.io",
+    "badge.fury.io",
+}
+DISCOVERY_IGNORED_FILE_EXTS = (
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".css", ".js", ".ico",
+    ".pdf", ".zip", ".tar", ".gz", ".tgz", ".bz2", ".7z",
+)
 
 COMMON_FEED_PATHS = [
     "/feed", "/feed/", "/rss", "/rss/", "/rss.xml", "/atom.xml", "/feed.xml", "/index.xml",
@@ -128,6 +160,7 @@ CANDIDATE_BUCKET_LABELS = {
 
 OUT_CANDIDATES_YAML_DIR = "feeds/_candidates"
 OUT_CANDIDATES_JSON_DIR = "data/discovery/candidates"
+DEFAULT_SEEDS_FILE = "data/discovery/seeds.txt"
 DEFAULT_BLOCKED_DOMAINS = "data/discovery/blocked_domains.txt"
 DEFAULT_BLOCKED_FEEDS = "data/discovery/blocked_feeds.txt"
 
@@ -196,6 +229,103 @@ def slugify(s: str, max_len: int = 50) -> str:
 
 def ensure_dir(path: str) -> None:
     os.makedirs(path, exist_ok=True)
+
+
+def require_bs4() -> None:
+    if BeautifulSoup is None:
+        raise SystemExit("Missing dependency: beautifulsoup4 (pip install beautifulsoup4)")
+
+
+def log_info(message: str) -> None:
+    print(f"[INFO] {message}", flush=True)
+
+
+def log_ok(message: str) -> None:
+    print(f"[OK] {message}", flush=True)
+
+
+def load_seed_urls(seeds_file: str, max_seeds: int) -> list[str]:
+    seeds: list[str] = []
+    if seeds_file:
+        try:
+            with open(seeds_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        seeds.append(line)
+        except FileNotFoundError:
+            # Fall back to built-in seeds so the workflow still runs on fresh clones.
+            seeds = []
+
+    if not seeds:
+        seeds = list(DEFAULT_SEEDS)
+
+    normalized: list[str] = []
+    seen: set[str] = set()
+    for seed in seeds:
+        url = normalize_url(seed)
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        normalized.append(url)
+        if len(normalized) >= max(1, max_seeds):
+            break
+    return normalized
+
+
+def is_blocked_host(host: str, blocked_domains: set[str]) -> bool:
+    if not host:
+        return True
+    if host in blocked_domains:
+        return True
+    return any(host.endswith(f".{d}") for d in blocked_domains if d)
+
+
+def should_skip_candidate_site(url: str, blocked_domains: set[str]) -> bool:
+    host = norm_host(url)
+    if not host or "." not in host:
+        return True
+    if host in DISCOVERY_IGNORED_HOSTS:
+        return True
+    if is_blocked_host(host, blocked_domains):
+        return True
+    return False
+
+
+def sort_yaml_items(items: list[dict]) -> None:
+    items.sort(
+        key=lambda x: (
+            str(x.get("category") or "").lower(),
+            str(x.get("title") or "").lower(),
+            str(x.get("type") or "").lower(),
+            str(x.get("url") or ""),
+        )
+    )
+
+
+def dedupe_candidates_keep_best(candidates: list["FeedCandidate"]) -> list["FeedCandidate"]:
+    uniq: dict[str, FeedCandidate] = {}
+    for candidate in candidates:
+        prev = uniq.get(candidate.url_hash)
+        if prev is None or candidate.score > prev.score:
+            uniq[candidate.url_hash] = candidate
+    return sorted(uniq.values(), key=lambda x: x.score, reverse=True)
+
+
+def update_seen_cache(seen: dict[str, Any], candidates: list["FeedCandidate"]) -> None:
+    now_ts = int(time.time())
+    for c in candidates:
+        seen.setdefault(c.url_hash, {})
+        seen[c.url_hash].update(
+            {
+                "feed_url": c.feed_url,
+                "site_url": c.site_url,
+                "title": c.title,
+                "last_seen_ts": now_ts,
+                "score": c.score,
+                "feed_type": c.feed_type,
+            }
+        )
 
 
 def bucket_for_candidate(c: "FeedCandidate") -> str:
@@ -343,6 +473,7 @@ def write_candidate_json_split(candidates: list["FeedCandidate"], out_dir: str, 
         written += 1
     return written
 
+
 def normalize_url(url: str) -> str:
     url = (url or "").strip()
     if not url:
@@ -350,13 +481,23 @@ def normalize_url(url: str) -> str:
     if not re.match(r"^https?://", url, re.I):
         url = "https://" + url
     p = urlparse(url)
-    return p._replace(fragment="").geturl()
+    if not p.netloc:
+        return ""
+    scheme = (p.scheme or "https").lower()
+    netloc = (p.netloc or "").lower()
+    if netloc.endswith(":80") and scheme == "http":
+        netloc = netloc[:-3]
+    if netloc.endswith(":443") and scheme == "https":
+        netloc = netloc[:-4]
+    path = p.path or ""
+    return p._replace(scheme=scheme, netloc=netloc, path=path, fragment="").geturl()
 
 
 def base_origin(url: str) -> str:
     p = urlparse(url)
-    scheme = p.scheme or "https"
-    return f"{scheme}://{p.netloc}"
+    scheme = (p.scheme or "https").lower()
+    netloc = (p.netloc or "").lower()
+    return f"{scheme}://{netloc}" if netloc else ""
 
 
 def polite_get(session: requests.Session, url: str, timeout: int, sleep_s: float) -> Optional[requests.Response]:
@@ -378,6 +519,7 @@ def is_probably_html(resp: requests.Response) -> bool:
 
 
 def extract_outbound_links(html: str, base: str) -> set[str]:
+    require_bs4()
     soup = BeautifulSoup(html, "html.parser")
     urls: set[str] = set()
 
@@ -395,7 +537,7 @@ def extract_outbound_links(html: str, base: str) -> set[str]:
             continue
 
         # skip obvious assets
-        if any(pu.path.lower().endswith(ext) for ext in (".png", ".jpg", ".jpeg", ".gif", ".svg", ".css", ".js", ".ico", ".pdf", ".zip")):
+        if any(pu.path.lower().endswith(ext) for ext in DISCOVERY_IGNORED_FILE_EXTS):
             continue
 
         urls.add(u)
@@ -404,6 +546,7 @@ def extract_outbound_links(html: str, base: str) -> set[str]:
 
 
 def extract_rel_alternate_feeds(html: str, base: str) -> set[str]:
+    require_bs4()
     soup = BeautifulSoup(html, "html.parser")
     feeds: set[str] = set()
 
@@ -429,11 +572,11 @@ def validate_feed(session: requests.Session, feed_url: str, timeout: int, sleep_
     if not resp or resp.status_code != 200:
         return None
 
-    text = resp.text or ""
-    if len(text) < 80:
+    body = resp.content or b""
+    if len(body) < 80:
         return None
 
-    parsed = feedparser.parse(text)
+    parsed = feedparser.parse(body)
     if not parsed or not getattr(parsed, "entries", None) or len(parsed.entries) == 0:
         return None
 
@@ -516,6 +659,9 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
         return []
 
     origin = base_origin(site_url)
+    if not origin or should_skip_candidate_site(origin, blocked_domains):
+        return []
+
     rel_feeds: set[str] = set()
 
     resp = polite_get(session, origin, timeout=timeout, sleep_s=sleep_s)
@@ -530,7 +676,7 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
     for feed_url in list(candidates):
         nurl = normalize_url(feed_url).lower()
         host = norm_host(nurl)
-        if host and host in blocked_domains:
+        if is_blocked_host(host, blocked_domains):
             continue
         if nurl in blocked_feeds or feed_url.lower() in blocked_feeds:
             continue
@@ -566,6 +712,87 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
         )
 
     return out
+
+
+def collect_candidate_sites(
+    session: requests.Session,
+    seeds: list[str],
+    *,
+    max_sites: int,
+    timeout: int,
+    sleep_s: float,
+    blocked_domains: set[str],
+) -> list[str]:
+    candidate_sites: set[str] = set()
+
+    for seed in seeds:
+        resp = polite_get(session, seed, timeout=timeout, sleep_s=sleep_s)
+        if not resp or resp.status_code != 200 or not is_probably_html(resp):
+            continue
+
+        seed_origin = base_origin(seed)
+        if not seed_origin:
+            continue
+
+        for url in extract_outbound_links(resp.text, seed_origin):
+            origin = base_origin(url)
+            if not origin or should_skip_candidate_site(origin, blocked_domains):
+                continue
+            candidate_sites.add(origin)
+            if len(candidate_sites) >= max_sites:
+                break
+
+        if len(candidate_sites) >= max_sites:
+            break
+
+    return sorted(candidate_sites)[:max_sites]
+
+
+def collect_feed_candidates(
+    session: requests.Session,
+    site_list: list[str],
+    *,
+    timeout: int,
+    sleep_s: float,
+    min_score: int,
+    blocked_domains: set[str],
+    blocked_feeds: set[str],
+) -> list[FeedCandidate]:
+    candidates: list[FeedCandidate] = []
+    for site in site_list:
+        discovered = discover_site_feeds(
+            session,
+            site,
+            timeout=timeout,
+            sleep_s=sleep_s,
+            blocked_domains=blocked_domains,
+            blocked_feeds=blocked_feeds,
+        )
+        for c in discovered:
+            if c.score >= min_score:
+                candidates.append(c)
+    return candidates
+
+
+def load_existing_feed_urls(feeds_dir: str) -> set[str]:
+    """Load already-known feed URLs from feeds/*.yaml and feeds/_candidates/*.yaml."""
+    urls: set[str] = set()
+    candidate_dirs = [feeds_dir, os.path.join(feeds_dir, "_candidates")]
+
+    for directory in candidate_dirs:
+        if not os.path.isdir(directory):
+            continue
+        for name in sorted(os.listdir(directory)):
+            if not name.endswith(".yaml"):
+                continue
+            path = os.path.join(directory, name)
+            for item in load_yaml_list(path):
+                if not isinstance(item, dict):
+                    continue
+                url = normalize_url(str(item.get("url", "")))
+                if url:
+                    urls.add(url.lower())
+    return urls
 
 
 def load_json(path: str, default):
@@ -637,9 +864,13 @@ def merge_by_url(existing: list[dict], new_items: list[dict]) -> tuple[list[dict
     return existing, added
 
 
-def main():
+def build_arg_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--seeds-file", default="", help="Optional seeds file (one URL per line)")
+    ap.add_argument(
+        "--seeds-file",
+        default=DEFAULT_SEEDS_FILE,
+        help=f"Seeds file (one URL per line). Falls back to built-in list if missing. Default: {DEFAULT_SEEDS_FILE}",
+    )
     ap.add_argument("--max-seeds", type=int, default=10)
     ap.add_argument("--max-sites", type=int, default=400)
     ap.add_argument("--min-score", type=int, default=6)
@@ -660,30 +891,28 @@ def main():
     # Filters / governance
     ap.add_argument("--blocked-domains-file", default=DEFAULT_BLOCKED_DOMAINS, help="Blocklist of domains to ignore (one per line)")
     ap.add_argument("--blocked-feeds-file", default=DEFAULT_BLOCKED_FEEDS, help="Blocklist of feed URLs to ignore (one per line)")
+    ap.add_argument("--known-feeds-dir", default="feeds", help="Directory with existing feeds YAML files used to skip already-known feeds")
     ap.add_argument("--only-new", action="store_true", help="Only include URLs never seen before (cache)")
-    ap.add_argument("--merge-existing", action="store_true", help="Merge into existing feeds/discovered.yaml (default true when --write-yaml)")
-    args = ap.parse_args()
-
-    print("[INFO] discover_security_feeds starting...", flush=True)
-    print(f"[INFO] CWD={os.getcwd()}", flush=True)
-    print(f"[INFO] DATA_DIR={DATA_DIR} OUT_YAML={OUT_YAML}", flush=True)
+    ap.set_defaults(merge_existing=True)
+    ap.add_argument("--merge-existing", dest="merge_existing", action="store_true", help="Merge into existing feeds/discovered.yaml (default)")
+    ap.add_argument("--no-merge-existing", dest="merge_existing", action="store_false", help="Replace feeds/discovered.yaml instead of merging")
+    return ap
 
 
-    os.makedirs(DATA_DIR, exist_ok=True)
-    print(f"[INFO] Ensured directory exists: {DATA_DIR}", flush=True)
+def main() -> None:
+    args = build_arg_parser().parse_args()
 
+    log_info("discover_security_feeds starting...")
+    log_info(f"CWD={os.getcwd()}")
+    log_info(f"DATA_DIR={DATA_DIR} OUT_YAML={OUT_YAML}")
 
-    # Seeds
-    seeds: list[str] = []
-    if args.seeds_file:
-        with open(args.seeds_file, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    seeds.append(line)
+    ensure_dir(DATA_DIR)
+    log_info(f"Ensured directory exists: {DATA_DIR}")
+    seeds = load_seed_urls(args.seeds_file, args.max_seeds)
+    if args.seeds_file and os.path.exists(args.seeds_file):
+        log_info(f"Loaded seeds from {args.seeds_file}: {len(seeds)}")
     else:
-        seeds = list(DEFAULT_SEEDS)
-    seeds = seeds[: max(1, args.max_seeds)]
+        log_info(f"Using built-in seeds: {len(seeds)}")
 
     session = requests.Session()
 
@@ -695,46 +924,45 @@ def main():
     blocked_feeds = load_blocklist(args.blocked_feeds_file)
 
     if blocked_domains:
-        print(f"[INFO] Loaded blocked domains: {len(blocked_domains)} from {args.blocked_domains_file}")
+        log_info(f"Loaded blocked domains: {len(blocked_domains)} from {args.blocked_domains_file}")
     if blocked_feeds:
-        print(f"[INFO] Loaded blocked feeds: {len(blocked_feeds)} from {args.blocked_feeds_file}")
-
+        log_info(f"Loaded blocked feeds: {len(blocked_feeds)} from {args.blocked_feeds_file}")
 
     # 1) Crawl seeds -> candidate site origins
-    candidate_sites: set[str] = set()
-    for seed in seeds:
-        seed = normalize_url(seed)
-        if not seed:
-            continue
-        resp = polite_get(session, seed, timeout=args.timeout, sleep_s=args.sleep)
-        if not resp or resp.status_code != 200 or not is_probably_html(resp):
-            continue
-
-        links = extract_outbound_links(resp.text, base_origin(seed))
-        for u in links:
-            candidate_sites.add(base_origin(u))
-        if len(candidate_sites) >= args.max_sites:
-            break
-
-    site_list = list(candidate_sites)[: args.max_sites]
+    site_list = collect_candidate_sites(
+        session,
+        seeds,
+        max_sites=args.max_sites,
+        timeout=args.timeout,
+        sleep_s=args.sleep,
+        blocked_domains=blocked_domains,
+    )
 
     # 2) Discover + validate feeds
-    candidates: list[FeedCandidate] = []
-    for site in site_list:
-        discovered = discover_site_feeds(session, site, timeout=args.timeout, sleep_s=args.sleep, blocked_domains=blocked_domains, blocked_feeds=blocked_feeds)
-        for c in discovered:
-            if c.score < args.min_score:
-                continue
-            candidates.append(c)
+    candidates = collect_feed_candidates(
+        session,
+        site_list,
+        timeout=args.timeout,
+        sleep_s=args.sleep,
+        min_score=args.min_score,
+        blocked_domains=blocked_domains,
+        blocked_feeds=blocked_feeds,
+    )
 
     # 3) Deduplicate by feed URL hash; keep best score
-    uniq: dict[str, FeedCandidate] = {}
-    for c in candidates:
-        prev = uniq.get(c.url_hash)
-        if prev is None or c.score > prev.score:
-            uniq[c.url_hash] = c
+    final = dedupe_candidates_keep_best(candidates)
 
-    final = sorted(uniq.values(), key=lambda x: x.score, reverse=True)
+    # 3b) Skip feeds already present in repo (main feeds and current candidate buckets)
+    known_feed_urls = load_existing_feed_urls(args.known_feeds_dir)
+    if known_feed_urls:
+        before_known_filter = len(final)
+        final = [
+            c for c in final
+            if normalize_url(c.feed_url).lower() not in known_feed_urls
+        ]
+        skipped_known = before_known_filter - len(final)
+        if skipped_known:
+            log_info(f"Skipped already-known feeds from repo YAMLs: {skipped_known}")
 
     # 4) Write candidates JSON
     candidates_path = os.path.join(DATA_DIR, "feeds_candidates.json")
@@ -748,15 +976,15 @@ def main():
         yaml_items.append(candidate_to_yaml_item(c))
 
     # Sort for diff-friendly output
-    yaml_items.sort(key=lambda x: (x["category"].lower(), x["title"].lower(), x["type"].lower(), x["url"]))
+    sort_yaml_items(yaml_items)
 
     # 6) Write/merge discovered.yaml
     added = 0
     if args.write_yaml:
         existing = load_yaml_list(OUT_YAML)
-        if args.merge_existing or True:
+        if args.merge_existing:
             merged, added = merge_by_url(existing, yaml_items)
-            merged.sort(key=lambda x: (x["category"].lower(), x["title"].lower(), x["type"].lower(), x["url"]))
+            sort_yaml_items(merged)
             save_yaml_list(OUT_YAML, merged)
         else:
             save_yaml_list(OUT_YAML, yaml_items)
@@ -776,34 +1004,20 @@ def main():
             print(f"[OK] Updated YAML candidate buckets: +{split_yaml_added} new feeds → {args.yaml_split_dir}")
     if args.write_json_split:
         split_json_written = write_candidate_json_split(final, args.json_split_dir, args.only_new, seen)
-        print(f"[OK] Wrote JSON evidence (per-feed): {split_json_written} → {args.json_split_dir}")
-
-
+        log_ok(f"Wrote JSON evidence (per-feed): {split_json_written} -> {args.json_split_dir}")
 
     # 7) Update seen cache
-    now_ts = int(time.time())
-    for c in final:
-        seen.setdefault(c.url_hash, {})
-        seen[c.url_hash].update(
-            {
-                "feed_url": c.feed_url,
-                "site_url": c.site_url,
-                "title": c.title,
-                "last_seen_ts": now_ts,
-                "score": c.score,
-                "feed_type": c.feed_type,
-            }
-        )
+    update_seen_cache(seen, final)
     save_json(seen_path, seen)
 
     # Summary
-    print(f"[OK] Seeds scanned: {len(seeds)}")
-    print(f"[OK] Candidate sites: {len(site_list)}")
-    print(f"[OK] Candidate feeds kept (score>={args.min_score}): {len(final)}")
-    print(f"[OK] Wrote: {candidates_path}")
-    print(f"[OK] Wrote cache: {seen_path}")
+    log_ok(f"Seeds scanned: {len(seeds)}")
+    log_ok(f"Candidate sites: {len(site_list)}")
+    log_ok(f"Candidate feeds kept (score>={args.min_score}): {len(final)}")
+    log_ok(f"Wrote: {candidates_path}")
+    log_ok(f"Wrote cache: {seen_path}")
     if args.write_yaml:
-        print(f"[OK] Updated: {OUT_YAML} (added {added} new items)")
+        log_ok(f"Updated: {OUT_YAML} (added {added} new items)")
 
 
 if __name__ == "__main__":

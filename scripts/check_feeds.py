@@ -19,11 +19,13 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
-from urllib.parse import urlparse, urlunparse
 
 import feedparser
 import requests
-import yaml
+try:
+    from feed_utils import load_yaml_list, normalize_url
+except ModuleNotFoundError:  # pragma: no cover - supports module execution
+    from scripts.feed_utils import load_yaml_list, normalize_url
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS_DIR = ROOT / "feeds"
@@ -34,36 +36,25 @@ TIMEOUT_SECS = 10
 MAX_FEEDS = 2500
 USER_AGENT = "securityfeeds-checker/1.0"
 
-def norm_url(u: str) -> str:
-    u = (u or "").strip()
-    if not u:
-        return u
-    pu = urlparse(u)
-    scheme = (pu.scheme or "http").lower()
-    netloc = (pu.netloc or "").lower()
-    if netloc.endswith(":80") and scheme == "http":
-        netloc = netloc[:-3]
-    if netloc.endswith(":443") and scheme == "https":
-        netloc = netloc[:-4]
-    return urlunparse((scheme, netloc, pu.path or "", "", pu.query or "", ""))
 
 def load_feeds() -> List[str]:
     urls: List[str] = []
     if FEEDS_JSON.exists():
         data = json.loads(FEEDS_JSON.read_text(encoding="utf-8"))
         for it in data.get("feeds", []) or []:
-            u = norm_url(str(it.get("url", "")).strip())
+            u = normalize_url(str(it.get("url", "")).strip())
             if u:
                 urls.append(u)
     else:
         for p in sorted(FEEDS_DIR.glob("*.yaml")):
-            items = yaml.safe_load(p.read_text(encoding="utf-8")) or []
-            if not isinstance(items, list):
+            try:
+                items = load_yaml_list(p)
+            except SystemExit:
                 continue
             for it in items:
                 if not isinstance(it, dict):
                     continue
-                u = norm_url(str(it.get("url", "")).strip())
+                u = normalize_url(str(it.get("url", "")).strip())
                 if u:
                     urls.append(u)
 
@@ -75,6 +66,7 @@ def load_feeds() -> List[str]:
         seen.add(u)
         out.append(u)
     return out[:MAX_FEEDS]
+
 
 def check_one(url: str) -> Dict[str, Any]:
     headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
@@ -139,6 +131,7 @@ def check_one(url: str) -> Dict[str, Any]:
     finally:
         result["latency_ms"] = int((time.time() - started) * 1000)
 
+
 def main() -> None:
     urls = load_feeds()
     checked_at = datetime.now(timezone.utc).isoformat()
@@ -166,6 +159,7 @@ def main() -> None:
     OUT_STATUS.parent.mkdir(parents=True, exist_ok=True)
     OUT_STATUS.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"[OK] Wrote {OUT_STATUS} ({active} active / {down} down)")
+
 
 if __name__ == "__main__":
     main()

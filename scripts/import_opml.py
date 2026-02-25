@@ -16,47 +16,15 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import re
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
-from urllib.parse import urlparse, urlunparse
 
 import yaml
 import xml.etree.ElementTree as ET
-
-
-RE_WS = re.compile(r"\s+")
-
-
-def clean_text(s: str) -> str:
-    return RE_WS.sub(" ", (s or "").strip()).strip()
-
-
-def norm_url(u: str) -> str:
-    u = (u or "").strip()
-    if not u:
-        return u
-    pu = urlparse(u)
-    scheme = (pu.scheme or "http").lower()
-    netloc = (pu.netloc or "").lower()
-
-    # Drop default ports
-    if netloc.endswith(":80") and scheme == "http":
-        netloc = netloc[:-3]
-    if netloc.endswith(":443") and scheme == "https":
-        netloc = netloc[:-4]
-
-    # Keep query; drop fragment
-    return urlunparse((scheme, netloc, pu.path or "", "", pu.query or "", ""))
-
-
-def slugify(s: str) -> str:
-    s = (s or "").strip().lower()
-    s = s.replace("&", " and ")
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = re.sub(r"-{2,}", "-", s).strip("-")
-    return s or "uncategorized"
+try:
+    from feed_utils import clean_text, normalize_url, slugify
+except ModuleNotFoundError:  # pragma: no cover - supports module execution
+    from scripts.feed_utils import clean_text, normalize_url, slugify
 
 
 def parse_opml(opml_path: Path) -> List[Tuple[str, List[Dict[str, Any]]]]:
@@ -92,7 +60,7 @@ def parse_opml(opml_path: Path) -> List[Tuple[str, List[Dict[str, Any]]]]:
 
             feeds.append(
                 {
-                    "url": norm_url(url),
+                    "url": normalize_url(url),
                     "title": title,
                     "description": desc,
                     "type": ftype,
@@ -115,7 +83,7 @@ def parse_opml(opml_path: Path) -> List[Tuple[str, List[Dict[str, Any]]]]:
             ftype = clean_text(o.get("type") or "").lower()
             feeds.append(
                 {
-                    "url": norm_url(url),
+                    "url": normalize_url(url),
                     "title": title,
                     "description": desc,
                     "type": ftype,
@@ -167,7 +135,7 @@ def write_yaml_files(categories: List[Tuple[str, List[Dict[str, Any]]]], out_dir
 
     slug_counts: Dict[str, int] = {}
     for cat_name, feeds in categories:
-        slug = slugify(cat_name)
+        slug = slugify(cat_name, fallback="uncategorized", ampersand_to_and=True)
         slug_counts[slug] = slug_counts.get(slug, 0) + 1
         if slug_counts[slug] > 1:
             slug = f"{slug}-{slug_counts[slug]}"

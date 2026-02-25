@@ -25,27 +25,24 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 import yaml
-
-
-def clean_text(s: str) -> str:
-    s = (s or "").strip()
-    s = re.sub(r"\s+", " ", s)
-    return s
+try:
+    from feed_utils import clean_text, load_yaml_list, normalize_url
+except ModuleNotFoundError:  # pragma: no cover - supports module execution
+    from scripts.feed_utils import clean_text, load_yaml_list, normalize_url
 
 
 def norm_url(url: str) -> str:
-    url = (url or "").strip()
-    # normalize scheme + trailing slash
-    url = re.sub(r"^http://", "https://", url, flags=re.I)
-    url = re.sub(r"#.*$", "", url)  # strip fragments
-    url = url.rstrip("/")
-    return url
+    return normalize_url(
+        url,
+        force_https=True,
+        strip_trailing_slash=True,
+        drop_fragment=True,
+    )
 
 
 def _ordered_item(it: Dict[str, Any]) -> Dict[str, Any]:
@@ -60,9 +57,7 @@ def _ordered_item(it: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _load_yaml_list(path: Path) -> List[Dict[str, Any]]:
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or []
-    if not isinstance(data, list):
-        raise SystemExit(f"Invalid YAML in {path} (expected list)")
+    data = load_yaml_list(path)
     out: List[Dict[str, Any]] = []
     for idx, it in enumerate(data, start=1):
         if not isinstance(it, dict):

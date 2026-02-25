@@ -10,20 +10,13 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
-import re
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
-import yaml
-
-
-def load_yaml_list(path: Path) -> list[dict]:
-    data = yaml.safe_load(path.read_text(encoding="utf-8"))
-    if data is None:
-        return []
-    if not isinstance(data, list):
-        raise SystemExit(f"{path}: expected a YAML list")
-    return data
+try:
+    from feed_utils import load_yaml_list, slugify
+except ModuleNotFoundError:  # pragma: no cover - supports module execution
+    from scripts.feed_utils import load_yaml_list, slugify
 
 
 def md_escape(value: str) -> str:
@@ -35,12 +28,6 @@ def md_escape(value: str) -> str:
         .replace("|", "\\|")
         .strip()
     )
-
-
-def slugify(text: str) -> str:
-    text = text.lower().strip()
-    text = re.sub(r"[^a-z0-9\\s-]", "", text)
-    return re.sub(r"\\s+", "-", text)
 
 
 def main() -> int:
