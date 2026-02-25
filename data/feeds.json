@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T21:51:17.533440+00:00",
+  "generated_at": "2026-02-25T22:42:56.378923+00:00",
   "total": 1148,
   "feeds": [
     {
@@ -19,7 +19,7 @@
     {
       "url": "https://blog.chainalysis.com/feed",
       "title": "Chainalysis",
-      "description": "A timeout occurred Error code 524 Visit cloudflare.com for more information. 2024-01-08 21:23:13 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "description": "Chainalysis is the blockchain analysis company",
       "type": "",
       "category": "Crypto & Blockchain Security"
     },
@@ -82,14 +82,14 @@
     {
       "url": "https://kb.cert.org/vuls/atomfeed",
       "title": "CERT Recently Published Vulnerability Notes",
-      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. Many vulnerability notes are the...",
+      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors.",
       "type": "atom",
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
       "url": "https://www.kb.cert.org/vuls/atomfeed",
       "title": "CERT Recently Published Vulnerability Notes",
-      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. Many vulnerability notes are the...",
+      "description": "CERT publishes vulnerability advisories called \"Vulnerability Notes.\" Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors.",
       "type": "atom",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -306,7 +306,7 @@
     {
       "url": "https://www.reddit.com/r/computerforensics",
       "title": "Computer Forensics",
-      "description": "Dedicated to the branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in …",
+      "description": "Dedicated to the branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime.",
       "type": "",
       "category": "DFIR & Forensics"
     },
@@ -579,7 +579,7 @@
     {
       "url": "https://www.404media.co/rss",
       "title": "404 Media",
-      "description": "404 Media is a new independent media company founded by technology journalists Jason Koebler, Emanuel Maiberg, Samantha Cole, and Joseph …",
+      "description": "404 Media is a new independent media company",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1132,7 +1132,7 @@
     {
       "url": "https://cloud7.news/feed/gn",
       "title": "Cloud7 News",
-      "description": "Cloud7 is a news source that publishes the latest news, reviews, comparisons, opinions, and exclusive interviews to help tech users …",
+      "description": "Cloud7 is a news source that publishes the latest news, reviews, comparisons, opinions, and exclusive interviews.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1230,7 +1230,7 @@
     {
       "url": "https://www.cshub.com/rss/categories/threat-defense",
       "title": "CS Hub (Threat Defense)",
-      "description": "Heading attackers off at the pass begins with quality threat defense. That could be a layered solution approach, or leading threat intelligence spread across the security environment. Cyber Security Hub provides comme...",
+      "description": "Heading attackers off at the pass begins with quality threat defense. That could be a layered solution approach, or leading threat intelligence spread across the security environment.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
@@ -1279,14 +1279,14 @@
     {
       "url": "https://www.cshub.com/rss/articles",
       "title": "Cyber Security Hub - Articles",
-      "description": "&amp;gt; JavaScript is disabled In order to continue, you need to verify that you&#x27;re not a robot by solving a …",
+      "description": "The Cyber Security Hub is an online news source for global cyber security professionals and business leaders who leverage technology and services to secure the entire perimeter of their enterprise.",
       "type": "",
       "category": "General Security & Blogs"
     },
     {
       "url": "https://www.cshub.com/rss/news",
       "title": "Cyber Security Hub - News",
-      "description": "&amp;gt; JavaScript is disabled In order to continue, you need to verify that you&#x27;re not a robot by solving a …",
+      "description": "The Cyber Security Hub is an online news source for global cyber security professionals and business leaders who leverage technology and services to secure the entire perimeter of their enterprise.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1328,7 +1328,7 @@
     {
       "url": "https://www.cyberscoop.com/feed",
       "title": "CyberScoop",
-      "description": "CyberScoop is the leading media brand in the cybersecurity market. With more than 6.0M monthly unique engagements, CyberScoop reports on …",
+      "description": "CyberScoop is the leading media brand in the cybersecurity market.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1496,7 +1496,7 @@
     {
       "url": "https://www.digitaljournal.com/feed",
       "title": "Digital Journal",
-      "description": "Digital Journal is a digital media news network with thousands of Digital Journalists in 200 countries around the world. Join …",
+      "description": "Digital Journal is a digital media news network with thousands of Digital Journalists in 200 countries around the world.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1846,7 +1846,7 @@
     {
       "url": "https://www.sciencedaily.com/rss/computers_math/hacking.xml",
       "title": "Hacking News -- ScienceDaily",
-      "description": "Hacking and computer security. Read today&#x27;s research news on hacking and protecting against codebreakers. New software, secure data sharing, and …",
+      "description": "Hacking and computer security. Latest research and news on hacking, including vulnerabilities, exploits, and cyber attacks.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -1951,7 +1951,7 @@
     {
       "url": "https://feeds.feedburner.com/HealthTechMagazine",
       "title": "HealthTech Magazine",
-      "description": "To continue, please type the characters below: About this page Our systems have detected unusual traffic from your computer network. …",
+      "description": "HealthTech Magazine (published by CDW) is a leading B2B publication focusing on IT in healthcare, targeting decision-makers, IT managers, and professionals.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -2056,7 +2056,7 @@
     {
       "url": "https://infosecwriteups.com/feed",
       "title": "InfoSec Write-ups - Medium",
-      "description": "A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs to …",
+      "description": "A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3015,7 +3015,7 @@
     {
       "url": "https://rss.beehiiv.com/feeds/tLSvUYOBwf.xml",
       "title": "Return on Security",
-      "description": "Save hours of market research with a weekly review of cybersecurity funding and industry news in 5 minutes, with the …",
+      "description": "Beehiiv is a purpose-built, all-in-one newsletter platform designed for creators to publish, grow, and monetize their audience without requiring coding skills.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3071,7 +3071,7 @@
     {
       "url": "https://risky.biz/feeds/risky-business",
       "title": "Risky Business",
-      "description": "Risky Business is a weekly information security podcast featuring news and in-depth interviews with industry luminaries. Launched in February 2007, …",
+      "description": "Risky.biz is an independent information security news platform and podcast network founded by Patrick Gray in 2007, serving as a key resource for cybersecurity professionals.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3155,21 +3155,21 @@
     {
       "url": "https://www.scmagazine.com/feed/topic/policy",
       "title": "SC Magazine feed for Policy",
-      "description": "Connection timed out Error code 522 Visit cloudflare.com for more information. 2023-05-23 11:17:52 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "description": "SC Media (formerly SC Magazine) is a prominent, long-standing media brand focused on the cybersecurity industry.",
       "type": "",
       "category": "General Security & Blogs"
     },
     {
       "url": "https://www.scmagazine.com/feed/topic/risk-management",
       "title": "SC Magazine feed for Risk Management",
-      "description": "Gateway time-out Error code 504 Visit cloudflare.com for more information. 2023-05-17 01:20:10 UTC You Browser Working Frankfurt Cloudflare Working www.scmagazine.com …",
+      "description": "SC Media (formerly SC Magazine) is a prominent, long-standing media brand focused on the cybersecurity industry.",
       "type": "",
       "category": "General Security & Blogs"
     },
     {
       "url": "https://www.scmagazine.com/feed/topic/strategy",
       "title": "SC Magazine feed for Strategy",
-      "description": "Please enable cookies. Sorry, you have been blocked You are unable to access scmagazine.com Why have I been blocked? This …",
+      "description": "SC Media (formerly SC Magazine) is a prominent, long-standing media brand focused on the cybersecurity industry.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3267,7 +3267,7 @@
     {
       "url": "https://www.wired.com/feed/category/security/rss",
       "title": "Security News: Cybersecurity, Hacks, Privacy, National Security",
-      "description": "News, research, and updates on general security & blogs from Security News: Cybersecurity, Hacks, Privacy, National Se….",
+      "description": "News, research, and updates on general security & blogs from Security News, Cybersecurity, Hacks, Privacy, National Security.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
@@ -3288,7 +3288,7 @@
     {
       "url": "https://www.techtarget.com/searchsecurity/rss/Security-Wire-Daily-News.xml",
       "title": "Security Resources and Information from TechTarget",
-      "description": "Sorry something went wrong. Contact customer support by email at : Please reference the following information : Connection timed out …",
+      "description": "Network security news, advice and technical information.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3428,7 +3428,7 @@
     {
       "url": "https://www.siliconrepublic.com/feed",
       "title": "Silicon Republicinfosec – Silicon Republic",
-      "description": "Silicon Republic is a leading source for technology, science and start-up news, information and resources for people who are passionate …",
+      "description": "Silicon Republic is a leading source for technology, science and start-up news, information and resources for people who are passionate.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3736,7 +3736,7 @@
     {
       "url": "https://systemweakness.com/feed",
       "title": "System Weakness - Medium",
-      "description": "System Weakness is a publication that specialises in publishing upcoming writers in cybersecurity and ethical hacking space. Our security experts …",
+      "description": "System Weakness is a publication that specialises in publishing upcoming writers in cybersecurity and ethical hacking space.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3799,7 +3799,7 @@
     {
       "url": "https://www.reutersagency.com/feed/?best-topics=tech",
       "title": "Technology | Reuters News Agency",
-      "description": "We tell all sides, but take none. We go back to the start, where there’s no bias and no agenda …",
+      "description": "Reuters is one of the world's largest, oldest, and most reputable international multimedia news agencies.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3911,7 +3911,7 @@
     {
       "url": "https://www.theinformation.com/feed",
       "title": "The Information",
-      "description": "The Information has a simple mission: deliver important, deeply reported stories about the technology business you won’t find elsewhere. Many …",
+      "description": "The Information is a premier, subscription-based digital publication focused on in-depth, original reporting on the technology, media, and finance industries.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3925,7 +3925,7 @@
     {
       "url": "https://thenewstack.io/feed",
       "title": "The New Stack",
-      "description": "The New Stack is a media platform for the people who build and manage software the world relies on. We …",
+      "description": "Founded in 2014 by Alex Williams, The New Stack (thenewstack.io) is a premier digital media platform providing in-depth analysis on modern software development, cloud-native computing, and DevOps.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -3988,7 +3988,7 @@
     {
       "url": "https://www.theverge.com/rss/index.xml",
       "title": "The Verge - All Posts",
-      "description": "Be back soon. Chorus Logo Our sites are offline for maintenance. Thank you for your patience while we’re making these …",
+      "description": "The Verge is a prominent American technology news and media network operated by Vox Media, launched on November 1, 2011. It provides in-depth reporting, long-form features, breaking news, product reviews, and podcasts, focusing on the intersection of technology, science, art, and culture.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -4233,7 +4233,7 @@
     {
       "url": "https://www.yahoo.com/tech/rss",
       "title": "Yahoo Tech",
-      "description": "Follow the biggest tech news with the experts at Yahoo Tech. Read the latest product reviews by David Pogue and …",
+      "description": "Follow the biggest tech news with the experts at Yahoo Tech.",
       "type": "",
       "category": "General Security & Blogs"
     },
@@ -4394,7 +4394,7 @@
     {
       "url": "https://www.kb.cert.org/vulfeed",
       "title": "CERT Recently Published Vulnerability Notes",
-      "description": "CERT publishes vulnerability advisories called &quot;Vulnerability Notes.&quot; Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. …",
+      "description": "CERT publishes vulnerability advisories called &quot;Vulnerability Notes.&quot; Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors.",
       "type": "",
       "category": "Government, CERT & Advisories"
     },
@@ -4492,7 +4492,7 @@
     {
       "url": "https://api.msrc.microsoft.com/update-guide/rss",
       "title": "MSRC Security Update Guide",
-      "description": "The Microsoft Security Response Center (MSRC) investigates all reports of security vulnerabilities affecting Microsoft products and services, and provides the …",
+      "description": "The Microsoft Security Response Center (MSRC) investigates all reports of security vulnerabilities affecting Microsoft products and services, and provides the public with information about the vulnerabilities and their mitigations.",
       "type": "",
       "category": "Government, CERT & Advisories"
     },
@@ -4856,7 +4856,7 @@
     {
       "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
       "title": "FortiGuard Labs | FortiGuard Center - Threat Signal Report",
-      "description": "The Threat Signal created by the FortiGuard Labs is intended to provide you with insight on emerging issues that are …",
+      "description": "The Threat Signal created by the FortiGuard Labs is intended to provide you with insight on emerging issues that are being observed in the threat landscape.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -4905,7 +4905,7 @@
     {
       "url": "https://www.legitsecurity.com/blog/rss.xml",
       "title": "Legit Security Blog",
-      "description": "The Legit Security Blog. Our mission is to secure every organization&#x27;s software factory (code, pipelines, infrastructure and people) for faster …",
+      "description": "The Legit Security Blog. Our mission is to secure every organization&#x27;s software factory (code, pipelines, infrastructure and people) for faster.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -5003,7 +5003,7 @@
     {
       "url": "https://opalsec.substack.com/feed",
       "title": "Opalsec",
-      "description": "Actionable Threat Intelligence &amp; analysis of emerging Infosec news, straight to your inbox. No marketing, no fluff - let&#x27;s talk …",
+      "description": "Actionable Threat Intelligence & analysis of emerging Infosec news, straight to your inbox. No marketing, no fluff — let's talk security.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -5087,7 +5087,7 @@
     {
       "url": "https://www.scmagazine.com/feed/topic/threats",
       "title": "SC Magazine feed for Threats",
-      "description": "Please enable cookies. Sorry, you have been blocked You are unable to access scmagazine.com Why have I been blocked? This …",
+      "description": "SC Media (formerly SC Magazine) is a prominent cybersecurity media brand providing in-depth analysis, news, and research for security practitioners and executives.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -5122,7 +5122,7 @@
     {
       "url": "https://www.netskope.com/blog/category/netskope-threat-labs/feed",
       "title": "Threat Labs - Netskope",
-      "description": "Web server is down The web server is not returning a connection. As a result, the web page is not …",
+      "description": "Netskope is a leading cybersecurity company specializing in cloud-native security and networking services designed to protect data, users, and devices anywhere they go. It is a recognized leader in the Security Service Edge (SSE) and Secure Access Service Edge (SASE) markets, focusing on replacing traditional security approaches with modern, Zero Trust-based solutions.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -5178,7 +5178,7 @@
     {
       "url": "https://wesecureapp.com/feed",
       "title": "WeSecureApp :: Simplifying Enterprise Security!",
-      "description": "Stay ahead of cyber threats with offensive security solutions - penetration testing, red teaming, network, &amp; cloud security, along with …",
+      "description": "WeSecureApp (now part of Strobes Security) is a CERT-In empanelled offensive security company specializing in penetration testing, vulnerability assessments, and managed security services.",
       "type": "",
       "category": "Malware & Threat Research"
     },
@@ -5283,7 +5283,7 @@
     {
       "url": "https://www.reddit.com/r/InfoSecNews",
       "title": "Information Security News",
-      "description": "This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet. …",
+      "description": "This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet.",
       "type": "",
       "category": "OSINT, Communities & Subreddits"
     },
@@ -6585,7 +6585,7 @@
     {
       "url": "https://www.lawfareblog.com/taxonomy/term/5798/all/feed",
       "title": "Cybersecurity",
-      "description": "As our lives become increasingly dependent upon computer systems and cyber technologies grow ever more sophisticated, the internet has emerged …",
+      "description": "Lawfare is a non-profit, online publication focused on the intersection of national security law, policy, and technology, with a particular emphasis on legal debates surrounding U.S. security actions.",
       "type": "",
       "category": "Vendors & Product Blogs"
     },
@@ -6690,7 +6690,7 @@
     {
       "url": "https://fingerprint.com/rss.xml",
       "title": "Fingerprint Blog RSS Feed",
-      "description": "The Fingerprint device intelligence platform works across web and mobile applications to identify all visitors with 99.5% accuracy — even …",
+      "description": "Stop fraud, detect bots, or delight customers. Identify good and bad visitors with industry-leading accuracy - even if they're anonymous.",
       "type": "",
       "category": "Vendors & Product Blogs"
     },
@@ -7250,7 +7250,7 @@
     {
       "url": "https://scotthelme.co.uk/rss",
       "title": "Scott Helme",
-      "description": "Hi, I&#x27;m Scott Helme, a Security Researcher, Entrepreneur and International Speaker. I&#x27;m the creator of Report URI and Security Headers, …",
+      "description": "Scotthelme.co.uk is the personal blog and professional site of Scott Helme, a renowned security researcher, international speaker, and entrepreneur.",
       "type": "",
       "category": "Vendors & Product Blogs"
     },
@@ -7446,7 +7446,7 @@
     {
       "url": "https://blog.ironcorelabs.com/feed",
       "title": "The Salty Hash - Medium",
-      "description": "Tips, tricks, pointers and perspectives on building secure, testable, maintainable apps. Thoughts and observations about security and privacy from IronCore …",
+      "description": "IronCore Labs is a data security company that provides a platform for application-layer encryption and data protection, primarily targeting modern cloud applications, SaaS platforms, and AI workloads.",
       "type": "",
       "category": "Vendors & Product Blogs"
     },
@@ -7579,7 +7579,7 @@
     {
       "url": "https://xploitlab.com/feed",
       "title": "XploitLab",
-      "description": "A timeout occurred Error code 524 Visit cloudflare.com for more information. 2024-02-04 11:19:08 UTC You Browser Working Frankfurt Cloudflare Working …",
+      "description": "XploitLab - Interactive Cybersecurity Learning Platform.",
       "type": "",
       "category": "Vendors & Product Blogs"
     },
@@ -7747,7 +7747,7 @@
     {
       "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
       "title": "FortiGuard Labs | FortiGuard Center - IR Advisories",
-      "description": "The following is a list of advisories for issues resolved in Fortinet products. The resolution of such issues is coordinated …",
+      "description": "filestore.fortinet.com is a subdomain and repository managed by Fortinet used to host files, software packages, firmware images, and documentation for various Fortinet products.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7768,35 +7768,35 @@
     {
       "url": "https://linuxsecurity.com/advisories/debian?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Debian",
-      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
       "url": "https://linuxsecurity.com/advisories/oracle?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Oracle",
-      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
       "url": "https://linuxsecurity.com/advisories/red-hat?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Red Hat",
-      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
       "url": "https://linuxsecurity.com/advisories/slackware?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Slackware",
-      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
       "url": "https://linuxsecurity.com/advisories/ubuntu?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Ubuntu",
-      "description": "LinuxSecurity.com is the community&#x27;s central source for information on Linux and open source security. We follow the open source trends …",
+      "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
       "type": "",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
