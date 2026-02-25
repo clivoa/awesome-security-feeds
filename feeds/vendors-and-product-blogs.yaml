@@ -140,8 +140,7 @@
   category: Vendors & Product Blogs
   title: Cybersecurity
   type: ''
-  description: As our lives become increasingly dependent upon computer systems and
-    cyber technologies grow ever more sophisticated, the internet has emerged …
+  description: Lawfare is a non-profit, online publication focused on the intersection of national security law, policy, and technology, with a particular emphasis on legal debates surrounding U.S. security actions.
 - url: https://www.crowdstrike.com/blog/feed
   category: Vendors & Product Blogs
   title: Cybersecurity Blog | CrowdStrike
@@ -208,8 +207,7 @@
   category: Vendors & Product Blogs
   title: Fingerprint Blog RSS Feed
   type: ''
-  description: The Fingerprint device intelligence platform works across web and mobile
-    applications to identify all visitors with 99.5% accuracy — even …
+  description: Stop fraud, detect bots, or delight customers. Identify good and bad visitors with industry-leading accuracy - even if they're anonymous.
 - url: https://www.fireeye.com/blog/feed
   category: Vendors & Product Blogs
   title: FireEye Blog
@@ -724,8 +722,7 @@
   category: Vendors & Product Blogs
   title: Scott Helme
   type: ''
-  description: Hi, I&#x27;m Scott Helme, a Security Researcher, Entrepreneur and International
-    Speaker. I&#x27;m the creator of Report URI and Security Headers, …
+  description: Scotthelme.co.uk is the personal blog and professional site of Scott Helme, a renowned security researcher, international speaker, and entrepreneur.
 - url: https://www.axis.com/blog/secure-insights/?feed=rss
   category: Vendors & Product Blogs
   title: Secure Insights
@@ -855,9 +852,7 @@
   category: Vendors & Product Blogs
   title: The Salty Hash - Medium
   type: ''
-  description: Tips, tricks, pointers and perspectives on building secure, testable,
-    maintainable apps. Thoughts and observations about security and privacy from IronCore
-    …
+  description: IronCore Labs is a data security company that provides a platform for application-layer encryption and data protection, primarily targeting modern cloud applications, SaaS platforms, and AI workloads.
 - url: https://blog.google/threat-analysis-group/rss
   category: Vendors & Product Blogs
   title: Threat Analysis Group (TAG)
@@ -944,5 +939,4 @@
   category: Vendors & Product Blogs
   title: XploitLab
   type: ''
-  description: A timeout occurred Error code 524 Visit cloudflare.com for more information.
-    2024-02-04 11:19:08 UTC You Browser Working Frankfurt Cloudflare Working …
+  description: XploitLab - Interactive Cybersecurity Learning Platform.

@@ -4,14 +4,14 @@
   type: atom
   description: CERT publishes vulnerability advisories called "Vulnerability Notes."
     Vulnerability Notes include summaries, technical details, remediation information,
-    and lists of affected vendors. Many vulnerability notes are the...
+    and lists of affected vendors.
 - url: https://www.kb.cert.org/vuls/atomfeed
   category: Cybercrime, Darknet & Leaks
   title: CERT Recently Published Vulnerability Notes
   type: atom
   description: CERT publishes vulnerability advisories called "Vulnerability Notes."
     Vulnerability Notes include summaries, technical details, remediation information,
-    and lists of affected vendors. Many vulnerability notes are the...
+    and lists of affected vendors.
 - url: https://garwarner.blogspot.com/feeds/posts/default
   category: Cybercrime, Darknet & Leaks
   title: CyberCrime & Doing Time

@@ -108,7 +108,7 @@
   type: ''
   description: CERT publishes vulnerability advisories called &quot;Vulnerability
     Notes.&quot; Vulnerability Notes include summaries, technical details, remediation
-    information, and lists of affected vendors. …
+    information, and lists of affected vendors.
 - url: https://cert.be/en/rss
   category: Government, CERT & Advisories
   title: Cert.be advisories
@@ -191,7 +191,7 @@
   type: ''
   description: The Microsoft Security Response Center (MSRC) investigates all reports
     of security vulnerabilities affecting Microsoft products and services, and provides
-    the …
+    the public with information about the vulnerabilities and their mitigations.
 - url: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   category: Government, CERT & Advisories
   title: NCSC Feed
