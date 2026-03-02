@@ -1,0 +1,71 @@
+- url: https://www.magnetforensics.com/feed/
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+  discovery:
+    discovered_at: '2026-03-02T08:20:54.739132Z'
+    score: 14
+    matched_keywords:
+    - apt
+    - cloud
+    - exploit
+    - forensics
+    - incident
+    - payload
+    - rce
+    discovered_via: common_path
+    url_hash: 94a3130ccf1257ab3f5eb39a606b5f32ac6e217d
+- url: https://www.magnetforensics.com/rss
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+  discovery:
+    discovered_at: '2026-03-02T08:20:59.896667Z'
+    score: 14
+    matched_keywords:
+    - apt
+    - cloud
+    - exploit
+    - forensics
+    - incident
+    - payload
+    - rce
+    discovered_via: common_path
+    url_hash: 6a4cca86f8503aeba3ab7d0063fd0387e16eb7cb
+- url: https://www.magnetforensics.com/rss/
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
+  discovery:
+    discovered_at: '2026-03-02T08:21:01.002575Z'
+    score: 14
+    matched_keywords:
+    - apt
+    - cloud
+    - exploit
+    - forensics
+    - incident
+    - payload
+    - rce
+    discovered_via: common_path
+    url_hash: b8a85285f2e41127a24f8e130fb5848f210ee073
+- url: http://www.ntop.org/feed
+  category: DFIR & Forensics
+  title: ntop
+  type: rss
+  description: Network Visibility and Cybersecurity
+  discovery:
+    discovered_at: '2026-03-02T07:33:02.422846Z'
+    score: 13
+    matched_keywords:
+    - apt
+    - bypass
+    - denial of service
+    - exploit
+    - incident
+    - rce
+    discovered_via: common_path
+    url_hash: d9a7f8ab9d50618a480e7195a1094927063e1b11

@@ -1,0 +1,71 @@
+- url: http://www.clamav.net/feed
+  category: Government / CERT & Advisories
+  title: ClamAV® blog
+  type: atom
+  description: The leading open source anti-malware software, brought to you by Sourcefire.
+  discovery:
+    discovered_at: '2026-03-02T07:28:58.577080Z'
+    score: 35
+    matched_keywords:
+    - advisory
+    - authentication
+    - bypass
+    - campaign
+    - cloud
+    - cve
+    - docker
+    - exploit
+    - malware
+    - patch
+    - phishing
+    - rce
+    - remote code execution
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: c0489b3e3013e9d2cb7de59cc076232f4dd92fa0
+- url: https://addons.mozilla.org/blog/feed.xml
+  category: Government / CERT & Advisories
+  title: Firefox Add-ons Blog
+  type: atom
+  description: Updates from Firefox Add-ons Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-03-02T07:41:44.555807Z'
+    score: 20
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - bypass
+    - cloud
+    - gcp
+    - malware
+    - rce
+    discovered_via: common_path
+    url_hash: ef0c4321ec1292768478637d66a658de5c58ebb8
+- url: https://offsec.com/rss.xml?utm_source=offsec/
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+  discovery:
+    discovered_at: '2026-03-02T08:22:47.712906Z'
+    score: 28
+    matched_keywords:
+    - apt
+    - authentication
+    - blue team
+    - bypass
+    - campaign
+    - cve
+    - exploit
+    - incident
+    - payload
+    - rce
+    - red team
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 5a37a108474c638c909a395707dc8cfbcd217679

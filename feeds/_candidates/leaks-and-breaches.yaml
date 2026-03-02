@@ -1,0 +1,318 @@
+- url: https://kb.cert.org/vuls/atomfeed/
+  category: Leaks & Breaches
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+  discovery:
+    discovered_at: '2026-03-02T07:58:28.326589Z'
+    score: 43
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - breach
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - denial of service
+    - exploit
+    - ioc
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - privilege escalation
+    - rce
+    - remote code execution
+    - ssrf
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 1ea7935907b9b7033ef11144005d51eaedbd41bb
+- url: https://www.kb.cert.org/vuls/atomfeed/
+  category: Leaks & Breaches
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+  discovery:
+    discovered_at: '2026-03-02T08:20:28.961960Z'
+    score: 43
+    matched_keywords:
+    - apt
+    - authentication
+    - aws
+    - breach
+    - bypass
+    - cloud
+    - csrf
+    - cve
+    - denial of service
+    - exploit
+    - ioc
+    - lateral movement
+    - malware
+    - patch
+    - payload
+    - privilege escalation
+    - rce
+    - remote code execution
+    - ssrf
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 2cc6ff44696d89a0362e87bf8b33e8d442b5b8ff
+- url: http://www.hachettebookgroup.com/feed
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+  discovery:
+    discovered_at: '2026-03-02T07:31:36.222299Z'
+    score: 19
+    matched_keywords:
+    - apt
+    - aws
+    - breach
+    - campaign
+    - edr
+    - exploit
+    - ioc
+    - rce
+    - vuln
+    discovered_via: common_path
+    url_hash: 542921d5d3e208056bad4d29c72c2fa59db4065f
+- url: http://www.hachettebookgroup.com/feed/
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+  discovery:
+    discovered_at: '2026-03-02T07:31:30.323332Z'
+    score: 19
+    matched_keywords:
+    - apt
+    - aws
+    - breach
+    - campaign
+    - edr
+    - exploit
+    - ioc
+    - rce
+    - vuln
+    discovered_via: common_path
+    url_hash: 46056f5bb99e95b4cd71f442a648a87cb5e4e5c9
+- url: http://www.hachettebookgroup.com/rss
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+  discovery:
+    discovered_at: '2026-03-02T07:31:44.699400Z'
+    score: 19
+    matched_keywords:
+    - apt
+    - aws
+    - breach
+    - campaign
+    - edr
+    - exploit
+    - ioc
+    - rce
+    - vuln
+    discovered_via: common_path
+    url_hash: 3be1b7192118419cc24eb7e39e5488d484910719
+- url: http://www.hachettebookgroup.com/rss/
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+  discovery:
+    discovered_at: '2026-03-02T07:31:25.566876Z'
+    score: 19
+    matched_keywords:
+    - apt
+    - aws
+    - breach
+    - campaign
+    - edr
+    - exploit
+    - ioc
+    - rce
+    - vuln
+    discovered_via: common_path
+    url_hash: d24aa54238dbf322898edaa98a15ba5eb3f44cbc
+- url: https://www.hachettebookgroup.com/feed/
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+  discovery:
+    discovered_at: '2026-03-02T07:31:39.348402Z'
+    score: 19
+    matched_keywords:
+    - apt
+    - aws
+    - breach
+    - campaign
+    - edr
+    - exploit
+    - ioc
+    - rce
+    - vuln
+    discovered_via: rel=alternate
+    url_hash: e6723c046baf82d6c2da4638ddf56bdaa7e06cfe
+- url: http://www.maltego.com/index.xml
+  category: Leaks & Breaches
+  title: Maltego Blog RSS Feed
+  type: rss
+  description: Subscribe to our RSS feed to stay up to date with what's fresh in the
+    Maltego world.
+  discovery:
+    discovered_at: '2026-03-02T07:32:31.127349Z'
+    score: 23
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - breach
+    - campaign
+    - incident
+    - patch
+    - rce
+    - tactic
+    - technique
+    - vuln
+    discovered_via: common_path
+    url_hash: f445b071add3640a33ab9c997599519532b9df0b
+- url: http://www.owasp.org/feed
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-03-02T07:35:13.197682Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 26d0d41b77bc32cac815008080582ca23744c2aa
+- url: http://www.owasp.org/feed.xml
+  category: Leaks & Breaches
+  title: OWASP
+  type: atom
+  description: OWASP Foundation main site repository
+  discovery:
+    discovered_at: '2026-03-02T07:35:09.352554Z'
+    score: 29
+    matched_keywords:
+    - advisory
+    - apt
+    - aws
+    - azure
+    - breach
+    - campaign
+    - cloud
+    - cve
+    - exploit
+    - incident
+    - rce
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 4488d03b48a5961b3790bf9a635787b29af2b92e
+- url: http://zerodayinitiative.com/blog/atom.xml
+  category: Leaks & Breaches
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-03-02T07:40:45.462019Z'
+    score: 49
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - azure
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - denial of service
+    - edr
+    - exploit
+    - loader
+    - malware
+    - patch
+    - pentest
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    - reverse engineering
+    - ssrf
+    - technique
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 733acab2b6a19a53cf2b41150a67a30affc5a70e
+- url: http://zerodayinitiative.com/blog/rss.xml
+  category: Leaks & Breaches
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-03-02T07:40:47.969022Z'
+    score: 49
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication
+    - azure
+    - breach
+    - bypass
+    - cloud
+    - cve
+    - denial of service
+    - edr
+    - exploit
+    - loader
+    - malware
+    - patch
+    - pentest
+    - privilege escalation
+    - pwn
+    - rce
+    - remote code execution
+    - reverse engineering
+    - ssrf
+    - technique
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: a9f281c5c6c4728ced687ff7e37bbc2b4b8a2b21
