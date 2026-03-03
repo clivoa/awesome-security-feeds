@@ -305,11 +305,6 @@
   title: Help Me With HIPAA
   type: ''
   description: HIPAA Is Not About Compliance, Its About Patient Care!
-- url: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
-  category: Podcasts & YouTube
-  title: Unsupervised Learning
-  type: rss
-  description: Podcast or video feed from Unsupervised Learning.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4TAjYDpNggDwictUA180LA
   category: Podcasts & YouTube
   title: Infosec
@@ -735,6 +730,11 @@
   description: Weekly information security podcast airing Monday mornings hosted by
     Oscar Minks and Brad Nigh. In a unique focus on protecting personal information,
     Oscar and Brad discuss information security as an issue that includ...
+- url: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
+  category: Podcasts & YouTube
+  title: Unsupervised Learning
+  type: rss
+  description: Podcast or video feed from Unsupervised Learning.
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4-GrpQBx6WCGwmwozP744Q
   category: Podcasts & YouTube
   title: USENIX

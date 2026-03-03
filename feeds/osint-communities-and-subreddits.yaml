@@ -31,6 +31,11 @@
   type: ''
   description: Dark Roast Security’s mission is to inspire, educate, and share ideas
     about InfoSec. Follow to join our community! - Medium
+- url: https://defcon.org/defconrss.xml
+  category: OSINT, Communities & Subreddits
+  title: Defcon
+  type: rss
+  description: OSINT resources and community updates from Defcon.
 - url: https://jacknaglieri.substack.com/feed
   category: OSINT, Communities & Subreddits
   title: Detection at Scale
@@ -59,17 +64,6 @@
   description: A public, vendor-neutral forum for detailed discussion of vulnerabilities
     and exploitation techniques, as well as tools, papers, news, and events of interest
     to the community. The relaxed atmosphere of this quirky lis...
-- url: https://ctf.re/feed.xml
-  category: OSINT, Communities & Subreddits
-  title: Reversing Engineering for the Soul
-  type: rss
-  description: OSINT resources and community updates from Reversing Engineering for
-    the Soul.
-- url: https://defcon.org/defconrss.xml
-  category: OSINT, Communities & Subreddits
-  title: Defcon
-  type: rss
-  description: OSINT resources and community updates from Defcon.
 - url: https://www.reddit.com/r/InfoSecNews
   category: OSINT, Communities & Subreddits
   title: Information Security News
@@ -102,6 +96,12 @@
   title: Reverse Engineering
   type: ''
   description: A moderated community dedicated to all things reverse engineering.
+- url: https://ctf.re/feed.xml
+  category: OSINT, Communities & Subreddits
+  title: Reversing Engineering for the Soul
+  type: rss
+  description: OSINT resources and community updates from Reversing Engineering for
+    the Soul.
 - url: https://wordpress.org/news/category/security/feed
   category: OSINT, Communities & Subreddits
   title: Security – WordPress News

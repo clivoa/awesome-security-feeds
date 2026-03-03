@@ -51,6 +51,30 @@
   title: eternal-todo.com blogs
   type: rss
   description: Updates from eternal-todo.com blogs.
+- url: https://www.spiderfoot.net/blog/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+- url: https://www.spiderfoot.net/blog/rss
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+- url: https://www.spiderfoot.net/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+- url: https://www.spiderfoot.net/rss
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
 - url: https://krebsonsecurity.com/feed
   category: Cybercrime, Darknet & Leaks
   title: Krebs on Security
@@ -137,3 +161,13 @@
   title: The Spamhaus Project
   type: rss
   description: The Spamhaus Project
+- url: https://zeek.org/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Zeek
+  type: rss
+  description: Zeek and ye shall find.
+- url: https://zeek.org/rss
+  category: Cybercrime, Darknet & Leaks
+  title: Zeek
+  type: rss
+  description: Zeek and ye shall find.

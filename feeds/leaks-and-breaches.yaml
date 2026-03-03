@@ -9,6 +9,18 @@
   type: ''
   description: DataBreachToday.co.uk RSS News Feeds on data breach today news, regulations,
     blogs and education
+- url: https://www.hachettebookgroup.com/feed
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
+- url: https://www.hachettebookgroup.com/rss
+  category: Leaks & Breaches
+  title: Hachette Book Group
+  type: rss
+  description: Hachette Book Group is a leading book publisher based in New York and
+    a division of Hachette Livre, the third-largest publisher in the world.
 - url: https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
   category: Leaks & Breaches
   title: Have I Been Pwned – Latest Breaches

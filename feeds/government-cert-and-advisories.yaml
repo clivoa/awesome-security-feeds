@@ -43,6 +43,11 @@
   title: DotDotPwn - The Directory Traversal Fuzzer
   type: rss
   description: DotDotPwn - The Directory Traversal Fuzzer
+- url: https://addons.mozilla.org/blog/feed.xml
+  category: Government / CERT & Advisories
+  title: Firefox Add-ons Blog
+  type: atom
+  description: Updates from Firefox Add-ons Blog covering vulnerabilities, cves.
 - url: https://www.nodejs-security.com/rss.xml
   category: Government / CERT & Advisories
   title: NodeJS Security & NodeJS Secure Coding's Blog
@@ -51,6 +56,12 @@
     and learn how to defend against JavaScript Command Injection vulnerabilities and
     gain backend development skills to exploit and prevent Path Traver...
 - url: https://offsec.com/rss.xml?utm_source=offsec
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+- url: https://offsec.com/rss.xml?utm_source=offsec/
   category: Government / CERT & Advisories
   title: OffSec RSS Feed
   type: rss
@@ -115,11 +126,22 @@
   type: ''
   description: 'The requested URL was rejected. Please consult with your administrator.Your
     support ID is: 8985871849071351541[Go Back]'
+- url: https://datatracker.ietf.org/feed/document-changes/rfc3442
+  category: Government, CERT & Advisories
+  title: Changes for RFC3442
+  type: rss
+  description: Official advisories, alerts, and guidance from Changes for RFC3442.
 - url: https://www.cisecurity.org/feed/advisories
   category: Government, CERT & Advisories
   title: CIS – Advisories
   type: rss
   description: Official advisories and security updates from CIS.
+- url: https://www.cisa.gov/blog.xml
+  category: Government, CERT & Advisories
+  title: CISA
+  type: rss
+  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
+    incidents, and threats.
 - url: https://www.cisa.gov/cisa/blog.xml
   category: Government, CERT & Advisories
   title: CISA Blog
@@ -140,22 +162,6 @@
 - url: https://www.cisa.gov/automated-https:indicator-sharing-ais
   category: Government, CERT & Advisories
   title: DHS – AIS
-  type: rss
-  description: Official CISA alerts, advisories, and guidance on vulnerabilities,
-    incidents, and threats.
-- url: https://datatracker.ietf.org/feed/document-changes/rfc3442
-  category: Government, CERT & Advisories
-  title: Changes for RFC3442
-  type: rss
-  description: Official advisories, alerts, and guidance from Changes for RFC3442.
-- url: https://rewardsforjustice.net/feed
-  category: Government, CERT & Advisories
-  title: Rewards For Justice
-  type: rss
-  description: Official advisories, alerts, and guidance from Rewards For Justice.
-- url: https://www.cisa.gov/blog.xml
-  category: Government, CERT & Advisories
-  title: CISA
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
@@ -233,6 +239,11 @@
   type: rss
   description: Official advisories and security updates from PCI Security Standards
     Blog.
+- url: https://rewardsforjustice.net/feed
+  category: Government, CERT & Advisories
+  title: Rewards For Justice
+  type: rss
+  description: Official advisories, alerts, and guidance from Rewards For Justice.
 - url: https://isc.sans.edu/rssfeed_full.xml
   category: Government, CERT & Advisories
   title: SANS Internet Storm Center

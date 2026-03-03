@@ -32,7 +32,9 @@
   category: DFIR & Forensics
   title: Computer Forensics
   type: ''
-  description: Dedicated to the branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime. 
+  description: Dedicated to the branch of forensic science encompassing the recovery
+    and investigation of material found in digital devices, often in relation to computer
+    crime.
 - url: https://www.cybertriage.com/feed
   category: DFIR & Forensics
   title: Cyber Triage Blog
@@ -43,6 +45,16 @@
   title: Davinci Forensics – Cybersecurity
   type: rss
   description: DFIR and forensics content from Davinci Forensics.
+- url: https://dfir.ch/index.xml
+  category: DFIR & Forensics
+  title: DFIR
+  type: rss
+  description: DFIR and forensics content from DFIR.
+- url: https://dfir.blog/rss
+  category: DFIR & Forensics
+  title: DFIR Blog
+  type: rss
+  description: DFIR and forensics content from dfir.blog.
 - url: https://dfirdiva.com/feed
   category: DFIR & Forensics
   title: DFIR Diva
@@ -54,11 +66,6 @@
   type: rss
   description: Video updates from DFIR Python Study Group (YouTube) covering dfir
     & forensics.
-- url: https://dfir.blog/rss
-  category: DFIR & Forensics
-  title: DFIR Blog
-  type: rss
-  description: DFIR and forensics content from dfir.blog.
 - url: https://www.dfir.training/dfir-training-categories-k2/itemlist?format=feed
   category: DFIR & Forensics
   title: DFIR Training
@@ -106,21 +113,16 @@
   title: HECFblog
   type: rss
   description: DFIR and forensics content from HECFblog.
-- url: https://dfir.ch/index.xml
-  category: DFIR & Forensics
-  title: DFIR
-  type: rss
-  description: DFIR and forensics content from DFIR.
-- url: https://thedfirreport.com/feed
-  category: DFIR & Forensics
-  title: The DFIR Report
-  type: rss
-  description: DFIR and forensics content from The DFIR Report.
 - url: https://abrignoni.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Initialization Vectors
   type: rss
   description: DFIR and forensics content from Initialization Vectors.
+- url: https://tisiphone.net/feed
+  category: DFIR & Forensics
+  title: Lesley Carhart's Cybersecurity Blog
+  type: rss
+  description: DFIR and forensics content from tisiphone.net.
 - url: https://www.mac4n6.com/blog?format=rss
   category: DFIR & Forensics
   title: mac4n6
@@ -136,11 +138,21 @@
   title: Magnet Forensics
   type: rss
   description: DFIR and forensics content from Magnet Forensics.
+- url: https://www.magnetforensics.com/rss
+  category: DFIR & Forensics
+  title: Magnet Forensics
+  type: rss
+  description: Gain an Investigative Edge
 - url: https://www.msab.com/feed
   category: DFIR & Forensics
   title: MSAB
   type: rss
   description: DFIR and forensics content from MSAB.
+- url: https://www.ntop.org/feed
+  category: DFIR & Forensics
+  title: ntop
+  type: rss
+  description: Network Visibility and Cybersecurity
 - url: https://salt4n6.com/feed
   category: DFIR & Forensics
   title: Salt Forensics
@@ -172,16 +184,16 @@
   title: The Binary Hick
   type: rss
   description: DFIR and forensics content from The Binary Hick.
+- url: https://thedfirreport.com/feed
+  category: DFIR & Forensics
+  title: The DFIR Report
+  type: rss
+  description: DFIR and forensics content from The DFIR Report.
 - url: https://thisweekin4n6.wordpress.com/feed
   category: DFIR & Forensics
   title: This Week In 4n6
   type: rss
   description: DFIR and forensics content from This Week In 4n6.
-- url: https://tisiphone.net/feed
-  category: DFIR & Forensics
-  title: Lesley Carhart's Cybersecurity Blog
-  type: rss
-  description: DFIR and forensics content from tisiphone.net.
 - url: https://windowsir.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Windows Incident Response
