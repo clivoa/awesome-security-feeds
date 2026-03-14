@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-02T17:46:17.429358+00:00",
-  "total": 1148,
+  "generated_at": "2026-03-14T17:56:12.413732+00:00",
+  "total": 1178,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -143,6 +143,34 @@
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
+      "url": "https://www.spiderfoot.net/blog/feed",
+      "title": "Intel 471 Blog",
+      "description": "The latest threat intelligence insights and security research from Intel 471",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.spiderfoot.net/blog/rss",
+      "title": "Intel 471 Blog",
+      "description": "The latest threat intelligence insights and security research from Intel 471",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.spiderfoot.net/feed",
+      "title": "Intel 471 Blog",
+      "description": "The latest threat intelligence insights and security research from Intel 471",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.spiderfoot.net/rss",
+      "title": "Intel 471 Blog",
+      "description": "The latest threat intelligence insights and security research from Intel 471",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
       "url": "https://krebsonsecurity.com/feed",
       "title": "Krebs on Security",
       "description": "Cybercrime and underground ecosystem coverage from Krebs on Security.",
@@ -258,6 +286,20 @@
       "url": "https://www.spamhaus.org/rss.xml",
       "title": "The Spamhaus Project",
       "description": "The Spamhaus Project",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://zeek.org/feed",
+      "title": "Zeek",
+      "description": "Zeek and ye shall find.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://zeek.org/rss",
+      "title": "Zeek",
+      "description": "Zeek and ye shall find.",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -451,9 +493,23 @@
       "category": "DFIR & Forensics"
     },
     {
+      "url": "https://www.magnetforensics.com/rss",
+      "title": "Magnet Forensics",
+      "description": "Gain an Investigative Edge",
+      "type": "rss",
+      "category": "DFIR & Forensics"
+    },
+    {
       "url": "https://www.msab.com/feed",
       "title": "MSAB",
       "description": "DFIR and forensics content from MSAB.",
+      "type": "rss",
+      "category": "DFIR & Forensics"
+    },
+    {
+      "url": "https://www.ntop.org/feed",
+      "title": "ntop",
+      "description": "Network Visibility and Cybersecurity",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
@@ -1025,7 +1081,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber/?outputType=xml",
+      "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber?outputType=xml",
       "title": "C4ISRNet",
       "description": "C4ISRNet News Feed",
       "type": "",
@@ -3797,7 +3853,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "https://www.reutersagency.com/feed/?best-topics=tech",
+      "url": "https://www.reutersagency.com/feed?best-topics=tech",
       "title": "Technology | Reuters News Agency",
       "description": "Reuters is one of the world's largest, oldest, and most reputable international multimedia news agencies.",
       "type": "",
@@ -4322,6 +4378,13 @@
       "category": "Government / CERT & Advisories"
     },
     {
+      "url": "https://addons.mozilla.org/blog/feed.xml",
+      "title": "Firefox Add-ons Blog",
+      "description": "Updates from Firefox Add-ons Blog covering vulnerabilities, cves.",
+      "type": "atom",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://www.nodejs-security.com/rss.xml",
       "title": "NodeJS Security & NodeJS Secure Coding's Blog",
       "description": "Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver...",
@@ -4630,6 +4693,20 @@
       "category": "Leaks & Breaches"
     },
     {
+      "url": "https://www.hachettebookgroup.com/feed",
+      "title": "Hachette Book Group",
+      "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/rss",
+      "title": "Hachette Book Group",
+      "description": "Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
       "url": "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches",
       "title": "Have I Been Pwned – Latest Breaches",
       "description": "RSS feed for Have I Been Pwned, covering leaks & breaches news and updates.",
@@ -4879,6 +4956,13 @@
       "title": "Hacker Noon - cybersecurity",
       "description": "How hackers start their afternoons.",
       "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://hackingthe.cloud/feed_rss_updated.xml",
+      "title": "Hacking The Cloud",
+      "description": "The encyclopedia for offensive security in the cloud.",
+      "type": "rss",
       "category": "Malware & Threat Research"
     },
     {
@@ -7255,7 +7339,7 @@
       "category": "Vendors & Product Blogs"
     },
     {
-      "url": "https://www.axis.com/blog/secure-insights/?feed=rss",
+      "url": "https://www.axis.com/blog/secure-insights?feed=rss",
       "title": "Secure Insights",
       "description": "Axis Blog",
       "type": "",
@@ -7591,6 +7675,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://nitter.net/aircrackng/rss",
+      "title": "Aircrack-ng / @aircrackng",
+      "description": "Twitter feed for: @aircrackng. Generated by https://nitter.net",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.reddit.com/r/blackhat",
       "title": "Blackhat Library: Hacking techniques and research",
       "description": "Focused on the ongoing discussion and documentation of vulnerabilities and exploitation techniques.",
@@ -7605,9 +7696,30 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.xplico.org/blog/feed",
+      "title": "Blog – Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.xplico.org/blog/rss",
+      "title": "Blog – Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.misp-project.org/blog/feed.xml",
       "title": "Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
       "description": "Recent content in Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.brucon.org/blog-feed.xml",
+      "title": "BruCON",
+      "description": "BruCON",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7682,6 +7794,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://seclists.org/rss/dailydave.rss",
+      "title": "Daily Dave",
+      "description": "This technical discussion list covers vulnerability research, exploit development, and security events/gossip. It was started by <a href=\"http://www.immunitysec.com/\">ImmunitySec</a> founder Dave Aitel and many securi...",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.docker.com/feed",
       "title": "Docker",
       "description": "Updates from Docker.",
@@ -7745,10 +7864,31 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.fing.com/feed",
+      "title": "Fing",
+      "description": "Updates from Fing covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.fing.com/rss",
+      "title": "Fing",
+      "description": "Updates from Fing covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
       "title": "FortiGuard Labs | FortiGuard Center - IR Advisories",
       "description": "filestore.fortinet.com is a subdomain and repository managed by Fortinet used to host files, software packages, firmware images, and documentation for various Fortinet products.",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.frida.re/feed.xml",
+      "title": "Frida • A world-class dynamic instrumentation toolkit",
+      "description": "Observe and reprogram running programs on Windows, macOS, GNU/Linux, iOS, watchOS, tvOS, Android, FreeBSD, and QNX",
+      "type": "atom",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -7864,6 +8004,34 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://ronin-rb.dev/blog/atom.xml",
+      "title": "Ronin Developer Blog",
+      "description": "Updates from Ronin Developer Blog covering vulnerabilities, cves.",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.dshield.org/rssfeed.xml",
+      "title": "SANS Internet Storm Center, InfoCON: green",
+      "description": "SANS Internet Storm Center - Cooperative Cyber Security Monitor",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.dshield.org/rssfeed_full.xml",
+      "title": "SANS Internet Storm Center, InfoCON: green",
+      "description": "SANS Internet Storm Center - Cooperative Cyber Security Monitor",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://sectools.org/feed",
+      "title": "SecTools",
+      "description": "SecTools security tools list updates.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.secureworks.com/rss?feed=research",
       "title": "Secureworks Counter Threat Unit (CTU) Research",
       "description": "The latest publications from our Counter Threat Unit including Threat Analyses and Threat Advisories",
@@ -7902,6 +8070,34 @@
       "url": "https://srd.cx/feed",
       "title": "Security Research & Defense",
       "description": "Vulnerability and exploit updates from Security Research & Defense.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.skydogcon.com/atom.xml",
+      "title": "SkyDogCon",
+      "description": "The South's premiere hacker/maker con located in Nashville, TN",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.skydogcon.com/feeds/posts/default",
+      "title": "SkyDogCon",
+      "description": "The South's premiere hacker/maker con located in Nashville, TN",
+      "type": "atom",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.skydogcon.com/feeds/posts/default?alt=rss",
+      "title": "SkyDogCon",
+      "description": "The South's premiere hacker/maker con located in Nashville, TN",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.skydogcon.com/rss.xml",
+      "title": "SkyDogCon",
+      "description": "The South's premiere hacker/maker con located in Nashville, TN",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7955,14 +8151,14 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
-      "url": "https://vuldb.com/?rss.recent",
+      "url": "https://vuldb.com?rss.recent",
       "title": "VulDB Recent Entries",
       "description": "Recent Entries",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
-      "url": "https://vuldb.com/?rss.updates",
+      "url": "https://vuldb.com?rss.updates",
       "title": "VulDB Updates",
       "description": "Updates",
       "type": "rss",
@@ -8011,7 +8207,21 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://feeds.feedburner.com/Xplico",
+      "title": "Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.xplico.org/feed",
+      "title": "Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.xplico.org/feed.xml",
       "title": "Xplico",
       "description": "Open Source Network Forensic Analysis Tool (NFAT)",
       "type": "rss",
