@@ -161,6 +161,11 @@
   title: The Spamhaus Project
   type: rss
   description: The Spamhaus Project
+- url: https://vuldb.com?rss.changelog
+  category: Cybercrime, Darknet & Leaks
+  title: VulDB Changelog
+  type: rss
+  description: Changelog
 - url: https://zeek.org/feed
   category: Cybercrime, Darknet & Leaks
   title: Zeek

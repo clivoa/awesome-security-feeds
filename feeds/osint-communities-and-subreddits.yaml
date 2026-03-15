@@ -31,6 +31,13 @@
   type: ''
   description: Dark Roast Security’s mission is to inspire, educate, and share ideas
     about InfoSec. Follow to join our community! - Medium
+- url: https://www.defcon.org/defconrss.xml
+  category: OSINT, Communities & Subreddits
+  title: DEF CON Announcements!
+  type: rss
+  description: DEFCON is the world's largest annual hacker convention, held every
+    year in Las Vegas, Nevada. The first DEFCON took place in June 1993. DEF CON is
+    renowned for the "arcane arts" of drinking, socializing, debugging, an...
 - url: https://defcon.org/defconrss.xml
   category: OSINT, Communities & Subreddits
   title: Defcon
