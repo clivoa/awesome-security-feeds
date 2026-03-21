@@ -1,0 +1,15 @@
+- url: https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+  category: Leaks & Breaches
+  title: Wikipedia featured articles feed
+  type: atom
+  description: Best articles Wikipedia has to offer
+  discovery:
+    discovered_at: '2026-03-16T08:11:53.045630Z'
+    score: 9
+    matched_keywords:
+    - apt
+    - breach
+    - campaign
+    - rce
+    discovered_via: rel=alternate
+    url_hash: ded8317aef805769f01c6e7188685afa2cf6d396
