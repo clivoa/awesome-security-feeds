@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-14T17:56:12.413732+00:00",
-  "total": 1178,
+  "generated_at": "2026-03-23T14:05:41.576004+00:00",
+  "total": 1181,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -286,6 +286,13 @@
       "url": "https://www.spamhaus.org/rss.xml",
       "title": "The Spamhaus Project",
       "description": "The Spamhaus Project",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://vuldb.com?rss.changelog",
+      "title": "VulDB Changelog",
+      "description": "Changelog",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -5267,6 +5274,13 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=atom",
+      "title": "Wikipedia - Recent changes [en]",
+      "description": "Track the most recent changes to the wiki in this feed.",
+      "type": "atom",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://zetter.substack.com/feed",
       "title": "Zero Day",
       "description": "Spies, hackers and the intersection between cybersecurity and national security. (News, analysis, features, investigations)",
@@ -5320,6 +5334,13 @@
       "title": "Dark Roast Security - Medium",
       "description": "Dark Roast Security’s mission is to inspire, educate, and share ideas about InfoSec. Follow to join our community! - Medium",
       "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.defcon.org/defconrss.xml",
+      "title": "DEF CON Announcements!",
+      "description": "DEFCON is the world's largest annual hacker convention, held every year in Las Vegas, Nevada. The first DEFCON took place in June 1993. DEF CON is renowned for the \"arcane arts\" of drinking, socializing, debugging, an...",
+      "type": "rss",
       "category": "OSINT, Communities & Subreddits"
     },
     {
