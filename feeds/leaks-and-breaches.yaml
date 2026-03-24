@@ -75,3 +75,8 @@
   title: Tenable News Feed
   type: rss
   description: Updates from Tenable News Feed.
+- url: https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+  category: Leaks & Breaches
+  title: Wikipedia featured articles feed
+  type: atom
+  description: Best articles Wikipedia has to offer
