@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-03-14T17:56:09.371472+00:00` (UTC)
+**Generated:** `2026-04-07T19:08:55.296051+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -12,14 +12,14 @@ This page contains the full, categorized feed list maintained in this repository
 ## Contents
 
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (11)
-- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (32)
+- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (33)
 - [DFIR & Forensics](#dfir-forensics) (39)
 - [General Security & Blogs](#general-security-blogs) (534)
 - [Government / CERT & Advisories](#government-cert-advisories) (19)
 - [Government, CERT & Advisories](#government-cert-advisories) (34)
-- [Leaks & Breaches](#leaks-breaches) (14)
-- [Malware & Threat Research](#malware-threat-research) (72)
-- [OSINT, Communities & Subreddits](#osint-communities-subreddits) (27)
+- [Leaks & Breaches](#leaks-breaches) (15)
+- [Malware & Threat Research](#malware-threat-research) (74)
+- [OSINT, Communities & Subreddits](#osint-communities-subreddits) (28)
 - [Podcasts & YouTube](#podcasts-youtube) (141)
 - [Vendors & Product Blogs](#vendors-product-blogs) (174)
 - [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (83)
@@ -46,7 +46,7 @@ Total: **11**
 
 ## Cybercrime, Darknet & Leaks
 
-Total: **32**
+Total: **33**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -80,6 +80,7 @@ Total: **32**
 | The Guardian Cybercrime | Cybercrime and underground ecosystem coverage from The Guardian Cybercrime. | RSS | <https://www.guardian.co.uk/technology/cybercrime/rss> |
 | The Record – Cybercrime | Cybercrime and underground ecosystem coverage from The Record. | RSS | <https://therecord.media/news/cybercrime/feed> |
 | The Spamhaus Project | The Spamhaus Project | RSS | <https://www.spamhaus.org/rss.xml> |
+| VulDB Changelog | Changelog | RSS | <https://vuldb.com?rss.changelog> |
 | Zeek | Zeek and ye shall find. | RSS | <https://zeek.org/feed> |
 | Zeek | Zeek and ye shall find. | RSS | <https://zeek.org/rss> |
 
@@ -739,7 +740,7 @@ Total: **34**
 
 ## Leaks & Breaches
 
-Total: **14**
+Total: **15**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -757,10 +758,11 @@ Total: **14**
 | Tenable Blog | Updates from Tenable Blog. | RSS | <https://feeds.feedburner.com/tenable/qaXL> |
 | Tenable Blog | Updates from Tenable Blog. | RSS | <https://www.tenable.com/blog/atom.xml> |
 | Tenable News Feed | Updates from Tenable News Feed. | RSS | <https://tenable.com/feed/news> |
+| Wikipedia featured articles feed | Best articles Wikipedia has to offer | ATOM | <https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom> |
 
 ## Malware & Threat Research
 
-Total: **72**
+Total: **74**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -780,6 +782,7 @@ Total: **72**
 | cybersecurity | A community for current or aspiring technical professionals to discuss cybersecurity, threats, etc. |  | <https://www.reddit.com/r/cybersecurity> |
 | Cybersecurity - Tech.eu | The premier source of European technology news, data, research, analysis and in-depth market intelligence. |  | <https://tech.eu/category/cybersecurity/feed> |
 | Deep Instinct Blog: Breaking News and Updates | Deep Instinct prevents more advanced threats than any EPP or EDR in the world. |  | <https://www.deepinstinct.com/blog/feed> |
+| DistroWatch.com: Distributions | Latest distribution releases | RSS | <https://distrowatch.com/news/dwd.xml> |
 | eSecurityPlanet | Industry-leading guidance and analysis for how to keep your business secure. |  | <https://www.esecurityplanet.com/feed> |
 | Exodus Intelligence | Malware and threat research updates from Exodus Intelligence. | RSS | <https://blog.exodusintel.com/feed> |
 | F5 Labs All | RSS for all F5 Labs content. |  | <https://www.f5.com/labs/rss-feeds/all.xml> |
@@ -834,12 +837,13 @@ Total: **72**
 | Volexity Blog (Malware tag) | No 'Ware To Hide | RSS | <https://www.volexity.com/blog/tag/malware/feed> |
 | WeLiveSecurity (ESET) | Updates from WeLiveSecurity (ESET). | RSS | <https://www.welivesecurity.com/en/rss/feed> |
 | WeSecureApp :: Simplifying Enterprise Security! | WeSecureApp (now part of Strobes Security) is a CERT-In empanelled offensive security company specializing in penetration testing, vulnerability assessments, and managed security services. |  | <https://wesecureapp.com/feed> |
+| Wikipedia - Recent changes [en] | Track the most recent changes to the wiki in this feed. | ATOM | <https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=atom> |
 | Zero Day | Spies, hackers and the intersection between cybersecurity and national security. (News, analysis, features, investigations) |  | <https://zetter.substack.com/feed> |
 | Zscaler Research Blogs | Malware and threat research updates from Zscaler Research Blogs. | RSS | <https://www.zscaler.com/blogs/feeds> |
 
 ## OSINT, Communities & Subreddits
 
-Total: **27**
+Total: **28**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -849,6 +853,7 @@ Total: **27**
 | Cyber Defence News for Blue &amp; Purple Teams | Summarised cyber defence technical content to help operational blue and purple teams be informed and protect their estates. |  | <https://bluepurple.substack.com/feed> |
 | Dark Reading | Dark Reading: Connecting the Information and Security Community |  | <https://www.darkreading.com/rss_simple.asp> |
 | Dark Roast Security - Medium | Dark Roast Security’s mission is to inspire, educate, and share ideas about InfoSec. Follow to join our community! - Medium |  | <https://medium.com/feed/dark-roast-security> |
+| DEF CON Announcements! | DEFCON is the world's largest annual hacker convention, held every year in Las Vegas, Nevada. The first DEFCON took place in June 1993. DEF CON is renowned for the "arcane arts" of drinking, socializing, debugging, an... | RSS | <https://www.defcon.org/defconrss.xml> |
 | Defcon | OSINT resources and community updates from Defcon. | RSS | <https://defcon.org/defconrss.xml> |
 | Detection at Scale | A weekly infosec newsletter about scaling SIEMs and Detection Engineering. |  | <https://jacknaglieri.substack.com/feed> |
 | DEV Community | A constructive and inclusive social network for software developers. With you every step of your journey. |  | <https://dev.to/feed> |
