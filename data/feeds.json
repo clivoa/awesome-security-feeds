@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-23T14:05:51.313351+00:00",
-  "total": 1181,
+  "generated_at": "2026-05-02T18:07:34.548722+00:00",
+  "total": 1189,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -286,6 +286,13 @@
       "url": "https://www.spamhaus.org/rss.xml",
       "title": "The Spamhaus Project",
       "description": "The Spamhaus Project",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://vuldb.com/rss/changelog",
+      "title": "VulDB Changelog",
+      "description": "Changelog",
       "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
@@ -4784,6 +4791,13 @@
       "category": "Leaks & Breaches"
     },
     {
+      "url": "https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom",
+      "title": "Wikipedia featured articles feed",
+      "description": "Best articles Wikipedia has to offer",
+      "type": "atom",
+      "category": "Leaks & Breaches"
+    },
+    {
       "url": "https://abuse.ch/feed.xml",
       "title": "abuse.ch | IT-Security Blog",
       "description": "Updates from abuse.ch | IT-Security Blog.",
@@ -4893,6 +4907,13 @@
       "title": "Deep Instinct Blog: Breaking News and Updates",
       "description": "Deep Instinct prevents more advanced threats than any EPP or EDR in the world.",
       "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://distrowatch.com/news/dwd.xml",
+      "title": "DistroWatch.com: Distributions",
+      "description": "Latest distribution releases",
+      "type": "rss",
       "category": "Malware & Threat Research"
     },
     {
@@ -8158,6 +8179,20 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://github.blog/feed",
+      "title": "The GitHub Blog",
+      "description": "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://github.blog/rss",
+      "title": "The GitHub Blog",
+      "description": "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.cloudvulndb.org/rss/feed.xml",
       "title": "The Open Cloud Vulnerability &amp; Security Issue Database",
       "description": "An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues.",
@@ -8172,9 +8207,30 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://vuldb.com/rss/cve",
+      "title": "VulDB CVE",
+      "description": "CVE",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vuldb.com/rss/recent",
+      "title": "VulDB Recent Entries",
+      "description": "Recent Entries",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://vuldb.com?rss.recent",
       "title": "VulDB Recent Entries",
       "description": "Recent Entries",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://vuldb.com/rss/updates",
+      "title": "VulDB Updates",
+      "description": "Updates",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },

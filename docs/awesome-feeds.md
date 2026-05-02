@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-04-07T19:08:55.296051+00:00` (UTC)
+**Generated:** `2026-05-02T18:05:16.800191+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -12,7 +12,7 @@ This page contains the full, categorized feed list maintained in this repository
 ## Contents
 
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (11)
-- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (33)
+- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (34)
 - [DFIR & Forensics](#dfir-forensics) (39)
 - [General Security & Blogs](#general-security-blogs) (534)
 - [Government / CERT & Advisories](#government-cert-advisories) (19)
@@ -22,7 +22,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [OSINT, Communities & Subreddits](#osint-communities-subreddits) (28)
 - [Podcasts & YouTube](#podcasts-youtube) (141)
 - [Vendors & Product Blogs](#vendors-product-blogs) (174)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (83)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (88)
 
 ---
 
@@ -46,7 +46,7 @@ Total: **11**
 
 ## Cybercrime, Darknet & Leaks
 
-Total: **33**
+Total: **34**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -80,6 +80,7 @@ Total: **33**
 | The Guardian Cybercrime | Cybercrime and underground ecosystem coverage from The Guardian Cybercrime. | RSS | <https://www.guardian.co.uk/technology/cybercrime/rss> |
 | The Record – Cybercrime | Cybercrime and underground ecosystem coverage from The Record. | RSS | <https://therecord.media/news/cybercrime/feed> |
 | The Spamhaus Project | The Spamhaus Project | RSS | <https://www.spamhaus.org/rss.xml> |
+| VulDB Changelog | Changelog | RSS | <https://vuldb.com/rss/changelog> |
 | VulDB Changelog | Changelog | RSS | <https://vuldb.com?rss.changelog> |
 | Zeek | Zeek and ye shall find. | RSS | <https://zeek.org/feed> |
 | Zeek | Zeek and ye shall find. | RSS | <https://zeek.org/rss> |
@@ -1207,7 +1208,7 @@ Total: **174**
 
 ## Vulnerabilities, CVEs & Exploits
 
-Total: **83**
+Total: **88**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -1278,9 +1279,14 @@ Total: **83**
 | Sploitus – Exploits | Vulnerability and exploit updates from Sploitus. | RSS | <https://sploitus.com/rss> |
 | Stories by CVE Program Blog on Medium | Stories by CVE Program Blog on Medium |  | <https://medium.com/feed/@cve_program> |
 | Talos Vulnerability Report Feed | Vulnerability and exploit updates from Talos Vulnerability Report Feed. | RSS | <https://talosintelligence.com/vulnerability_reports/feed> |
+| The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and design software. | RSS | <https://github.blog/feed> |
+| The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and design software. | RSS | <https://github.blog/rss> |
 | The Open Cloud Vulnerability &amp; Security Issue Database | An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues. |  | <https://www.cloudvulndb.org/rss/feed.xml> |
 | VMware Security Advisory | Vulnerability and exploit updates from VMware Security Advisory. | RSS | <https://www.vmware.com/security/advisories.xml> |
+| VulDB CVE | CVE | RSS | <https://vuldb.com/rss/cve> |
+| VulDB Recent Entries | Recent Entries | RSS | <https://vuldb.com/rss/recent> |
 | VulDB Recent Entries | Recent Entries | RSS | <https://vuldb.com?rss.recent> |
+| VulDB Updates | Updates | RSS | <https://vuldb.com/rss/updates> |
 | VulDB Updates | Updates | RSS | <https://vuldb.com?rss.updates> |
 | Vulmon Research | Vulnerability and exploit updates from Vulmon Research. | RSS | <https://research.vulmon.com/feed> |
 | VulnCheck Blog | Blog posts we have recently written or historic blog posts we have written in the past. | ATOM | <https://vulncheck.com/feed/blog/atom.xml> |
