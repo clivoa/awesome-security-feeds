@@ -1,0 +1,17 @@
+- url: https://www.virusbulletin.com/rss/
+  category: Government / CERT & Advisories
+  title: Virus Bulletin's blog
+  type: rss
+  description: The latest Blog posts from the VB team
+  discovery:
+    discovered_at: '2026-04-20T09:54:27.238082Z'
+    score: 13
+    matched_keywords:
+    - apt
+    - botnet
+    - exploit
+    - threat actor
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: efb2ca895d4670c46ba9910f25fedd6cda5f0be9
