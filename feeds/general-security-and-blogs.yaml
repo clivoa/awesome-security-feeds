@@ -685,11 +685,6 @@
   title: Dazzy Ddos
   type: rss
   description: Security research and blog updates from Dazzy Ddos.
-- url: https://dazzyddos.github.io/feed.xml
-  category: General Security & Blogs
-  title: Dazzy Ddos
-  type: rss
-  description: Security research and blog updates from Dazzy Ddos.
 - url: https://www.datacenterdynamics.com/rss
   category: General Security & Blogs
   title: DCD
@@ -914,11 +909,6 @@
   title: Good Workaround!
   type: rss
   description: Security research and blog updates from Good Workaround!.
-- url: https://feeds.feedburner.com/GoogleOnlineSecurityBlog
-  category: General Security & Blogs
-  title: Google Online Security Blog
-  type: rss
-  description: Security research and blog updates from Google Online Security Blog.
 - url: https://www.govinfosecurity.com/rss-feeds
   category: General Security & Blogs
   title: GovInfoSecurity.com RSS Syndication
@@ -926,18 +916,6 @@
   description: GovInfoSecurity.com RSS News Feeds on government information security
     news, regulations, blogs and education
 - url: https://grahamcluley.com/feed
-  category: General Security & Blogs
-  title: Graham Cluley
-  type: rss
-  description: News, research, and updates on general security & blogs from Graham
-    Cluley.
-- url: https://grahamcluley.com/feed/atom
-  category: General Security & Blogs
-  title: Graham Cluley
-  type: rss
-  description: News, research, and updates on general security & blogs from Graham
-    Cluley.
-- url: https://www.grahamcluley.com/feed
   category: General Security & Blogs
   title: Graham Cluley
   type: rss
@@ -1745,11 +1723,6 @@
   title: Peter Gabaldon
   type: rss
   description: Security research and blog updates from Peter Gabaldon.
-- url: https://pgj11.com/feed.xml
-  category: General Security & Blogs
-  title: Peter Gabaldon
-  type: rss
-  description: Security research and blog updates from Peter Gabaldon.
 - url: https://peterjson.medium.com/feed
   category: General Security & Blogs
   title: Peterjson (Medium)
@@ -1986,12 +1959,6 @@
   type: rss
   description: News, research, and updates on general security & blogs from Schneier
     on Security.
-- url: https://www.schneier.com/feed/atom
-  category: General Security & Blogs
-  title: Schneier on Security
-  type: atom
-  description: News, research, and updates on general security & blogs from Schneier
-    on Security.
 - url: https://www.scworld.com/feed/topic/latest
   category: General Security & Blogs
   title: SCM feed for Latest
@@ -2118,12 +2085,6 @@
   title: Securitymaven (Medium)
   type: rss
   description: Security research and blog updates from Securitymaven (Medium).
-- url: https://feeds.feedburner.com/securityweek
-  category: General Security & Blogs
-  title: SecurityWeek
-  type: rss
-  description: RSS feed for SecurityWeek, covering general security & blogs news and
-    updates.
 - url: https://www.securityweek.com/feed
   category: General Security & Blogs
   title: SecurityWeek
@@ -2391,11 +2352,6 @@
   type: rss
   description: Security research and blog updates from Sunshine After Rain.
 - url: https://swisskyrepo.github.io/feed
-  category: General Security & Blogs
-  title: Swisskyrepo Blog
-  type: rss
-  description: Security research and blog updates from Swisskyrepo Blog.
-- url: https://swisskyrepo.github.io/feed.xml
   category: General Security & Blogs
   title: Swisskyrepo Blog
   type: rss

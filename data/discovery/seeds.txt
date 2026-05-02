@@ -1,6 +1,7 @@
 # Discovery seed pages (one URL per line)
 # Prefer link-heavy, human-curated pages (awesome lists, publications hubs).
 
+# --- GitHub awesome lists ---
 https://github.com/sbilly/awesome-security
 https://github.com/enaqx/awesome-pentest
 https://github.com/meirwah/awesome-incident-response
@@ -12,3 +13,24 @@ https://github.com/paralax/awesome-honeypots
 https://github.com/jivoi/awesome-osint
 https://github.com/toolswatch/blackhat-arsenal-tools
 https://github.com/trailofbits/publications
+https://github.com/rmusser01/Infosec_Reference
+https://github.com/cugu/awesome-forensics
+https://github.com/Hack-with-Github/Awesome-Hacking
+https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+https://github.com/zbetcheckin/Security_list
+https://github.com/onlurking/awesome-infosec
+https://github.com/caesar0301/awesome-pcaptools
+https://github.com/PaulSec/awesome-sec-talks
+
+# --- Research & conference publications ---
+https://www.usenix.org/publications/proceedings
+https://www.ndss-symposium.org/ndss-papers/
+https://www.ieee-security.org/TC/SP2024/program-papers.html
+https://dl.acm.org/conference/ccs
+
+# --- Security community hubs & aggregators ---
+https://www.reddit.com/r/netsec/wiki/rss
+https://www.cisa.gov/news-events/cybersecurity-advisories
+https://www.kb.cert.org/vuls/
+https://nvd.nist.gov/
+https://www.exploit-db.com/

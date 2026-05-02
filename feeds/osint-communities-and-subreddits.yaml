@@ -8,12 +8,6 @@
   title: /r/netsec
   type: rss
   description: OSINT resources and community updates from /r/netsec.
-- url: https://www.reddit.com/r/netsec
-  category: OSINT, Communities & Subreddits
-  title: /r/netsec - Information Security News &amp; Discussion
-  type: ''
-  description: A community for technical news and discussion of information security
-    and closely related topics.
 - url: https://bluepurple.substack.com/feed
   category: OSINT, Communities & Subreddits
   title: Cyber Defence News for Blue &amp; Purple Teams
@@ -31,13 +25,6 @@
   type: ''
   description: Dark Roast Security’s mission is to inspire, educate, and share ideas
     about InfoSec. Follow to join our community! - Medium
-- url: https://www.defcon.org/defconrss.xml
-  category: OSINT, Communities & Subreddits
-  title: DEF CON Announcements!
-  type: rss
-  description: DEFCON is the world's largest annual hacker convention, held every
-    year in Las Vegas, Nevada. The first DEFCON took place in June 1993. DEF CON is
-    renowned for the "arcane arts" of drinking, socializing, debugging, an...
 - url: https://defcon.org/defconrss.xml
   category: OSINT, Communities & Subreddits
   title: Defcon
@@ -55,11 +42,6 @@
   description: A constructive and inclusive social network for software developers.
     With you every step of your journey.
 - url: https://dtag-dev-sec.github.io/feed
-  category: OSINT, Communities & Subreddits
-  title: DTAG Community Honeypot Project
-  type: rss
-  description: Updates from DTAG Community Honeypot Project.
-- url: https://dtag-dev-sec.github.io/feed.xml
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
   type: rss

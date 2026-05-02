@@ -8,11 +8,6 @@
   title: Blog RSS Feed | Snyk
   type: rss
   description: Developer Security Platform
-- url: https://snyk.io/blog/feed.xml
-  category: Government / CERT & Advisories
-  title: Blog RSS Feed | Snyk
-  type: rss
-  description: Developer Security Platform
 - url: https://www.clamav.net/feed
   category: Government / CERT & Advisories
   title: ClamAV® blog
@@ -27,16 +22,6 @@
   category: Government / CERT & Advisories
   title: DotDotPwn - The Directory Traversal Fuzzer
   type: atom
-  description: DotDotPwn - The Directory Traversal Fuzzer
-- url: https://dotdotpwn.blogspot.com/feeds/posts/default
-  category: Government / CERT & Advisories
-  title: DotDotPwn - The Directory Traversal Fuzzer
-  type: atom
-  description: DotDotPwn - The Directory Traversal Fuzzer
-- url: https://dotdotpwn.blogspot.com/feeds/posts/default?alt=rss
-  category: Government / CERT & Advisories
-  title: DotDotPwn - The Directory Traversal Fuzzer
-  type: rss
   description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://dotdotpwn.blogspot.com/rss.xml
   category: Government / CERT & Advisories
@@ -61,26 +46,7 @@
   type: rss
   description: Establish & advance your career with Offensive Security's online cybersecurity
     training, courses and certifications. Develop the Try Harder mindset today!
-- url: https://offsec.com/rss.xml?utm_source=offsec/
-  category: Government / CERT & Advisories
-  title: OffSec RSS Feed
-  type: rss
-  description: Establish & advance your career with Offensive Security's online cybersecurity
-    training, courses and certifications. Develop the Try Harder mindset today!
-- url: https://www.offensive-security.com/rss.xml
-  category: Government / CERT & Advisories
-  title: OffSec RSS Feed
-  type: rss
-  description: Establish & advance your career with Offensive Security's online cybersecurity
-    training, courses and certifications. Develop the Try Harder mindset today!
 - url: https://www.qubes-os.org/feed
-  category: Government / CERT & Advisories
-  title: Qubes OS
-  type: rss
-  description: Qubes is a security-oriented, free and open-source operating system
-    for personal computers that allows you to securely compartmentalize your digital
-    life.
-- url: https://www.qubes-os.org/feed.xml
   category: Government / CERT & Advisories
   title: Qubes OS
   type: rss
@@ -95,12 +61,7 @@
 - url: https://zerodayinitiative.com/blog/atom.xml
   category: Government / CERT & Advisories
   title: Zero Day Initiative - Blog
-  type: rss
-  description: Updates from Zero Day Initiative - Blog.
-- url: https://zerodayinitiative.com/blog/rss.xml
-  category: Government / CERT & Advisories
-  title: Zero Day Initiative - Blog
-  type: rss
+  type: atom
   description: Updates from Zero Day Initiative - Blog.
 - url: https://www.cisa.gov/cybersecurity-advisories/all.xml
   category: Government, CERT & Advisories

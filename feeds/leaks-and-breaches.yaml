@@ -15,12 +15,6 @@
   type: rss
   description: Hachette Book Group is a leading book publisher based in New York and
     a division of Hachette Livre, the third-largest publisher in the world.
-- url: https://www.hachettebookgroup.com/rss
-  category: Leaks & Breaches
-  title: Hachette Book Group
-  type: rss
-  description: Hachette Book Group is a leading book publisher based in New York and
-    a division of Hachette Livre, the third-largest publisher in the world.
 - url: https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches
   category: Leaks & Breaches
   title: Have I Been Pwned – Latest Breaches
@@ -38,33 +32,12 @@
   title: OWASP
   type: atom
   description: OWASP Foundation main site repository
-- url: https://www.owasp.org/feed
-  category: Leaks & Breaches
-  title: OWASP
-  type: atom
-  description: OWASP Foundation main site repository
-- url: https://www.owasp.org/feed.xml
-  category: Leaks & Breaches
-  title: OWASP
-  type: atom
-  description: OWASP Foundation main site repository
 - url: https://www.rapid7.com/blog/rss
   category: Leaks & Breaches
   title: Rapid7 Cybersecurity Blog
   type: rss
   description: Rapid7 transforms data into insight, empowering security professionals
     to progress and protect their organizations.
-- url: https://www.rapid7.com/rss.xml
-  category: Leaks & Breaches
-  title: Rapid7 Cybersecurity Blog
-  type: rss
-  description: Rapid7 transforms data into insight, empowering security professionals
-    to progress and protect their organizations.
-- url: https://feeds.feedburner.com/tenable/qaXL
-  category: Leaks & Breaches
-  title: Tenable Blog
-  type: rss
-  description: Updates from Tenable Blog.
 - url: https://www.tenable.com/blog/atom.xml
   category: Leaks & Breaches
   title: Tenable Blog

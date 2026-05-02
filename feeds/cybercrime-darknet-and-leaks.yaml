@@ -5,13 +5,6 @@
   description: CERT publishes vulnerability advisories called "Vulnerability Notes."
     Vulnerability Notes include summaries, technical details, remediation information,
     and lists of affected vendors.
-- url: https://www.kb.cert.org/vuls/atomfeed
-  category: Cybercrime, Darknet & Leaks
-  title: CERT Recently Published Vulnerability Notes
-  type: atom
-  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
-    Vulnerability Notes include summaries, technical details, remediation information,
-    and lists of affected vendors.
 - url: https://garwarner.blogspot.com/feeds/posts/default
   category: Cybercrime, Darknet & Leaks
   title: CyberCrime & Doing Time
@@ -41,35 +34,12 @@
   type: ''
   description: New releases from Distributed Denial of Secrets, a transparency collective
     publishing interesting data.
-- url: https://eternal-todo.com/rss.xml
-  category: Cybercrime, Darknet & Leaks
-  title: Eternal Todo
-  type: rss
-  description: Updates from eternal-todo.com.
 - url: https://eternal-todo.com/blog/feed
   category: Cybercrime, Darknet & Leaks
   title: eternal-todo.com blogs
   type: rss
   description: Updates from eternal-todo.com blogs.
 - url: https://www.spiderfoot.net/blog/feed
-  category: Cybercrime, Darknet & Leaks
-  title: Intel 471 Blog
-  type: rss
-  description: The latest threat intelligence insights and security research from
-    Intel 471
-- url: https://www.spiderfoot.net/blog/rss
-  category: Cybercrime, Darknet & Leaks
-  title: Intel 471 Blog
-  type: rss
-  description: The latest threat intelligence insights and security research from
-    Intel 471
-- url: https://www.spiderfoot.net/feed
-  category: Cybercrime, Darknet & Leaks
-  title: Intel 471 Blog
-  type: rss
-  description: The latest threat intelligence insights and security research from
-    Intel 471
-- url: https://www.spiderfoot.net/rss
   category: Cybercrime, Darknet & Leaks
   title: Intel 471 Blog
   type: rss
@@ -90,11 +60,6 @@
   title: No Starch Press Blog
   type: rss
   description: Updates from No Starch Press Blog.
-- url: https://objective-see.com/rss
-  category: Cybercrime, Darknet & Leaks
-  title: Objective-See's Blog
-  type: rss
-  description: All Things Related to Mac Security
 - url: https://objective-see.com/rss.xml
   category: Cybercrime, Darknet & Leaks
   title: Objective-See's Blog
@@ -106,26 +71,6 @@
   type: rss
   description: Cybersecurity. Simplified
 - url: https://www.swisscyberstorm.com/blog/index.xml
-  category: Cybercrime, Darknet & Leaks
-  title: Swiss Cyber Storm
-  type: rss
-  description: Recent Blog entries on Swiss Cyber Storm
-- url: https://www.swisscyberstorm.com/feed
-  category: Cybercrime, Darknet & Leaks
-  title: Swiss Cyber Storm
-  type: rss
-  description: Recent Blog entries on Swiss Cyber Storm
-- url: https://www.swisscyberstorm.com/rss
-  category: Cybercrime, Darknet & Leaks
-  title: Swiss Cyber Storm
-  type: rss
-  description: Recent Blog entries on Swiss Cyber Storm
-- url: https://www.swisscyberstorm.com/rss.xml
-  category: Cybercrime, Darknet & Leaks
-  title: Swiss Cyber Storm
-  type: rss
-  description: Recent Blog entries on Swiss Cyber Storm
-- url: https://www.swisscyberstorm.com/rss/index.xml
   category: Cybercrime, Darknet & Leaks
   title: Swiss Cyber Storm
   type: rss
@@ -166,17 +111,7 @@
   title: VulDB Changelog
   type: rss
   description: Changelog
-- url: https://vuldb.com?rss.changelog
-  category: Cybercrime, Darknet & Leaks
-  title: VulDB Changelog
-  type: rss
-  description: Changelog
 - url: https://zeek.org/feed
-  category: Cybercrime, Darknet & Leaks
-  title: Zeek
-  type: rss
-  description: Zeek and ye shall find.
-- url: https://zeek.org/rss
   category: Cybercrime, Darknet & Leaks
   title: Zeek
   type: rss

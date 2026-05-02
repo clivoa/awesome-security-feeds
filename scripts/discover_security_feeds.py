@@ -35,7 +35,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from dataclasses import dataclass, asdict
 from typing import Any, Optional
 from urllib.parse import urljoin, urlparse
@@ -99,6 +99,14 @@ COMMON_FEED_PATHS = [
     "/rss/index.xml",
 ]
 
+# Preferred canonical paths: lower index = higher priority when deduplicating
+# same-type, same-title feeds from the same site.
+FEED_PATH_PREFERENCE = [
+    "/feed", "/atom.xml", "/rss.xml", "/feed.xml", "/index.xml",
+    "/blog/feed", "/blog/atom.xml", "/blog/rss.xml", "/blog/feed.xml",
+    "/rss", "/blog/rss", "/rss/index.xml",
+]
+
 FEED_HINT_RE = re.compile(r"(rss|atom|feed|\.xml)(\b|$)", re.IGNORECASE)
 
 SECURITY_KEYWORDS = [
@@ -108,11 +116,28 @@ SECURITY_KEYWORDS = [
     "apt", "threat actor", "intrusion", "breach", "incident", "ioc", "tactic", "technique",
     "reverse engineering", "pwn", "pentest", "red team", "blue team", "dfir", "forensics",
     "edr", "siem", "splunk", "kql", "sigma", "yara",
-    "kubernetes", "docker", "cloud", "aws", "azure", "gcp",
+    "kubernetes", "docker", "cloud security", "aws security", "azure security", "gcp security",
     "campaign", "payload", "initial access", "lateral movement", "persistence", "privilege escalation",
     # extra common terms
-    "authentication", "bypass", "rce", "remote code execution", "xss", "sqli", "ssrf", "csrf",
-    "privilege escalation", "denial of service", "data leak", "data exfiltration",
+    "authentication bypass", "rce", "remote code execution", "xss", "sqli", "ssrf", "csrf",
+    "denial of service", "data leak", "data exfiltration",
+    # strong security-specific terms
+    "threat intelligence", "security research", "vulnerability disclosure", "bug bounty",
+    "penetration testing", "security advisory", "zero trust", "supply chain attack",
+    "memory corruption", "buffer overflow", "heap spray", "use-after-free",
+    "command injection", "path traversal", "deserialization",
+    "c2", "command and control", "cobalt strike", "metasploit",
+    "mitre att&ck", "killchain", "ttp",
+]
+
+# Keywords that strongly indicate non-security content — reduce false positives.
+NEGATIVE_KEYWORDS = [
+    "recipe", "cooking", "fashion", "beauty", "lifestyle", "travel blog",
+    "weight loss", "fitness tips", "relationship", "celebrity", "entertainment",
+    "sports news", "movie review", "book review",
+    "stock market", "cryptocurrency price", "nft", "defi yield",
+    "seo tips", "social media marketing", "digital marketing", "affiliate",
+    "wordpress tutorial", "web design tips",
 ]
 
 # Simple category suggestion rules (you can replace later with your SMART_GROUP_RULES)
@@ -184,6 +209,22 @@ class FeedCandidate:
 
 def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
+
+
+def canonical_feed_url(url: str) -> str:
+    """Normalize a feed URL for deduplication: strip www, lowercase, remove trailing slash."""
+    url = (url or "").strip().lower()
+    try:
+        p = urlparse(url)
+        # Prefer https
+        scheme = "https" if p.scheme in ("http", "https") else p.scheme
+        netloc = p.netloc
+        if netloc.startswith("www."):
+            netloc = netloc[4:]
+        path = p.path.rstrip("/") or "/"
+        return p._replace(scheme=scheme, netloc=netloc, path=path, fragment="", query="").geturl()
+    except Exception:
+        return url
 
 
 
@@ -310,6 +351,36 @@ def dedupe_candidates_keep_best(candidates: list["FeedCandidate"]) -> list["Feed
         if prev is None or candidate.score > prev.score:
             uniq[candidate.url_hash] = candidate
     return sorted(uniq.values(), key=lambda x: x.score, reverse=True)
+
+
+def _feed_path_rank(url: str) -> int:
+    """Lower rank = more preferred canonical path for dedup tie-breaking."""
+    path = urlparse(url.lower()).path.rstrip("/") or "/"
+    try:
+        return FEED_PATH_PREFERENCE.index(path)
+    except ValueError:
+        return len(FEED_PATH_PREFERENCE)
+
+
+def dedup_site_candidates(candidates: list["FeedCandidate"]) -> list["FeedCandidate"]:
+    """Remove same-type/same-title duplicates discovered within a single site.
+
+    When a site responds to multiple feed paths (e.g. /feed, /rss.xml, /rss) with
+    feeds that have the same type and title, keep only the one at the most canonical
+    path (lowest FEED_PATH_PREFERENCE rank).  Feeds with distinct titles or distinct
+    types are always kept, since they represent genuinely different content.
+    """
+    groups: dict[tuple[str, str], list[FeedCandidate]] = {}
+    for c in candidates:
+        norm_title = re.sub(r"\s+", " ", (c.title or "").strip().lower())
+        key = (c.feed_type, norm_title)
+        groups.setdefault(key, []).append(c)
+
+    result: list[FeedCandidate] = []
+    for group in groups.values():
+        best = min(group, key=lambda c: _feed_path_rank(c.feed_url))
+        result.append(best)
+    return result
 
 
 def update_seen_cache(seen: dict[str, Any], candidates: list["FeedCandidate"]) -> None:
@@ -613,6 +684,23 @@ def suggest_category(text_blob_lower: str) -> str:
     return "Security (General)"
 
 
+def _latest_entry_date(entries: list) -> Optional[datetime]:
+    """Return the most recent published/updated datetime across entries, UTC-aware."""
+    latest: Optional[datetime] = None
+    for e in entries:
+        for field in ("published_parsed", "updated_parsed"):
+            t = e.get(field)
+            if not t:
+                continue
+            try:
+                dt = datetime(*t[:6], tzinfo=timezone.utc)
+                if latest is None or dt > latest:
+                    latest = dt
+            except Exception:
+                continue
+    return latest
+
+
 def score_security(parsed: feedparser.FeedParserDict, max_entries: int = 15) -> tuple[int, list[str], list[dict], str]:
     entries = parsed.entries[:max_entries]
     blob_parts = []
@@ -633,7 +721,10 @@ def score_security(parsed: feedparser.FeedParserDict, max_entries: int = 15) -> 
     score = 0
     strong = {
         "cve", "exploit", "ransomware", "malware", "apt", "zero-day", "0day",
-        "vulnerability", "advisory", "patch", "rce", "remote code execution",
+        "vulnerability", "advisory", "rce", "remote code execution",
+        "threat intelligence", "vulnerability disclosure", "security research",
+        "memory corruption", "buffer overflow", "command injection",
+        "c2", "command and control", "mitre att&ck",
     }
 
     for kw in SECURITY_KEYWORDS:
@@ -641,12 +732,33 @@ def score_security(parsed: feedparser.FeedParserDict, max_entries: int = 15) -> 
             matched.append(kw)
             score += 3 if kw in strong else 1
 
-    # density bonuses
+    # density bonus: many distinct security terms = high confidence
     uniq = set(matched)
-    if len(uniq) >= 8:
-        score += 3
+    if len(uniq) >= 10:
+        score += 5
+    elif len(uniq) >= 6:
+        score += 2
+
+    # recency bonus/penalty
+    latest = _latest_entry_date(entries)
+    now = datetime.now(timezone.utc)
+    if latest:
+        age_days = (now - latest).days
+        if age_days <= 30:
+            score += 3
+        elif age_days <= 90:
+            score += 1
+        elif age_days > 365:
+            score -= 4  # stale feed
+
+    # frequency bonus: ≥10 entries = active feed
     if len(entries) >= 10:
-        score += 1
+        score += 2
+
+    # negative keyword penalty: generic content masquerading as security
+    neg_hits = sum(1 for kw in NEGATIVE_KEYWORDS if kw in blob)
+    if neg_hits >= 2:
+        score -= neg_hits * 2
 
     matched = sorted(uniq)[:25]
     category = suggest_category(blob)
@@ -706,12 +818,12 @@ def discover_site_feeds(session: requests.Session, site_url: str, timeout: int, 
                 suggested_category=category,
                 discovered_via=discovered_via,
                 entries_sample=sample,
-                url_hash=sha1(feed_url),
+                url_hash=sha1(canonical_feed_url(feed_url)),
                 discovered_at=utc_now_iso(),
             )
         )
 
-    return out
+    return dedup_site_candidates(out)
 
 
 def collect_candidate_sites(
@@ -745,7 +857,13 @@ def collect_candidate_sites(
         if len(candidate_sites) >= max_sites:
             break
 
-    return sorted(candidate_sites)[:max_sites]
+    # Dedup: treat www.example.com and example.com as the same host; keep one origin per host.
+    deduped: dict[str, str] = {}
+    for site_url in sorted(candidate_sites):
+        host = norm_host(site_url)
+        if host and host not in deduped:
+            deduped[host] = site_url
+    return sorted(deduped.values())[:max_sites]
 
 
 def collect_feed_candidates(
@@ -789,9 +907,9 @@ def load_existing_feed_urls(feeds_dir: str) -> set[str]:
             for item in load_yaml_list(path):
                 if not isinstance(item, dict):
                     continue
-                url = normalize_url(str(item.get("url", "")))
+                url = canonical_feed_url(str(item.get("url", "")))
                 if url:
-                    urls.add(url.lower())
+                    urls.add(url)
     return urls
 
 
@@ -871,7 +989,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         default=DEFAULT_SEEDS_FILE,
         help=f"Seeds file (one URL per line). Falls back to built-in list if missing. Default: {DEFAULT_SEEDS_FILE}",
     )
-    ap.add_argument("--max-seeds", type=int, default=10)
+    ap.add_argument("--max-seeds", type=int, default=30)
     ap.add_argument("--max-sites", type=int, default=400)
     ap.add_argument("--min-score", type=int, default=6)
     ap.add_argument("--timeout", type=int, default=18)
@@ -958,7 +1076,7 @@ def main() -> None:
         before_known_filter = len(final)
         final = [
             c for c in final
-            if normalize_url(c.feed_url).lower() not in known_feed_urls
+            if canonical_feed_url(c.feed_url) not in known_feed_urls
         ]
         skipped_known = before_known_filter - len(final)
         if skipped_known:

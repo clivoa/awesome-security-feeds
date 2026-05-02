@@ -91,11 +91,6 @@
   title: Blog RSS feed
   type: rss
   description: Vendor security blog and product updates from Blog RSS feed.
-- url: https://samcurry.net/feed.rss
-  category: Vendors & Product Blogs
-  title: Blog | Sam Curry
-  type: ''
-  description: Updates from Blog | Sam Curry.
 - url: https://www.zerofox.com/blog/feed
   category: Vendors & Product Blogs
   title: Blog – ZeroFox
@@ -169,11 +164,6 @@
   description: Lawfare is a non-profit, online publication focused on the intersection
     of national security law, policy, and technology, with a particular emphasis on
     legal debates surrounding U.S. security actions.
-- url: https://www.crowdstrike.com/blog/feed
-  category: Vendors & Product Blogs
-  title: Cybersecurity Blog | CrowdStrike
-  type: ''
-  description: Next-Generation Endpoint Protection
 - url: https://cyble.com/feed
   category: Vendors & Product Blogs
   title: Cyble
@@ -275,12 +265,6 @@
   title: G DATA Security Blog
   type: rss
   description: Updates from G DATA Security Blog.
-- url: https://feeds.feedburner.com/gbhackers
-  category: Vendors & Product Blogs
-  title: GBHackers On Security
-  type: ''
-  description: Daily Cyber Security Research updates,Hacking tutorial Updates,Technology
-    updates
 - url: https://cloudblog.withgoogle.com/rss
   category: Vendors & Product Blogs
   title: Google Cloud Blog
@@ -293,12 +277,6 @@
   type: atom
   description: RSS feed for Google Online Security Blog, covering vendors & product
     blogs news and updates.
-- url: https://googleonlinesecurity.blogspot.com/atom.xml
-  category: Vendors & Product Blogs
-  title: Google Online Security Blog
-  type: rss
-  description: Vendor security updates, advisories, and guidance from Google Online
-    Security Blog.
 - url: https://googleprojectzero.blogspot.com/feeds/posts/default
   category: Vendors & Product Blogs
   title: Google Project Zero
@@ -418,11 +396,6 @@
   type: rss
   description: Microsoft technical community posts with security guidance, product
     updates, and research.
-- url: https://cloudblogs.microsoft.com/microsoftsecure/feed
-  category: Vendors & Product Blogs
-  title: Microsoft Security Blog
-  type: ''
-  description: Expert coverage of cybersecurity topics
 - url: https://www.microsoft.com/en-us/security/blog/feed
   category: Vendors & Product Blogs
   title: Microsoft Security Blog
@@ -433,12 +406,6 @@
   category: Vendors & Product Blogs
   title: Microsoft Security Blog
   type: atom
-  description: Vendor security updates, advisories, and guidance from Microsoft Security
-    Blog.
-- url: https://www.microsoft.com/security/blog/feed
-  category: Vendors & Product Blogs
-  title: Microsoft Security Blog
-  type: rss
   description: Vendor security updates, advisories, and guidance from Microsoft Security
     Blog.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-security-blog
@@ -453,12 +420,6 @@
   type: rss
   description: Microsoft technical community posts with security guidance, product
     updates, and research.
-- url: https://msrc-blog.microsoft.com/feed
-  category: Vendors & Product Blogs
-  title: Microsoft Security Response Center
-  type: rss
-  description: Vendor security updates, advisories, and guidance from Microsoft Security
-    Response Center.
 - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSentinelBlog
   category: Vendors & Product Blogs
   title: Microsoft Sentinel Blog
@@ -539,12 +500,6 @@
   category: Vendors & Product Blogs
   title: Palo Alto Networks Blog
   type: atom
-  description: Vendor security updates, advisories, and guidance from Palo Alto Networks
-    Blog.
-- url: https://www.paloaltonetworks.com/blog/rss
-  category: Vendors & Product Blogs
-  title: Palo Alto Networks Blog
-  type: rss
   description: Vendor security updates, advisories, and guidance from Palo Alto Networks
     Blog.
 - url: https://researchcenter.paloaltonetworks.com/unit42/feed

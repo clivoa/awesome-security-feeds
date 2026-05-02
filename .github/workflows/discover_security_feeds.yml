@@ -47,7 +47,8 @@ jobs:
         run: |
           python scripts/discover_security_feeds.py \
             --only-new \
-            --min-score 9 \
+            --min-score 12 \
+            --max-seeds 30 \
             --write-yaml-split \
             --yaml-split-dir feeds/_candidates \
             --max-new-candidates 75
