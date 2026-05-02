@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-05-02T18:05:16.800191+00:00` (UTC)
+**Generated:** `2026-05-02T18:08:54.188305+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
