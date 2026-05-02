@@ -1,0 +1,179 @@
+- url: http://distrowatch.com/news/dw.xml
+  category: Cybercrime, Darknet & Leaks
+  title: 'DistroWatch.com: News'
+  type: rss
+  description: Latest news on Linux distributions and BSD projects
+  discovery:
+    discovered_at: '2026-05-02T18:58:05.156142Z'
+    score: 14
+    matched_keywords:
+    - apt
+    - kubernetes
+    - loader
+    - rce
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 9bd09540742d670665ca390809a48f204af75c7c
+- url: https://drkeithjones.com/index.php/feed/
+  category: Cybercrime, Darknet & Leaks
+  title: DrKeithJones.com
+  type: rss
+  description: A cybersecurity researcher's journey.
+  discovery:
+    discovered_at: '2026-05-02T19:46:26.902353Z'
+    score: 23
+    matched_keywords:
+    - apt
+    - c2
+    - forensics
+    - malware
+    - rce
+    - threat actor
+    - trojan
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: c30979e573a4f9d6eefff76f1d0aab33d36abe6e
+- url: https://eternal-todo.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: eternal-todo.com
+  type: rss
+  description: Updates from eternal-todo.com covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-05-02T19:47:25.585557Z'
+    score: 50
+    matched_keywords:
+    - 0day
+    - apt
+    - botnet
+    - c2
+    - campaign
+    - cve
+    - dfir
+    - edr
+    - exploit
+    - heap spray
+    - incident
+    - loader
+    - malware
+    - patch
+    - payload
+    - persistence
+    - privilege escalation
+    - ransomware
+    - rce
+    - reverse engineering
+    - technique
+    - trojan
+    - ttp
+    - use-after-free
+    - vuln
+    discovered_via: rel=alternate
+    url_hash: 3f79dce7821935857cbe1010129565d95b2639cf
+- url: http://www.spiderfoot.net/feed/
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+  discovery:
+    discovered_at: '2026-05-02T19:36:53.328179Z'
+    score: 37
+    matched_keywords:
+    - botnet
+    - campaign
+    - command injection
+    - cve
+    - exploit
+    - incident
+    - infostealer
+    - malware
+    - ransomware
+    - rce
+    - supply chain attack
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 8af8e793ef601ad6efb2c4321b30c60f8982cd4e
+- url: https://nostarch.com/feeds/newbooks.xml
+  category: Cybercrime, Darknet & Leaks
+  title: No Starch Press - New Books
+  type: rss
+  description: Our latest and greatest!
+  discovery:
+    discovered_at: '2026-05-02T19:53:49.295096Z'
+    score: 14
+    matched_keywords:
+    - c2
+    - malware
+    - pentest
+    - red team
+    - reverse engineering
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: ea76f61655d4999d66680f241cec155f7a443d33
+- url: https://www.rapid7.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+  discovery:
+    discovered_at: '2026-05-02T20:28:56.334464Z'
+    score: 74
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication bypass
+    - breach
+    - c2
+    - campaign
+    - cve
+    - exploit
+    - incident
+    - initial access
+    - intrusion
+    - ioc
+    - lateral movement
+    - malware
+    - metasploit
+    - patch
+    - path traversal
+    - payload
+    - persistence
+    - phishing
+    - privilege escalation
+    - ransomware
+    - rce
+    - remote code execution
+    - security advisory
+    discovered_via: rel=alternate
+    url_hash: e6277b75af9f1761199b620b8f26891c1d5794f0
+- url: https://www.swisscyberstorm.com/feed/
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+  discovery:
+    discovered_at: '2026-05-02T20:33:35.329229Z'
+    score: 38
+    matched_keywords:
+    - apt
+    - breach
+    - c2
+    - campaign
+    - exploit
+    - forensics
+    - incident
+    - malware
+    - ransomware
+    - rce
+    - reverse engineering
+    - security research
+    - siem
+    - tactic
+    - threat intelligence
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: b78b15056fe8549b1e9aa5848eb8a49ca62de071

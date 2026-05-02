@@ -1,0 +1,17 @@
+- url: http://belkasoft.com/rss.xml
+  category: Leaks & Breaches
+  title: Belkasoft site
+  type: rss
+  description: 'Belkasoft: Evidence Search and Analysis Software for Digital Forensic
+    Investigations and Incident Response'
+  discovery:
+    discovered_at: '2026-05-02T18:51:22.808852Z'
+    score: 12
+    matched_keywords:
+    - data leak
+    - dfir
+    - forensics
+    - rce
+    - technique
+    discovered_via: common_path
+    url_hash: 25bd47d3d0ca08ed5d8f312f12baa9eae511329a
