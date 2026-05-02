@@ -1,0 +1,44 @@
+- url: https://creativecommons.org/feed
+  category: Security (General) & Blogs
+  title: Creative Commons
+  type: rss
+  description: Updates from Creative Commons covering security (general).
+  discovery:
+    discovered_at: '2026-05-02T19:43:42.596918Z'
+    score: 12
+    matched_keywords:
+    - apt
+    - rce
+    - ttp
+    discovered_via: common_path
+    url_hash: f4a29e451d3cf7475bb2adb1a6219e5863beda82
+- url: https://geti2p.net/en/index.xml
+  category: Security (General) & Blogs
+  title: I2P - The Invisible Internet Project
+  type: rss
+  description: Recent content on I2P - The Invisible Internet Project
+  discovery:
+    discovered_at: '2026-05-02T19:48:19.175612Z'
+    score: 13
+    matched_keywords:
+    - c2
+    - docker
+    - rce
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 3538afc86d924ad35374b6107c037c3af2364783
+- url: https://www.percona.com/feed
+  category: Security (General) & Blogs
+  title: Percona
+  type: rss
+  description: The Way is Open
+  discovery:
+    discovered_at: '2026-05-02T20:23:17.776659Z'
+    score: 13
+    matched_keywords:
+    - apt
+    - kubernetes
+    - rce
+    - ttp
+    discovered_via: common_path
+    url_hash: b94cfeffc0609324a81a0af7a23f22bcfbaf3580

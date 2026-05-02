@@ -1,3 +1,49 @@
+- url: https://www.enisa.europa.eu/rss.xml
+  category: Government / CERT & Advisories
+  title: ENISA - ENISA, is the Union's agency dedicated to achieving a high common
+    level of cybersecurity across Europe.
+  type: rss
+  description: Updates from ENISA - ENISA, is the Union's agency dedicated to achieving
+    a high common level of cybersecurity across Europe. covering vulnerabilities,
+    cves.
+  discovery:
+    discovered_at: '2026-05-02T20:18:19.156882Z'
+    score: 28
+    matched_keywords:
+    - advisory
+    - apt
+    - edr
+    - incident
+    - penetration testing
+    - rce
+    - ttp
+    - vuln
+    - vulnerability
+    - vulnerability disclosure
+    discovered_via: common_path
+    url_hash: 6a593ffb4da005f109f228551d9a0670a00dbef6
+- url: https://www.offensive-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+  discovery:
+    discovered_at: '2026-05-02T20:22:49.305954Z'
+    score: 28
+    matched_keywords:
+    - authentication bypass
+    - blue team
+    - campaign
+    - cve
+    - exploit
+    - payload
+    - red team
+    - security research
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 6d4bc3d68988aa942ebe98bad5ec17fccf867eec
 - url: https://www.virusbulletin.com/rss/
   category: Government / CERT & Advisories
   title: Virus Bulletin's blog

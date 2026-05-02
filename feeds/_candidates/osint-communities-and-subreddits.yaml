@@ -1,3 +1,54 @@
+- url: http://h.foofus.net/?feed=rss2
+  category: OSINT, Communities & Subreddits
+  title: Foofus.Net
+  type: rss
+  description: Foofus.Net Advanced Security Services Forum
+  discovery:
+    discovered_at: '2026-05-02T19:04:15.243312Z'
+    score: 14
+    matched_keywords:
+    - cve
+    - metasploit
+    - penetration testing
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: c485eb8e5fee132f6fb3b8b3b3a3dd06ee7b53ac
+- url: http://hashcat.net/forum/syndication.php?fid=19&type=atom1.0
+  category: OSINT, Communities & Subreddits
+  title: hashcat Forum - Very old oclHashcat-plus Announcements
+  type: atom
+  description: hashcat Forum - https://hashcat.net/forum
+  discovery:
+    discovered_at: '2026-05-02T19:04:21.985151Z'
+    score: 13
+    matched_keywords:
+    - c2
+    - exploit
+    - patch
+    - pentest
+    - rce
+    - technique
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 7c3753afe06132506f40945ebd81afdbfa80b361
+- url: https://www.whonix.org/blog/feed
+  category: OSINT, Communities & Subreddits
+  title: News - Whonix Forum
+  type: rss
+  description: Topics in the 'News' category News posted by Whonix staff. The Whonix
+    Blog. <a href="https://www.whonix.org/wiki/Stay_Tuned">Stay Tuned</a>. (<a href="https://www.whonix.org/wiki/Stay_Tuned#Whonix_News_Forums">rss</a>)
+  discovery:
+    discovered_at: '2026-05-02T20:35:52.761733Z'
+    score: 13
+    matched_keywords:
+    - apt
+    - c2
+    - rce
+    - ttp
+    discovered_via: common_path
+    url_hash: abe08e8100524c7b3ca4deef1ebf9dd15d5736ca
 - url: http://seclists.org/rss/nmap-dev.rss
   category: OSINT, Communities & Subreddits
   title: Nmap Development
