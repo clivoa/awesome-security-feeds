@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-02T18:49:40.209394+00:00",
-  "total": 1131,
+  "generated_at": "2026-05-04T22:11:04.640568+00:00",
+  "total": 1136,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -5183,6 +5183,13 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
+      "url": "https://seclists.org/rss/nmap-dev.rss",
+      "title": "Nmap Development",
+      "description": "Unmoderated technical development forum for debating ideas, patches, and suggestions regarding proposed changes to <a href=\"https://nmap.org\">Nmap</a> and related projects. <a href=\"https://nmap.org/mailman/listinfo/d...",
+      "type": "rss",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
       "url": "https://seclists.org/rss/oss-sec.rss",
       "title": "Open Source Security",
       "description": "Discussion of security flaws, concepts, and practices in the Open Source community",
@@ -7710,6 +7717,27 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://raymond.cc/feed",
+      "title": "Raymond.CC Blog",
+      "description": "Daily updated news of useful advanced computer tips and tricks",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.raymond.cc/feed",
+      "title": "Raymond.CC Blog",
+      "description": "Daily updated news of useful advanced computer tips and tricks",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.raymond.cc/rss",
+      "title": "Raymond.CC Blog",
+      "description": "Daily updated news of useful advanced computer tips and tricks",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://www.rcesecurity.com/feed",
       "title": "RCE Security",
       "description": "Remote Code Execution Techniques and more",
@@ -7840,6 +7868,13 @@
       "title": "The Open Cloud Vulnerability &amp; Security Issue Database",
       "description": "An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues.",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.zaproxy.org/index.xml",
+      "title": "The ZAP Homepage on ZAP",
+      "description": "Recent content in The ZAP Homepage on ZAP",
+      "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
