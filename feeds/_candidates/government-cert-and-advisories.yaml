@@ -1,0 +1,116 @@
+- url: https://www.cert.pl/atom.xml
+  category: Government / CERT & Advisories
+  title: CERT Polska
+  type: atom
+  description: CERT.PL
+  discovery:
+    discovered_at: '2026-05-04T10:07:26.388729Z'
+    score: 15
+    matched_keywords:
+    - apt
+    - c2
+    - cve
+    - ssrf
+    discovered_via: rel=alternate
+    url_hash: a76dd6062eb9a8dd5ce92ff2ed6c779eafa51194
+- url: https://www.cert.pl/feed
+  category: Government / CERT & Advisories
+  title: CERT Polska
+  type: rss
+  description: CERT.PL
+  discovery:
+    discovered_at: '2026-05-04T10:07:16.930133Z'
+    score: 15
+    matched_keywords:
+    - apt
+    - c2
+    - cve
+    - ssrf
+    discovered_via: common_path
+    url_hash: a95b2428133f50063adfe48145ac6ae282c4eb17
+- url: https://www.circl.lu/atom.xml
+  category: Government / CERT & Advisories
+  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
+  type: atom
+  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
+    Computer Incident Response Center Luxembourg
+  discovery:
+    discovered_at: '2026-05-04T10:07:43.957822Z'
+    score: 22
+    matched_keywords:
+    - apt
+    - buffer overflow
+    - cve
+    - patch
+    - rce
+    - ttp
+    - vuln
+    - zero-day
+    discovered_via: rel=alternate
+    url_hash: e78ae2e2442466da706409677793542482dd5950
+- url: https://www.circl.lu/rss.xml
+  category: Government / CERT & Advisories
+  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
+  type: rss
+  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
+    Computer Incident Response Center Luxembourg
+  discovery:
+    discovered_at: '2026-05-04T10:07:45.945873Z'
+    score: 22
+    matched_keywords:
+    - apt
+    - buffer overflow
+    - cve
+    - patch
+    - rce
+    - ttp
+    - vuln
+    - zero-day
+    discovered_via: rel=alternate
+    url_hash: 93e85a3a5e111822fe03d4fa2c4892e3f8cf9cc6
+- url: https://www.us-cert.gov/rss.xml
+  category: Government / CERT & Advisories
+  title: Cybersecurity and Infrastructure Security Agency CISA
+  type: rss
+  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
+    covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-05-04T10:34:50.426741Z'
+    score: 37
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication bypass
+    - cve
+    - denial of service
+    - exploit
+    - incident
+    - intrusion
+    - path traversal
+    - phishing
+    - rce
+    - security advisory
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 7fd780451c836fc45482224e1e06b436ee6786b3
+- url: https://www.opswat.com/rss
+  category: Government / CERT & Advisories
+  title: OPSWAT Blog
+  type: rss
+  description: Stay informed with expert insights on next-gen cybersecurity, cloud
+    security, and vulnerabilities shaping the global landscape.
+  discovery:
+    discovered_at: '2026-05-04T10:23:41.466964Z'
+    score: 20
+    matched_keywords:
+    - advisory
+    - exploit
+    - forensics
+    - intrusion
+    - lateral movement
+    - malware
+    - threat actor
+    discovered_via: common_path
+    url_hash: 485df65fa2268ca9ed215965abd5f6e5f9b2348b

@@ -1,0 +1,36 @@
+- url: https://www.celerium.com/blog/rss.xml
+  category: Leaks & Breaches
+  title: Intelligence Hub
+  type: rss
+  description: Access invaluable cybersecurity resources from Celerium - including
+    insights and tools - to help improve your security strategy and stay ahead of
+    safeguarding your network.
+  discovery:
+    discovered_at: '2026-05-04T10:07:12.885602Z'
+    score: 14
+    matched_keywords:
+    - apt
+    - breach
+    - rce
+    - siem
+    - ttp
+    discovered_via: common_path
+    url_hash: d89c5e6085e38b53ef9affdef3626b8bad798d8d
+- url: https://www.kaspersky.com/blog/feed
+  category: Leaks & Breaches
+  title: Kaspersky official blog
+  type: rss
+  description: The Official Blog from Kaspersky covers information to help protect
+    you against viruses, spyware, hackers, spam & other forms of malware.
+  discovery:
+    discovered_at: '2026-05-04T10:16:26.476730Z'
+    score: 15
+    matched_keywords:
+    - breach
+    - malware
+    - phishing
+    - tactic
+    - trojan
+    - vuln
+    discovered_via: common_path
+    url_hash: 7ce807ebb4b43c0a8d0a9e405609c5c9e3780b17
