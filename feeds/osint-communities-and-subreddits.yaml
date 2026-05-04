@@ -64,6 +64,13 @@
   title: IntelTechniques Blog
   type: rss
   description: OSINT resources and community updates from IntelTechniques Blog.
+- url: https://seclists.org/rss/nmap-dev.rss
+  category: OSINT, Communities & Subreddits
+  title: Nmap Development
+  type: rss
+  description: Unmoderated technical development forum for debating ideas, patches,
+    and suggestions regarding proposed changes to <a href="https://nmap.org">Nmap</a>
+    and related projects. <a href="https://nmap.org/mailman/listinfo/d...
 - url: https://seclists.org/rss/oss-sec.rss
   category: OSINT, Communities & Subreddits
   title: Open Source Security
