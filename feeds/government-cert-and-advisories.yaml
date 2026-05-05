@@ -8,6 +8,28 @@
   title: Blog RSS Feed | Snyk
   type: rss
   description: Developer Security Platform
+- url: https://www.cert.pl/atom.xml
+  category: Government / CERT & Advisories
+  title: CERT Polska
+  type: atom
+  description: CERT.PL
+- url: https://www.cert.pl/feed
+  category: Government / CERT & Advisories
+  title: CERT Polska
+  type: rss
+  description: CERT.PL
+- url: https://www.circl.lu/atom.xml
+  category: Government / CERT & Advisories
+  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
+  type: atom
+  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
+    Computer Incident Response Center Luxembourg
+- url: https://www.circl.lu/rss.xml
+  category: Government / CERT & Advisories
+  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
+  type: rss
+  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
+    Computer Incident Response Center Luxembourg
 - url: https://www.clamav.net/feed
   category: Government / CERT & Advisories
   title: ClamAV® blog
@@ -18,6 +40,12 @@
   title: CXSECURITY Database RSS Feed - CXSecurity.com
   type: rss
   description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
+- url: https://www.us-cert.gov/rss.xml
+  category: Government / CERT & Advisories
+  title: Cybersecurity and Infrastructure Security Agency CISA
+  type: rss
+  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
+    covering vulnerabilities, cves.
 - url: https://dotdotpwn.blogspot.com/atom.xml
   category: Government / CERT & Advisories
   title: DotDotPwn - The Directory Traversal Fuzzer
@@ -46,6 +74,12 @@
   type: rss
   description: Establish & advance your career with Offensive Security's online cybersecurity
     training, courses and certifications. Develop the Try Harder mindset today!
+- url: https://www.opswat.com/rss
+  category: Government / CERT & Advisories
+  title: OPSWAT Blog
+  type: rss
+  description: Stay informed with expert insights on next-gen cybersecurity, cloud
+    security, and vulnerabilities shaping the global landscape.
 - url: https://www.qubes-os.org/feed
   category: Government / CERT & Advisories
   title: Qubes OS

@@ -39,6 +39,12 @@
   title: eternal-todo.com blogs
   type: rss
   description: Updates from eternal-todo.com blogs.
+- url: https://wombat-project.eu/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: FP7-ICT-216026-WOMBAT
+  type: rss
+  description: Worldwide Observatory of Malicious Behaviors and Attack Threats project
+    public space
 - url: https://www.spiderfoot.net/blog/feed
   category: Cybercrime, Darknet & Leaks
   title: Intel 471 Blog
@@ -55,6 +61,11 @@
   title: Lifeboat – Cybercrime & Malcode
   type: rss
   description: Cybercrime and underground ecosystem coverage from Lifeboat.
+- url: https://malpedia.caad.fkie.fraunhofer.de/feeds/rss/latest
+  category: Cybercrime, Darknet & Leaks
+  title: Malpedia Library (Latest)
+  type: rss
+  description: Latest Malpedia library entries, sorted by publication date
 - url: https://nostarch.com/blog/feed
   category: Cybercrime, Darknet & Leaks
   title: No Starch Press Blog
@@ -65,11 +76,41 @@
   title: Objective-See's Blog
   type: rss
   description: All Things Related to Mac Security
+- url: https://planet.gnu.org/rss20.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Planet GNU
+  type: rss
+  description: Planet GNU - https://planet.gnu.org/
+- url: https://qfeeds.com/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Q-Feeds
+  type: rss
+  description: Theat Intelligence Feeds
 - url: https://riskanalytics.com/feed
   category: Cybercrime, Darknet & Leaks
   title: RiskAnalytics
   type: rss
   description: Cybersecurity. Simplified
+- url: https://ryanstillions.blogspot.nl/atom.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Ryan Stillions
+  type: atom
+  description: Postulations after great cogitation
+- url: https://ryanstillions.blogspot.nl/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Ryan Stillions
+  type: rss
+  description: Postulations after great cogitation
+- url: https://dev-sec.io/index.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Security + DevOps on DevSec Hardening Framework
+  type: rss
+  description: Recent content in Security + DevOps on DevSec Hardening Framework
+- url: https://www.sophos.com/blog/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Sophos Blogs
+  type: rss
+  description: Latest blog posts and insights from Sophos
 - url: https://www.swisscyberstorm.com/blog/index.xml
   category: Cybercrime, Darknet & Leaks
   title: Swiss Cyber Storm
@@ -81,6 +122,11 @@
   type: ''
   description: The latest news on cyber security, network security, software vulnerabilities,
     data leaks, malware, and viruses
+- url: https://feeds.feedburner.com/tenable/qaXL
+  category: Cybercrime, Darknet & Leaks
+  title: Tenable Blog
+  type: rss
+  description: Updates from Tenable Blog covering vulnerabilities, cves.
 - url: https://feeds.feedburner.com/scdashboards
   category: Cybercrime, Darknet & Leaks
   title: Tenable Security Center dashboards

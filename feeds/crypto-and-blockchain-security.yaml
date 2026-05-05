@@ -56,3 +56,8 @@
   title: Rekt
   type: ''
   description: Investigative journalism &amp; creative commentary
+- url: https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory
+  category: Crypto & Blockchain Security
+  title: X-Force Exchange - Collection Feed
+  type: rss
+  description: Collections with tag "advisory"

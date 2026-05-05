@@ -2758,3 +2758,8 @@
   title: zsyscall activity
   type: rss
   description: Security research and blog updates from zsyscall activity.
+- url: https://aisel.aisnet.org/recent.rss
+  category: Security (General) & Blogs
+  title: AIS Electronic Library (AISeL)
+  type: rss
+  description: Recent documents in AIS Electronic Library (AISeL)

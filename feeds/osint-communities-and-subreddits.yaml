@@ -8,6 +8,18 @@
   title: /r/netsec
   type: rss
   description: OSINT resources and community updates from /r/netsec.
+- url: https://talosintelligence.com/feed.xml
+  category: OSINT, Communities & Subreddits
+  title: Cisco Talos Blog
+  type: rss
+  description: Talos intelligence and world-class threat research team better protects
+    you and your organization against known and emerging cybersecurity threats.
+- url: https://volatilityfoundation.org/comments/feed
+  category: OSINT, Communities & Subreddits
+  title: Comments for The Volatility Foundation – Promoting Accessible Memory Analysis
+    Tools Within the Memory Forensics Community
+  type: rss
+  description: Home of the Volatility Memory Forensics Open Source Platform
 - url: https://bluepurple.substack.com/feed
   category: OSINT, Communities & Subreddits
   title: Cyber Defence News for Blue &amp; Purple Teams

@@ -21,6 +21,19 @@
   type: rss
   description: RSS feed for Have I Been Pwned, covering leaks & breaches news and
     updates.
+- url: https://www.celerium.com/blog/rss.xml
+  category: Leaks & Breaches
+  title: Intelligence Hub
+  type: rss
+  description: Access invaluable cybersecurity resources from Celerium - including
+    insights and tools - to help improve your security strategy and stay ahead of
+    safeguarding your network.
+- url: https://www.kaspersky.com/blog/feed
+  category: Leaks & Breaches
+  title: Kaspersky official blog
+  type: rss
+  description: The Official Blog from Kaspersky covers information to help protect
+    you against viruses, spyware, hackers, spam & other forms of malware.
 - url: https://www.maltego.com/index.xml
   category: Leaks & Breaches
   title: Maltego Blog RSS Feed
