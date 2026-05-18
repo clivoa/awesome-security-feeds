@@ -1,0 +1,14 @@
+- url: https://gitlab.com/kalilinux.atom
+  category: Security (General) & Blogs
+  title: Kali Linux activity
+  type: atom
+  description: Updates from Kali Linux activity covering security (general).
+  discovery:
+    discovered_at: '2026-05-18T10:14:02.716142Z'
+    score: 12
+    matched_keywords:
+    - c2
+    - exploit
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: f4924e4d62554ea2a6b37ed6b43bc6077941af95
