@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-19T20:53:09.817025+00:00",
-  "total": 1178,
+  "generated_at": "2026-05-25T21:28:51.703156+00:00",
+  "total": 1180,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -7906,6 +7906,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.layerone.org/feed",
+      "title": "LayerOne 2026",
+      "description": "Los Angeles' premier security conference",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://linuxsecurity.com/advisories/debian?format=feed&amp;type=rss",
       "title": "LinuxSecurity Advisories - Debian",
       "description": "LinuxSecurity.com is the community's central source for information on Linux and open source security.",
@@ -7965,6 +7972,13 @@
       "url": "https://seclists.org/rss/nmap-announce.rss",
       "title": "Nmap Announce",
       "description": "Vulnerability and exploit updates from Nmap Announce.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://nullcon.net/feed",
+      "title": "Nullcon",
+      "description": "Nullcon is a technical-first cybersecurity conference built for hackers, security researchers, defenders, engineers, and security leaders to share research, learn hands-on, and advance the future of security across Go...",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
