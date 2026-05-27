@@ -53,6 +53,12 @@
   type: ''
   description: A constructive and inclusive social network for software developers.
     With you every step of your journey.
+- url: https://discordapp.com/blog/rss.xml
+  category: OSINT, Communities & Subreddits
+  title: Discord Blog
+  type: rss
+  description: Learn about Discord's updates, insights, community stories, educational
+    resources, and much more.
 - url: https://dtag-dev-sec.github.io/feed
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
