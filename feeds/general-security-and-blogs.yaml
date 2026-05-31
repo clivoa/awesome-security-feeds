@@ -705,6 +705,11 @@
   title: Deeplinks
   type: ''
   description: 'EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet'
+- url: https://defend.network/feed.xml
+  category: General Security & Blogs
+  title: defend.network
+  type: rss
+  description: Verified daily cyber threat briefings and weekly vulnerability reports; CVEs checked against NVD and CISA KEV.
 - url: https://detect.fyi/feed
   category: General Security & Blogs
   title: Detect FYI - Medium
