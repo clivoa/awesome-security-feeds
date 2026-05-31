@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-25T21:28:51.703156+00:00",
-  "total": 1180,
+  "generated_at": "2026-05-31T21:11:37.146072+00:00",
+  "total": 1182,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -1512,6 +1512,13 @@
       "title": "Deeplinks",
       "description": "EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet",
       "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://defend.network/feed.xml",
+      "title": "defend.network",
+      "description": "Verified daily cyber threat briefings and weekly vulnerability reports; CVEs checked against NVD and CISA KEV.",
+      "type": "rss",
       "category": "General Security & Blogs"
     },
     {
@@ -5313,6 +5320,13 @@
       "title": "DEV Community",
       "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
       "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://discordapp.com/blog/rss.xml",
+      "title": "Discord Blog",
+      "description": "Learn about Discord's updates, insights, community stories, educational resources, and much more.",
+      "type": "rss",
       "category": "OSINT, Communities & Subreddits"
     },
     {
