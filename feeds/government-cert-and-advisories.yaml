@@ -61,6 +61,13 @@
   title: Firefox Add-ons Blog
   type: atom
   description: Updates from Firefox Add-ons Blog covering vulnerabilities, cves.
+- url: https://seclists.org/rss/nanog.rss
+  category: Government / CERT & Advisories
+  title: NANOG
+  type: rss
+  description: The <a href="http://www.nanog.org/">North American Network Operators'
+    Group</a> discusses fundamental Internet infrastructure issues such as routing,
+    IP address allocation, and containing malicious activity.
 - url: https://www.nodejs-security.com/rss.xml
   category: Government / CERT & Advisories
   title: NodeJS Security & NodeJS Secure Coding's Blog

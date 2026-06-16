@@ -709,7 +709,8 @@
   category: General Security & Blogs
   title: defend.network
   type: rss
-  description: Verified daily cyber threat briefings and weekly vulnerability reports; CVEs checked against NVD and CISA KEV.
+  description: Verified daily cyber threat briefings and weekly vulnerability reports;
+    CVEs checked against NVD and CISA KEV.
 - url: https://detect.fyi/feed
   category: General Security & Blogs
   title: Detect FYI - Medium
