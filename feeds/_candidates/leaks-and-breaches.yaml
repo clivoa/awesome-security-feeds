@@ -1,0 +1,15 @@
+- url: https://www.appgate.com/blogFeed.rss
+  category: Leaks & Breaches
+  title: AppGate English
+  type: rss
+  description: Updates from AppGate English covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-06-29T11:51:06.392090Z'
+    score: 13
+    matched_keywords:
+    - advisory
+    - breach
+    - rce
+    - zero trust
+    discovered_via: rel=alternate
+    url_hash: 38238319ef73c3f4c518ec86e246a6dfab02976a
