@@ -1,0 +1,34 @@
+- url: https://dangerzone.rocks/feed.xml
+  category: Leaks & Breaches
+  title: Dangerzone
+  type: atom
+  description: The Dangerzone application takes potentially dangerous documents and
+    converts them to safe PDF files
+  discovery:
+    discovered_at: '2026-06-22T12:31:43.993593Z'
+    score: 50
+    matched_keywords:
+    - advisory
+    - apt
+    - breach
+    - bug bounty
+    - c2
+    - cve
+    - docker
+    - edr
+    - exploit
+    - incident
+    - malware
+    - patch
+    - payload
+    - pwn
+    - rce
+    - red team
+    - security advisory
+    - security research
+    - supply chain attack
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 89c0ac5cc280aa86661af31596200af267635fb7
