@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T20:13:16.810698+00:00",
-  "total": 1182,
+  "generated_at": "2026-07-06T22:53:54.725504+00:00",
+  "total": 1184,
   "feeds": [
     {
       "url": "https://aboutdfir.com/feed",
@@ -4350,6 +4350,13 @@
       "category": "Government / CERT & Advisories"
     },
     {
+      "url": "https://seclists.org/rss/nanog.rss",
+      "title": "NANOG",
+      "description": "The <a href=\"http://www.nanog.org/\">North American Network Operators' Group</a> discusses fundamental Internet infrastructure issues such as routing, IP address allocation, and containing malicious activity.",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://www.nodejs-security.com/rss.xml",
       "title": "NodeJS Security & NodeJS Secure Coding's Blog",
       "description": "Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver...",
@@ -8043,6 +8050,13 @@
       "title": "RCE Security",
       "description": "Remote Code Execution Techniques and more",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://github.com/aircrack-ng/aircrack-ng/commits/master.atom",
+      "title": "Recent Commits to aircrack-ng:master",
+      "description": "Updates from Recent Commits to aircrack-ng:master covering vulnerabilities, cves.",
+      "type": "atom",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
