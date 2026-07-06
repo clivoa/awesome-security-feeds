@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Security Feeds - curated security RSS and Atom sources" width="100%">
+</p>
+
 # Awesome Security Feeds
 
 [![Build feeds JSON](https://github.com/clivoa/awesome-security-feeds/actions/workflows/build_feeds_json.yml/badge.svg)](https://github.com/clivoa/awesome-security-feeds/actions/workflows/build_feeds_json.yml)

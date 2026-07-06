@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Security Feeds</title>
+  <desc id="desc">A banner for a curated security RSS and Atom feed index, showing a shield, feed waves, and data artifact flow.</desc>
+  <defs>
+    <linearGradient id="banner-bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="0.46" stop-color="#eef7f7"/>
+      <stop offset="1" stop-color="#f9fbff"/>
+    </linearGradient>
+    <linearGradient id="banner-accent" x1="86" y1="56" x2="280" y2="282" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#125bff"/>
+      <stop offset="0.55" stop-color="#09a39f"/>
+      <stop offset="1" stop-color="#142132"/>
+    </linearGradient>
+    <linearGradient id="banner-shield" x1="116" y1="72" x2="250" y2="286" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d8fff7"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#d7e3ef" stroke-width="1"/>
+    </pattern>
+    <filter id="banner-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#142132" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#banner-bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)" opacity="0.46"/>
+  <path d="M-42 286C108 206 185 308 334 235c116-57 155-156 303-118 106 28 151 122 288 92 86-19 142-67 317-19v198H-42Z" fill="#dff5f0" opacity="0.72"/>
+  <path d="M-58 322c178-78 287-28 421-76 150-54 189-150 335-90 117 48 211 56 323-4 80-42 136-46 237-2v238H-58Z" fill="#e8f0ff" opacity="0.78"/>
+
+  <g transform="translate(78 58)" filter="url(#banner-shadow)">
+    <rect x="0" y="0" width="220" height="220" rx="46" fill="#071018"/>
+    <rect x="14" y="14" width="192" height="192" rx="38" fill="url(#banner-accent)"/>
+    <path d="M110 40c25 20 50 31 84 39v43c0 55-31 92-84 118-53-26-84-63-84-118V79c34-8 59-19 84-39Z" fill="url(#banner-shield)"/>
+    <path d="M73 116c41 0 75 34 75 75" fill="none" stroke="#125bff" stroke-width="20" stroke-linecap="round"/>
+    <path d="M73 154c20 0 37 17 37 37" fill="none" stroke="#09a39f" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="73" cy="191" r="14" fill="#142132"/>
+  </g>
+
+  <g font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="344" y="126" fill="#142132" font-size="40" font-weight="800">Awesome Security Feeds</text>
+    <text x="347" y="170" fill="#516276" font-size="19" font-weight="500">Curated RSS/Atom sources for security alerts and automation.</text>
+    <g transform="translate(347 204)" font-size="15" font-weight="700">
+      <rect x="0" y="0" width="112" height="34" rx="17" fill="#ffffff" stroke="#d8e0ec"/>
+      <text x="20" y="23" fill="#125bff">YAML</text>
+      <rect x="126" y="0" width="108" height="34" rx="17" fill="#ffffff" stroke="#d8e0ec"/>
+      <text x="147" y="23" fill="#087f7c">JSON</text>
+      <rect x="248" y="0" width="116" height="34" rx="17" fill="#ffffff" stroke="#d8e0ec"/>
+      <text x="269" y="23" fill="#142132">OPML</text>
+      <rect x="378" y="0" width="126" height="34" rx="17" fill="#ffffff" stroke="#d8e0ec"/>
+      <text x="399" y="23" fill="#c97916">Health</text>
+    </g>
+  </g>
+
+  <g transform="translate(900 72) scale(0.92)" filter="url(#banner-shadow)" font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="0" y="0" width="278" height="198" rx="20" fill="#ffffff" stroke="#d8e0ec"/>
+    <rect x="24" y="24" width="230" height="24" rx="12" fill="#eef3fb"/>
+    <circle cx="38" cy="36" r="6" fill="#09a39f"/>
+    <rect x="56" y="31" width="146" height="10" rx="5" fill="#5f6e83" opacity="0.42"/>
+    <g transform="translate(24 72)">
+      <rect width="230" height="34" rx="10" fill="#f7fbff" stroke="#d8e0ec"/>
+      <text x="16" y="23" font-size="13" font-weight="700" fill="#142132">CVE advisories</text>
+      <text x="172" y="23" font-size="12" font-weight="700" fill="#125bff">RSS</text>
+    </g>
+    <g transform="translate(24 116)">
+      <rect width="230" height="34" rx="10" fill="#f7fbff" stroke="#d8e0ec"/>
+      <text x="16" y="23" font-size="13" font-weight="700" fill="#142132">Threat research</text>
+      <text x="166" y="23" font-size="12" font-weight="700" fill="#087f7c">Atom</text>
+    </g>
+    <g transform="translate(24 160)">
+      <circle cx="8" cy="8" r="6" fill="#23b37f"/>
+      <rect x="24" y="3" width="118" height="10" rx="5" fill="#5f6e83" opacity="0.34"/>
+      <rect x="156" y="3" width="56" height="10" rx="5" fill="#5f6e83" opacity="0.22"/>
+    </g>
+  </g>
+</svg>

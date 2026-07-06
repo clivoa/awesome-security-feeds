@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Awesome Security Feeds icon">
+  <defs>
+    <linearGradient id="icon-bg" x1="68" y1="36" x2="444" y2="476" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#125bff"/>
+      <stop offset="0.5" stop-color="#09a39f"/>
+      <stop offset="1" stop-color="#142132"/>
+    </linearGradient>
+    <linearGradient id="icon-shield" x1="157" y1="82" x2="357" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.58" stop-color="#e9fff9"/>
+      <stop offset="1" stop-color="#c2f7ef"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#071018" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="#071018"/>
+  <rect x="32" y="32" width="448" height="448" rx="92" fill="url(#icon-bg)"/>
+  <path d="M96 130h320" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.22"/>
+  <path d="M96 382h320" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.16"/>
+  <path d="M142 132c48-12 84-29 114-54 30 25 66 42 114 54v98c0 88-45 149-114 184-69-35-114-96-114-184v-98Z" fill="url(#icon-shield)" filter="url(#soft-shadow)"/>
+  <path d="M185 232c60 0 109 49 109 109" fill="none" stroke="#125bff" stroke-width="34" stroke-linecap="round"/>
+  <path d="M185 291c28 0 50 22 50 50" fill="none" stroke="#09a39f" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="185" cy="341" r="24" fill="#142132"/>
+  <path d="M315 182h60M315 222h38M150 105l-20 10M362 105l20 10" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
+</svg>
