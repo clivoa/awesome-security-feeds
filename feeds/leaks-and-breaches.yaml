@@ -1,8 +1,19 @@
+- url: https://www.appgate.com/blogFeed.rss
+  category: Leaks & Breaches
+  title: AppGate English
+  type: rss
+  description: Updates from AppGate English covering vulnerabilities, cves.
 - url: https://www.cisa.gov/rss.xml
   category: Leaks & Breaches
   title: Cybersecurity and Infrastructure Security Agency CISA
   type: rss
   description: Updates from Cybersecurity and Infrastructure Security Agency CISA.
+- url: https://dangerzone.rocks/feed.xml
+  category: Leaks & Breaches
+  title: Dangerzone
+  type: atom
+  description: The Dangerzone application takes potentially dangerous documents and
+    converts them to safe PDF files
 - url: https://www.databreachtoday.co.uk/rss-feeds
   category: Leaks & Breaches
   title: DataBreachToday.co.uk RSS Syndication

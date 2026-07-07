@@ -61,6 +61,17 @@
   title: Firefox Add-ons Blog
   type: atom
   description: Updates from Firefox Add-ons Blog covering vulnerabilities, cves.
+- url: https://www.githubstatus.com/feed
+  category: Government / CERT & Advisories
+  title: GitHub Status - Incident History
+  type: atom
+  description: Updates from GitHub Status - Incident History covering vulnerabilities,
+    cves.
+- url: https://www.githubstatus.com/history.rss
+  category: Government / CERT & Advisories
+  title: GitHub Status - Incident History
+  type: rss
+  description: Statuspage
 - url: https://seclists.org/rss/nanog.rss
   category: Government / CERT & Advisories
   title: NANOG
