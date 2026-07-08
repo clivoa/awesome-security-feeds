@@ -1,131 +1,43 @@
-- url: https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss
-  category: Government / CERT & Advisories
-  title: Aircrack-ng
-  type: rss
-  description: Official Aircrack-ng blog
-- url: https://snyk.io/blog/feed
-  category: Government / CERT & Advisories
-  title: Blog RSS Feed | Snyk
-  type: rss
-  description: Developer Security Platform
-- url: https://www.cert.pl/atom.xml
-  category: Government / CERT & Advisories
-  title: CERT Polska
+- url: https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en
+  category: Government, CERT & Advisories
+  title: Alerts and advisories
   type: atom
-  description: CERT.PL
-- url: https://www.cert.pl/feed
-  category: Government / CERT & Advisories
-  title: CERT Polska
-  type: rss
-  description: CERT.PL
-- url: https://www.circl.lu/atom.xml
-  category: Government / CERT & Advisories
-  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
-  type: atom
-  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
-    Computer Incident Response Center Luxembourg
-- url: https://www.circl.lu/rss.xml
-  category: Government / CERT & Advisories
-  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
-  type: rss
-  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
-    Computer Incident Response Center Luxembourg
-- url: https://www.clamav.net/feed
-  category: Government / CERT & Advisories
-  title: ClamAV® blog
-  type: atom
-  description: The leading open source anti-malware software, brought to you by Sourcefire.
-- url: https://cxsecurity.com/wlb/rss/all
-  category: Government / CERT & Advisories
-  title: CXSECURITY Database RSS Feed - CXSecurity.com
-  type: rss
-  description: CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com
-- url: https://www.us-cert.gov/rss.xml
-  category: Government / CERT & Advisories
-  title: Cybersecurity and Infrastructure Security Agency CISA
-  type: rss
-  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
-    covering vulnerabilities, cves.
-- url: https://dotdotpwn.blogspot.com/atom.xml
-  category: Government / CERT & Advisories
-  title: DotDotPwn - The Directory Traversal Fuzzer
-  type: atom
-  description: DotDotPwn - The Directory Traversal Fuzzer
-- url: https://dotdotpwn.blogspot.com/rss.xml
-  category: Government / CERT & Advisories
-  title: DotDotPwn - The Directory Traversal Fuzzer
-  type: rss
-  description: DotDotPwn - The Directory Traversal Fuzzer
-- url: https://addons.mozilla.org/blog/feed.xml
-  category: Government / CERT & Advisories
-  title: Firefox Add-ons Blog
-  type: atom
-  description: Updates from Firefox Add-ons Blog covering vulnerabilities, cves.
-- url: https://www.githubstatus.com/feed
-  category: Government / CERT & Advisories
-  title: GitHub Status - Incident History
-  type: atom
-  description: Updates from GitHub Status - Incident History covering vulnerabilities,
-    cves.
-- url: https://www.githubstatus.com/history.rss
-  category: Government / CERT & Advisories
-  title: GitHub Status - Incident History
-  type: rss
-  description: Statuspage
-- url: https://seclists.org/rss/nanog.rss
-  category: Government / CERT & Advisories
-  title: NANOG
-  type: rss
-  description: The <a href="http://www.nanog.org/">North American Network Operators'
-    Group</a> discusses fundamental Internet infrastructure issues such as routing,
-    IP address allocation, and containing malicious activity.
-- url: https://www.nodejs-security.com/rss.xml
-  category: Government / CERT & Advisories
-  title: NodeJS Security & NodeJS Secure Coding's Blog
-  type: rss
-  description: Master hands-on Node.js security with Node.js Secure Coding education
-    and learn how to defend against JavaScript Command Injection vulnerabilities and
-    gain backend development skills to exploit and prevent Path Traver...
-- url: https://offsec.com/rss.xml?utm_source=offsec
-  category: Government / CERT & Advisories
-  title: OffSec RSS Feed
-  type: rss
-  description: Establish & advance your career with Offensive Security's online cybersecurity
-    training, courses and certifications. Develop the Try Harder mindset today!
-- url: https://www.opswat.com/rss
-  category: Government / CERT & Advisories
-  title: OPSWAT Blog
-  type: rss
-  description: Stay informed with expert insights on next-gen cybersecurity, cloud
-    security, and vulnerabilities shaping the global landscape.
-- url: https://www.qubes-os.org/feed
-  category: Government / CERT & Advisories
-  title: Qubes OS
-  type: rss
-  description: Qubes is a security-oriented, free and open-source operating system
-    for personal computers that allows you to securely compartmentalize your digital
-    life.
-- url: https://cxsecurity.com/wlb/rss/vulnerabilities
-  category: Government / CERT & Advisories
-  title: Vulnerabilities Database - CXSecurity.com
-  type: rss
-  description: Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com
-- url: https://zerodayinitiative.com/blog/atom.xml
-  category: Government / CERT & Advisories
-  title: Zero Day Initiative - Blog
-  type: atom
-  description: Updates from Zero Day Initiative - Blog.
+  description: News, research, and updates on general security & blogs from Alerts
+    and advisories.
 - url: https://www.cisa.gov/cybersecurity-advisories/all.xml
   category: Government, CERT & Advisories
   title: All CISA Advisories
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
+- url: https://www.cyber.gov.au/rss/advisories
+  category: Government, CERT & Advisories
+  title: ASD's ACSC - Advisories RSS
+  type: rss
+  description: News, research, and updates on general security & blogs from ASD's
+    ACSC.
+- url: https://www.cyber.gov.au/rss/alerts
+  category: Government, CERT & Advisories
+  title: ASD's ACSC - Alerts RSS
+  type: rss
+  description: News, research, and updates on general security & blogs from ASD's
+    ACSC.
+- url: https://www.cyber.gov.au/rss/threats
+  category: Government, CERT & Advisories
+  title: ASD's ACSC - Threats RSS
+  type: rss
+  description: News, research, and updates on general security & blogs from ASD's
+    ACSC.
 - url: https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed.xml
   category: Government, CERT & Advisories
   title: BSI – Newsfeed
   type: rss
   description: Official advisories and security updates from BSI.
+- url: https://www.cert.pl/feed
+  category: Government, CERT & Advisories
+  title: CERT Polska
+  type: rss
+  description: CERT.PL
 - url: https://www.kb.cert.org/vulfeed
   category: Government, CERT & Advisories
   title: CERT Recently Published Vulnerability Notes
@@ -133,17 +45,34 @@
   description: CERT publishes vulnerability advisories called &quot;Vulnerability
     Notes.&quot; Vulnerability Notes include summaries, technical details, remediation
     information, and lists of affected vendors.
+- url: https://cert.europa.eu/publications/security-advisories-rss
+  category: Government, CERT & Advisories
+  title: CERT-EU Security Advisories
+  type: rss
+  description: Security advisories from CERT-EU, the CERT for the EU institutions.
+- url: https://www.cert.ssi.gouv.fr/feed/
+  category: Government, CERT & Advisories
+  title: CERT-FR (ANSSI)
+  type: rss
+  description: Official advisories and alerts from CERT-FR, the French national CERT
+    (ANSSI).
 - url: https://cert.be/en/rss
   category: Government, CERT & Advisories
   title: Cert.be advisories
   type: ''
-  description: 'The requested URL was rejected. Please consult with your administrator.Your
-    support ID is: 8985871849071351541[Go Back]'
+  description: Official advisories and security updates from cert.be, the Belgian
+    national CERT.
 - url: https://datatracker.ietf.org/feed/document-changes/rfc3442
   category: Government, CERT & Advisories
   title: Changes for RFC3442
   type: rss
   description: Official advisories, alerts, and guidance from Changes for RFC3442.
+- url: https://www.circl.lu/atom.xml
+  category: Government, CERT & Advisories
+  title: CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News
+  type: atom
+  description: News and security alerts from CIRCL, the national CERT of Luxembourg.
+    Computer Incident Response Center Luxembourg
 - url: https://www.cisecurity.org/feed/advisories
   category: Government, CERT & Advisories
   title: CIS – Advisories
@@ -155,12 +84,11 @@
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
-- url: https://www.cisa.gov/cisa/blog.xml
+- url: https://www.cisa.gov/cybersecurity-advisories/ics-medical-advisories.xml
   category: Government, CERT & Advisories
-  title: CISA Blog
-  type: ''
-  description: We lead the National effort to understand, manage, and reduce risk
-    to our cyber and physical infrastructure.
+  title: CISA ICS Medical Advisories
+  type: rss
+  description: Official CISA advisories for medical devices and healthcare ICS.
 - url: https://www.cisa.gov/news.xml
   category: Government, CERT & Advisories
   title: CISA News
@@ -172,38 +100,41 @@
   title: CISA – Alerts
   type: rss
   description: Official advisories and security updates from CISA.
+- url: https://www.us-cert.gov/rss.xml
+  category: Government, CERT & Advisories
+  title: Cybersecurity and Infrastructure Security Agency CISA
+  type: rss
+  description: Updates from Cybersecurity and Infrastructure Security Agency CISA
+    covering vulnerabilities, cves.
 - url: https://www.cisa.gov/automated-https:indicator-sharing-ais
   category: Government, CERT & Advisories
   title: DHS – AIS
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
+- url: https://www.first.org/blog/rss.xml
+  category: Government, CERT & Advisories
+  title: FIRST Blog
+  type: rss
+  description: Posts from FIRST, the global Forum of Incident Response and Security
+    Teams.
 - url: https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml
   category: Government, CERT & Advisories
   title: ICS Advisories
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
-- url: https://resources.infosecinstitute.com/topics/malware-analysis/feed
-  category: Government, CERT & Advisories
-  title: Infosec Institute – Malware Analysis
-  type: rss
-  description: Official advisories and security updates from Infosec Institute.
-- url: https://resources.infosecinstitute.com/topics/news/feed
-  category: Government, CERT & Advisories
-  title: Infosec Institute – News
-  type: rss
-  description: Official advisories and security updates from Infosec Institute.
-- url: https://resources.infosecinstitute.com/topics/threat-intelligence/feed
-  category: Government, CERT & Advisories
-  title: Infosec Institute – Threat Intel
-  type: rss
-  description: Official advisories and security updates from Infosec Institute.
 - url: https://www.jpcert.or.jp/english/rss/jpcert-en.rdf
   category: Government, CERT & Advisories
   title: JPCERT/CC (English)
   type: rss
   description: Security Alerts and Advisories
+- url: https://blogs.jpcert.or.jp/en/atom.xml
+  category: Government, CERT & Advisories
+  title: JPCERT/CC Blog (English)
+  type: atom
+  description: Technical analysis and incident reports from JPCERT/CC, Japan's national
+    CERT.
 - url: https://api.msrc.microsoft.com/update-guide/rss
   category: Government, CERT & Advisories
   title: MSRC Security Update Guide
@@ -216,11 +147,27 @@
   title: NCSC Feed
   type: ''
   description: This includes feeds from report, guidance and blog-post.
+- url: https://www.ncsc.gov.uk/api/1/services/v1/guidance-rss-feed.xml
+  category: Government, CERT & Advisories
+  title: NCSC Guidance Feed
+  type: rss
+  description: Official guidance publications from the UK National Cyber Security
+    Centre.
 - url: https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml
   category: Government, CERT & Advisories
   title: NCSC News Feed
   type: rss
   description: Official advisories and security updates from NCSC News Feed.
+- url: https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml
+  category: Government, CERT & Advisories
+  title: NCSC Reports Feed
+  type: rss
+  description: Official reports from the UK National Cyber Security Centre.
+- url: https://advisories.ncsc.nl/rss/advisories
+  category: Government, CERT & Advisories
+  title: NCSC-NL Security Advisories
+  type: rss
+  description: Security advisories from NCSC-NL, the Dutch national CERT.
 - url: https://www.ncsc.govt.nz/news/category/cyber-security-alerts/rss
   category: Government, CERT & Advisories
   title: News - In category Cyber Security Alerts
@@ -241,6 +188,12 @@
   title: News and Events Feed by Topic
   type: ''
   description: Updates from News and Events Feed by Topic.
+- url: https://digital.nhs.uk/feed/cyber-alerts-feed.xml
+  category: Government, CERT & Advisories
+  title: NHS Digital - Cyber Alert Feed
+  type: ''
+  description: Sorry! We&#x27;re doing some essential work on the website. It will
+    be back online shortly.
 - url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
   category: Government, CERT & Advisories
   title: NIST – Cybersecurity Insights
@@ -281,12 +234,6 @@
 - url: https://us-cert.cisa.gov/ncas/current-activity.xml
   category: Government, CERT & Advisories
   title: US-CERT – Current Activity
-  type: rss
-  description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
-    and mitigations.
-- url: https://us-cert.cisa.gov/ics/advisories/advisories.xml
-  category: Government, CERT & Advisories
-  title: US-CERT – ICS Advisories
   type: rss
   description: US-CERT/CISA alerts and bulletins covering active threats, advisories,
     and mitigations.

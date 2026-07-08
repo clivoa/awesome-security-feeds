@@ -8,12 +8,26 @@
   title: /r/netsec
   type: rss
   description: OSINT resources and community updates from /r/netsec.
-- url: https://talosintelligence.com/feed.xml
+- url: https://infosec.exchange/@badsectorlabs.rss
   category: OSINT, Communities & Subreddits
-  title: Cisco Talos Blog
+  title: Bad Sector Labs
   type: rss
-  description: Talos intelligence and world-class threat research team better protects
-    you and your organization against known and emerging cybersecurity threats.
+  description: Security research and blog updates from Bad Sector Labs.
+- url: https://www.bellingcat.com/feed
+  category: OSINT, Communities & Subreddits
+  title: Bellingcat
+  type: rss
+  description: News, research, and updates on general security & blogs from Bellingcat.
+- url: https://infosec.exchange/@christophetd.rss
+  category: OSINT, Communities & Subreddits
+  title: 'Christophe :purple_potion:'
+  type: rss
+  description: Security research and blog updates from Christophe :purple_potion:.
+- url: https://infosec.exchange/@itm4n.rss
+  category: OSINT, Communities & Subreddits
+  title: Clément Labro
+  type: rss
+  description: Security research and blog updates from Clément Labro.
 - url: https://volatilityfoundation.org/comments/feed
   category: OSINT, Communities & Subreddits
   title: Comments for The Volatility Foundation – Promoting Accessible Memory Analysis
@@ -53,12 +67,6 @@
   type: ''
   description: A constructive and inclusive social network for software developers.
     With you every step of your journey.
-- url: https://discordapp.com/blog/rss.xml
-  category: OSINT, Communities & Subreddits
-  title: Discord Blog
-  type: rss
-  description: Learn about Discord's updates, insights, community stories, educational
-    resources, and much more.
 - url: https://dtag-dev-sec.github.io/feed
   category: OSINT, Communities & Subreddits
   title: DTAG Community Honeypot Project
@@ -82,6 +90,18 @@
   title: IntelTechniques Blog
   type: rss
   description: OSINT resources and community updates from IntelTechniques Blog.
+- url: https://seclists.org/rss/nanog.rss
+  category: OSINT, Communities & Subreddits
+  title: NANOG
+  type: rss
+  description: The <a href="http://www.nanog.org/">North American Network Operators'
+    Group</a> discusses fundamental Internet infrastructure issues such as routing,
+    IP address allocation, and containing malicious activity.
+- url: https://netblocks.org/feed
+  category: OSINT, Communities & Subreddits
+  title: NetBlocks
+  type: ''
+  description: Mapping Internet Freedom
 - url: https://seclists.org/rss/nmap-dev.rss
   category: OSINT, Communities & Subreddits
   title: Nmap Development
@@ -116,16 +136,6 @@
   type: rss
   description: OSINT resources and community updates from Reversing Engineering for
     the Soul.
-- url: https://wordpress.org/news/category/security/feed
-  category: OSINT, Communities & Subreddits
-  title: Security – WordPress News
-  type: rss
-  description: OSINT resources and community updates from Security.
-- url: https://wordpress.org/news/category/security/feed/atom
-  category: OSINT, Communities & Subreddits
-  title: Security – WordPress News
-  type: atom
-  description: OSINT resources and community updates from Security.
 - url: https://medium.com/feed/@guardiosecurity
   category: OSINT, Communities & Subreddits
   title: Stories by Guardio on Medium
@@ -147,14 +157,14 @@
   title: The OSINT Newsletter
   type: ''
   description: OSINT news, tools, tactics, and techniques
+- url: https://catless.ncl.ac.uk/risksrss2.xml
+  category: OSINT, Communities & Subreddits
+  title: The RISKS Digest
+  type: ''
+  description: The website of the RISKS mailing list
 - url: https://this-week-in-rust.org/rss.xml
   category: OSINT, Communities & Subreddits
   title: This Week in Rust
   type: ''
   description: Stay up to date with events, learning resources, and recent developments
     in the Rust community.
-- url: https://www.welivesecurity.com/feed
-  category: OSINT, Communities & Subreddits
-  title: WeLiveSecurity
-  type: ''
-  description: News, views, and insight from the ESET security community
