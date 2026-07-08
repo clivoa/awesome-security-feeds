@@ -3,6 +3,11 @@
   title: 13Cubed (YouTube)
   type: rss
   description: Video updates from 13Cubed (YouTube) covering dfir & forensics.
+- url: https://aboutdfir.com/feed
+  category: DFIR & Forensics
+  title: AboutDFIR – The Definitive Compendium Project
+  type: rss
+  description: Digital Forensics / Incident Response
 - url: https://blog.ampedsoftware.com/feed
   category: DFIR & Forensics
   title: Amped Blog
@@ -45,6 +50,11 @@
   title: Davinci Forensics – Cybersecurity
   type: rss
   description: DFIR and forensics content from Davinci Forensics.
+- url: https://detect.fyi/feed
+  category: DFIR & Forensics
+  title: Detect FYI - Medium
+  type: rss
+  description: News, research, and updates on general security & blogs from Detect.fyi.
 - url: https://dfir.ch/index.xml
   category: DFIR & Forensics
   title: DFIR
@@ -87,6 +97,11 @@
   title: DoubleBlak
   type: rss
   description: DFIR and forensics content from DoubleBlak.
+- url: https://falconforce.nl/feed
+  category: DFIR & Forensics
+  title: FalconForce
+  type: rss
+  description: Security research and blog updates from FalconForce.
 - url: https://forensic4cast.com/tag/forensics/feed
   category: DFIR & Forensics
   title: Forensic 4:cast
@@ -98,11 +113,6 @@
   type: ''
   description: Digital Forensics DFIR, OSINT &amp; E-Discovery News, Reviews, Articles,
     Forums, More
-- url: https://www.forensicfocus.com/rss/news2.php
-  category: DFIR & Forensics
-  title: Forensic Focus
-  type: rss
-  description: DFIR and forensics content from Forensic Focus.
 - url: https://forensicphotoshop.blogspot.com/feeds/posts/default
   category: DFIR & Forensics
   title: Forensic Multimedia Analysis Blog
@@ -138,16 +148,16 @@
   title: Magnet Forensics
   type: rss
   description: DFIR and forensics content from Magnet Forensics.
-- url: https://www.magnetforensics.com/rss
-  category: DFIR & Forensics
-  title: Magnet Forensics
-  type: rss
-  description: Gain an Investigative Edge
 - url: https://www.msab.com/feed
   category: DFIR & Forensics
   title: MSAB
   type: rss
   description: DFIR and forensics content from MSAB.
+- url: https://nasbench.medium.com/feed
+  category: DFIR & Forensics
+  title: Nasbench (Medium)
+  type: rss
+  description: Security research and blog updates from Nasbench (Medium).
 - url: https://www.ntop.org/feed
   category: DFIR & Forensics
   title: ntop
@@ -179,6 +189,18 @@
   type: ''
   description: SpiderLabs is Trustwave’s elite team of ethical hackers, forensic investigators
     and security researchers.
+- url: https://cyb3rops.medium.com/feed
+  category: DFIR & Forensics
+  title: Stories by Florian Roth on Medium
+  type: rss
+  description: Security research and blog updates from Stories by Florian Roth on
+    Medium.
+- url: https://haggis-m.medium.com/feed
+  category: DFIR & Forensics
+  title: Stories by Michael Haag on Medium
+  type: rss
+  description: Security research and blog updates from Stories by Michael Haag on
+    Medium.
 - url: https://thebinaryhick.blog/feed
   category: DFIR & Forensics
   title: The Binary Hick

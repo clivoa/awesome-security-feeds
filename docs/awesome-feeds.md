@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-06-15T20:13:12.823070+00:00` (UTC)
+**Generated:** `2026-07-08T23:22:12.643004+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -11,48 +11,43 @@ This page contains the full, categorized feed list maintained in this repository
 
 ## Contents
 
-- [Crypto & Blockchain Security](#crypto-blockchain-security) (12)
-- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (31)
-- [DFIR & Forensics](#dfir-forensics) (39)
-- [General Security & Blogs](#general-security-blogs) (527)
-- [Government / CERT & Advisories](#government-cert-advisories) (18)
-- [Government, CERT & Advisories](#government-cert-advisories) (34)
-- [Leaks & Breaches](#leaks-breaches) (12)
-- [Malware & Threat Research](#malware-threat-research) (77)
-- [OSINT, Communities & Subreddits](#osint-communities-subreddits) (29)
-- [Podcasts & YouTube](#podcasts-youtube) (141)
-- [Security (General) & Blogs](#security-general-blogs) (1)
-- [Vendors & Product Blogs](#vendors-product-blogs) (166)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (95)
+- [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
+- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (27)
+- [DFIR & Forensics](#dfir-forensics) (43)
+- [General Security & Blogs](#general-security-blogs) (278)
+- [Government, CERT & Advisories](#government-cert-advisories) (45)
+- [Leaks & Breaches](#leaks-breaches) (15)
+- [Malware & Threat Research](#malware-threat-research) (93)
+- [OSINT, Communities & Subreddits](#osint-communities-subreddits) (31)
+- [Podcasts & YouTube](#podcasts-youtube) (144)
+- [Vendors & Product Blogs](#vendors-product-blogs) (197)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (209)
 
 ---
 
 ## Crypto & Blockchain Security
 
-Total: **12**
+Total: **10**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
-| AboutDFIR – The Definitive Compendium Project | Digital Forensics / Incident Response | RSS | <https://aboutdfir.com/feed> |
-| AboutDFIR – The Definitive Compendium Project | Digital Forensics / Incident Response | RSS | <https://aboutdfir.com/rss> |
+| A Few Thoughts on Cryptographic Engineering | Security research and blog updates from A Few Thoughts on Cryptographic Engineering. | RSS | <https://blog.cryptographyengineering.com/feed> |
+| Ackee Blockchain | Security research and blog updates from Ackee Blockchain. | RSS | <https://ackee.xyz/blog/feed> |
 | Chainalysis | Chainalysis is the blockchain analysis company |  | <https://blog.chainalysis.com/feed> |
-| Cloud Security Alliance | The Cloud Security Alliance (CSA) is the world’s leading organization dedicated to defining and raising awareness of best practices to … |  | <https://cloudsecurityalliance.org/blog/feed> |
 | Cointelegraph.com News | Crypto and blockchain security coverage from Cointelegraph.com News. | RSS | <https://cointelegraph.com/rss> |
-| cs.CR updates on arXiv.org | Computer Science -- Cryptography and Security (cs.CR) updates on the arXiv.org e-print archive |  | <https://export.arxiv.org/rss/cs.CR> |
 | Decrypt | Crypto and blockchain security coverage from Decrypt. | RSS | <https://decrypt.co/feed> |
 | Encryption News -- ScienceDaily | Encryption. Read the latest research on computer security and encryption methods here. Evaluate new methods for protecting sensitive data. |  | <https://www.sciencedaily.com/rss/computers_math/encryption.xml> |
 | Global Encryption Coalition | Updates from Global Encryption Coalition. |  | <https://www.globalencryption.org/feed> |
+| IACR News | Updates from IACR News. |  | <https://iacr.org/news/rss> |
 | Protos | Informed crypto news |  | <https://protos.com/feed> |
 | Rekt | Investigative journalism &amp; creative commentary |  | <https://rekt.news/rss/feed.xml> |
-| X-Force Exchange - Collection Feed | Collections with tag "advisory" | RSS | <https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory> |
 
 ## Cybercrime, Darknet & Leaks
 
-Total: **31**
+Total: **27**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
-| CERT Recently Published Vulnerability Notes | CERT publishes vulnerability advisories called "Vulnerability Notes." Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. | ATOM | <https://kb.cert.org/vuls/atomfeed> |
 | CyberCrime & Doing Time | Cybercrime and underground ecosystem coverage from CyberCrime & Doing Time. | RSS | <https://garwarner.blogspot.com/feeds/posts/default> |
 | DarknetLive Post Feed | Last 10 Recent Posts on DarknetLive |  | <https://darknetlive.com/rss> |
 | DataBreaches.net | RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks news and updates. | RSS | <https://feeds.feedburner.com/OfficeOfInadequateSecurity> |
@@ -60,22 +55,19 @@ Total: **31**
 | Distributed Email of Secrets | New releases from Distributed Denial of Secrets, a transparency collective publishing interesting data. |  | <https://ddosecrets.substack.com/feed> |
 | eternal-todo.com blogs | Updates from eternal-todo.com blogs. | RSS | <https://eternal-todo.com/blog/feed> |
 | FP7-ICT-216026-WOMBAT | Worldwide Observatory of Malicious Behaviors and Attack Threats project public space | RSS | <https://wombat-project.eu/rss.xml> |
+| HACKMAGEDDON | News, research, and updates on general security & blogs from HACKMAGEDDON. | RSS | <https://www.hackmageddon.com/feed> |
 | Intel 471 Blog | The latest threat intelligence insights and security research from Intel 471 | RSS | <https://www.spiderfoot.net/blog/feed> |
 | Krebs on Security | Cybercrime and underground ecosystem coverage from Krebs on Security. | RSS | <https://krebsonsecurity.com/feed> |
 | Lifeboat – Cybercrime & Malcode | Cybercrime and underground ecosystem coverage from Lifeboat. | RSS | <https://lifeboat.com/blog/category/cybercrime-malcode/feed> |
 | Malpedia Library (Latest) | Latest Malpedia library entries, sorted by publication date | RSS | <https://malpedia.caad.fkie.fraunhofer.de/feeds/rss/latest> |
 | No Starch Press Blog | Updates from No Starch Press Blog. | RSS | <https://nostarch.com/blog/feed> |
-| Objective-See's Blog | All Things Related to Mac Security | RSS | <https://objective-see.com/rss.xml> |
 | Planet GNU | Planet GNU - https://planet.gnu.org/ | RSS | <https://planet.gnu.org/rss20.xml> |
 | Q-Feeds | Theat Intelligence Feeds | RSS | <https://qfeeds.com/feed> |
 | RiskAnalytics | Cybersecurity. Simplified | RSS | <https://riskanalytics.com/feed> |
 | Ryan Stillions | Postulations after great cogitation | ATOM | <https://ryanstillions.blogspot.nl/atom.xml> |
-| Ryan Stillions | Postulations after great cogitation | RSS | <https://ryanstillions.blogspot.nl/rss.xml> |
 | Security + DevOps on DevSec Hardening Framework | Recent content in Security + DevOps on DevSec Hardening Framework | RSS | <https://dev-sec.io/index.xml> |
-| Sophos Blogs | Latest blog posts and insights from Sophos | RSS | <https://www.sophos.com/blog/feed> |
 | Swiss Cyber Storm | Recent Blog entries on Swiss Cyber Storm | RSS | <https://www.swisscyberstorm.com/blog/index.xml> |
 | Tech Xplore - Security News | The latest news on cyber security, network security, software vulnerabilities, data leaks, malware, and viruses |  | <https://techxplore.com/rss-feed/security-news> |
-| Tenable Blog | Updates from Tenable Blog covering vulnerabilities, cves. | RSS | <https://feeds.feedburner.com/tenable/qaXL> |
 | Tenable Security Center dashboards | Updates from Tenable Security Center dashboards. | RSS | <https://feeds.feedburner.com/scdashboards> |
 | Tenable Security Center templates | Updates from Tenable Security Center templates. | RSS | <https://feeds.feedburner.com/securitycenterreporttemplates> |
 | The Guardian Cybercrime | Cybercrime and underground ecosystem coverage from The Guardian Cybercrime. | RSS | <https://www.guardian.co.uk/technology/cybercrime/rss> |
@@ -86,11 +78,12 @@ Total: **31**
 
 ## DFIR & Forensics
 
-Total: **39**
+Total: **43**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
 | 13Cubed (YouTube) | Video updates from 13Cubed (YouTube) covering dfir & forensics. | RSS | <https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q> |
+| AboutDFIR – The Definitive Compendium Project | Digital Forensics / Incident Response | RSS | <https://aboutdfir.com/feed> |
 | Amped Blog | DFIR and forensics content from Amped Blog. | RSS | <https://blog.ampedsoftware.com/feed> |
 | Another Forensics Blog | DFIR and forensics content from Another Forensics Blog. | RSS | <https://az4n6.blogspot.com/feeds/posts/default> |
 | Brett Shavers | RSS feed for Brett Shavers, covering dfir & forensics news and updates. | RSS | <https://feeds.feedburner.com/brettshavers/oSyq> |
@@ -99,6 +92,7 @@ Total: **39**
 | Computer Forensics | Dedicated to the branch of forensic science encompassing the recovery and investigation of material found in digital devices, often in relation to computer crime. |  | <https://www.reddit.com/r/computerforensics> |
 | Cyber Triage Blog | Digital Forensics Specialized For Rapid Incident Response | RSS | <https://www.cybertriage.com/feed> |
 | Davinci Forensics – Cybersecurity | DFIR and forensics content from Davinci Forensics. | RSS | <https://davinciforensics.co.za/cybersecurity/feed> |
+| Detect FYI - Medium | News, research, and updates on general security & blogs from Detect.fyi. | RSS | <https://detect.fyi/feed> |
 | DFIR | DFIR and forensics content from DFIR. | RSS | <https://dfir.ch/index.xml> |
 | DFIR Blog | DFIR and forensics content from dfir.blog. | RSS | <https://dfir.blog/rss> |
 | DFIR Diva | DFIR and forensics content from DFIR Diva. | RSS | <https://dfirdiva.com/feed> |
@@ -107,9 +101,9 @@ Total: **39**
 | Digital Forensics Incident Response (DFIR) companies in Finland | DFIR and forensics content from Digital Forensics Incident Response (DFIR) companies in F…. | RSS | <https://dfir.fi/rss> |
 | Digital Forensics Stream | DFIR and forensics content from Digital Forensics Stream. | RSS | <https://df-stream.com/feed> |
 | DoubleBlak | DFIR and forensics content from DoubleBlak. | RSS | <https://doubleblak.com/blogRSS.xml> |
+| FalconForce | Security research and blog updates from FalconForce. | RSS | <https://falconforce.nl/feed> |
 | Forensic 4:cast | DFIR and forensics content from Forensic 4:cast. | RSS | <https://forensic4cast.com/tag/forensics/feed> |
 | Forensic Focus | Digital Forensics DFIR, OSINT &amp; E-Discovery News, Reviews, Articles, Forums, More |  | <https://www.forensicfocus.com/feed> |
-| Forensic Focus | DFIR and forensics content from Forensic Focus. | RSS | <https://www.forensicfocus.com/rss/news2.php> |
 | Forensic Multimedia Analysis Blog | DFIR and forensics content from Forensic Multimedia Analysis Blog. | RSS | <https://forensicphotoshop.blogspot.com/feeds/posts/default> |
 | HECFblog | DFIR and forensics content from HECFblog. | RSS | <https://hackingexposedcomputerforensicsblog.blogspot.com/feeds/posts/default> |
 | Initialization Vectors | DFIR and forensics content from Initialization Vectors. | RSS | <https://abrignoni.blogspot.com/feeds/posts/default> |
@@ -117,14 +111,16 @@ Total: **39**
 | mac4n6 | DFIR and forensics content from mac4n6. | RSS | <https://www.mac4n6.com/blog?format=rss> |
 | Magnet Cache Up (YouTube) | Video updates from Magnet Cache Up (YouTube) covering dfir & forensics. | RSS | <https://www.youtube.com/feeds/videos.xml?playlist_id=PLrDSw3yTk3Xj2LQ5tcvGqUmxxM6boVGV4> |
 | Magnet Forensics | DFIR and forensics content from Magnet Forensics. | RSS | <https://www.magnetforensics.com/feed> |
-| Magnet Forensics | Gain an Investigative Edge | RSS | <https://www.magnetforensics.com/rss> |
 | MSAB | DFIR and forensics content from MSAB. | RSS | <https://www.msab.com/feed> |
+| Nasbench (Medium) | Security research and blog updates from Nasbench (Medium). | RSS | <https://nasbench.medium.com/feed> |
 | ntop | Network Visibility and Cybersecurity | RSS | <https://www.ntop.org/feed> |
 | Salt Forensics | DFIR and forensics content from Salt Forensics. | RSS | <https://salt4n6.com/feed> |
 | SANS DFIR (YouTube) | Video updates from SANS DFIR (YouTube) covering dfir & forensics. | RSS | <https://www.youtube.com/feeds/videos.xml?channel_id=UCwSo89W3KgPrid41vskBDYA> |
 | sleuthkit.org Updates | DFIR and forensics content from sleuthkit.org Updates. | RSS | <https://www.sleuthkit.org/rss.xml> |
 | Smarter Forensics | DFIR and forensics content from Smarter Forensics. | RSS | <https://smarterforensics.com/feed> |
 | SpiderLabs Blog from Trustwave | SpiderLabs is Trustwave’s elite team of ethical hackers, forensic investigators and security researchers. |  | <https://www.trustwave.com/en-us/rss/spiderlabs-blog> |
+| Stories by Florian Roth on Medium | Security research and blog updates from Stories by Florian Roth on Medium. | RSS | <https://cyb3rops.medium.com/feed> |
+| Stories by Michael Haag on Medium | Security research and blog updates from Stories by Michael Haag on Medium. | RSS | <https://haggis-m.medium.com/feed> |
 | The Binary Hick | DFIR and forensics content from The Binary Hick. | RSS | <https://thebinaryhick.blog/feed> |
 | The DFIR Report | DFIR and forensics content from The DFIR Report. | RSS | <https://thedfirreport.com/feed> |
 | This Week In 4n6 | DFIR and forensics content from This Week In 4n6. | RSS | <https://thisweekin4n6.wordpress.com/feed> |
@@ -132,115 +128,64 @@ Total: **39**
 
 ## General Security & Blogs
 
-Total: **527**
+Total: **278**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
 | !important | Security research and blog updates from !important. | RSS | <https://mattfrisbie.substack.com/feed> |
 | 0ffset Training Solutions | Security research and blog updates from 0ffset Training Solutions. | RSS | <https://www.0ffset.net/feed> |
 | 0xash | Security research and blog updates from 0xash. | RSS | <https://0xash.io/feed.xml> |
-| 0xdf hacks stuff | Security research and blog updates from 0xdf hacks stuff. | RSS | <https://0xdf.gitlab.io/feed.xml> |
 | 0xf00sec Blog | Security research and blog updates from 0xf00sec Blog. | RSS | <https://0xf00sec.github.io/feed.xml> |
-| 0xsp SRD – Security Research & Development | Security research and blog updates from 0xsp SRD – Security Research & Development. | RSS | <https://0xsp.com/feed> |
 | 0xv1n | Security research and blog updates from 0xv1n. | RSS | <https://0xv1n.github.io/index.xml> |
 | 3NailsInfoSec | Security research and blog updates from 3NailsInfoSec. | RSS | <https://www.3nailsinfosec.com/blog-feed.xml> |
 | 404 Media | 404 Media is a new independent media company |  | <https://www.404media.co/rss> |
 | 5pider.net Blog | Security research and blog updates from 5pider.net Blog. | RSS | <https://5pider.net/blog/atom.xml> |
-| A blog about rootkits research and the Windows kernel | Security research and blog updates from A blog about rootkits research and the Windows kernel. | RSS | <https://artemonsecurity.blogspot.com/feeds/posts/default> |
-| A Few Thoughts on Cryptographic Engineering | Security research and blog updates from A Few Thoughts on Cryptographic Engineering. | RSS | <https://blog.cryptographyengineering.com/feed> |
 | AADInternals | Security research and blog updates from AADInternals. | RSS | <https://aadinternals.com/index.xml> |
-| Accidentalrebel | Security research and blog updates from Accidentalrebel. | RSS | <https://www.accidentalrebel.com/feeds/all.atom.xml> |
-| Ackee Blockchain | Security research and blog updates from Ackee Blockchain. | RSS | <https://ackee.xyz/blog/feed> |
 | Adam Doupé | Security research and blog updates from Adam Doupé. | RSS | <https://adamdoupe.com/atom.xml> |
-| Adam Obeng | Security research and blog updates from Adam Obeng. | RSS | <https://adamobeng.com/feed.xml> |
-| Adepts of 0xCC | Security research and blog updates from Adepts of 0xCC. | RSS | <https://adepts.of0x.cc/feed.xml> |
 | Adnan The Khan | Security research and blog updates from Adnan The Khan. | RSS | <https://adnanthekhan.com/feed> |
 | Adventures in IoT | Security research and blog updates from Adventures in IoT. | RSS | <https://v3rtigo.org/index.xml> |
-| Aleph Research | Security research and blog updates from Aleph Research. | RSS | <https://alephsecurity.com/feed.xml> |
-| Alerts and advisories | News, research, and updates on general security & blogs from Alerts and advisories. | ATOM | <https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en> |
-| Alex Plaskett | Security research and blog updates from Alex Plaskett. | RSS | <https://alexplaskett.github.io/feed.xml> |
-| Alexander Popov | Security research and blog updates from Alexander Popov. | RSS | <https://a13xp0p0v.github.io/feed.xml> |
-| All Posts - Malicious Link - Blog by mubix - Rob Fuller | Security research and blog updates from All Posts - Malicious Link - Blog by mubix - Rob Fuller. | RSS | <https://malicious.link/posts/index.xml> |
+| Aircrack-ng | Official Aircrack-ng blog | RSS | <https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss> |
 | Almost Secure | Security research and blog updates from Almost Secure. | RSS | <https://palant.info/rss.xml> |
 | Amal Murali | Security research and blog updates from Amal Murali. | RSS | <https://amalmurali.me/index.xml> |
 | Amit Schendel’s Blog | Security research and blog updates from Amit Schendel’s Blog. | RSS | <https://amitschendel.github.io/feed.xml> |
-| Antirez | Security research and blog updates from Antirez. | RSS | <https://antirez.com/rss> |
 | antiTree | Security research and blog updates from antiTree. | RSS | <https://www.antitree.com/index.xml> |
 | Antoine Vastel | Security research and blog updates from Antoine Vastel. | RSS | <https://antoinevastel.com/feed.xml> |
 | Anton on Security | Medium posts from Anton on Security focused on general security & blogs. | RSS | <https://medium.com/feed/anton-on-security> |
-| API Security News | The API Security News Newsletter |  | <https://apisecurity.io/feed/index.xml> |
-| AppSec Guide | Application security guides, testing content, and research updates from AppSec Guide. | RSS | <https://appsec.guide/index.xml> |
 | Ars Technica – Security | Ars Technica security news and analysis spanning vulnerabilities, incidents, and tech policy. | RSS | <https://arstechnica.com/tag/security/feed> |
 | Arseniy Shestakov | Security research and blog updates from Arseniy Shestakov. | RSS | <https://arseniyshestakov.com/index.xml> |
 | Artificial truth | Security research and blog updates from Artificial truth. | RSS | <https://dustri.org/b/atom.xml> |
-| ASD's ACSC - Advisories RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/advisories> |
-| ASD's ACSC - Alerts RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/alerts> |
-| ASD's ACSC - Threats RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/threats> |
-| Aura Research Division | Security research and blog updates from Aura Research Division. | RSS | <https://research.aurainfosec.io/index.xml> |
 | Australian Information Security Awareness and Advisory | Information Security Advisor Australia - Awareness, Governance, Risk and Compliance |  | <https://kirbyidau.com/feed> |
-| Avast Decoded | Security research and blog updates from Avast Decoded. | RSS | <https://decoded.avast.io/feed> |
-| Avast Engineering | Security research and blog updates from Avast Engineering. | RSS | <https://engineering.avast.io/feed> |
-| AWS Security Blog | News, research, and updates on general security & blogs from AWS Security Blog. | RSS | <https://aws.amazon.com/blogs/security/feed> |
 | AWS Security Digest | Security research and blog updates from AWS Security Digest. | RSS | <https://awssecuritydigest.com/feed.xml> |
-| Bad Sector Labs | Security research and blog updates from Bad Sector Labs. | RSS | <https://infosec.exchange/@badsectorlabs.rss> |
 | Bad Sector Labs Blog | Security research and blog updates from Bad Sector Labs Blog. | RSS | <https://blog.badsectorlabs.com/feeds/all.atom.xml> |
-| Badoption | Security research and blog updates from Badoption. | RSS | <https://badoption.eu/feed.xml> |
 | BankInfoSecurity.com RSS Syndication | BankInfoSecurity.com RSS News Feeds on bank information security news, regulations, blogs and education |  | <https://www.bankinfosecurity.com/rss-feeds> |
 | Basden | Security research and blog updates from Basden. | RSS | <https://basden.xyz/rss.xml> |
-| Bellingcat | News, research, and updates on general security & blogs from Bellingcat. | RSS | <https://www.bellingcat.com/feed> |
-| Bill Demirkapi's Blog | Security research and blog updates from Bill Demirkapi's Blog. | RSS | <https://billdemirkapi.me/rss> |
-| Binary Ninja | Security research and blog updates from Binary Ninja. | RSS | <https://binary.ninja/feed.xml> |
 | Biometric Update | Biometrics News, Companies and Explainers |  | <https://feeds.feedburner.com/biometricupdate> |
-| Bitdefender Labs | News, research, and updates on general security & blogs from Bitdefender Labs. | RSS | <https://www.bitdefender.com/blog/api/rss/labs> |
-| BITSADMIN Blog - Mystery guest in your IT infrastructure | Security research and blog updates from BITSADMIN Blog - Mystery guest in your IT infrastructure. | RSS | <https://blog.bitsadmin.com/feed> |
-| BitSight Security Ratings Blog | Read our Security Ratings blog for cybersecurity news, improving security performance, third-party risk management, &amp; more. |  | <https://www.bitsight.com/blog/rss.xml> |
-| BLACKWING INTELLIGENCE on Blackwing Intelligence | Security research and blog updates from BLACKWING INTELLIGENCE on Blackwing Intelligence. | RSS | <https://blackwinghq.com/index.xml> |
 | blag | Security research and blog updates from blag. | RSS | <https://avi.im/blag/index.xml> |
 | BleepingComputer | News, research, and updates on general security & blogs from BleepingComputer. | RSS | <https://www.bleepingcomputer.com/feed> |
-| Blog - Wordfence | Wordfence research and alerts focused on WordPress vulnerabilities and website security. | RSS | <https://www.wordfence.com/blog/feed> |
-| Blog - Wordfence | Wordfence research and alerts focused on WordPress vulnerabilities and website security. | ATOM | <https://www.wordfence.com/blog/feed/atom> |
 | Blog Feed - Center for Internet Security | News, research, and updates on general security & blogs from Blog Feed. | RSS | <https://www.cisecurity.org/feed/blog> |
 | Blog \| Octagon Networks | Security research and blog updates from Blog \| Octagon Networks. | RSS | <https://octagon.net/blog/feed> |
-| Blog \| Sam Curry | Security research and blog updates from Blog \| Sam Curry. | RSS | <https://samcurry.net/api/feed.rss> |
-| Bloomberg Technology | Bloomberg Technology |  | <https://feeds.bloomberg.com/technology/news.rss> |
-| bohops | Security research and blog updates from bohops. | RSS | <https://bohops.com/feed> |
 | br0k3nlab | Security research and blog updates from br0k3nlab. | RSS | <https://br0k3nlab.com/index.xml> |
-| BREAKDEV | Security research and blog updates from BREAKDEV. | RSS | <https://breakdev.org/rss> |
 | Brownfinesecurity | Security research and blog updates from Brownfinesecurity. | RSS | <https://brownfinesecurity.com/index.xml> |
 | BSidesAugusta | Security research and blog updates from BSidesAugusta. | RSS | <https://bsidesaugusta.org/feed> |
-| C4ISRNet | C4ISRNet News Feed |  | <https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber?outputType=xml> |
-| Cerbersec | Security research and blog updates from Cerbersec. | RSS | <https://cerbersec.com/feed.xml> |
+| C4ISRNET – Cyber | Cyber warfare and defense cybersecurity coverage from C4ISRNET. | RSS | <https://www.c4isrnet.com/arc/outboundfeeds/rss/category/cyber?outputType=xml> |
 | Certitude Blog | Security research and blog updates from Certitude Blog. | RSS | <https://certitude.consulting/blog/en/feed> |
 | chebuya.com | Security research and blog updates from chebuya.com. | RSS | <https://blog.chebuya.com/index.xml> |
 | Checkymander | Security research and blog updates from Checkymander. | RSS | <https://blog.checkymander.com/feed.xml> |
-| Chris Holdgraf's blog | Security research and blog updates from Chris Holdgraf's blog. | RSS | <https://chrisholdgraf.com/rss.xml> |
-| Christophe :purple_potion: | Security research and blog updates from Christophe :purple_potion:. | RSS | <https://infosec.exchange/@christophetd.rss> |
 | Christophe Tafani-Dereeper | Security research and blog updates from Christophe Tafani-Dereeper. | RSS | <https://blog.christophetd.fr/feed> |
-| Chromium Blog | Security research and blog updates from Chromium Blog. | RSS | <https://blog.chromium.org/feeds/posts/default> |
-| Cisco Newsroom: Security | Cisco&#x27;s Latest Security News |  | <https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security> |
-| ClamAV® blog | Security research and blog updates from ClamAV® blog. | RSS | <https://feeds.feedburner.com/Clamav> |
 | clearbluejar | Security research and blog updates from clearbluejar. | RSS | <https://clearbluejar.github.io/feed> |
 | Clo | Security research and blog updates from Clo. | RSS | <https://clo.ng/index.xml> |
 | Cloud Chronicles | Security research and blog updates from Cloud Chronicles. | RSS | <https://permiso.io/blog/rss.xml> |
-| Cloud Native Computing Foundation | Security research and blog updates from Cloud Native Computing Foundation. | RSS | <https://www.cncf.io/feed> |
-| Cloud7 News | Cloud7 is a news source that publishes the latest news, reviews, comparisons, opinions, and exclusive interviews. |  | <https://cloud7.news/feed/gn> |
+| Cloud Security Alliance | The Cloud Security Alliance (CSA) is the world’s leading organization dedicated to defining and raising awareness of best practices to … |  | <https://cloudsecurityalliance.org/blog/feed> |
 | Cloudbrothers | Security research and blog updates from Cloudbrothers. | RSS | <https://cloudbrothers.info/index.xml> |
-| Clément Labro | Security research and blog updates from Clément Labro. | RSS | <https://infosec.exchange/@itm4n.rss> |
-| CODE WHITE \| Red Teaming & Attack Surface Management | Security research and blog updates from CODE WHITE \| Red Teaming & Attack Surface Management. | RSS | <https://code-white.com/index.xml> |
 | Cognisys Group Labs | Security research and blog updates from Cognisys Group Labs. | RSS | <https://labs.cognisys.group/feed> |
 | Comments on: An End to KASLR Bypasses? | Security research and blog updates from Comments on: An End to KASLR Bypasses?. | RSS | <https://windows-internals.com/an-end-to-kaslr-bypasses/feed> |
 | Computer Security Group | Security research and blog updates from Computer Security Group. | RSS | <https://comsec.ethz.ch/feed> |
-| ComputerWeekly | ComputerWeekly’s best articles of the day |  | <https://www.computerweekly.com/rss/IT-security.xml> |
-| Connor McGarr’s Blog | Security research and blog updates from Connor McGarr’s Blog. | RSS | <https://connormcgarr.github.io/feed.xml> |
-| Crunchbase News | Data-driven reporting on private markets, startups, founders, and investors |  | <https://news.crunchbase.com/feed> |
-| CS Hub (Attacks) | Cyber Security Hub regularly covers the space's visible breaches -- from Fortune 100 companies to social media, apps and industry leaders. | RSS | <https://www.cshub.com/rss/categories/attacks> |
-| CS Hub (Malware) | Many of today's cyber-attacks begin with malware propagation. Cyber Security Hub covers these malicious strains and provides analysis on how to shore up the network. | RSS | <https://www.cshub.com/rss/categories/malware> |
+| ComputerWeekly – IT Security | IT security news and analysis from ComputerWeekly. | RSS | <https://www.computerweekly.com/rss/IT-security.xml> |
 | CS Hub (Reports) | Cyber Security Hub | RSS | <https://www.cshub.com/rss/reports> |
 | CS Hub (Security Strategy) | A part of the role of today's CISO is strategy and business communication. Cyber Security Hub boasts numerous articles in this space, from budgeting to best practices and benchmarking, to deep dives on mitigating risk. | RSS | <https://www.cshub.com/rss/categories/security-strategy> |
 | CS Hub (Threat Defense) | Heading attackers off at the pass begins with quality threat defense. That could be a layered solution approach, or leading threat intelligence spread across the security environment. | RSS | <https://www.cshub.com/rss/categories/threat-defense> |
-| Csandker | Security research and blog updates from Csandker. | RSS | <https://csandker.io/feed.xml> |
+| cs.CR updates on arXiv.org | Computer Science -- Cryptography and Security (cs.CR) updates on the arXiv.org e-print archive |  | <https://export.arxiv.org/rss/cs.CR> |
 | CSO Online | News, research, and updates on general security & blogs from CSO Online. | RSS | <https://www.csoonline.com/feed> |
-| Ctrl blog | News, research, and updates on general security & blogs from Ctrl blog. | RSS | <https://feed.ctrl.blog/latest.atom> |
 | Culbert Report | Security research and blog updates from Culbert Report. | RSS | <https://git.culbertreport.com/feed> |
 | Cybenari | Security research and blog updates from Cybenari. | RSS | <https://cybenari.com/feed> |
 | Cyber Defense Magazine | InfoSec Knowledge is Power |  | <https://www.cyberdefensemagazine.com/feed> |
@@ -250,7 +195,6 @@ Total: **527**
 | Cyber Security News (FeedBurner) | RSS feed for Cyber Security News (FeedBurner), covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/cyber-security-news> |
 | CyberBuilders (Substack) | News, research, and updates on general security & blogs from CyberBuilders (Substack). | RSS | <https://cyberbuilders.substack.com/feed> |
 | Cyberdough | Security research and blog updates from Cyberdough. | RSS | <https://skr1x.github.io/feed.xml> |
-| Cybereason Blog | Cybereason research, threat intelligence, and security blog updates. | RSS | <https://www.cybereason.com/blog/rss.xml> |
 | CyberScoop | CyberScoop is the leading media brand in the cybersecurity market. |  | <https://www.cyberscoop.com/feed> |
 | Cybersecurity Dive - Latest News | Cybersecurity News |  | <https://www.cybersecuritydive.com/feeds/news> |
 | Cybersecurity Ventures | News, research, and updates on general security & blogs from Cybersecurity Ventures. | RSS | <https://cybersecurityventures.com/feed> |
@@ -259,64 +203,34 @@ Total: **527**
 | Dan Revah’s Blog | Security research and blog updates from Dan Revah’s Blog. | RSS | <https://danrevah.github.io/feed.xml> |
 | Dana Epp's Blog | Security research and blog updates from Dana Epp's Blog. | RSS | <https://danaepp.com/feed> |
 | Daniele Antonioli | Security research and blog updates from Daniele Antonioli. | RSS | <https://francozappa.github.io/index.xml> |
-| Dark Vortex | Security research and blog updates from Dark Vortex. | RSS | <https://0xdarkvortex.dev/feed.xml> |
 | darkreading | News, research, and updates on general security & blogs from darkreading. | RSS | <https://www.darkreading.com/rss.xml> |
 | Data and computer security \| The Guardian | News, research, and updates on general security & blogs from Data and computer security. | RSS | <https://www.theguardian.com/technology/data-computer-security/rss> |
 | Dave Bucklin | Security research and blog updates from Dave Bucklin. | RSS | <https://www.davebucklin.com/feed.xml> |
 | David Buchanan's Blog | Security research and blog updates from David Buchanan's Blog. | RSS | <https://www.da.vidbuchanan.co.uk/blog/rss.xml> |
-| DAY[0] | Security research and blog updates from DAY[0]. | RSS | <https://dayzerosec.com/feed.xml> |
-| Dazzy Ddos | Security research and blog updates from Dazzy Ddos. | RSS | <https://dazzyddos.github.io/feed> |
-| DCD | 503 Service Temporarily Unavailable nginx |  | <https://www.datacenterdynamics.com/rss> |
-| Decoder's Blog | Security research and blog updates from Decoder's Blog. | RSS | <https://decoder.cloud/feed> |
 | Deda | Security research and blog updates from Deda. | RSS | <https://deda.lol/index.xml> |
 | Deeplinks | EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet |  | <https://www.eff.org/rss/updates.xml> |
 | defend.network | Verified daily cyber threat briefings and weekly vulnerability reports; CVEs checked against NVD and CISA KEV. | RSS | <https://defend.network/feed.xml> |
-| Detect FYI - Medium | News, research, and updates on general security & blogs from Detect.fyi. | RSS | <https://detect.fyi/feed> |
 | DFSEC Research | Security research and blog updates from DFSEC Research. | RSS | <https://blog.dfsec.com/feed.xml> |
-| Diary of a reverse-engineer | Security research and blog updates from Diary of a reverse-engineer. | RSS | <https://doar-e.github.io/feeds/atom.xml> |
-| Didier Stevens | Security research and blog updates from Didier Stevens. | RSS | <https://blog.didierstevens.com/feed> |
-| Digital Journal | Digital Journal is a digital media news network with thousands of Digital Journalists in 200 countries around the world. |  | <https://www.digitaljournal.com/feed> |
-| Dirkjanm | Security research and blog updates from Dirkjanm. | RSS | <https://dirkjanm.io/feed.xml> |
-| Discord Blog | Security research and blog updates from Discord Blog. | RSS | <https://discord.com/blog/rss.xml> |
 | DoublePulsar - Medium | Security research and blog updates from DoublePulsar - Medium. | RSS | <https://doublepulsar.com/feed> |
-| Doyensec's Blog | Security research and blog updates from Doyensec's Blog. | RSS | <https://blog.doyensec.com/atom.xml> |
-| dr4k0nia | Security research and blog updates from dr4k0nia. | RSS | <https://dr4k0nia.github.io/feed> |
-| Dries Depoorter | Security research and blog updates from Dries Depoorter. | RSS | <https://driesdepoorter.be/feed> |
-| Eaton Works Feed | Security research and blog updates from Eaton Works Feed. | RSS | <https://eaton-works.com/feed.atom> |
 | Eder's Blog | Security research and blog updates from Eder's Blog. | RSS | <https://ch4ik0.github.io/index.xml> |
 | edermi's Blog | Security research and blog updates from edermi's Blog. | RSS | <https://edermi.github.io/index.xml> |
-| Elastic Blog - Elasticsearch, Kibana, and ELK Stack | Tutorials, deep dives, news, releases, stories, and more from the creators of Elasticsearch |  | <https://www.elastic.co/blog/feed> |
-| EntropyFix activity | Security research and blog updates from EntropyFix activity. | RSS | <https://gitlab.com/ORCA000/entropyfix.atom> |
 | Esjay’s Blog | Security research and blog updates from Esjay’s Blog. | RSS | <https://3sjay.github.io/feed.xml> |
 | ETenal | Security research and blog updates from ETenal. | RSS | <https://etenal.me/feed> |
-| Ethical Chaos | Security research and blog updates from Ethical Chaos. | RSS | <https://ethicalchaos.dev/feed> |
-| Evan Connelly | Security research and blog updates from Evan Connelly. | RSS | <https://evanconnelly.github.io/index.xml> |
 | evilsocket | Security research and blog updates from evilsocket. | RSS | <https://www.evilsocket.net/atom.xml> |
 | Evotec | Security research and blog updates from Evotec. | RSS | <https://evotec.xyz/feed> |
 | Ezrabuckingham | Security research and blog updates from Ezrabuckingham. | RSS | <https://ezrabuckingham.com/index.xml> |
-| FalconForce | Security research and blog updates from FalconForce. | RSS | <https://falconforce.nl/feed> |
 | Fathy Boundjadj | Security research and blog updates from Fathy Boundjadj. | RSS | <https://fathy.fr/atom.xml> |
-| feed activity | Security research and blog updates from feed activity. | RSS | <https://gitlab.com/feed.atom> |
-| fin3ss3g0d's Blog | Security research and blog updates from fin3ss3g0d's Blog. | RSS | <https://fin3ss3g0d.net/index.php/feed> |
 | Forbes - Cybersecurity | Forbes - Cybersecurity |  | <https://www.forbes.com/cybersecurity/feed> |
-| FORTBRIDGE | Security research and blog updates from FORTBRIDGE. | RSS | <https://fortbridge.co.uk/feed> |
-| Fortynorthsecurity | Security research and blog updates from Fortynorthsecurity. | RSS | <https://fortynorthsecurity.com/blog/rss> |
 | FoxIO Blog | Security research and blog updates from FoxIO Blog. | RSS | <https://blog.foxio.io/feed> |
-| freenginx news | Security research and blog updates from freenginx news. | RSS | <https://freenginx.org/index.rss> |
 | frereit's blog | Security research and blog updates from frereit's blog. | RSS | <https://frereit.de/index.xml> |
 | Frey's CyberSec Blog | Security research and blog updates from Frey's CyberSec Blog. | RSS | <https://freyxfi.github.io/feed.xml> |
 | Frida • A world-class dynamic instrumentation toolkit | Security research and blog updates from Frida • A world-class dynamic instrumentation toolkit. | RSS | <https://frida.re/feed.xml> |
-| Frycos Security Diary | Security research and blog updates from Frycos Security Diary. | RSS | <https://frycos.github.io/feed.xml> |
 | GBHackers News | News, research, and updates on general security & blogs from GBHackers News. | RSS | <https://gbhackers.com/feed> |
-| Gergely's hack blog | Security research and blog updates from Gergely's hack blog. | RSS | <https://gergelykalman.com/feeds/all.atom.xml> |
 | Going Beyond Grep | Security research and blog updates from Going Beyond Grep. | RSS | <https://goingbeyondgrep.com/index.xml> |
 | Good Workaround! | Security research and blog updates from Good Workaround!. | RSS | <https://goodworkaround.com/feed> |
 | GovInfoSecurity.com RSS Syndication | GovInfoSecurity.com RSS News Feeds on government information security news, regulations, blogs and education |  | <https://www.govinfosecurity.com/rss-feeds> |
 | Graham Cluley | News, research, and updates on general security & blogs from Graham Cluley. | RSS | <https://grahamcluley.com/feed> |
-| Graham Helton | Security research and blog updates from Graham Helton. | RSS | <https://grahamhelton.com/rss.xml> |
-| grimm-co.com | Security research and blog updates from grimm-co.com. | RSS | <https://blog.grimm-co.com/feeds/posts/default> |
 | GrimmzSec | Security research and blog updates from GrimmzSec. | RSS | <https://grimmie.net/feed> |
-| Group-IB Blog | News, research, and updates on general security & blogs from Group-IB Blog. | RSS | <https://www.group-ib.com/blog/rss.xml> |
 | Guard Labs | Security research and blog updates from Guard Labs. | RSS | <https://labs.guard.io/feed> |
 | gynvael.coldwind//vx.log (pl) | Security research and blog updates from gynvael.coldwind//vx.log (pl). | RSS | <https://feeds.feedburner.com/GynvaelColdwindPL> |
 | Hackaday | Fresh hacks every day |  | <https://hackaday.com/feed> |
@@ -324,188 +238,96 @@ Total: **527**
 | Hacker-Blog | Security research and blog updates from Hacker-Blog. | RSS | <https://blog.hrncirik.net/atom.xml> |
 | Hacking News -- ScienceDaily | Hacking and computer security. Latest research and news on hacking, including vulnerabilities, exploits, and cyber attacks. |  | <https://www.sciencedaily.com/rss/computers_math/hacking.xml> |
 | Hacking The Cloud | Security research and blog updates from Hacking The Cloud. | RSS | <https://hackingthe.cloud/feed_rss_created.xml> |
-| HackingVision | Ethical Hacking Tutorials, Tips &amp; Tricks, Kali Linux, Beginners Hacking |  | <https://hackingvision.com/feed> |
-| HACKMAGEDDON | News, research, and updates on general security & blogs from HACKMAGEDDON. | RSS | <https://www.hackmageddon.com/feed> |
-| hackndo | Security research and blog updates from hackndo. | RSS | <https://en.hackndo.com/feed.xml> |
 | HackRead | News, research, and updates on general security & blogs from HackRead. | RSS | <https://www.hackread.com/feed> |
 | Hacktodef | Security research and blog updates from Hacktodef. | RSS | <https://hacktodef.com/rss.xml> |
-| Hakin9 – IT Security Magazine | Hackers about hacking techniques in our IT Security Magazine |  | <https://hakin9.org/feed> |
-| HarfangLab | Security research and blog updates from HarfangLab. | RSS | <https://harfanglab.io/feed> |
 | Harpia Docs | Security research and blog updates from Harpia Docs. | RSS | <https://docs.harpia.io/blog/atom.xml> |
-| hausec | Security research and blog updates from hausec. | RSS | <https://hausec.com/feed> |
 | haxrob | Security research and blog updates from haxrob. | RSS | <https://doubleagent.net/rss> |
-| Haxx | Security research and blog updates from Haxx. | RSS | <https://haxx.in/index.xml> |
 | Healthcare IT News - Privacy &amp; Security | 504 Gateway Time-out |  | <https://www.healthcareitnews.com/taxonomy/term/6156/feed> |
 | HealthITSecurity | Health IT Security and HIPAA News and Tips |  | <https://healthitsecurity.com/feed> |
-| HealthTech Magazine | HealthTech Magazine (published by CDW) is a leading B2B publication focusing on IT in healthcare, targeting decision-makers, IT managers, and professionals. |  | <https://feeds.feedburner.com/HealthTechMagazine> |
 | Help Net Security | News, research, and updates on general security & blogs from Help Net Security. | RSS | <https://www.helpnetsecurity.com/feed> |
 | her0ness | Security research and blog updates from her0ness. | RSS | <https://her0ness.github.io/feed.xml> |
 | Home on LoFP | Security research and blog updates from Home on LoFP. | RSS | <https://br0k3nlab.com/LoFP/index.xml> |
 | home on sillywa.re | Security research and blog updates from home on sillywa.re. | RSS | <https://sillywa.re/index.xml> |
-| How To Market A Game | Security research and blog updates from How To Market A Game. | RSS | <https://howtomarketagame.com/feed> |
-| IACR News | Updates from IACR News. |  | <https://iacr.org/news/rss> |
-| Icyguider’s Blog | Security research and blog updates from Icyguider’s Blog. | RSS | <https://icyguider.github.io/feed.xml> |
-| IEEE Spectrum | IEEE Spectrum |  | <https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss> |
-| Ifcr Research | Security research and blog updates from Ifcr Research. | RSS | <https://research.ifcr.dk/feed> |
 | ii4gsp | Security research and blog updates from ii4gsp. | RSS | <https://ii4gsp.github.io/atom.xml> |
-| Impalabs Blog | Security research and blog updates from Impalabs Blog. | RSS | <https://blog.impalabs.com/feed.xml> |
-| Include Security Research Blog | Security research and blog updates from Include Security Research Blog. | RSS | <https://blog.includesecurity.com/feed> |
 | Industrial Cyber | Industrial, OT/ICS, SCADA Cyber Security System &amp; Solutions |  | <https://industrialcyber.co/feed> |
 | Information Security Archives | 504 Gateway Time-out nginx |  | <https://danielmiessler.com/category/information-security/feed> |
-| InfoSec Write-ups - Medium | A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs. |  | <https://infosecwriteups.com/feed> |
 | Infosecurity Magazine – News | News, research, and updates on general security & blogs from Infosecurity Magazine. | RSS | <https://www.infosecurity-magazine.com/rss/news> |
-| Initial Commit Blog | Security research and blog updates from Initial Commit Blog. | RSS | <https://initialcommit.com/blog/rss.xml> |
-| Intezer Blog | News, research, and updates on general security & blogs from Intezer Blog. | RSS | <https://www.intezer.com/blog/feed> |
 | ipsw Blog | Security research and blog updates from ipsw Blog. | RSS | <https://blacktop.github.io/ipsw/blog/atom.xml> |
-| Iscariot Suite activity | Security research and blog updates from Iscariot Suite activity. | RSS | <https://gitlab.com/badsectorlabs/iscariot-suite.atom> |
-| Isosceles Blog | Security research and blog updates from Isosceles Blog. | RSS | <https://blog.isosceles.com/rss> |
 | IT Security Guru | News, research, and updates on general security & blogs from IT Security Guru. | RSS | <https://www.itsecurityguru.org/feed> |
-| IT World Canada | Information Technology news on products, services and issues for CIOs, IT managers and network admins |  | <https://www.itworldcanada.com/category/security/feed> |
-| itm4n's blog | Security research and blog updates from itm4n's blog. | RSS | <https://itm4n.github.io/feed> |
-| iTnews | iTnews |  | <https://www.itnews.com.au/RSS/rss.ashx> |
-| iTnews Asia | iTnews Asia |  | <https://www.itnews.asia/rss/rss.ashx> |
-| Jack Hacks | Security research and blog updates from Jack Hacks. | RSS | <https://jhalon.github.io/feed.xml> |
+| IT World Canada – Security | Security news coverage from IT World Canada. | RSS | <https://www.itworldcanada.com/category/security/feed> |
 | Jackson T. | Security research and blog updates from Jackson T.. | RSS | <https://jackson-t.com/index.xml> |
 | Jakewnuk | Security research and blog updates from Jakewnuk. | RSS | <https://jakewnuk.com/index.xml> |
 | Jan Brennenstuhl | News, research, and updates on general security & blogs from Jan Brennenstuhl. | RSS | <https://www.janbrennenstuhl.eu/index.xml> |
 | Jfmeee (Hashnode) | Security research and blog updates from Jfmeee (Hashnode). | RSS | <https://jfmeee.hashnode.dev/rss.xml> |
-| Jim Fisher’s blog | Security research and blog updates from Jim Fisher’s blog. | RSS | <https://jameshfisher.com/feed.xml> |
 | John J Hacking | Recent content on John J Hacking |  | <https://johnjhacking.com/index.xml> |
 | Jsecurity101 (Medium) | Security research and blog updates from Jsecurity101 (Medium). | RSS | <https://jsecurity101.medium.com/feed> |
 | Jub0bs | Security research and blog updates from Jub0bs. | RSS | <https://jub0bs.com/index.xml> |
-| JUMPSEC Labs | Security research and blog updates from JUMPSEC Labs. | RSS | <https://labs.jumpsec.com/feed> |
 | Just Another Blog | Security research and blog updates from Just Another Blog. | RSS | <https://s1ckb017.github.io/feed.xml> |
-| KctHijackLib activity | Security research and blog updates from KctHijackLib activity. | RSS | <https://gitlab.com/ORCA000/kcthijacklib.atom> |
 | Ken Tindell's blog | Security research and blog updates from Ken Tindell's blog. | RSS | <https://kentindell.github.io/feed.xml> |
-| KitPloit - PenTest Tools! | KitPloit - leading source of Security Tools, Hacking Tools, CyberSecurity and Network Security ☣ |  | <https://feeds.feedburner.com/PentestTools> |
-| KnowBe4 Blog | News, research, and updates on general security & blogs from KnowBe4 Blog. | RSS | <https://blog.knowbe4.com/rss.xml> |
 | Kostas Ts (Medium) | Security research and blog updates from Kostas Ts (Medium). | RSS | <https://medium.com/feed/@kostas-ts> |
-| Krebs on Security | News, research, and updates on general security & blogs from Krebs on Security. | ATOM | <https://krebsonsecurity.com/feed/atom> |
-| Lansweeper IT Asset Management | Know Your IT |  | <https://www.lansweeper.com/feed> |
-| Lares Labs | Security research and blog updates from Lares Labs. | RSS | <https://labs.lares.com/rss> |
 | Latest Hacking News | News, research, and updates on general security & blogs from Latest Hacking News. | RSS | <https://latesthackingnews.com/feed> |
 | Latio Pulse | Weekly insights into Cloud, Application &amp; Product Security |  | <https://pulse.latio.tech/feed> |
 | lcamtuf’s thing | Security research and blog updates from lcamtuf’s thing. | RSS | <https://lcamtuf.substack.com/feed> |
 | Le Bron Does Security? | Security research and blog updates from Le Bron Does Security?. | RSS | <https://chesterlebron.blogspot.com/feeds/posts/default> |
-| Let's Encrypt | Security research and blog updates from Let's Encrypt. | RSS | <https://letsencrypt.org/feed.xml> |
 | LockBoxx | Security research and blog updates from LockBoxx. | RSS | <https://feeds.feedburner.com/blogspot/ofozM> |
 | Lohrmann on Cybersecurity | RSS feed for Lohrmann on Cybersecurity, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure> |
 | Loworbitsecurity | Security research and blog updates from Loworbitsecurity. | RSS | <https://loworbitsecurity.com/index.xml> |
-| LRQA Nettitude Labs | Security research and blog updates from LRQA Nettitude Labs. | RSS | <https://labs.nettitude.com/feed> |
-| Ludus releases | Security research and blog updates from Ludus releases. | RSS | <https://gitlab.com/badsectorlabs/ludus/-/releases.atom> |
-| LuemmelSec | Security research and blog updates from LuemmelSec. | RSS | <https://luemmelsec.github.io/feed.xml> |
-| M365internals | Security research and blog updates from M365internals. | RSS | <https://m365internals.com/feed> |
 | m417z / blog | Security research and blog updates from m417z / blog. | RSS | <https://m417z.com/feed.xml> |
 | maia blog | Security research and blog updates from maia blog. | RSS | <https://maia.crimew.gay/feed.xml> |
 | Malacupa | Security research and blog updates from Malacupa. | RSS | <https://malacupa.com/atom.xml> |
-| Malwarebytes Labs | News, research, and updates on general security & blogs from Malwarebytes Labs. | RSS | <https://www.malwarebytes.com/blog/feed/index.xml> |
 | Marco Ramilli | Security research and blog updates from Marco Ramilli. | RSS | <https://marcoramilli.com/feed> |
-| Marcus Hutchins | News, research, and updates on general security & blogs from Marcus Hutchins. | RSS | <https://marcushutchins.com/feed.xml> |
 | Matt Palmer on Cybersecurity | RSS feed for Matt Palmer on Cybersecurity, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/mattpalmeroncybersecurity> |
-| Matterpreter (Medium) | Security research and blog updates from Matterpreter (Medium). | RSS | <https://medium.com/@matterpreter/feed> |
 | Matthew Garrett | Security research and blog updates from Matthew Garrett. | RSS | <https://mjg59.dreamwidth.org/data/rss> |
-| Mayfly | Security research and blog updates from Mayfly. | RSS | <https://mayfly277.github.io/feed> |
-| MDSec | Security research and blog updates from MDSec. | RSS | <https://www.mdsec.co.uk/feed> |
 | Medium – @2ndsightlab | Medium posts from Medium focused on general security & blogs. | RSS | <https://medium.com/feed/@2ndsightlab> |
 | Medium – @vaceituno | Medium posts from Medium focused on general security & blogs. | RSS | <https://medium.com/feed/@vaceituno> |
-| Memory Corruption | Security research and blog updates from Memory Corruption. | RSS | <https://memorycorruption.net/index.xml> |
-| Meta Red Team X | Security research and blog updates from Meta Red Team X. | RSS | <https://rtx.meta.security/feed.xml> |
-| MetalBear 🐻 \| Creators of mirrord on | Security research and blog updates from MetalBear 🐻 \| Creators of mirrord on. | RSS | <https://metalbear.co/index.xml> |
-| mgeeky's lair | Security research and blog updates from mgeeky's lair. | RSS | <https://mgeeky.tech/feed> |
-| Michael Coppola | Security research and blog updates from Michael Coppola. | RSS | <https://poppopret.org/feed> |
-| Mickey’s Blogs | Security research and blog updates from Mickey’s Blogs. | RSS | <https://jhftss.github.io/feed.xml> |
-| Microsoft MSRC | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/feed> |
 | Microsoft Security Blog | Security research and blog updates from Microsoft Security Blog. | RSS | <https://thalpius.com/feed> |
-| Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/feed> |
 | Mikko Kenttala (Medium) | Security research and blog updates from Mikko Kenttala (Medium). | RSS | <https://mikko-kenttala.medium.com/feed> |
 | Minder-Security | Security research and blog updates from Minder-Security. | RSS | <https://minder-security.ghost.io/rss> |
 | MIT News - Cybersecurity | MIT news feed about: Cybersecurity |  | <https://news.mit.edu/topic/mitcyber-security-rss.xml> |
 | Mitrecaldera (Medium) | Security research and blog updates from Mitrecaldera (Medium). | RSS | <https://medium.com/@mitrecaldera/feed> |
 | modexp | Security research and blog updates from modexp. | RSS | <https://modexp.wordpress.com/feed> |
-| Modular Docs | Security research and blog updates from Modular Docs. | RSS | <https://docs.modular.com/max/tutorials/atom.xml> |
 | Mohamed Sultan | Security research and blog updates from Mohamed Sultan. | RSS | <https://0xsultan.github.io/feed.xml> |
-| Motherboard – Tech | News, research, and updates on general security & blogs from Motherboard. | RSS | <https://www.vice.com/en/category/tech/feed> |
-| MrBruh's Epic Blog | Security research and blog updates from MrBruh's Epic Blog. | RSS | <https://mrbruh.com/index.xml> |
-| Muirey03's Blog | Security research and blog updates from Muirey03's Blog. | RSS | <https://muirey03.blogspot.com/feeds/posts/default> |
-| My interesting research. | Security research and blog updates from My interesting research.. | RSS | <https://r00tkitsmm.github.io/feed.xml> |
 | Mykola’s blog | Security research and blog updates from Mykola’s blog. | RSS | <https://khronokernel.com/feed.xml> |
-| n1ghtw0lf | Security research and blog updates from n1ghtw0lf. | RSS | <https://n1ght-w0lf.github.io/feed.xml> |
 | Naked Security – Sophos | News, research, and updates on general security & blogs from Naked Security. | RSS | <https://nakedsecurity.sophos.com/feed> |
 | nao-sec Blog | News, research, and updates on general security & blogs from nao-sec Blog. | RSS | <https://nao-sec.org/feed> |
-| Nasbench (Medium) | Security research and blog updates from Nasbench (Medium). | RSS | <https://nasbench.medium.com/feed> |
 | Neil Madden | Security research and blog updates from Neil Madden. | RSS | <https://neilmadden.blog/feed> |
-| Neil Panchal | Security research and blog updates from Neil Panchal. | RSS | <https://neil.computer/rss> |
 | Neodyme’s Blog | Security research and blog updates from Neodyme’s Blog. | RSS | <https://neodyme.io/rss.xml> |
-| NetBlocks | Mapping Internet Freedom |  | <https://netblocks.org/feed> |
 | Neuvik - Medium | Security research and blog updates from Neuvik - Medium. | RSS | <https://blog.neuvik.com/feed> |
-| New Scientist - Technology | New Scientist - Technology |  | <https://www.newscientist.com/subject/technology/feed> |
 | News4Hackers | News, research, and updates on general security & blogs from News4Hackers. | RSS | <https://news4hackers.com/feed> |
-| NHS Digital - Cyber Alert Feed | Sorry! We&#x27;re doing some essential work on the website. It will be back online shortly. |  | <https://digital.nhs.uk/feed/cyber-alerts-feed.xml> |
 | Nick Botticelli | Security research and blog updates from Nick Botticelli. | RSS | <https://nickb.website/feed.xml> |
 | Nicolasuter (Medium) | Security research and blog updates from Nicolasuter (Medium). | RSS | <https://nicolasuter.medium.com/feed> |
-| NixOS News | Security research and blog updates from NixOS News. | RSS | <https://nixos.org/blog/feed.xml> |
 | No Starch Press | Security research and blog updates from No Starch Press. | RSS | <https://nostarch.com/rss.xml> |
+| NodeJS Security & NodeJS Secure Coding's Blog | Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver... | RSS | <https://www.nodejs-security.com/rss.xml> |
 | Noob to !Noob | Security research and blog updates from Noob to !Noob. | RSS | <https://blog.sunggwanchoi.com/rss> |
 | Nullg0re | Security research and blog updates from Nullg0re. | RSS | <https://nullg0re.com/feed> |
 | NVISO Labs | Security research and blog updates from NVISO Labs. | RSS | <https://blog.nviso.eu/feed> |
 | NYT &gt; Cybersecurity | Updates from NYT > Cybersecurity. |  | <https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/cybersecurity/rss.xml> |
-| OALABS Research | Security research and blog updates from OALABS Research. | RSS | <https://research.openanalysis.net/feed.xml> |
 | Observations in Security | Security research and blog updates from Observations in Security. | RSS | <https://observationsinsecurity.com/feed> |
-| Offensive Defence | Security research and blog updates from Offensive Defence. | RSS | <https://offensivedefence.co.uk/index.xml> |
-| Offensive Research | Security research and blog updates from Offensive Research. | RSS | <https://philkeeble.com/feed.xml> |
-| Okta Security RSS Feed | Security research and blog updates from Okta Security RSS Feed. | RSS | <https://sec.okta.com/rss.xml> |
 | Omer on Security | Weekly posts for your security data lake journey. |  | <https://www.omeronsecurity.com/feed> |
 | Open Source Security Foundation | News, research, and updates on general security & blogs from Open Source Security Foundation. | ATOM | <https://openssf.org/feed/atom> |
-| OpenTofu Blog | Security research and blog updates from OpenTofu Blog. | RSS | <https://opentofu.org/blog/atom.xml> |
-| Orange Tsai | Security research and blog updates from Orange Tsai. | RSS | <https://blog.orange.tw/atom> |
 | OSV Blog | Security research and blog updates from OSV Blog. | RSS | <https://osv.dev/blog/index.xml> |
 | OWASP | News, research, and updates on general security & blogs from OWASP. | RSS | <https://owasp.org/feed.xml> |
-| PACMAN | Security research and blog updates from PACMAN. | RSS | <https://pacmanattack.com/atom.xml> |
 | Paged Out! Magazine | Security research and blog updates from Paged Out! Magazine. | RSS | <https://pagedout.institute/atom.xml> |
 | Pascal Schärli | Security research and blog updates from Pascal Schärli. | RSS | <https://pascscha.ch/weblog/rss> |
 | Pbom | Security research and blog updates from Pbom. | RSS | <https://pbom.dev/feed> |
-| Pelican – A Python Static Site Generator | Security research and blog updates from Pelican – A Python Static Site Generator. | RSS | <https://getpelican.com/feeds/all.atom.xml> |
 | Pen Test Partners | 502 Bad Gateway nginx |  | <https://www.pentestpartners.com/feed> |
 | Personal notes on Cybersecurity and Cloud | Security research and blog updates from Personal notes on Cybersecurity and Cloud. | RSS | <https://blog.karims.cloud/feed.xml> |
 | Peter Gabaldon | Security research and blog updates from Peter Gabaldon. | RSS | <https://pgj11.com/feed> |
 | Peterjson (Medium) | Security research and blog updates from Peterjson (Medium). | RSS | <https://peterjson.medium.com/feed> |
-| Pluralistic: Daily links from Cory Doctorow | Security research and blog updates from Pluralistic: Daily links from Cory Doctorow. | RSS | <https://pluralistic.net/feed> |
-| PortSwigger Blog | PortSwigger research and updates on web security, Burp Suite, and vulnerability techniques. | RSS | <https://portswigger.net/blog/rss> |
-| Positive Security \| IT Security research and happy coincidences | Security research and blog updates from Positive Security \| IT Security research and happy coincidences. | RSS | <https://positive.security/blog/rss.xml> |
 | Posts on Trevor Saudi | Security research and blog updates from Posts on Trevor Saudi. | RSS | <https://trevorsaudi.com/posts/index.xml> |
-| ProjectDiscovery Blog | Security research and blog updates from ProjectDiscovery Blog. | RSS | <https://blog.projectdiscovery.io/rss> |
 | Purple Research | Security research and blog updates from Purple Research. | RSS | <https://ipslav.github.io/feed.xml> |
-| Puyuan Peng | Security research and blog updates from Puyuan Peng. | RSS | <https://jasonppy.github.io/feed> |
-| Pwned Labs Blog | Security research and blog updates from Pwned Labs Blog. | RSS | <https://blog.pwnedlabs.io/rss.xml> |
-| Pwning Tech | Security research and blog updates from Pwning Tech. | RSS | <https://pwning.tech/rss> |
-| Quarkslab's blog | Security research and blog updates from Quarkslab's blog. | RSS | <https://blog.quarkslab.com/feeds/all.atom.xml> |
 | Raesene's Ramblings | Security research and blog updates from Raesene's Ramblings. | RSS | <https://raesene.github.io/feed.xml> |
-| Rasta Mouse | Security research and blog updates from Rasta Mouse. | RSS | <https://rastamouse.me/rss> |
 | Real-time communications security on Communication Breakdown - Real-Time Communications Security | Recent content in Real-time communications security on Communication Breakdown - Real-Time Communications Security |  | <https://www.rtcsec.com/index.xml> |
-| Red XOR Blue | Security research and blog updates from Red XOR Blue. | RSS | <https://blog.redxorblue.com/feeds/posts/default> |
-| RedHunt Labs | Security research and blog updates from RedHunt Labs. | RSS | <https://redhuntlabs.com/feed> |
-| Research Blog \| Project Black | Security research and blog updates from Research Blog \| Project Black. | RSS | <https://projectblack.io/blog/rss> |
-| Rest of World - | Reporting Global Tech Stories |  | <https://restofworld.org/feed/latest> |
 | RestorePrivacy | Security research and blog updates from RestorePrivacy. | RSS | <https://restoreprivacy.com/feed> |
-| RET2 Systems Blog | Security research and blog updates from RET2 Systems Blog. | RSS | <https://blog.ret2.io/feed.xml> |
 | Return on Security | Beehiiv is a purpose-built, all-in-one newsletter platform designed for creators to publish, grow, and monetize their audience without requiring coding skills. |  | <https://rss.beehiiv.com/feeds/tLSvUYOBwf.xml> |
-| RevEng.AI Blog | Security research and blog updates from RevEng.AI Blog. | RSS | <https://blog.reveng.ai/rss> |
-| Reverse Engineering | Security research and blog updates from Reverse Engineering. | RSS | <https://revers.engineering/feed> |
 | Revflash (Medium) | Security research and blog updates from Revflash (Medium). | RSS | <https://revflash.medium.com/feed> |
 | Rezaduty 1685945445294 (Hashnode) | Security research and blog updates from Rezaduty 1685945445294 (Hashnode). | RSS | <https://rezaduty-1685945445294.hashnode.dev/rss.xml> |
-| Rhino Security Labs | Security research and blog updates from Rhino Security Labs. | RSS | <https://rhinosecuritylabs.com/feed> |
-| Riccardo Ancarani - Red Team Adventures | Security research and blog updates from Riccardo Ancarani - Red Team Adventures. | RSS | <https://riccardoancarani.github.io/feed.xml> |
 | Rift | Security research and blog updates from Rift. | RSS | <https://rift.stacktitan.com/rss> |
-| Risky Business | Risky.biz is an independent information security news platform and podcast network founded by Patrick Gray in 2007, serving as a key resource for cybersecurity professionals. |  | <https://risky.biz/feeds/risky-business> |
 | Roberto Frenna | Security research and blog updates from Roberto Frenna. | RSS | <https://rbf.dev/feed.xml> |
-| root@V3dedBlog:~# | Security research and blog updates from root@V3dedBlog:~#. | RSS | <https://v3ded.github.io/feed.xml> |
 | Rootsecdev (Medium) | Security research and blog updates from Rootsecdev (Medium). | RSS | <https://rootsecdev.medium.com/feed> |
-| Rossmann Repair Group | News, research, and updates on general security & blogs from Rossmann Repair Group. | RSS | <https://www.rossmanngroup.com/feed> |
 | RyotaK's Blog | Security research and blog updates from RyotaK's Blog. | RSS | <https://blog.ryotak.net/index.xml> |
-| S3cur3Th1sSh1t | News, research, and updates on general security & blogs from S3cur3Th1sSh1t. | RSS | <https://s3cur3th1ssh1t.github.io/feed.xml> |
 | S4dbrd | Security research and blog updates from S4dbrd. | RSS | <https://s4dbrd.com/feed.xml> |
 | Sabotage Sec | Security research and blog updates from Sabotage Sec. | RSS | <https://sabotagesec.com/feed> |
-| Salt Security Blog | Security research and blog updates from Salt Security Blog. | RSS | <https://salt.security/blog/rss.xml> |
 | Sam0 0 (Medium) | Security research and blog updates from Sam0 0 (Medium). | RSS | <https://medium.com/@sam0-0/feed> |
 | Sansec - experts in eCommerce security | Security research and blog updates from Sansec - experts in eCommerce security. | RSS | <https://sansec.io/atom.xml> |
 | SC Magazine feed for Policy | SC Media (formerly SC Magazine) is a prominent, long-standing media brand focused on the cybersecurity industry. |  | <https://www.scmagazine.com/feed/topic/policy> |
@@ -513,211 +335,123 @@ Total: **527**
 | SC Magazine feed for Strategy | SC Media (formerly SC Magazine) is a prominent, long-standing media brand focused on the cybersecurity industry. |  | <https://www.scmagazine.com/feed/topic/strategy> |
 | Schneier on Security | News, research, and updates on general security & blogs from Schneier on Security. | RSS | <https://www.schneier.com/blog/atom.xml> |
 | SCM feed for Latest | News, research, and updates on general security & blogs from SCM feed for Latest. | ATOM | <https://www.scworld.com/feed/topic/latest> |
-| SCRT Team Blog | Security research and blog updates from SCRT Team Blog. | RSS | <https://blog.scrt.ch/feed> |
 | Seb Draven (Medium) | Medium posts from Seb Draven (Medium) focused on general security & blogs. | RSS | <https://medium.com/feed/@sebdraven> |
-| secret club | Security research and blog updates from secret club. | RSS | <https://secret.club/feed.xml> |
-| Sector 7 | Security research and blog updates from Sector 7. | RSS | <https://sector7.computest.nl/index.xml> |
-| Securitum Research | Security research and blog updates from Securitum Research. | RSS | <https://research.securitum.com/feed> |
-| Security advisories | News, research, and updates on general security & blogs from Security advisories. | RSS | <https://www.drupal.org/security/rss.xml> |
 | Security Affairs | News, research, and updates on general security & blogs from Security Affairs. | RSS | <https://securityaffairs.co/wordpress/feed> |
 | Security Magazine (Cyber) | Keep up to date on the latest news and information posted to Securitymagazine.com with our RSS feed. | RSS | <https://www.securitymagazine.com/rss/15> |
 | Security News \| TechCrunch | News, research, and updates on general security & blogs from Security News. | RSS | <https://techcrunch.com/category/security/feed> |
-| Security News \| TechCrunch | News, research, and updates on general security & blogs from Security News. | ATOM | <https://techcrunch.com/category/security/feed/atom> |
 | Security News: Cybersecurity, Hacks, Privacy, National Security | News, research, and updates on general security & blogs from Security News, Cybersecurity, Hacks, Privacy, National Security. | RSS | <https://www.wired.com/feed/category/security/rss> |
 | Security on TechRepublic | Security on TechRepublic |  | <https://www.techrepublic.com/rssfeeds/topic/security> |
-| Security public service announcements | News, research, and updates on general security & blogs from Security public service announcements. | RSS | <https://www.drupal.org/security/psa/rss.xml> |
 | Security Resources and Information from TechTarget | Network security news, advice and technical information. |  | <https://www.techtarget.com/searchsecurity/rss/Security-Wire-Daily-News.xml> |
 | Security Software news and updates | The independent technology news blog |  | <https://www.ghacks.net/category/software/security/feed> |
 | Security Soup | infosec news, commentary, and research | RSS | <https://security-soup.net/feed> |
 | Security – Ars Technica | Ars Technica security news and analysis spanning vulnerabilities, incidents, and tech policy. | RSS | <https://arstechnica.com/security/feed> |
-| Security – Ars Technica | Ars Technica security news and analysis spanning vulnerabilities, incidents, and tech policy. | ATOM | <https://arstechnica.com/security/feed/atom> |
 | Security – SiliconANGLE | Extracting the signal from the noise. |  | <https://siliconangle.com/category/security/feed> |
 | Security – VentureBeat | Transformative tech coverage that matters |  | <https://venturebeat.com/category/security/feed> |
-| security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle | Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle |  | <https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml> |
 | Securitymaven (Medium) | Security research and blog updates from Securitymaven (Medium). | RSS | <https://securitymaven.medium.com/feed> |
 | SecurityWeek | SecurityWeek news covering vulnerabilities, threats, and enterprise security developments. | RSS | <https://www.securityweek.com/feed> |
-| SecurityWeek | SecurityWeek news covering vulnerabilities, threats, and enterprise security developments. | ATOM | <https://www.securityweek.com/feed/atom> |
-| SecurityWeek – Data Breaches | SecurityWeek news covering vulnerabilities, threats, and enterprise security developments. | RSS | <https://www.securityweek.com/category/data-breaches/feed> |
-| Sh3llSp4wn’s Malware Conservatory | Security research and blog updates from Sh3llSp4wn’s Malware Conservatory. | RSS | <https://sh3llsp4wn.github.io/feed> |
-| Shells | Security research and blog updates from Shells. | RSS | <https://shells.systems/feed> |
 | shellsharks All Content | Security research and blog updates from shellsharks All Content. | RSS | <https://shellsharks.com/feeds/all-feed.xml> |
-| Shenanigans Labs | Security research and blog updates from Shenanigans Labs. | RSS | <https://shenaniganslabs.io/feed> |
-| Shodan Blog | Security research and blog updates from Shodan Blog. | RSS | <https://blog.shodan.io/rss> |
-| Shorsec Cyber Security | Security research and blog updates from Shorsec Cyber Security. | RSS | <https://shorsec.io/feed> |
-| Signal Blog | Security research and blog updates from Signal Blog. | RSS | <https://signal.org/blog/rss.xml> |
 | Silicon Republicinfosec – Silicon Republic | Silicon Republic is a leading source for technology, science and start-up news, information and resources for people who are passionate. |  | <https://www.siliconrepublic.com/feed> |
-| simondotsh’s infosec blog | Security research and blog updates from simondotsh’s infosec blog. | RSS | <https://simondotsh.com/feed.xml> |
-| Skelsec (Medium) | Security research and blog updates from Skelsec (Medium). | RSS | <https://skelsec.medium.com/feed> |
 | Skii | Security research and blog updates from Skii. | RSS | <https://skii.dev/rss> |
+| SkyDogCon | The South's premiere hacker/maker con located in Nashville, TN | ATOM | <https://www.skydogcon.com/atom.xml> |
 | Slowerzs' blog | Security research and blog updates from Slowerzs' blog. | RSS | <https://blog.slowerzs.net/index.xml> |
-| Snovvcrash | Security research and blog updates from Snovvcrash. | RSS | <https://snovvcrash.rocks/feed> |
 | Sockpuppets (Medium) | Security research and blog updates from Sockpuppets (Medium). | RSS | <https://sockpuppets.medium.com/feed> |
 | Soufianehabti (Medium) | Security research and blog updates from Soufianehabti (Medium). | RSS | <https://medium.com/@soufianehabti/feed> |
-| Spaceraccoon's Blog | Security research and blog updates from Spaceraccoon's Blog. | RSS | <https://spaceraccoon.dev/feed.xml> |
-| SpecterOps | Security research and blog updates from SpecterOps. | RSS | <https://specterops.io/feed> |
-| Splunk Security Announcements | Security research and blog updates from Splunk Security Announcements. | RSS | <https://advisory.splunk.com/feed.xml> |
-| STAR Labs | Security research and blog updates from STAR Labs. | RSS | <https://starlabs.sg/index.xml> |
 | Sternumiot | Security research and blog updates from Sternumiot. | RSS | <https://sternumiot.com/feed> |
 | Steve on Security | Security research and blog updates from Steve on Security. | RSS | <https://syfuhs.net/feed/atom> |
-| Stories by assume-breach on Medium | Security research and blog updates from Stories by assume-breach on Medium. | RSS | <https://assume-breach.medium.com/feed> |
 | Stories by bilal al-qurneh on Medium | Security research and blog updates from Stories by bilal al-qurneh on Medium. | RSS | <https://medium.com/@0xcc00/feed> |
-| Stories by Blake Lemoine on Medium | Security research and blog updates from Stories by Blake Lemoine on Medium. | RSS | <https://cajundiscordian.medium.com/feed> |
 | Stories by Bobbyr on Medium | Security research and blog updates from Stories by Bobbyr on Medium. | RSS | <https://medium.com/@bobbyrsec/feed> |
 | Stories by byq on Medium | Security research and blog updates from Stories by byq on Medium. | RSS | <https://medium.com/@byq/feed> |
-| Stories by Cedric Owens on Medium | Security research and blog updates from Stories by Cedric Owens on Medium. | RSS | <https://cedowens.medium.com/feed> |
 | Stories by Chris Haller on Medium | Security research and blog updates from Stories by Chris Haller on Medium. | RSS | <https://m4lwhere.medium.com/feed> |
-| Stories by CICADA8 on Medium | Security research and blog updates from Stories by CICADA8 on Medium. | RSS | <https://cicada-8.medium.com/feed> |
 | Stories by Craig Young on Medium | Security research and blog updates from Stories by Craig Young on Medium. | RSS | <https://medium.com/@cy1337/feed> |
 | Stories by Daniel Schell on Medium | Security research and blog updates from Stories by Daniel Schell on Medium. | RSS | <https://medium.com/@airlockdigital/feed> |
 | Stories by delivr.to on Medium | Security research and blog updates from Stories by delivr.to on Medium. | RSS | <https://blog.delivr.to/feed> |
 | Stories by ENKI WhiteHat on Medium | Security research and blog updates from Stories by ENKI WhiteHat on Medium. | RSS | <https://medium.com/@enki-techblog/feed> |
 | Stories by FLOCK4H on Medium | Security research and blog updates from Stories by FLOCK4H on Medium. | RSS | <https://medium.com/@flytechoriginal/feed> |
-| Stories by Florian Roth on Medium | Security research and blog updates from Stories by Florian Roth on Medium. | RSS | <https://cyb3rops.medium.com/feed> |
 | Stories by Forrest Kasler on Medium | Security research and blog updates from Stories by Forrest Kasler on Medium. | RSS | <https://medium.com/@fakasler/feed> |
 | Stories by frycos on Medium | Security research and blog updates from Stories by frycos on Medium. | RSS | <https://medium.com/@frycos/feed> |
 | Stories by Lizzie Moratti on Medium | Security research and blog updates from Stories by Lizzie Moratti on Medium. | RSS | <https://medium.com/@MorattiSec/feed> |
-| Stories by Michael Haag on Medium | Security research and blog updates from Stories by Michael Haag on Medium. | RSS | <https://haggis-m.medium.com/feed> |
 | Stories by Nick Frischkorn on Medium | Security research and blog updates from Stories by Nick Frischkorn on Medium. | RSS | <https://frischkorn-nicholas.medium.com/feed> |
 | Stories by Tal Be'ery on Medium | Security research and blog updates from Stories by Tal Be'ery on Medium. | RSS | <https://medium.com/@TalBeerySec/feed> |
-| Stratum Security Blog | Security research and blog updates from Stratum Security Blog. | RSS | <https://blog.stratumsecurity.com/rss> |
 | strikeready.com | Security research and blog updates from strikeready.com. | RSS | <https://blog.strikeready.com/index.xml> |
-| Sub7 activity | Security research and blog updates from Sub7 activity. | RSS | <https://gitlab.com/illwill/sub7.atom> |
-| Sucuri Blog | Website Security News |  | <https://blog.sucuri.net/feed> |
-| Summoning Team | Security research and blog updates from Summoning Team. | RSS | <https://summoning.team/index.xml> |
 | Sunshine After Rain | Security research and blog updates from Sunshine After Rain. | RSS | <https://jdomeracki.github.io/atom.xml> |
-| Swisskyrepo Blog | Security research and blog updates from Swisskyrepo Blog. | RSS | <https://swisskyrepo.github.io/feed> |
 | Syscall | Security research and blog updates from Syscall. | RSS | <https://syscall.cafe/feed> |
-| SySS Tech Blog | Security research and blog updates from SySS Tech Blog. | RSS | <https://blog.syss.com/feed> |
-| System Weakness - Medium | System Weakness is a publication that specialises in publishing upcoming writers in cybersecurity and ethical hacking space. |  | <https://systemweakness.com/feed> |
 | Taggart Tech | Security research and blog updates from Taggart Tech. | RSS | <https://taggart-tech.com/atom.xml> |
 | Tamirye94 (Medium) | Security research and blog updates from Tamirye94 (Medium). | RSS | <https://medium.com/@tamirye94/feed> |
 | Tastypepperoni (Medium) | Security research and blog updates from Tastypepperoni (Medium). | RSS | <https://tastypepperoni.medium.com/feed> |
-| Team Cymru | News, research, and updates on general security & blogs from Team Cymru. | RSS | <https://team-cymru.com/feed> |
 | Tech Froggo’s Rants | Security research and blog updates from Tech Froggo’s Rants. | RSS | <https://disrel.com/feed> |
-| Tech Monitor | Navigating the horizon of business technology​. |  | <https://techmonitor.ai/feed> |
-| TechCrunch | Startup and Technology News |  | <https://techcrunch.com/feed> |
-| Techmeme | Tech Web, page A1 |  | <https://www.techmeme.com/feed.xml> |
-| Technology \| Reuters News Agency | Reuters is one of the world's largest, oldest, and most reputable international multimedia news agencies. |  | <https://www.reutersagency.com/feed?best-topics=tech> |
-| TechRepublic – Security | News, research, and updates on general security & blogs from TechRepublic. | RSS | <https://www.techrepublic.com/rssfeeds/topic/security?feedType=rssfeeds> |
-| TechSpot | TechSpot News - All Stories |  | <https://www.techspot.com/backend.xml> |
-| thc.org | Security research and blog updates from thc.org. | RSS | <https://blog.thc.org/rss.xml> |
-| The CircleCI Blog Feed \| CircleCI | Security research and blog updates from The CircleCI Blog Feed \| CircleCI. | RSS | <https://circleci.com/blog/feed.xml> |
-| The Citizen Lab | Security research and blog updates from The Citizen Lab. | RSS | <https://citizenlab.ca/feed> |
-| The Cloudflare Blog | Cloudflare blog posts on security engineering, threat research, and incident learnings. | RSS | <https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss> |
 | The Cloudflare Blog | Cloudflare blog posts on security engineering, threat research, and incident learnings. | RSS | <https://blog.cloudflare.com/rss> |
-| The Contractor 🏴‍☠️🧯 | Security research and blog updates from The Contractor 🏴‍☠️🧯. | RSS | <https://thecontractor.io/rss> |
-| The CyberWire | News, research, and updates on general security & blogs from The CyberWire. | RSS | <https://thecyberwire.com/feeds/rss.xml> |
 | The Daily Swig | PortSwigger research and updates on web security, Burp Suite, and vulnerability techniques. | RSS | <https://portswigger.net/daily-swig/rss> |
 | The Deniss Blog | Security research and blog updates from The Deniss Blog. | RSS | <https://the-deniss.github.io/feed.xml> |
-| The GitHub Blog: Security News and Updates | Updates, ideas, and inspiration from GitHub to help developers build and design software. |  | <https://github.blog/category/security/feed> |
-| The Go Blog | Security research and blog updates from The Go Blog. | RSS | <https://go.dev/blog/feed.atom> |
 | The Hacker News | RSS feed for The Hacker News, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/TheHackersNews> |
-| The Human Machine Interface | Security research and blog updates from The Human Machine Interface. | RSS | <https://h0mbre.github.io/feed.xml> |
-| The Information | The Information is a premier, subscription-based digital publication focused on in-depth, original reporting on the technology, media, and finance industries. |  | <https://www.theinformation.com/feed> |
 | The Last Watchdog | on Internet security by Byron Acohido |  | <https://www.lastwatchdog.com/feed> |
-| The New Stack | Founded in 2014 by Alex Williams, The New Stack (thenewstack.io) is a premier digital media platform providing in-depth analysis on modern software development, cloud-native computing, and DevOps. |  | <https://thenewstack.io/feed> |
-| The Official Microsoft Blog | Security research and blog updates from The Official Microsoft Blog. | RSS | <https://blogs.microsoft.com/feed> |
-| The Proton Blog | News from the front lines of privacy and security |  | <https://proton.me/blog/feed> |
 | The Record | News, research, and updates on general security & blogs from The Record. | RSS | <https://therecord.media/feed> |
 | The Register - Security | News, research, and updates on general security & blogs from The Register. | ATOM | <https://www.theregister.com/security/headlines.atom> |
-| The RISKS Digest | The website of the RISKS mailing list |  | <https://catless.ncl.ac.uk/risksrss2.xml> |
-| The Stack | Interviews, Insight, Intelligence for Digital Leaders |  | <https://www.thestack.technology/latest/rss> |
 | The State of Security | News. Trends. Insights. |  | <https://www.tripwire.com/state-of-security/feed> |
 | The Trail of Bits Blog | Security research and blog updates from The Trail of Bits Blog. | RSS | <https://blog.trailofbits.com/feed> |
-| The Verge - All Posts | The Verge is a prominent American technology news and media network operated by Vox Media, launched on November 1, 2011. It provides in-depth reporting, long-form features, breaking news, product reviews, and podcasts, focusing on the intersection of technology, science, art, and culture. |  | <https://www.theverge.com/rss/index.xml> |
 | theevilbit blog | Security research and blog updates from theevilbit blog. | RSS | <https://theevilbit.github.io/index.xml> |
-| theori.io | Security research and blog updates from theori.io. | RSS | <https://blog.theori.io/feed> |
 | Thievi | Security research and blog updates from Thievi. | RSS | <https://thievi.sh/index.xml> |
 | Thinkst Thoughts | Security research and blog updates from Thinkst Thoughts. | RSS | <https://blog.thinkst.com/feed> |
-| Threat Intelligence | RSS feed for Threat Intelligence, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v> |
 | Threatpost | News, research, and updates on general security & blogs from Threatpost. | RSS | <https://threatpost.com/feed> |
-| Threlfall hax | Security research and blog updates from Threlfall hax. | RSS | <https://5stars217.github.io/feed.xml> |
-| Tier Zero Security | Security research and blog updates from Tier Zero Security. | RSS | <https://tierzerosecurity.co.nz/feed.xml> |
 | Troy Hunt | News, research, and updates on general security & blogs from Troy Hunt. | RSS | <https://www.troyhunt.com/rss> |
 | TrustedSec | Security research and blog updates from TrustedSec. | RSS | <https://trustedsec.com/feed.rss> |
-| tweak Blog | Security research and blog updates from tweak Blog. | RSS | <https://tweak-extension.com/blog/atom.xml> |
 | Unicorn Security | Security research and blog updates from Unicorn Security. | RSS | <https://therealunicornsecurity.github.io/feed.xml> |
 | Universal Shards | Security research and blog updates from Universal Shards. | RSS | <https://universalshards.com/feed> |
 | Up is Down and Black is White | Security research and blog updates from Up is Down and Black is White. | RSS | <https://n4r1b.com/index.xml> |
 | Venture in Security | Helping security practitioners, entrepreneurs, investors and executives build the future of cybersecurity |  | <https://ventureinsecurity.net/feed> |
 | VICE US - HACKING | Security research and blog updates from VICE US - HACKING. |  | <https://www.vice.com/en/rss/topic/hacking> |
-| Victor on Software | Security research and blog updates from Victor on Software. | RSS | <https://victoronsoftware.com/index.xml> |
 | Vincent Van Mieghem | Security research and blog updates from Vincent Van Mieghem. | RSS | <https://vanmieghem.io/feed.xml> |
-| VMware Carbon Black Blog | News, research, and updates on general security & blogs from VMware Carbon Black Blog. | RSS | <https://www.carbonblack.com/feed> |
 | VollRagm | Security research and blog updates from VollRagm. | RSS | <https://vollragm.github.io/feed> |
 | volodya | Security research and blog updates from volodya. | RSS | <https://plowsec.github.io/atom> |
 | Washi | Security research and blog updates from Washi. | RSS | <https://blog.washi.dev/feed.xml> |
-| watchTowr Labs | Security research and blog updates from watchTowr Labs. | RSS | <https://labs.watchtowr.com/rss> |
-| WHEREISK0SHL | Security research and blog updates from WHEREISK0SHL. | RSS | <https://whereisk0shl.top/feed> |
-| White Knight Labs | Security research and blog updates from White Knight Labs. | RSS | <https://whiteknightlabs.com/feed> |
 | WhiteFlag | Security research and blog updates from WhiteFlag. | RSS | <https://blog.whiteflag.io/index.xml> |
-| WhyNotSecurity | Security research and blog updates from WhyNotSecurity. | RSS | <https://whynotsecurity.com/feed.xml> |
 | WIRED – Security | News, research, and updates on general security & blogs from WIRED. | RSS | <https://www.wired.com/feed/category/security/latest/rss> |
 | Wojciech Reguła | Security research and blog updates from Wojciech Reguła. | RSS | <https://wojciechregula.blog/rss.xml> |
-| Wordfence | WordPress Security Plugin |  | <https://www.wordfence.com/feed> |
 | Worth Doing Badly | Security research and blog updates from Worth Doing Badly. | RSS | <https://worthdoingbadly.com/feed.xml> |
-| Xdavidhu Bugs | Security research and blog updates from Xdavidhu Bugs. | RSS | <https://bugs.xdavidhu.me/feed.xml> |
 | Xploiterd (Medium) | Security research and blog updates from Xploiterd (Medium). | RSS | <https://medium.com/@xploiterd/feed> |
-| XPN InfoSec Blog | Security research and blog updates from XPN InfoSec Blog. | RSS | <https://blog.xpnsec.com/rss.xml> |
-| Yahoo Tech | Follow the biggest tech news with the experts at Yahoo Tech. |  | <https://www.yahoo.com/tech/rss> |
 | ZDNet – Security | News, research, and updates on general security & blogs from ZDNet. | RSS | <https://www.zdnet.com/topic/security/rss.xml> |
 | Zhongquan Li’s blogs | Security research and blog updates from Zhongquan Li’s blogs. | RSS | <https://imlzq.com/feed.xml> |
-| zsyscall activity | Security research and blog updates from zsyscall activity. | RSS | <https://gitlab.com/Zer1t0/zsyscall.atom> |
-
-## Government / CERT & Advisories
-
-Total: **18**
-
-| Feed | Description | Type | URL |
-|---|---|---:|---|
-| Aircrack-ng | Official Aircrack-ng blog | RSS | <https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss> |
-| Blog RSS Feed \| Snyk | Developer Security Platform | RSS | <https://snyk.io/blog/feed> |
-| CERT Polska | CERT.PL | ATOM | <https://www.cert.pl/atom.xml> |
-| CERT Polska | CERT.PL | RSS | <https://www.cert.pl/feed> |
-| CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News | News and security alerts from CIRCL, the national CERT of Luxembourg. Computer Incident Response Center Luxembourg | ATOM | <https://www.circl.lu/atom.xml> |
-| CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News | News and security alerts from CIRCL, the national CERT of Luxembourg. Computer Incident Response Center Luxembourg | RSS | <https://www.circl.lu/rss.xml> |
-| ClamAV® blog | The leading open source anti-malware software, brought to you by Sourcefire. | ATOM | <https://www.clamav.net/feed> |
-| CXSECURITY Database RSS Feed - CXSecurity.com | CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/all> |
-| Cybersecurity and Infrastructure Security Agency CISA | Updates from Cybersecurity and Infrastructure Security Agency CISA covering vulnerabilities, cves. | RSS | <https://www.us-cert.gov/rss.xml> |
-| DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | ATOM | <https://dotdotpwn.blogspot.com/atom.xml> |
-| DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | RSS | <https://dotdotpwn.blogspot.com/rss.xml> |
-| Firefox Add-ons Blog | Updates from Firefox Add-ons Blog covering vulnerabilities, cves. | ATOM | <https://addons.mozilla.org/blog/feed.xml> |
-| NodeJS Security & NodeJS Secure Coding's Blog | Master hands-on Node.js security with Node.js Secure Coding education and learn how to defend against JavaScript Command Injection vulnerabilities and gain backend development skills to exploit and prevent Path Traver... | RSS | <https://www.nodejs-security.com/rss.xml> |
-| OffSec RSS Feed | Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today! | RSS | <https://offsec.com/rss.xml?utm_source=offsec> |
-| OPSWAT Blog | Stay informed with expert insights on next-gen cybersecurity, cloud security, and vulnerabilities shaping the global landscape. | RSS | <https://www.opswat.com/rss> |
-| Qubes OS | Qubes is a security-oriented, free and open-source operating system for personal computers that allows you to securely compartmentalize your digital life. | RSS | <https://www.qubes-os.org/feed> |
-| Vulnerabilities Database - CXSecurity.com | Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/vulnerabilities> |
-| Zero Day Initiative - Blog | Updates from Zero Day Initiative - Blog. | ATOM | <https://zerodayinitiative.com/blog/atom.xml> |
 
 ## Government, CERT & Advisories
 
-Total: **34**
+Total: **45**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
+| Alerts and advisories | News, research, and updates on general security & blogs from Alerts and advisories. | ATOM | <https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en> |
 | All CISA Advisories | Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats. | RSS | <https://www.cisa.gov/cybersecurity-advisories/all.xml> |
+| ASD's ACSC - Advisories RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/advisories> |
+| ASD's ACSC - Alerts RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/alerts> |
+| ASD's ACSC - Threats RSS | News, research, and updates on general security & blogs from ASD's ACSC. | RSS | <https://www.cyber.gov.au/rss/threats> |
 | BSI – Newsfeed | Official advisories and security updates from BSI. | RSS | <https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed.xml> |
+| CERT Polska | CERT.PL | RSS | <https://www.cert.pl/feed> |
 | CERT Recently Published Vulnerability Notes | CERT publishes vulnerability advisories called &quot;Vulnerability Notes.&quot; Vulnerability Notes include summaries, technical details, remediation information, and lists of affected vendors. |  | <https://www.kb.cert.org/vulfeed> |
-| Cert.be advisories | The requested URL was rejected. Please consult with your administrator.Your support ID is: 8985871849071351541[Go Back] |  | <https://cert.be/en/rss> |
+| CERT-EU Security Advisories | Security advisories from CERT-EU, the CERT for the EU institutions. | RSS | <https://cert.europa.eu/publications/security-advisories-rss> |
+| CERT-FR (ANSSI) | Official advisories and alerts from CERT-FR, the French national CERT (ANSSI). | RSS | <https://www.cert.ssi.gouv.fr/feed/> |
+| Cert.be advisories | Official advisories and security updates from cert.be, the Belgian national CERT. |  | <https://cert.be/en/rss> |
 | Changes for RFC3442 | Official advisories, alerts, and guidance from Changes for RFC3442. | RSS | <https://datatracker.ietf.org/feed/document-changes/rfc3442> |
+| CIRCL Luxembourg - Computer Incident Response Center Luxembourg Recent News | News and security alerts from CIRCL, the national CERT of Luxembourg. Computer Incident Response Center Luxembourg | ATOM | <https://www.circl.lu/atom.xml> |
 | CIS – Advisories | Official advisories and security updates from CIS. | RSS | <https://www.cisecurity.org/feed/advisories> |
 | CISA | Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats. | RSS | <https://www.cisa.gov/blog.xml> |
-| CISA Blog | We lead the National effort to understand, manage, and reduce risk to our cyber and physical infrastructure. |  | <https://www.cisa.gov/cisa/blog.xml> |
+| CISA ICS Medical Advisories | Official CISA advisories for medical devices and healthcare ICS. | RSS | <https://www.cisa.gov/cybersecurity-advisories/ics-medical-advisories.xml> |
 | CISA News | Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats. | RSS | <https://www.cisa.gov/news.xml> |
 | CISA – Alerts | Official advisories and security updates from CISA. | RSS | <https://www.us-cert.gov/ncas/alerts.xml> |
+| Cybersecurity and Infrastructure Security Agency CISA | Updates from Cybersecurity and Infrastructure Security Agency CISA covering vulnerabilities, cves. | RSS | <https://www.us-cert.gov/rss.xml> |
 | DHS – AIS | Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats. | RSS | <https://www.cisa.gov/automated-https:indicator-sharing-ais> |
+| FIRST Blog | Posts from FIRST, the global Forum of Incident Response and Security Teams. | RSS | <https://www.first.org/blog/rss.xml> |
 | ICS Advisories | Official CISA alerts, advisories, and guidance on vulnerabilities, incidents, and threats. | RSS | <https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml> |
-| Infosec Institute – Malware Analysis | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/malware-analysis/feed> |
-| Infosec Institute – News | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/news/feed> |
-| Infosec Institute – Threat Intel | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/threat-intelligence/feed> |
 | JPCERT/CC (English) | Security Alerts and Advisories | RSS | <https://www.jpcert.or.jp/english/rss/jpcert-en.rdf> |
+| JPCERT/CC Blog (English) | Technical analysis and incident reports from JPCERT/CC, Japan's national CERT. | ATOM | <https://blogs.jpcert.or.jp/en/atom.xml> |
 | MSRC Security Update Guide | The Microsoft Security Response Center (MSRC) investigates all reports of security vulnerabilities affecting Microsoft products and services, and provides the public with information about the vulnerabilities and their mitigations. |  | <https://api.msrc.microsoft.com/update-guide/rss> |
 | NCSC Feed | This includes feeds from report, guidance and blog-post. |  | <https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml> |
+| NCSC Guidance Feed | Official guidance publications from the UK National Cyber Security Centre. | RSS | <https://www.ncsc.gov.uk/api/1/services/v1/guidance-rss-feed.xml> |
 | NCSC News Feed | Official advisories and security updates from NCSC News Feed. | RSS | <https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml> |
+| NCSC Reports Feed | Official reports from the UK National Cyber Security Centre. | RSS | <https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml> |
+| NCSC-NL Security Advisories | Security advisories from NCSC-NL, the Dutch national CERT. | RSS | <https://advisories.ncsc.nl/rss/advisories> |
 | News - In category Cyber Security Alerts | Official advisories and security updates from News. | RSS | <https://www.ncsc.govt.nz/news/category/cyber-security-alerts/rss> |
 | News - In category Cyber Threat Reports | Official advisories and security updates from News. | RSS | <https://www.ncsc.govt.nz/news/category/cyber-threat-reports/rss> |
 | News - In category Security Advisories | Official advisories and security updates from News. | RSS | <https://www.ncsc.govt.nz/news/category/security-advisories/rss> |
 | News and Events Feed by Topic | Updates from News and Events Feed by Topic. |  | <https://www.nist.gov/news-events/cybersecurity/rss.xml> |
+| NHS Digital - Cyber Alert Feed | Sorry! We&#x27;re doing some essential work on the website. It will be back online shortly. |  | <https://digital.nhs.uk/feed/cyber-alerts-feed.xml> |
 | NIST – Cybersecurity Insights | Official advisories and security updates from NIST. | RSS | <https://www.nist.gov/blogs/cybersecurity-insights/rss.xml> |
 | PCI Security Standards Blog | Official advisories and security updates from PCI Security Standards Blog. | RSS | <https://blog.pcisecuritystandards.org/rss.xml> |
 | Rewards For Justice | Official advisories, alerts, and guidance from Rewards For Justice. | RSS | <https://rewardsforjustice.net/feed> |
@@ -726,52 +460,61 @@ Total: **34**
 | Ubuntu security notices | Recent content on Ubuntu security notices |  | <https://ubuntu.com/security/notices/rss.xml> |
 | US-CERT – Analysis Reports | US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations. | RSS | <https://us-cert.cisa.gov/ncas/analysis-reports.xml> |
 | US-CERT – Current Activity | US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations. | RSS | <https://us-cert.cisa.gov/ncas/current-activity.xml> |
-| US-CERT – ICS Advisories | US-CERT/CISA alerts and bulletins covering active threats, advisories, and mitigations. | RSS | <https://us-cert.cisa.gov/ics/advisories/advisories.xml> |
 | ZDI: Published Advisories | Published Advisories |  | <https://www.zerodayinitiative.com/rss/published> |
 | ZDI: Upcoming Advisories | Upcoming Advisories |  | <https://www.zerodayinitiative.com/rss/upcoming> |
 
 ## Leaks & Breaches
 
-Total: **12**
+Total: **15**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
+| AppGate English | Updates from AppGate English covering vulnerabilities, cves. | RSS | <https://www.appgate.com/blogFeed.rss> |
+| CS Hub (Attacks) | Cyber Security Hub regularly covers the space's visible breaches -- from Fortune 100 companies to social media, apps and industry leaders. | RSS | <https://www.cshub.com/rss/categories/attacks> |
 | Cybersecurity and Infrastructure Security Agency CISA | Updates from Cybersecurity and Infrastructure Security Agency CISA. | RSS | <https://www.cisa.gov/rss.xml> |
+| Dangerzone | The Dangerzone application takes potentially dangerous documents and converts them to safe PDF files | ATOM | <https://dangerzone.rocks/feed.xml> |
+| DataBreaches.net | Independent reporting on data breaches, leaks, and breach disclosures. | RSS | <https://databreaches.net/feed/> |
 | DataBreachToday.co.uk RSS Syndication | DataBreachToday.co.uk RSS News Feeds on data breach today news, regulations, blogs and education |  | <https://www.databreachtoday.co.uk/rss-feeds> |
 | Hachette Book Group | Hachette Book Group is a leading book publisher based in New York and a division of Hachette Livre, the third-largest publisher in the world. | RSS | <https://www.hachettebookgroup.com/feed> |
 | Have I Been Pwned – Latest Breaches | RSS feed for Have I Been Pwned, covering leaks & breaches news and updates. | RSS | <https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches> |
 | Intelligence Hub | Access invaluable cybersecurity resources from Celerium - including insights and tools - to help improve your security strategy and stay ahead of safeguarding your network. | RSS | <https://www.celerium.com/blog/rss.xml> |
 | Kaspersky official blog | The Official Blog from Kaspersky covers information to help protect you against viruses, spyware, hackers, spam & other forms of malware. | RSS | <https://www.kaspersky.com/blog/feed> |
 | Maltego Blog RSS Feed | Subscribe to our RSS feed to stay up to date with what's fresh in the Maltego world. | RSS | <https://www.maltego.com/index.xml> |
-| OWASP | OWASP Foundation main site repository | ATOM | <https://owasp.org/feed> |
-| Rapid7 Cybersecurity Blog | Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations. | RSS | <https://www.rapid7.com/blog/rss> |
-| Tenable Blog | Updates from Tenable Blog. | RSS | <https://www.tenable.com/blog/atom.xml> |
+| security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle | Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle |  | <https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml> |
+| SecurityWeek – Data Breaches | SecurityWeek news covering vulnerabilities, threats, and enterprise security developments. | RSS | <https://www.securityweek.com/category/data-breaches/feed> |
 | Tenable News Feed | Updates from Tenable News Feed. | RSS | <https://tenable.com/feed/news> |
 | Wikipedia featured articles feed | Best articles Wikipedia has to offer | ATOM | <https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom> |
 
 ## Malware & Threat Research
 
-Total: **77**
+Total: **93**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
+| A blog about rootkits research and the Windows kernel | Security research and blog updates from A blog about rootkits research and the Windows kernel. | RSS | <https://artemonsecurity.blogspot.com/feeds/posts/default> |
 | abuse.ch \| IT-Security Blog | Updates from abuse.ch \| IT-Security Blog. | RSS | <https://abuse.ch/feed.xml> |
 | Almond Offensive Security Blog | Malware and threat research updates from Almond Offensive Security Blog. | RSS | <https://offsec.almond.consulting/feeds/all.atom.xml> |
 | Android Offensive Security Blog | Malware and threat research updates from Android Offensive Security Blog. | RSS | <https://androidoffsec.withgoogle.com/index.xml> |
 | Anomali ThreatStream Blog | Malware and threat research updates from Anomali ThreatStream Blog. | RSS | <https://threatstream.com/site/blog-rss> |
 | ASEC BLOG | AhnLab |  | <https://asec.ahnlab.com/en/feed> |
 | bin.re (Security Research) | Reverse Engineering Malware and Crackmes | ATOM | <https://bin.re/feed.xml> |
+| Bitdefender Labs | News, research, and updates on general security & blogs from Bitdefender Labs. | RSS | <https://www.bitdefender.com/blog/api/rss/labs> |
 | Check Point Research | Malware and threat research updates from Check Point Research. | RSS | <https://research.checkpoint.com/feed> |
 | CIP Blog | Criminal IP Blog · The latest news and developments for Criminal IP. Cyber Threat Intelligence Reports. |  | <https://blog.criminalip.io/feed> |
 | Cisco Talos Blog | Malware and threat research updates from Cisco Talos Blog. | RSS | <https://blog.talosintelligence.com/rss> |
 | Cisco Talos Blog | RSS feed for Cisco Talos Blog, covering malware & threat research news and updates. | RSS | <https://feeds.feedburner.com/feedburner/Talos> |
 | ClearSky Cyber Security | Malware and threat research updates from ClearSky Cyber Security. | RSS | <https://www.clearskysec.com/feed> |
 | ContinuousMage activity | Malware and threat research updates from ContinuousMage activity. | RSS | <https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/tools/continuousmage.atom> |
+| CS Hub (Malware) | Many of today's cyber-attacks begin with malware propagation. Cyber Security Hub covers these malicious strains and provides analysis on how to shore up the network. | RSS | <https://www.cshub.com/rss/categories/malware> |
 | Cyber Security – AI-TechPark | AI, ML, IoT, Cybersecurity News &amp; Trend Analysis, Interviews |  | <https://ai-techpark.com/category/cyber-security/feed> |
 | cybersecurity | A community for current or aspiring technical professionals to discuss cybersecurity, threats, etc. |  | <https://www.reddit.com/r/cybersecurity> |
 | Cybersecurity - Tech.eu | The premier source of European technology news, data, research, analysis and in-depth market intelligence. |  | <https://tech.eu/category/cybersecurity/feed> |
 | Deep Instinct Blog: Breaking News and Updates | Deep Instinct prevents more advanced threats than any EPP or EDR in the world. |  | <https://www.deepinstinct.com/blog/feed> |
+| Diary of a reverse-engineer | Security research and blog updates from Diary of a reverse-engineer. | RSS | <https://doar-e.github.io/feeds/atom.xml> |
+| Didier Stevens | Security research and blog updates from Didier Stevens. | RSS | <https://blog.didierstevens.com/feed> |
 | DistroWatch.com: Distributions | Latest distribution releases | RSS | <https://distrowatch.com/news/dwd.xml> |
+| dr4k0nia | Security research and blog updates from dr4k0nia. | RSS | <https://dr4k0nia.github.io/feed> |
+| Elastic Security Labs | Threat research, malware analysis, and detection engineering from Elastic Security Labs. | RSS | <https://www.elastic.co/security-labs/rss/feed.xml> |
 | eSecurityPlanet | Industry-leading guidance and analysis for how to keep your business secure. |  | <https://www.esecurityplanet.com/feed> |
 | Exodus Intelligence | Malware and threat research updates from Exodus Intelligence. | RSS | <https://blog.exodusintel.com/feed> |
 | F5 Labs All | RSS for all F5 Labs content. |  | <https://www.f5.com/labs/rss-feeds/all.xml> |
@@ -780,10 +523,11 @@ Total: **77**
 | Forensics – Malware.News | Malware and threat research updates from Forensics. | RSS | <https://malware.news/c/forensics.rss> |
 | FortiGuard Labs \| FortiGuard Center - Threat Signal Report | The Threat Signal created by the FortiGuard Labs is intended to provide you with insight on emerging issues that are being observed in the threat landscape. |  | <https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml> |
 | GBHackers – Threats & Attacks | Malware and threat research updates from GBHackers. | RSS | <https://gbhackers.com/category/threatsattacks/feed> |
+| Group-IB Blog | News, research, and updates on general security & blogs from Group-IB Blog. | RSS | <https://www.group-ib.com/blog/rss.xml> |
 | Hack.Learn.Share | Malware and threat research updates from Hack.Learn.Share. | RSS | <https://captmeelo.com/feed.xml> |
 | Hacker Noon - cybersecurity | How hackers start their afternoons. |  | <https://hackernoon.com/tagged/cybersecurity/feed> |
-| Hacking The Cloud | The encyclopedia for offensive security in the cloud. | RSS | <https://hackingthe.cloud/feed_rss_updated.xml> |
 | Information Security Buzz | Information Security News With Experts Analysis. |  | <https://feeds.feedburner.com/InformationSecurityBuzz> |
+| Intezer Blog | News, research, and updates on general security & blogs from Intezer Blog. | RSS | <https://www.intezer.com/blog/feed> |
 | ITPro | We provide the most comprehensive content to aid B2B IT decision making. |  | <https://www.itpro.com/feeds/tag/security> |
 | Kaspersky Securelist | Malware and threat research updates from Kaspersky Securelist. | RSS | <https://securelist.com/feed> |
 | Legit Security Blog | The Legit Security Blog. Our mission is to secure every organization&#x27;s software factory (code, pipelines, infrastructure and people) for faster. |  | <https://www.legitsecurity.com/blog/rss.xml> |
@@ -794,12 +538,16 @@ Total: **77**
 | Malware News | Malware and threat research updates from Malware News. | RSS | <https://malware.news/c/news.rss> |
 | Malware Sloth | Malware Sloth |  | <https://malwaresloth.com/rss.xml> |
 | Malware-Traffic-Analysis.net (Blog Entries) | A malware traffic analysis blog | RSS | <https://www.malware-traffic-analysis.net/blog-entries.rss> |
-| Malwarebytes Labs | The Security Blog From Malwarebytes |  | <https://blog.malwarebytes.com/feed> |
+| Malwarebytes Labs | News, research, and updates on general security & blogs from Malwarebytes Labs. | RSS | <https://www.malwarebytes.com/blog/feed/index.xml> |
 | Malwarebytes Threat Analysis | Malware and threat research updates from Malwarebytes Threat Analysis. | RSS | <https://blog.malwarebytes.com/category/threat-analysis/feed> |
 | MalwareFox Blog | Freedom from Malware | RSS | <https://www.malwarefox.com/blog/feed> |
 | MalwareTech | Malware and threat research updates from MalwareTech. | RSS | <https://malwaretech.com/feed> |
-| MalwareTech | Cyber Security, Tech, Analysis. |  | <https://malwaretech.com/feed.xml> |
 | MalwareTips Blog | Updates from MalwareTips Blog. | RSS | <https://malwaretips.com/blogs/feed> |
+| Marcus Hutchins | News, research, and updates on general security & blogs from Marcus Hutchins. | RSS | <https://marcushutchins.com/feed.xml> |
+| My interesting research. | Security research and blog updates from My interesting research.. | RSS | <https://r00tkitsmm.github.io/feed.xml> |
+| n1ghtw0lf | Security research and blog updates from n1ghtw0lf. | RSS | <https://n1ght-w0lf.github.io/feed.xml> |
+| OALABS Research | Security research and blog updates from OALABS Research. | RSS | <https://research.openanalysis.net/feed.xml> |
+| OASIS Open | Setting the standard for open collaboration | RSS | <https://www.oasis-open.org/feed> |
 | Opalsec | Actionable Threat Intelligence & analysis of emerging Infosec news, straight to your inbox. No marketing, no fluff — let's talk security. |  | <https://opalsec.substack.com/feed> |
 | Open Threat Research | Malware and threat research updates from Open Threat Research. | RSS | <https://blog.openthreatresearch.com/rss> |
 | Penetration Testing Lab | Malware and threat research updates from Penetration Testing Lab. | RSS | <https://pentestlab.blog/feed> |
@@ -812,19 +560,23 @@ Total: **77**
 | Red Teaming | Malware and threat research updates from Red Teaming. | RSS | <https://redteaming.co.uk/feed> |
 | Redteamrecipe | Malware and threat research updates from Redteamrecipe. | RSS | <https://redteamrecipe.com/rss.xml> |
 | Redteamtacticsacademy Posts | Malware and threat research updates from Redteamtacticsacademy Posts. | RSS | <https://posts.redteamtacticsacademy.com/feed> |
+| RevEng.AI Blog | Security research and blog updates from RevEng.AI Blog. | RSS | <https://blog.reveng.ai/rss> |
+| Reverse Engineering | Security research and blog updates from Reverse Engineering. | RSS | <https://revers.engineering/feed> |
 | ReversingLabs Blog | ReversingLabs: The More Powerful, Cost-Effective Alternative to VirusTotal See Why Skip to main content Contact Us Support Login Blog Community Open search modal Search Close reversinglabs ReversingLabs: Home Solution... |  | <https://blog.reversinglabs.com/blog/rss.xml> |
 | SC Magazine feed for Threats | SC Media (formerly SC Magazine) is a prominent cybersecurity media brand providing in-depth analysis, news, and research for security practitioners and executives. |  | <https://www.scmagazine.com/feed/topic/threats> |
+| Sh3llSp4wn’s Malware Conservatory | Security research and blog updates from Sh3llSp4wn’s Malware Conservatory. | RSS | <https://sh3llsp4wn.github.io/feed> |
 | SOCRadar® Cyber Intelligence Inc. | Early warning threat detection system |  | <https://socradar.io/feed> |
 | stoQ | analysis. simplified. | ATOM | <https://stoq-framework.blogspot.nl/atom.xml> |
-| stoQ | analysis. simplified. | RSS | <https://stoq-framework.blogspot.nl/rss.xml> |
 | Strategy of Security | Analyzing the business and strategy of cybersecurity. |  | <https://strategyofsecurity.com/rss> |
+| Team Cymru | News, research, and updates on general security & blogs from Team Cymru. | RSS | <https://team-cymru.com/feed> |
+| The Citizen Lab | Security research and blog updates from The Citizen Lab. | RSS | <https://citizenlab.ca/feed> |
 | The GreyNoise Blog | Get the latest tips and stories on improving information security. |  | <https://www.greynoise.io/blog/rss.xml> |
 | Threat Intelligence | Threat Intelligence |  | <https://cloudblog.withgoogle.com/topics/threat-intelligence/rss> |
+| Threat Intelligence | RSS feed for Threat Intelligence, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v> |
 | Threat Labs - Netskope | Netskope is a leading cybersecurity company specializing in cloud-native security and networking services designed to protect data, users, and devices anywhere they go. It is a recognized leader in the Security Service Edge (SSE) and Secure Access Service Edge (SASE) markets, focusing on replacing traditional security approaches with modern, Zero Trust-based solutions. |  | <https://www.netskope.com/blog/category/netskope-threat-labs/feed> |
 | Trend Micro Research | Malware and threat research updates from Trend Micro Research. | RSS | <https://feeds.trendmicro.com/TrendMicroResearch> |
 | Troy Hunt&#x27;s Blog | Observations, musings and conjecture about the world of software and technology |  | <https://feeds.feedburner.com/TroyHunt> |
-| TrustedSec | Evolve beyond threats |  | <https://www.trustedsec.com/feed> |
-| Virus Bulletin Blog | Malware and threat research updates from Virus Bulletin Blog. | RSS | <https://www.virusbtn.com/library/feeds/news.rdf> |
+| Virus Bulletin – Vendor RSS | Vendor security updates, advisories, and guidance from Virus Bulletin. | RSS | <https://www.virusbulletin.com/rss> |
 | VirusTotal Blog | Malware and threat research updates from VirusTotal Blog. | RSS | <https://blog.virustotal.com/feeds/posts/default> |
 | Volexity Blog (Malware tag) | No 'Ware To Hide | RSS | <https://www.volexity.com/blog/tag/malware/feed> |
 | WeLiveSecurity (ESET) | Updates from WeLiveSecurity (ESET). | RSS | <https://www.welivesecurity.com/en/rss/feed> |
@@ -835,13 +587,16 @@ Total: **77**
 
 ## OSINT, Communities & Subreddits
 
-Total: **29**
+Total: **31**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
 | /r/cybersecurity | OSINT resources and community updates from /r/cybersecurity. | RSS | <https://www.reddit.com/r/cybersecurity/.rss> |
 | /r/netsec | OSINT resources and community updates from /r/netsec. | RSS | <https://www.reddit.com/r/netsec/.rss> |
-| Cisco Talos Blog | Talos intelligence and world-class threat research team better protects you and your organization against known and emerging cybersecurity threats. | RSS | <https://talosintelligence.com/feed.xml> |
+| Bad Sector Labs | Security research and blog updates from Bad Sector Labs. | RSS | <https://infosec.exchange/@badsectorlabs.rss> |
+| Bellingcat | News, research, and updates on general security & blogs from Bellingcat. | RSS | <https://www.bellingcat.com/feed> |
+| Christophe :purple_potion: | Security research and blog updates from Christophe :purple_potion:. | RSS | <https://infosec.exchange/@christophetd.rss> |
+| Clément Labro | Security research and blog updates from Clément Labro. | RSS | <https://infosec.exchange/@itm4n.rss> |
 | Comments for The Volatility Foundation – Promoting Accessible Memory Analysis Tools Within the Memory Forensics Community | Home of the Volatility Memory Forensics Open Source Platform | RSS | <https://volatilityfoundation.org/comments/feed> |
 | Cyber Defence News for Blue &amp; Purple Teams | Summarised cyber defence technical content to help operational blue and purple teams be informed and protect their estates. |  | <https://bluepurple.substack.com/feed> |
 | Dark Reading | Dark Reading: Connecting the Information and Security Community |  | <https://www.darkreading.com/rss_simple.asp> |
@@ -849,29 +604,28 @@ Total: **29**
 | Defcon | OSINT resources and community updates from Defcon. | RSS | <https://defcon.org/defconrss.xml> |
 | Detection at Scale | A weekly infosec newsletter about scaling SIEMs and Detection Engineering. |  | <https://jacknaglieri.substack.com/feed> |
 | DEV Community | A constructive and inclusive social network for software developers. With you every step of your journey. |  | <https://dev.to/feed> |
-| Discord Blog | Learn about Discord's updates, insights, community stories, educational resources, and much more. | RSS | <https://discordapp.com/blog/rss.xml> |
 | DTAG Community Honeypot Project | Updates from DTAG Community Honeypot Project. | RSS | <https://dtag-dev-sec.github.io/feed> |
 | Full Disclosure | A public, vendor-neutral forum for detailed discussion of vulnerabilities and exploitation techniques, as well as tools, papers, news, and events of interest to the community. The relaxed atmosphere of this quirky lis... | RSS | <https://seclists.org/rss/fulldisclosure.rss> |
 | Information Security News | This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet. |  | <https://www.reddit.com/r/InfoSecNews> |
 | IntelTechniques Blog | OSINT resources and community updates from IntelTechniques Blog. | RSS | <https://inteltechniques.com/blog/feed> |
+| NANOG | The <a href="http://www.nanog.org/">North American Network Operators' Group</a> discusses fundamental Internet infrastructure issues such as routing, IP address allocation, and containing malicious activity. | RSS | <https://seclists.org/rss/nanog.rss> |
+| NetBlocks | Mapping Internet Freedom |  | <https://netblocks.org/feed> |
 | Nmap Development | Unmoderated technical development forum for debating ideas, patches, and suggestions regarding proposed changes to <a href="https://nmap.org">Nmap</a> and related projects. <a href="https://nmap.org/mailman/listinfo/d... | RSS | <https://seclists.org/rss/nmap-dev.rss> |
 | Open Source Security | Discussion of security flaws, concepts, and practices in the Open Source community | RSS | <https://seclists.org/rss/oss-sec.rss> |
 | Privacy &amp; Freedom in the Information Age | The intersection of technology, privacy, and freedom in a digital world. |  | <https://www.reddit.com/r/privacy> |
 | Product Hunt — The best new products, every day | Updates from Product Hunt — The best new products, every day. |  | <https://www.producthunt.com/feed> |
 | Reverse Engineering | A moderated community dedicated to all things reverse engineering. |  | <https://www.reddit.com/r/ReverseEngineering> |
 | Reversing Engineering for the Soul | OSINT resources and community updates from Reversing Engineering for the Soul. | RSS | <https://ctf.re/feed.xml> |
-| Security – WordPress News | OSINT resources and community updates from Security. | RSS | <https://wordpress.org/news/category/security/feed> |
-| Security – WordPress News | OSINT resources and community updates from Security. | ATOM | <https://wordpress.org/news/category/security/feed/atom> |
 | Stories by Guardio on Medium | Stories by Guardio on Medium |  | <https://medium.com/feed/@guardiosecurity> |
 | Stories by Netflix Technology Blog on Medium | Stories by Netflix Technology Blog on Medium |  | <https://medium.com/feed/@netflixtechblog> |
 | The Cybersecurity Pulse (TCP) | Welcome to TCP! The go-to source for the latest in security product innovation. Join our growing community today! |  | <https://www.cybersecuritypulse.net/feed> |
 | The OSINT Newsletter | OSINT news, tools, tactics, and techniques |  | <https://osintnewsletter.com/feed> |
+| The RISKS Digest | The website of the RISKS mailing list |  | <https://catless.ncl.ac.uk/risksrss2.xml> |
 | This Week in Rust | Stay up to date with events, learning resources, and recent developments in the Rust community. |  | <https://this-week-in-rust.org/rss.xml> |
-| WeLiveSecurity | News, views, and insight from the ESET security community |  | <https://www.welivesecurity.com/feed> |
 
 ## Podcasts & YouTube
 
-Total: **141**
+Total: **144**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -905,6 +659,7 @@ Total: **141**
 | Cyrill Gössi | Video uploads from Cyrill Gössi on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCp1rLlh9AQN9Pejzbg9dcAg> |
 | Darknet Diaries | True stories from the dark side of the Internet |  | <https://feeds.megaphone.fm/darknetdiaries> |
 | David Bombal | Video uploads from David Bombal on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w> |
+| DAY[0] | Security research and blog updates from DAY[0]. | RSS | <https://dayzerosec.com/feed.xml> |
 | DEFCONConference | Video uploads from DEFCONConference on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw> |
 | Defense in Depth | Defense in Depth promises clear talk on cybersecurity's most controversial and confusing debates. Once a week we choose one controversial and popular cybersecurity debate and use the InfoSec community's insights to le... |  | <https://defenseindepth.libsyn.com/rss> |
 | Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec | Defensive Security is a weekly information security podcast which reviews recent high profile cyber security breaches, data breaches, malware infections and intrusions to identify lessons that we can learn and apply t... |  | <https://defensivesecurity.org/feed/podcast> |
@@ -959,6 +714,7 @@ Total: **141**
 | PurpleSec | Video uploads from PurpleSec on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCJ_dsa5WPjwNGK8PLnB18Bw> |
 | Red Team Village | Video uploads from Red Team Village on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UC8nq3PX9coMiqgKH6fw-VCQ> |
 | Redefining CyberSecurity | Redefining CyberSecurity Podcast Hosted by Sean Martin, CISSP Have you ever thought that we are selling cybersecurity insincerely, buying it indiscriminately, and deploying it ineffectively? For cybersecurity to be ge... |  | <https://feeds.simplecast.com/GzAtTpW2> |
+| Risky Business | Risky.biz is an independent information security news platform and podcast network founded by Patrick Gray in 2007, serving as a key resource for cybersecurity professionals. |  | <https://risky.biz/feeds/risky-business> |
 | Risky Business News | Regular cybersecurity news updates from the Risky Business team... |  | <https://risky.biz/feeds/risky-business-news> |
 | RSA Conference | Video uploads from RSA Conference on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCYzwGkfOqrevO-4TuTjPLwQ> |
 | Sandra - Tech &amp; Lifestyle | Video uploads from Sandra - Tech & Lifestyle on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UC5qEPWtHLFRIjhW_3xd5g2A> |
@@ -997,6 +753,7 @@ Total: **141**
 | The Cyber Mentor | Video uploads from The Cyber Mentor on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw> |
 | The Cyber Security Recruiter | Video uploads from The Cyber Security Recruiter on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UC6W86lQzOrz6X4aQTTKAB1A> |
 | The Cyberlaw Podcast | The Cyberlaw Podcast is a weekly interview series and discussion offering an opinionated roundup of the latest events in technology, security, privacy, and government. It features in-depth interviews of a wide variety... |  | <https://www.steptoe.com/feed-Cyberlaw.rss> |
+| The CyberWire | News, research, and updates on general security & blogs from The CyberWire. | RSS | <https://thecyberwire.com/feeds/rss.xml> |
 | The Hacker Factory | Podcast or video feed from The Hacker Factory. |  | <https://feeds.simplecast.com/vRu9TC9N> |
 | The Hacker Mind | Podcast or video feed from The Hacker Mind. |  | <https://feed.podbean.com/thehackermind/feed.xml> |
 | The Host Unknown Podcast | Host Unknown is the unholy alliance of the old, the new and the rockstars of the infosec industry in an internet-based show that tries to care about issues in our industry. It regularly fails. With presenters that hav... |  | <https://feeds.simplecast.com/_hSKbGFl> |
@@ -1017,17 +774,9 @@ Total: **141**
 | What the Shell? | Welcome to ”What the Shell?” where I dive into major hacks and vulnerabilities in a way meant to be accessible by anyone. Come with me as we look at each incident through an exciting lens of curiosity. Join us on our... |  | <https://feed.podbean.com/whattheshell/feed.xml> |
 | Wild West Hackin&#x27; Fest | Video uploads from Wild West Hackin' Fest on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw> |
 
-## Security (General) & Blogs
-
-Total: **1**
-
-| Feed | Description | Type | URL |
-|---|---|---:|---|
-| AIS Electronic Library (AISeL) | Recent documents in AIS Electronic Library (AISeL) | RSS | <https://aisel.aisnet.org/recent.rss> |
-
 ## Vendors & Product Blogs
 
-Total: **166**
+Total: **197**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -1040,26 +789,37 @@ Total: **166**
 | Application and Cybersecurity Blog | Learn about application and cybersecurity from the experts at Security Innovation. |  | <https://blog.securityinnovation.com/rss.xml> |
 | Aqua | Vendor security blog and product updates from Aqua. | RSS | <https://www.aquasec.com/feed> |
 | AT&T Cybersecurity Blog | Vendor security updates, advisories, and guidance from AT&T Cybersecurity Blog. | RSS | <https://cybersecurity.att.com/site/blog-all-rss> |
+| Avast Decoded | Security research and blog updates from Avast Decoded. | RSS | <https://decoded.avast.io/feed> |
+| Avast Engineering | Security research and blog updates from Avast Engineering. | RSS | <https://engineering.avast.io/feed> |
+| AWS Security Blog | News, research, and updates on general security & blogs from AWS Security Blog. | RSS | <https://aws.amazon.com/blogs/security/feed> |
 | Azure Network Security Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzureNetworkSecurityBlog> |
 | Azure Purview Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AzurePurviewBlog> |
+| Binary Ninja | Security research and blog updates from Binary Ninja. | RSS | <https://binary.ninja/feed.xml> |
 | Bishopfox | The leader in offensive security, providing continuous pen testing, red teaming, attack surface management, and traditional security assessments. |  | <https://bishopfox.com/feeds/blog.rss> |
+| BitSight Security Ratings Blog | Read our Security Ratings blog for cybersecurity news, improving security performance, third-party risk management, &amp; more. |  | <https://www.bitsight.com/blog/rss.xml> |
 | Black Hills Information Security, Inc. | Vendor security blog and product updates from Black Hills Information Security, Inc.. | RSS | <https://www.blackhillsinfosec.com/feed> |
 | Blog &amp; What&#x27;s New \| Offensive Security | Leaders in Information Security Training |  | <https://www.offensive-security.com/blog/feed> |
 | Blog - Praetorian | Offensive Cybersecurity Managed Solutions |  | <https://www.praetorian.com/blog/feed> |
+| Blog - Wordfence | Wordfence research and alerts focused on WordPress vulnerabilities and website security. | ATOM | <https://www.wordfence.com/blog/feed/atom> |
 | Blog on 1Password Blog | Vendor security blog and product updates from Blog on 1Password Blog. | RSS | <https://blog.1password.com/index.xml> |
 | Blog RSS feed | Vendor security blog and product updates from Blog RSS feed. | RSS | <https://www.sonarsource.com/blog/rss.xml> |
+| Blog RSS Feed \| Snyk | Developer Security Platform | RSS | <https://snyk.io/blog/feed> |
 | Blog – ZeroFox | Digital Risk Protection platform built for enterprises |  | <https://www.zerofox.com/blog/feed> |
 | BlueHat on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/bluehat/feed> |
 | Broadcom – Symantec Blogs | Vendor security updates, advisories, and guidance from Broadcom. | RSS | <https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml> |
 | Bug Bounty Programs on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/bug-bounty-programs/feed> |
 | Censys | Vendor security blog and product updates from Censys. | RSS | <https://censys.com/feed> |
+| Chromium Blog | Security research and blog updates from Chromium Blog. | RSS | <https://blog.chromium.org/feeds/posts/default> |
+| Cisco Newsroom: Security | Cisco&#x27;s Latest Security News |  | <https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security> |
 | Cisco Security Blog | Vendor security updates, advisories, and guidance from Cisco Security Blog. | RSS | <https://blogs.cisco.com/security/feed> |
+| ClamAV® blog | The leading open source anti-malware software, brought to you by Sourcefire. | ATOM | <https://www.clamav.net/feed> |
 | Cloudflare – Security Tag | Cloudflare blog posts on security engineering, threat research, and incident learnings. | RSS | <https://blog.cloudflare.com/tag/security/rss> |
 | Cofense Intelligence | Vendor security updates, advisories, and guidance from Cofense Intelligence. | RSS | <https://cofense.com/feed> |
 | Compass Security Blog | Offensive Defense |  | <https://blog.compass-security.com/feed> |
 | Core Infrastructure and Security Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=CoreInfrastructureandSecurityBlog> |
 | CrowdStrike Blog | Vendor security updates, advisories, and guidance from CrowdStrike Blog. | RSS | <https://www.crowdstrike.com/en-us/blog/feed> |
 | CrowdStrike – Threat Research | Vendor security updates, advisories, and guidance from CrowdStrike. | RSS | <https://www.crowdstrike.com/blog/category/threat-intel-research> |
+| Cybereason Blog | Cybereason research, threat intelligence, and security blog updates. | RSS | <https://www.cybereason.com/blog/rss.xml> |
 | Cybersecurity | Lawfare is a non-profit, online publication focused on the intersection of national security law, policy, and technology, with a particular emphasis on legal debates surrounding U.S. security actions. |  | <https://www.lawfareblog.com/taxonomy/term/5798/all/feed> |
 | Cyble | Vendor security updates, advisories, and guidance from Cyble. | RSS | <https://cyble.com/feed> |
 | Cymulate | Vendor security blog and product updates from Cymulate. | RSS | <https://cymulate.com/feed> |
@@ -1070,12 +830,13 @@ Total: **166**
 | Digital Shadows | Vendor security updates, advisories, and guidance from Digital Shadows. | RSS | <https://www.digitalshadows.com/blog-and-research/feed> |
 | EclecticIQ Blog | Vendor security updates, advisories, and guidance from EclecticIQ Blog. | RSS | <https://blog.eclecticiq.com/rss.xml> |
 | Eclypsium \| Supply Chain Security for the Modern Enterprise | Vendor security updates, advisories, and guidance from Eclypsium. | RSS | <https://eclypsium.com/feed> |
-| Eclypsium \| Supply Chain Security for the Modern Enterprise | Vendor security updates, advisories, and guidance from Eclypsium. | ATOM | <https://eclypsium.com/feed/atom> |
+| Elastic Blog - Elasticsearch, Kibana, and ELK Stack | Tutorials, deep dives, news, releases, stories, and more from the creators of Elasticsearch |  | <https://www.elastic.co/blog/feed> |
 | Embrace The Red | Recent content on Embrace The Red |  | <https://embracethered.com/blog/index.xml> |
 | ESET – We Live Security (Vendor) | Vendor security updates, advisories, and guidance from ESET. | RSS | <https://eset.com/int/rss.xml> |
 | Fidelis Security | Vendor security updates, advisories, and guidance from Fidelis Security. | RSS | <https://fidelissecurity.com/feed> |
 | Fingerprint Blog RSS Feed | Stop fraud, detect bots, or delight customers. Identify good and bad visitors with industry-leading accuracy - even if they're anonymous. |  | <https://fingerprint.com/rss.xml> |
 | FireEye Blog | Vendor security updates, advisories, and guidance from FireEye Blog. | RSS | <https://www.fireeye.com/blog/feed> |
+| Firefox Add-ons Blog | Updates from Firefox Add-ons Blog covering vulnerabilities, cves. | ATOM | <https://addons.mozilla.org/blog/feed.xml> |
 | Fortinet Threat Research (Vendor) | RSS feed for Fortinet Threat Research (Vendor), covering vendors & product blogs news and updates. | RSS | <https://feeds.feedburner.com/fortinet/blog/threat-research> |
 | Fox-IT International Blog | Vendor security updates, advisories, and guidance from Fox-IT International Blog. | RSS | <https://blog.fox-it.com/feed> |
 | Framework Blog | Vendor security blog and product updates from Framework Blog. | RSS | <https://frame.work/blog.rss> |
@@ -1087,14 +848,22 @@ Total: **166**
 | Hack The Box – All Feeds | Vendor security updates, advisories, and guidance from Hack The Box. | RSS | <https://www.hackthebox.com/rss> |
 | Hack The Box – Blog | Vendor security updates, advisories, and guidance from Hack The Box. | RSS | <https://www.hackthebox.com/rss/blog/all> |
 | HackerOne Blog | The HackerOne Blog |  | <https://www.hackerone.com/blog.rss> |
+| HarfangLab | Security research and blog updates from HarfangLab. | RSS | <https://harfanglab.io/feed> |
 | Haxx Daniel | tech, open source and networking |  | <https://daniel.haxx.se/blog/feed> |
 | Heimdal Security Blog | A blog about all things internet security |  | <https://heimdalsecurity.com/blog/feed> |
+| Huntress Blog | Huntress research and reporting on threats targeting SMBs and MSPs. | RSS | <https://www.huntress.com/blog/rss.xml> |
 | IBM Security Intelligence | Vendor security updates, advisories, and guidance from IBM Security Intelligence. | RSS | <https://securityintelligence.com/feed> |
 | Imperva Blog | Vendor security updates, advisories, and guidance from Imperva Blog. | RSS | <https://www.imperva.com/blog/feed> |
+| Infosec Institute – Malware Analysis | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/malware-analysis/feed> |
+| Infosec Institute – News | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/news/feed> |
+| Infosec Institute – Threat Intel | Official advisories and security updates from Infosec Institute. | RSS | <https://resources.infosecinstitute.com/topics/threat-intelligence/feed> |
 | Japan Security Team on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/japan-security-team/feed> |
 | JISA Softech | Vendor security updates, advisories, and guidance from JISA Softech. | RSS | <https://www.jisasoftech.com/feed> |
+| KnowBe4 Blog | News, research, and updates on general security & blogs from KnowBe4 Blog. | RSS | <https://blog.knowbe4.com/rss.xml> |
+| Lansweeper IT Asset Management | Know Your IT |  | <https://www.lansweeper.com/feed> |
 | Latest Bulletins | Vendor security updates, advisories, and guidance from Latest Bulletins. | RSS | <https://aws.amazon.com/security/security-bulletins/rss/feed> |
 | Lawfare | Hard National Security Choices |  | <https://www.lawfareblog.com/rss.xml> |
+| Let's Encrypt | Security research and blog updates from Let's Encrypt. | RSS | <https://letsencrypt.org/feed.xml> |
 | LevelBlue (SpiderLabs Blog) | The security community's go-to destination for technical breakdowns of the latest threats, critical vulnerability disclosures and cutting-edge research. | RSS | <https://levelblue.com/blogs/spiderlabs-blog/rss.xml> |
 | Light Blue Touchpaper | Security Research, Computer Laboratory, University of Cambridge |  | <https://www.lightbluetouchpaper.org/feed> |
 | LunaTrace Blog | LunaTrace Blog |  | <https://www.lunasec.io/docs/blog/rss.xml> |
@@ -1105,9 +874,9 @@ Total: **166**
 | Microsoft Defender for Office 365 Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderforOffice365Blog> |
 | Microsoft Security Baselines | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines> |
 | Microsoft Security Blog | Vendor security updates, advisories, and guidance from Microsoft Security Blog. | RSS | <https://www.microsoft.com/en-us/security/blog/feed> |
-| Microsoft Security Blog | Vendor security updates, advisories, and guidance from Microsoft Security Blog. | ATOM | <https://www.microsoft.com/en-us/security/blog/feed/atom> |
 | Microsoft Security Blog (TechCommunity) | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-security-blog> |
 | Microsoft Security Experts | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSecurityExperts> |
+| Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/feed> |
 | Microsoft Sentinel Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSentinelBlog> |
 | Microsoft Threat Hunting on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/microsoft-threat-hunting/feed> |
 | Microsoft Threat Protection Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog> |
@@ -1117,36 +886,41 @@ Total: **166**
 | NCC Group Research Blog | Making the world safer and more secure |  | <https://research.nccgroup.com/feed> |
 | NordVPN Blog | Updates from NordVPN Blog. | RSS | <https://nordvpn.com/blog/feed> |
 | Objective-See&#x27;s Blog | All Things Related to Mac Security |  | <https://objective-see.org/rss.xml> |
-| Open Source Security Foundation | Vendor security updates, advisories, and guidance from Open Source Security Foundation. | RSS | <https://openssf.org/feed> |
+| OffSec RSS Feed | Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today! | RSS | <https://offsec.com/rss.xml?utm_source=offsec> |
+| Okta Security RSS Feed | Security research and blog updates from Okta Security RSS Feed. | RSS | <https://sec.okta.com/rss.xml> |
+| OPSWAT Blog | Stay informed with expert insights on next-gen cybersecurity, cloud security, and vulnerabilities shaping the global landscape. | RSS | <https://www.opswat.com/rss> |
+| Orca Security Blog | Cloud security research and product updates from Orca Security. | RSS | <https://orca.security/feed/> |
 | Outflank | Vendor security blog and product updates from Outflank. | RSS | <https://www.outflank.nl/feed> |
 | Outpost24 | Vendor security blog and product updates from Outpost24. | RSS | <https://outpost24.com/feed> |
 | ownCloud | Vendor security blog and product updates from ownCloud. | RSS | <https://owncloud.com/feed> |
 | Palo Alto Networks Blog | Vendor security updates, advisories, and guidance from Palo Alto Networks Blog. | RSS | <https://www.paloaltonetworks.com/blog/feed> |
-| Palo Alto Networks Blog | Vendor security updates, advisories, and guidance from Palo Alto Networks Blog. | ATOM | <https://www.paloaltonetworks.com/blog/feed/atom> |
 | Palo Alto Networks Unit 42 | Vendor security updates, advisories, and guidance from Palo Alto Networks Unit 42. | RSS | <https://researchcenter.paloaltonetworks.com/unit42/feed> |
 | Pavel Yosifovich | Vendor security blog and product updates from Pavel Yosifovich. | RSS | <https://scorpiosoftware.net/feed> |
 | PhishLabs Blog | Vendor security updates, advisories, and guidance from PhishLabs Blog. | RSS | <https://blog.phishlabs.com/rss.xml> |
 | Phylum | Identifying and Stopping Software Supply Chain Attacks |  | <https://blog.phylum.io/rss> |
 | Podman Desktop Blog | Vendor security blog and product updates from Podman Desktop Blog. | RSS | <https://podman-desktop.io/blog/atom.xml> |
+| PortSwigger Blog | PortSwigger research and updates on web security, Burp Suite, and vulnerability techniques. | RSS | <https://portswigger.net/blog/rss> |
 | Praetorian | Vendor security blog and product updates from Praetorian. | RSS | <https://www.praetorian.com/feed> |
 | Product and Tech – Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | RSS | <https://blog.qualys.com/product-tech/feed> |
-| Project Zero | Vendor security updates, advisories, and guidance from Project Zero. | RSS | <https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss> |
+| ProjectDiscovery Blog | Security research and blog updates from ProjectDiscovery Blog. | RSS | <https://blog.projectdiscovery.io/rss> |
 | Proofpoint – Vendor | Vendor security updates, advisories, and guidance from Proofpoint. | RSS | <https://www.proofpoint.com/us/rss.xml> |
 | Protegent 360 Blog | Vendor security updates, advisories, and guidance from Protegent 360 Blog. | RSS | <https://protegent360.com/blog/feed> |
 | Qualys Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | RSS | <https://blog.qualys.com/feed> |
 | Qualys Insights – Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | RSS | <https://blog.qualys.com/qualys-insights/feed> |
-| Qualys Insights – Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | ATOM | <https://blog.qualys.com/qualys-insights/feed/atom> |
 | Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | ATOM | <https://blog.qualys.com/feed/atom> |
 | Quarkslab Blog | Vendor security updates, advisories, and guidance from Quarkslab Blog. | RSS | <https://blog.quarkslab.com/feeds/all.rss.xml> |
+| Qubes OS | Qubes is a security-oriented, free and open-source operating system for personal computers that allows you to securely compartmentalize your digital life. | RSS | <https://www.qubes-os.org/feed> |
 | Quick Heal Blog | Vendor security updates, advisories, and guidance from Quick Heal Blog. | RSS | <https://blogs.quickheal.com/feed> |
 | Rapid7 Blog | Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations. |  | <https://blog.rapid7.com/rss> |
 | Recorded Future – Cyber TI | Vendor security updates, advisories, and guidance from Recorded Future. | RSS | <https://www.recordedfuture.com/category/cyber/feed> |
 | Recorded Future – Geopolitical | Vendor security updates, advisories, and guidance from Recorded Future. | RSS | <https://www.recordedfuture.com/category/geopolitical/feed> |
 | Red Canary | Vendor security blog and product updates from Red Canary. | RSS | <https://redcanary.com/feed> |
 | Red Hat Security | Discover how we reduce risk in any environment and across the open source ecosystem |  | <https://www.redhat.com/en/rss/blog/channel/security> |
+| RedHunt Labs | Security research and blog updates from RedHunt Labs. | RSS | <https://redhuntlabs.com/feed> |
 | Resecurity | Keep up-to-date with the latest Blogs published by Resecurity. |  | <https://www.resecurity.com/feed> |
 | ReversingLabs Blog | Latest blog posts from ReversingLabs | RSS | <https://www.reversinglabs.com/blog/rss.xml> |
 | Safety & Security | Vendor security updates, advisories, and guidance from Safety & Security. | RSS | <https://blog.google/technology/safety-security/rss> |
+| Salt Security Blog | Security research and blog updates from Salt Security Blog. | RSS | <https://salt.security/blog/rss.xml> |
 | SANS Blog | SANS Blog |  | <https://www.sans.org/blog/feed.xml> |
 | SCNSoft – Information Security | Vendor security updates, advisories, and guidance from SCNSoft. | RSS | <https://www.scnsoft.com/blog/category/information-security/atom> |
 | Scott Helme | Scotthelme.co.uk is the personal blog and professional site of Scott Helme, a renowned security researcher, international speaker, and entrepreneur. |  | <https://scotthelme.co.uk/rss> |
@@ -1156,17 +930,22 @@ Total: **166**
 | Security Boulevard | The Home of the Security Bloggers Network |  | <https://securityboulevard.com/feed> |
 | Security Copilot Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SecurityCopilotBlog> |
 | Security Engineering Blog | Vendor security updates, advisories, and guidance from Security Engineering Blog. | RSS | <https://bughunters.google.com/feed/en> |
+| Security Onion | Peel Back the Layers of Your Enterprise | ATOM | <https://blog.securityonion.net/atom.xml> |
 | Security Research & Defense on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/security-research-defense/feed> |
 | Security \| Microsoft Azure Blog \| Microsoft Azure | Vendor security updates, advisories, and guidance from Security. | RSS | <https://azure.microsoft.com/en-us/blog/category/security/feed> |
-| Security \| Microsoft Azure Blog \| Microsoft Azure | Vendor security updates, advisories, and guidance from Security. | ATOM | <https://azure.microsoft.com/en-us/blog/category/security/feed/atom> |
+| Security – WordPress News | OSINT resources and community updates from Security. | RSS | <https://wordpress.org/news/category/security/feed> |
 | SensePost Blog | Vendor security updates, advisories, and guidance from SensePost Blog. | RSS | <https://sensepost.com/rss.xml> |
 | SentinelOne | Vendor security blog and product updates from SentinelOne. | RSS | <https://www.sentinelone.com/feed> |
 | SentinelOne Labs | Vendor security updates, advisories, and guidance from SentinelOne Labs. | RSS | <https://www.sentinelone.com/labs/feed> |
 | shellsharks | Cybersecurity Research and More |  | <https://shellsharks.github.io/feed.xml> |
+| Shodan Blog | Security research and blog updates from Shodan Blog. | RSS | <https://blog.shodan.io/rss> |
+| Signal Blog | Security research and blog updates from Signal Blog. | RSS | <https://signal.org/blog/rss.xml> |
 | Signals Corps Blog | Vendor security updates, advisories, and guidance from Signals Corps Blog. | RSS | <https://www.signalscorps.com/feed.xml> |
 | SOC Prime Blog | Vendor security updates, advisories, and guidance from SOC Prime Blog. | RSS | <https://socprime.com/blog/feed> |
 | Sonatype Blog | Conversations about software supply automation, devsecops, open source, continuous delivery, and application security. |  | <https://blog.sonatype.com/rss.xml> |
 | Sophos News | Vendor security updates, advisories, and guidance from Sophos News. | RSS | <https://www.sophos.com/en-us/blog/feed> |
+| Splunk Security Announcements | Security research and blog updates from Splunk Security Announcements. | RSS | <https://advisory.splunk.com/feed.xml> |
+| Sucuri Blog | Website Security News |  | <https://blog.sucuri.net/feed> |
 | Sygnia | Vendor security blog and product updates from Sygnia. | RSS | <https://www.sygnia.co/feed> |
 | Synack | The Premier Security Testing Platform. |  | <https://www.synack.com/feed> |
 | Sysdig Secure – Sysdig | 502 Bad Gateway cloudflare |  | <https://sysdig.com/blog/category/sysdig-secure2/feed> |
@@ -1176,6 +955,8 @@ Total: **166**
 | Tenable Cyber Exposure Alerts | Vendor security updates, advisories, and guidance from Tenable Cyber Exposure Alerts. | RSS | <https://www.tenable.com/blog/cyber-exposure-alerts/feed> |
 | Tenable Research Advisories | Vendor security updates, advisories, and guidance from Tenable Research Advisories. | RSS | <https://www.tenable.com/security/research/feed> |
 | The Bitwarden Blog | Vendor security blog and product updates from The Bitwarden Blog. | RSS | <https://bitwarden.com/blog/feed.xml> |
+| The GitHub Blog: Security News and Updates | Updates, ideas, and inspiration from GitHub to help developers build and design software. |  | <https://github.blog/category/security/feed> |
+| The Proton Blog | News from the front lines of privacy and security |  | <https://proton.me/blog/feed> |
 | The Red Canary Blog: Information Security Insights | This site is currently undergoing scheduled maintenance. Please try back soon! |  | <https://redcanary.com/blog/feed> |
 | The Salty Hash - Medium | IronCore Labs is a data security company that provides a platform for application-layer encryption and data protection, primarily targeting modern cloud applications, SaaS platforms, and AI workloads. |  | <https://blog.ironcorelabs.com/feed> |
 | The Sequence | Vendor security blog and product updates from The Sequence. | RSS | <https://www.kandji.io/blog/rss.xml> |
@@ -1185,12 +966,11 @@ Total: **166**
 | Tripwire – State of Security | Vendor security updates, advisories, and guidance from Tripwire. | RSS | <https://www.tripwire.com/blogs.xml> |
 | TrustArc Blog | Vendor security updates, advisories, and guidance from TrustArc Blog. | RSS | <https://www.trustarc.com/blog/feed> |
 | Unit 42 | Vendor security blog and product updates from Unit 42. | RSS | <https://unit42.paloaltonetworks.com/feed> |
-| Unit 42 | Vendor security updates, advisories, and guidance from Unit 42. | ATOM | <https://unit42.paloaltonetworks.com/feed/atom> |
 | UpGuard Blog | Vendor security updates, advisories, and guidance from UpGuard Blog. | RSS | <https://www.upguard.com/blog/rss.xml> |
 | UpGuard – Breaches | Vendor security updates, advisories, and guidance from UpGuard. | RSS | <https://www.upguard.com/breaches/rss.xml> |
 | UpGuard – News | Vendor security updates, advisories, and guidance from UpGuard. | RSS | <https://www.upguard.com/news/rss.xml> |
 | Veracode Security Blog | Vendor security updates, advisories, and guidance from Veracode Security Blog. | RSS | <https://www.veracode.com/blog/feed> |
-| Virus Bulletin – Vendor RSS | Vendor security updates, advisories, and guidance from Virus Bulletin. | RSS | <https://www.virusbulletin.com/rss> |
+| VMware Carbon Black Blog | News, research, and updates on general security & blogs from VMware Carbon Black Blog. | RSS | <https://www.carbonblack.com/feed> |
 | Vulnerabilities and Threat Research – Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | RSS | <https://blog.qualys.com/vulnerabilities-threat-research/feed> |
 | Vulnerability Management | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Vulnerability-Management> |
 | Webroot Threat Blog | Vendor security updates, advisories, and guidance from Webroot Threat Blog. | RSS | <https://www.webroot.com/blog/feed> |
@@ -1200,33 +980,65 @@ Total: **166**
 
 ## Vulnerabilities, CVEs & Exploits
 
-Total: **95**
+Total: **209**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
 | 0dayfans | Vulnerability and exploit updates from 0dayfans. | RSS | <https://0dayfans.com/feed.rss> |
+| 0xdf hacks stuff | Security research and blog updates from 0xdf hacks stuff. | RSS | <https://0xdf.gitlab.io/feed.xml> |
+| 0xsp SRD – Security Research & Development | Security research and blog updates from 0xsp SRD – Security Research & Development. | RSS | <https://0xsp.com/feed> |
 | Active Response | Always A Bad Day For Adversaries | RSS | <https://www.activeresponse.org/feed> |
+| Adepts of 0xCC | Security research and blog updates from Adepts of 0xCC. | RSS | <https://adepts.of0x.cc/feed.xml> |
 | Aircrack-ng / @aircrackng | Twitter feed for: @aircrackng. Generated by https://nitter.net | RSS | <https://nitter.net/aircrackng/rss> |
+| Aleph Research | Security research and blog updates from Aleph Research. | RSS | <https://alephsecurity.com/feed.xml> |
+| Alex Plaskett | Security research and blog updates from Alex Plaskett. | RSS | <https://alexplaskett.github.io/feed.xml> |
+| Alexander Popov | Security research and blog updates from Alexander Popov. | RSS | <https://a13xp0p0v.github.io/feed.xml> |
+| All Posts - Malicious Link - Blog by mubix - Rob Fuller | Security research and blog updates from All Posts - Malicious Link - Blog by mubix - Rob Fuller. | RSS | <https://malicious.link/posts/index.xml> |
+| Andrew Ayer - Blog | Updates from Andrew Ayer - Blog covering vulnerabilities, cves. | ATOM | <https://www.agwa.name/blog/feed> |
+| API Security News | The API Security News Newsletter |  | <https://apisecurity.io/feed/index.xml> |
+| AppSec Guide | Application security guides, testing content, and research updates from AppSec Guide. | RSS | <https://appsec.guide/index.xml> |
+| Aura Research Division | Security research and blog updates from Aura Research Division. | RSS | <https://research.aurainfosec.io/index.xml> |
+| Badoption | Security research and blog updates from Badoption. | RSS | <https://badoption.eu/feed.xml> |
+| Bill Demirkapi's Blog | Security research and blog updates from Bill Demirkapi's Blog. | RSS | <https://billdemirkapi.me/rss> |
+| BITSADMIN Blog - Mystery guest in your IT infrastructure | Security research and blog updates from BITSADMIN Blog - Mystery guest in your IT infrastructure. | RSS | <https://blog.bitsadmin.com/feed> |
 | Blackhat Library: Hacking techniques and research | Focused on the ongoing discussion and documentation of vulnerabilities and exploitation techniques. |  | <https://www.reddit.com/r/blackhat> |
+| BLACKWING INTELLIGENCE on Blackwing Intelligence | Security research and blog updates from BLACKWING INTELLIGENCE on Blackwing Intelligence. | RSS | <https://blackwinghq.com/index.xml> |
 | Blockchain Threat Intelligence | The latest in blockchain, DeFi and exchange threat intelligence on hacks, vulnerabilities, security tools, and events. |  | <https://newsletter.blockthreat.io/feed> |
+| Blog \| Sam Curry | Security research and blog updates from Blog \| Sam Curry. | RSS | <https://samcurry.net/api/feed.rss> |
 | Blog – Firejail | security sandbox | RSS | <https://firejail.wordpress.com/blog/feed> |
 | Blog – Xplico | Open Source Network Forensic Analysis Tool (NFAT) | RSS | <https://www.xplico.org/blog/feed> |
 | Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | Recent content in Blogs on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | RSS | <https://www.misp-project.org/blog/feed.xml> |
+| bohops | Security research and blog updates from bohops. | RSS | <https://bohops.com/feed> |
+| BREAKDEV | Security research and blog updates from BREAKDEV. | RSS | <https://breakdev.org/rss> |
 | BruCON | BruCON | RSS | <https://www.brucon.org/blog-feed.xml> |
 | Bug Alert | Vulnerability and exploit updates from Bug Alert. | RSS | <https://bugalert.org/feeds/all.atom.xml> |
+| Cerbersec | Security research and blog updates from Cerbersec. | RSS | <https://cerbersec.com/feed.xml> |
 | cipherdyne.org \| System and Network Security | Updates from cipherdyne.org \| System and Network Security. | ATOM | <https://www.cipherdyne.org/atom.xml> |
-| cipherdyne.org \| System and Network Security | The network and system security blog of Michael Rash | RSS | <https://www.cipherdyne.org/rss.xml> |
 | Cisco Security Advisory | Vulnerability and exploit updates from Cisco Security Advisory. | RSS | <https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml> |
+| CODE WHITE \| Red Teaming & Attack Surface Management | Security research and blog updates from CODE WHITE \| Red Teaming & Attack Surface Management. | RSS | <https://code-white.com/index.xml> |
 | Comments on Vulnerability Advisories | Wordfence research and alerts focused on WordPress vulnerabilities and website security. | ATOM | <https://www.wordfence.com/vulnerability-advisories/feed/atom> |
 | Comments on: Vulnerability Advisories | Wordfence research and alerts focused on WordPress vulnerabilities and website security. | RSS | <https://www.wordfence.com/vulnerability-advisories/feed> |
 | Commits - CSIRT Gadgets, LLC | <p>Commits, HowTo's and other great ideas...</p> | RSS | <https://csirtgadgets.org/commits?format=rss> |
+| Connor McGarr’s Blog | Security research and blog updates from Connor McGarr’s Blog. | RSS | <https://connormcgarr.github.io/feed.xml> |
 | CrowdSec Blog | Latest updates and insights from CrowdSec | RSS | <https://crowdsec.net/blog/rss.xml> |
+| Csandker | Security research and blog updates from Csandker. | RSS | <https://csandker.io/feed.xml> |
 | CVE \| THREATINT - NEW | Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program |  | <https://cve.threatint.com/rss/new> |
+| CVEfeed.io - Latest Vulnerabilities | Continuously updated feed of newly published CVEs. | RSS | <https://cvefeed.io/rssfeed/latest.xml> |
+| CXSECURITY Database RSS Feed - CXSecurity.com | CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/all> |
 | CXSecurity – Dorks DB | Vulnerability and exploit updates from CXSecurity. | RSS | <https://cxsecurity.com/wlb/rss/dorks> |
 | CXSecurity – Exploits | Vulnerability and exploit updates from CXSecurity. | RSS | <https://cxsecurity.com/wlb/rss/exploit> |
 | Daily Dave | This technical discussion list covers vulnerability research, exploit development, and security events/gossip. It was started by <a href="http://www.immunitysec.com/">ImmunitySec</a> founder Dave Aitel and many securi... | RSS | <https://seclists.org/rss/dailydave.rss> |
+| Dark Vortex | Security research and blog updates from Dark Vortex. | RSS | <https://0xdarkvortex.dev/feed.xml> |
+| Dazzy Ddos | Security research and blog updates from Dazzy Ddos. | RSS | <https://dazzyddos.github.io/feed> |
+| Decoder's Blog | Security research and blog updates from Decoder's Blog. | RSS | <https://decoder.cloud/feed> |
 | DefectDojo Blog | DefectDojo is a security tool that automates application security vulnerability management. | RSS | <https://defectdojo.com/blog/rss.xml?hsLang=en> |
+| Dirkjanm | Security research and blog updates from Dirkjanm. | RSS | <https://dirkjanm.io/feed.xml> |
 | Docker | Updates from Docker. | RSS | <https://www.docker.com/feed> |
+| DotDotPwn - The Directory Traversal Fuzzer | DotDotPwn - The Directory Traversal Fuzzer | ATOM | <https://dotdotpwn.blogspot.com/atom.xml> |
+| Doyensec's Blog | Security research and blog updates from Doyensec's Blog. | RSS | <https://blog.doyensec.com/atom.xml> |
+| Eaton Works Feed | Security research and blog updates from Eaton Works Feed. | RSS | <https://eaton-works.com/feed.atom> |
+| Ethical Chaos | Security research and blog updates from Ethical Chaos. | RSS | <https://ethicalchaos.dev/feed> |
+| Evan Connelly | Security research and blog updates from Evan Connelly. | RSS | <https://evanconnelly.github.io/index.xml> |
 | Exploit | Vulnerability and exploit updates from Exploit. | RSS | <https://exploit.ph/feeds/all.atom.xml> |
 | Exploit Collector | Vulnerability and exploit updates from Exploit Collector. | RSS | <https://exploit.kitploit.com/feeds/posts/default?alt=rss> |
 | Exploit-DB – GHDB | Vulnerability and exploit updates from Exploit-DB. | RSS | <https://www.exploit-db.com/rss___ghdb.xml> |
@@ -1236,66 +1048,148 @@ Total: **95**
 | Falco – Falco | Recent content on Falco | RSS | <https://falco.org/feed.xml> |
 | Falco – The Falco blog | Recent content in The Falco blog on Falco | RSS | <https://falco.org/blog/feed.xml> |
 | Filigran | Uncover Threats. Take Action. | RSS | <https://filigran.io/feed> |
+| fin3ss3g0d's Blog | Security research and blog updates from fin3ss3g0d's Blog. | RSS | <https://fin3ss3g0d.net/index.php/feed> |
 | Fing | Updates from Fing covering vulnerabilities, cves. | RSS | <https://www.fing.com/feed> |
-| Firejail | security sandbox | ATOM | <https://firejail.wordpress.com/atom.xml> |
 | Firejail | security sandbox | RSS | <https://firejail.wordpress.com/feed> |
+| FORTBRIDGE | Security research and blog updates from FORTBRIDGE. | RSS | <https://fortbridge.co.uk/feed> |
+| FortiGuard Labs PSIRT Advisories | Fortinet PSIRT security advisories for Fortinet products. | RSS | <https://www.fortiguard.com/rss/ir.xml> |
 | FortiGuard Labs \| FortiGuard Center - IR Advisories | filestore.fortinet.com is a subdomain and repository managed by Fortinet used to host files, software packages, firmware images, and documentation for various Fortinet products. |  | <https://filestore.fortinet.com/fortiguard/rss/ir.xml> |
-| Frida • A world-class dynamic instrumentation toolkit | Observe and reprogram running programs on Windows, macOS, GNU/Linux, iOS, watchOS, tvOS, Android, FreeBSD, and QNX | ATOM | <https://www.frida.re/feed.xml> |
+| Fortinet PSIRT Blog | Fortinet PSIRT blog posts on vulnerabilities and disclosure. | RSS | <https://feeds.fortinet.com/fortinet/blog/psirt> |
+| Fortynorthsecurity | Security research and blog updates from Fortynorthsecurity. | RSS | <https://fortynorthsecurity.com/blog/rss> |
+| Frycos Security Diary | Security research and blog updates from Frycos Security Diary. | RSS | <https://frycos.github.io/feed.xml> |
+| Gergely's hack blog | Security research and blog updates from Gergely's hack blog. | RSS | <https://gergelykalman.com/feeds/all.atom.xml> |
+| Graham Helton | Security research and blog updates from Graham Helton. | RSS | <https://grahamhelton.com/rss.xml> |
+| grimm-co.com | Security research and blog updates from grimm-co.com. | RSS | <https://blog.grimm-co.com/feeds/posts/default> |
+| HackingVision | Ethical Hacking Tutorials, Tips &amp; Tricks, Kali Linux, Beginners Hacking |  | <https://hackingvision.com/feed> |
+| hackndo | Security research and blog updates from hackndo. | RSS | <https://en.hackndo.com/feed.xml> |
+| Hakin9 – IT Security Magazine | Hackers about hacking techniques in our IT Security Magazine |  | <https://hakin9.org/feed> |
+| hausec | Security research and blog updates from hausec. | RSS | <https://hausec.com/feed> |
+| Haxx | Security research and blog updates from Haxx. | RSS | <https://haxx.in/index.xml> |
 | Icinga | Monitor your Entire Infrastructure | RSS | <https://icinga.com/feed> |
 | Icinga Blog – IT Monitoring, Releases & How-tos | Monitor your Entire Infrastructure | RSS | <https://icinga.com/blog/feed> |
+| Icyguider’s Blog | Security research and blog updates from Icyguider’s Blog. | RSS | <https://icyguider.github.io/feed.xml> |
+| Ifcr Research | Security research and blog updates from Ifcr Research. | RSS | <https://research.ifcr.dk/feed> |
+| Impalabs Blog | Security research and blog updates from Impalabs Blog. | RSS | <https://blog.impalabs.com/feed.xml> |
+| Include Security Research Blog | Security research and blog updates from Include Security Research Blog. | RSS | <https://blog.includesecurity.com/feed> |
+| InfoSec Write-ups - Medium | A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs. |  | <https://infosecwriteups.com/feed> |
 | IPFire Blog | The official blog of the IPFire Project | ATOM | <https://www.ipfire.org/blog/feed.xml> |
+| Isosceles Blog | Security research and blog updates from Isosceles Blog. | RSS | <https://blog.isosceles.com/rss> |
 | Istio Blog | Blog posts from the Istio service mesh. | RSS | <https://istio.io/blog/feed.xml> |
 | Istio Blog and News | Combined blog and news feed for the Istio service mesh. | RSS | <https://istio.io/feed.xml> |
 | Istio News | News feed for the Istio service mesh. | RSS | <https://istio.io/latest/news/feed.xml> |
+| itm4n's blog | Security research and blog updates from itm4n's blog. | RSS | <https://itm4n.github.io/feed> |
+| Jack Hacks | Security research and blog updates from Jack Hacks. | RSS | <https://jhalon.github.io/feed.xml> |
+| JUMPSEC Labs | Security research and blog updates from JUMPSEC Labs. | RSS | <https://labs.jumpsec.com/feed> |
 | Kali Linux | Home of Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. | RSS | <https://www.kali.org/feed> |
+| KitPloit - PenTest Tools! | KitPloit - leading source of Security Tools, Hacking Tools, CyberSecurity and Network Security ☣ |  | <https://feeds.feedburner.com/PentestTools> |
+| Lares Labs | Security research and blog updates from Lares Labs. | RSS | <https://labs.lares.com/rss> |
 | LayerOne 2026 | Los Angeles' premier security conference | RSS | <https://www.layerone.org/feed> |
 | LinuxSecurity Advisories - Debian | LinuxSecurity.com is the community's central source for information on Linux and open source security. |  | <https://linuxsecurity.com/advisories/debian?format=feed&amp;type=rss> |
 | LinuxSecurity Advisories - Oracle | LinuxSecurity.com is the community's central source for information on Linux and open source security. |  | <https://linuxsecurity.com/advisories/oracle?format=feed&amp;type=rss> |
 | LinuxSecurity Advisories - Red Hat | LinuxSecurity.com is the community's central source for information on Linux and open source security. |  | <https://linuxsecurity.com/advisories/red-hat?format=feed&amp;type=rss> |
 | LinuxSecurity Advisories - Slackware | LinuxSecurity.com is the community's central source for information on Linux and open source security. |  | <https://linuxsecurity.com/advisories/slackware?format=feed&amp;type=rss> |
 | LinuxSecurity Advisories - Ubuntu | LinuxSecurity.com is the community's central source for information on Linux and open source security. |  | <https://linuxsecurity.com/advisories/ubuntu?format=feed&amp;type=rss> |
+| LRQA Nettitude Labs | Security research and blog updates from LRQA Nettitude Labs. | RSS | <https://labs.nettitude.com/feed> |
+| LuemmelSec | Security research and blog updates from LuemmelSec. | RSS | <https://luemmelsec.github.io/feed.xml> |
+| M365internals | Security research and blog updates from M365internals. | RSS | <https://m365internals.com/feed> |
+| Matterpreter (Medium) | Security research and blog updates from Matterpreter (Medium). | RSS | <https://medium.com/@matterpreter/feed> |
+| Mayfly | Security research and blog updates from Mayfly. | RSS | <https://mayfly277.github.io/feed> |
+| MDSec | Security research and blog updates from MDSec. | RSS | <https://www.mdsec.co.uk/feed> |
 | MEDevel.com \| Open-source Apps for Healthcare and Enterprise | We write about open-source apps that can benefits enterprise, agencies, and developers | RSS | <https://medevel.com/feed> |
+| Memory Corruption | Security research and blog updates from Memory Corruption. | RSS | <https://memorycorruption.net/index.xml> |
+| Meta Red Team X | Security research and blog updates from Meta Red Team X. | RSS | <https://rtx.meta.security/feed.xml> |
+| mgeeky's lair | Security research and blog updates from mgeeky's lair. | RSS | <https://mgeeky.tech/feed> |
+| Michael Coppola | Security research and blog updates from Michael Coppola. | RSS | <https://poppopret.org/feed> |
+| Mickey’s Blogs | Security research and blog updates from Mickey’s Blogs. | RSS | <https://jhftss.github.io/feed.xml> |
 | MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | Recent content on MISP Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing | RSS | <https://www.misp-project.org/feed.xml> |
+| MrBruh's Epic Blog | Security research and blog updates from MrBruh's Epic Blog. | RSS | <https://mrbruh.com/index.xml> |
+| Muirey03's Blog | Security research and blog updates from Muirey03's Blog. | RSS | <https://muirey03.blogspot.com/feeds/posts/default> |
 | Netsparker | Updates from www.netsparker.com. | RSS | <https://www.netsparker.com/blog/web-security/rss.xml> |
 | Nmap Announce | Vulnerability and exploit updates from Nmap Announce. | RSS | <https://seclists.org/rss/nmap-announce.rss> |
 | Nullcon | Nullcon is a technical-first cybersecurity conference built for hackers, security researchers, defenders, engineers, and security leaders to share research, learn hands-on, and advance the future of security across Go... | RSS | <https://nullcon.net/feed> |
+| Offensive Defence | Security research and blog updates from Offensive Defence. | RSS | <https://offensivedefence.co.uk/index.xml> |
+| Offensive Research | Security research and blog updates from Offensive Research. | RSS | <https://philkeeble.com/feed.xml> |
 | OffSec | The Path to a Secure Future | RSS | <https://www.offensive-security.com/feed> |
+| Orange Tsai | Security research and blog updates from Orange Tsai. | RSS | <https://blog.orange.tw/atom> |
 | Packet Storm | Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers |  | <https://rss.packetstormsecurity.com> |
+| PACMAN | Security research and blog updates from PACMAN. | RSS | <https://pacmanattack.com/atom.xml> |
+| Palo Alto Networks Security Advisories | Official security advisories for Palo Alto Networks products. | RSS | <https://security.paloaltonetworks.com/rss.xml> |
 | Percona Database Performance Blog | Updates from Percona Database Performance Blog. | RSS | <https://www.percona.com/blog/feed> |
-| Raymond.CC Blog | Daily updated news of useful advanced computer tips and tricks | RSS | <https://raymond.cc/feed> |
-| Raymond.CC Blog | Daily updated news of useful advanced computer tips and tricks | RSS | <https://www.raymond.cc/feed> |
-| Raymond.CC Blog | Daily updated news of useful advanced computer tips and tricks | RSS | <https://www.raymond.cc/rss> |
+| Positive Security \| IT Security research and happy coincidences | Security research and blog updates from Positive Security \| IT Security research and happy coincidences. | RSS | <https://positive.security/blog/rss.xml> |
+| Pwned Labs Blog | Security research and blog updates from Pwned Labs Blog. | RSS | <https://blog.pwnedlabs.io/rss.xml> |
+| Pwning Tech | Security research and blog updates from Pwning Tech. | RSS | <https://pwning.tech/rss> |
+| Quarkslab's blog | Security research and blog updates from Quarkslab's blog. | RSS | <https://blog.quarkslab.com/feeds/all.atom.xml> |
+| Rasta Mouse | Security research and blog updates from Rasta Mouse. | RSS | <https://rastamouse.me/rss> |
 | RCE Security | Remote Code Execution Techniques and more |  | <https://www.rcesecurity.com/feed> |
+| Recent Commits to aircrack-ng:master | Updates from Recent Commits to aircrack-ng:master covering vulnerabilities, cves. | ATOM | <https://github.com/aircrack-ng/aircrack-ng/commits/master.atom> |
+| Red XOR Blue | Security research and blog updates from Red XOR Blue. | RSS | <https://blog.redxorblue.com/feeds/posts/default> |
+| Research Blog \| Project Black | Security research and blog updates from Research Blog \| Project Black. | RSS | <https://projectblack.io/blog/rss> |
+| RET2 Systems Blog | Security research and blog updates from RET2 Systems Blog. | RSS | <https://blog.ret2.io/feed.xml> |
+| Rhino Security Labs | Security research and blog updates from Rhino Security Labs. | RSS | <https://rhinosecuritylabs.com/feed> |
+| Riccardo Ancarani - Red Team Adventures | Security research and blog updates from Riccardo Ancarani - Red Team Adventures. | RSS | <https://riccardoancarani.github.io/feed.xml> |
 | ridiculous_fish | Updates from ridiculous_fish. | ATOM | <https://ridiculousfish.com/blog/atom.xml> |
 | Ronin Developer Blog | Updates from Ronin Developer Blog covering vulnerabilities, cves. | ATOM | <https://ronin-rb.dev/blog/atom.xml> |
+| root@V3dedBlog:~# | Security research and blog updates from root@V3dedBlog:~#. | RSS | <https://v3ded.github.io/feed.xml> |
+| S3cur3Th1sSh1t | News, research, and updates on general security & blogs from S3cur3Th1sSh1t. | RSS | <https://s3cur3th1ssh1t.github.io/feed.xml> |
 | SANS Internet Storm Center, InfoCON: green | SANS Internet Storm Center - Cooperative Cyber Security Monitor | RSS | <https://isc.sans.edu/rssfeed.xml> |
-| SANS Internet Storm Center, InfoCON: green | SANS Internet Storm Center - Cooperative Cyber Security Monitor | RSS | <https://www.dshield.org/rssfeed.xml> |
-| SANS Internet Storm Center, InfoCON: green | SANS Internet Storm Center - Cooperative Cyber Security Monitor | RSS | <https://www.dshield.org/rssfeed_full.xml> |
+| SCRT Team Blog | Security research and blog updates from SCRT Team Blog. | RSS | <https://blog.scrt.ch/feed> |
+| secret club | Security research and blog updates from secret club. | RSS | <https://secret.club/feed.xml> |
 | SecTools | SecTools security tools list updates. | RSS | <https://sectools.org/feed> |
+| Sector 7 | Security research and blog updates from Sector 7. | RSS | <https://sector7.computest.nl/index.xml> |
 | Secureworks Counter Threat Unit (CTU) Research | The latest publications from our Counter Threat Unit including Threat Analyses and Threat Advisories |  | <https://www.secureworks.com/rss?feed=research> |
-| Security Onion | Peel Back the Layers of Your Enterprise | ATOM | <https://blog.securityonion.net/atom.xml> |
-| Security Onion | Peel Back the Layers of Your Enterprise | RSS | <https://blog.securityonion.net/rss.xml> |
+| Securitum Research | Security research and blog updates from Securitum Research. | RSS | <https://research.securitum.com/feed> |
+| Security advisories | News, research, and updates on general security & blogs from Security advisories. | RSS | <https://www.drupal.org/security/rss.xml> |
+| Security public service announcements | News, research, and updates on general security & blogs from Security public service announcements. | RSS | <https://www.drupal.org/security/psa/rss.xml> |
 | Security Research & Defense | Vulnerability and exploit updates from Security Research & Defense. | RSS | <https://srd.cx/feed> |
-| SkyDogCon | The South's premiere hacker/maker con located in Nashville, TN | ATOM | <https://www.skydogcon.com/atom.xml> |
-| SkyDogCon | The South's premiere hacker/maker con located in Nashville, TN | RSS | <https://www.skydogcon.com/rss.xml> |
+| Shells | Security research and blog updates from Shells. | RSS | <https://shells.systems/feed> |
+| Shenanigans Labs | Security research and blog updates from Shenanigans Labs. | RSS | <https://shenaniganslabs.io/feed> |
+| Shorsec Cyber Security | Security research and blog updates from Shorsec Cyber Security. | RSS | <https://shorsec.io/feed> |
+| simondotsh’s infosec blog | Security research and blog updates from simondotsh’s infosec blog. | RSS | <https://simondotsh.com/feed.xml> |
+| Skelsec (Medium) | Security research and blog updates from Skelsec (Medium). | RSS | <https://skelsec.medium.com/feed> |
 | Snort | Vulnerability and exploit updates from Snort. | RSS | <https://seclists.org/rss/snort.rss> |
+| Snovvcrash | Security research and blog updates from Snovvcrash. | RSS | <https://snovvcrash.rocks/feed> |
 | Source Incite | Vulnerability and exploit updates from Source Incite. | RSS | <https://srcincite.io/feed> |
+| Spaceraccoon's Blog | Security research and blog updates from Spaceraccoon's Blog. | RSS | <https://spaceraccoon.dev/feed.xml> |
+| SpecterOps | Security research and blog updates from SpecterOps. | RSS | <https://specterops.io/feed> |
 | Sploitus – Exploits | Vulnerability and exploit updates from Sploitus. | RSS | <https://sploitus.com/rss> |
+| STAR Labs | Security research and blog updates from STAR Labs. | RSS | <https://starlabs.sg/index.xml> |
+| Stories by assume-breach on Medium | Security research and blog updates from Stories by assume-breach on Medium. | RSS | <https://assume-breach.medium.com/feed> |
+| Stories by Cedric Owens on Medium | Security research and blog updates from Stories by Cedric Owens on Medium. | RSS | <https://cedowens.medium.com/feed> |
+| Stories by CICADA8 on Medium | Security research and blog updates from Stories by CICADA8 on Medium. | RSS | <https://cicada-8.medium.com/feed> |
 | Stories by CVE Program Blog on Medium | Stories by CVE Program Blog on Medium |  | <https://medium.com/feed/@cve_program> |
+| Stratum Security Blog | Security research and blog updates from Stratum Security Blog. | RSS | <https://blog.stratumsecurity.com/rss> |
+| Summoning Team | Security research and blog updates from Summoning Team. | RSS | <https://summoning.team/index.xml> |
+| Swisskyrepo Blog | Security research and blog updates from Swisskyrepo Blog. | RSS | <https://swisskyrepo.github.io/feed> |
+| SySS Tech Blog | Security research and blog updates from SySS Tech Blog. | RSS | <https://blog.syss.com/feed> |
+| System Weakness - Medium | System Weakness is a publication that specialises in publishing upcoming writers in cybersecurity and ethical hacking space. |  | <https://systemweakness.com/feed> |
 | Talos Vulnerability Report Feed | Vulnerability and exploit updates from Talos Vulnerability Report Feed. | RSS | <https://talosintelligence.com/vulnerability_reports/feed> |
+| thc.org | Security research and blog updates from thc.org. | RSS | <https://blog.thc.org/rss.xml> |
+| The Contractor 🏴‍☠️🧯 | Security research and blog updates from The Contractor 🏴‍☠️🧯. | RSS | <https://thecontractor.io/rss> |
 | The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and design software. | RSS | <https://github.blog/feed> |
+| The Human Machine Interface | Security research and blog updates from The Human Machine Interface. | RSS | <https://h0mbre.github.io/feed.xml> |
 | The Open Cloud Vulnerability &amp; Security Issue Database | An open project to list all known cloud vulnerabilities and Cloud Service Provider security issues. |  | <https://www.cloudvulndb.org/rss/feed.xml> |
 | The ZAP Homepage on ZAP | Recent content in The ZAP Homepage on ZAP | RSS | <https://www.zaproxy.org/index.xml> |
+| theori.io | Security research and blog updates from theori.io. | RSS | <https://blog.theori.io/feed> |
 | Threat Intelligence and Cybersecurity Insights \| Blog | Smarter Security for Maximum Impact | RSS | <https://threatconnect.com/blog/feed> |
 | ThreatConnect | Smarter Security for Maximum Impact | RSS | <https://threatconnect.com/feed> |
+| Threlfall hax | Security research and blog updates from Threlfall hax. | RSS | <https://5stars217.github.io/feed.xml> |
+| Tier Zero Security | Security research and blog updates from Tier Zero Security. | RSS | <https://tierzerosecurity.co.nz/feed.xml> |
 | VMware Security Advisory | Vulnerability and exploit updates from VMware Security Advisory. | RSS | <https://www.vmware.com/security/advisories.xml> |
 | VulDB CVE | CVE | RSS | <https://vuldb.com/rss/cve> |
 | VulDB Recent Entries | Recent Entries | RSS | <https://vuldb.com/rss/recent> |
 | VulDB Updates | Updates | RSS | <https://vuldb.com/rss/updates> |
 | Vulmon Research | Vulnerability and exploit updates from Vulmon Research. | RSS | <https://research.vulmon.com/feed> |
 | VulnCheck Blog | Blog posts we have recently written or historic blog posts we have written in the past. | ATOM | <https://vulncheck.com/feed/blog/atom.xml> |
+| Vulnerabilities Database - CXSecurity.com | Vulnerabilities Database - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/vulnerabilities> |
 | Vulnerability Lab | Vulnerability and exploit updates from Vulnerability Lab. | RSS | <https://www.vulnerability-lab.com/rss/rss.php> |
 | Vulners.com RSS Feed | The latest security news and vulnerability data | RSS | <https://vulners.com/rss.xml> |
+| watchTowr Labs | Security research and blog updates from watchTowr Labs. | RSS | <https://labs.watchtowr.com/rss> |
+| WHEREISK0SHL | Security research and blog updates from WHEREISK0SHL. | RSS | <https://whereisk0shl.top/feed> |
+| White Knight Labs | Security research and blog updates from White Knight Labs. | RSS | <https://whiteknightlabs.com/feed> |
+| WhyNotSecurity | Security research and blog updates from WhyNotSecurity. | RSS | <https://whynotsecurity.com/feed.xml> |
 | WPScan | Updates from WPScan. | RSS | <https://wpscan.com/feed> |
+| X-Force Exchange - Collection Feed | Collections with tag "advisory" | RSS | <https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory> |
 | x64dbg | Updates from x64dbg. | ATOM | <https://x64dbg.com/blog/atom.xml> |
-| Zero Day Initiative - Blog | The Zero Day Initiative (ZDI) was created to encourage the reporting of 0-day vulnerabilities privately to the affected vendors by … |  | <https://www.zerodayinitiative.com/blog?format=rss> |
+| Xdavidhu Bugs | Security research and blog updates from Xdavidhu Bugs. | RSS | <https://bugs.xdavidhu.me/feed.xml> |
+| XPN InfoSec Blog | Security research and blog updates from XPN InfoSec Blog. | RSS | <https://blog.xpnsec.com/rss.xml> |
+| Zero Day Initiative - Blog | Updates from Zero Day Initiative - Blog. | ATOM | <https://zerodayinitiative.com/blog/atom.xml> |

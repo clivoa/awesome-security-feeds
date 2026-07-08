@@ -59,3 +59,57 @@ url_contains:/comments/feed
 title_contains:photography
 title_contains:press
 title_contains:news agency
+
+# ---------------------------------------------------------
+# Non-security sources removed during 2026-07 curation
+# (general tech/business news, dev tooling, project activity)
+# ---------------------------------------------------------
+domain:accidentalrebel.com
+domain:adamobeng.com
+domain:aisel.aisnet.org
+domain:antirez.com
+domain:blogs.microsoft.com
+domain:cajundiscordian.medium.com
+domain:chrisholdgraf.com
+domain:circleci.com
+domain:cloud7.news
+domain:cncf.io
+domain:datacenterdynamics.com
+domain:digitaljournal.com
+domain:discord.com
+domain:docs.modular.com
+domain:driesdepoorter.be
+domain:feed.ctrl.blog
+domain:feeds.bloomberg.com
+domain:freenginx.org
+domain:getpelican.com
+domain:githubstatus.com
+domain:go.dev
+domain:howtomarketagame.com
+domain:initialcommit.com
+domain:itnews.asia
+domain:itnews.com.au
+domain:jameshfisher.com
+domain:jasonppy.github.io
+domain:metalbear.co
+domain:neil.computer
+domain:news.crunchbase.com
+domain:newscientist.com
+domain:nixos.org
+domain:opentofu.org
+domain:pluralistic.net
+domain:raymond.cc
+domain:restofworld.org
+domain:reutersagency.com
+domain:rossmanngroup.com
+domain:spectrum.ieee.org
+domain:techmeme.com
+domain:techmonitor.ai
+domain:techspot.com
+domain:theinformation.com
+domain:thenewstack.io
+domain:thestack.technology
+domain:theverge.com
+domain:tweak-extension.com
+domain:victoronsoftware.com
+domain:yahoo.com

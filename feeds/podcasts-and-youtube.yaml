@@ -164,6 +164,11 @@
   title: David Bombal
   type: atom
   description: Video uploads from David Bombal on YouTube.
+- url: https://dayzerosec.com/feed.xml
+  category: Podcasts & YouTube
+  title: DAY[0]
+  type: rss
+  description: Security research and blog updates from DAY[0].
 - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6Om9kAkl32dWlDSNlDS9Iw
   category: Podcasts & YouTube
   title: DEFCONConference
@@ -450,6 +455,13 @@
   description: Redefining CyberSecurity Podcast Hosted by Sean Martin, CISSP Have
     you ever thought that we are selling cybersecurity insincerely, buying it indiscriminately,
     and deploying it ineffectively? For cybersecurity to be ge...
+- url: https://risky.biz/feeds/risky-business
+  category: Podcasts & YouTube
+  title: Risky Business
+  type: ''
+  description: Risky.biz is an independent information security news platform and
+    podcast network founded by Patrick Gray in 2007, serving as a key resource for
+    cybersecurity professionals.
 - url: https://risky.biz/feeds/risky-business-news
   category: Podcasts & YouTube
   title: Risky Business News
@@ -653,6 +665,11 @@
   description: The Cyberlaw Podcast is a weekly interview series and discussion offering
     an opinionated roundup of the latest events in technology, security, privacy,
     and government. It features in-depth interviews of a wide variety...
+- url: https://thecyberwire.com/feeds/rss.xml
+  category: Podcasts & YouTube
+  title: The CyberWire
+  type: rss
+  description: News, research, and updates on general security & blogs from The CyberWire.
 - url: https://feeds.simplecast.com/vRu9TC9N
   category: Podcasts & YouTube
   title: The Hacker Factory

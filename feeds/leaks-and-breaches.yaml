@@ -3,6 +3,12 @@
   title: AppGate English
   type: rss
   description: Updates from AppGate English covering vulnerabilities, cves.
+- url: https://www.cshub.com/rss/categories/attacks
+  category: Leaks & Breaches
+  title: CS Hub (Attacks)
+  type: rss
+  description: Cyber Security Hub regularly covers the space's visible breaches --
+    from Fortune 100 companies to social media, apps and industry leaders.
 - url: https://www.cisa.gov/rss.xml
   category: Leaks & Breaches
   title: Cybersecurity and Infrastructure Security Agency CISA
@@ -14,6 +20,11 @@
   type: atom
   description: The Dangerzone application takes potentially dangerous documents and
     converts them to safe PDF files
+- url: https://databreaches.net/feed/
+  category: Leaks & Breaches
+  title: DataBreaches.net
+  type: rss
+  description: Independent reporting on data breaches, leaks, and breach disclosures.
 - url: https://www.databreachtoday.co.uk/rss-feeds
   category: Leaks & Breaches
   title: DataBreachToday.co.uk RSS Syndication
@@ -51,22 +62,17 @@
   type: rss
   description: Subscribe to our RSS feed to stay up to date with what's fresh in the
     Maltego world.
-- url: https://owasp.org/feed
+- url: https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml
   category: Leaks & Breaches
-  title: OWASP
-  type: atom
-  description: OWASP Foundation main site repository
-- url: https://www.rapid7.com/blog/rss
+  title: security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle
+  type: ''
+  description: Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle
+- url: https://www.securityweek.com/category/data-breaches/feed
   category: Leaks & Breaches
-  title: Rapid7 Cybersecurity Blog
+  title: SecurityWeek – Data Breaches
   type: rss
-  description: Rapid7 transforms data into insight, empowering security professionals
-    to progress and protect their organizations.
-- url: https://www.tenable.com/blog/atom.xml
-  category: Leaks & Breaches
-  title: Tenable Blog
-  type: rss
-  description: Updates from Tenable Blog.
+  description: SecurityWeek news covering vulnerabilities, threats, and enterprise
+    security developments.
 - url: https://tenable.com/feed/news
   category: Leaks & Breaches
   title: Tenable News Feed

@@ -1,35 +1,24 @@
-- url: https://aboutdfir.com/feed
+- url: https://blog.cryptographyengineering.com/feed
   category: Crypto & Blockchain Security
-  title: AboutDFIR – The Definitive Compendium Project
+  title: A Few Thoughts on Cryptographic Engineering
   type: rss
-  description: Digital Forensics / Incident Response
-- url: https://aboutdfir.com/rss
+  description: Security research and blog updates from A Few Thoughts on Cryptographic
+    Engineering.
+- url: https://ackee.xyz/blog/feed
   category: Crypto & Blockchain Security
-  title: AboutDFIR – The Definitive Compendium Project
+  title: Ackee Blockchain
   type: rss
-  description: Digital Forensics / Incident Response
+  description: Security research and blog updates from Ackee Blockchain.
 - url: https://blog.chainalysis.com/feed
   category: Crypto & Blockchain Security
   title: Chainalysis
   type: ''
   description: Chainalysis is the blockchain analysis company
-- url: https://cloudsecurityalliance.org/blog/feed
-  category: Crypto & Blockchain Security
-  title: Cloud Security Alliance
-  type: ''
-  description: The Cloud Security Alliance (CSA) is the world’s leading organization
-    dedicated to defining and raising awareness of best practices to …
 - url: https://cointelegraph.com/rss
   category: Crypto & Blockchain Security
   title: Cointelegraph.com News
   type: rss
   description: Crypto and blockchain security coverage from Cointelegraph.com News.
-- url: https://export.arxiv.org/rss/cs.CR
-  category: Crypto & Blockchain Security
-  title: cs.CR updates on arXiv.org
-  type: ''
-  description: Computer Science -- Cryptography and Security (cs.CR) updates on the
-    arXiv.org e-print archive
 - url: https://decrypt.co/feed
   category: Crypto & Blockchain Security
   title: Decrypt
@@ -46,6 +35,11 @@
   title: Global Encryption Coalition
   type: ''
   description: Updates from Global Encryption Coalition.
+- url: https://iacr.org/news/rss
+  category: Crypto & Blockchain Security
+  title: IACR News
+  type: ''
+  description: Updates from IACR News.
 - url: https://protos.com/feed
   category: Crypto & Blockchain Security
   title: Protos
@@ -56,8 +50,3 @@
   title: Rekt
   type: ''
   description: Investigative journalism &amp; creative commentary
-- url: https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory
-  category: Crypto & Blockchain Security
-  title: X-Force Exchange - Collection Feed
-  type: rss
-  description: Collections with tag "advisory"
