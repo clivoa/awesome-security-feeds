@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-07-08T23:22:12.643004+00:00` (UTC)
+**Generated:** `2026-07-14T18:18:20.850769+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -14,7 +14,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
 - [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (27)
 - [DFIR & Forensics](#dfir-forensics) (43)
-- [General Security & Blogs](#general-security-blogs) (278)
+- [General Security & Blogs](#general-security-blogs) (279)
 - [Government, CERT & Advisories](#government-cert-advisories) (45)
 - [Leaks & Breaches](#leaks-breaches) (15)
 - [Malware & Threat Research](#malware-threat-research) (93)
@@ -128,7 +128,7 @@ Total: **43**
 
 ## General Security & Blogs
 
-Total: **278**
+Total: **279**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -202,6 +202,7 @@ Total: **278**
 | Cylab | Security research and blog updates from Cylab. |  | <https://cylab.be/rss> |
 | Dan Revah’s Blog | Security research and blog updates from Dan Revah’s Blog. | RSS | <https://danrevah.github.io/feed.xml> |
 | Dana Epp's Blog | Security research and blog updates from Dana Epp's Blog. | RSS | <https://danaepp.com/feed> |
+| Daniel Miessler | Security, AI, and purpose from Daniel Miessler. | RSS | <https://danielmiessler.com/feed.rss> |
 | Daniele Antonioli | Security research and blog updates from Daniele Antonioli. | RSS | <https://francozappa.github.io/index.xml> |
 | darkreading | News, research, and updates on general security & blogs from darkreading. | RSS | <https://www.darkreading.com/rss.xml> |
 | Data and computer security \| The Guardian | News, research, and updates on general security & blogs from Data and computer security. | RSS | <https://www.theguardian.com/technology/data-computer-security/rss> |
