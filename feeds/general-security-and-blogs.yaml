@@ -365,6 +365,11 @@
   title: Dana Epp's Blog
   type: rss
   description: Security research and blog updates from Dana Epp's Blog.
+- url: https://danielmiessler.com/feed.rss
+  category: General Security & Blogs
+  title: Daniel Miessler
+  type: rss
+  description: Security, AI, and purpose from Daniel Miessler.
 - url: https://francozappa.github.io/index.xml
   category: General Security & Blogs
   title: Daniele Antonioli
@@ -613,11 +618,6 @@
   title: Industrial Cyber
   type: ''
   description: Industrial, OT/ICS, SCADA Cyber Security System &amp; Solutions
-- url: https://danielmiessler.com/feed.rss
-  category: General Security & Blogs
-  title: Daniel Miessler
-  type: rss
-  description: Security, AI, and purpose from Daniel Miessler.
 - url: https://danielmiessler.com/category/information-security/feed
   category: General Security & Blogs
   title: Information Security Archives

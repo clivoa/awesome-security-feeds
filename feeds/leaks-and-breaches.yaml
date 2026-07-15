@@ -3,6 +3,11 @@
   title: AppGate English
   type: rss
   description: Updates from AppGate English covering vulnerabilities, cves.
+- url: https://thunderclap.io/blog/feed
+  category: Leaks & Breaches
+  title: Blog – Thunderclap
+  type: rss
+  description: Updates from Blog – Thunderclap covering vulnerabilities, cves.
 - url: https://www.cshub.com/rss/categories/attacks
   category: Leaks & Breaches
   title: CS Hub (Attacks)
@@ -20,7 +25,7 @@
   type: atom
   description: The Dangerzone application takes potentially dangerous documents and
     converts them to safe PDF files
-- url: https://databreaches.net/feed/
+- url: https://databreaches.net/feed
   category: Leaks & Breaches
   title: DataBreaches.net
   type: rss
@@ -78,6 +83,11 @@
   title: Tenable News Feed
   type: rss
   description: Updates from Tenable News Feed.
+- url: https://thunderclap.io/feed
+  category: Leaks & Breaches
+  title: Thunderclap
+  type: rss
+  description: Updates from Thunderclap covering vulnerabilities, cves.
 - url: https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
   category: Leaks & Breaches
   title: Wikipedia featured articles feed

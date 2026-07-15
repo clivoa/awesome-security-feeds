@@ -591,7 +591,7 @@
   type: rss
   description: Stay informed with expert insights on next-gen cybersecurity, cloud
     security, and vulnerabilities shaping the global landscape.
-- url: https://orca.security/feed/
+- url: https://orca.security/feed
   category: Vendors & Product Blogs
   title: Orca Security Blog
   type: rss

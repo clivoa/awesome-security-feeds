@@ -1,3 +1,15 @@
+- url: https://kb.cert.org/vuls/atomfeed
+  category: Government / CERT & Advisories
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
+- url: https://dotdotpwn.blogspot.com/rss.xml
+  category: Government / CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: rss
+  description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en
   category: Government, CERT & Advisories
   title: Alerts and advisories
@@ -50,7 +62,7 @@
   title: CERT-EU Security Advisories
   type: rss
   description: Security advisories from CERT-EU, the CERT for the EU institutions.
-- url: https://www.cert.ssi.gouv.fr/feed/
+- url: https://www.cert.ssi.gouv.fr/feed
   category: Government, CERT & Advisories
   title: CERT-FR (ANSSI)
   type: rss
