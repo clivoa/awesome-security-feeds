@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T12:09:25.259512+00:00",
-  "total": 1104,
+  "generated_at": "2026-07-18T13:32:54.227078+00:00",
+  "total": 1105,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1560,6 +1560,13 @@
       "url": "https://m417z.com/feed.xml",
       "title": "m417z / blog",
       "description": "Security research and blog updates from m417z / blog.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://blog.nelhage.com/atom.xml",
+      "title": "Made of Bugs",
+      "description": "Security research, systems programming, and performance engineering from Made of Bugs.",
       "type": "rss",
       "category": "General Security & Blogs"
     },

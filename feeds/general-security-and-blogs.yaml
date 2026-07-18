@@ -742,6 +742,11 @@
   title: m417z / blog
   type: rss
   description: Security research and blog updates from m417z / blog.
+- url: https://blog.nelhage.com/atom.xml
+  category: General Security & Blogs
+  title: Made of Bugs
+  type: rss
+  description: Security research, systems programming, and performance engineering from Made of Bugs.
 - url: https://maia.crimew.gay/feed.xml
   category: General Security & Blogs
   title: maia blog
