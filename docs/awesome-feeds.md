@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-07-18T12:09:22.592403+00:00` (UTC)
+**Generated:** `2026-07-18T13:32:54.560878+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -14,7 +14,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
 - [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (27)
 - [DFIR & Forensics](#dfir-forensics) (43)
-- [General Security & Blogs](#general-security-blogs) (280)
+- [General Security & Blogs](#general-security-blogs) (281)
 - [Government, CERT & Advisories](#government-cert-advisories) (47)
 - [Leaks & Breaches](#leaks-breaches) (17)
 - [Malware & Threat Research](#malware-threat-research) (93)
@@ -128,7 +128,7 @@ Total: **43**
 
 ## General Security & Blogs
 
-Total: **280**
+Total: **281**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -275,6 +275,7 @@ Total: **280**
 | Lohrmann on Cybersecurity | RSS feed for Lohrmann on Cybersecurity, covering general security & blogs news and updates. | RSS | <https://feeds.feedburner.com/govtech/blogs/lohrmann_on_infrastructure> |
 | Loworbitsecurity | Security research and blog updates from Loworbitsecurity. | RSS | <https://loworbitsecurity.com/index.xml> |
 | m417z / blog | Security research and blog updates from m417z / blog. | RSS | <https://m417z.com/feed.xml> |
+| Made of Bugs | Security research, systems programming, and performance engineering from Made of Bugs. | RSS | <https://blog.nelhage.com/atom.xml> |
 | maia blog | Security research and blog updates from maia blog. | RSS | <https://maia.crimew.gay/feed.xml> |
 | Malacupa | Security research and blog updates from Malacupa. | RSS | <https://malacupa.com/atom.xml> |
 | Marco Ramilli | Security research and blog updates from Marco Ramilli. | RSS | <https://marcoramilli.com/feed> |
