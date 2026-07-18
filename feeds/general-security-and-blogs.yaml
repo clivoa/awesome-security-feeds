@@ -63,6 +63,11 @@
   title: Aircrack-ng
   type: rss
   description: Official Aircrack-ng blog
+- url: https://allelesecurity.com.br/blog/feed/
+  category: General Security & Blogs
+  title: Allele Security Intelligence
+  type: rss
+  description: Security research and blog updates from Allele Security Intelligence.
 - url: https://palant.info/rss.xml
   category: General Security & Blogs
   title: Almost Secure
