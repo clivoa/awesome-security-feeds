@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-07-18T13:32:54.560878+00:00` (UTC)
+**Generated:** `2026-07-18T22:11:53.625240+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -14,7 +14,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
 - [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (27)
 - [DFIR & Forensics](#dfir-forensics) (43)
-- [General Security & Blogs](#general-security-blogs) (281)
+- [General Security & Blogs](#general-security-blogs) (282)
 - [Government, CERT & Advisories](#government-cert-advisories) (47)
 - [Leaks & Breaches](#leaks-breaches) (17)
 - [Malware & Threat Research](#malware-threat-research) (93)
@@ -128,7 +128,7 @@ Total: **43**
 
 ## General Security & Blogs
 
-Total: **281**
+Total: **282**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -319,6 +319,7 @@ Total: **281**
 | Peterjson (Medium) | Security research and blog updates from Peterjson (Medium). | RSS | <https://peterjson.medium.com/feed> |
 | Posts on Trevor Saudi | Security research and blog updates from Posts on Trevor Saudi. | RSS | <https://trevorsaudi.com/posts/index.xml> |
 | Purple Research | Security research and blog updates from Purple Research. | RSS | <https://ipslav.github.io/feed.xml> |
+| pwnd.blog | Artigos técnicos em português das comunidades bolhasec e bolhadev. | RSS | <https://pwnd.blog/rss.xml> |
 | Raesene's Ramblings | Security research and blog updates from Raesene's Ramblings. | RSS | <https://raesene.github.io/feed.xml> |
 | Real-time communications security on Communication Breakdown - Real-Time Communications Security | Recent content in Real-time communications security on Communication Breakdown - Real-Time Communications Security |  | <https://www.rtcsec.com/index.xml> |
 | RestorePrivacy | Security research and blog updates from RestorePrivacy. | RSS | <https://restoreprivacy.com/feed> |

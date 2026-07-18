@@ -969,6 +969,11 @@
   title: Purple Research
   type: rss
   description: Security research and blog updates from Purple Research.
+- url: https://pwnd.blog/rss.xml
+  category: General Security & Blogs
+  title: pwnd.blog
+  type: rss
+  description: Artigos técnicos em português das comunidades bolhasec e bolhadev.
 - url: https://raesene.github.io/feed.xml
   category: General Security & Blogs
   title: Raesene's Ramblings

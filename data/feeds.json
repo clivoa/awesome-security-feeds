@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T22:09:18.207278+00:00",
-  "total": 1105,
+  "generated_at": "2026-07-18T22:11:53.283604+00:00",
+  "total": 1106,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1868,6 +1868,13 @@
       "url": "https://ipslav.github.io/feed.xml",
       "title": "Purple Research",
       "description": "Security research and blog updates from Purple Research.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://pwnd.blog/rss.xml",
+      "title": "pwnd.blog",
+      "description": "Artigos técnicos em português das comunidades bolhasec e bolhadev.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
