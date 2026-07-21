@@ -63,7 +63,7 @@
   title: Aircrack-ng
   type: rss
   description: Official Aircrack-ng blog
-- url: https://allelesecurity.com.br/blog/feed/
+- url: https://allelesecurity.com.br/blog/feed
   category: General Security & Blogs
   title: Allele Security Intelligence
   type: rss
@@ -746,7 +746,8 @@
   category: General Security & Blogs
   title: Made of Bugs
   type: rss
-  description: Security research, systems programming, and performance engineering from Made of Bugs.
+  description: Security research, systems programming, and performance engineering
+    from Made of Bugs.
 - url: https://maia.crimew.gay/feed.xml
   category: General Security & Blogs
   title: maia blog

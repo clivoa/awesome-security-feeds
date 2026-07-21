@@ -18,6 +18,11 @@
   title: Another Forensics Blog
   type: rss
   description: DFIR and forensics content from Another Forensics Blog.
+- url: https://binalyze.com/feed
+  category: DFIR & Forensics
+  title: Binalyze
+  type: rss
+  description: Updates from Binalyze covering dfir & forensics.
 - url: https://feeds.feedburner.com/brettshavers/oSyq
   category: DFIR & Forensics
   title: Brett Shavers

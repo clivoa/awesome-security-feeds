@@ -1,15 +1,3 @@
-- url: https://kb.cert.org/vuls/atomfeed
-  category: Government, CERT & Advisories
-  title: CERT Recently Published Vulnerability Notes
-  type: atom
-  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
-    Vulnerability Notes include summaries, technical details, remediation information,
-    and lists of affected vendors. Many vulnerability notes are the...
-- url: https://dotdotpwn.blogspot.com/rss.xml
-  category: Government, CERT & Advisories
-  title: DotDotPwn - The Directory Traversal Fuzzer
-  type: rss
-  description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en
   category: Government, CERT & Advisories
   title: Alerts and advisories
@@ -50,6 +38,13 @@
   title: CERT Polska
   type: rss
   description: CERT.PL
+- url: https://kb.cert.org/vuls/atomfeed
+  category: Government, CERT & Advisories
+  title: CERT Recently Published Vulnerability Notes
+  type: atom
+  description: CERT publishes vulnerability advisories called "Vulnerability Notes."
+    Vulnerability Notes include summaries, technical details, remediation information,
+    and lists of affected vendors. Many vulnerability notes are the...
 - url: https://www.kb.cert.org/vulfeed
   category: Government, CERT & Advisories
   title: CERT Recently Published Vulnerability Notes
@@ -124,6 +119,11 @@
   type: rss
   description: Official CISA alerts, advisories, and guidance on vulnerabilities,
     incidents, and threats.
+- url: https://dotdotpwn.blogspot.com/rss.xml
+  category: Government, CERT & Advisories
+  title: DotDotPwn - The Directory Traversal Fuzzer
+  type: rss
+  description: DotDotPwn - The Directory Traversal Fuzzer
 - url: https://www.first.org/blog/rss.xml
   category: Government, CERT & Advisories
   title: FIRST Blog
