@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T22:20:57.391185+00:00",
-  "total": 1106,
+  "generated_at": "2026-08-02T15:16:15.221868+00:00",
+  "total": 1107,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -286,6 +286,13 @@
       "url": "https://az4n6.blogspot.com/feeds/posts/default",
       "title": "Another Forensics Blog",
       "description": "DFIR and forensics content from Another Forensics Blog.",
+      "type": "rss",
+      "category": "DFIR & Forensics"
+    },
+    {
+      "url": "https://binalyze.com/feed",
+      "title": "Binalyze",
+      "description": "Updates from Binalyze covering dfir & forensics.",
       "type": "rss",
       "category": "DFIR & Forensics"
     },
@@ -654,7 +661,7 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "https://allelesecurity.com.br/blog/feed/",
+      "url": "https://allelesecurity.com.br/blog/feed",
       "title": "Allele Security Intelligence",
       "description": "Security research and blog updates from Allele Security Intelligence.",
       "type": "rss",
