@@ -717,6 +717,11 @@
   type: ''
   description: Rapid7 transforms data into insight, empowering security professionals
     to progress and protect their organizations.
+- url: https://www.raymond.cc/feed
+  category: Vendors & Product Blogs
+  title: Raymond.CC Blog
+  type: rss
+  description: Daily updated news of useful advanced computer tips and tricks
 - url: https://www.recordedfuture.com/category/cyber/feed
   category: Vendors & Product Blogs
   title: Recorded Future – Cyber TI
