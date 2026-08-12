@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T15:16:15.221868+00:00",
-  "total": 1107,
+  "generated_at": "2026-08-12T20:22:27.536995+00:00",
+  "total": 1108,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -5789,6 +5789,13 @@
       "title": "Rapid7 Blog",
       "description": "Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations.",
       "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.raymond.cc/feed",
+      "title": "Raymond.CC Blog",
+      "description": "Daily updated news of useful advanced computer tips and tricks",
+      "type": "rss",
       "category": "Vendors & Product Blogs"
     },
     {
