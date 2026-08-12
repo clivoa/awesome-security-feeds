@@ -1,0 +1,14 @@
+- url: https://binalyze.ai/feed/
+  category: Security (General) & Blogs
+  title: Binalyze
+  type: rss
+  description: Updates from Binalyze covering security (general).
+  discovery:
+    discovered_at: '2026-08-03T10:31:09.689483Z'
+    score: 12
+    matched_keywords:
+    - rce
+    - threat intelligence
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 9508494569633ea4e1516e85af96872308d37713
