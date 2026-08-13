@@ -17,6 +17,7 @@
       <outline text="Rekt" title="Rekt" type="rss" xmlUrl="https://rekt.news/rss/feed.xml" htmlUrl="https://rekt.news/rss/feed.xml" description="Investigative journalism &amp;amp; creative commentary" />
     </outline>
     <outline text="Cybercrime, Darknet &amp; Leaks" title="Cybercrime, Darknet &amp; Leaks">
+      <outline text="blog" title="blog" type="rss" xmlUrl="https://www.hex-rays.com/blog/rss.xml" htmlUrl="https://www.hex-rays.com/blog/rss.xml" description="Expert reverse engineering tutorials and IDA Pro tips. Weekly guides on binary analysis, malware research, decompiler techniques, and plugin development." />
       <outline text="CyberCrime &amp; Doing Time" title="CyberCrime &amp; Doing Time" type="rss" xmlUrl="https://garwarner.blogspot.com/feeds/posts/default" htmlUrl="https://garwarner.blogspot.com/feeds/posts/default" description="Cybercrime and underground ecosystem coverage from CyberCrime &amp; Doing Time." />
       <outline text="DarknetLive Post Feed" title="DarknetLive Post Feed" type="rss" xmlUrl="https://darknetlive.com/rss" htmlUrl="https://darknetlive.com/rss" description="Last 10 Recent Posts on DarknetLive" />
       <outline text="DataBreaches.net" title="DataBreaches.net" type="rss" xmlUrl="https://feeds.feedburner.com/OfficeOfInadequateSecurity" htmlUrl="https://feeds.feedburner.com/OfficeOfInadequateSecurity" description="RSS feed for DataBreaches.net, covering cybercrime, darknet &amp; leaks news and updates." />
@@ -34,6 +35,7 @@
       <outline text="Q-Feeds" title="Q-Feeds" type="rss" xmlUrl="https://qfeeds.com/feed" htmlUrl="https://qfeeds.com/feed" description="Theat Intelligence Feeds" />
       <outline text="RiskAnalytics" title="RiskAnalytics" type="rss" xmlUrl="https://riskanalytics.com/feed" htmlUrl="https://riskanalytics.com/feed" description="Cybersecurity. Simplified" />
       <outline text="Ryan Stillions" title="Ryan Stillions" type="atom" xmlUrl="https://ryanstillions.blogspot.nl/atom.xml" htmlUrl="https://ryanstillions.blogspot.nl/atom.xml" description="Postulations after great cogitation" />
+      <outline text="SANS Internet Storm Center, InfoCON: green" title="SANS Internet Storm Center, InfoCON: green" type="rss" xmlUrl="https://www.dshield.org/rssfeed.xml" htmlUrl="https://www.dshield.org/rssfeed.xml" description="SANS Internet Storm Center - Cooperative Cyber Security Monitor" />
       <outline text="Security + DevOps on DevSec Hardening Framework" title="Security + DevOps on DevSec Hardening Framework" type="rss" xmlUrl="https://dev-sec.io/index.xml" htmlUrl="https://dev-sec.io/index.xml" description="Recent content in Security + DevOps on DevSec Hardening Framework" />
       <outline text="Swiss Cyber Storm" title="Swiss Cyber Storm" type="rss" xmlUrl="https://www.swisscyberstorm.com/blog/index.xml" htmlUrl="https://www.swisscyberstorm.com/blog/index.xml" description="Recent Blog entries on Swiss Cyber Storm" />
       <outline text="Tech Xplore - Security News" title="Tech Xplore - Security News" type="rss" xmlUrl="https://techxplore.com/rss-feed/security-news" htmlUrl="https://techxplore.com/rss-feed/security-news" description="The latest news on cyber security, network security, software vulnerabilities, data leaks, malware, and viruses" />
@@ -717,6 +719,9 @@
       <outline text="What the Shell?" title="What the Shell?" type="rss" xmlUrl="https://feed.podbean.com/whattheshell/feed.xml" htmlUrl="https://feed.podbean.com/whattheshell/feed.xml" description="Welcome to ”What the Shell?” where I dive into major hacks and vulnerabilities in a way meant to be accessible by anyone. Come with me as we look at each incident through an exciting lens of curiosity. Join us on our..." />
       <outline text="Wild West Hackin&amp;#x27; Fest" title="Wild West Hackin&amp;#x27; Fest" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw" description="Video uploads from Wild West Hackin' Fest on YouTube." />
     </outline>
+    <outline text="Security (General) &amp; Blogs" title="Security (General) &amp; Blogs">
+      <outline text="Binalyze" title="Binalyze" type="rss" xmlUrl="https://binalyze.ai/feed" htmlUrl="https://binalyze.ai/feed" description="Updates from Binalyze covering security (general)." />
+    </outline>
     <outline text="Vendors &amp; Product Blogs" title="Vendors &amp; Product Blogs">
       <outline text="/dev/random" title="/dev/random" type="rss" xmlUrl="https://blog.rootshell.be/feed" htmlUrl="https://blog.rootshell.be/feed" description="&amp;quot;If the enemy leaves a door open, you must rush in.&amp;quot; - Sun Tzu" />
       <outline text="0patch Blog" title="0patch Blog" type="rss" xmlUrl="https://blog.0patch.com/feeds/posts/default" htmlUrl="https://blog.0patch.com/feeds/posts/default" description="Vendor security updates, advisories, and guidance from 0patch Blog." />
@@ -957,6 +962,7 @@
       <outline text="Connor McGarr’s Blog" title="Connor McGarr’s Blog" type="rss" xmlUrl="https://connormcgarr.github.io/feed.xml" htmlUrl="https://connormcgarr.github.io/feed.xml" description="Security research and blog updates from Connor McGarr’s Blog." />
       <outline text="CrowdSec Blog" title="CrowdSec Blog" type="rss" xmlUrl="https://crowdsec.net/blog/rss.xml" htmlUrl="https://crowdsec.net/blog/rss.xml" description="Latest updates and insights from CrowdSec" />
       <outline text="Csandker" title="Csandker" type="rss" xmlUrl="https://csandker.io/feed.xml" htmlUrl="https://csandker.io/feed.xml" description="Security research and blog updates from Csandker." />
+      <outline text="CTFtime.org: New writeups" title="CTFtime.org: New writeups" type="rss" xmlUrl="https://ctftime.org/writeups/rss" htmlUrl="https://ctftime.org/writeups/rss" description="CTFtime.org: CTF Task writeups feed." />
       <outline text="CVE | THREATINT - NEW" title="CVE | THREATINT - NEW" type="rss" xmlUrl="https://cve.threatint.com/rss/new" htmlUrl="https://cve.threatint.com/rss/new" description="Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program" />
       <outline text="CVEfeed.io - Latest Vulnerabilities" title="CVEfeed.io - Latest Vulnerabilities" type="rss" xmlUrl="https://cvefeed.io/rssfeed/latest.xml" htmlUrl="https://cvefeed.io/rssfeed/latest.xml" description="Continuously updated feed of newly published CVEs." />
       <outline text="CXSECURITY Database RSS Feed - CXSecurity.com" title="CXSECURITY Database RSS Feed - CXSecurity.com" type="rss" xmlUrl="https://cxsecurity.com/wlb/rss/all" htmlUrl="https://cxsecurity.com/wlb/rss/all" description="CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com" />

@@ -1474,3 +1474,8 @@
   title: Zhongquan Li’s blogs
   type: rss
   description: Security research and blog updates from Zhongquan Li’s blogs.
+- url: https://binalyze.ai/feed
+  category: Security (General) & Blogs
+  title: Binalyze
+  type: rss
+  description: Updates from Binalyze covering security (general).

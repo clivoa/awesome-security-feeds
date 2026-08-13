@@ -1,3 +1,9 @@
+- url: https://www.hex-rays.com/blog/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: blog
+  type: rss
+  description: Expert reverse engineering tutorials and IDA Pro tips. Weekly guides
+    on binary analysis, malware research, decompiler techniques, and plugin development.
 - url: https://garwarner.blogspot.com/feeds/posts/default
   category: Cybercrime, Darknet & Leaks
   title: CyberCrime & Doing Time
@@ -89,6 +95,11 @@
   title: Ryan Stillions
   type: atom
   description: Postulations after great cogitation
+- url: https://www.dshield.org/rssfeed.xml
+  category: Cybercrime, Darknet & Leaks
+  title: 'SANS Internet Storm Center, InfoCON: green'
+  type: rss
+  description: SANS Internet Storm Center - Cooperative Cyber Security Monitor
 - url: https://dev-sec.io/index.xml
   category: Cybercrime, Darknet & Leaks
   title: Security + DevOps on DevSec Hardening Framework
