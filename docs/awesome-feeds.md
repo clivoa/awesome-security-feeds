@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-07-20T13:24:04.878749+00:00` (UTC)
+**Generated:** `2026-08-25T12:25:15.185276+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -12,16 +12,17 @@ This page contains the full, categorized feed list maintained in this repository
 ## Contents
 
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
-- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (27)
-- [DFIR & Forensics](#dfir-forensics) (43)
+- [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (29)
+- [DFIR & Forensics](#dfir-forensics) (44)
 - [General Security & Blogs](#general-security-blogs) (282)
 - [Government, CERT & Advisories](#government-cert-advisories) (47)
 - [Leaks & Breaches](#leaks-breaches) (17)
 - [Malware & Threat Research](#malware-threat-research) (93)
 - [OSINT, Communities & Subreddits](#osint-communities-subreddits) (31)
 - [Podcasts & YouTube](#podcasts-youtube) (144)
-- [Vendors & Product Blogs](#vendors-product-blogs) (197)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (215)
+- [Security (General) & Blogs](#security-general-blogs) (1)
+- [Vendors & Product Blogs](#vendors-product-blogs) (198)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (216)
 
 ---
 
@@ -44,10 +45,11 @@ Total: **10**
 
 ## Cybercrime, Darknet & Leaks
 
-Total: **27**
+Total: **29**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
+| blog | Expert reverse engineering tutorials and IDA Pro tips. Weekly guides on binary analysis, malware research, decompiler techniques, and plugin development. | RSS | <https://www.hex-rays.com/blog/rss.xml> |
 | CyberCrime & Doing Time | Cybercrime and underground ecosystem coverage from CyberCrime & Doing Time. | RSS | <https://garwarner.blogspot.com/feeds/posts/default> |
 | DarknetLive Post Feed | Last 10 Recent Posts on DarknetLive |  | <https://darknetlive.com/rss> |
 | DataBreaches.net | RSS feed for DataBreaches.net, covering cybercrime, darknet & leaks news and updates. | RSS | <https://feeds.feedburner.com/OfficeOfInadequateSecurity> |
@@ -65,6 +67,7 @@ Total: **27**
 | Q-Feeds | Theat Intelligence Feeds | RSS | <https://qfeeds.com/feed> |
 | RiskAnalytics | Cybersecurity. Simplified | RSS | <https://riskanalytics.com/feed> |
 | Ryan Stillions | Postulations after great cogitation | ATOM | <https://ryanstillions.blogspot.nl/atom.xml> |
+| SANS Internet Storm Center, InfoCON: green | SANS Internet Storm Center - Cooperative Cyber Security Monitor | RSS | <https://www.dshield.org/rssfeed.xml> |
 | Security + DevOps on DevSec Hardening Framework | Recent content in Security + DevOps on DevSec Hardening Framework | RSS | <https://dev-sec.io/index.xml> |
 | Swiss Cyber Storm | Recent Blog entries on Swiss Cyber Storm | RSS | <https://www.swisscyberstorm.com/blog/index.xml> |
 | Tech Xplore - Security News | The latest news on cyber security, network security, software vulnerabilities, data leaks, malware, and viruses |  | <https://techxplore.com/rss-feed/security-news> |
@@ -78,7 +81,7 @@ Total: **27**
 
 ## DFIR & Forensics
 
-Total: **43**
+Total: **44**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -86,6 +89,7 @@ Total: **43**
 | AboutDFIR – The Definitive Compendium Project | Digital Forensics / Incident Response | RSS | <https://aboutdfir.com/feed> |
 | Amped Blog | DFIR and forensics content from Amped Blog. | RSS | <https://blog.ampedsoftware.com/feed> |
 | Another Forensics Blog | DFIR and forensics content from Another Forensics Blog. | RSS | <https://az4n6.blogspot.com/feeds/posts/default> |
+| Binalyze | Updates from Binalyze covering dfir & forensics. | RSS | <https://binalyze.com/feed> |
 | Brett Shavers | RSS feed for Brett Shavers, covering dfir & forensics news and updates. | RSS | <https://feeds.feedburner.com/brettshavers/oSyq> |
 | Cellebrite | DFIR and forensics content from Cellebrite. | RSS | <https://investors.cellebrite.com/rss/news-releases.xml> |
 | Cheeky4n6Monkey | DFIR and forensics content from Cheeky4n6Monkey. | RSS | <https://cheeky4n6monkey.blogspot.com/feeds/posts/default> |
@@ -145,7 +149,7 @@ Total: **282**
 | Adnan The Khan | Security research and blog updates from Adnan The Khan. | RSS | <https://adnanthekhan.com/feed> |
 | Adventures in IoT | Security research and blog updates from Adventures in IoT. | RSS | <https://v3rtigo.org/index.xml> |
 | Aircrack-ng | Official Aircrack-ng blog | RSS | <https://aircrack-ng.blogspot.com/feeds/posts/default?alt=rss> |
-| Allele Security Intelligence | Security research and blog updates from Allele Security Intelligence. | RSS | <https://allelesecurity.com.br/blog/feed/> |
+| Allele Security Intelligence | Security research and blog updates from Allele Security Intelligence. | RSS | <https://allelesecurity.com.br/blog/feed> |
 | Almost Secure | Security research and blog updates from Almost Secure. | RSS | <https://palant.info/rss.xml> |
 | Amal Murali | Security research and blog updates from Amal Murali. | RSS | <https://amalmurali.me/index.xml> |
 | Amit Schendel’s Blog | Security research and blog updates from Amit Schendel’s Blog. | RSS | <https://amitschendel.github.io/feed.xml> |
@@ -782,9 +786,17 @@ Total: **144**
 | What the Shell? | Welcome to ”What the Shell?” where I dive into major hacks and vulnerabilities in a way meant to be accessible by anyone. Come with me as we look at each incident through an exciting lens of curiosity. Join us on our... |  | <https://feed.podbean.com/whattheshell/feed.xml> |
 | Wild West Hackin&#x27; Fest | Video uploads from Wild West Hackin' Fest on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw> |
 
+## Security (General) & Blogs
+
+Total: **1**
+
+| Feed | Description | Type | URL |
+|---|---|---:|---|
+| Binalyze | Updates from Binalyze covering security (general). | RSS | <https://binalyze.ai/feed> |
+
 ## Vendors & Product Blogs
 
-Total: **197**
+Total: **198**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -920,6 +932,7 @@ Total: **197**
 | Qubes OS | Qubes is a security-oriented, free and open-source operating system for personal computers that allows you to securely compartmentalize your digital life. | RSS | <https://www.qubes-os.org/feed> |
 | Quick Heal Blog | Vendor security updates, advisories, and guidance from Quick Heal Blog. | RSS | <https://blogs.quickheal.com/feed> |
 | Rapid7 Blog | Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations. |  | <https://blog.rapid7.com/rss> |
+| Raymond.CC Blog | Daily updated news of useful advanced computer tips and tricks | RSS | <https://www.raymond.cc/feed> |
 | Recorded Future – Cyber TI | Vendor security updates, advisories, and guidance from Recorded Future. | RSS | <https://www.recordedfuture.com/category/cyber/feed> |
 | Recorded Future – Geopolitical | Vendor security updates, advisories, and guidance from Recorded Future. | RSS | <https://www.recordedfuture.com/category/geopolitical/feed> |
 | Red Canary | Vendor security blog and product updates from Red Canary. | RSS | <https://redcanary.com/feed> |
@@ -988,7 +1001,7 @@ Total: **197**
 
 ## Vulnerabilities, CVEs & Exploits
 
-Total: **215**
+Total: **216**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -1031,6 +1044,7 @@ Total: **215**
 | Connor McGarr’s Blog | Security research and blog updates from Connor McGarr’s Blog. | RSS | <https://connormcgarr.github.io/feed.xml> |
 | CrowdSec Blog | Latest updates and insights from CrowdSec | RSS | <https://crowdsec.net/blog/rss.xml> |
 | Csandker | Security research and blog updates from Csandker. | RSS | <https://csandker.io/feed.xml> |
+| CTFtime.org: New writeups | CTFtime.org: CTF Task writeups feed. | RSS | <https://ctftime.org/writeups/rss> |
 | CVE \| THREATINT - NEW | Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program |  | <https://cve.threatint.com/rss/new> |
 | CVEfeed.io - Latest Vulnerabilities | Continuously updated feed of newly published CVEs. | RSS | <https://cvefeed.io/rssfeed/latest.xml> |
 | CXSECURITY Database RSS Feed - CXSecurity.com | CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/all> |
