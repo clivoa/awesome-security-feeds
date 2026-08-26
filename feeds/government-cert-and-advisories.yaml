@@ -1,3 +1,8 @@
+- url: https://psirt.com/feed/kev.xml
+  category: Government / CERT & Advisories
+  title: PSIRT.COM — CISA KEV Feed
+  type: rss
+  description: Recently added Known Exploited Vulnerabilities from CISA
 - url: https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en
   category: Government, CERT & Advisories
   title: Alerts and advisories
