@@ -445,7 +445,7 @@
       <outline text="Zscaler Research Blogs" title="Zscaler Research Blogs" type="rss" xmlUrl="https://www.zscaler.com/blogs/feeds" htmlUrl="https://www.zscaler.com/blogs/feeds" description="Malware and threat research updates from Zscaler Research Blogs." />
     </outline>
     <outline text="OSINT, Communities &amp; Subreddits" title="OSINT, Communities &amp; Subreddits">
-      <outline text="/r/netsec" title="/r/netsec" type="rss" xmlUrl="https://www.reddit.com/r/netsec/.rss" htmlUrl="https://www.reddit.com/r/netsec/.rss" description="OSINT resources and community updates from /r/netsec." />
+      <outline text="/r/cybersecurity" title="/r/cybersecurity" type="rss" xmlUrl="https://www.reddit.com/r/cybersecurity/.rss" htmlUrl="https://www.reddit.com/r/cybersecurity/.rss" description="OSINT resources and community updates from /r/cybersecurity." />
       <outline text="Bad Sector Labs" title="Bad Sector Labs" type="rss" xmlUrl="https://infosec.exchange/@badsectorlabs.rss" htmlUrl="https://infosec.exchange/@badsectorlabs.rss" description="Security research and blog updates from Bad Sector Labs." />
       <outline text="Bellingcat" title="Bellingcat" type="rss" xmlUrl="https://www.bellingcat.com/feed" htmlUrl="https://www.bellingcat.com/feed" description="News, research, and updates on general security &amp; blogs from Bellingcat." />
       <outline text="Christophe :purple_potion:" title="Christophe :purple_potion:" type="rss" xmlUrl="https://infosec.exchange/@christophetd.rss" htmlUrl="https://infosec.exchange/@christophetd.rss" description="Security research and blog updates from Christophe :purple_potion:." />
@@ -807,6 +807,7 @@
       <outline text="Evan Connelly" title="Evan Connelly" type="rss" xmlUrl="https://evanconnelly.github.io/index.xml" htmlUrl="https://evanconnelly.github.io/index.xml" description="Security research and blog updates from Evan Connelly." />
       <outline text="Exploit-DB – GHDB" title="Exploit-DB – GHDB" type="rss" xmlUrl="https://www.exploit-db.com/rss___ghdb.xml" htmlUrl="https://www.exploit-db.com/rss___ghdb.xml" description="Vulnerability and exploit updates from Exploit-DB." />
       <outline text="Exploit-DB – Main RSS" title="Exploit-DB – Main RSS" type="rss" xmlUrl="https://www.exploit-db.com/rss.xml" htmlUrl="https://www.exploit-db.com/rss.xml" description="Vulnerability and exploit updates from Exploit-DB." />
+      <outline text="Exploitalert" title="Exploitalert" type="rss" xmlUrl="https://www.exploitalert.com/feed" htmlUrl="https://www.exploitalert.com/feed" description="Exploitalert - database of exploits" />
       <outline text="exploits.club" title="exploits.club" type="rss" xmlUrl="https://blog.exploits.club/rss" htmlUrl="https://blog.exploits.club/rss" description="Vulnerability and exploit updates from exploits.club." />
       <outline text="Falco – Falco" title="Falco – Falco" type="rss" xmlUrl="https://falco.org/feed.xml" htmlUrl="https://falco.org/feed.xml" description="Recent content on Falco" />
       <outline text="Falco – The Falco blog" title="Falco – The Falco blog" type="rss" xmlUrl="https://falco.org/blog/feed.xml" htmlUrl="https://falco.org/blog/feed.xml" description="Recent content in The Falco blog on Falco" />
@@ -930,6 +931,7 @@
       <outline text="White Knight Labs" title="White Knight Labs" type="rss" xmlUrl="https://whiteknightlabs.com/feed" htmlUrl="https://whiteknightlabs.com/feed" description="Security research and blog updates from White Knight Labs." />
       <outline text="WhyNotSecurity" title="WhyNotSecurity" type="rss" xmlUrl="https://whynotsecurity.com/feed.xml" htmlUrl="https://whynotsecurity.com/feed.xml" description="Security research and blog updates from WhyNotSecurity." />
       <outline text="WPScan" title="WPScan" type="rss" xmlUrl="https://wpscan.com/feed" htmlUrl="https://wpscan.com/feed" description="Updates from WPScan." />
+      <outline text="X-Force Exchange - Collection Feed" title="X-Force Exchange - Collection Feed" type="rss" xmlUrl="https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory" htmlUrl="https://exchange.xforce.ibmcloud.com/rss/collection?tag=advisory" description="Collections with tag &quot;advisory&quot;" />
       <outline text="x64dbg" title="x64dbg" type="atom" xmlUrl="https://x64dbg.com/blog/atom.xml" htmlUrl="https://x64dbg.com/blog/atom.xml" description="Updates from x64dbg." />
       <outline text="Xdavidhu Bugs" title="Xdavidhu Bugs" type="rss" xmlUrl="https://bugs.xdavidhu.me/feed.xml" htmlUrl="https://bugs.xdavidhu.me/feed.xml" description="Security research and blog updates from Xdavidhu Bugs." />
       <outline text="Zero Day Initiative - Blog" title="Zero Day Initiative - Blog" type="atom" xmlUrl="https://zerodayinitiative.com/blog/atom.xml" htmlUrl="https://zerodayinitiative.com/blog/atom.xml" description="Updates from Zero Day Initiative - Blog." />
