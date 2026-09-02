@@ -43,6 +43,7 @@
     </outline>
     <outline text="DFIR &amp; Forensics" title="DFIR &amp; Forensics">
       <outline text="13Cubed (YouTube)" title="13Cubed (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy8ntxFEudOCRZYT1f7ya9Q" description="Video updates from 13Cubed (YouTube) covering dfir &amp; forensics." />
+      <outline text="AboutDFIR – The Definitive Compendium Project" title="AboutDFIR – The Definitive Compendium Project" type="rss" xmlUrl="https://aboutdfir.com/feed" htmlUrl="https://aboutdfir.com/feed" description="Digital Forensics / Incident Response" />
       <outline text="Amped Blog" title="Amped Blog" type="rss" xmlUrl="https://blog.ampedsoftware.com/feed" htmlUrl="https://blog.ampedsoftware.com/feed" description="DFIR and forensics content from Amped Blog." />
       <outline text="Another Forensics Blog" title="Another Forensics Blog" type="rss" xmlUrl="https://az4n6.blogspot.com/feeds/posts/default" htmlUrl="https://az4n6.blogspot.com/feeds/posts/default" description="DFIR and forensics content from Another Forensics Blog." />
       <outline text="Binalyze" title="Binalyze" type="rss" xmlUrl="https://binalyze.com/feed" htmlUrl="https://binalyze.com/feed" description="Updates from Binalyze covering dfir &amp; forensics." />
@@ -131,6 +132,7 @@
       <outline text="Cybersecurity Dive - Latest News" title="Cybersecurity Dive - Latest News" type="rss" xmlUrl="https://www.cybersecuritydive.com/feeds/news" htmlUrl="https://www.cybersecuritydive.com/feeds/news" description="Cybersecurity News" />
       <outline text="Cybersecurity Ventures" title="Cybersecurity Ventures" type="rss" xmlUrl="https://cybersecurityventures.com/feed" htmlUrl="https://cybersecurityventures.com/feed" description="News, research, and updates on general security &amp; blogs from Cybersecurity Ventures." />
       <outline text="Cyberstoph's blog" title="Cyberstoph's blog" type="rss" xmlUrl="https://cyberstoph.org/index.xml" htmlUrl="https://cyberstoph.org/index.xml" description="Security research and blog updates from Cyberstoph's blog." />
+      <outline text="Cylab" title="Cylab" type="rss" xmlUrl="https://cylab.be/rss" htmlUrl="https://cylab.be/rss" description="Security research and blog updates from Cylab." />
       <outline text="Dan Revah’s Blog" title="Dan Revah’s Blog" type="rss" xmlUrl="https://danrevah.github.io/feed.xml" htmlUrl="https://danrevah.github.io/feed.xml" description="Security research and blog updates from Dan Revah’s Blog." />
       <outline text="Dana Epp's Blog" title="Dana Epp's Blog" type="rss" xmlUrl="https://danaepp.com/feed" htmlUrl="https://danaepp.com/feed" description="Security research and blog updates from Dana Epp's Blog." />
       <outline text="Daniel Miessler" title="Daniel Miessler" type="rss" xmlUrl="https://danielmiessler.com/feed.rss" htmlUrl="https://danielmiessler.com/feed.rss" description="Security, AI, and purpose from Daniel Miessler." />
@@ -308,7 +310,6 @@
       <outline text="Wojciech Reguła" title="Wojciech Reguła" type="rss" xmlUrl="https://wojciechregula.blog/rss.xml" htmlUrl="https://wojciechregula.blog/rss.xml" description="Security research and blog updates from Wojciech Reguła." />
       <outline text="Worth Doing Badly" title="Worth Doing Badly" type="rss" xmlUrl="https://worthdoingbadly.com/feed.xml" htmlUrl="https://worthdoingbadly.com/feed.xml" description="Security research and blog updates from Worth Doing Badly." />
       <outline text="Xploiterd (Medium)" title="Xploiterd (Medium)" type="rss" xmlUrl="https://medium.com/@xploiterd/feed" htmlUrl="https://medium.com/@xploiterd/feed" description="Security research and blog updates from Xploiterd (Medium)." />
-      <outline text="ZDNet – Security" title="ZDNet – Security" type="rss" xmlUrl="https://www.zdnet.com/topic/security/rss.xml" htmlUrl="https://www.zdnet.com/topic/security/rss.xml" description="News, research, and updates on general security &amp; blogs from ZDNet." />
       <outline text="Zhongquan Li’s blogs" title="Zhongquan Li’s blogs" type="rss" xmlUrl="https://imlzq.com/feed.xml" htmlUrl="https://imlzq.com/feed.xml" description="Security research and blog updates from Zhongquan Li’s blogs." />
     </outline>
     <outline text="Government, CERT &amp; Advisories" title="Government, CERT &amp; Advisories">
@@ -369,6 +370,7 @@
     </outline>
     <outline text="Malware &amp; Threat Research" title="Malware &amp; Threat Research">
       <outline text="A blog about rootkits research and the Windows kernel" title="A blog about rootkits research and the Windows kernel" type="rss" xmlUrl="https://artemonsecurity.blogspot.com/feeds/posts/default" htmlUrl="https://artemonsecurity.blogspot.com/feeds/posts/default" description="Security research and blog updates from A blog about rootkits research and the Windows kernel." />
+      <outline text="abuse.ch | IT-Security Blog" title="abuse.ch | IT-Security Blog" type="rss" xmlUrl="https://abuse.ch/feed.xml" htmlUrl="https://abuse.ch/feed.xml" description="Updates from abuse.ch | IT-Security Blog." />
       <outline text="Almond Offensive Security Blog" title="Almond Offensive Security Blog" type="rss" xmlUrl="https://offsec.almond.consulting/feeds/all.atom.xml" htmlUrl="https://offsec.almond.consulting/feeds/all.atom.xml" description="Malware and threat research updates from Almond Offensive Security Blog." />
       <outline text="Android Offensive Security Blog" title="Android Offensive Security Blog" type="rss" xmlUrl="https://androidoffsec.withgoogle.com/index.xml" htmlUrl="https://androidoffsec.withgoogle.com/index.xml" description="Malware and threat research updates from Android Offensive Security Blog." />
       <outline text="ASEC BLOG" title="ASEC BLOG" type="rss" xmlUrl="https://asec.ahnlab.com/en/feed" htmlUrl="https://asec.ahnlab.com/en/feed" description="AhnLab" />
@@ -630,6 +632,7 @@
       <outline text="Compass Security Blog" title="Compass Security Blog" type="rss" xmlUrl="https://blog.compass-security.com/feed" htmlUrl="https://blog.compass-security.com/feed" description="Offensive Defense" />
       <outline text="Core Infrastructure and Security Blog" title="Core Infrastructure and Security Blog" type="rss" xmlUrl="https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=CoreInfrastructureandSecurityBlog" htmlUrl="https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=CoreInfrastructureandSecurityBlog" description="Microsoft technical community posts with security guidance, product updates, and research." />
       <outline text="CrowdStrike Blog" title="CrowdStrike Blog" type="rss" xmlUrl="https://www.crowdstrike.com/en-us/blog/feed" htmlUrl="https://www.crowdstrike.com/en-us/blog/feed" description="Vendor security updates, advisories, and guidance from CrowdStrike Blog." />
+      <outline text="Cybereason Blog" title="Cybereason Blog" type="rss" xmlUrl="https://www.cybereason.com/blog/rss.xml" htmlUrl="https://www.cybereason.com/blog/rss.xml" description="Cybereason research, threat intelligence, and security blog updates." />
       <outline text="Cyble" title="Cyble" type="rss" xmlUrl="https://cyble.com/feed" htmlUrl="https://cyble.com/feed" description="Vendor security updates, advisories, and guidance from Cyble." />
       <outline text="Cymulate" title="Cymulate" type="rss" xmlUrl="https://cymulate.com/feed" htmlUrl="https://cymulate.com/feed" description="Vendor security blog and product updates from Cymulate." />
       <outline text="Datadog Security Labs" title="Datadog Security Labs" type="rss" xmlUrl="https://securitylabs.datadoghq.com/rss/feed.xml" htmlUrl="https://securitylabs.datadoghq.com/rss/feed.xml" description="Vendor security blog and product updates from Datadog Security Labs." />
@@ -803,6 +806,7 @@
       <outline text="Evan Connelly" title="Evan Connelly" type="rss" xmlUrl="https://evanconnelly.github.io/index.xml" htmlUrl="https://evanconnelly.github.io/index.xml" description="Security research and blog updates from Evan Connelly." />
       <outline text="Exploit-DB – GHDB" title="Exploit-DB – GHDB" type="rss" xmlUrl="https://www.exploit-db.com/rss___ghdb.xml" htmlUrl="https://www.exploit-db.com/rss___ghdb.xml" description="Vulnerability and exploit updates from Exploit-DB." />
       <outline text="Exploit-DB – Main RSS" title="Exploit-DB – Main RSS" type="rss" xmlUrl="https://www.exploit-db.com/rss.xml" htmlUrl="https://www.exploit-db.com/rss.xml" description="Vulnerability and exploit updates from Exploit-DB." />
+      <outline text="Exploitalert" title="Exploitalert" type="rss" xmlUrl="https://www.exploitalert.com/feed" htmlUrl="https://www.exploitalert.com/feed" description="Exploitalert - database of exploits" />
       <outline text="exploits.club" title="exploits.club" type="rss" xmlUrl="https://blog.exploits.club/rss" htmlUrl="https://blog.exploits.club/rss" description="Vulnerability and exploit updates from exploits.club." />
       <outline text="Falco – Falco" title="Falco – Falco" type="rss" xmlUrl="https://falco.org/feed.xml" htmlUrl="https://falco.org/feed.xml" description="Recent content on Falco" />
       <outline text="Falco – The Falco blog" title="Falco – The Falco blog" type="rss" xmlUrl="https://falco.org/blog/feed.xml" htmlUrl="https://falco.org/blog/feed.xml" description="Recent content in The Falco blog on Falco" />
