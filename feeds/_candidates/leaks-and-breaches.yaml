@@ -1,0 +1,37 @@
+- url: https://www.rapid7.com/rss.xml
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
+  discovery:
+    discovered_at: '2026-08-31T14:23:12.751531Z'
+    score: 83
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication bypass
+    - breach
+    - buffer overflow
+    - c2
+    - campaign
+    - command and control
+    - cve
+    - denial of service
+    - deserialization
+    - edr
+    - exploit
+    - forensics
+    - incident
+    - infostealer
+    - initial access
+    - intrusion
+    - ioc
+    - lateral movement
+    - loader
+    - malware
+    - metasploit
+    - patch
+    - path traversal
+    discovered_via: rel=alternate
+    url_hash: e6277b75af9f1761199b620b8f26891c1d5794f0
