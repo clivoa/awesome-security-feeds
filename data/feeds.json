@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T20:23:29.168206+00:00",
-  "total": 1108,
+  "generated_at": "2026-09-10T09:14:00.943634+00:00",
+  "total": 1114,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -71,6 +71,13 @@
       "description": "Investigative journalism &amp; creative commentary",
       "type": "",
       "category": "Crypto & Blockchain Security"
+    },
+    {
+      "url": "https://www.hex-rays.com/blog/rss.xml",
+      "title": "blog",
+      "description": "Expert reverse engineering tutorials and IDA Pro tips. Weekly guides on binary analysis, malware research, decompiler techniques, and plugin development.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
     },
     {
       "url": "https://garwarner.blogspot.com/feeds/posts/default",
@@ -189,6 +196,13 @@
       "title": "Ryan Stillions",
       "description": "Postulations after great cogitation",
       "type": "atom",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.dshield.org/rssfeed.xml",
+      "title": "SANS Internet Storm Center, InfoCON: green",
+      "description": "SANS Internet Storm Center - Cooperative Cyber Security Monitor",
+      "type": "rss",
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
@@ -2544,6 +2558,13 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://psirt.com/feed/kev.xml",
+      "title": "PSIRT.COM — CISA KEV Feed",
+      "description": "Recently added Known Exploited Vulnerabilities from CISA",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
       "title": "Alerts and advisories",
       "description": "News, research, and updates on general security & blogs from Alerts and advisories.",
@@ -4868,6 +4889,13 @@
       "category": "Podcasts & YouTube"
     },
     {
+      "url": "https://binalyze.ai/feed",
+      "title": "Binalyze",
+      "description": "Updates from Binalyze covering security (general).",
+      "type": "rss",
+      "category": "Security (General) & Blogs"
+    },
+    {
       "url": "https://blog.rootshell.be/feed",
       "title": "/dev/random",
       "description": "&quot;If the enemy leaves a door open, you must rush in.&quot; - Sun Tzu",
@@ -6527,6 +6555,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://ctftime.org/writeups/rss",
+      "title": "CTFtime.org: New writeups",
+      "description": "CTFtime.org: CTF Task writeups feed.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://cve.threatint.com/rss/new",
       "title": "CVE | THREATINT - NEW",
       "description": "Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program",
@@ -7195,6 +7230,13 @@
       "url": "https://positive.security/blog/rss.xml",
       "title": "Positive Security | IT Security research and happy coincidences",
       "description": "Security research and blog updates from Positive Security | IT Security research and happy coincidences.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://psirt.com/feed/cves.xml",
+      "title": "PSIRT.COM — Latest CVEs",
+      "description": "Recently published CVEs with enriched vulnerability intelligence",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
