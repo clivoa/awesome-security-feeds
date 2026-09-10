@@ -1,0 +1,95 @@
+- url: https://eternal-todo.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: eternal-todo.com
+  type: rss
+  description: Updates from eternal-todo.com covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-08-31T13:42:38.422380Z'
+    score: 50
+    matched_keywords:
+    - 0day
+    - apt
+    - botnet
+    - c2
+    - campaign
+    - cve
+    - dfir
+    - edr
+    - exploit
+    - heap spray
+    - incident
+    - loader
+    - malware
+    - patch
+    - payload
+    - persistence
+    - privilege escalation
+    - ransomware
+    - rce
+    - reverse engineering
+    - technique
+    - trojan
+    - ttp
+    - use-after-free
+    - vuln
+    discovered_via: rel=alternate
+    url_hash: 3f79dce7821935857cbe1010129565d95b2639cf
+- url: http://www.spiderfoot.net/feed/
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+  discovery:
+    discovered_at: '2026-08-31T13:31:46.554404Z'
+    score: 31
+    matched_keywords:
+    - breach
+    - edr
+    - ioc
+    - malware
+    - patch
+    - phishing
+    - ransomware
+    - siem
+    - supply chain attack
+    - tactic
+    - technique
+    - threat actor
+    - threat intelligence
+    - trojan
+    - vuln
+    discovered_via: common_path
+    url_hash: 8af8e793ef601ad6efb2c4321b30c60f8982cd4e
+- url: https://www.swisscyberstorm.com/feed/
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+  discovery:
+    discovered_at: '2026-08-31T14:27:49.035915Z'
+    score: 43
+    matched_keywords:
+    - apt
+    - breach
+    - bug bounty
+    - c2
+    - campaign
+    - exploit
+    - forensics
+    - incident
+    - malware
+    - ransomware
+    - rce
+    - red team
+    - reverse engineering
+    - security research
+    - siem
+    - tactic
+    - threat intelligence
+    - ttp
+    - vuln
+    - vulnerability
+    - vulnerability disclosure
+    discovered_via: common_path
+    url_hash: b78b15056fe8549b1e9aa5848eb8a49ca62de071

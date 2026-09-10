@@ -1,0 +1,62 @@
+- url: https://www.offensive-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+  discovery:
+    discovered_at: '2026-08-31T14:21:09.141393Z'
+    score: 28
+    matched_keywords:
+    - cve
+    - exploit
+    - incident
+    - penetration testing
+    - pentest
+    - rce
+    - red team
+    - technique
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: 6d4bc3d68988aa942ebe98bad5ec17fccf867eec
+- url: https://www.percona.com/feed
+  category: Government / CERT & Advisories
+  title: Percona
+  type: rss
+  description: The Way is Open
+  discovery:
+    discovered_at: '2026-08-31T14:21:46.144898Z'
+    score: 25
+    matched_keywords:
+    - advisory
+    - c2
+    - cve
+    - rce
+    - security advisory
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: b94cfeffc0609324a81a0af7a23f22bcfbaf3580
+- url: http://www.securityfocus.com/feed/kev.xml
+  category: Government / CERT & Advisories
+  title: PSIRT.COM — CISA KEV Feed
+  type: rss
+  description: Recently added Known Exploited Vulnerabilities from CISA
+  discovery:
+    discovered_at: '2026-08-31T13:29:55.960355Z'
+    score: 34
+    matched_keywords:
+    - apt
+    - command injection
+    - cve
+    - denial of service
+    - exploit
+    - rce
+    - remote code execution
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: 60fc0ee35d7ba242c24ee684fb606e12c30c4655

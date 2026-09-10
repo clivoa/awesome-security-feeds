@@ -1,0 +1,14 @@
+- url: https://pypi.python.org/rss/updates.xml
+  category: Vendors & Product Blogs
+  title: PyPI recent updates
+  type: rss
+  description: Recent updates to the Python Package Index
+  discovery:
+    discovered_at: '2026-08-31T14:00:30.468536Z'
+    score: 12
+    matched_keywords:
+    - apt
+    - rce
+    - ssrf
+    discovered_via: rel=alternate
+    url_hash: 24def2d1049193d7a0928aa128deb5f4c033c9dc
