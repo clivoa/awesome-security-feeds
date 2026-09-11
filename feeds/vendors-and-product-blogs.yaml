@@ -676,6 +676,11 @@
   type: rss
   description: Vendor security updates, advisories, and guidance from Protegent 360
     Blog.
+- url: https://pypi.python.org/rss/updates.xml
+  category: Vendors & Product Blogs
+  title: PyPI recent updates
+  type: rss
+  description: Recent updates to the Python Package Index
 - url: https://blog.qualys.com/feed
   category: Vendors & Product Blogs
   title: Qualys Blog

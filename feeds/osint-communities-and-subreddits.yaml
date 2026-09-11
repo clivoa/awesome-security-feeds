@@ -79,6 +79,11 @@
   description: A public, vendor-neutral forum for detailed discussion of vulnerabilities
     and exploitation techniques, as well as tools, papers, news, and events of interest
     to the community. The relaxed atmosphere of this quirky lis...
+- url: https://hashcat.net/forum/syndication.php?fid=19&type=atom1.0
+  category: OSINT, Communities & Subreddits
+  title: hashcat Forum - Very old oclHashcat-plus Announcements
+  type: atom
+  description: hashcat Forum - https://hashcat.net/forum
 - url: https://www.reddit.com/r/InfoSecNews
   category: OSINT, Communities & Subreddits
   title: Information Security News
@@ -102,6 +107,12 @@
   title: NetBlocks
   type: ''
   description: Mapping Internet Freedom
+- url: https://www.whonix.org/blog/feed
+  category: OSINT, Communities & Subreddits
+  title: News - Whonix Forum
+  type: rss
+  description: Topics in the 'News' category News posted by Whonix staff. The Whonix
+    Blog. <a href="https://www.whonix.org/wiki/Stay_Tuned">Stay Tuned</a>. (<a href="https://www.whonix.org/wiki/Stay_Tuned#Whonix_News_Forums">rss</a>)
 - url: https://seclists.org/rss/nmap-dev.rss
   category: OSINT, Communities & Subreddits
   title: Nmap Development

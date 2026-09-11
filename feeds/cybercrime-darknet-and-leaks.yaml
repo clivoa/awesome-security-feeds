@@ -33,6 +33,11 @@
   type: ''
   description: New releases from Distributed Denial of Secrets, a transparency collective
     publishing interesting data.
+- url: https://eternal-todo.com/rss.xml
+  category: Cybercrime, Darknet & Leaks
+  title: eternal-todo.com
+  type: rss
+  description: Updates from eternal-todo.com covering vulnerabilities, cves.
 - url: https://eternal-todo.com/blog/feed
   category: Cybercrime, Darknet & Leaks
   title: eternal-todo.com blogs
@@ -50,6 +55,12 @@
   type: rss
   description: News, research, and updates on general security & blogs from HACKMAGEDDON.
 - url: https://www.spiderfoot.net/blog/feed
+  category: Cybercrime, Darknet & Leaks
+  title: Intel 471 Blog
+  type: rss
+  description: The latest threat intelligence insights and security research from
+    Intel 471
+- url: https://www.spiderfoot.net/feed
   category: Cybercrime, Darknet & Leaks
   title: Intel 471 Blog
   type: rss
@@ -106,6 +117,11 @@
   type: rss
   description: Recent content in Security + DevOps on DevSec Hardening Framework
 - url: https://www.swisscyberstorm.com/blog/index.xml
+  category: Cybercrime, Darknet & Leaks
+  title: Swiss Cyber Storm
+  type: rss
+  description: Recent Blog entries on Swiss Cyber Storm
+- url: https://www.swisscyberstorm.com/feed
   category: Cybercrime, Darknet & Leaks
   title: Swiss Cyber Storm
   type: rss

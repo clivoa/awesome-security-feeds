@@ -1,4 +1,20 @@
+- url: https://www.offensive-security.com/rss.xml
+  category: Government / CERT & Advisories
+  title: OffSec RSS Feed
+  type: rss
+  description: Establish & advance your career with Offensive Security's online cybersecurity
+    training, courses and certifications. Develop the Try Harder mindset today!
+- url: https://www.percona.com/feed
+  category: Government / CERT & Advisories
+  title: Percona
+  type: rss
+  description: The Way is Open
 - url: https://psirt.com/feed/kev.xml
+  category: Government / CERT & Advisories
+  title: PSIRT.COM — CISA KEV Feed
+  type: rss
+  description: Recently added Known Exploited Vulnerabilities from CISA
+- url: https://www.securityfocus.com/feed/kev.xml
   category: Government / CERT & Advisories
   title: PSIRT.COM — CISA KEV Feed
   type: rss

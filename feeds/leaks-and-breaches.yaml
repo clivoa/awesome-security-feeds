@@ -67,6 +67,12 @@
   type: rss
   description: Subscribe to our RSS feed to stay up to date with what's fresh in the
     Maltego world.
+- url: https://www.rapid7.com/rss.xml
+  category: Leaks & Breaches
+  title: Rapid7 Cybersecurity Blog
+  type: rss
+  description: Rapid7 transforms data into insight, empowering security professionals
+    to progress and protect their organizations.
 - url: https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml
   category: Leaks & Breaches
   title: security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle
