@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T09:14:00.943634+00:00",
-  "total": 1114,
+  "generated_at": "2026-09-14T17:45:10.147316+00:00",
+  "total": 1136,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -115,6 +115,13 @@
       "category": "Cybercrime, Darknet & Leaks"
     },
     {
+      "url": "https://eternal-todo.com/rss.xml",
+      "title": "eternal-todo.com",
+      "description": "Updates from eternal-todo.com covering vulnerabilities, cves.",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
       "url": "https://eternal-todo.com/blog/feed",
       "title": "eternal-todo.com blogs",
       "description": "Updates from eternal-todo.com blogs.",
@@ -137,6 +144,13 @@
     },
     {
       "url": "https://www.spiderfoot.net/blog/feed",
+      "title": "Intel 471 Blog",
+      "description": "The latest threat intelligence insights and security research from Intel 471",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.spiderfoot.net/feed",
       "title": "Intel 471 Blog",
       "description": "The latest threat intelligence insights and security research from Intel 471",
       "type": "rss",
@@ -214,6 +228,13 @@
     },
     {
       "url": "https://www.swisscyberstorm.com/blog/index.xml",
+      "title": "Swiss Cyber Storm",
+      "description": "Recent Blog entries on Swiss Cyber Storm",
+      "type": "rss",
+      "category": "Cybercrime, Darknet & Leaks"
+    },
+    {
+      "url": "https://www.swisscyberstorm.com/feed",
       "title": "Swiss Cyber Storm",
       "description": "Recent Blog entries on Swiss Cyber Storm",
       "type": "rss",
@@ -2558,7 +2579,28 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://www.offensive-security.com/rss.xml",
+      "title": "OffSec RSS Feed",
+      "description": "Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today!",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.percona.com/feed",
+      "title": "Percona",
+      "description": "The Way is Open",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
       "url": "https://psirt.com/feed/kev.xml",
+      "title": "PSIRT.COM — CISA KEV Feed",
+      "description": "Recently added Known Exploited Vulnerabilities from CISA",
+      "type": "rss",
+      "category": "Government / CERT & Advisories"
+    },
+    {
+      "url": "https://www.securityfocus.com/feed/kev.xml",
       "title": "PSIRT.COM — CISA KEV Feed",
       "description": "Recently added Known Exploited Vulnerabilities from CISA",
       "type": "rss",
@@ -2978,6 +3020,13 @@
       "category": "Leaks & Breaches"
     },
     {
+      "url": "https://www.rapid7.com/rss.xml",
+      "title": "Rapid7 Cybersecurity Blog",
+      "description": "Rapid7 transforms data into insight, empowering security professionals to progress and protect their organizations.",
+      "type": "rss",
+      "category": "Leaks & Breaches"
+    },
+    {
       "url": "https://www.security-incidents.de/rss/sicherheitsvorfaelle.xml",
       "title": "security-incidents.de – Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle",
       "description": "Datenpannen, Cyber-Atacken und andere Sicherheitsvorfälle",
@@ -3258,6 +3307,13 @@
       "category": "Malware & Threat Research"
     },
     {
+      "url": "https://hackingthe.cloud/feed_rss_updated.xml",
+      "title": "Hacking The Cloud",
+      "description": "The encyclopedia for offensive security in the cloud.",
+      "type": "rss",
+      "category": "Malware & Threat Research"
+    },
+    {
       "url": "https://feeds.feedburner.com/InformationSecurityBuzz",
       "title": "Information Security Buzz",
       "description": "Information Security News With Experts Analysis.",
@@ -3276,6 +3332,13 @@
       "title": "ITPro",
       "description": "We provide the most comprehensive content to aid B2B IT decision making.",
       "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://gitlab.com/kalilinux.atom",
+      "title": "Kali Linux activity",
+      "description": "Updates from Kali Linux activity covering threat intel.",
+      "type": "atom",
       "category": "Malware & Threat Research"
     },
     {
@@ -3769,6 +3832,13 @@
       "category": "OSINT, Communities & Subreddits"
     },
     {
+      "url": "https://hashcat.net/forum/syndication.php?fid=19&type=atom1.0",
+      "title": "hashcat Forum - Very old oclHashcat-plus Announcements",
+      "description": "hashcat Forum - https://hashcat.net/forum",
+      "type": "atom",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
       "url": "https://www.reddit.com/r/InfoSecNews",
       "title": "Information Security News",
       "description": "This subreddit is designed for users to post the latest Information Security related news and articles from around the Internet.",
@@ -3794,6 +3864,13 @@
       "title": "NetBlocks",
       "description": "Mapping Internet Freedom",
       "type": "",
+      "category": "OSINT, Communities & Subreddits"
+    },
+    {
+      "url": "https://www.whonix.org/blog/feed",
+      "title": "News - Whonix Forum",
+      "description": "Topics in the 'News' category News posted by Whonix staff. The Whonix Blog. <a href=\"https://www.whonix.org/wiki/Stay_Tuned\">Stay Tuned</a>. (<a href=\"https://www.whonix.org/wiki/Stay_Tuned#Whonix_News_Forums\">rss</a>)",
+      "type": "rss",
       "category": "OSINT, Communities & Subreddits"
     },
     {
@@ -5771,6 +5848,13 @@
       "category": "Vendors & Product Blogs"
     },
     {
+      "url": "https://pypi.python.org/rss/updates.xml",
+      "title": "PyPI recent updates",
+      "description": "Recent updates to the Python Package Index",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
       "url": "https://blog.qualys.com/feed",
       "title": "Qualys Blog",
       "description": "Qualys blog updates on vulnerabilities, threat research, and security best practices.",
@@ -6394,6 +6478,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://binarymist.io/index.xml",
+      "title": "BinaryMist",
+      "description": "BinaryMist",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://blog.bitsadmin.com/feed",
       "title": "BITSADMIN Blog - Mystery guest in your IT infrastructure",
       "description": "Security research and blog updates from BITSADMIN Blog - Mystery guest in your IT infrastructure.",
@@ -6419,6 +6510,13 @@
       "title": "Blockchain Threat Intelligence",
       "description": "The latest in blockchain, DeFi and exchange threat intelligence on hacks, vulnerabilities, security tools, and events.",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.crowdstrike.com/blog/feed",
+      "title": "Blog",
+      "description": "Updates from Blog covering vulnerabilities, cves.",
+      "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
@@ -6541,6 +6639,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.corelan.be/index.php/feed",
+      "title": "Corelan | Exploit Development & Vulnerability Research",
+      "description": "Corelan publishes in-depth tutorials on exploit development, Windows exploitation, vulnerability research, heap internals, reverse engineering and security tooling used by professionals worldwide.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://crowdsec.net/blog/rss.xml",
       "title": "CrowdSec Blog",
       "description": "Latest updates and insights from CrowdSec",
@@ -6656,6 +6761,13 @@
       "url": "https://blog.doyensec.com/atom.xml",
       "title": "Doyensec's Blog",
       "description": "Security research and blog updates from Doyensec's Blog.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://drkeithjones.com/index.php/feed",
+      "title": "DrKeithJones.com",
+      "description": "A cybersecurity researcher's journey.",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -6975,6 +7087,13 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.kali.org/rss.xml",
+      "title": "Kali Linux",
+      "description": "Home of Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://feeds.feedburner.com/PentestTools",
       "title": "KitPloit - PenTest Tools!",
       "description": "KitPloit - leading source of Security Tools, Hacking Tools, CyberSecurity and Network Security ☣",
@@ -7234,7 +7353,21 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://www.securityfocus.com/feed/advisories.xml",
+      "title": "PSIRT.COM — Latest Advisories",
+      "description": "Recently published security advisories",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://psirt.com/feed/cves.xml",
+      "title": "PSIRT.COM — Latest CVEs",
+      "description": "Recently published CVEs with enriched vulnerability intelligence",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.securityfocus.com/feed/cves.xml",
       "title": "PSIRT.COM — Latest CVEs",
       "description": "Recently published CVEs with enriched vulnerability intelligence",
       "type": "rss",
@@ -7258,6 +7391,13 @@
       "url": "https://blog.quarkslab.com/feeds/all.atom.xml",
       "title": "Quarkslab's blog",
       "description": "Security research and blog updates from Quarkslab's blog.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.rfxn.com/feed.xml",
+      "title": "R-fx Networks",
+      "description": "Open source Linux security and systems tools from R-fx Networks.",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7335,6 +7475,13 @@
       "url": "https://v3ded.github.io/feed.xml",
       "title": "root@V3dedBlog:~#",
       "description": "Security research and blog updates from root@V3dedBlog:~#.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.rudder.io/feed",
+      "title": "Rudder",
+      "description": "Infrastructure management and security software",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7783,6 +7930,13 @@
       "url": "https://bugs.xdavidhu.me/feed.xml",
       "title": "Xdavidhu Bugs",
       "description": "Security research and blog updates from Xdavidhu Bugs.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://www.xplico.org/feed",
+      "title": "Xplico",
+      "description": "Open Source Network Forensic Analysis Tool (NFAT)",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
