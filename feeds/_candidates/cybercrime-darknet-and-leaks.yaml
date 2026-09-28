@@ -1,0 +1,35 @@
+- url: http://def.camp/feed
+  category: Cybercrime, Darknet & Leaks
+  title: DefCamp 2026
+  type: rss
+  description: International Hacking & Cyber Security Conference
+  discovery:
+    discovered_at: '2026-09-28T12:59:29.980186Z'
+    score: 21
+    matched_keywords:
+    - denial of service
+    - patch
+    - ransomware
+    - rce
+    - threat actor
+    - ttp
+    - vuln
+    - vulnerability
+    discovered_via: common_path
+    url_hash: aadf705bbc6a70587c40515c250a93c98564e2da
+- url: https://nostarch.com/feeds/comingsoon.xml
+  category: Cybercrime, Darknet & Leaks
+  title: No Starch Press - Coming Soon
+  type: rss
+  description: Keep an eye on what's coming out down the line.
+  discovery:
+    discovered_at: '2026-09-28T13:55:28.695537Z'
+    score: 12
+    matched_keywords:
+    - malware
+    - ransomware
+    - red team
+    - ttp
+    - vuln
+    discovered_via: rel=alternate
+    url_hash: 7c599320efafe0f547c90f10a8848a6480265635
