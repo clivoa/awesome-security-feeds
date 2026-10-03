@@ -1,0 +1,14 @@
+- url: https://blog.jetbrains.com/feed/
+  category: Security (General) & Blogs
+  title: The JetBrains Blog
+  type: rss
+  description: Developer Tools for Professionals and Teams
+  discovery:
+    discovered_at: '2026-09-28T14:17:43.778248Z'
+    score: 12
+    matched_keywords:
+    - apt
+    - rce
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 18373bb5684a0a00e3280b15c1faa282f59c2ef9
