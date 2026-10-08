@@ -1,0 +1,16 @@
+- url: http://www.modsecurity.org/index.xml
+  category: Government / CERT & Advisories
+  title: ModSecurity Project – Open-Source Web Application Firewall on ModSecurity
+    Project
+  type: rss
+  description: Recent content in ModSecurity Project
+  discovery:
+    discovered_at: '2026-10-05T14:12:42.535624Z'
+    score: 15
+    matched_keywords:
+    - advisory
+    - cve
+    - vuln
+    - vulnerability
+    discovered_via: rel=alternate
+    url_hash: fa0635624f08077777f84e11110cf4165c72134e
