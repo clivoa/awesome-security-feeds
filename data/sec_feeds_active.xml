@@ -259,7 +259,6 @@
       <outline text="Slowerzs' blog" title="Slowerzs' blog" type="rss" xmlUrl="https://blog.slowerzs.net/index.xml" htmlUrl="https://blog.slowerzs.net/index.xml" description="Security research and blog updates from Slowerzs' blog." />
       <outline text="Sockpuppets (Medium)" title="Sockpuppets (Medium)" type="rss" xmlUrl="https://sockpuppets.medium.com/feed" htmlUrl="https://sockpuppets.medium.com/feed" description="Security research and blog updates from Sockpuppets (Medium)." />
       <outline text="Soufianehabti (Medium)" title="Soufianehabti (Medium)" type="rss" xmlUrl="https://medium.com/@soufianehabti/feed" htmlUrl="https://medium.com/@soufianehabti/feed" description="Security research and blog updates from Soufianehabti (Medium)." />
-      <outline text="Sternumiot" title="Sternumiot" type="rss" xmlUrl="https://sternumiot.com/feed" htmlUrl="https://sternumiot.com/feed" description="Security research and blog updates from Sternumiot." />
       <outline text="Steve on Security" title="Steve on Security" type="rss" xmlUrl="https://syfuhs.net/feed/atom" htmlUrl="https://syfuhs.net/feed/atom" description="Security research and blog updates from Steve on Security." />
       <outline text="Stories by bilal al-qurneh on Medium" title="Stories by bilal al-qurneh on Medium" type="rss" xmlUrl="https://medium.com/@0xcc00/feed" htmlUrl="https://medium.com/@0xcc00/feed" description="Security research and blog updates from Stories by bilal al-qurneh on Medium." />
       <outline text="Stories by Bobbyr on Medium" title="Stories by Bobbyr on Medium" type="rss" xmlUrl="https://medium.com/@bobbyrsec/feed" htmlUrl="https://medium.com/@bobbyrsec/feed" description="Security research and blog updates from Stories by Bobbyr on Medium." />
@@ -309,9 +308,9 @@
       <outline text="Zhongquan Li’s blogs" title="Zhongquan Li’s blogs" type="rss" xmlUrl="https://imlzq.com/feed.xml" htmlUrl="https://imlzq.com/feed.xml" description="Security research and blog updates from Zhongquan Li’s blogs." />
     </outline>
     <outline text="Government / CERT &amp; Advisories" title="Government / CERT &amp; Advisories">
-      <outline text="OffSec RSS Feed" title="OffSec RSS Feed" type="rss" xmlUrl="https://www.offensive-security.com/rss.xml" htmlUrl="https://www.offensive-security.com/rss.xml" description="Establish &amp; advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today!" />
       <outline text="Percona" title="Percona" type="rss" xmlUrl="https://www.percona.com/feed" htmlUrl="https://www.percona.com/feed" description="The Way is Open" />
       <outline text="PSIRT.COM — CISA KEV Feed" title="PSIRT.COM — CISA KEV Feed" type="rss" xmlUrl="https://psirt.com/feed/kev.xml" htmlUrl="https://psirt.com/feed/kev.xml" description="Recently added Known Exploited Vulnerabilities from CISA" />
+      <outline text="PSIRT.COM — CISA KEV Feed" title="PSIRT.COM — CISA KEV Feed" type="rss" xmlUrl="https://www.securityfocus.com/feed/kev.xml" htmlUrl="https://www.securityfocus.com/feed/kev.xml" description="Recently added Known Exploited Vulnerabilities from CISA" />
     </outline>
     <outline text="Government, CERT &amp; Advisories" title="Government, CERT &amp; Advisories">
       <outline text="Alerts and advisories" title="Alerts and advisories" type="atom" xmlUrl="https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&amp;lang=en" htmlUrl="https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&amp;lang=en" description="News, research, and updates on general security &amp; blogs from Alerts and advisories." />
@@ -447,7 +446,7 @@
       <outline text="Zscaler Research Blogs" title="Zscaler Research Blogs" type="rss" xmlUrl="https://www.zscaler.com/blogs/feeds" htmlUrl="https://www.zscaler.com/blogs/feeds" description="Malware and threat research updates from Zscaler Research Blogs." />
     </outline>
     <outline text="OSINT, Communities &amp; Subreddits" title="OSINT, Communities &amp; Subreddits">
-      <outline text="/r/netsec" title="/r/netsec" type="rss" xmlUrl="https://www.reddit.com/r/netsec/.rss" htmlUrl="https://www.reddit.com/r/netsec/.rss" description="OSINT resources and community updates from /r/netsec." />
+      <outline text="/r/cybersecurity" title="/r/cybersecurity" type="rss" xmlUrl="https://www.reddit.com/r/cybersecurity/.rss" htmlUrl="https://www.reddit.com/r/cybersecurity/.rss" description="OSINT resources and community updates from /r/cybersecurity." />
       <outline text="Bad Sector Labs" title="Bad Sector Labs" type="rss" xmlUrl="https://infosec.exchange/@badsectorlabs.rss" htmlUrl="https://infosec.exchange/@badsectorlabs.rss" description="Security research and blog updates from Bad Sector Labs." />
       <outline text="Bellingcat" title="Bellingcat" type="rss" xmlUrl="https://www.bellingcat.com/feed" htmlUrl="https://www.bellingcat.com/feed" description="News, research, and updates on general security &amp; blogs from Bellingcat." />
       <outline text="Christophe :purple_potion:" title="Christophe :purple_potion:" type="rss" xmlUrl="https://infosec.exchange/@christophetd.rss" htmlUrl="https://infosec.exchange/@christophetd.rss" description="Security research and blog updates from Christophe :purple_potion:." />
@@ -877,6 +876,7 @@
       <outline text="Palo Alto Networks Security Advisories" title="Palo Alto Networks Security Advisories" type="rss" xmlUrl="https://security.paloaltonetworks.com/rss.xml" htmlUrl="https://security.paloaltonetworks.com/rss.xml" description="Official security advisories for Palo Alto Networks products." />
       <outline text="Percona Database Performance Blog" title="Percona Database Performance Blog" type="rss" xmlUrl="https://www.percona.com/blog/feed" htmlUrl="https://www.percona.com/blog/feed" description="Updates from Percona Database Performance Blog." />
       <outline text="PSIRT.COM — Latest CVEs" title="PSIRT.COM — Latest CVEs" type="rss" xmlUrl="https://psirt.com/feed/cves.xml" htmlUrl="https://psirt.com/feed/cves.xml" description="Recently published CVEs with enriched vulnerability intelligence" />
+      <outline text="PSIRT.COM — Latest CVEs" title="PSIRT.COM — Latest CVEs" type="rss" xmlUrl="https://www.securityfocus.com/feed/cves.xml" htmlUrl="https://www.securityfocus.com/feed/cves.xml" description="Recently published CVEs with enriched vulnerability intelligence" />
       <outline text="Pwning Tech" title="Pwning Tech" type="rss" xmlUrl="https://pwning.tech/rss" htmlUrl="https://pwning.tech/rss" description="Security research and blog updates from Pwning Tech." />
       <outline text="Quarkslab's blog" title="Quarkslab's blog" type="rss" xmlUrl="https://blog.quarkslab.com/feeds/all.atom.xml" htmlUrl="https://blog.quarkslab.com/feeds/all.atom.xml" description="Security research and blog updates from Quarkslab's blog." />
       <outline text="R-fx Networks" title="R-fx Networks" type="rss" xmlUrl="https://www.rfxn.com/feed.xml" htmlUrl="https://www.rfxn.com/feed.xml" description="Open source Linux security and systems tools from R-fx Networks." />
