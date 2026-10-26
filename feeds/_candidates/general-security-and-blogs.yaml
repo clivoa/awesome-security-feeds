@@ -1,0 +1,45 @@
+- url: https://geti2p.net/en/index.xml
+  category: Security (General) & Blogs
+  title: I2P - The Invisible Internet Project
+  type: rss
+  description: Recent content on I2P - The Invisible Internet Project
+  discovery:
+    discovered_at: '2026-10-26T13:13:06.190249Z'
+    score: 13
+    matched_keywords:
+    - c2
+    - docker
+    - rce
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 3538afc86d924ad35374b6107c037c3af2364783
+- url: https://mitmproxy.org/index.xml
+  category: Security (General) & Blogs
+  title: mitmproxy - an interactive HTTPS proxy on mitmproxy.org
+  type: rss
+  description: Recent content in mitmproxy - an interactive HTTPS proxy on mitmproxy.org
+  discovery:
+    discovered_at: '2026-10-26T13:18:17.882465Z'
+    score: 15
+    matched_keywords:
+    - apt
+    - c2
+    - rce
+    - ttp
+    discovered_via: common_path
+    url_hash: a74fda135aa169a0fc89d6aa775d8a3d0c0828df
+- url: https://mitmproxy.org/posts/index.xml
+  category: Security (General) & Blogs
+  title: Posts on mitmproxy.org
+  type: rss
+  description: Recent content in Posts on mitmproxy.org
+  discovery:
+    discovered_at: '2026-10-26T13:18:14.319159Z'
+    score: 15
+    matched_keywords:
+    - apt
+    - c2
+    - rce
+    - ttp
+    discovered_via: rel=alternate
+    url_hash: 52042095ef3185429fa196b98f3e1d6531df6c81

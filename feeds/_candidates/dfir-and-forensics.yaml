@@ -1,0 +1,32 @@
+- url: https://ghostproject.fr/blog/feed
+  category: DFIR & Forensics
+  title: Blog - GhostProject
+  type: rss
+  description: Updates from Blog - GhostProject covering dfir & forensics.
+  discovery:
+    discovered_at: '2026-10-26T13:13:19.870215Z'
+    score: 12
+    matched_keywords:
+    - incident
+    - phishing
+    - rce
+    - ttp
+    - vuln
+    discovered_via: common_path
+    url_hash: c01fa1adeecad3f1b5085900f581789acd835c2f
+- url: https://ghostproject.fr/feed/
+  category: DFIR & Forensics
+  title: GhostProject
+  type: rss
+  description: Updates from GhostProject covering dfir & forensics.
+  discovery:
+    discovered_at: '2026-10-26T13:13:15.536208Z'
+    score: 12
+    matched_keywords:
+    - incident
+    - phishing
+    - rce
+    - ttp
+    - vuln
+    discovered_via: rel=alternate
+    url_hash: e7b5681bf4f09ab65185637441234fe4e8833afe
