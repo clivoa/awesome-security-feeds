@@ -670,6 +670,11 @@
   title: Jfmeee (Hashnode)
   type: rss
   description: Security research and blog updates from Jfmeee (Hashnode).
+- url: https://joho-todai.com/tag/security/rss/
+  category: General Security & Blogs
+  title: Joho no Todai — Security
+  type: rss
+  description: Security-related technology news and analysis from Joho no Todai (Japanese-language feed).
 - url: https://johnjhacking.com/index.xml
   category: General Security & Blogs
   title: John J Hacking
