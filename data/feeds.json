@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:36:34.810691+00:00",
-  "total": 1138,
+  "generated_at": "2026-11-05T19:36:37.672984+00:00",
+  "total": 1140,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -6671,6 +6671,20 @@
       "title": "CVE | THREATINT - NEW",
       "description": "Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program",
       "type": "",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://cve.now/feed?filter=kev",
+      "title": "cve.now - CISA Known Exploited Vulnerabilities",
+      "description": "New CISA KEV entries, each merged with CVE, GHSA, OSV, NVD and EPSS data.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://cve.now/feed?filter=critical",
+      "title": "cve.now - Critical vulnerabilities",
+      "description": "Critical CVEs (CISA KEV or CVSS 9+ in widely used software), merged from CVE, GHSA, OSV, NVD, EUVD and more.",
+      "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
