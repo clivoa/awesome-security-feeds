@@ -934,6 +934,11 @@
   title: Paged Out! Magazine
   type: rss
   description: Security research and blog updates from Paged Out! Magazine.
+- url: https://parrotlinux.org/feed/
+  category: General Security & Blogs
+  title: Parrot Linux
+  type: rss
+  description: Security distribution news, technical guides, and project updates from Parrot Linux.
 - url: https://pascscha.ch/weblog/rss
   category: General Security & Blogs
   title: Pascal Schärli
