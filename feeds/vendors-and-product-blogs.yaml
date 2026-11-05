@@ -543,6 +543,11 @@
   type: rss
   description: Microsoft technical community posts with security guidance, product
     updates, and research.
+- url: https://www.mitmproxy.org/index.xml
+  category: Vendors & Product Blogs
+  title: mitmproxy
+  type: rss
+  description: Technical releases, research, and usage guides from the mitmproxy project.
 - url: https://modsecurity.org/index.xml
   category: Vendors & Product Blogs
   title: ModSecurity Project

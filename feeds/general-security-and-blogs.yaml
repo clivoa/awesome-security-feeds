@@ -504,6 +504,11 @@
   type: rss
   description: News, research, and updates on general security & blogs from GBHackers
     News.
+- url: https://ghostproject.fr/feed/
+  category: General Security & Blogs
+  title: GhostProject
+  type: rss
+  description: French-language cybersecurity, privacy, and defensive technology articles from GhostProject.
 - url: https://goingbeyondgrep.com/index.xml
   category: General Security & Blogs
   title: Going Beyond Grep
@@ -618,6 +623,11 @@
   title: home on sillywa.re
   type: rss
   description: Security research and blog updates from home on sillywa.re.
+- url: https://i2p.net/en/index.xml
+  category: General Security & Blogs
+  title: I2P - The Invisible Internet Project
+  type: rss
+  description: Privacy network releases, security updates, and project news from I2P.
 - url: https://ii4gsp.github.io/atom.xml
   category: General Security & Blogs
   title: ii4gsp
