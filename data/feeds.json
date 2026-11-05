@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T17:45:10.147316+00:00",
-  "total": 1136,
+  "generated_at": "2026-11-05T19:36:37.672984+00:00",
+  "total": 1140,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -6674,6 +6674,20 @@
       "category": "Vulnerabilities, CVEs & Exploits"
     },
     {
+      "url": "https://cve.now/feed?filter=kev",
+      "title": "cve.now - CISA Known Exploited Vulnerabilities",
+      "description": "New CISA KEV entries, each merged with CVE, GHSA, OSV, NVD and EPSS data.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://cve.now/feed?filter=critical",
+      "title": "cve.now - Critical vulnerabilities",
+      "description": "Critical CVEs (CISA KEV or CVSS 9+ in widely used software), merged from CVE, GHSA, OSV, NVD, EUVD and more.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
       "url": "https://cvefeed.io/rssfeed/latest.xml",
       "title": "CVEfeed.io - Latest Vulnerabilities",
       "description": "Continuously updated feed of newly published CVEs.",
@@ -6971,6 +6985,13 @@
       "url": "https://haxx.in/index.xml",
       "title": "Haxx",
       "description": "Security research and blog updates from Haxx.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://ichi.global/api/alerts",
+      "title": "ICHI — Internet Cyber Health Index",
+      "description": "Critical exploitation alerts from the Internet Cyber Health Index. Fires when a CVE crosses into or out of active-exploitation CRITICAL status, citing CISA KEV and named source advisories. Free, publicly accessible, source-transparent.",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
@@ -7349,6 +7370,13 @@
       "url": "https://positive.security/blog/rss.xml",
       "title": "Positive Security | IT Security research and happy coincidences",
       "description": "Security research and blog updates from Positive Security | IT Security research and happy coincidences.",
+      "type": "rss",
+      "category": "Vulnerabilities, CVEs & Exploits"
+    },
+    {
+      "url": "https://psirt.com/feed/advisories.xml",
+      "title": "PSIRT.COM — Latest Advisories",
+      "description": "Recently published security advisories",
       "type": "rss",
       "category": "Vulnerabilities, CVEs & Exploits"
     },
