@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:40:41.206143+00:00",
-  "total": 1146,
+  "generated_at": "2026-11-05T19:43:46.442117+00:00",
+  "total": 1142,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -2607,34 +2607,6 @@
       "category": "General Security & Blogs"
     },
     {
-      "url": "https://www.offensive-security.com/rss.xml",
-      "title": "OffSec RSS Feed",
-      "description": "Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today!",
-      "type": "rss",
-      "category": "Government / CERT & Advisories"
-    },
-    {
-      "url": "https://www.percona.com/feed",
-      "title": "Percona",
-      "description": "The Way is Open",
-      "type": "rss",
-      "category": "Government / CERT & Advisories"
-    },
-    {
-      "url": "https://psirt.com/feed/kev.xml",
-      "title": "PSIRT.COM — CISA KEV Feed",
-      "description": "Recently added Known Exploited Vulnerabilities from CISA",
-      "type": "rss",
-      "category": "Government / CERT & Advisories"
-    },
-    {
-      "url": "https://www.securityfocus.com/feed/kev.xml",
-      "title": "PSIRT.COM — CISA KEV Feed",
-      "description": "Recently added Known Exploited Vulnerabilities from CISA",
-      "type": "rss",
-      "category": "Government / CERT & Advisories"
-    },
-    {
       "url": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
       "title": "Alerts and advisories",
       "description": "News, research, and updates on general security & blogs from Alerts and advisories.",
@@ -2904,6 +2876,13 @@
       "url": "https://blog.pcisecuritystandards.org/rss.xml",
       "title": "PCI Security Standards Blog",
       "description": "Official advisories and security updates from PCI Security Standards Blog.",
+      "type": "rss",
+      "category": "Government, CERT & Advisories"
+    },
+    {
+      "url": "https://psirt.com/feed/kev.xml",
+      "title": "PSIRT.COM — CISA KEV Feed",
+      "description": "Recently added Known Exploited Vulnerabilities from CISA",
       "type": "rss",
       "category": "Government, CERT & Advisories"
     },
@@ -4992,13 +4971,6 @@
       "description": "Video uploads from Wild West Hackin' Fest on YouTube.",
       "type": "atom",
       "category": "Podcasts & YouTube"
-    },
-    {
-      "url": "https://binalyze.ai/feed",
-      "title": "Binalyze",
-      "description": "Updates from Binalyze covering security (general).",
-      "type": "rss",
-      "category": "Security (General) & Blogs"
     },
     {
       "url": "https://blog.rootshell.be/feed",
