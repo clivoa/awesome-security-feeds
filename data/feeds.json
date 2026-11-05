@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:39:51.063150+00:00",
-  "total": 1143,
+  "generated_at": "2026-11-05T19:40:41.206143+00:00",
+  "total": 1146,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1284,6 +1284,13 @@
       "category": "General Security & Blogs"
     },
     {
+      "url": "https://ghostproject.fr/feed/",
+      "title": "GhostProject",
+      "description": "French-language cybersecurity, privacy, and defensive technology articles from GhostProject.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
       "url": "https://goingbeyondgrep.com/index.xml",
       "title": "Going Beyond Grep",
       "description": "Security research and blog updates from Going Beyond Grep.",
@@ -1434,6 +1441,13 @@
       "url": "https://sillywa.re/index.xml",
       "title": "home on sillywa.re",
       "description": "Security research and blog updates from home on sillywa.re.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://i2p.net/en/index.xml",
+      "title": "I2P - The Invisible Internet Project",
+      "description": "Privacy network releases, security updates, and project news from I2P.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
@@ -5683,6 +5697,13 @@
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog",
       "title": "Microsoft Threat Protection Blog",
       "description": "Microsoft technical community posts with security guidance, product updates, and research.",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://www.mitmproxy.org/index.xml",
+      "title": "mitmproxy",
+      "description": "Technical releases, research, and usage guides from the mitmproxy project.",
       "type": "rss",
       "category": "Vendors & Product Blogs"
     },
