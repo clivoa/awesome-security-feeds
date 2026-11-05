@@ -543,6 +543,11 @@
   type: rss
   description: Microsoft technical community posts with security guidance, product
     updates, and research.
+- url: https://modsecurity.org/index.xml
+  category: Vendors & Product Blogs
+  title: ModSecurity Project
+  type: rss
+  description: ModSecurity project updates, security advisories, and technical documentation.
 - url: https://foundation.mozilla.org/en/blog/rss
   category: Vendors & Product Blogs
   title: Mozilla Foundation Blog
