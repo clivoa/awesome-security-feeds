@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:39:45.637058+00:00",
-  "total": 1142,
+  "generated_at": "2026-11-05T19:39:51.063150+00:00",
+  "total": 1143,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1861,6 +1861,13 @@
       "url": "https://pagedout.institute/atom.xml",
       "title": "Paged Out! Magazine",
       "description": "Security research and blog updates from Paged Out! Magazine.",
+      "type": "rss",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://parrotlinux.org/feed/",
+      "title": "Parrot Linux",
+      "description": "Security distribution news, technical guides, and project updates from Parrot Linux.",
       "type": "rss",
       "category": "General Security & Blogs"
     },
