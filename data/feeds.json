@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:39:41.447108+00:00",
-  "total": 1141,
+  "generated_at": "2026-11-05T19:39:45.637058+00:00",
+  "total": 1142,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -5676,6 +5676,13 @@
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog",
       "title": "Microsoft Threat Protection Blog",
       "description": "Microsoft technical community posts with security guidance, product updates, and research.",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://modsecurity.org/index.xml",
+      "title": "ModSecurity Project",
+      "description": "ModSecurity project updates, security advisories, and technical documentation.",
       "type": "rss",
       "category": "Vendors & Product Blogs"
     },
