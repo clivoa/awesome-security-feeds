@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:36:37.672984+00:00",
-  "total": 1140,
+  "generated_at": "2026-11-05T19:39:41.447108+00:00",
+  "total": 1141,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1155,6 +1155,13 @@
       "title": "Deeplinks",
       "description": "EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet",
       "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://def.camp/feed/",
+      "title": "DefCamp",
+      "description": "Cybersecurity conference news, research, and technical talks from DefCamp.",
+      "type": "rss",
       "category": "General Security & Blogs"
     },
     {
