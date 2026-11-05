@@ -411,6 +411,11 @@
   title: Deeplinks
   type: ''
   description: 'EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet'
+- url: https://def.camp/feed/
+  category: General Security & Blogs
+  title: DefCamp
+  type: rss
+  description: Cybersecurity conference news, research, and technical talks from DefCamp.
 - url: https://defend.network/feed.xml
   category: General Security & Blogs
   title: defend.network
@@ -939,6 +944,11 @@
   title: Paged Out! Magazine
   type: rss
   description: Security research and blog updates from Paged Out! Magazine.
+- url: https://parrotlinux.org/feed/
+  category: General Security & Blogs
+  title: Parrot Linux
+  type: rss
+  description: Security distribution news, technical guides, and project updates from Parrot Linux.
 - url: https://pascscha.ch/weblog/rss
   category: General Security & Blogs
   title: Pascal Schärli

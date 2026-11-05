@@ -548,6 +548,11 @@
   title: mitmproxy
   type: rss
   description: Technical releases, research, and usage guides from the mitmproxy project.
+- url: https://modsecurity.org/index.xml
+  category: Vendors & Product Blogs
+  title: ModSecurity Project
+  type: rss
+  description: ModSecurity project updates, security advisories, and technical documentation.
 - url: https://foundation.mozilla.org/en/blog/rss
   category: Vendors & Product Blogs
   title: Mozilla Foundation Blog
