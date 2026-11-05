@@ -411,6 +411,11 @@
   title: Deeplinks
   type: ''
   description: 'EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet'
+- url: https://def.camp/feed/
+  category: General Security & Blogs
+  title: DefCamp
+  type: rss
+  description: Cybersecurity conference news, research, and technical talks from DefCamp.
 - url: https://defend.network/feed.xml
   category: General Security & Blogs
   title: defend.network
