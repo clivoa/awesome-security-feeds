@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-09-14T17:45:09.852896+00:00` (UTC)
+**Generated:** `2026-11-05T19:44:48.624592+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -14,16 +14,14 @@ This page contains the full, categorized feed list maintained in this repository
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
 - [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (32)
 - [DFIR & Forensics](#dfir-forensics) (44)
-- [General Security & Blogs](#general-security-blogs) (282)
-- [Government / CERT & Advisories](#government-cert-advisories) (4)
-- [Government, CERT & Advisories](#government-cert-advisories) (47)
+- [General Security & Blogs](#general-security-blogs) (286)
+- [Government, CERT & Advisories](#government-cert-advisories) (48)
 - [Leaks & Breaches](#leaks-breaches) (18)
 - [Malware & Threat Research](#malware-threat-research) (95)
 - [OSINT, Communities & Subreddits](#osint-communities-subreddits) (33)
 - [Podcasts & YouTube](#podcasts-youtube) (144)
-- [Security (General) & Blogs](#security-general-blogs) (1)
-- [Vendors & Product Blogs](#vendors-product-blogs) (199)
-- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (227)
+- [Vendors & Product Blogs](#vendors-product-blogs) (201)
+- [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (231)
 
 ---
 
@@ -136,7 +134,7 @@ Total: **44**
 
 ## General Security & Blogs
 
-Total: **282**
+Total: **286**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -219,6 +217,7 @@ Total: **282**
 | David Buchanan's Blog | Security research and blog updates from David Buchanan's Blog. | RSS | <https://www.da.vidbuchanan.co.uk/blog/rss.xml> |
 | Deda | Security research and blog updates from Deda. | RSS | <https://deda.lol/index.xml> |
 | Deeplinks | EFF&#x27;s Deeplinks Blog: Noteworthy news from around the internet |  | <https://www.eff.org/rss/updates.xml> |
+| DefCamp | Cybersecurity conference news, research, and technical talks from DefCamp. | RSS | <https://def.camp/feed/> |
 | defend.network | Verified daily cyber threat briefings and weekly vulnerability reports; CVEs checked against NVD and CISA KEV. | RSS | <https://defend.network/feed.xml> |
 | DFSEC Research | Security research and blog updates from DFSEC Research. | RSS | <https://blog.dfsec.com/feed.xml> |
 | DoublePulsar - Medium | Security research and blog updates from DoublePulsar - Medium. | RSS | <https://doublepulsar.com/feed> |
@@ -236,6 +235,7 @@ Total: **282**
 | Frey's CyberSec Blog | Security research and blog updates from Frey's CyberSec Blog. | RSS | <https://freyxfi.github.io/feed.xml> |
 | Frida • A world-class dynamic instrumentation toolkit | Security research and blog updates from Frida • A world-class dynamic instrumentation toolkit. | RSS | <https://frida.re/feed.xml> |
 | GBHackers News | News, research, and updates on general security & blogs from GBHackers News. | RSS | <https://gbhackers.com/feed> |
+| GhostProject | French-language cybersecurity, privacy, and defensive technology articles from GhostProject. | RSS | <https://ghostproject.fr/feed/> |
 | Going Beyond Grep | Security research and blog updates from Going Beyond Grep. | RSS | <https://goingbeyondgrep.com/index.xml> |
 | Good Workaround! | Security research and blog updates from Good Workaround!. | RSS | <https://goodworkaround.com/feed> |
 | GovInfoSecurity.com RSS Syndication | GovInfoSecurity.com RSS News Feeds on government information security news, regulations, blogs and education |  | <https://www.govinfosecurity.com/rss-feeds> |
@@ -258,6 +258,7 @@ Total: **282**
 | her0ness | Security research and blog updates from her0ness. | RSS | <https://her0ness.github.io/feed.xml> |
 | Home on LoFP | Security research and blog updates from Home on LoFP. | RSS | <https://br0k3nlab.com/LoFP/index.xml> |
 | home on sillywa.re | Security research and blog updates from home on sillywa.re. | RSS | <https://sillywa.re/index.xml> |
+| I2P - The Invisible Internet Project | Privacy network releases, security updates, and project news from I2P. | RSS | <https://i2p.net/en/index.xml> |
 | ii4gsp | Security research and blog updates from ii4gsp. | RSS | <https://ii4gsp.github.io/atom.xml> |
 | Industrial Cyber | Industrial, OT/ICS, SCADA Cyber Security System &amp; Solutions |  | <https://industrialcyber.co/feed> |
 | Information Security Archives | 504 Gateway Time-out nginx |  | <https://danielmiessler.com/category/information-security/feed> |
@@ -319,6 +320,7 @@ Total: **282**
 | OSV Blog | Security research and blog updates from OSV Blog. | RSS | <https://osv.dev/blog/index.xml> |
 | OWASP | News, research, and updates on general security & blogs from OWASP. | RSS | <https://owasp.org/feed.xml> |
 | Paged Out! Magazine | Security research and blog updates from Paged Out! Magazine. | RSS | <https://pagedout.institute/atom.xml> |
+| Parrot Linux | Security distribution news, technical guides, and project updates from Parrot Linux. | RSS | <https://parrotlinux.org/feed/> |
 | Pascal Schärli | Security research and blog updates from Pascal Schärli. | RSS | <https://pascscha.ch/weblog/rss> |
 | Pbom | Security research and blog updates from Pbom. | RSS | <https://pbom.dev/feed> |
 | Pen Test Partners | 502 Bad Gateway nginx |  | <https://www.pentestpartners.com/feed> |
@@ -423,20 +425,9 @@ Total: **282**
 | ZDNet – Security | News, research, and updates on general security & blogs from ZDNet. | RSS | <https://www.zdnet.com/topic/security/rss.xml> |
 | Zhongquan Li’s blogs | Security research and blog updates from Zhongquan Li’s blogs. | RSS | <https://imlzq.com/feed.xml> |
 
-## Government / CERT & Advisories
-
-Total: **4**
-
-| Feed | Description | Type | URL |
-|---|---|---:|---|
-| OffSec RSS Feed | Establish & advance your career with Offensive Security's online cybersecurity training, courses and certifications. Develop the Try Harder mindset today! | RSS | <https://www.offensive-security.com/rss.xml> |
-| Percona | The Way is Open | RSS | <https://www.percona.com/feed> |
-| PSIRT.COM — CISA KEV Feed | Recently added Known Exploited Vulnerabilities from CISA | RSS | <https://psirt.com/feed/kev.xml> |
-| PSIRT.COM — CISA KEV Feed | Recently added Known Exploited Vulnerabilities from CISA | RSS | <https://www.securityfocus.com/feed/kev.xml> |
-
 ## Government, CERT & Advisories
 
-Total: **47**
+Total: **48**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -479,6 +470,7 @@ Total: **47**
 | NHS Digital - Cyber Alert Feed | Sorry! We&#x27;re doing some essential work on the website. It will be back online shortly. |  | <https://digital.nhs.uk/feed/cyber-alerts-feed.xml> |
 | NIST – Cybersecurity Insights | Official advisories and security updates from NIST. | RSS | <https://www.nist.gov/blogs/cybersecurity-insights/rss.xml> |
 | PCI Security Standards Blog | Official advisories and security updates from PCI Security Standards Blog. | RSS | <https://blog.pcisecuritystandards.org/rss.xml> |
+| PSIRT.COM — CISA KEV Feed | Recently added Known Exploited Vulnerabilities from CISA | RSS | <https://psirt.com/feed/kev.xml> |
 | Rewards For Justice | Official advisories, alerts, and guidance from Rewards For Justice. | RSS | <https://rewardsforjustice.net/feed> |
 | SANS Internet Storm Center | Official advisories and security updates from SANS Internet Storm Center. | RSS | <https://isc.sans.edu/rssfeed_full.xml> |
 | Siemens ProductCERT Security Advisories | Siemens Security Advisories | ATOM | <https://cert-portal.siemens.com/productcert/rss/advisories.atom> |
@@ -806,17 +798,9 @@ Total: **144**
 | What the Shell? | Welcome to ”What the Shell?” where I dive into major hacks and vulnerabilities in a way meant to be accessible by anyone. Come with me as we look at each incident through an exciting lens of curiosity. Join us on our... |  | <https://feed.podbean.com/whattheshell/feed.xml> |
 | Wild West Hackin&#x27; Fest | Video uploads from Wild West Hackin' Fest on YouTube. | ATOM | <https://www.youtube.com/feeds/videos.xml?channel_id=UCef0TWni8ghLcJphdmDBoxw> |
 
-## Security (General) & Blogs
-
-Total: **1**
-
-| Feed | Description | Type | URL |
-|---|---|---:|---|
-| Binalyze | Updates from Binalyze covering security (general). | RSS | <https://binalyze.ai/feed> |
-
 ## Vendors & Product Blogs
 
-Total: **199**
+Total: **201**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -920,6 +904,8 @@ Total: **199**
 | Microsoft Sentinel Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftSentinelBlog> |
 | Microsoft Threat Hunting on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/microsoft-threat-hunting/feed> |
 | Microsoft Threat Protection Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftThreatProtectionBlog> |
+| mitmproxy | Technical releases, research, and usage guides from the mitmproxy project. | RSS | <https://www.mitmproxy.org/index.xml> |
+| ModSecurity Project | ModSecurity project updates, security advisories, and technical documentation. | RSS | <https://modsecurity.org/index.xml> |
 | Mozilla Foundation Blog | The Mozilla Foundation Blog |  | <https://foundation.mozilla.org/en/blog/rss> |
 | Mozilla Security Blog | Updates from Mozilla Security Blog. |  | <https://blog.mozilla.org/security/feed> |
 | MSRC on Microsoft Security Response Center | Official Microsoft Security Response Center updates, advisories, and vulnerability disclosures. | RSS | <https://msrc.microsoft.com/blog/categories/msrc/feed> |
@@ -1022,7 +1008,7 @@ Total: **199**
 
 ## Vulnerabilities, CVEs & Exploits
 
-Total: **227**
+Total: **231**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -1070,6 +1056,8 @@ Total: **227**
 | Csandker | Security research and blog updates from Csandker. | RSS | <https://csandker.io/feed.xml> |
 | CTFtime.org: New writeups | CTFtime.org: CTF Task writeups feed. | RSS | <https://ctftime.org/writeups/rss> |
 | CVE \| THREATINT - NEW | Publicly disclosed Cybersecurity vulnerabilities based on data from the CVE® Program |  | <https://cve.threatint.com/rss/new> |
+| cve.now - CISA Known Exploited Vulnerabilities | New CISA KEV entries, each merged with CVE, GHSA, OSV, NVD and EPSS data. | RSS | <https://cve.now/feed?filter=kev> |
+| cve.now - Critical vulnerabilities | Critical CVEs (CISA KEV or CVSS 9+ in widely used software), merged from CVE, GHSA, OSV, NVD, EUVD and more. | RSS | <https://cve.now/feed?filter=critical> |
 | CVEfeed.io - Latest Vulnerabilities | Continuously updated feed of newly published CVEs. | RSS | <https://cvefeed.io/rssfeed/latest.xml> |
 | CXSECURITY Database RSS Feed - CXSecurity.com | CXSECURITY Database RSS Feed - World Laboratory of Bugtraq 2 CXSecurity.com | RSS | <https://cxsecurity.com/wlb/rss/all> |
 | CXSecurity – Dorks DB | Vulnerability and exploit updates from CXSecurity. | RSS | <https://cxsecurity.com/wlb/rss/dorks> |
@@ -1113,6 +1101,7 @@ Total: **227**
 | Hakin9 – IT Security Magazine | Hackers about hacking techniques in our IT Security Magazine |  | <https://hakin9.org/feed> |
 | hausec | Security research and blog updates from hausec. | RSS | <https://hausec.com/feed> |
 | Haxx | Security research and blog updates from Haxx. | RSS | <https://haxx.in/index.xml> |
+| ICHI — Internet Cyber Health Index | Critical exploitation alerts from the Internet Cyber Health Index. Fires when a CVE crosses into or out of active-exploitation CRITICAL status, citing CISA KEV and named source advisories. Free, publicly accessible, source-transparent. | RSS | <https://ichi.global/api/alerts> |
 | Icinga | Monitor your Entire Infrastructure | RSS | <https://icinga.com/feed> |
 | Icinga Blog – IT Monitoring, Releases & How-tos | Monitor your Entire Infrastructure | RSS | <https://icinga.com/blog/feed> |
 | Icyguider’s Blog | Security research and blog updates from Icyguider’s Blog. | RSS | <https://icyguider.github.io/feed.xml> |
@@ -1167,6 +1156,7 @@ Total: **227**
 | Palo Alto Networks Security Advisories | Official security advisories for Palo Alto Networks products. | RSS | <https://security.paloaltonetworks.com/rss.xml> |
 | Percona Database Performance Blog | Updates from Percona Database Performance Blog. | RSS | <https://www.percona.com/blog/feed> |
 | Positive Security \| IT Security research and happy coincidences | Security research and blog updates from Positive Security \| IT Security research and happy coincidences. | RSS | <https://positive.security/blog/rss.xml> |
+| PSIRT.COM — Latest Advisories | Recently published security advisories | RSS | <https://psirt.com/feed/advisories.xml> |
 | PSIRT.COM — Latest Advisories | Recently published security advisories | RSS | <https://www.securityfocus.com/feed/advisories.xml> |
 | PSIRT.COM — Latest CVEs | Recently published CVEs with enriched vulnerability intelligence | RSS | <https://psirt.com/feed/cves.xml> |
 | PSIRT.COM — Latest CVEs | Recently published CVEs with enriched vulnerability intelligence | RSS | <https://www.securityfocus.com/feed/cves.xml> |
