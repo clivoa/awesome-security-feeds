@@ -1069,6 +1069,12 @@
   type: rss
   description: Vendor security updates, advisories, and guidance from Webroot Threat
     Blog.
+- url: https://whatoblock.com/blog/rss.xml
+  category: Vendors & Product Blogs
+  title: Whatoblock Blog
+  type: rss
+  description: Honeypot research on scanners, botnet C2 servers, proxies and the IP
+    lists to block them.
 - url: https://www.wiz.io/feed/rss.xml
   category: Vendors & Product Blogs
   title: Wiz Blog | RSS feed
