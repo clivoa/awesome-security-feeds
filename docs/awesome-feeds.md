@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-11-05T19:44:48.624592+00:00` (UTC)
+**Generated:** `2026-11-15T10:16:26.783778+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -14,7 +14,7 @@ This page contains the full, categorized feed list maintained in this repository
 - [Crypto & Blockchain Security](#crypto-blockchain-security) (10)
 - [Cybercrime, Darknet & Leaks](#cybercrime-darknet-leaks) (32)
 - [DFIR & Forensics](#dfir-forensics) (44)
-- [General Security & Blogs](#general-security-blogs) (286)
+- [General Security & Blogs](#general-security-blogs) (287)
 - [Government, CERT & Advisories](#government-cert-advisories) (48)
 - [Leaks & Breaches](#leaks-breaches) (18)
 - [Malware & Threat Research](#malware-threat-research) (95)
@@ -134,7 +134,7 @@ Total: **44**
 
 ## General Security & Blogs
 
-Total: **286**
+Total: **287**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -271,6 +271,7 @@ Total: **286**
 | Jan Brennenstuhl | News, research, and updates on general security & blogs from Jan Brennenstuhl. | RSS | <https://www.janbrennenstuhl.eu/index.xml> |
 | Jfmeee (Hashnode) | Security research and blog updates from Jfmeee (Hashnode). | RSS | <https://jfmeee.hashnode.dev/rss.xml> |
 | John J Hacking | Recent content on John J Hacking |  | <https://johnjhacking.com/index.xml> |
+| Joho no Todai — Security | Security-related technology news and analysis from Joho no Todai (Japanese-language feed). | RSS | <https://joho-todai.com/tag/security/rss/> |
 | Jsecurity101 (Medium) | Security research and blog updates from Jsecurity101 (Medium). | RSS | <https://jsecurity101.medium.com/feed> |
 | Jub0bs | Security research and blog updates from Jub0bs. | RSS | <https://jub0bs.com/index.xml> |
 | Just Another Blog | Security research and blog updates from Just Another Blog. | RSS | <https://s1ckb017.github.io/feed.xml> |
