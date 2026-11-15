@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:43:46.442117+00:00",
-  "total": 1142,
+  "generated_at": "2026-11-15T10:17:51.798576+00:00",
+  "total": 1143,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -1533,6 +1533,13 @@
       "title": "John J Hacking",
       "description": "Recent content on John J Hacking",
       "type": "",
+      "category": "General Security & Blogs"
+    },
+    {
+      "url": "https://joho-todai.com/tag/security/rss/",
+      "title": "Joho no Todai — Security",
+      "description": "Security-related technology news and analysis from Joho no Todai (Japanese-language feed).",
+      "type": "rss",
       "category": "General Security & Blogs"
     },
     {
