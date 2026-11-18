@@ -461,6 +461,11 @@
   title: Light Blue Touchpaper
   type: ''
   description: Security Research, Computer Laboratory, University of Cambridge
+- url: https://logtriage.app/reports/rss.xml
+  category: Vendors & Product Blogs
+  title: LogTriage Research
+  type: rss
+  description: Monthly attack data from a real internet-facing server and tests of free IP blocklists.
 - url: https://www.lunasec.io/docs/blog/rss.xml
   category: Vendors & Product Blogs
   title: LunaTrace Blog
