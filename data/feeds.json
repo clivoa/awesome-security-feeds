@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:17:51.798576+00:00",
-  "total": 1143,
+  "generated_at": "2026-11-21T12:27:35.360348+00:00",
+  "total": 1144,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -5579,6 +5579,13 @@
       "title": "Light Blue Touchpaper",
       "description": "Security Research, Computer Laboratory, University of Cambridge",
       "type": "",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://logtriage.app/reports/rss.xml",
+      "title": "LogTriage Research",
+      "description": "Monthly attack data from a real internet-facing server and tests of free IP blocklists.",
+      "type": "rss",
       "category": "Vendors & Product Blogs"
     },
     {
