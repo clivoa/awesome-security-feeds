@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T12:27:40.082827+00:00",
-  "total": 1145,
+  "generated_at": "2026-11-21T13:39:03.771862+00:00",
+  "total": 1146,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -3395,6 +3395,13 @@
       "title": "Malware Analysis, News and Indicators - Latest topics",
       "description": "Latest topics",
       "type": "",
+      "category": "Malware & Threat Research"
+    },
+    {
+      "url": "https://blog.malwaremustdie.org/feeds/posts/default?alt=rss",
+      "title": "Malware Must Die!",
+      "description": "Malware analysis and threat research from the MalwareMustDie team.",
+      "type": "rss",
       "category": "Malware & Threat Research"
     },
     {
