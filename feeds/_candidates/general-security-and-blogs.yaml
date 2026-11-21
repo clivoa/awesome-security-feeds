@@ -1,0 +1,14 @@
+- url: https://creativecommons.org/feed/
+  category: Security (General) & Blogs
+  title: Creative Commons
+  type: rss
+  description: Updates from Creative Commons covering security (general).
+  discovery:
+    discovered_at: '2026-11-09T16:06:35.031294Z'
+    score: 12
+    matched_keywords:
+    - exploit
+    - rce
+    - ttp
+    discovered_via: common_path
+    url_hash: f4a29e451d3cf7475bb2adb1a6219e5863beda82
