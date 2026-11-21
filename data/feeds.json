@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T12:27:35.360348+00:00",
-  "total": 1144,
+  "generated_at": "2026-11-21T12:27:40.082827+00:00",
+  "total": 1145,
   "feeds": [
     {
       "url": "https://blog.cryptographyengineering.com/feed",
@@ -6369,6 +6369,13 @@
       "url": "https://www.webroot.com/blog/feed",
       "title": "Webroot Threat Blog",
       "description": "Vendor security updates, advisories, and guidance from Webroot Threat Blog.",
+      "type": "rss",
+      "category": "Vendors & Product Blogs"
+    },
+    {
+      "url": "https://whatoblock.com/blog/rss.xml",
+      "title": "Whatoblock Blog",
+      "description": "Honeypot research on scanners, botnet C2 servers, proxies and the IP lists to block them.",
       "type": "rss",
       "category": "Vendors & Product Blogs"
     },
