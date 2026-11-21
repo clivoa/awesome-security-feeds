@@ -2,7 +2,7 @@
 
 This page contains the full, categorized feed list maintained in this repository.
 
-**Generated:** `2026-11-15T10:16:26.783778+00:00` (UTC)
+**Generated:** `2026-11-21T13:39:02.020832+00:00` (UTC)
 
 > Source of truth remains the YAML files under `feeds/`.
 
@@ -17,10 +17,10 @@ This page contains the full, categorized feed list maintained in this repository
 - [General Security & Blogs](#general-security-blogs) (287)
 - [Government, CERT & Advisories](#government-cert-advisories) (48)
 - [Leaks & Breaches](#leaks-breaches) (18)
-- [Malware & Threat Research](#malware-threat-research) (95)
+- [Malware & Threat Research](#malware-threat-research) (96)
 - [OSINT, Communities & Subreddits](#osint-communities-subreddits) (33)
 - [Podcasts & YouTube](#podcasts-youtube) (144)
-- [Vendors & Product Blogs](#vendors-product-blogs) (201)
+- [Vendors & Product Blogs](#vendors-product-blogs) (203)
 - [Vulnerabilities, CVEs & Exploits](#vulnerabilities-cves-exploits) (231)
 
 ---
@@ -508,7 +508,7 @@ Total: **18**
 
 ## Malware & Threat Research
 
-Total: **95**
+Total: **96**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -558,6 +558,7 @@ Total: **95**
 | Malware Analysis | Malware and threat research updates from Malware Analysis. | RSS | <https://malware.news/c/malwareanalysis.rss> |
 | Malware Analysis &amp; Reports | A place for malware reports and information. |  | <https://www.reddit.com/r/Malware> |
 | Malware Analysis, News and Indicators - Latest topics | Latest topics |  | <https://malware.news/latest.rss> |
+| Malware Must Die! | Malware analysis and threat research from the MalwareMustDie team. | RSS | <https://blog.malwaremustdie.org/feeds/posts/default?alt=rss> |
 | Malware News | Malware and threat research updates from Malware News. | RSS | <https://malware.news/c/news.rss> |
 | Malware Sloth | Malware Sloth |  | <https://malwaresloth.com/rss.xml> |
 | Malware-Traffic-Analysis.net (Blog Entries) | A malware traffic analysis blog | RSS | <https://www.malware-traffic-analysis.net/blog-entries.rss> |
@@ -801,7 +802,7 @@ Total: **144**
 
 ## Vendors & Product Blogs
 
-Total: **201**
+Total: **203**
 
 | Feed | Description | Type | URL |
 |---|---|---:|---|
@@ -891,6 +892,7 @@ Total: **201**
 | Let's Encrypt | Security research and blog updates from Let's Encrypt. | RSS | <https://letsencrypt.org/feed.xml> |
 | LevelBlue (SpiderLabs Blog) | The security community's go-to destination for technical breakdowns of the latest threats, critical vulnerability disclosures and cutting-edge research. | RSS | <https://levelblue.com/blogs/spiderlabs-blog/rss.xml> |
 | Light Blue Touchpaper | Security Research, Computer Laboratory, University of Cambridge |  | <https://www.lightbluetouchpaper.org/feed> |
+| LogTriage Research | Monthly attack data from a real internet-facing server and tests of free IP blocklists. | RSS | <https://logtriage.app/reports/rss.xml> |
 | LunaTrace Blog | LunaTrace Blog |  | <https://www.lunasec.io/docs/blog/rss.xml> |
 | McAfee Blogs | Vendor security updates, advisories, and guidance from McAfee Blogs. | RSS | <https://www.mcafee.com/blogs/feed> |
 | Microsoft Defender ATP Blog | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftDefenderATPBlog> |
@@ -1003,6 +1005,7 @@ Total: **201**
 | Vulnerabilities and Threat Research – Qualys Security Blog | Qualys blog updates on vulnerabilities, threat research, and security best practices. | RSS | <https://blog.qualys.com/vulnerabilities-threat-research/feed> |
 | Vulnerability Management | Microsoft technical community posts with security guidance, product updates, and research. | RSS | <https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Vulnerability-Management> |
 | Webroot Threat Blog | Vendor security updates, advisories, and guidance from Webroot Threat Blog. | RSS | <https://www.webroot.com/blog/feed> |
+| Whatoblock Blog | Honeypot research on scanners, botnet C2 servers, proxies and the IP lists to block them. | RSS | <https://whatoblock.com/blog/rss.xml> |
 | Wiz Blog \| RSS feed | Vendor security blog and product updates from Wiz Blog \| RSS feed. | RSS | <https://www.wiz.io/feed/rss.xml> |
 | Wiz Blog: Security \| RSS feed | Vendor security updates, advisories, and guidance from Wiz Blog: Security \|. | RSS | <https://www.wiz.io/feed/tag/security/rss.xml> |
 | XploitLab | XploitLab - Interactive Cybersecurity Learning Platform. |  | <https://xploitlab.com/feed> |
