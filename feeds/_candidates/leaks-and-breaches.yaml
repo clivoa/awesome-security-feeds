@@ -1,0 +1,36 @@
+- url: http://zerodayinitiative.com/blog/rss.xml
+  category: Leaks & Breaches
+  title: Zero Day Initiative - Blog
+  type: rss
+  description: Updates from Zero Day Initiative - Blog covering vulnerabilities, cves.
+  discovery:
+    discovered_at: '2026-11-23T18:12:34.674185Z'
+    score: 83
+    matched_keywords:
+    - advisory
+    - apt
+    - authentication bypass
+    - breach
+    - buffer overflow
+    - bug bounty
+    - c2
+    - campaign
+    - command injection
+    - cve
+    - denial of service
+    - deserialization
+    - docker
+    - edr
+    - exploit
+    - incident
+    - initial access
+    - kubernetes
+    - lateral movement
+    - loader
+    - malware
+    - memory corruption
+    - patch
+    - path traversal
+    - payload
+    discovered_via: common_path
+    url_hash: a9ce46bafd0b9d23e0195be70fc7f816ee1c3b3b

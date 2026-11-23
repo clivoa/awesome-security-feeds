@@ -1,0 +1,14 @@
+- url: https://kismetwireless.net/index.xml
+  category: Security (General) & Blogs
+  title: 'Kismet: Wi-Fi, Bluetooth, RF, and more on Kismet'
+  type: rss
+  description: 'Recent content in Kismet: Wi-Fi, Bluetooth, RF, and more on Kismet'
+  discovery:
+    discovered_at: '2026-11-23T18:26:48.980440Z'
+    score: 12
+    matched_keywords:
+    - apt
+    - docker
+    - rce
+    discovered_via: rel=alternate
+    url_hash: cb501f725a4486751d15131afbc1853831b6c21a
