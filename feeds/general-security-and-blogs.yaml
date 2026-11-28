@@ -531,6 +531,11 @@
   type: rss
   description: News, research, and updates on general security & blogs from Graham
     Cluley.
+- url: https://www.grep.tips/articles/category/security/feed.xml
+  category: General Security & Blogs
+  title: grep.tips Security & Privacy
+  type: rss
+  description: Security news and explainers with linked primary sources.
 - url: https://grimmie.net/feed
   category: General Security & Blogs
   title: GrimmzSec
